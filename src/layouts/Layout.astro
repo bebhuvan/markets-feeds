@@ -61,9 +61,9 @@ const { title, description = 'Finance RSS aggregation platform' } = Astro.props;
       }
 
       // PWA Install Prompt
-      let deferredPrompt;
+      let deferredPrompt: any = null;
       
-      window.addEventListener('beforeinstallprompt', (e) => {
+      window.addEventListener('beforeinstallprompt', (e: any) => {
         console.log('PWA install prompt available');
         e.preventDefault();
         deferredPrompt = e;
@@ -83,24 +83,33 @@ const { title, description = 'Finance RSS aggregation platform' } = Astro.props;
         
         document.body.appendChild(installBanner);
         
-        document.getElementById('pwa-install-btn').addEventListener('click', () => {
-          if (deferredPrompt) {
-            deferredPrompt.prompt();
-            deferredPrompt.userChoice.then((choiceResult) => {
-              console.log('PWA installation:', choiceResult.outcome);
-              deferredPrompt = null;
-              document.getElementById('pwa-install-banner').remove();
-            });
-          }
-        });
+        const installBtn = document.getElementById('pwa-install-btn');
+        const dismissBtn = document.getElementById('pwa-dismiss-btn');
         
-        document.getElementById('pwa-dismiss-btn').addEventListener('click', () => {
-          document.getElementById('pwa-install-banner').remove();
-        });
+        if (installBtn) {
+          installBtn.addEventListener('click', () => {
+            if (deferredPrompt) {
+              deferredPrompt.prompt();
+              deferredPrompt.userChoice.then((choiceResult: any) => {
+                console.log('PWA installation:', choiceResult.outcome);
+                deferredPrompt = null;
+                const banner = document.getElementById('pwa-install-banner');
+                if (banner) banner.remove();
+              });
+            }
+          });
+        }
+        
+        if (dismissBtn) {
+          dismissBtn.addEventListener('click', () => {
+            const banner = document.getElementById('pwa-install-banner');
+            if (banner) banner.remove();
+          });
+        }
       });
 
       // PWA Installation Success
-      window.addEventListener('appinstalled', (e) => {
+      window.addEventListener('appinstalled', () => {
         console.log('PWA installed successfully');
       });
     </script>
