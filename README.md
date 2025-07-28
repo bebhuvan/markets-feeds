@@ -1,16 +1,37 @@
-# Markets Feeds 📈
+# Markets Feeds
 
-A minimal, elegant finance RSS aggregation platform built with Astro, TypeScript, and Tailwind CSS. Automatically aggregates finance news from major sources and presents them in a clean, searchable interface.
+> Real-time aggregation of premium financial news, research, and analysis from trusted sources worldwide.
+
+[![Deploy to Cloudflare Pages](https://github.com/bebhuvan/markets-feeds/actions/workflows/deploy.yml/badge.svg)](https://github.com/bebhuvan/markets-feeds/actions/workflows/deploy.yml)
+[![RSS Aggregation](https://github.com/bebhuvan/markets-feeds/actions/workflows/aggregate-feeds.yml/badge.svg)](https://github.com/bebhuvan/markets-feeds/actions/workflows/aggregate-feeds.yml)
+
+## 🚀 Live Site
+
+**[https://markets-feeds.pages.dev](https://markets-feeds.pages.dev)**
 
 ## ✨ Features
 
-- **Automated RSS Aggregation**: Python script fetches from 45+ major finance sources 5 times daily
-- **Smart Deduplication**: Content hashing prevents duplicate stories
-- **Intelligent Categorization**: Auto-categorizes content into Markets, Macro, Research, and Policy
-- **Real-time Search**: Filter by title, content, tags, or source
-- **Dark Mode**: Elegant theme toggle with system preference detection
-- **Mobile Responsive**: Optimized for all screen sizes
-- **Zero Dependencies**: Runs entirely on GitHub Actions + Cloudflare Pages
+### Content & Sources
+- **100+ Premium Sources**: Bloomberg, FT, Reuters, WSJ, IMF, BIS, CFA Institute, and more
+- **Automated Aggregation**: Python script runs 5x daily with intelligent scheduling
+- **Smart Deduplication**: SHA256 hashing prevents duplicate articles
+- **Multi-Category Organization**: Markets, Macro, Research, Technology, News, Policy, Newsletters, Non-Money
+- **Breaking News Priority**: High-priority content highlighting
+
+### User Experience  
+- **Progressive Web App**: Installable with offline functionality
+- **Advanced Search**: Full-text search with real-time filtering
+- **Archive System**: Historical content browsing with date/source/category filters
+- **Responsive Design**: Mobile-first, works seamlessly on all devices
+- **Dark/Light Mode**: Automatic theme switching with manual toggle
+- **Clean Interface**: Minimal, distraction-free reading experience
+
+### Technical Excellence
+- **Static Site Generation**: Built with Astro 4 for maximum performance
+- **Intelligent Caching**: Smart service worker with TTL-based cache invalidation
+- **Type Safety**: Full TypeScript implementation
+- **SEO Optimized**: Meta tags, Open Graph, structured data
+- **CI/CD Pipeline**: Automated testing, building, and deployment
 
 ## 🏗️ Architecture
 
