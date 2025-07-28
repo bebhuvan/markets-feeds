@@ -68,12 +68,13 @@ const navigationItems = [
 </nav>
 
 <style>
-  .nav-link {
-    @apply bg-transparent border-0 text-text-subtle cursor-pointer text-xs uppercase tracking-wider transition-colors duration-200 font-normal hover:text-text;
+  .nav-item {
+    @apply px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-accent;
+    @apply text-text-subtle hover:text-foreground;
   }
   
-  .nav-link.active {
-    @apply text-text border-b border-text pb-1;
+  .nav-item.active {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90;
   }
 </style>
 
