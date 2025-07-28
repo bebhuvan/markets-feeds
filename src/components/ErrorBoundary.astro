@@ -1,0 +1,39 @@
+---
+export interface Props {
+  fallback?: string;
+}
+
+const { fallback = 'Something went wrong. Please try refreshing the page.' } = Astro.props;
+---
+
+<div id="error-boundary" class="hidden">
+  <div class="max-w-content mx-auto px-8 py-32 text-center">
+    <h2 class="text-2xl font-light text-text mb-4">Oops!</h2>
+    <p class="text-text-light mb-8">{fallback}</p>
+    <button 
+      onclick="window.location.reload()"
+      class="px-6 py-2 bg-text text-white rounded hover:opacity-80 transition-opacity"
+    >
+      Refresh Page
+    </button>
+  </div>
+</div>
+
+<script>
+  // Global error handler
+  window.addEventListener('error', (event) => {
+    console.error('Global error:', event.error);
+    const errorBoundary = document.getElementById('error-boundary');
+    const mainContent = document.querySelector('main');
+    
+    if (errorBoundary && mainContent) {
+      mainContent.style.display = 'none';
+      errorBoundary.classList.remove('hidden');
+    }
+  });
+  
+  // Unhandled promise rejection handler
+  window.addEventListener('unhandledrejection', (event) => {
+    console.error('Unhandled promise rejection:', event.reason);
+  });
+</script>

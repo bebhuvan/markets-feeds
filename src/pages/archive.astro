@@ -1,0 +1,534 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import CategoryHeader from '../components/CategoryHeader.astro';
+import LinkCard from '../components/LinkCard.astro';
+import type { FeedItem } from '../types';
+import '../styles/global.css';
+
+// Load all link data for the archive
+const linkFiles = await Astro.glob('../content/links/*.json');
+const allLinks: FeedItem[] = [];
+
+for (const file of linkFiles) {
+  if (Array.isArray(file.default)) {
+    allLinks.push(...file.default);
+  }
+}
+
+// Sort by published date (newest first)
+allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+
+// Get unique sources and categories for filters
+const uniqueSources = [...new Set(allLinks.map(link => link.sourceName))].sort();
+const uniqueCategories = [...new Set(allLinks.map(link => link.category))].sort();
+
+// Date range calculations
+const oldestDate = allLinks.length > 0 ? new Date(allLinks[allLinks.length - 1].publishedAt) : new Date();
+const newestDate = allLinks.length > 0 ? new Date(allLinks[0].publishedAt) : new Date();
+---
+
+<Layout title="Archive - Markets Feeds" description="Browse and filter the complete archive of financial news and articles">
+  <div class="container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-12">
+    <CategoryHeader title="Archive" currentPage="archive">
+      <div slot="filters" class="space-y-6 mb-8">
+        <!-- Search Bar -->
+        <div class="relative max-w-2xl mx-auto">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search articles, titles, sources..."
+            class="w-full pl-10 pr-4 py-3 text-base border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
+          />
+          <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-text-subtle" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+        </div>
+        
+        <!-- Filter Controls -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Date Range Filter -->
+          <div class="space-y-2">
+            <label class="block text-sm font-medium text-foreground">Date Range</label>
+            <select id="dateFilter" class="w-full px-3 py-2 text-sm border border-border rounded-md focus:outline-none focus:ring-1 focus:ring-primary">
+              <option value="all">All Time</option>
+              <option value="today">Today</option>
+              <option value="yesterday">Yesterday</option>
+              <option value="week">Past Week</option>
+              <option value="month">Past Month</option>
+              <option value="quarter">Past 3 Months</option>
+              <option value="year">Past Year</option>
+              <option value="custom">Custom Range</option>
+            </select>
+          </div>
+          
+          <!-- Category Filter -->
+          <div class="space-y-2">
+            <label class="block text-sm font-medium text-foreground">Category</label>
+            <select id="categoryFilter" class="w-full px-3 py-2 text-sm border border-border rounded-md focus:outline-none focus:ring-1 focus:ring-primary">
+              <option value="all">All Categories</option>
+              {uniqueCategories.map(category => (
+                <option value={category}>{category.charAt(0).toUpperCase() + category.slice(1)}</option>
+              ))}
+            </select>
+          </div>
+          
+          <!-- Source Filter -->
+          <div class="space-y-2">
+            <label class="block text-sm font-medium text-foreground">Source</label>
+            <select id="sourceFilter" class="w-full px-3 py-2 text-sm border border-border rounded-md focus:outline-none focus:ring-1 focus:ring-primary">
+              <option value="all">All Sources</option>
+              {uniqueSources.map(source => (
+                <option value={source}>{source}</option>
+              ))}
+            </select>
+          </div>
+          
+          <!-- Sort Order -->
+          <div class="space-y-2">
+            <label class="block text-sm font-medium text-foreground">Sort By</label>
+            <select id="sortFilter" class="w-full px-3 py-2 text-sm border border-border rounded-md focus:outline-none focus:ring-1 focus:ring-primary">
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="source">Source A-Z</option>
+              <option value="relevance">Most Relevant</option>
+            </select>
+          </div>
+        </div>
+        
+        <!-- Custom Date Range (hidden by default) -->
+        <div id="customDateRange" class="hidden grid grid-cols-2 gap-4 max-w-md mx-auto">
+          <div>
+            <label class="block text-sm font-medium text-foreground mb-1">From</label>
+            <input 
+              type="date" 
+              id="dateFrom" 
+              class="w-full px-3 py-2 text-sm border border-border rounded-md focus:outline-none focus:ring-1 focus:ring-primary"
+              max={newestDate.toISOString().split('T')[0]}
+              min={oldestDate.toISOString().split('T')[0]}
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-foreground mb-1">To</label>
+            <input 
+              type="date" 
+              id="dateTo" 
+              class="w-full px-3 py-2 text-sm border border-border rounded-md focus:outline-none focus:ring-1 focus:ring-primary"
+              max={newestDate.toISOString().split('T')[0]}
+              min={oldestDate.toISOString().split('T')[0]}
+            />
+          </div>
+        </div>
+        
+        <!-- Filter Summary and Clear -->
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-border">
+          <div id="filterSummary" class="text-sm text-text-subtle">
+            Showing all {allLinks.length} articles
+          </div>
+          <div class="flex gap-2">
+            <button 
+              id="clearFilters"
+              class="px-4 py-2 text-sm text-text-subtle hover:text-text border border-border rounded-md hover:bg-accent transition-colors"
+            >
+              Clear Filters
+            </button>
+            <button 
+              id="exportResults"
+              class="px-4 py-2 text-sm text-white bg-primary hover:bg-primary/90 rounded-md transition-colors"
+            >
+              Export Results
+            </button>
+          </div>
+        </div>
+      </div>
+    </CategoryHeader>
+    
+    <Navigation currentPage="archive" />
+    
+    <!-- Results -->
+    <main>
+      <!-- Loading State -->
+      <div id="loadingState" class="hidden py-12 text-center">
+        <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+        <p class="mt-4 text-text-subtle">Filtering articles...</p>
+      </div>
+      
+      <!-- Results Container -->
+      <div id="resultsContainer">
+        <!-- Results will be populated by JavaScript -->
+      </div>
+      
+      <!-- Load More Button -->
+      <div id="loadMoreContainer" class="text-center mt-8">
+        <button 
+          id="loadMoreBtn"
+          class="px-6 py-3 text-sm font-medium text-foreground bg-card hover:bg-accent border border-border rounded-lg transition-colors"
+        >
+          Load More Articles
+        </button>
+      </div>
+      
+      <!-- No Results State -->
+      <div id="noResults" class="hidden py-12 text-center">
+        <div class="w-16 h-16 mx-auto mb-4 text-text-subtle">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+        </div>
+        <h3 class="text-lg font-medium text-foreground mb-2">No articles found</h3>
+        <p class="text-text-subtle mb-4">Try adjusting your filters or search terms</p>
+        <button id="clearAllFilters" class="text-primary hover:text-primary/80 transition-colors">
+          Clear all filters
+        </button>
+      </div>
+    </main>
+  </div>
+  
+  <script define:vars={{ allLinks, uniqueSources, uniqueCategories }}>
+    // Archive functionality
+    let filteredResults = [...allLinks];
+    let displayedResults = [];
+    let currentPage = 0;
+    const pageSize = 20;
+    
+    // DOM elements
+    const searchInput = document.getElementById('searchInput');
+    const dateFilter = document.getElementById('dateFilter');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const sourceFilter = document.getElementById('sourceFilter');
+    const sortFilter = document.getElementById('sortFilter');
+    const customDateRange = document.getElementById('customDateRange');
+    const dateFrom = document.getElementById('dateFrom');
+    const dateTo = document.getElementById('dateTo');
+    const clearFilters = document.getElementById('clearFilters');
+    const exportResults = document.getElementById('exportResults');
+    const filterSummary = document.getElementById('filterSummary');
+    const loadingState = document.getElementById('loadingState');
+    const resultsContainer = document.getElementById('resultsContainer');
+    const loadMoreContainer = document.getElementById('loadMoreContainer');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const noResults = document.getElementById('noResults');
+    const clearAllFilters = document.getElementById('clearAllFilters');
+    
+    // Initialize
+    applyFilters();
+    
+    // Event listeners
+    searchInput.addEventListener('input', debounce(applyFilters, 300));
+    dateFilter.addEventListener('change', handleDateFilterChange);
+    categoryFilter.addEventListener('change', applyFilters);
+    sourceFilter.addEventListener('change', applyFilters);
+    sortFilter.addEventListener('change', applyFilters);
+    dateFrom.addEventListener('change', applyFilters);
+    dateTo.addEventListener('change', applyFilters);
+    clearFilters.addEventListener('click', clearAllFiltersFunc);
+    clearAllFilters.addEventListener('click', clearAllFiltersFunc);
+    exportResults.addEventListener('click', exportFilteredResults);
+    loadMoreBtn.addEventListener('click', loadMoreResults);
+    
+    function debounce(func, wait) {
+      let timeout;
+      return function executedFunction(...args) {
+        const later = () => {
+          clearTimeout(timeout);
+          func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+      };
+    }
+    
+    function handleDateFilterChange() {
+      if (dateFilter.value === 'custom') {
+        customDateRange.classList.remove('hidden');
+      } else {
+        customDateRange.classList.add('hidden');
+      }
+      applyFilters();
+    }
+    
+    function applyFilters() {
+      showLoading();
+      
+      setTimeout(() => {
+        let results = [...allLinks];
+        
+        // Text search filter
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        if (searchTerm) {
+          results = results.filter(article => {
+            const searchableText = [
+              article.title,
+              article.summary || '',
+              article.sourceName,
+              article.tags.join(' ')
+            ].join(' ').toLowerCase();
+            
+            return searchableText.includes(searchTerm);
+          });
+        }
+        
+        // Date filter
+        const dateFilterValue = dateFilter.value;
+        if (dateFilterValue !== 'all') {
+          results = results.filter(article => {
+            const articleDate = new Date(article.publishedAt);
+            const now = new Date();
+            
+            switch (dateFilterValue) {
+              case 'today':
+                return articleDate.toDateString() === now.toDateString();
+              case 'yesterday':
+                const yesterday = new Date(now);
+                yesterday.setDate(yesterday.getDate() - 1);
+                return articleDate.toDateString() === yesterday.toDateString();
+              case 'week':
+                const weekAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+                return articleDate >= weekAgo;
+              case 'month':
+                const monthAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+                return articleDate >= monthAgo;
+              case 'quarter':
+                const quarterAgo = new Date(now.getTime() - 90 * 24 * 60 * 60 * 1000);
+                return articleDate >= quarterAgo;
+              case 'year':
+                const yearAgo = new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000);
+                return articleDate >= yearAgo;
+              case 'custom':
+                const fromDate = dateFrom.value ? new Date(dateFrom.value) : null;
+                const toDate = dateTo.value ? new Date(dateTo.value + 'T23:59:59') : null;
+                return (!fromDate || articleDate >= fromDate) && (!toDate || articleDate <= toDate);
+              default:
+                return true;
+            }
+          });
+        }
+        
+        // Category filter
+        if (categoryFilter.value !== 'all') {
+          results = results.filter(article => article.category === categoryFilter.value);
+        }
+        
+        // Source filter
+        if (sourceFilter.value !== 'all') {
+          results = results.filter(article => article.sourceName === sourceFilter.value);
+        }
+        
+        // Sort results
+        const sortValue = sortFilter.value;
+        results.sort((a, b) => {
+          switch (sortValue) {
+            case 'newest':
+              return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+            case 'oldest':
+              return new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime();
+            case 'source':
+              return a.sourceName.localeCompare(b.sourceName);
+            case 'relevance':
+              // Simple relevance: breaking news first, then by date
+              if (a.priority === 'breaking' && b.priority !== 'breaking') return -1;
+              if (b.priority === 'breaking' && a.priority !== 'breaking') return 1;
+              return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+            default:
+              return 0;
+          }
+        });
+        
+        filteredResults = results;
+        currentPage = 0;
+        displayResults();
+        updateFilterSummary();
+        hideLoading();
+      }, 200);
+    }
+    
+    function displayResults() {
+      const startIdx = 0;
+      const endIdx = (currentPage + 1) * pageSize;
+      displayedResults = filteredResults.slice(startIdx, endIdx);
+      
+      if (displayedResults.length === 0) {
+        showNoResults();
+        return;
+      }
+      
+      hideNoResults();
+      
+      resultsContainer.innerHTML = displayedResults.map(article => 
+        createArticleHTML(article)
+      ).join('');
+      
+      // Show/hide load more button
+      if (endIdx >= filteredResults.length) {
+        loadMoreContainer.classList.add('hidden');
+      } else {
+        loadMoreContainer.classList.remove('hidden');
+      }
+    }
+    
+    function loadMoreResults() {
+      currentPage++;
+      const startIdx = currentPage * pageSize;
+      const endIdx = (currentPage + 1) * pageSize;
+      const newResults = filteredResults.slice(startIdx, endIdx);
+      
+      displayedResults.push(...newResults);
+      
+      // Append new results
+      const newHTML = newResults.map(article => createArticleHTML(article)).join('');
+      resultsContainer.insertAdjacentHTML('beforeend', newHTML);
+      
+      // Hide load more if no more results
+      if (endIdx >= filteredResults.length) {
+        loadMoreContainer.classList.add('hidden');
+      }
+    }
+    
+    function createArticleHTML(article) {
+      const timeAgo = formatDistanceToNow(new Date(article.publishedAt));
+      
+      return `
+        <article class="link-item py-6 border-b border-border last:border-b-0" 
+                 data-category="${article.category}" 
+                 data-source="${article.sourceId}" 
+                 data-priority="${article.priority}"
+                 data-tags="${article.tags.join(',')}">
+          <div class="flex items-center gap-3 text-xs mb-2">
+            <span class="font-medium text-primary">${article.sourceName}</span>
+            <span class="text-text-subtle">·</span>
+            <time datetime="${article.publishedAt}" class="text-text-subtle">
+              ${timeAgo}
+            </time>
+            <span class="text-text-subtle">·</span>
+            <span class="text-text-subtle capitalize">${article.category}</span>
+            ${article.priority === 'breaking' ? 
+              '<span class="text-text-subtle">·</span><span class="text-red-600 font-semibold uppercase tracking-wide">Breaking</span>' : 
+              ''
+            }
+          </div>
+          
+          <h2 class="mb-2">
+            <a href="${article.url}" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="text-lg font-medium leading-tight text-foreground hover:text-primary transition-colors">
+              ${article.title}
+            </a>
+          </h2>
+          
+          ${article.summary ? `
+            <p class="text-sm text-text-light leading-relaxed line-clamp-2 mb-3">
+              ${article.summary}
+            </p>
+          ` : ''}
+          
+          ${article.tags.length > 0 ? `
+            <div class="flex flex-wrap gap-2">
+              ${article.tags.map(tag => `
+                <button class="text-xs text-text-subtle hover:text-primary transition-colors"
+                        onclick="filterByTag('${tag}')">
+                  #${tag.toLowerCase()}
+                </button>
+              `).join('')}
+            </div>
+          ` : ''}
+        </article>
+      `;
+    }
+    
+    function formatDistanceToNow(date) {
+      const now = new Date();
+      const diffInSeconds = Math.floor((now.getTime() - date.getTime()) / 1000);
+      
+      if (diffInSeconds < 60) return 'just now';
+      if (diffInSeconds < 3600) return `${Math.floor(diffInSeconds / 60)}m ago`;
+      if (diffInSeconds < 86400) return `${Math.floor(diffInSeconds / 3600)}h ago`;
+      return `${Math.floor(diffInSeconds / 86400)}d ago`;
+    }
+    
+    function updateFilterSummary() {
+      const activeFilters = [];
+      
+      if (searchInput.value.trim()) activeFilters.push(`search: "${searchInput.value.trim()}"`);
+      if (dateFilter.value !== 'all') activeFilters.push(`date: ${dateFilter.value}`);
+      if (categoryFilter.value !== 'all') activeFilters.push(`category: ${categoryFilter.value}`);
+      if (sourceFilter.value !== 'all') activeFilters.push(`source: ${sourceFilter.value}`);
+      if (sortFilter.value !== 'newest') activeFilters.push(`sort: ${sortFilter.value}`);
+      
+      const filterText = activeFilters.length > 0 ? ` (${activeFilters.join(', ')})` : '';
+      filterSummary.textContent = `Showing ${filteredResults.length} of ${allLinks.length} articles${filterText}`;
+    }
+    
+    function clearAllFiltersFunc() {
+      searchInput.value = '';
+      dateFilter.value = 'all';
+      categoryFilter.value = 'all';
+      sourceFilter.value = 'all';
+      sortFilter.value = 'newest';
+      dateFrom.value = '';
+      dateTo.value = '';
+      customDateRange.classList.add('hidden');
+      applyFilters();
+    }
+    
+    function exportFilteredResults() {
+      const csvContent = [
+        ['Title', 'Source', 'Category', 'Published', 'URL', 'Tags'],
+        ...displayedResults.map(article => [
+          article.title,
+          article.sourceName,
+          article.category,
+          article.publishedAt,
+          article.url,
+          article.tags.join('; ')
+        ])
+      ].map(row => row.map(cell => `"${cell}"`).join(',')).join('\n');
+      
+      const blob = new Blob([csvContent], { type: 'text/csv' });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `markets-feeds-archive-${new Date().toISOString().split('T')[0]}.csv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      window.URL.revokeObjectURL(url);
+    }
+    
+    function showLoading() {
+      loadingState.classList.remove('hidden');
+      resultsContainer.classList.add('hidden');
+      loadMoreContainer.classList.add('hidden');
+      noResults.classList.add('hidden');
+    }
+    
+    function hideLoading() {
+      loadingState.classList.add('hidden');
+      resultsContainer.classList.remove('hidden');
+    }
+    
+    function showNoResults() {
+      noResults.classList.remove('hidden');
+      resultsContainer.classList.add('hidden');
+      loadMoreContainer.classList.add('hidden');
+    }
+    
+    function hideNoResults() {
+      noResults.classList.add('hidden');
+    }
+    
+    // Global functions
+    window.filterByTag = function(tag) {
+      searchInput.value = tag.toLowerCase();
+      applyFilters();
+    };
+    
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '/' && document.activeElement !== searchInput) {
+        e.preventDefault();
+        searchInput.focus();
+      }
+    });
+  </script>
+</Layout>

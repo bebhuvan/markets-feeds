@@ -1,0 +1,110 @@
+---
+export interface Props {
+  currentPage: string;
+}
+
+const { currentPage } = Astro.props;
+
+const navigationItems = [
+  { href: '/', label: 'All Feeds', id: 'all' },
+  { href: '/news', label: 'News', id: 'news' },
+  { href: '/research', label: 'Research', id: 'research' },
+  { href: '/technology', label: 'Technology', id: 'technology' },
+  { href: '/aggregators', label: 'Aggregators', id: 'aggregators' },
+  { href: '/newsletters', label: 'Newsletters', id: 'newsletters' },
+  { href: '/non-money', label: 'Non-Money', id: 'non-money' },
+  { href: '/policy', label: 'Policy', id: 'policy' },
+  { href: '/filings', label: 'Filings', id: 'filings' },
+  { href: '/search', label: 'Search', id: 'search' },
+  { href: '/archive', label: 'Archive', id: 'archive' }
+];
+---
+
+<!-- Mobile dropdown navigation -->
+<div class="md:hidden mb-8">
+  <div class="relative">
+    <button 
+      id="mobileMenuButton"
+      class="btn-secondary flex items-center justify-between w-full max-w-sm mx-auto px-4 py-3"
+      aria-expanded="false"
+    >
+      <span id="currentPageLabel" class="font-medium">
+        {navigationItems.find(item => item.id === currentPage)?.label || 'All Feeds'}
+      </span>
+      <svg class="w-4 h-4 transition-transform duration-200" id="dropdownArrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+      </svg>
+    </button>
+    <div 
+      id="mobileDropdown"
+      class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-full max-w-sm card shadow-medium z-50 hidden overflow-hidden"
+    >
+      {navigationItems.map((item) => (
+        <a 
+          href={item.href}
+          class={`block px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-accent ${
+            item.id === currentPage 
+              ? 'text-primary bg-accent' 
+              : 'text-foreground hover:text-primary'
+          }`}
+        >
+          {item.label}
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
+<!-- Desktop horizontal navigation -->
+<nav class="hidden md:flex flex-wrap justify-center gap-2 mb-8 p-2 bg-secondary/50 rounded-2xl border border-border">
+  {navigationItems.map((item) => (
+    <a 
+      href={item.href} 
+      class={`nav-item ${item.id === currentPage ? 'active' : ''}`}
+    >
+      {item.label}
+    </a>
+  ))}
+</nav>
+
+<style>
+  .nav-link {
+    @apply bg-transparent border-0 text-text-subtle cursor-pointer text-xs uppercase tracking-wider transition-colors duration-200 font-normal hover:text-text;
+  }
+  
+  .nav-link.active {
+    @apply text-text border-b border-text pb-1;
+  }
+</style>
+
+<script>
+  // Mobile dropdown functionality
+  const mobileMenuButton = document.getElementById('mobileMenuButton');
+  const mobileDropdown = document.getElementById('mobileDropdown');
+  const dropdownArrow = document.getElementById('dropdownArrow');
+  
+  if (mobileMenuButton && mobileDropdown && dropdownArrow) {
+    mobileMenuButton.addEventListener('click', () => {
+      const isOpen = mobileDropdown.classList.contains('hidden');
+      
+      if (isOpen) {
+        mobileDropdown.classList.remove('hidden');
+        mobileMenuButton.setAttribute('aria-expanded', 'true');
+        dropdownArrow.style.transform = 'rotate(180deg)';
+      } else {
+        mobileDropdown.classList.add('hidden');
+        mobileMenuButton.setAttribute('aria-expanded', 'false');
+        dropdownArrow.style.transform = 'rotate(0deg)';
+      }
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!mobileMenuButton.contains(e.target as Node) && !mobileDropdown.contains(e.target as Node)) {
+        mobileDropdown.classList.add('hidden');
+        mobileMenuButton.setAttribute('aria-expanded', 'false');
+        dropdownArrow.style.transform = 'rotate(0deg)';
+      }
+    });
+  }
+</script>
