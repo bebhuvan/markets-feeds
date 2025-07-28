@@ -1,7 +1,15 @@
 // Service Worker for Markets Feeds PWA
-const CACHE_NAME = 'markets-feeds-v2';
-const STATIC_CACHE_NAME = 'markets-feeds-static-v2';
-const DYNAMIC_CACHE_NAME = 'markets-feeds-dynamic-v2';
+const CACHE_VERSION = '2.1'; // Increment this to force cache refresh
+const STATIC_CACHE_NAME = `markets-feeds-static-v${CACHE_VERSION}`;
+const DYNAMIC_CACHE_NAME = `markets-feeds-dynamic-v${CACHE_VERSION}`;
+
+// Cache expiration times (in milliseconds)
+const CACHE_EXPIRATION = {
+  HTML: 5 * 60 * 1000,      // 5 minutes - frequent content updates
+  CSS_JS: 24 * 60 * 60 * 1000,  // 24 hours - less frequent changes
+  IMAGES: 7 * 24 * 60 * 60 * 1000, // 7 days - rarely change
+  FEEDS: 2 * 60 * 1000,     // 2 minutes - very frequent updates
+};
 
 // Resources to cache immediately
 const STATIC_ASSETS = [
@@ -69,7 +77,7 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch event - network first for navigation, cache first for assets
+// Fetch event - intelligent caching with expiration
 self.addEventListener('fetch', (event) => {
   const { request } = event;
   const url = new URL(request.url);
@@ -84,58 +92,76 @@ self.addEventListener('fetch', (event) => {
     return;
   }
   
-  // Network-first strategy for HTML documents (navigation)
-  if (request.destination === 'document') {
-    event.respondWith(
-      fetch(request)
-        .then(networkResponse => {
-          // Clone and cache the response
-          const responseToCache = networkResponse.clone();
-          caches.open(STATIC_CACHE_NAME)
-            .then(cache => {
-              cache.put(request, responseToCache);
-            });
-          return networkResponse;
-        })
-        .catch(() => {
-          // Network failed, try cache
-          return caches.match(request)
-            .then(cachedResponse => {
-              return cachedResponse || caches.match('/');
-            });
-        })
-    );
-    return;
+  event.respondWith(handleFetch(request));
+});
+
+// Intelligent fetch handling with cache expiration
+async function handleFetch(request) {
+  const url = new URL(request.url);
+  const isHTML = request.destination === 'document';
+  const isAsset = request.destination === 'style' || request.destination === 'script' || request.destination === 'image';
+  const isFeedData = url.pathname.includes('/content/links/');
+  
+  // Get cached response
+  const cachedResponse = await caches.match(request);
+  
+  // Check if cached response is still fresh
+  if (cachedResponse) {
+    const cachedDate = new Date(cachedResponse.headers.get('sw-cached-date') || 0);
+    const now = new Date();
+    const age = now.getTime() - cachedDate.getTime();
+    
+    let maxAge = CACHE_EXPIRATION.HTML; // default
+    if (isAsset) maxAge = CACHE_EXPIRATION.CSS_JS;
+    if (isFeedData) maxAge = CACHE_EXPIRATION.FEEDS;
+    if (request.destination === 'image') maxAge = CACHE_EXPIRATION.IMAGES;
+    
+    // If cache is fresh, return it (except for critical HTML pages)
+    if (age < maxAge && !isHTML) {
+      return cachedResponse;
+    }
   }
   
-  // Cache-first strategy for other assets
-  event.respondWith(
-    caches.match(request)
-      .then(cachedResponse => {
-        if (cachedResponse) {
-          return cachedResponse;
-        }
-        
-        return fetch(request)
-          .then(networkResponse => {
-            if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
-              return networkResponse;
-            }
-            
-            const responseToCache = networkResponse.clone();
-            
-            if (shouldCacheDynamically(request.url)) {
-              caches.open(DYNAMIC_CACHE_NAME)
-                .then(cache => {
-                  cache.put(request, responseToCache);
-                });
-            }
-            
-            return networkResponse;
-          });
-      })
-  );
-});
+  // Try network first
+  try {
+    const networkResponse = await fetch(request);
+    
+    if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+      // Clone response and add timestamp
+      const responseToCache = networkResponse.clone();
+      
+      // Add cache timestamp header
+      const headers = new Headers(responseToCache.headers);
+      headers.set('sw-cached-date', new Date().toISOString());
+      
+      const cachedResponse = new Response(responseToCache.body, {
+        status: responseToCache.status,
+        statusText: responseToCache.statusText,
+        headers: headers
+      });
+      
+      // Cache the response
+      const cacheName = isHTML || isFeedData ? STATIC_CACHE_NAME : DYNAMIC_CACHE_NAME;
+      const cache = await caches.open(cacheName);
+      await cache.put(request, cachedResponse);
+    }
+    
+    return networkResponse;
+  } catch (error) {
+    // Network failed, return cached version if available
+    if (cachedResponse) {
+      return cachedResponse;
+    }
+    
+    // For HTML requests, return the homepage as fallback
+    if (isHTML) {
+      const homeCache = await caches.match('/');
+      if (homeCache) return homeCache;
+    }
+    
+    throw error;
+  }
+}
 
 // Background sync for offline actions
 self.addEventListener('sync', (event) => {
@@ -143,11 +169,54 @@ self.addEventListener('sync', (event) => {
   
   if (event.tag === 'background-sync') {
     event.waitUntil(
-      // Perform background tasks here
-      console.log('Service Worker: Performing background sync')
+      // Clean up expired cache entries
+      cleanupExpiredCache()
     );
   }
 });
+
+// Cleanup expired cache entries
+async function cleanupExpiredCache() {
+  console.log('Service Worker: Starting cache cleanup');
+  
+  const cacheNames = await caches.keys();
+  
+  for (const cacheName of cacheNames) {
+    // Remove old cache versions
+    if (cacheName.includes('markets-feeds') && !cacheName.includes(CACHE_VERSION)) {
+      console.log('Service Worker: Deleting old cache version:', cacheName);
+      await caches.delete(cacheName);
+      continue;
+    }
+    
+    // Clean expired entries from current caches
+    if (cacheName === STATIC_CACHE_NAME || cacheName === DYNAMIC_CACHE_NAME) {
+      const cache = await caches.open(cacheName);
+      const requests = await cache.keys();
+      
+      for (const request of requests) {
+        const response = await cache.match(request);
+        if (response) {
+          const cachedDate = new Date(response.headers.get('sw-cached-date') || 0);
+          const age = Date.now() - cachedDate.getTime();
+          
+          // Remove if older than 24 hours (safety cleanup)
+          if (age > 24 * 60 * 60 * 1000) {
+            console.log('Service Worker: Removing expired cache entry:', request.url);
+            await cache.delete(request);
+          }
+        }
+      }
+    }
+  }
+  
+  console.log('Service Worker: Cache cleanup completed');
+}
+
+// Periodic cache cleanup (every hour)
+setInterval(() => {
+  cleanupExpiredCache();
+}, 60 * 60 * 1000);
 
 // Push notifications (for future use)
 self.addEventListener('push', (event) => {
