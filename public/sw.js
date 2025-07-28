@@ -1,5 +1,5 @@
 // Service Worker for Markets Feeds PWA
-const CACHE_VERSION = '2.1'; // Increment this to force cache refresh
+const CACHE_VERSION = '2.1'; // Manual version for major changes
 const STATIC_CACHE_NAME = `markets-feeds-static-v${CACHE_VERSION}`;
 const DYNAMIC_CACHE_NAME = `markets-feeds-dynamic-v${CACHE_VERSION}`;
 
