@@ -1,11 +1,13 @@
 // Service Worker for Markets Feeds PWA
-const CACHE_NAME = 'markets-feeds-v1';
-const STATIC_CACHE_NAME = 'markets-feeds-static-v1';
-const DYNAMIC_CACHE_NAME = 'markets-feeds-dynamic-v1';
+const CACHE_NAME = 'markets-feeds-v2';
+const STATIC_CACHE_NAME = 'markets-feeds-static-v2';
+const DYNAMIC_CACHE_NAME = 'markets-feeds-dynamic-v2';
 
 // Resources to cache immediately
 const STATIC_ASSETS = [
   '/',
+  '/markets',
+  '/macro',
   '/news',
   '/research',
   '/technology',
@@ -14,6 +16,8 @@ const STATIC_ASSETS = [
   '/non-money',
   '/policy',
   '/filings',
+  '/search',
+  '/archive',
   '/sources',
   '/manifest.json'
 ];
@@ -65,7 +69,7 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch event - serve from cache, fallback to network
+// Fetch event - network first for navigation, cache first for assets
 self.addEventListener('fetch', (event) => {
   const { request } = event;
   const url = new URL(request.url);
@@ -80,26 +84,46 @@ self.addEventListener('fetch', (event) => {
     return;
   }
   
+  // Network-first strategy for HTML documents (navigation)
+  if (request.destination === 'document') {
+    event.respondWith(
+      fetch(request)
+        .then(networkResponse => {
+          // Clone and cache the response
+          const responseToCache = networkResponse.clone();
+          caches.open(STATIC_CACHE_NAME)
+            .then(cache => {
+              cache.put(request, responseToCache);
+            });
+          return networkResponse;
+        })
+        .catch(() => {
+          // Network failed, try cache
+          return caches.match(request)
+            .then(cachedResponse => {
+              return cachedResponse || caches.match('/');
+            });
+        })
+    );
+    return;
+  }
+  
+  // Cache-first strategy for other assets
   event.respondWith(
     caches.match(request)
       .then(cachedResponse => {
         if (cachedResponse) {
-          // Return cached version
           return cachedResponse;
         }
         
-        // Fetch from network
         return fetch(request)
           .then(networkResponse => {
-            // Check if response is valid
             if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
               return networkResponse;
             }
             
-            // Clone the response
             const responseToCache = networkResponse.clone();
             
-            // Cache dynamic assets
             if (shouldCacheDynamically(request.url)) {
               caches.open(DYNAMIC_CACHE_NAME)
                 .then(cache => {
@@ -108,12 +132,6 @@ self.addEventListener('fetch', (event) => {
             }
             
             return networkResponse;
-          })
-          .catch(() => {
-            // Network failed, try to return a meaningful offline page
-            if (request.destination === 'document') {
-              return caches.match('/');
-            }
           });
       })
   );
