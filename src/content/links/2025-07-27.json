@@ -173,6 +173,24 @@
     "contentHash": "1dcf41ef0f577ec0"
   },
   {
+    "id": "bloomberg-markets-02072c929a20fc8f",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Oil Rises as Trump\u2019s Russia Comments, Tariff Deal Boost Prices",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/latest-oil-market-news-and-analysis-for-july-28",
+    "summary": "Oil rose after President Donald Trump said he would reduce the deadline for Russia to agree to a truce in Ukraine, compounding earlier gains from a US-European Union trade deal.",
+    "publishedAt": "2025-07-27T23:39:05+00:00",
+    "fetchedAt": "2025-07-28T13:11:37.919176+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "02072c929a20fc8f"
+  },
+  {
     "id": "bloomberg-markets-6a6d733dc77b50e3",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
@@ -418,6 +436,105 @@
     "contentHash": "b4b485b5fa6ffc20"
   },
   {
+    "id": "bloomberg-economics-203f9b038c981e12",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "US, China Start Stockholm Talks Aimed at Extending Tariff Truce",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-china-negotiators-meet-in-stockholm-to-extend-trade-truce",
+    "summary": "US and Chinese officials kicked off two days of talks aimed at extending their tariff truce beyond a mid-August deadline and hashing out ways to maintain trade ties while safeguarding economic security.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T13:11:37.180790+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "203f9b038c981e12"
+  },
+  {
+    "id": "cepr-discussion-papers-fa4d63f9f091d0a4",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20498 Polarization, Purpose and Profit",
+    "url": "https://cepr.org/publications/dp20498",
+    "summary": "We present a model in which firms compete for workers who value nonpecuniary job attributes, such as purpose, sustainability, political stances, or working conditions. Firms adopt production technologies that enable them to offer jobs with varying levels of these desirable attributes. In a competitive assignment equilibrium, firms become polarized, catering to workers with extreme preferences. Firms not only reflect but also amplify the polarized preferences of the general population. Firm polarization is positively related to industry concentration. More polarized sectors exhibit higher profits, lower average wages, and a reduced labor share of value added. Sustainable investing amplifies firm polarization.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T13:11:38.502287+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "ESG",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "fa4d63f9f091d0a4"
+  },
+  {
+    "id": "cepr-discussion-papers-b32fc681dfcaa464",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20499 Empirical Monetary-Fiscal Equivalence",
+    "url": "https://cepr.org/publications/dp20499",
+    "summary": "What stimulus payments replicate the consumption effect of a desired (but potentially infeasible) interest rate cut? Using granular full-population administrative data, we estimate consumption responses to interest rate changes via adjustable-rate mortgage resets and lump-sum cash windfalls from unanticipated inheritances. Combining them, we map a 1 percentage point monetary-policy rate decrease to equivalent uniform transfers of ~$1,000 per person paid over 5 years, totaling 1.3% of GDP. This estimate remains robust when accounting for heterogeneity in the cross-sectional incidence of these macro-equivalent policies. We find only modest heterogeneity in marginal propensities to consume, limiting efficiency gains from targeting transfers.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T13:11:38.502663+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "b32fc681dfcaa464"
+  },
+  {
+    "id": "cepr-discussion-papers-95c2c36d0cc899a2",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20500 Populist Policy Making",
+    "url": "https://cepr.org/publications/dp20500",
+    "summary": "Policymaking involves both politicians and bureaucratic agencies, and their interaction is regulated by a number of institutional rules. The populists who manage to enter an executive office typically wish to weaken checks and balances, including the bureaucracy. Thus, the consequences of populism for economic policy can be divided in direct consequences and indirect consequences, through the institutional erosion they cause. Moreover, they can be divided in subnational, national, and global consequences. The paper ends with some advocacy of European-level policymaking rather than national policymaking.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T13:11:38.503243+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "95c2c36d0cc899a2"
+  },
+  {
+    "id": "cepr-discussion-papers-331a6562d683eca3",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20497 Dollar Funding Fragility and non-US Global Banks",
+    "url": "https://cepr.org/publications/dp20497",
+    "summary": "Global non-US banks have significant dollar exposure both on and off their balance sheet. We develop a model to analyze their adjustment to dollar funding shocks, whether from reduced direct lending or external dollar shortages. The model provides insight into banks\u2019 responses through borrowing, lending, and FX swap positions, as well as the impact on their net worth, their probability of default and CIP deviations. Implications of the model are confronted with data on the response of non-US global banks to major dollar funding shocks. We examine the benefits from buffering these shocks through central bank dollar swap lines or local currency lending by the central bank.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T13:11:38.503602+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "Currency"
+    ],
+    "priority": "normal",
+    "contentHash": "331a6562d683eca3"
+  },
+  {
+    "id": "cepr-news-1870ba84234f3c57",
+    "sourceId": "cepr-news",
+    "sourceName": "CEPR News",
+    "title": "New Discussion Papers: Week Ending 27 July",
+    "url": "https://cepr.org/about/news/new-discussion-papers-week-ending-27-july",
+    "summary": "20 new CEPR Discussion Papers published in the week ending 27 July 2025",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T13:11:38.399715+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "1870ba84234f3c57"
+  },
+  {
     "id": "marketwatch-c63b9165c65fecd7",
     "sourceId": "marketwatch",
     "sourceName": "MarketWatch",
@@ -582,6 +699,24 @@
     ],
     "priority": "normal",
     "contentHash": "576845da45e9c4a3"
+  },
+  {
+    "id": "bloomberg-markets-8ffdf3c2608734a7",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "S&amp;P Futures Rise as EU-US Deal Eases Trade Fears: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
+    "summary": "US equity futures climbed along with the dollar after the European Union reached a trade deal with President Donald Trump, and signs mounted that the US and China will extend their truce. The euro fell.",
+    "publishedAt": "2025-07-27T22:25:35+00:00",
+    "fetchedAt": "2025-07-28T13:11:37.918659+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Currency",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8ffdf3c2608734a7"
   },
   {
     "id": "fortune-6bc8265046ebf7fc",
@@ -1032,6 +1167,24 @@
     ],
     "priority": "normal",
     "contentHash": "8de1304ecc2973a2"
+  },
+  {
+    "id": "bloomberg-markets-8dd99bbc2990a295",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "European Stocks Pare Gains as Autos Dip on Worries of Tariff Hit",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/stock-investors-expect-rally-as-europe-clinches-us-trade-deal",
+    "summary": "European stocks trimmed early gains as optimism around a US trade deal was replaced by lingering concerns that higher levies would crimp earnings.",
+    "publishedAt": "2025-07-27T20:14:39+00:00",
+    "fetchedAt": "2025-07-28T13:11:37.920261+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "8dd99bbc2990a295"
   },
   {
     "id": "techmeme-601551e4afb9b648",
@@ -2104,6 +2257,22 @@
     "contentHash": "216de9c524d96969"
   },
   {
+    "id": "ft-economics-86806fad9493e17a",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "White House presses Fed for \u2018dramatically lower\u2019 rates as meeting looms",
+    "url": "https://www.ft.com/content/76f13fc1-bceb-4d2f-a326-bd1bf256fc04",
+    "summary": "Jay Powell expected to widen rift with Donald Trump by keeping monetary policy unchanged at Wednesday\u2019s meeting",
+    "publishedAt": "2025-07-27T16:21:06+00:00",
+    "fetchedAt": "2025-07-28T13:11:35.649531+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "86806fad9493e17a"
+  },
+  {
     "id": "doomberg-6b1c348c97bd88d2",
     "sourceId": "doomberg",
     "sourceName": "Doomberg",
@@ -2495,6 +2664,22 @@
     ],
     "priority": "high",
     "contentHash": "0fc68fb3e4c717b9"
+  },
+  {
+    "id": "bloomberg-markets-1724d0c6791f0925",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Traders Hedging Record Rally Dabble in Exotic Options",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/traders-hedging-stocks-at-record-highs-dabble-in-exotic-options",
+    "summary": "Investors looking to protect against a pullback with stocks at peaks are venturing beyond plain-vanilla options.",
+    "publishedAt": "2025-07-27T15:00:00+00:00",
+    "fetchedAt": "2025-07-28T13:11:37.924589+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1724d0c6791f0925"
   },
   {
     "id": "ft-technology-fa2b3a2e2cdcd225",
