@@ -36,6 +36,24 @@
     "contentHash": "5be1dfd570ba6ff5"
   },
   {
+    "id": "bloomberg-markets-cf382b52df2c6b78",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Gold Steadies as Markets Mull US-EU Deal Ahead of the Fed",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
+    "summary": "Gold wavered after the US and European Union announced a tariff agreement, staving off some concern about a potentially painful trade war between the economies.",
+    "publishedAt": "2025-07-27T23:58:55+00:00",
+    "fetchedAt": "2025-07-28T09:46:47.018836+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "M&A",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "cf382b52df2c6b78"
+  },
+  {
     "id": "et-markets-25bfe393a66891f5",
     "sourceId": "et-markets",
     "sourceName": "Economic Times",
@@ -135,6 +153,24 @@
     ],
     "priority": "normal",
     "contentHash": "53941ff94f472c65"
+  },
+  {
+    "id": "bloomberg-markets-1dcf41ef0f577ec0",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Oil Rises as EU Deal With US Allays Fears of Harmful Trade War",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/latest-oil-market-news-and-analysis-for-july-28",
+    "summary": "Oil rose after the US and European Union reached a trade deal ahead of President Donald Trump\u2019s Aug. 1. deadline, avoiding a tariff war that could have hurt the global economy.",
+    "publishedAt": "2025-07-27T23:39:05+00:00",
+    "fetchedAt": "2025-07-28T09:46:47.017490+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1dcf41ef0f577ec0"
   },
   {
     "id": "bloomberg-markets-6a6d733dc77b50e3",
@@ -528,6 +564,24 @@
     ],
     "priority": "normal",
     "contentHash": "f1a9c9dccf35c58c"
+  },
+  {
+    "id": "bloomberg-markets-576845da45e9c4a3",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "S&amp;P Futures Rise as EU-US Trade Deal Brings Relief: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
+    "summary": "US equity futures climbed along with the dollar after the European Union reached a trade deal with President Donald Trump, further easing fears of a damaging trade war.",
+    "publishedAt": "2025-07-27T22:25:35+00:00",
+    "fetchedAt": "2025-07-28T09:46:47.017191+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Currency",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "576845da45e9c4a3"
   },
   {
     "id": "fortune-6bc8265046ebf7fc",
@@ -1395,6 +1449,22 @@
     "contentHash": "5f73426135a67050"
   },
   {
+    "id": "handelsblatt-c909f9e366cc5711",
+    "sourceId": "handelsblatt",
+    "sourceName": "Handelsblatt",
+    "title": "Entgleister Zug: Erdrutsch war wohl Ursache f\u00fcr Zugungl\u00fcck mit drei Toten \u2013 Bahnchef Lutz ringt um Fassung",
+    "url": "https://www.handelsblatt.com/politik/deutschland/entgleister-zug-erdrutsch-war-wohl-ursache-fuer-zugunglueck-mit-drei-toten/100144421.html",
+    "summary": "Bei Riedlingen im S\u00fcdosten Baden-W\u00fcrttembergs entgleist eine Regionalbahn. Drei Menschen sterben. Nun steht im Fokus, wie das passieren konnte.",
+    "publishedAt": "2025-07-27T18:55:54+00:00",
+    "fetchedAt": "2025-07-28T09:46:46.943692+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c909f9e366cc5711"
+  },
+  {
     "id": "et-markets-43bfb44c89793cb3",
     "sourceId": "et-markets",
     "sourceName": "Economic Times",
@@ -1823,6 +1893,23 @@
     "contentHash": "4b448357c0692366"
   },
   {
+    "id": "yahoo-finance-857ddf3e4d924d5b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "How ethereum rose to become a mainstream cryptocurrency",
+    "url": "https://finance.yahoo.com/news/how-ethereum-rose-to-become-a-mainstream-cryptocurrency-170001587.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:00:01+00:00",
+    "fetchedAt": "2025-07-28T09:46:47.550621+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "857ddf3e4d924d5b"
+  },
+  {
     "id": "bloomberg-markets-b03f3604cf1c7539",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
@@ -2146,6 +2233,23 @@
     ],
     "priority": "high",
     "contentHash": "d93a0143919416e7"
+  },
+  {
+    "id": "scmp-business-8d4205708cb29108",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "CK Hutchison seeks mainland Chinese investor for US$23 billion ports deal",
+    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3319768/talks-deadline-ck-hutchison-us23-billion-panama-ports-deal-passes-sunday?utm_source=rss_feed",
+    "summary": "Hong Kong tycoon Li Ka-shing\u2019s CK Hutchison Holdings has said it plans to invite a major strategic investor from mainland China to join as a \u201csignificant member\u201d of a consortium seeking to buy its global port stakes, after a deadline for exclusive talks on the US$23 billion deal expired at the weekend. Hours after the announcement of CK Hutchison on Monday, Chinese Ministry of Foreign Affairs spokesman Guo Jiakun said the central government would regulate in accordance with the law and safeguard...",
+    "publishedAt": "2025-07-27T16:01:14+00:00",
+    "fetchedAt": "2025-07-28T09:46:55.061678+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "8d4205708cb29108"
   },
   {
     "id": "marginal-revolution-a6854bb6a3f8453e",
@@ -3052,6 +3156,24 @@
     ],
     "priority": "normal",
     "contentHash": "ed9e200403de7772"
+  },
+  {
+    "id": "yahoo-finance-52cf62b89116a94e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Federal Reserve meeting, July jobs report, and Big Tech earnings: What to watch this week",
+    "url": "https://finance.yahoo.com/news/federal-reserve-meeting-july-jobs-report-and-big-tech-earnings-what-to-watch-this-week-113756523.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T11:37:56+00:00",
+    "fetchedAt": "2025-07-28T09:46:47.550123+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Tech",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "52cf62b89116a94e"
   },
   {
     "id": "scmp-business-b202b772c7aed88f",
