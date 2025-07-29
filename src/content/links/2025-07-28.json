@@ -132,6 +132,39 @@
     "contentHash": "7042b239be4b21e2"
   },
   {
+    "id": "bloomberg-markets-8dc61386f68c41be",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Oil Extends Gain on Russia Supply Worries as Trump Ups Pressure",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-28/latest-oil-market-news-and-analysis-for-july-29",
+    "summary": "Oil extended gains on concerns crude supplies from Russia could be disrupted by potential US penalties, after President Donald Trump pushed the OPEC+ producer for a swift truce with Ukraine.",
+    "publishedAt": "2025-07-28T23:39:45+00:00",
+    "fetchedAt": "2025-07-29T09:45:26.742456+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8dc61386f68c41be"
+  },
+  {
+    "id": "yahoo-finance-2e21bf5008c53e0a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures climb as huge week of market-watched events rolls on",
+    "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-climb-as-huge-week-of-market-watched-events-rolls-on-233720178.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:37:20+00:00",
+    "fetchedAt": "2025-07-29T09:45:27.211624+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2e21bf5008c53e0a"
+  },
+  {
     "id": "marketwatch-91928ffd0b3a9d81",
     "sourceId": "marketwatch",
     "sourceName": "MarketWatch",
@@ -195,6 +228,22 @@
     ],
     "priority": "normal",
     "contentHash": "09b347d45172a721"
+  },
+  {
+    "id": "business-insider-2a9aeacc2aac6927",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "4 victims dead, including NYPD officer, in shooting at Midtown office",
+    "url": "https://www.businessinsider.com/shots-fired-new-york-building-houses-blackstone-kpmg-nypd-2025-7",
+    "summary": "Four victims are dead, including one NYPD officer, in a shooting at an NYC office building that houses companies including the NFL and KPMG.",
+    "publishedAt": "2025-07-28T23:29:46+00:00",
+    "fetchedAt": "2025-07-29T09:45:28.460246+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2a9aeacc2aac6927"
   },
   {
     "id": "bbc-business-705a328e2268aa29",
@@ -432,6 +481,22 @@
     "contentHash": "42a2a654ec7398c1"
   },
   {
+    "id": "yahoo-finance-4307cde9be26fac8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Procter & Gamble announces new CEO as it aims to unlock next era of growth",
+    "url": "https://finance.yahoo.com/news/procter--gamble-announces-new-ceo-as-it-aims-to-unlock-next-era-of-growth-223946565.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:39:46+00:00",
+    "fetchedAt": "2025-07-29T09:45:27.210212+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4307cde9be26fac8"
+  },
+  {
     "id": "business-insider-338658c05ed46b5c",
     "sourceId": "business-insider",
     "sourceName": "Business Insider",
@@ -549,6 +614,23 @@
     ],
     "priority": "high",
     "contentHash": "e627f46951da6367"
+  },
+  {
+    "id": "bloomberg-markets-d127379569e698ce",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "European Stocks Gain as Earnings Soften Tariff Hit: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-28/stock-market-today-dow-s-p-live-updates",
+    "summary": "European stocks posted modest gains as positive earnings news diverted some of the market\u2019s focus away from concerns about the outcome of tariff negotiations.",
+    "publishedAt": "2025-07-28T22:20:43+00:00",
+    "fetchedAt": "2025-07-29T09:45:26.745574+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d127379569e698ce"
   },
   {
     "id": "the-verge-3535fa1009bb21cd",
@@ -801,6 +883,22 @@
     ],
     "priority": "normal",
     "contentHash": "12553647df784acc"
+  },
+  {
+    "id": "yahoo-finance-7c299d8bbd72994b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Buffett's Berkshire sells one-third of VeriSign stake for $1.23 billion",
+    "url": "https://finance.yahoo.com/news/buffetts-berkshire-sell-one-third-212921022.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:29:21+00:00",
+    "fetchedAt": "2025-07-29T09:45:27.210530+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7c299d8bbd72994b"
   },
   {
     "id": "the-verge-3ff05da66f9c414f",
@@ -1232,6 +1330,22 @@
     "contentHash": "cb658b2621e94d44"
   },
   {
+    "id": "yahoo-finance-ddcf10806fa7fd91",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Starbucks set to report 6th straight US sales decline as CEO Brian Niccol continues turnaround efforts",
+    "url": "https://finance.yahoo.com/news/starbucks-set-to-report-6th-straight-us-sales-decline-as-ceo-brian-niccol-continues-turnaround-efforts-202028271.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:20:28+00:00",
+    "fetchedAt": "2025-07-29T09:45:27.210375+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ddcf10806fa7fd91"
+  },
+  {
     "id": "zerohedge-e3b1c8f2578b70be",
     "sourceId": "zerohedge",
     "sourceName": "ZeroHedge",
@@ -1281,6 +1395,23 @@
     "contentHash": "20c4de4411fca3cf"
   },
   {
+    "id": "yahoo-finance-9c351b67f5edee57",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Spotify set to report earnings as investor optimism meets cautious guidance",
+    "url": "https://finance.yahoo.com/news/spotify-set-to-report-earnings-as-investor-optimism-meets-cautious-guidance-201026571.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:10:26+00:00",
+    "fetchedAt": "2025-07-29T09:45:27.209937+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9c351b67f5edee57"
+  },
+  {
     "id": "bloomberg-economics-21809637aceb0d4d",
     "sourceId": "bloomberg-economics",
     "sourceName": "Bloomberg Economics",
@@ -1327,6 +1458,22 @@
     ],
     "priority": "normal",
     "contentHash": "f9000d7d40d8f1e2"
+  },
+  {
+    "id": "yahoo-finance-35dc581a589a8dab",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock market today: S&P 500, Nasdaq eke out records as markets kick off huge week for US economy",
+    "url": "https://finance.yahoo.com/news/live/stock-market-today-sp-500-nasdaq-eke-out-records-as-markets-kick-off-huge-week-for-us-economy-200500414.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:05:00+00:00",
+    "fetchedAt": "2025-07-29T09:45:27.210775+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "35dc581a589a8dab"
   },
   {
     "id": "oil-price-34da39636728dba4",
@@ -1539,6 +1686,22 @@
     ],
     "priority": "normal",
     "contentHash": "57ec096f7a8905cd"
+  },
+  {
+    "id": "scmp-business-9e9539f9b774724c",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "China releases US$77 million relief fund as casualties mount in Beijing floods",
+    "url": "https://www.scmp.com/news/china/politics/article/3319906/chinese-officials-call-all-out-response-after-downpours-lead-heavy-casualties?utm_source=rss_feed",
+    "summary": "China has allocated substantial emergency funds to regions devastated by heavy downpours and floods which claimed at least 40 lives in Beijing and the neighbouring provinces. A total of 550 million yuan (US$76.7 million) has been allocated by the central government to flood-hit regions for disaster relief, with 200 million yuan directed to Beijing\u2019s response to the floods. The torrential rains led to 30 deaths in Beijing as of Monday, according to state media reports on Tuesday, as Chinese...",
+    "publishedAt": "2025-07-28T19:27:42+00:00",
+    "fetchedAt": "2025-07-29T09:45:35.098679+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9e9539f9b774724c"
   },
   {
     "id": "zerohedge-0dab39f80e0be232",
@@ -2441,6 +2604,23 @@
     "contentHash": "a32611d113d65f56"
   },
   {
+    "id": "yahoo-finance-83e6c4ed8b6b09cc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Boeing Q2 earnings preview: CEO Ortberg's turnaround plan expected to roll on",
+    "url": "https://finance.yahoo.com/news/boeing-q2-earnings-preview-ceo-ortbergs-turnaround-plan-expected-to-roll-on-163209150.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T16:32:09+00:00",
+    "fetchedAt": "2025-07-29T09:45:27.209774+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "83e6c4ed8b6b09cc"
+  },
+  {
     "id": "handelsblatt-741e0418cede6635",
     "sourceId": "handelsblatt",
     "sourceName": "Handelsblatt",
@@ -2636,6 +2816,23 @@
     ],
     "priority": "normal",
     "contentHash": "189127af34a24666"
+  },
+  {
+    "id": "bloomberg-markets-5fe1dd699346e238",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Ray-Ban Maker EssilorLuxottica Sales Top Estimates",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-28/essilorluxottica-sales-top-estimates-amid-smart-glasses-push",
+    "summary": "EssilorLuxottica SA posted better-than-expected revenue in the second quarter, as the world\u2019s biggest eyewear maker showed strong gains in Europe and pressed ahead with its smart-glasses initiative.",
+    "publishedAt": "2025-07-28T16:00:00+00:00",
+    "fetchedAt": "2025-07-29T09:45:26.747500+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5fe1dd699346e238"
   },
   {
     "id": "handelsblatt-4d73f441e54e4110",
@@ -5925,6 +6122,22 @@
     ],
     "priority": "high",
     "contentHash": "5570c145a77700ee"
+  },
+  {
+    "id": "scmp-business-f3dbd06e7ffe503c",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "What a US$60 million aid package means for Philippines-US ties",
+    "url": "https://www.scmp.com/week-asia/economics/article/3319888/what-us60-million-aid-package-means-philippines-us-ties-it-speaks-volumes?utm_source=rss_feed",
+    "summary": "The United States has ended its months-long freeze on foreign assistance with a 3 billion-peso (US$60 million) pledge to the Philippines \u2013 a modest sum that analysts say carries outsize strategic significance for Washington\u2019s Indo-Pacific priorities under President Donald Trump. Analysts say the aid package, while limited in monetary terms, highlights the Philippines\u2019 growing importance to US economic and security strategy, offering a window into how Washington may reward aligned partners even...",
+    "publishedAt": "2025-07-28T14:21:22+00:00",
+    "fetchedAt": "2025-07-29T09:45:35.100402+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "f3dbd06e7ffe503c"
   },
   {
     "id": "zerohedge-4ae81ad6b25d07a5",
@@ -29491,5 +29704,37 @@
     ],
     "priority": "normal",
     "contentHash": "c86881a05f55bb14"
+  },
+  {
+    "id": "yahoo-finance-7c661665dabc1a1f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Welcome to the Grocery Store Where Prices Change 100 Times a Day",
+    "url": "https://www.wsj.com/business/retail/surge-grocery-prices-electronic-shelf-labels-a3d47701?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T00:00:00+00:00",
+    "fetchedAt": "2025-07-29T09:45:27.212015+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7c661665dabc1a1f"
+  },
+  {
+    "id": "yahoo-finance-1c5626519f06d414",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Five Signs of a Market Bubble Investors Are Tracking",
+    "url": "https://www.wsj.com/finance/stocks/five-signs-of-a-market-bubble-investors-are-tracking-ddbea944?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T00:00:00+00:00",
+    "fetchedAt": "2025-07-29T09:45:27.212172+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1c5626519f06d414"
   }
 ]
