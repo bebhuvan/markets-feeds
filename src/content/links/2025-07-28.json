@@ -149,6 +149,23 @@
     "contentHash": "8dc61386f68c41be"
   },
   {
+    "id": "bloomberg-markets-077e1be4143e1513",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Oil Holds Near $70 After Trump Ups Ceasefire Pressure on Russia",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-28/latest-oil-market-news-and-analysis-for-july-29",
+    "summary": "Oil steadied after its biggest gain in two weeks, as President Donald Trump\u2019s pressure on Russia for a swift truce with Ukraine raised concerns about supply disruptions.",
+    "publishedAt": "2025-07-28T23:39:45+00:00",
+    "fetchedAt": "2025-07-29T13:12:44.076666+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "077e1be4143e1513"
+  },
+  {
     "id": "yahoo-finance-2e21bf5008c53e0a",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -163,6 +180,23 @@
     ],
     "priority": "normal",
     "contentHash": "2e21bf5008c53e0a"
+  },
+  {
+    "id": "yahoo-finance-93abcc0b5edf7a58",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as earnings flood in, jobs data on deck",
+    "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-as-earnings-flood-in-jobs-data-on-deck-233720870.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:37:20+00:00",
+    "fetchedAt": "2025-07-29T13:12:44.525885+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "93abcc0b5edf7a58"
   },
   {
     "id": "marketwatch-91928ffd0b3a9d81",
@@ -633,6 +667,23 @@
     "contentHash": "d127379569e698ce"
   },
   {
+    "id": "bloomberg-markets-5af6687e9b9abd35",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "S&amp;P Futures Gain With Dollar as Focus Turns to Fed: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-28/stock-market-today-dow-s-p-live-updates",
+    "summary": "US equity futures gained with the dollar as a deluge of data is seen reinforcing the picture of a buoyant economy, diverting attention from trade negotiations.",
+    "publishedAt": "2025-07-28T22:20:43+00:00",
+    "fetchedAt": "2025-07-29T13:12:44.074595+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Currency"
+    ],
+    "priority": "high",
+    "contentHash": "5af6687e9b9abd35"
+  },
+  {
     "id": "the-verge-3535fa1009bb21cd",
     "sourceId": "the-verge",
     "sourceName": "The Verge",
@@ -850,6 +901,23 @@
     ],
     "priority": "high",
     "contentHash": "2588068fdea549c1"
+  },
+  {
+    "id": "yahoo-finance-c2859316493d7d3d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Earnings live: Spotify, Novo, UnitedHealth stocks slide after results; Boeing beats",
+    "url": "https://finance.yahoo.com/news/live/earnings-live-spotify-novo-unitedhealth-stocks-slide-after-results-boeing-beats-213334016.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:33:34+00:00",
+    "fetchedAt": "2025-07-29T13:12:44.526523+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c2859316493d7d3d"
   },
   {
     "id": "scmp-business-a2713b1e1dfffcf8",
@@ -2066,6 +2134,24 @@
     ],
     "priority": "normal",
     "contentHash": "69328982684a58f2"
+  },
+  {
+    "id": "bloomberg-markets-248274e57d7a763a",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "US Stocks Rally Faces Big Earnings Test",
+    "url": "https://www.bloomberg.com/news/videos/2025-07-28/us-stocks-rally-faces-big-earnings-test-video",
+    "summary": "Gil Luria, DA Davidson Head of Technology Research, tells Open Interest that Meta is spending as much on AI talent as it is on chips. (Source: Bloomberg)",
+    "publishedAt": "2025-07-28T18:37:49+00:00",
+    "fetchedAt": "2025-07-29T13:12:44.080730+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "248274e57d7a763a"
   },
   {
     "id": "business-insider-729997b75794e8c2",
