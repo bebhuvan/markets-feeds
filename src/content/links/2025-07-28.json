@@ -181,6 +181,22 @@
     "contentHash": "40feeb4aefc6acab"
   },
   {
+    "id": "business-insider-09b347d45172a721",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "4 victims dead, including NYPD officer, in shooting at Blackstone, KPMG building",
+    "url": "https://www.businessinsider.com/shots-fired-new-york-building-houses-blackstone-kpmg-nypd-2025-7",
+    "summary": "Four victims are dead, including one NYPD officer, in a shooting at an NYC office building that houses companies including the NFL and KPMG.",
+    "publishedAt": "2025-07-28T23:29:46+00:00",
+    "fetchedAt": "2025-07-29T04:56:25.858177+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "09b347d45172a721"
+  },
+  {
     "id": "bbc-business-705a328e2268aa29",
     "sourceId": "bbc-business",
     "sourceName": "BBC Business",
@@ -450,6 +466,23 @@
     "contentHash": "5f53432b976e35b6"
   },
   {
+    "id": "techmeme-15bbe223bffeb89c",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Seattle-based Dropzone AI, which offers AI agents that act as Security Operations Center analysts, raised a $37M Series B led by Theory Ventures (Taylor Soper/GeekWire)",
+    "url": "http://www.techmeme.com/250728/p24#a250728p24",
+    "summary": "Taylor Soper / GeekWire: Seattle-based Dropzone AI, which offers AI agents that act as Security Operations Center analysts, raised a $37M Series B led by Theory Ventures\u00a0 \u2014\u00a0 Security teams have trouble handling a daily flood of alerts.\u00a0 AI bots can help.\u00a0 \u2014\u00a0 That's the premise behind Dropzone AI \u2026",
+    "publishedAt": "2025-07-28T22:25:58+00:00",
+    "fetchedAt": "2025-07-29T04:56:31.111727+00:00",
+    "category": "technology",
+    "tags": [
+      "AI",
+      "Technology"
+    ],
+    "priority": "breaking",
+    "contentHash": "15bbe223bffeb89c"
+  },
+  {
     "id": "zerohedge-829b2d530bcde51c",
     "sourceId": "zerohedge",
     "sourceName": "ZeroHedge",
@@ -498,6 +531,24 @@
     ],
     "priority": "high",
     "contentHash": "5dfc22df8899a707"
+  },
+  {
+    "id": "bloomberg-markets-e627f46951da6367",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Stocks Fall as Tariff Optimism Ebbs, Dollar Steady: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-28/stock-market-today-dow-s-p-live-updates",
+    "summary": "Asian stocks slipped for a third day as momentum from recent trade deals lost traction and investors remained cautious in a week packed with economic data and corporate earnings.",
+    "publishedAt": "2025-07-28T22:20:43+00:00",
+    "fetchedAt": "2025-07-29T04:56:23.929002+00:00",
+    "category": "markets",
+    "tags": [
+      "Currency",
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "e627f46951da6367"
   },
   {
     "id": "the-verge-3535fa1009bb21cd",
@@ -2005,6 +2056,24 @@
     "contentHash": "c03a5996820fe8bd"
   },
   {
+    "id": "matt-levine-44e0bfddd1e7800c",
+    "sourceId": "matt-levine",
+    "sourceName": "Matt Levine Money Stuff",
+    "title": "Bet on or Against the Unicorns",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-28/bet-on-or-against-the-unicorns",
+    "summary": "Also the meme-stock revival, home insurance and tokenized crypto treasury companies.",
+    "publishedAt": "2025-07-28T17:55:17+00:00",
+    "fetchedAt": "2025-07-29T04:56:26.139809+00:00",
+    "category": "research",
+    "tags": [
+      "Crypto",
+      "Debt",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "44e0bfddd1e7800c"
+  },
+  {
     "id": "fortune-ef05aaff0308a872",
     "sourceId": "fortune",
     "sourceName": "Fortune",
@@ -2386,6 +2455,22 @@
     ],
     "priority": "normal",
     "contentHash": "741e0418cede6635"
+  },
+  {
+    "id": "handelsblatt-b38ff99383470e8f",
+    "sourceId": "handelsblatt",
+    "sourceName": "Handelsblatt",
+    "title": "Nahost: Deutschland und Jordanien starten Gaza-Luftbr\u00fccke \u2013 EU-Kommission will Israel erste Mittel streichen",
+    "url": "https://www.handelsblatt.com/politik/international/gazakrieg-deutschland-und-jordanien-starten-gaza-luftbruecke/100144628.html",
+    "summary": "Das Sicherheitskabinett hat eine Hilfsma\u00dfnahme f\u00fcr die hungernden Menschen in Gaza beschlossen, zwei weitere europ\u00e4ische L\u00e4nder wollen sich beteiligen. Eine Hilfsorganisation \u00fcbt aber Kritik.",
+    "publishedAt": "2025-07-28T16:30:51+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.028306+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b38ff99383470e8f"
   },
   {
     "id": "esg-today-1f6f3d635cd19a86",

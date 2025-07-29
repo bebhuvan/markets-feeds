@@ -340,6 +340,22 @@
     "contentHash": "0015560863120b72"
   },
   {
+    "id": "yahoo-finance-d8d341039ee1bf59",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "This Illinois woman\u2019s property tax is poised to jump from $756 to over $10,000 \u2014 a shocking 1,222% spike",
+    "url": "https://finance.yahoo.com/news/illinois-woman-property-tax-poised-230700243.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T23:07:00+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462767+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d8d341039ee1bf59"
+  },
+  {
     "id": "marketwatch-f462502b8c693c22",
     "sourceId": "marketwatch",
     "sourceName": "MarketWatch",
@@ -370,6 +386,22 @@
     ],
     "priority": "normal",
     "contentHash": "69f92d6d640aed74"
+  },
+  {
+    "id": "yahoo-finance-07ae9887f552e511",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Does the 2025 Corn Crop Have a Pollination Problem?",
+    "url": "https://finance.yahoo.com/news/does-2025-corn-crop-pollination-230054863.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T23:00:54+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462675+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "07ae9887f552e511"
   },
   {
     "id": "scmp-business-f35aa31a61c2fb9e",
@@ -967,6 +999,23 @@
     "contentHash": "6bc8265046ebf7fc"
   },
   {
+    "id": "yahoo-finance-3a0a96849a53c705",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock Futures Rise Ahead of Fed Decision, Earnings Week",
+    "url": "https://www.barrons.com/articles/stock-futures-sunday-trading-925cb155?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-27T22:14:00+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462601+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "3a0a96849a53c705"
+  },
+  {
     "id": "business-insider-e7bcef0175989059",
     "sourceId": "business-insider",
     "sourceName": "Business Insider",
@@ -1316,6 +1365,22 @@
     "contentHash": "1144271f66c1b851"
   },
   {
+    "id": "yahoo-finance-057b445bf1dec638",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Northrop Grumman Corporation (NOC) Has Strong Worldwide Sales, Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/northrop-grumman-corporation-noc-strong-201853614.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:18:53+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462529+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "057b445bf1dec638"
+  },
+  {
     "id": "seeking-alpha-abeecf05e74c2bba",
     "sourceId": "seeking-alpha",
     "sourceName": "Seeking Alpha",
@@ -1330,6 +1395,22 @@
     ],
     "priority": "normal",
     "contentHash": "abeecf05e74c2bba"
+  },
+  {
+    "id": "yahoo-finance-4df1c43ac87bc1b7",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Not Lockheed Martin Corporation (LMT) But RTX, Say A Lot Of People According To Jim Cramer",
+    "url": "https://finance.yahoo.com/news/not-lockheed-martin-corporation-lmt-201840944.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:18:40+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462377+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4df1c43ac87bc1b7"
   },
   {
     "id": "fortune-89b68954818c4858",
@@ -1347,6 +1428,136 @@
     ],
     "priority": "normal",
     "contentHash": "89b68954818c4858"
+  },
+  {
+    "id": "yahoo-finance-58d00d8bd2d465b9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Alphabet Inc. (GOOGL): \u201cThis Stock Should Be Up Much More,\u201d Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/alphabet-inc-googl-stock-much-201742323.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:17:42+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462291+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "58d00d8bd2d465b9"
+  },
+  {
+    "id": "yahoo-finance-ca8c4ae43b37854a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "NVIDIA Corporation (NVDA)\u2019s CEO Has A Great Relationship With Trump, Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/nvidia-corporation-nvda-ceo-great-201723165.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:17:23+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462190+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ca8c4ae43b37854a"
+  },
+  {
+    "id": "yahoo-finance-58b7d4228a0e06af",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tesla, Inc. (TSLA)\u2019s \u201cA Cult Stock,\u201d Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/tesla-inc-tsla-cult-stock-201655818.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:16:55+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462108+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "58b7d4228a0e06af"
+  },
+  {
+    "id": "yahoo-finance-8d8807954a5aca47",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dow Inc. (DOW): Good News About Industrial Economy Isn\u2019t Helping, Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/dow-inc-dow-good-news-201632880.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:16:32+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.461954+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8d8807954a5aca47"
+  },
+  {
+    "id": "yahoo-finance-616ad19ca25281cc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Honeywell International Inc. (HON): \u201cI Think You Buy\u201d It, Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/honeywell-international-inc-hon-think-201609723.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:16:09+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.461871+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "616ad19ca25281cc"
+  },
+  {
+    "id": "yahoo-finance-fd2a225293b1b8af",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "International Business Machines Corporation (IBM): Don\u2019t Abandon The Stock, Warns Jim Cramer",
+    "url": "https://finance.yahoo.com/news/international-business-machines-corporation-ibm-201542330.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:15:42+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.461789+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "fd2a225293b1b8af"
+  },
+  {
+    "id": "yahoo-finance-b032a889a36777d6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dover Corporation (DOV) Had An \u201cUnbelievable\u201d Quarter, Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/dover-corporation-dov-had-unbelievable-201522220.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:15:22+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.461701+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "b032a889a36777d6"
+  },
+  {
+    "id": "yahoo-finance-55b9553e57b10060",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Boston Beer Expects More Moderate Tariff Effects as Profit Rises",
+    "url": "https://www.wsj.com/business/retail/boston-beer-expects-more-moderate-full-year-tariff-effects-as-profit-revenue-rise-4ddfc339?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:15:00+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.461545+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "55b9553e57b10060"
   },
   {
     "id": "bloomberg-markets-d82d616fd60aa914",
@@ -1434,6 +1645,22 @@
     ],
     "priority": "high",
     "contentHash": "25d8f4dfe277c0d4"
+  },
+  {
+    "id": "yahoo-finance-aad6a7dcd8130341",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "T-Mobile US, Inc. (TMUS) Is Very Good At What It Does, Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/t-mobile-us-inc-tmus-201308875.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:13:08+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.461467+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "aad6a7dcd8130341"
   },
   {
     "id": "yahoo-finance-902e7de35d6c37b5",
@@ -2163,6 +2390,38 @@
     "contentHash": "d3f712497ab862e7"
   },
   {
+    "id": "yahoo-finance-2adc713277b0392b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Legendary Wall Street forecaster Bob Doll is having his best year",
+    "url": "https://finance.yahoo.com/news/legendary-wall-street-forecaster-bob-180300209.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T18:03:00+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462454+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2adc713277b0392b"
+  },
+  {
+    "id": "yahoo-finance-018f68f5cf1bbf20",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "2 Monster Stocks That Could Create Generational Wealth",
+    "url": "https://finance.yahoo.com/news/2-monster-stocks-could-create-180100538.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T18:01:00+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.462028+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "018f68f5cf1bbf20"
+  },
+  {
     "id": "seeking-alpha-e877583df612b4f5",
     "sourceId": "seeking-alpha",
     "sourceName": "Seeking Alpha",
@@ -2327,6 +2586,39 @@
     ],
     "priority": "normal",
     "contentHash": "e660bbdba2dc8eca"
+  },
+  {
+    "id": "yahoo-finance-160d46442cb2439b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "UK could save \u00a35bn if Bailey changes course on debt sales",
+    "url": "https://finance.yahoo.com/news/uk-could-save-5bn-bailey-174227228.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:42:27+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.460970+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "160d46442cb2439b"
+  },
+  {
+    "id": "yahoo-finance-007efd362d8d5394",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Pressure Mounts on Fed Chief Powell in Tee Up to GDP, Jobs Data",
+    "url": "https://finance.yahoo.com/news/pressure-mounts-fed-chief-powell-102731044.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:39:38+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.460706+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "007efd362d8d5394"
   },
   {
     "id": "yahoo-finance-79d3d93e4ea36997",
@@ -2572,6 +2864,23 @@
     "contentHash": "70e3919dffe2a409"
   },
   {
+    "id": "yahoo-finance-7e43452f093724e4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dave Ramsey: Debt Is Most Aggressively Marketed Product in US \u2014 5 Ways To Avoid It",
+    "url": "https://finance.yahoo.com/news/dave-ramsey-debt-most-aggressively-171207666.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:12:07+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.460430+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "7e43452f093724e4"
+  },
+  {
     "id": "cnbc-markets-11fa75da60e2086e",
     "sourceId": "cnbc-markets",
     "sourceName": "CNBC Markets",
@@ -2736,6 +3045,23 @@
     "contentHash": "7d99e757a40f0399"
   },
   {
+    "id": "yahoo-finance-36e41e28f220deac",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Michael Saylor Is Bringing Bitcoin-Backed Money-Market-Style Vehicle to Wall Street: NYDIG",
+    "url": "https://finance.yahoo.com/news/michael-saylor-bringing-bitcoin-backed-170000014.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:00:00+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.461252+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "normal",
+    "contentHash": "36e41e28f220deac"
+  },
+  {
     "id": "seeking-alpha-a6d93b7d13040581",
     "sourceId": "seeking-alpha",
     "sourceName": "Seeking Alpha",
@@ -2750,6 +3076,22 @@
     ],
     "priority": "normal",
     "contentHash": "a6d93b7d13040581"
+  },
+  {
+    "id": "yahoo-finance-c1029ff90a2ba5a9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock-Split Watch: Is Newsmax (NMAX) Next?",
+    "url": "https://finance.yahoo.com/news/stock-split-watch-newsmax-nmax-165400492.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T16:54:00+00:00",
+    "fetchedAt": "2025-07-29T04:56:24.461619+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c1029ff90a2ba5a9"
   },
   {
     "id": "zerohedge-47899d9725119803",
