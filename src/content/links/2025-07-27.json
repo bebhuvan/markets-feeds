@@ -666,6 +666,70 @@
     "contentHash": "92463387aed7776f"
   },
   {
+    "id": "bloomberg-economics-c137ea88aac594ae",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "US, China Talks in Stockholm Aim for Trade Truce Extension",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-china-negotiators-meet-in-stockholm-to-extend-trade-truce",
+    "summary": "US and Chinese officials finished the first of two days of talks aimed at extending their tariff truce beyond a mid-August deadline and hashing out ways to maintain trade ties while safeguarding economic security.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.423508+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "c137ea88aac594ae"
+  },
+  {
+    "id": "cepr-discussion-papers-90baf6398db8dd8a",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20505 Monetary Policy Transmission through Cross-Selling Banks",
+    "url": "https://cepr.org/publications/dp20505-0",
+    "summary": "We show theoretically how the anticipated cross-selling of loans incentivizes banks to offer lower deposit spreads to attract and retain depositors, more when policy rates are lower and future cross-selling is more valuable. Utilizing comprehensive data on every Norwegian bank household relationship, we then establish empirically how banks facing identical loan demand respond to policy rate cuts with greater deposit spread reductions for clients with higher cross-selling potential, thereby raising both deposit and loan growth. Cross-selling constitutes a complementary, novel channel for monetary policy transmission through banks, elucidates loss-making deposit pricing in low-rate periods, and connects banks\u2019 deposit and loan franchises.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:16.023309+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "90baf6398db8dd8a"
+  },
+  {
+    "id": "cepr-discussion-papers-6fae4c4558dbfa14",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20506 When Do Migrants Shape Culture?",
+    "url": "https://cepr.org/publications/dp20506",
+    "summary": "This chapter explores the impacts of migrants on the culture of their destinations. Migrants often assimilate to local social norms and practices, but they also tend to maintain their own culture. Sometimes, beyond preserving their culture, they influence their new neighbors. We propose a conceptual framework to understand when migrants shape culture at their destination---and how. We identify two key conditions for influence (ideological intensity and power structure) and three channels of influence (cultural spillovers, organizational mobilization, and political leverage). We combine insights from political economy, social psychology, and evolutionary approaches to illuminate pathways of influence in historical perspective. Our review offers a new perspective on the mechanisms of cultural transmission, using illustrative cases to characterize the various ways in which migrants shape culture in their destinations.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:16.024782+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "6fae4c4558dbfa14"
+  },
+  {
+    "id": "cepr-discussion-papers-efacd55d2e293616",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20505 The Negative Liquidity Effect of Mortgage Regulation",
+    "url": "https://cepr.org/publications/dp20505",
+    "summary": "We use Norwegian data on household balance sheets, housing transactions, and consumption to evaluate the impact of loan-to-value (LTV) regulation. We find that LTV caps do not only reduce leverage, but also liquidity. The negative liquidity effect is stronger for first time buyers and persistent. While average consumption remains unchanged, buyers subject to the cap reduce consumption more following income shocks, consistent with lower liquidity raising the marginal propensity to consume. This effect is concentrated in housing-related spending and is accompanied by a higher likelihood of downscaling, highlighting an unintended consequence of LTV regulation through reduced financial buffers.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:16.025374+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "efacd55d2e293616"
+  },
+  {
     "id": "marketwatch-c63b9165c65fecd7",
     "sourceId": "marketwatch",
     "sourceName": "MarketWatch",
@@ -866,6 +930,24 @@
     ],
     "priority": "normal",
     "contentHash": "6178db7562e0d39f"
+  },
+  {
+    "id": "bloomberg-markets-ef33f47c5ea31b44",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Stocks Hold at Record, Dollar Jumps on Trade Hopes: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
+    "summary": "Wall Street traders left stocks at all-time highs while the dollar climbed the most since May, with a tariff deal between President Donald Trump and the European Union bolstering hopes for an extension of a China trade truce. Treasuries edged lower.",
+    "publishedAt": "2025-07-27T22:25:35+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.449644+00:00",
+    "category": "markets",
+    "tags": [
+      "Currency",
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ef33f47c5ea31b44"
   },
   {
     "id": "fortune-6bc8265046ebf7fc",
@@ -1354,6 +1436,104 @@
     "contentHash": "25d8f4dfe277c0d4"
   },
   {
+    "id": "yahoo-finance-902e7de35d6c37b5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "AT&T Inc. (T) Is Very Good At What It Does, Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/t-inc-t-very-good-201247145.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:12:47+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.643477+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "902e7de35d6c37b5"
+  },
+  {
+    "id": "yahoo-finance-94f17f2a48c1b84e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Blackstone Inc. (BX)\u2019s CEO Said Some Great Stuff Recently, Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/blackstone-inc-bx-ceo-said-201230420.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:12:30+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.643401+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "94f17f2a48c1b84e"
+  },
+  {
+    "id": "yahoo-finance-42765c96d31e4bfa",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Chipotle Mexican Grill, Inc. (CMG): The $5 Meal Line Was \u2018Abhorrent,\u201d Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/chipotle-mexican-grill-inc-cmg-201214295.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:12:14+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.643325+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "42765c96d31e4bfa"
+  },
+  {
+    "id": "yahoo-finance-abe5daef19d0d9ef",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Union Pacific Corporation (UNP): Jim Cramer Reveals How Its Merger Could Succeed",
+    "url": "https://finance.yahoo.com/news/union-pacific-corporation-unp-jim-201155733.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:11:55+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.643221+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "abe5daef19d0d9ef"
+  },
+  {
+    "id": "yahoo-finance-0d423561d32b95df",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Norfolk Southern Corporation (NSC): Jim Cramer Reveals How Its Merger Could Succeed",
+    "url": "https://finance.yahoo.com/news/norfolk-southern-corporation-nsc-jim-201038535.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:10:38+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.643073+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0d423561d32b95df"
+  },
+  {
+    "id": "yahoo-finance-0e95050a00fc3a86",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "IonQ, Inc. (IONQ): \u201cI\u2019m Going All In Quantum,\u201d Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/ionq-inc-ionq-m-going-201011099.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T20:10:11+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642998+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0e95050a00fc3a86"
+  },
+  {
     "id": "techmeme-601551e4afb9b648",
     "sourceId": "techmeme",
     "sourceName": "Techmeme",
@@ -1635,6 +1815,22 @@
     "contentHash": "4ac63caa39231e8a"
   },
   {
+    "id": "yahoo-finance-cddbbf6e198a1721",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Tesla's valuation is hard to read as Musk's EV empire falters",
+    "url": "https://finance.yahoo.com/news/why-teslas-valuation-is-hard-to-read-as-musks-ev-empire-falters-190957863.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T19:09:57+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642917+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "cddbbf6e198a1721"
+  },
+  {
     "id": "seeking-alpha-721485a5fd61a14f",
     "sourceId": "seeking-alpha",
     "sourceName": "Seeking Alpha",
@@ -1734,6 +1930,23 @@
     ],
     "priority": "high",
     "contentHash": "355d5ebb0c9163e0"
+  },
+  {
+    "id": "fortune-7cb8830eeb2ab433",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "U.S. and EU reach a trade deal that sets 15% tariff rate and pledges hundreds of billions in investments",
+    "url": "https://fortune.com/2025/07/27/us-eu-trade-trump-tariffs-investments-energy-defense-barriers/",
+    "summary": "Trump said the EU will invest $600 billion in the U.S. and buy $750 billion worth of U.S. energy products.",
+    "publishedAt": "2025-07-27T18:56:41+00:00",
+    "fetchedAt": "2025-07-29T02:56:15.198932+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "7cb8830eeb2ab433"
   },
   {
     "id": "business-insider-3d9c3048d330ac12",
@@ -2016,6 +2229,22 @@
     "contentHash": "06e418e2175212ac"
   },
   {
+    "id": "yahoo-finance-e76b86e6c03e487c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Amazon, Apple, Visa, Meta, Fed, Inflation, Jobs, and More to Watch This Week",
+    "url": "https://www.barrons.com/articles/amazon-apple-visa-meta-fed-inflation-jobs-607de827?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-27T18:00:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642821+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "e76b86e6c03e487c"
+  },
+  {
     "id": "abnormal-returns-d302616921ace3f3",
     "sourceId": "abnormal-returns",
     "sourceName": "Abnormal Returns",
@@ -2049,6 +2278,105 @@
     "contentHash": "d2e50e1cebec6a56"
   },
   {
+    "id": "yahoo-finance-9852232a222ebb0e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "More Details on EU Tariff Deal",
+    "url": "https://www.barrons.com/livecoverage/trumpsunday0727/card/more-details-on-eu-tariff-deal-JHiLasZEuGafNcc48vtI?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:46:08+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642663+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9852232a222ebb0e"
+  },
+  {
+    "id": "yahoo-finance-460953712c0824ee",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dogs of the Dow: Why Verizon\u2019s (VZ) High Dividend Yield Still Looks Safe",
+    "url": "https://finance.yahoo.com/news/dogs-dow-why-verizon-vz-174523202.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:45:23+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642592+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "460953712c0824ee"
+  },
+  {
+    "id": "yahoo-finance-e660bbdba2dc8eca",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Yield-Focused Investors Favor Chevron (CVX) in the Dogs of the Dow Portfolio",
+    "url": "https://finance.yahoo.com/news/why-yield-focused-investors-favor-174250563.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:42:50+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642516+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e660bbdba2dc8eca"
+  },
+  {
+    "id": "yahoo-finance-79d3d93e4ea36997",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Merck (MRK) as a Reliable Dividend Player in the Dogs of the Dow Lineup",
+    "url": "https://finance.yahoo.com/news/merck-mrk-reliable-dividend-player-173937286.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:39:37+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642444+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "79d3d93e4ea36997"
+  },
+  {
+    "id": "yahoo-finance-4a18305ca5e37c8d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "UnitedHealth Group\u2019s (UNH) Healthcare Dominance: A Key Player in the Dogs of the Dow",
+    "url": "https://finance.yahoo.com/news/unitedhealth-group-unh-healthcare-dominance-173647934.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:36:47+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642291+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4a18305ca5e37c8d"
+  },
+  {
+    "id": "yahoo-finance-ca76df7c241d9d82",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dogs of the Dow: Why Amgen\u2019s (AMGN) Dividend Power Makes it a Standout Pick",
+    "url": "https://finance.yahoo.com/news/dogs-dow-why-amgen-amgn-173556215.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:35:56+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642189+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ca76df7c241d9d82"
+  },
+  {
     "id": "handelsblatt-709f2d6cb5cd78cc",
     "sourceId": "handelsblatt",
     "sourceName": "Handelsblatt",
@@ -2063,6 +2391,22 @@
     ],
     "priority": "normal",
     "contentHash": "709f2d6cb5cd78cc"
+  },
+  {
+    "id": "yahoo-finance-bd57fa88b418de01",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Johnson & Johnson\u2019s (JNJ) Defensive Strength Shines Among the Dogs of the Dow",
+    "url": "https://finance.yahoo.com/news/johnson-johnson-jnj-defensive-strength-173106108.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:31:06+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642112+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "bd57fa88b418de01"
   },
   {
     "id": "seeking-alpha-408e859602e513fe",
@@ -2147,6 +2491,70 @@
     "contentHash": "de4dff15630271ad"
   },
   {
+    "id": "yahoo-finance-aa0fc8374469ac93",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cisco Systems (CSCO): A Steady Performer Among the Dogs of the Dow",
+    "url": "https://finance.yahoo.com/news/cisco-systems-csco-steady-performer-172305591.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:23:05+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642037+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "aa0fc8374469ac93"
+  },
+  {
+    "id": "yahoo-finance-6e54dde60cc82775",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Coca-Cola\u2019s (KO) Timeless Appeal Among the Dogs of the Dow",
+    "url": "https://finance.yahoo.com/news/coca-cola-ko-timeless-appeal-172215484.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:22:15+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641890+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6e54dde60cc82775"
+  },
+  {
+    "id": "yahoo-finance-3868c6f85aa20668",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dogs of the Dow: Why Procter & Gamble (PG) is a Pillar of Dividend Stability",
+    "url": "https://finance.yahoo.com/news/dogs-dow-why-procter-gamble-171954763.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:19:54+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641805+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3868c6f85aa20668"
+  },
+  {
+    "id": "yahoo-finance-1f7e27b7bafd7222",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why The Home Depot (HD) Remains a Reliable Dividend Pick in the Dogs of the Dow",
+    "url": "https://finance.yahoo.com/news/why-home-depot-hd-remains-171552997.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:15:52+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641731+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1f7e27b7bafd7222"
+  },
+  {
     "id": "ft-economics-70e3919dffe2a409",
     "sourceId": "ft-economics",
     "sourceName": "FT Economics",
@@ -2197,6 +2605,22 @@
     "contentHash": "cd9e65dbc5e8a570"
   },
   {
+    "id": "yahoo-finance-ad44fa93c8788d87",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why NIKE (NKE) Could Be a Comeback Story Among the Dogs of the Dow",
+    "url": "https://finance.yahoo.com/news/why-nike-nke-could-comeback-170559714.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:05:59+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641656+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ad44fa93c8788d87"
+  },
+  {
     "id": "handelsblatt-03712602a663c246",
     "sourceId": "handelsblatt",
     "sourceName": "Handelsblatt",
@@ -2227,6 +2651,24 @@
     ],
     "priority": "normal",
     "contentHash": "4b448357c0692366"
+  },
+  {
+    "id": "yahoo-finance-ea03b35605db5b3b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tech Earnings, Tariff Deadline and Other Key Things to Watch this Week",
+    "url": "https://finance.yahoo.com/news/tech-earnings-tariff-deadline-other-170002968.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T17:00:02+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641509+00:00",
+    "category": "markets",
+    "tags": [
+      "Tech",
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ea03b35605db5b3b"
   },
   {
     "id": "yahoo-finance-857ddf3e4d924d5b",
@@ -2424,6 +2866,22 @@
     "contentHash": "ea07ff50accccf2f"
   },
   {
+    "id": "yahoo-finance-5ff29320352ae8de",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "We\u2019re in our 70s with a $260K mortgage at 3% interest and $1.6 million in savings. Should we pay off our house in full?",
+    "url": "https://finance.yahoo.com/news/70s-260k-mortgage-3-interest-162300639.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T16:23:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.643567+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5ff29320352ae8de"
+  },
+  {
     "id": "ft-economics-216de9c524d96969",
     "sourceId": "ft-economics",
     "sourceName": "FT Economics",
@@ -2520,6 +2978,23 @@
     "contentHash": "c8a1c0584614fd3c"
   },
   {
+    "id": "yahoo-finance-5cbbcf5f06b436d8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "3 High-Yield Energy Stocks That Can Survive in Today's Fast-Changing Energy Landscape",
+    "url": "https://finance.yahoo.com/news/3-high-yield-energy-stocks-160800241.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T16:08:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.643146+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5cbbcf5f06b436d8"
+  },
+  {
     "id": "fortune-95ab4419d30ebd96",
     "sourceId": "fortune",
     "sourceName": "Fortune",
@@ -2534,6 +3009,55 @@
     ],
     "priority": "normal",
     "contentHash": "95ab4419d30ebd96"
+  },
+  {
+    "id": "yahoo-finance-b5ad7b5caea119ec",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "\u2018US exceptionalism roars back\u2019 as markets defy doomsayers and draw record foreign inflows after panic over Trump tariffs",
+    "url": "https://finance.yahoo.com/news/us-exceptionalism-roars-back-markets-160548726.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T16:05:48+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642748+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b5ad7b5caea119ec"
+  },
+  {
+    "id": "yahoo-finance-0cbd187cfe5efe13",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "5 Breakout Growth Stocks You Can Buy and Hold for the Next Decade",
+    "url": "https://finance.yahoo.com/news/5-breakout-growth-stocks-buy-160500753.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T16:05:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.642369+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0cbd187cfe5efe13"
+  },
+  {
+    "id": "yahoo-finance-7e45adc09cea0542",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Elon Musk's SpaceX Moves Bitcoin For The First Time In 3 Years: Is A Sell-Off Incoming?",
+    "url": "https://finance.yahoo.com/news/elon-musks-spacex-moves-bitcoin-160154685.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T16:01:54+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641967+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7e45adc09cea0542"
   },
   {
     "id": "scmp-business-e70ceabb48b30995",
@@ -2621,6 +3145,22 @@
     "contentHash": "a6854bb6a3f8453e"
   },
   {
+    "id": "yahoo-finance-11f4fe07a21b9e7e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "2 Growth Stocks Wall Street Might Be Sleeping on, But I'm Not",
+    "url": "https://finance.yahoo.com/news/2-growth-stocks-wall-street-155100966.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:51:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641582+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "11f4fe07a21b9e7e"
+  },
+  {
     "id": "benthams-5088acb4bf9f4eca",
     "sourceId": "benthams",
     "sourceName": "Benthams",
@@ -2685,6 +3225,38 @@
     "contentHash": "4f1bcd18b2808b63"
   },
   {
+    "id": "yahoo-finance-4a70a102e07b4a87",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Here's what could happen to the S&P 500 in August",
+    "url": "https://finance.yahoo.com/news/analyst-sounds-alarm-p-500-153300881.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:33:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.640833+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4a70a102e07b4a87"
+  },
+  {
+    "id": "yahoo-finance-07dcb8282e1e6b92",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Telecoms boss lands record \u00a3131m payday",
+    "url": "https://finance.yahoo.com/news/telecoms-boss-lands-record-131m-153010048.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:30:10+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.640293+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "07dcb8282e1e6b92"
+  },
+  {
     "id": "techmeme-23189924abbfa655",
     "sourceId": "techmeme",
     "sourceName": "Techmeme",
@@ -2715,6 +3287,23 @@
     ],
     "priority": "normal",
     "contentHash": "4c02766e2899058b"
+  },
+  {
+    "id": "yahoo-finance-10c16346bc384c93",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Major Bank Thinks Bitcoin Is Going To Get Less Volatile \u2014 Is It Time To Invest?",
+    "url": "https://finance.yahoo.com/news/major-bank-thinks-bitcoin-going-152309520.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:23:09+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641269+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "10c16346bc384c93"
   },
   {
     "id": "fortune-c9e9a4ddbe3537ec",
@@ -2751,6 +3340,56 @@
     "contentHash": "b1da16f4a2abd11b"
   },
   {
+    "id": "yahoo-finance-9eaf3f2071a4021c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Amazon (AMZN) Stock Target Raised to $265 as AWS and AI Momentum Build",
+    "url": "https://finance.yahoo.com/news/amazon-amzn-stock-target-raised-151715036.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:17:15+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.640193+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9eaf3f2071a4021c"
+  },
+  {
+    "id": "yahoo-finance-a9aa91c9f16ffaeb",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Microsoft\u2019s (MSFT) Cloud and AI Strategy Could Deliver Big Q4 Upside",
+    "url": "https://finance.yahoo.com/news/microsoft-msft-cloud-ai-strategy-151321850.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:13:21+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.640510+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "a9aa91c9f16ffaeb"
+  },
+  {
+    "id": "yahoo-finance-2d3f1cf4a1ce200c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Is opting to draw down my 401(k) first to boost my Social Security checks a shrewd move or boneheaded choice?",
+    "url": "https://finance.yahoo.com/news/opting-draw-down-401-k-151100375.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:11:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.640384+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2d3f1cf4a1ce200c"
+  },
+  {
     "id": "techmeme-21c6cdb4132877a4",
     "sourceId": "techmeme",
     "sourceName": "Techmeme",
@@ -2768,6 +3407,39 @@
     "contentHash": "21c6cdb4132877a4"
   },
   {
+    "id": "yahoo-finance-d878874d71a3661e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Meta Sees Ad Momentum Ahead of Earnings \u2014 Analysts Raise Targets",
+    "url": "https://finance.yahoo.com/news/meta-sees-ad-momentum-ahead-150904493.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:09:04+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.640757+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d878874d71a3661e"
+  },
+  {
+    "id": "yahoo-finance-ec220efa1825a5c8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Morgan Stanley Thinks Alphabet\u2019s (GOOGL) Innovation Cycle Isn\u2019t Priced In Yet",
+    "url": "https://finance.yahoo.com/news/why-morgan-stanley-thinks-alphabet-150510446.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:05:10+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.640666+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ec220efa1825a5c8"
+  },
+  {
     "id": "zerohedge-454b21c75648b5f7",
     "sourceId": "zerohedge",
     "sourceName": "ZeroHedge",
@@ -2782,6 +3454,22 @@
     ],
     "priority": "normal",
     "contentHash": "454b21c75648b5f7"
+  },
+  {
+    "id": "yahoo-finance-b3663d25493ffeb9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Nvidia\u2019s (NVDA) Data Center Boom Continues \u2014 Analyst Lifts Price Target to $192",
+    "url": "https://finance.yahoo.com/news/nvidia-nvda-data-center-boom-150159157.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T15:01:59+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.640916+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b3663d25493ffeb9"
   },
   {
     "id": "scmp-business-9411ca03b9625b8f",
@@ -2865,6 +3553,23 @@
     "contentHash": "1724d0c6791f0925"
   },
   {
+    "id": "yahoo-finance-7893cfaee80b32c0",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Apple (AAPL) Stock Gets $245 Price Target Ahead of Earnings \u2014 Here\u2019s Why",
+    "url": "https://finance.yahoo.com/news/apple-aapl-stock-gets-245-145751154.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T14:57:51+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.640994+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7893cfaee80b32c0"
+  },
+  {
     "id": "ft-technology-fa2b3a2e2cdcd225",
     "sourceId": "ft-technology",
     "sourceName": "FT Technology",
@@ -2879,6 +3584,55 @@
     ],
     "priority": "normal",
     "contentHash": "fa2b3a2e2cdcd225"
+  },
+  {
+    "id": "yahoo-finance-5468cd8509e4cea7",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tesla (TSLA) Misses on Q2 Earnings, But Morgan Stanley Still Says Buy",
+    "url": "https://finance.yahoo.com/news/tesla-tsla-misses-q2-earnings-145218715.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T14:52:18+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641082+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5468cd8509e4cea7"
+  },
+  {
+    "id": "yahoo-finance-c910153ee21623bf",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Rise of \u2018accidental landlords\u2019 having serious impact on America's housing supply \u2014 what owners and renters need to know",
+    "url": "https://finance.yahoo.com/news/rise-accidental-landlords-having-serious-145000626.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T14:50:00+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641361+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c910153ee21623bf"
+  },
+  {
+    "id": "yahoo-finance-79ffa03d8a4a983c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "ASML: Limited China Risk, Leading-Edge Exposure Could Drive Outperformance",
+    "url": "https://finance.yahoo.com/news/asml-limited-china-risk-leading-144910827.html",
+    "summary": "",
+    "publishedAt": "2025-07-27T14:49:10+00:00",
+    "fetchedAt": "2025-07-29T02:56:14.641162+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "79ffa03d8a4a983c"
   },
   {
     "id": "fortune-0a0215677597f9e7",
