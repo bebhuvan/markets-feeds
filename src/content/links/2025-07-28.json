@@ -166,6 +166,23 @@
     "contentHash": "077e1be4143e1513"
   },
   {
+    "id": "bloomberg-markets-8cd6194943aef7ab",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Oil Advances on US Consumer Surprise, Trump\u2019s Truce Pressure",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-28/latest-oil-market-news-and-analysis-for-july-29",
+    "summary": "Oil extended gains amid better-than-expected US economic data and concerns about international supply disruptions.",
+    "publishedAt": "2025-07-28T23:39:45+00:00",
+    "fetchedAt": "2025-07-29T15:49:37.974880+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8cd6194943aef7ab"
+  },
+  {
     "id": "yahoo-finance-2e21bf5008c53e0a",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -197,6 +214,23 @@
     ],
     "priority": "normal",
     "contentHash": "93abcc0b5edf7a58"
+  },
+  {
+    "id": "yahoo-finance-691d086df878a8f6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock market today: S&P 500, Nasdaq rise as earnings flood in and focus turns to the Fed",
+    "url": "https://finance.yahoo.com/news/live/stock-market-today-sp-500-nasdaq-rise-as-earnings-flood-in-and-focus-turns-to-the-fed-233720583.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:37:20+00:00",
+    "fetchedAt": "2025-07-29T15:49:38.978077+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "691d086df878a8f6"
   },
   {
     "id": "marketwatch-91928ffd0b3a9d81",
@@ -431,6 +465,22 @@
     ],
     "priority": "high",
     "contentHash": "87a6bed51ce724b0"
+  },
+  {
+    "id": "cepr-discussion-papers-cad8113305175008",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20508 Accessing higher quality justice",
+    "url": "https://cepr.org/publications/dp20508",
+    "summary": "Research shows that lawyers affect legal outcomes, but little is known about how clients choose lawyers. We conduct an experiment with plaintiffs in the Mexico City Labor Court. We compare plaintiffs\u2019 choice of lawyers in a control group and two treatment groups: one that increases the plaintiff\u2019s knowledge of likely case outcomes and the other that facilitates meetings with public lawyers. The knowledge treatment group contracts higher-quality lawyers, with whom they are more satisfied. The treatment halves the market share of low-quality \u201cambulance chasers\u201d. The meeting treatment increases the use of public lawyers but does not increase satisfaction.",
+    "publishedAt": "2025-07-28T23:00:00+00:00",
+    "fetchedAt": "2025-07-29T15:49:40.499386+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "cad8113305175008"
   },
   {
     "id": "bloomberg-markets-4e97f6c12e97cd7f",
@@ -682,6 +732,24 @@
     ],
     "priority": "high",
     "contentHash": "5af6687e9b9abd35"
+  },
+  {
+    "id": "bloomberg-markets-aacdf0e844445aff",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Stocks Halt Rally in Run-Up to Fed as Bonds Climb: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-28/stock-market-today-dow-s-p-live-updates",
+    "summary": "The rally in stocks lost steam in the run-up to the Federal Reserve decision, with Wall Street traders wading through economic data and corporate earnings to justify high valuations. The dollar hit the strongest level in five weeks. Bonds climbed.",
+    "publishedAt": "2025-07-28T22:20:43+00:00",
+    "fetchedAt": "2025-07-29T15:49:37.969144+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets",
+      "Currency"
+    ],
+    "priority": "high",
+    "contentHash": "aacdf0e844445aff"
   },
   {
     "id": "the-verge-3535fa1009bb21cd",
