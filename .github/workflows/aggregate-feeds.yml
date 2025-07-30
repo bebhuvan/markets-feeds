@@ -47,7 +47,7 @@ jobs:
           
       - name: Run RSS aggregation
         run: |
-          python scripts/aggregate_feeds.py
+          python scripts/aggregate_feeds_improved.py
         env:
           PYTHONUNBUFFERED: 1
           

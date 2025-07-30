@@ -1,11 +1,13 @@
 ---
+export const prerender = false;
+
 import { RSS_SOURCES } from '../../config/sources';
 
 // Simple password check
 const url = new URL(Astro.request.url);
 const password = url.searchParams.get('pass') || Astro.cookies.get('admin_pass')?.value;
 
-if (password !== 'your-secure-password-123') {
+if (password !== 'MF2025!SecureTeam#AdminAccess789') {
   return Astro.redirect('/admin/login');
 }
 
@@ -551,6 +553,19 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
     </div>
 
     <script>
+        // Development mode authentication fallback
+        if (!window.location.search.includes('pass=') && sessionStorage.getItem('admin_auth')) {
+            const auth = sessionStorage.getItem('admin_auth');
+            if (auth === 'MF2025!SecureTeam#AdminAccess789') {
+                // Add password to URL for Astro to read
+                const url = new URL(window.location);
+                url.searchParams.set('pass', auth);
+                window.history.replaceState({}, '', url);
+                // Reload to let Astro process the password
+                window.location.reload();
+            }
+        }
+
         // Search and filter functionality
         document.getElementById('feed-search')?.addEventListener('input', (e) => {
             const searchTerm = e.target.value.toLowerCase();

@@ -88,7 +88,7 @@
     "summary": "The insane attempted AI moratorium has been stripped from the BBB.",
     "publishedAt": "2025-07-01T18:47:51+00:00",
     "fetchedAt": "2025-07-28T06:22:19.230554+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "AI",
       "Research"
@@ -102,7 +102,7 @@
     "sourceName": "Federal Reserve Working Papers",
     "title": "FEDS Paper: The Dollar Channel of Monetary Policy Transmission",
     "url": "https://www.federalreserve.gov/econres/feds/the-dollar-channel-of-monetary-policy-transmission.htm",
-    "summary": "Ralf R. Meisenzahl, Friederike Niepmann, and Tim Schmidt-EisenlohrThis paper documents a new dollar channel that transmits monetary policy across borders. Exploiting unique features of the syndicated loan market for identification, we show that changes in the euro-dollar exchange rate around ECB monetary policy announcements that are orthogonal to simultaneous changes in euro-area interest rates and stock prices affect U.S. leveraged loan spreads. Specifically, in response to dollar appreciation, investors require higher compensation for risk, and borrowing costs for U.S. firms increase. These findings imply a causal link between the U.S. dollar and investors\u2019 risk appetite.",
+    "summary": "Ralf R. Meisenzahl, Friederike Niepmann, and Tim Schmidt-EisenlohrThis paper documents a new dollar channel that transmits monetary policy across borders. Exploiting unique features of the syndicated loan market for identification, we show that changes in the euro-dollar exchange rate around ECB monetary policy announcements that are orthogonal to simultaneous changes in euro-area interest rates and stock prices affect U.S. leveraged loan spreads. Specifically, in response to dollar appreciation, investors require higher compensation for risk, and borrowing costs for U.S. firms increase. These findings imply a causal link between the U.S. dollar and investors’ risk appetite.",
     "publishedAt": "2025-07-01T18:46:00+00:00",
     "fetchedAt": "2025-07-28T08:46:10.664408+00:00",
     "category": "research",
@@ -138,7 +138,7 @@
     "summary": "INmune, Linqto, SRT financing, bank AI agents and the AI pay wars.",
     "publishedAt": "2025-07-01T18:26:11+00:00",
     "fetchedAt": "2025-07-28T04:04:08.133682+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research",
       "AI"
@@ -200,10 +200,10 @@
     "sourceName": "Larry Swedroe",
     "title": "Second Quarter 2025 Economic and Market Review and Outlook",
     "url": "https://larryswedroe.substack.com/p/second-quarter-2025-economic-and",
-    "summary": "Israel\u2019s June 12th attack on Iran\u2019s nuclear and military facilities increased geopolitical risks (raising the risk of a broadening of the conflict across the region), pushed energy prices higher (and could have led to them going much higher, for example, if Iran had blocked the straits of Hormuz) with a negative impact on inflation, impacting the Fed\u2019s ability/willingness to lower interest rates in response to weaker economic growth. While sharp increases in oil prices have been major factors in four prior recessions (1973, 1980, 1982, and 1990) Columbia University\u2019s Center on Global Energy Policy noted that while in 1973 one barrel of oil was responsible for $1,000 of gross domestic product, it\u2019s now less than half that. In addition, unlike in 1973 when the US was a large net importer of energy, today we are a net exporter. According to the Fed\u2019s FRBUS model of the US economy, a sustained $10 increase in oil prices would be expected to increase inflation by 0.4% and lower GDP by 0.4%.",
+    "summary": "Israel’s June 12th attack on Iran’s nuclear and military facilities increased geopolitical risks (raising the risk of a broadening of the conflict across the region), pushed energy prices higher (and could have led to them going much higher, for example, if Iran had blocked the straits of Hormuz) with a negative impact on inflation, impacting the Fed’s ability/willingness to lower interest rates in response to weaker economic growth. While sharp increases in oil prices have been major factors in four prior recessions (1973, 1980, 1982, and 1990) Columbia University’s Center on Global Energy Policy noted that while in 1973 one barrel of oil was responsible for $1,000 of gross domestic product, it’s now less than half that. In addition, unlike in 1973 when the US was a large net importer of energy, today we are a net exporter. According to the Fed’s FRBUS model of the US economy, a sustained $10 increase in oil prices would be expected to increase inflation by 0.4% and lower GDP by 0.4%.",
     "publishedAt": "2025-07-01T15:59:33+00:00",
     "fetchedAt": "2025-07-28T06:22:16.435731+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Earnings",
       "Research",
@@ -216,9 +216,9 @@
     "id": "economist-finance-9938ebfba1420316",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
-    "title": "Can Trump end America\u2019s $1.8trn student-debt nightmare?",
+    "title": "Can Trump end America’s $1.8trn student-debt nightmare?",
     "url": "https://www.economist.com/finance-and-economics/2025/07/01/can-trump-end-americas-18trn-student-debt-nightmare",
-    "summary": "The Biden administration added to the problem. Now the \u201cBig, Beautiful Bill\u201d could help solve it",
+    "summary": "The Biden administration added to the problem. Now the “Big, Beautiful Bill” could help solve it",
     "publishedAt": "2025-07-01T15:52:50+00:00",
     "fetchedAt": "2025-07-28T03:50:55.560614+00:00",
     "category": "macro",
@@ -327,6 +327,22 @@
     "contentHash": "1955365861f0d387"
   },
   {
+    "id": "ecfr-d483910e28719424",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "New tools: How the EU can show China it means business",
+    "url": "https://ecfr.eu/article/new-tools-how-the-eu-can-show-china-it-means-business/",
+    "summary": "Chinese policymakers are well used to ignoring European objections to decisions made in Beijing. With a new array of tools, the EU could finally cause them to think differently.",
+    "publishedAt": "2025-07-01T13:04:24+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.190110+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "high",
+    "contentHash": "d483910e28719424"
+  },
+  {
     "id": "africanist-perspective-b9f9d3d334e793b3",
     "sourceId": "africanist-perspective",
     "sourceName": "Africanist Perspective",
@@ -359,12 +375,44 @@
     "contentHash": "1ba577a000dcc1b2"
   },
   {
+    "id": "allison-schrager-1ffe357fce645571",
+    "sourceId": "allison-schrager",
+    "sourceName": "Known Unknowns",
+    "title": "The new divide",
+    "url": "https://allisonschrager.substack.com/p/the-new-divide",
+    "summary": "New friends and idealogical foes, but at least we can all meet at our club",
+    "publishedAt": "2025-07-01T11:30:22+00:00",
+    "fetchedAt": "2025-07-30T08:46:05.886980+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "1ffe357fce645571"
+  },
+  {
+    "id": "of-dollars-data-37284dff03ccdfff",
+    "sourceId": "of-dollars-data",
+    "sourceName": "Of Dollars And Data",
+    "title": "Why Financial Independence is Overrated",
+    "url": "https://ofdollarsanddata.com/why-financial-independence-is-overrated/",
+    "summary": "Financial independence. It's the ultimate goal in personal finance. But is it all it's cracked up to be? Though financial independence is clearly better than financial dependence, many people race toward it without thinking through the possible consequences. As a result, they can end up creating a lifestyle that prioritizes money over everything and leads to increased stress. This hasty pursuit of financial independence is not just unnecessary, but sometimes counterproductive. I've seen people do this and I used to be like this as well. In my early 20s, I skipped out on some dinners with friends, passed on a few weekend trips, and avoided things that didn't move me closer to my financial goal. I cut costs mercilessly, believing that once I got to a certain point, everything else would fall into place. Historically, this is why I was a huge fan of financial independence. But as I've gotten closer to reaching that goal, I've realized that rushing to hit an arbitrary number may not be the",
+    "publishedAt": "2025-07-01T11:30:06+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.664831+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "37284dff03ccdfff"
+  },
+  {
     "id": "cfa-enterprising-investor-11de19daf1ba55cf",
     "sourceId": "cfa-enterprising-investor",
     "sourceName": "CFA Enterprising Investor",
-    "title": "Fed Independence Tested, but Investors Shouldn\u2019t Expect a Pivot",
+    "title": "Fed Independence Tested, but Investors Shouldn’t Expect a Pivot",
     "url": "https://blogs.cfainstitute.org/investor/2025/07/01/fed-independence-tested-but-investors-shouldnt-expect-a-pivot/",
-    "summary": "Investors betting on a near-term plunge in interest rates may be mistaking political theater for monetary policy reality. President Donald Trump\u2019s renewed pressure on Federal Reserve Chair Jerome Powell has stirred speculation in the bond and futures markets. But history \u2014 and Powell\u2019s own posture \u2014 suggest that such expectations are misplaced. Past confrontations between [\u2026] The post Fed Independence Tested, but Investors Shouldn\u2019t Expect a Pivot appeared first on CFA Institute Enterprising Investor.",
+    "summary": "Investors betting on a near-term plunge in interest rates may be mistaking political theater for monetary policy reality. President Donald Trump’s renewed pressure on Federal Reserve Chair Jerome Powell has stirred speculation in the bond and futures markets. But history — and Powell’s own posture — suggest that such expectations are misplaced. Past confrontations between […] The post Fed Independence Tested, but Investors Shouldn’t Expect a Pivot appeared first on CFA Institute Enterprising Investor.",
     "publishedAt": "2025-07-01T11:17:24+00:00",
     "fetchedAt": "2025-07-28T08:46:10.404327+00:00",
     "category": "research",
@@ -384,7 +432,7 @@
     "summary": "Highlights from a Mandarin discussion group",
     "publishedAt": "2025-07-01T10:55:49+00:00",
     "fetchedAt": "2025-07-28T06:22:16.956404+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -416,11 +464,27 @@
     "summary": "Increasingly squeezed between the new leftism and the new rightism.",
     "publishedAt": "2025-07-01T08:38:15+00:00",
     "fetchedAt": "2025-07-28T04:04:07.485253+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
     "priority": "normal",
     "contentHash": "48558c295a5707bd"
+  },
+  {
+    "id": "yale-e360-b9e2f17d540143b2",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "London Inches Closer to Running Transit System Entirely on Renewable Power",
+    "url": "https://e360.yale.edu/digest/london-underground-solar-power",
+    "summary": "Under a new agreement, London will source enough solar power to run its light railway and tram networks entirely on renewable energy.Read more on E360 →",
+    "publishedAt": "2025-07-01T07:36:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.438232+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "normal",
+    "contentHash": "b9e2f17d540143b2"
   }
 ]

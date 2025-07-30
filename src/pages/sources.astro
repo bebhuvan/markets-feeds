@@ -9,6 +9,9 @@ const sourcesByCategory = {
     { name: 'Financial Times Markets', url: 'https://www.ft.com/markets?format=rss' },
     { name: 'FT Economics', url: 'https://www.ft.com/global-economy?format=rss' },
     { name: 'FT Technology', url: 'https://www.ft.com/technology?format=rss' },
+    { name: 'NYT Business', url: 'https://rss.nytimes.com/services/xml/rss/nyt/Business.xml' },
+    { name: 'NYT Economy', url: 'https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml' },
+    { name: 'NYT Technology', url: 'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml' },
     { name: 'Reuters', url: 'https://www.reuters.com/arc/outboundfeeds/rss/?outputType=xml' },
     { name: 'Rest of World', url: 'https://restofworld.org/feed/latest/' },
     { name: 'BBC Business', url: 'https://feeds.bbci.co.uk/news/business/rss.xml' },
@@ -30,6 +33,7 @@ const sourcesByCategory = {
   'Central Banks & Policy': [
     { name: 'Federal Reserve', url: 'https://www.federalreserve.gov/feeds/press_all.xml' },
     { name: 'European Central Bank', url: 'https://www.ecb.europa.eu/rss/press.html' },
+    { name: 'Foreign Affairs', url: 'https://www.foreignaffairs.com/rss.xml' },
   ],
   
   'Academic Research & Think Tanks': [
@@ -67,9 +71,7 @@ const sourcesByCategory = {
   ],
   
   'Business & Markets Media': [
-    { name: 'Seeking Alpha', url: 'https://seekingalpha.com/feed.xml' },
     { name: 'MarketWatch', url: 'https://feeds.marketwatch.com/marketwatch/topstories' },
-    { name: 'Investing.com', url: 'https://www.investing.com/rss/news.rss' },
     { name: 'Barrons', url: 'https://feeds.a.dj.com/rss/RSSOpinion.xml' },
     { name: 'ZeroHedge', url: 'https://feeds.feedburner.com/zerohedge/feed' },
     { name: 'Yahoo Finance', url: 'https://finance.yahoo.com/news/rssindex' },
@@ -83,7 +85,6 @@ const sourcesByCategory = {
   
   'Specialized Research': [
     { name: 'OilPrice.com', url: 'https://oilprice.com/rss/main' },
-    { name: 'ESG Today', url: 'https://www.esgtoday.com/feed/' },
     { name: 'The Acquirer Multiple', url: 'https://acquirersmultiple.com/feed/' },
   ],
   

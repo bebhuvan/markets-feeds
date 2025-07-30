@@ -28,7 +28,17 @@ const timeAgo = formatDistanceToNow(new Date(link.publishedAt));
     {link.priority === 'breaking' && (
       <>
         <span class="text-text-subtle">·</span>
-        <span class="text-red-600 font-semibold uppercase tracking-wide">Breaking</span>
+        <span class="inline-flex items-center px-2 py-1 text-xs font-bold text-white bg-red-600 rounded-full uppercase tracking-wide">
+          ⚡ Breaking
+        </span>
+      </>
+    )}
+    {link.priority === 'high' && (
+      <>
+        <span class="text-text-subtle">·</span>
+        <span class="inline-flex items-center px-2 py-1 text-xs font-medium text-orange-800 bg-orange-100 rounded-full uppercase tracking-wide">
+          High Priority
+        </span>
       </>
     )}
   </div>
@@ -46,9 +56,13 @@ const timeAgo = formatDistanceToNow(new Date(link.publishedAt));
   </h2>
   
   <!-- Summary -->
-  {link.summary && (
-    <p class="text-[15px] text-text-light leading-relaxed line-clamp-2 mb-3">
+  {link.summary && link.summary.trim() ? (
+    <p class="text-[15px] text-text-light leading-relaxed line-clamp-3 mb-3">
       {link.summary}
+    </p>
+  ) : (
+    <p class="text-[13px] text-text-subtle italic mb-3">
+      No preview available - click to read full article
     </p>
   )}
   
@@ -69,9 +83,9 @@ const timeAgo = formatDistanceToNow(new Date(link.publishedAt));
 </article>
 
 <style>
-  .line-clamp-2 {
+  .line-clamp-3 {
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }

@@ -5,7 +5,7 @@
     "sourceName": "Calculated Risk",
     "title": "Thursday: New Home Sales, Unemployment Claims",
     "url": "http://www.calculatedriskblog.com/2025/07/thursday-new-home-sales-unemployment.html",
-    "summary": "Note: Mortgage rates are from MortgageNewsDaily.com and are for top tier scenarios. Thursday: \u2022 At 8:30 AM, The initial weekly unemployment claims report will be released. The consensus is for initial claims to increase to 230 thousand from 221 thousand last week. \u2022 Also t 8:30 AM, Chicago Fed National Activity Index for June. This is a composite index of other data. \u2022 At 10:00 AM, New Home Sales for June from the Census Bureau. The consensus is for 650 thousand SAAR, up from 623 thousand in May. \u2022 At 11:00 AM, Kansas City Fed Survey of Manufacturing Activity for July.",
+    "summary": "Note: Mortgage rates are from MortgageNewsDaily.com and are for top tier scenarios. Thursday: • At 8:30 AM, The initial weekly unemployment claims report will be released. The consensus is for initial claims to increase to 230 thousand from 221 thousand last week. • Also t 8:30 AM, Chicago Fed National Activity Index for June. This is a composite index of other data. • At 10:00 AM, New Home Sales for June from the Census Bureau. The consensus is for 650 thousand SAAR, up from 623 thousand in May. • At 11:00 AM, Kansas City Fed Survey of Manufacturing Activity for July.",
     "publishedAt": "2025-07-23T23:53:00+00:00",
     "fetchedAt": "2025-07-28T04:04:08.188591+00:00",
     "category": "research",
@@ -32,20 +32,36 @@
     "contentHash": "35a9fff898878797"
   },
   {
-    "id": "bbc-business-cf3c626c97b33724",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "How are trade deals actually negotiated?",
-    "url": "https://www.bbc.com/news/articles/c2ezp9d7nk2o?at_medium=RSS&at_campaign=rss",
-    "summary": "With trade agreements making headlines, three former negotiators explain how the talks unfold.",
-    "publishedAt": "2025-07-23T23:44:59+00:00",
-    "fetchedAt": "2025-07-28T15:48:36.214574+00:00",
-    "category": "markets",
+    "id": "nyt-technology-b836ab405e82aec0",
+    "sourceId": "nyt-technology",
+    "sourceName": "NYT Technology",
+    "title": "The Chatbot Culture Wars Are Here",
+    "url": "https://www.nytimes.com/2025/07/23/technology/trump-ai-chatbots-bias.html",
+    "summary": "Conservatives, including President Trump, are accusing A.I. companies of left-wing bias, following a playbook that worked well against social media platforms.",
+    "publishedAt": "2025-07-23T23:25:06+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.510581+00:00",
+    "category": "technology",
     "tags": [
-      "Markets"
+      "Technology"
     ],
     "priority": "normal",
-    "contentHash": "cf3c626c97b33724"
+    "contentHash": "b836ab405e82aec0"
+  },
+  {
+    "id": "nyt-technology-00f92590d4c5b8f0",
+    "sourceId": "nyt-technology",
+    "sourceName": "NYT Technology",
+    "title": "Trump Plans to Give A.I. Developers a Free Hand",
+    "url": "https://www.nytimes.com/2025/07/23/technology/trump-ai-executive-orders.html",
+    "summary": "With executive orders and an “A.I. Action Plan” to promote American dominance of the technology, President Trump declared that the United States needed to win the A.I. race.",
+    "publishedAt": "2025-07-23T23:24:27+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.511851+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "00f92590d4c5b8f0"
   },
   {
     "id": "cepr-discussion-papers-009f382bafd8e314",
@@ -70,7 +86,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20488 A Long-Run Perspective on Unconditional Convergence in Manufacturing: Evidence from U.S. Industrialization",
     "url": "https://cepr.org/publications/dp20488",
-    "summary": "This paper examines long-run unconditional convergence of labour productivity in manufacturing across 48 contiguous U.S. states. We construct a detailed panel data set of state-industry pairs with over 120 industries covering the period 1880-2007. The remarkable finding is a rapid rate of unconditional \u03b2-convergence: 7.6% per year in the period 1880-2007, and about 6.5% in each period 1880-1940 and 1958-2007. We also find a steep rise in unconditional convergence from 5.5% in 1930-1940 to 10.6% in 1940-1947 and 9.4% in 1947-1958, followed by a considerable drop thereafter. In the years 1958-2007, the rate of convergence in ICT industries (8.3%) is higher than in 1st-Industrial-Revolution (6.3%) or 2nd-Industrial-Revolution (7.0%) industries. We interpret our results as a process of technological catch up between initially laggard Southern manufacturing and manufacturing industries in the North.",
+    "summary": "This paper examines long-run unconditional convergence of labour productivity in manufacturing across 48 contiguous U.S. states. We construct a detailed panel data set of state-industry pairs with over 120 industries covering the period 1880-2007. The remarkable finding is a rapid rate of unconditional β-convergence: 7.6% per year in the period 1880-2007, and about 6.5% in each period 1880-1940 and 1958-2007. We also find a steep rise in unconditional convergence from 5.5% in 1930-1940 to 10.6% in 1940-1947 and 9.4% in 1947-1958, followed by a considerable drop thereafter. In the years 1958-2007, the rate of convergence in ICT industries (8.3%) is higher than in 1st-Industrial-Revolution (6.3%) or 2nd-Industrial-Revolution (7.0%) industries. We interpret our results as a process of technological catch up between initially laggard Southern manufacturing and manufacturing industries in the North.",
     "publishedAt": "2025-07-23T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.828022+00:00",
     "category": "research",
@@ -80,6 +96,40 @@
     ],
     "priority": "high",
     "contentHash": "47b0ae4438208b2a"
+  },
+  {
+    "id": "nyt-technology-745aa8976c159206",
+    "sourceId": "nyt-technology",
+    "sourceName": "NYT Technology",
+    "title": "Tesla Earnings Show Falling Profit as Car Sales Slow",
+    "url": "https://www.nytimes.com/2025/07/23/business/tesla-earnings-elon-musk.html",
+    "summary": "Elon Musk has said robotaxis are the company’s future, but most revenue still comes from cars.",
+    "publishedAt": "2025-07-23T22:58:12+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.512097+00:00",
+    "category": "technology",
+    "tags": [
+      "Earnings",
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "745aa8976c159206"
+  },
+  {
+    "id": "nyt-technology-79ed877f023cee2e",
+    "sourceId": "nyt-technology",
+    "sourceName": "NYT Technology",
+    "title": "Alphabet Earnings Show 14% Revenue Increase as Google Faces A.I. Competition",
+    "url": "https://www.nytimes.com/2025/07/23/technology/alphabet-google-earnings-ai.html",
+    "summary": "Google’s parent company, which is facing aggressive competition in its core search business from A.I. chatbots, also posted a double-digit profit increase.",
+    "publishedAt": "2025-07-23T22:44:02+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.510818+00:00",
+    "category": "technology",
+    "tags": [
+      "Earnings",
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "79ed877f023cee2e"
   },
   {
     "id": "calculated-risk-c6d5bbf1e87eb950",
@@ -117,12 +167,12 @@
     "id": "wired-6b087c7bc23c5f49",
     "sourceId": "wired",
     "sourceName": "Wired",
-    "title": "Trump Says He\u2019s \u2018Getting Rid of Woke\u2019 and Dismisses Copyright Concerns in AI Policy Speech",
+    "title": "Trump Says He’s ‘Getting Rid of Woke’ and Dismisses Copyright Concerns in AI Policy Speech",
     "url": "https://www.wired.com/story/president-trump-ai-action-plan-speech/",
-    "summary": "The remarks, which came during a keynote speech at a summit hosted by the All-In Podcast, follow President Donald Trump\u2019s newly released AI Action Plan.",
+    "summary": "The remarks, which came during a keynote speech at a summit hosted by the All-In Podcast, follow President Donald Trump’s newly released AI Action Plan.",
     "publishedAt": "2025-07-23T22:11:07+00:00",
     "fetchedAt": "2025-07-28T06:12:24.133387+00:00",
-    "category": "research",
+    "category": "technology",
     "tags": [
       "AI",
       "Research"
@@ -131,15 +181,32 @@
     "contentHash": "6b087c7bc23c5f49"
   },
   {
+    "id": "nyt-economy-dc6ab79fa21a9616",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Investment Fund Seals Trade Deal for Japan and Expands Trump’s Influence",
+    "url": "https://www.nytimes.com/2025/07/23/business/economy/japan-fund-trump-tariffs-trade.html",
+    "summary": "President Trump will get to decide where to invest Japanese money and the United States will keep 90 percent of the profits, the White House said.",
+    "publishedAt": "2025-07-23T22:07:45+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.472182+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "dc6ab79fa21a9616"
+  },
+  {
     "id": "wired-53d04fc6395e28de",
     "sourceId": "wired",
     "sourceName": "Wired",
     "title": "Microsoft Put Older Versions of SharePoint on Life Support. Hackers Are Taking Advantage",
     "url": "https://www.wired.com/story/microsoft-sharepoint-hack-china-end-of-life-updates/",
-    "summary": "Multiple hacking groups\u2014including state actors from China\u2014have targeted a vulnerability in older, on-premises versions of the file-sharing tool after a flawed attempt to patch it.",
+    "summary": "Multiple hacking groups—including state actors from China—have targeted a vulnerability in older, on-premises versions of the file-sharing tool after a flawed attempt to patch it.",
     "publishedAt": "2025-07-23T21:59:20+00:00",
     "fetchedAt": "2025-07-28T06:12:24.133616+00:00",
-    "category": "research",
+    "category": "technology",
     "tags": [
       "Research"
     ],
@@ -152,7 +219,7 @@
     "sourceName": "Economist Business",
     "title": "The dark horse of AI labs",
     "url": "https://www.economist.com/business/2025/07/23/the-dark-horse-of-ai-labs",
-    "summary": "How Anthropic\u2019s missionary zeal is fuelling its commercial success",
+    "summary": "How Anthropic’s missionary zeal is fuelling its commercial success",
     "publishedAt": "2025-07-23T21:19:14+00:00",
     "fetchedAt": "2025-07-28T03:55:24.201410+00:00",
     "category": "markets",
@@ -167,12 +234,12 @@
     "id": "wired-1ec96a04552b96b8",
     "sourceId": "wired",
     "sourceName": "Wired",
-    "title": "A $17 Hotdog and a Humanoid Robot Serving Popcorn: WIRED\u2019s Day at the Tesla Diner",
+    "title": "A $17 Hotdog and a Humanoid Robot Serving Popcorn: WIRED’s Day at the Tesla Diner",
     "url": "https://www.wired.com/story/searching-for-humanitys-last-hope-and-a-taste-of-the-future-at-the-tesla-diner/",
     "summary": "WIRED stopped by the new Tesla Diner in Hollywood to try a $17 hotdog, watch a humanoid robot serve popcorn, and talk to people who still stan Elon Musk.",
     "publishedAt": "2025-07-23T21:00:54+00:00",
     "fetchedAt": "2025-07-28T06:12:24.133832+00:00",
-    "category": "research",
+    "category": "technology",
     "tags": [
       "Research"
     ],
@@ -204,7 +271,7 @@
     "summary": "I'll take it",
     "publishedAt": "2025-07-23T19:32:05+00:00",
     "fetchedAt": "2025-07-28T06:22:16.954232+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "AI",
       "Research"
@@ -218,7 +285,7 @@
     "sourceName": "CFA Enterprising Investor",
     "title": "Volatility Signals: Do Equities Forecast Bonds?",
     "url": "https://blogs.cfainstitute.org/investor/2025/07/23/volatility-signals-do-equities-forecast-bonds/",
-    "summary": "Surprise, surprise. Contrary to conventional wisdom, the bond market may be taking its risk cues from equities. At least, that appears to be the case when fluctuations in the two major volatility indices are compared. Equity investors often look to the CBOE Volatility Index (VIX) as a gauge of fear or future uncertainty in the [\u2026] The post Volatility Signals: Do Equities Forecast Bonds? appeared first on CFA Institute Enterprising Investor.",
+    "summary": "Surprise, surprise. Contrary to conventional wisdom, the bond market may be taking its risk cues from equities. At least, that appears to be the case when fluctuations in the two major volatility indices are compared. Equity investors often look to the CBOE Volatility Index (VIX) as a gauge of fear or future uncertainty in the […] The post Volatility Signals: Do Equities Forecast Bonds? appeared first on CFA Institute Enterprising Investor.",
     "publishedAt": "2025-07-23T19:29:44+00:00",
     "fetchedAt": "2025-07-28T08:46:10.401486+00:00",
     "category": "research",
@@ -250,7 +317,7 @@
     "id": "economist-finance-95b5547c1e4e85c9",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
-    "title": "Crypto\u2019s big bang will revolutionise finance",
+    "title": "Crypto’s big bang will revolutionise finance",
     "url": "https://www.economist.com/finance-and-economics/2025/07/23/cryptos-big-bang-will-revolutionise-finance",
     "summary": "The more useful stablecoins and tokens prove to be, the greater the risk",
     "publishedAt": "2025-07-23T19:01:11+00:00",
@@ -269,7 +336,7 @@
     "sourceName": "Calculated Risk",
     "title": "Philly Fed: State Coincident Indexes Increased in 40 States in June (3-Month Basis)",
     "url": "http://www.calculatedriskblog.com/2025/07/philly-fed-state-coincident-indexes.html",
-    "summary": "From the Philly Fed: The Federal Reserve Bank of Philadelphia has released the coincident indexes for the 50 states for June 2025. Over the past three months, the indexes increased in 40 states, decreased in seven states, and remained stable in three, for a three-month diffusion index of 66. Additionally, in the past month, the indexes increased in 41 states, decreased in four states, and remained stable in five, for a one-month diffusion index of 74. For comparison purposes, the Philadelphia Fed has also developed a similar coincident index for the entire United States. The Philadelphia Fed\u2019s U.S. index increased 0.7 percent over the past three months and 0.3 percent in June. emphasis added Note: These are coincident indexes constructed from state employment data. An explanation from the Philly Fed: The coincident indexes combine four state-level indicators to summarize current economic conditions in a single statistic. The four state-level variables in each coincident index are nonfa",
+    "summary": "From the Philly Fed: The Federal Reserve Bank of Philadelphia has released the coincident indexes for the 50 states for June 2025. Over the past three months, the indexes increased in 40 states, decreased in seven states, and remained stable in three, for a three-month diffusion index of 66. Additionally, in the past month, the indexes increased in 41 states, decreased in four states, and remained stable in five, for a one-month diffusion index of 74. For comparison purposes, the Philadelphia Fed has also developed a similar coincident index for the entire United States. The Philadelphia Fed’s U.S. index increased 0.7 percent over the past three months and 0.3 percent in June. emphasis added Note: These are coincident indexes constructed from state employment data. An explanation from the Philly Fed: The coincident indexes combine four state-level indicators to summarize current economic conditions in a single statistic. The four state-level variables in each coincident index are nonfa",
     "publishedAt": "2025-07-23T19:01:00+00:00",
     "fetchedAt": "2025-07-28T04:04:08.190755+00:00",
     "category": "research",
@@ -285,16 +352,33 @@
     "sourceName": "Brad DeLong",
     "title": "Policy Uncertainty, Not \"AI\"-Automation, Is Almost Surely Behind the Bulk of Recent Graduates' Job Discontent",
     "url": "https://braddelong.substack.com/p/policy-uncertainty-not-ai-automation",
-    "summary": "Why are new college graduates finding it harder than usual to get a foot in the door, even as unemployment rates stay low? Do not (yet) focus on \u201cAI\u201d\u2026",
+    "summary": "Why are new college graduates finding it harder than usual to get a foot in the door, even as unemployment rates stay low? Do not (yet) focus on “AI”…",
     "publishedAt": "2025-07-23T18:53:40+00:00",
     "fetchedAt": "2025-07-28T06:22:16.622101+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "AI",
       "Research"
     ],
     "priority": "high",
     "contentHash": "ae71bbd1820d6958"
+  },
+  {
+    "id": "nyt-technology-911bd3ceea0e415f",
+    "sourceId": "nyt-technology",
+    "sourceName": "NYT Technology",
+    "title": "A.I. May Be the Future, but First It Has to Study Ancient Roman History",
+    "url": "https://www.nytimes.com/2025/07/23/science/ai-history-ancient-rome-google-deepmind.html",
+    "summary": "A software model from Google DeepMind put a more precise date on an important Latin text credited to a Roman emperor as a demonstration of its capabilities.",
+    "publishedAt": "2025-07-23T18:44:48+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.511195+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "911bd3ceea0e415f"
   },
   {
     "id": "economist-finance-62970ba6425e913f",
@@ -321,7 +405,7 @@
     "summary": "Valuations are below average for value stocks and well above average for growth",
     "publishedAt": "2025-07-23T18:09:03+00:00",
     "fetchedAt": "2025-07-28T06:22:16.424671+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -337,7 +421,7 @@
     "summary": "AI, negative ownership, no-crypto indexes and ChatGPT Agent.",
     "publishedAt": "2025-07-23T18:08:54+00:00",
     "fetchedAt": "2025-07-28T04:04:08.131072+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research",
       "AI",
@@ -347,12 +431,45 @@
     "contentHash": "db8050df8630ece5"
   },
   {
+    "id": "conversable-economist-b6030a2f67a616b8",
+    "sourceId": "conversable-economist",
+    "sourceName": "Conversable Economist",
+    "title": "Only Five Ways to Address Rising US Debt",
+    "url": "https://conversableeconomist.com/2025/07/23/only-five-ways-to-address-us-budget-deficits/",
+    "summary": "Greg Mankiw delivered the Martin Feldstein Lecture at the Summer Institute of the National Bureau of Economic Research on the subject, “The Fiscal Future” (July 10, 2025, video here, text here). He notes: Herbert Stein once wisely said that “if something cannot go on forever, it will stop.” And I have no doubt that this … Continue reading Only Five Ways to Address Rising US Debt The post Only Five Ways to Address Rising US Debt first appeared on Conversable Economist.",
+    "publishedAt": "2025-07-23T18:00:35+00:00",
+    "fetchedAt": "2025-07-30T08:46:06.048254+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "b6030a2f67a616b8"
+  },
+  {
+    "id": "pew-research-57eba2a57b1fd90a",
+    "sourceId": "pew-research",
+    "sourceName": "Pew Research Center",
+    "title": "How Pew Research Center Uses Its National Public Opinion Reference Survey (NPORS)",
+    "url": "https://www.pewresearch.org/methods/2025/07/23/how-pew-research-center-uses-its-national-public-opinion-reference-survey-npors/",
+    "summary": "In 2020, Pew Research Center launched a new project called the National Public Opinion Reference Survey (NPORS). NPORS is an annual, cross-sectional survey of U.S. adults. Respondents can answer either by paper or online, and they are selected using address-based sampling from the United States Postal Service’s computerized delivery sequence file. The post How Pew Research Center Uses Its National Public Opinion Reference Survey (NPORS) appeared first on Pew Research Center.",
+    "publishedAt": "2025-07-23T17:50:24+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.672931+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "low",
+    "contentHash": "57eba2a57b1fd90a"
+  },
+  {
     "id": "n-plus-one-9168cac0c629e485",
     "sourceId": "n-plus-one",
     "sourceName": "n+1",
     "title": "Gaps, Which Is to Say Openings",
     "url": "https://www.nplusonemag.com/online-only/online-only/gaps-which-is-to-say-openings/",
-    "summary": "What was I trying to figure out? Beginnings, I think\u2014what a beginning is, what one must do in order to start.",
+    "summary": "What was I trying to figure out? Beginnings, I think—what a beginning is, what one must do in order to start.",
     "publishedAt": "2025-07-23T17:23:35+00:00",
     "fetchedAt": "2025-07-28T06:33:17.916616+00:00",
     "category": "non-money",
@@ -363,15 +480,31 @@
     "contentHash": "9168cac0c629e485"
   },
   {
+    "id": "nyt-economy-f1fb33c57c1c2f88",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Trump’s Tariffs Are the Highest in a Century. But After His Threats, They Seem Like a Relief.",
+    "url": "https://www.nytimes.com/2025/07/23/business/economy/trump-tariffs-japan.html",
+    "summary": "The president imposed tariffs on Japan, one of America’s closest allies, that would have been alarming just months ago. And markets went up.",
+    "publishedAt": "2025-07-23T17:17:53+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.472396+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "f1fb33c57c1c2f88"
+  },
+  {
     "id": "wired-44860203cdafaec6",
     "sourceId": "wired",
     "sourceName": "Wired",
-    "title": "Photos: Here Are the Piles of Used Bedding and Children\u2019s Play Sets Left Near DOGE\u2019s Old Offices",
+    "title": "Photos: Here Are the Piles of Used Bedding and Children’s Play Sets Left Near DOGE’s Old Offices",
     "url": "https://www.wired.com/story/photos-bedding-childrens-play-sets-doge-old-offices/",
-    "summary": "Elon Musk\u2019s DOGE minions have largely moved out of the General Services Administration. A dystopian scene of bedding and discarded kids\u2019 toys remains.",
+    "summary": "Elon Musk’s DOGE minions have largely moved out of the General Services Administration. A dystopian scene of bedding and discarded kids’ toys remains.",
     "publishedAt": "2025-07-23T17:17:50+00:00",
     "fetchedAt": "2025-07-28T06:12:24.134046+00:00",
-    "category": "research",
+    "category": "technology",
     "tags": [
       "Research"
     ],
@@ -438,7 +571,7 @@
     "summary": "The more complex a Wall Street creation, the faster and farther investors should run.",
     "publishedAt": "2025-07-23T15:46:53+00:00",
     "fetchedAt": "2025-07-28T06:22:16.424879+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -478,6 +611,23 @@
     "contentHash": "3fe6c0b2d8f63841"
   },
   {
+    "id": "big-picture-a5cdedef924e55ce",
+    "sourceId": "big-picture",
+    "sourceName": "The Big Picture",
+    "title": "At the Money: Getting Paid in Company Stock",
+    "url": "https://ritholtz.com/2025/07/atm-getting-paid-in-company-stock/",
+    "summary": "At The Money: Getting Paid in Company Stock  (July 23, 2025) Equity-based compensation has become an increasingly popular form of compensation in the United States, especially in Tech and high-growth, VC-funded companies. Full transcript below. ~~~ About this week’s guest: Joey Fishman is a Senior Advisor at Ritholtz Wealth Management (RWM), where he… Read More The post At the Money: Getting Paid in Company Stock appeared first on The Big Picture.",
+    "publishedAt": "2025-07-23T15:00:34+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.563849+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "a5cdedef924e55ce"
+  },
+  {
     "id": "wired-d5d559f4906b674b",
     "sourceId": "wired",
     "sourceName": "Wired",
@@ -486,7 +636,7 @@
     "summary": "One lesson Republican insiders took away from Elon Musk's spectacular flameout? Be wary of billionaires who love the spotlight.",
     "publishedAt": "2025-07-23T15:00:00+00:00",
     "fetchedAt": "2025-07-28T06:12:24.134238+00:00",
-    "category": "research",
+    "category": "technology",
     "tags": [
       "Tech",
       "Research"
@@ -495,12 +645,29 @@
     "contentHash": "d5d559f4906b674b"
   },
   {
+    "id": "bonddad-d79fdd482b732b46",
+    "sourceId": "bonddad",
+    "sourceName": "The Bonddad Blog",
+    "title": "June existing home sales: a pause in the rebalancing of the housing market",
+    "url": "https://bonddad.blogspot.com/2025/07/june-existing-home-sales-pause-in.html",
+    "summary": "- by New Deal democrat﻿Housing data for June resumed this morning with existing home sales. Let me start with my usual caveat: although they typically constitute about 90% of all sales are the least important for forecasting purposes, since the main thing that happens is only a change in ownership, and therefore they have much less economic impact than new home sales.The trend I have been looking for in the past several years is the rebalancing of the new and existing homes markets. Existing home inventory has been removed from the market for over 10 years (likely due in part to absentee rental owners buying increasing chunks of inventory), and really accelerated during the pandemic. This caused an acute shortage of houses for sale, which in turn led to bidding wars among buyers and a spike in prices.A rebalancing of the market more than anything would require an increase in inventory at least to pre-COVID levels, and a deceleration of price increases, or even outright decreases. Which",
+    "publishedAt": "2025-07-23T14:59:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.812562+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "high",
+    "contentHash": "d79fdd482b732b46"
+  },
+  {
     "id": "calculated-risk-f1b798c72b7c4162",
     "sourceId": "calculated-risk",
     "sourceName": "Calculated Risk",
     "title": "Newsletter: NAR: Existing-Home Sales Decreased to 3.93 million SAAR in June; Unchanged YoY",
     "url": "http://www.calculatedriskblog.com/2025/07/newsletter-nar-existing-home-sales.html",
-    "summary": "Today, in the CalculatedRisk Real Estate Newsletter: NAR: Existing-Home Sales Decreased to 3.93 million SAAR in June; Unchanged YoY Excerpt: Sales in June (3.93 million SAAR) were down 2.7% from the previous month and were unchanged compared to the June 2024 sales rate. This was the 5th consecutive month with sales unchanged or down year-over-year. ... The sales rate was below the consensus forecast (but right at housing economist Tom Lawler\u2019s estimate). ... Sales Year-over-Year and Not Seasonally Adjusted (NSA) The fourth graph shows existing home sales by month for 2024 and 2025. Sales were unchanged year-over-year compared to June 2024. This was the 5th consecutive month with sales unchanged or down year-over-year. The next three months will also have the easy year-over-year comparisons. ... On an NSA basis for the month of June, this was 7% below the low for housing bust for the month of June that happened in June 2008. Year-to-date, sales are down 1.5% NSA.There is much more in th",
+    "summary": "Today, in the CalculatedRisk Real Estate Newsletter: NAR: Existing-Home Sales Decreased to 3.93 million SAAR in June; Unchanged YoY Excerpt: Sales in June (3.93 million SAAR) were down 2.7% from the previous month and were unchanged compared to the June 2024 sales rate. This was the 5th consecutive month with sales unchanged or down year-over-year. ... The sales rate was below the consensus forecast (but right at housing economist Tom Lawler’s estimate). ... Sales Year-over-Year and Not Seasonally Adjusted (NSA) The fourth graph shows existing home sales by month for 2024 and 2025. Sales were unchanged year-over-year compared to June 2024. This was the 5th consecutive month with sales unchanged or down year-over-year. The next three months will also have the easy year-over-year comparisons. ... On an NSA basis for the month of June, this was 7% below the low for housing bust for the month of June that happened in June 2008. Year-to-date, sales are down 1.5% NSA.There is much more in th",
     "publishedAt": "2025-07-23T14:53:00+00:00",
     "fetchedAt": "2025-07-28T04:04:08.191409+00:00",
     "category": "research",
@@ -559,6 +726,22 @@
     "contentHash": "ac5268216e097c6a"
   },
   {
+    "id": "project-syndicate-8fe65c937f557197",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "The Money Fight That Will Shape Europe’s Future",
+    "url": "https://www.project-syndicate.org/commentary/upcoming-budget-fight-will-test-europe-ability-to-face-security-threats-by-carl-bildt-2025-07",
+    "summary": "Europe’s political leaders, having pledged to boost defense spending and support Ukraine in its war against Russia, must now confront the painful budgetary trade-offs required to fund these commitments. The coming fiscal battles will reveal just how able they are to meet the security challenges facing the continent.",
+    "publishedAt": "2025-07-23T14:31:01+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.038454+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "8fe65c937f557197"
+  },
+  {
     "id": "commodity-context-e6c1536231d065da",
     "sourceId": "commodity-context",
     "sourceName": "Commodity Context",
@@ -581,10 +764,10 @@
     "sourceName": "The Zvi",
     "title": "GPT Agent Is Standing By",
     "url": "https://thezvi.substack.com/p/gpt-agent-is-standing-by",
-    "summary": "OpenAI now offers 400 shots of \u2018agent mode\u2019 per month to Pro subscribers.",
+    "summary": "OpenAI now offers 400 shots of ‘agent mode’ per month to Pro subscribers.",
     "publishedAt": "2025-07-23T14:16:49+00:00",
     "fetchedAt": "2025-07-28T06:22:19.227406+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -595,9 +778,9 @@
     "id": "jacobin-cffc79c68dfcdc14",
     "sourceId": "jacobin",
     "sourceName": "Jacobin",
-    "title": "D. D. Kosambi Paved the Way for India\u2019s Marxist Historians",
+    "title": "D. D. Kosambi Paved the Way for India’s Marxist Historians",
     "url": "https://jacobin.com/2025/07/kosambi-india-marxism-historians-colonialism/",
-    "summary": "Damodar Dharmananda Kosambi was a towering figure in the field of history-writing in India. His works on various aspects of ancient Indian history brought about a paradigm shift in the scholarly understanding of the period. Kosambi\u2019s creative employment of Marxist methods in the Indian context cleared away earlier misconceptions about Indian society being static and [\u2026]",
+    "summary": "Damodar Dharmananda Kosambi was a towering figure in the field of history-writing in India. His works on various aspects of ancient Indian history brought about a paradigm shift in the scholarly understanding of the period. Kosambi’s creative employment of Marxist methods in the Indian context cleared away earlier misconceptions about Indian society being static and […]",
     "publishedAt": "2025-07-23T14:13:14+00:00",
     "fetchedAt": "2025-07-28T06:33:17.779486+00:00",
     "category": "non-money",
@@ -613,7 +796,7 @@
     "sourceName": "Quanta Magazine",
     "title": "The Cells That Breathe Two Ways",
     "url": "https://www.quantamagazine.org/the-cells-that-breathe-two-ways-20250723/",
-    "summary": "In a hot spring at Yellowstone National Park, a microbe does something that life shouldn\u2019t be able to do: It breathes oxygen and sulfur at the same time. The post The Cells That Breathe Two Ways first appeared on Quanta Magazine",
+    "summary": "In a hot spring at Yellowstone National Park, a microbe does something that life shouldn’t be able to do: It breathes oxygen and sulfur at the same time. The post The Cells That Breathe Two Ways first appeared on Quanta Magazine",
     "publishedAt": "2025-07-23T14:11:27+00:00",
     "fetchedAt": "2025-07-28T06:33:11.476819+00:00",
     "category": "non-money",
@@ -629,7 +812,7 @@
     "sourceName": "Calculated Risk",
     "title": "NAR: Existing-Home Sales Decreased to 3.93 million SAAR in June; Unchanged YoY",
     "url": "http://www.calculatedriskblog.com/2025/07/nar-existing-home-sales-decreased-to.html",
-    "summary": "From the NAR: NAR Existing-Home Sales Report Shows 2.7% Decrease in JuneExisting-home sales decreased by 2.7% in June, according to the National Association of REALTORS\u00ae Existing-Home Sales Report. ... Month-over-month sales declined in the Northeast, Midwest and South and rose modestly in the West. Year-over-year, sales fell in the Northeast and West, while rising in the Midwest and South. ... \u2022 2.7% decrease in existing-home sales -- seasonally adjusted annual rate of 3.93 million in June. \u2022 Year-over-year: No change in existing-home sales. \u2022 0.6% decline in unsold inventory -- 1.53 million units equal to 4.7 months' supply. emphasis addedClick on graph for larger image. This graph shows existing home sales, on a Seasonally Adjusted Annual Rate (SAAR) basis since 1994. Sales in June (3.93 million SAAR)\u00a0were down 2.7% from the previous month and were unchanged compared to the June 2024 sales rate.\u00a0 This was the 5th consecutive month with sales unchanged or down year-over-year.\u00a0\u00a0The se",
+    "summary": "From the NAR: NAR Existing-Home Sales Report Shows 2.7% Decrease in JuneExisting-home sales decreased by 2.7% in June, according to the National Association of REALTORS® Existing-Home Sales Report. ... Month-over-month sales declined in the Northeast, Midwest and South and rose modestly in the West. Year-over-year, sales fell in the Northeast and West, while rising in the Midwest and South. ... • 2.7% decrease in existing-home sales -- seasonally adjusted annual rate of 3.93 million in June. • Year-over-year: No change in existing-home sales. • 0.6% decline in unsold inventory -- 1.53 million units equal to 4.7 months' supply. emphasis addedClick on graph for larger image. This graph shows existing home sales, on a Seasonally Adjusted Annual Rate (SAAR) basis since 1994. Sales in June (3.93 million SAAR) were down 2.7% from the previous month and were unchanged compared to the June 2024 sales rate.  This was the 5th consecutive month with sales unchanged or down year-over-year.  The se",
     "publishedAt": "2025-07-23T14:00:00+00:00",
     "fetchedAt": "2025-07-28T04:04:08.192453+00:00",
     "category": "research",
@@ -656,28 +839,12 @@
     "contentHash": "ec89cd7a7c01dea6"
   },
   {
-    "id": "bbc-business-1ca008dd2ac8c0e1",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "The big winner from Coca-Cola's Trump-inspired sugar push",
-    "url": "https://www.bbc.com/news/articles/cp8263jn20zo?at_medium=RSS&at_campaign=rss",
-    "summary": "The sugar industry has long been protected and now Trump has given it another shot in the arm by pressing Coca Cola.",
-    "publishedAt": "2025-07-23T13:59:04+00:00",
-    "fetchedAt": "2025-07-28T15:48:36.214813+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1ca008dd2ac8c0e1"
-  },
-  {
     "id": "abnormal-returns-4ff2f8cfef30a02b",
     "sourceId": "abnormal-returns",
     "sourceName": "Abnormal Returns",
     "title": "Personal finance links: getting to Mars",
     "url": "https://abnormalreturns.com/2025/07/23/personal-finance-links-getting-to-mars/",
-    "summary": "Wednesdays are all about personal finance here at Abnormal Returns. You can check out last week\u2019s links including a look at our...",
+    "summary": "Wednesdays are all about personal finance here at Abnormal Returns. You can check out last week’s links including a look at our...",
     "publishedAt": "2025-07-23T13:53:44+00:00",
     "fetchedAt": "2025-07-28T06:12:24.044033+00:00",
     "category": "research",
@@ -688,12 +855,28 @@
     "contentHash": "4ff2f8cfef30a02b"
   },
   {
+    "id": "project-syndicate-68323754cf4e165e",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "The Scramble for Critical Minerals",
+    "url": "https://www.project-syndicate.org/commentary/countries-rich-in-critical-minerals-must-strengthen-institutions-to-avoid-resource-curse-by-rabah-arezki-and-rick-van-der-ploeg-2025-07",
+    "summary": "Vast natural-resource endowments have proven to be more of a curse than a blessing, with resource-rich countries often developing more slowly than their resource-poor counterparts. Today, countries rich in critical minerals have a chance to change this – but only if they invest in strengthening their institutional capacity.",
+    "publishedAt": "2025-07-23T13:53:12+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.038689+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "68323754cf4e165e"
+  },
+  {
     "id": "jacobin-195cd2273815a04b",
     "sourceId": "jacobin",
     "sourceName": "Jacobin",
-    "title": "How Adrianne Black Broke With America\u2019s Far Right",
+    "title": "How Adrianne Black Broke With America’s Far Right",
     "url": "https://jacobin.com/2025/07/adrianne-black-deprogramming-neo-nazis/",
-    "summary": "Whenever politics has been polarized between Left and Right, there have always been liberals and socialists hoping that their enemies could be won back. In the Italy of 1943\u201345, a country divided into a South at peace with Britain and the United States and a North occupied by the Nazis, the novelist Italo Calvino told [\u2026]",
+    "summary": "Whenever politics has been polarized between Left and Right, there have always been liberals and socialists hoping that their enemies could be won back. In the Italy of 1943–45, a country divided into a South at peace with Britain and the United States and a North occupied by the Nazis, the novelist Italo Calvino told […]",
     "publishedAt": "2025-07-23T13:33:25+00:00",
     "fetchedAt": "2025-07-28T06:33:17.779793+00:00",
     "category": "non-money",
@@ -720,6 +903,38 @@
     "contentHash": "1363604943a24453"
   },
   {
+    "id": "project-syndicate-b3211fa968a7b5a7",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "Rethinking the Politics of Money",
+    "url": "https://www.project-syndicate.org/commentary/central-banks-serve-finance-not-broader-public-by-katharina-pistor-2025-07",
+    "summary": "If independent, technocratic central banks are not conducive to democracy, how else should monetary policy be conducted? Until recently, asking such questions would have been considered heresy, but times have changed.",
+    "publishedAt": "2025-07-23T12:41:35+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.038883+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "b3211fa968a7b5a7"
+  },
+  {
+    "id": "yale-e360-c70673338fb8d115",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "Lightning Kills 320 Million Trees Yearly. With Warming, the Toll Could Rise",
+    "url": "https://e360.yale.edu/digest/lightning-tree-mortality",
+    "summary": "A new study finds that lightning kills some 320 million trees around the world each year, more than was previously thought. And that figure could rise in the decades ahead as increasingly hot and humid weather fuels more lightning, particularly in forested parts of the Far North. Read more on E360 →",
+    "publishedAt": "2025-07-23T12:39:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.434339+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "normal",
+    "contentHash": "c70673338fb8d115"
+  },
+  {
     "id": "moontower-meta-fac33ae71a47afe9",
     "sourceId": "moontower-meta",
     "sourceName": "Moontower Meta",
@@ -736,6 +951,22 @@
     "contentHash": "fac33ae71a47afe9"
   },
   {
+    "id": "foreign-affairs-9358d8d9429a6645",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "The Indian System Is Breaking Down",
+    "url": "https://www.foreignaffairs.com/india/indian-system-breaking-down",
+    "summary": "Centralization is undermining federalism and national unity.",
+    "publishedAt": "2025-07-23T12:08:00+00:00",
+    "fetchedAt": "2025-07-30T08:49:27.486839+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "breaking",
+    "contentHash": "9358d8d9429a6645"
+  },
+  {
     "id": "paul-krugman-eecc8738e872c3f4",
     "sourceId": "paul-krugman",
     "sourceName": "Paul Krugman",
@@ -744,13 +975,30 @@
     "summary": "Arithmetic has a well-known globalist bias",
     "publishedAt": "2025-07-23T11:39:38+00:00",
     "fetchedAt": "2025-07-28T06:22:17.745043+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "M&A",
       "Research"
     ],
     "priority": "normal",
     "contentHash": "eecc8738e872c3f4"
+  },
+  {
+    "id": "project-syndicate-177544cc75701950",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "Europe Can Build Its Own Social Media",
+    "url": "https://www.project-syndicate.org/commentary/europe-can-build-own-social-media-on-at-protocol-by-sebastian-vogelsang-2025-07",
+    "summary": "Europe’s systemic dependency on Big Tech’s social-media platforms threatens the continent’s digital sovereignty. While policymakers often argue that there are no viable alternatives, this ignores the potential for building apps on open-source frameworks like the AT Protocol, the foundation for Bluesky.",
+    "publishedAt": "2025-07-23T11:23:04+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.039113+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Tech"
+    ],
+    "priority": "high",
+    "contentHash": "177544cc75701950"
   },
   {
     "id": "back-of-mind-0a8246d5f333468b",
@@ -767,6 +1015,23 @@
     ],
     "priority": "normal",
     "contentHash": "0a8246d5f333468b"
+  },
+  {
+    "id": "wealth-common-sense-d72ad41f971140f5",
+    "sourceId": "wealth-common-sense",
+    "sourceName": "A Wealth of Common Sense",
+    "title": "Animal Spirits: What is Upper Middle Class?",
+    "url": "https://awealthofcommonsense.com/2025/07/animal-spirits-13/",
+    "summary": "On today's show we discuss the why stock market returns can't be 15% per year forever, putting the Mag 7 into context, small caps are cheap, retail runs the show now, Opendoor is the new meme stock, investing is easy, owning 50% of a single stock in your Roth IRA, explaining Bitcoin, the Midwest real estate boom, losing your iPhone and more. The post Animal Spirits: What is Upper Middle Class? appeared first on A Wealth o...",
+    "publishedAt": "2025-07-23T11:15:06+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.220998+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "normal",
+    "contentHash": "d72ad41f971140f5"
   },
   {
     "id": "cnbc-markets-7337c450ccc7cf58",
@@ -791,7 +1056,7 @@
     "sourceName": "Calculated Risk",
     "title": "MBA: Mortgage Applications Increase in Latest Weekly Survey",
     "url": "http://www.calculatedriskblog.com/2025/07/mba-mortgage-applications-increase-in_01479824260.html",
-    "summary": "From the MBA: Mortgage Applications Increase in Latest MBA Weekly Survey Mortgage applications increased 0.8 percent from one week earlier, according to data from the Mortgage Bankers Association\u2019s (MBA) Weekly Mortgage Applications Survey for the week ending July 18, 2025. The Market Composite Index, a measure of mortgage loan application volume, increased 0.8 percent on a seasonally adjusted basis from one week earlier. On an unadjusted basis, the Index increased 1 percent compared with the previous week. The Refinance Index decreased 3 percent from the previous week and was 22 percent higher than the same week one year ago. The seasonally adjusted Purchase Index increased 3 percent from one week earlier. The unadjusted Purchase Index increased 4 percent compared with the previous week and was 22 percent higher than the same week one year ago. \u201cThe 30-year fixed mortgage rate edged higher last week to its highest level in four weeks at 6.84 percent, while rates for other loan types w",
+    "summary": "From the MBA: Mortgage Applications Increase in Latest MBA Weekly Survey Mortgage applications increased 0.8 percent from one week earlier, according to data from the Mortgage Bankers Association’s (MBA) Weekly Mortgage Applications Survey for the week ending July 18, 2025. The Market Composite Index, a measure of mortgage loan application volume, increased 0.8 percent on a seasonally adjusted basis from one week earlier. On an unadjusted basis, the Index increased 1 percent compared with the previous week. The Refinance Index decreased 3 percent from the previous week and was 22 percent higher than the same week one year ago. The seasonally adjusted Purchase Index increased 3 percent from one week earlier. The unadjusted Purchase Index increased 4 percent compared with the previous week and was 22 percent higher than the same week one year ago. “The 30-year fixed mortgage rate edged higher last week to its highest level in four weeks at 6.84 percent, while rates for other loan types w",
     "publishedAt": "2025-07-23T11:00:00+00:00",
     "fetchedAt": "2025-07-28T04:04:08.193269+00:00",
     "category": "research",
@@ -802,6 +1067,22 @@
     "contentHash": "b94763ed45a14472"
   },
   {
+    "id": "foreign-affairs-cedf79a22c202417",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "How U.S. Forces Should Leave Europe",
+    "url": "https://www.foreignaffairs.com/united-states/how-us-forces-should-leave-europe",
+    "summary": "And why Trump should start the process now.",
+    "publishedAt": "2025-07-23T11:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:49:27.487004+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "cedf79a22c202417"
+  },
+  {
     "id": "adam-tooze-6b778882ac85c590",
     "sourceId": "adam-tooze",
     "sourceName": "Adam Tooze",
@@ -810,7 +1091,7 @@
     "summary": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
     "publishedAt": "2025-07-23T10:59:36+00:00",
     "fetchedAt": "2025-07-28T06:22:15.312706+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research",
       "Currency"
@@ -824,10 +1105,10 @@
     "sourceName": "Paul Krugman",
     "title": "The Hellscapes of Their Minds",
     "url": "https://paulkrugman.substack.com/p/the-hellscapes-of-their-minds",
-    "summary": "ICE says it\u2019s going to \u201cflood\u201d New York. Good luck with that",
+    "summary": "ICE says it’s going to “flood” New York. Good luck with that",
     "publishedAt": "2025-07-23T10:30:49+00:00",
     "fetchedAt": "2025-07-28T06:22:17.745219+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -838,7 +1119,7 @@
     "id": "cnbc-markets-7931e2fe5d95bf75",
     "sourceId": "cnbc-markets",
     "sourceName": "CNBC Markets",
-    "title": "China\u2019s tech talent are making big strides \u2014 they're creating apps for the world",
+    "title": "China’s tech talent are making big strides — they're creating apps for the world",
     "url": "https://www.cnbc.com/2025/07/23/chinas-tech-talent-making-big-strides-in-ai-creating-apps-for-world.html",
     "summary": "Lovart, the latest AI design tool to hit the market, was created by a team that includes the former China head of popular video-editing app CapCut.",
     "publishedAt": "2025-07-23T10:20:20+00:00",
@@ -858,7 +1139,7 @@
     "sourceName": "Aeon",
     "title": "Unboxing an antimonial cup",
     "url": "https://aeon.co/videos/drinking-wine-from-toxic-cups-was-the-17th-centurys-own-dubious-detox-treatment?utm_source=rss-feed",
-    "summary": "It\u2019s so toxic, curators can\u2019t handle it without gloves \u2013 but drinking wine from this cup was once a popular wellness trend - by Aeon Video Watch at Aeon",
+    "summary": "It’s so toxic, curators can’t handle it without gloves – but drinking wine from this cup was once a popular wellness trend - by Aeon Video Watch at Aeon",
     "publishedAt": "2025-07-23T10:01:00+00:00",
     "fetchedAt": "2025-07-28T06:33:10.644143+00:00",
     "category": "non-money",
@@ -885,6 +1166,22 @@
     "contentHash": "33077f2dea32c7ae"
   },
   {
+    "id": "apollo-academy-a7621e54a63231d4",
+    "sourceId": "apollo-academy",
+    "sourceName": "Apollo Academy",
+    "title": "The Impact of Immigration Restrictions and Deportations",
+    "url": "https://www.apolloacademy.com/the-impact-of-immigration-restrictions-and-deportations/",
+    "summary": "If 3,000 people are deported every day, the labor supply will decline by about 1 million in total in 2025.... The post The Impact of Immigration Restrictions and Deportations appeared first on Apollo Academy.",
+    "publishedAt": "2025-07-23T10:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.207584+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "a7621e54a63231d4"
+  },
+  {
     "id": "nautilus-magazine-c80bf4ae43359a84",
     "sourceId": "nautilus-magazine",
     "sourceName": "Nautilus",
@@ -906,7 +1203,7 @@
     "sourceName": "Nautilus",
     "title": "The Oldest Rock on Earth",
     "url": "https://nautil.us/the-oldest-rock-on-earth-1226290/",
-    "summary": "A finding in the Arctic could push the formation of Earth\u2019s crust back by 130 million years The post The Oldest Rock on Earth appeared first on Nautilus.",
+    "summary": "A finding in the Arctic could push the formation of Earth’s crust back by 130 million years The post The Oldest Rock on Earth appeared first on Nautilus.",
     "publishedAt": "2025-07-23T09:50:00+00:00",
     "fetchedAt": "2025-07-28T06:33:17.702614+00:00",
     "category": "non-money",
@@ -917,10 +1214,27 @@
     "contentHash": "2204f9b28953f89d"
   },
   {
+    "id": "project-syndicate-2a99ff1f1dcc72d4",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "Climate-Driven Hunger Will Fuel the Next Migration Crisis",
+    "url": "https://www.project-syndicate.org/commentary/governemnts-must-combat-hunger-to-curb-migration-surge-by-hermione-dace-2025-07",
+    "summary": "As agricultural production falters and competition over dwindling resources intensifies, food insecurity has emerged as one of the primary factors behind the global migration surge. Unless leaders confront the root causes of displacement, today’s mounting pressures will escalate into a crisis no government can contain.",
+    "publishedAt": "2025-07-23T09:23:38+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.039333+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "ESG"
+    ],
+    "priority": "breaking",
+    "contentHash": "2a99ff1f1dcc72d4"
+  },
+  {
     "id": "the-acquirers-fund-19a4115e9924dbdb",
     "sourceId": "the-acquirers-fund",
     "sourceName": "The Acquirer's Multiple",
-    "title": "What Investors Can Learn from Jamie Dimon\u2019s Fortress Strategy",
+    "title": "What Investors Can Learn from Jamie Dimon’s Fortress Strategy",
     "url": "https://acquirersmultiple.com/2025/07/what-investors-can-learn-from-jamie-dimons-fortress-strategy/",
     "summary": "Over two decades, Jamie Dimon has transformed JP Morgan Chase into the most dominant bank in the United States, navigating crisis after crisis with a calm resolve that investors can learn from. Perhaps the most striking moment in his journey came not from success, but from a setback. After being ... Read More",
     "publishedAt": "2025-07-23T00:33:40+00:00",
@@ -938,7 +1252,7 @@
     "sourceName": "The Acquirer's Multiple",
     "title": "Where the Smart Money Is Going: 5 Global Opportunities for Investors Right Now",
     "url": "https://acquirersmultiple.com/2025/07/where-the-smart-money-is-going-5-global-opportunities-for-investors-right-now/",
-    "summary": "Markets may appear steady on the surface, but a closer look at the latest global dashboard reveals a story of dispersion\u2014and opportunity. Based on the July 18, 2025 S&P Global Daily Index Dashboard, here are five standout themes investors should be watching: 1. Emerging Markets Are Leading the Charge S&P ... Read More",
+    "summary": "Markets may appear steady on the surface, but a closer look at the latest global dashboard reveals a story of dispersion—and opportunity. Based on the July 18, 2025 S&P Global Daily Index Dashboard, here are five standout themes investors should be watching: 1. Emerging Markets Are Leading the Charge S&P ... Read More",
     "publishedAt": "2025-07-23T00:33:23+00:00",
     "fetchedAt": "2025-07-28T04:04:08.483409+00:00",
     "category": "research",
@@ -952,9 +1266,9 @@
     "id": "the-acquirers-fund-6afd62f1c1072f34",
     "sourceId": "the-acquirers-fund",
     "sourceName": "The Acquirer's Multiple",
-    "title": "This Week\u2019s Acquirer\u2019s Multiple FREE U.S Large-Cap Stock Screener Analysis",
+    "title": "This Week’s Acquirer’s Multiple FREE U.S Large-Cap Stock Screener Analysis",
     "url": "https://acquirersmultiple.com/2025/07/this-weeks-acquirers-multiple-free-u-s-large-cap-stock-screener-analysis-19/",
-    "summary": "This week\u2019s large-cap value screener reveals a select group of stocks offering a compelling blend of low valuation, strong free cash flow, and high shareholder returns. Focusing on companies with an Acquirer\u2019s Multiple under 5, FCF yield above 5%, and shareholder yield over 5%, we uncover four standout names across ... Read More",
+    "summary": "This week’s large-cap value screener reveals a select group of stocks offering a compelling blend of low valuation, strong free cash flow, and high shareholder returns. Focusing on companies with an Acquirer’s Multiple under 5, FCF yield above 5%, and shareholder yield over 5%, we uncover four standout names across ... Read More",
     "publishedAt": "2025-07-23T00:33:08+00:00",
     "fetchedAt": "2025-07-28T04:04:08.483752+00:00",
     "category": "research",

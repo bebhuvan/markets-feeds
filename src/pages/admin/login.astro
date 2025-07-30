@@ -1,7 +1,9 @@
 ---
+export const prerender = false;
+
 // If already authenticated, redirect to admin
 const password = Astro.cookies.get('admin_pass')?.value;
-if (password === 'your-secure-password-123') {
+if (password === 'MF2025!SecureTeam#AdminAccess789') {
   return Astro.redirect('/admin');
 }
 ---
@@ -142,11 +144,12 @@ if (password === 'your-secure-password-123') {
             <p>Admin Dashboard</p>
         </div>
 
-        <form id="login-form">
+        <form method="GET" action="/admin">
             <div class="form-group">
                 <label class="form-label" for="password">Password</label>
                 <input 
                     type="password" 
+                    name="pass"
                     id="password" 
                     class="form-input" 
                     placeholder="Enter admin password"
@@ -169,60 +172,8 @@ if (password === 'your-secure-password-123') {
     </div>
 
     <script>
-        const loginForm = document.getElementById('login-form');
-        const passwordInput = document.getElementById('password');
-        const loginBtn = document.getElementById('login-btn');
-        const errorMessage = document.getElementById('error-message');
-
-        loginForm.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
-            const password = passwordInput.value;
-            
-            if (!password) {
-                showError('Please enter a password');
-                return;
-            }
-
-            // Disable form
-            loginBtn.disabled = true;
-            loginBtn.textContent = 'Checking...';
-            errorMessage.style.display = 'none';
-
-            try {
-                // Try to access admin with the password
-                const response = await fetch(`/admin?pass=${encodeURIComponent(password)}`);
-                
-                if (response.ok) {
-                    // Success - redirect to admin
-                    window.location.href = '/admin';
-                } else {
-                    showError('Invalid password. Please try again.');
-                }
-            } catch (error) {
-                showError('Connection error. Please try again.');
-            } finally {
-                // Re-enable form
-                loginBtn.disabled = false;
-                loginBtn.textContent = 'Access Dashboard';
-            }
-        });
-
-        function showError(message) {
-            errorMessage.textContent = message;
-            errorMessage.style.display = 'block';
-            passwordInput.focus();
-        }
-
         // Focus password input on load
-        passwordInput.focus();
-
-        // Enter key handling
-        passwordInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') {
-                loginForm.dispatchEvent(new Event('submit'));
-            }
-        });
+        document.getElementById('password').focus();
     </script>
 </body>
 </html>

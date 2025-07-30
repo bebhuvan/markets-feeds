@@ -7,55 +7,101 @@ content:
     label: Discovery Posts
     path: src/content/discoveries
     type: collection
+    description: "Curated insights and market analysis for the discovery feed"
+    create: true
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - name: title
         label: Title
         type: text
         required: true
+        hint: "Compelling title for your market insight"
       - name: date
-        label: Date
+        label: Publication Date
         type: date
         required: true
+        default: "{{now}}"
       - name: author
         label: Author
-        type: text
+        type: select
+        options:
+          - "Research Team"
+          - "Markets Team" 
+          - "Economics Team"
+          - "Technology Research"
+          - "Energy Markets Team"
+          - "Global Markets Team"
+          - "Market Structure Team"
         default: "Research Team"
       - name: tags
         label: Tags
         type: list
         item_type: text
+        hint: "Add relevant tags for categorization (e.g., Federal Reserve, AI, China)"
+        max: 8
       - name: excerpt
         label: Excerpt
         type: textarea
         rows: 3
+        hint: "Brief summary that appears in the feed preview"
+        max_length: 200
       - name: media
-        label: Media Attachment
+        label: Media Attachment (Optional)
         type: object
+        hint: "Add a link, video, or image to enhance your post"
         fields:
           - name: type
-            label: Type
+            label: Media Type
             type: select
             options:
-              - link
-              - video
-              - image
+              - label: "No Media"
+                value: "none"
+              - label: "External Link"
+                value: "link"
+              - label: "Video"
+                value: "video"
+              - label: "Image"
+                value: "image"
+            default: "none"
           - name: url
             label: URL
             type: text
+            hint: "Full URL to the resource"
+            condition:
+              field: media.type
+              operator: "!="
+              value: "none"
           - name: title
-            label: Title
+            label: Media Title
             type: text
+            hint: "Title for the linked content"
+            condition:
+              field: media.type
+              operator: "!="
+              value: "none"
           - name: description
             label: Description
             type: textarea
             rows: 2
+            hint: "Brief description of the linked content"
+            condition:
+              field: media.type
+              operator: "!="
+              value: "none"
           - name: image
-            label: Preview Image
+            label: Preview Image URL
             type: text
+            hint: "Image URL for preview thumbnail"
+            condition:
+              field: media.type
+              operator: "!="
+              value: "none"
       - name: body
         label: Content
         type: markdown
         required: true
+        hint: "Your market insight and analysis. Use markdown for formatting."
         
   - name: rss-sources
     label: RSS Sources

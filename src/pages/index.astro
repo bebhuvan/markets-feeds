@@ -1,4 +1,6 @@
 ---
+export const prerender = true;
+
 import Layout from '../layouts/Layout.astro';
 import ThemeToggle from '../components/ThemeToggle.astro';
 import Navigation from '../components/Navigation.astro';
@@ -20,9 +22,18 @@ for (const file of linkFiles) {
 // Sort by published date
 allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
+// Load all articles - remove pagination that was causing filtering issues
+const displayedLinks = allLinks;
+
 // Calculate source counts
 const sourceCounts = allLinks.reduce((acc, link) => {
   acc[link.sourceId] = (acc[link.sourceId] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+// Calculate category counts
+const categoryCounts = allLinks.reduce((acc, link) => {
+  acc[link.category] = (acc[link.category] || 0) + 1;
   return acc;
 }, {} as Record<string, number>);
 
@@ -38,49 +49,76 @@ const sourcesByCategory = RSS_SOURCES.reduce((acc, source) => {
   return acc;
 }, {} as Record<string, any[]>);
 
-// Category display names
+// Category display names - clean 7-category system
 const categoryLabels = {
-  markets: 'Financial News',
-  research: 'Academic Research',
+  markets: 'Markets',
   macro: 'Economics',
-  policy: 'Central Banks',
+  policy: 'Policy',
+  research: 'Research', 
   technology: 'Technology',
-  filings: 'Regulatory'
+  'non-money': 'General',
+  blogs: 'Blogs'
 };
 ---
 
 <Layout title="Markets Feeds">
-  <div class="container">
-    <!-- Header -->
-    <header class="header">
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
       <div class="header-content">
-        <div class="logo">Markets Feeds</div>
+        <div class="logo">
+          <a href="/" class="logo-link">Markets Feeds</a>
+        </div>
+        <nav class="header-nav">
+          <a href="/" class="nav-link" data-filter="all">
+            All
+            <span class="nav-count">{allLinks.length}</span>
+          </a>
+          <a href="#" class="nav-link" data-filter="markets">
+            Markets
+            <span class="nav-count">{categoryCounts.markets || 0}</span>
+          </a>
+          <a href="#" class="nav-link" data-filter="macro">
+            Economics
+            <span class="nav-count">{categoryCounts.macro || 0}</span>
+          </a>
+          <a href="#" class="nav-link" data-filter="policy">
+            Policy
+            <span class="nav-count">{categoryCounts.policy || 0}</span>
+          </a>
+          <a href="#" class="nav-link" data-filter="research">
+            Research
+            <span class="nav-count">{categoryCounts.research || 0}</span>
+          </a>
+          <a href="#" class="nav-link" data-filter="technology">
+            Technology
+            <span class="nav-count">{categoryCounts.technology || 0}</span>
+          </a>
+          <a href="#" class="nav-link" data-filter="non-money">
+            General
+            <span class="nav-count">{categoryCounts['non-money'] || 0}</span>
+          </a>
+          <a href="#" class="nav-link" data-filter="blogs">
+            Blogs
+            <span class="nav-count">{categoryCounts.blogs || 0}</span>
+          </a>
+          <a href="/discover" class="nav-link secondary">Discovery</a>
+        </nav>
         <div class="header-meta">Last updated: {new Date().toLocaleTimeString()}</div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- Filters -->
-    <div class="filters">
-      <div class="filter-container">
-        <div class="filter-tabs">
-          <button class="filter-tab active" data-filter="all">All</button>
-          <button class="filter-tab" data-filter="markets">Markets</button>
-          <button class="filter-tab" data-filter="research">Research</button>
-          <button class="filter-tab" data-filter="macro">Economics</button>
-          <button class="filter-tab" data-filter="policy">Policy</button>
-          <button class="filter-tab" data-filter="technology">Technology</button>
-        </div>
-        
-        <div class="search-container">
-          <input type="search" class="search-box" placeholder="Search articles..." id="searchInput" />
-          <div class="view-toggle">
-            <button class="view-btn active" id="compactView">Compact</button>
-            <button class="view-btn" id="cardView">Cards</button>
-          </div>
-        </div>
+  <!-- Search Bar -->
+  <div class="search-section">
+    <div class="container">
+      <div class="search-container">
+        <input type="search" class="search-box" placeholder="Search articles..." id="searchInput" />
       </div>
     </div>
+  </div>
 
+  <div class="container">
     <!-- Content Grid -->
     <div class="content-grid">
       <!-- Sidebar -->
@@ -108,13 +146,13 @@ const categoryLabels = {
       <main class="feed">
         <div class="feed-header">
           <h1 class="feed-title">All Sources</h1>
-          <div class="feed-meta">{allLinks.length} articles</div>
+          <div class="feed-meta">Showing {displayedLinks.length} latest of {allLinks.length} articles</div>
         </div>
 
         <div class="articles" id="linkStream">
-          {allLinks.length > 0 ? (
-            allLinks.map((link) => (
-              <article class="article" data-category={link.category} data-source={link.sourceId}>
+          {displayedLinks.length > 0 ? (
+            displayedLinks.map((link) => (
+              <article class="article" data-category={link.category} data-source={link.sourceId} data-full-content={link.fullContent || ''}>
                 <div class="article-header">
                   <span class="source-badge">{link.sourceName}</span>
                   <span class="article-time">{new Date(link.publishedAt).toLocaleTimeString()}</span>
@@ -122,8 +160,12 @@ const categoryLabels = {
                 <h2 class="article-title">
                   <a href={link.url} target="_blank" rel="noopener">{link.title}</a>
                 </h2>
-                {link.summary && (
-                  <p class="article-excerpt">{link.summary}</p>
+                {link.summary && link.summary.trim() && (
+                  <p class="article-excerpt">
+                    {link.summary.length > 150 
+                      ? link.summary.substring(0, 150).trim() + '...' 
+                      : link.summary}
+                  </p>
                 )}
                 {link.tags.length > 0 && (
                   <div class="article-tags">
@@ -167,12 +209,16 @@ const categoryLabels = {
     /* Header */
     .header {
         border-bottom: 1px solid #e8ebed;
-        padding: 20px 0;
         position: sticky;
         top: 0;
         background: rgba(250, 251, 252, 0.95);
         backdrop-filter: blur(10px);
         z-index: 100;
+    }
+    
+    .header .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .header-content {
@@ -184,7 +230,78 @@ const categoryLabels = {
     .logo {
         font-size: 18px;
         font-weight: 600;
+    }
+
+    .logo-link {
         color: #2a2a2a;
+        text-decoration: none;
+    }
+
+    .logo-link:hover {
+        color: #1e40af;
+    }
+
+    .header-nav {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        background: #f8fafc;
+        border-radius: 6px;
+        padding: 2px;
+    }
+
+    .nav-link {
+        padding: 8px 12px;
+        color: #6b7280;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.15s ease;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        white-space: nowrap;
+    }
+
+    .nav-link:hover {
+        background: #ffffff;
+        color: #2a2a2a;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .nav-link.active {
+        background: #ffffff;
+        color: #2a2a2a;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .nav-link.secondary {
+        margin-left: 12px;
+        background: transparent;
+        border: 1px solid #e5e7eb;
+        border-radius: 4px;
+    }
+
+    .nav-link.secondary:hover {
+        border-color: #d1d5db;
+        background: #f9fafb;
+    }
+
+    .nav-count {
+        font-size: 12px;
+        color: #9ca3af;
+        background: #f3f4f6;
+        padding: 2px 6px;
+        border-radius: 10px;
+        min-width: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .nav-link.active .nav-count {
+        background: #e0f2fe;
+        color: #0369a1;
     }
 
     .header-meta {
@@ -192,50 +309,30 @@ const categoryLabels = {
         color: #6b7280;
     }
 
-    /* Filters */
-    .filters {
-        padding: 16px 0;
+    /* Search Section */
+    .search-section {
         border-bottom: 1px solid #e8ebed;
-        background: #ffffff;
-    }
-
-    .filter-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 24px;
-    }
-
-    .filter-tabs {
-        display: flex;
-        gap: 2px;
-        background: #f3f4f6;
-        border-radius: 6px;
-        padding: 2px;
-    }
-
-    .filter-tab {
-        padding: 8px 16px;
-        background: transparent;
-        border: none;
-        color: #6b7280;
-        font-size: 14px;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: all 0.15s ease;
-        white-space: nowrap;
-    }
-
-    .filter-tab.active {
-        background: #ffffff;
-        color: #2a2a2a;
+        background: rgba(255, 255, 255, 0.98);
+        position: sticky;
+        top: 0px;
+        z-index: 85;
+        backdrop-filter: blur(10px);
         box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        margin-top: 0;
+    }
+    
+    .search-section .container {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        max-width: 1400px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .search-container {
         display: flex;
+        justify-content: center;
         align-items: center;
-        gap: 12px;
     }
 
     .search-box {
@@ -253,26 +350,6 @@ const categoryLabels = {
         box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.05);
     }
 
-    .view-toggle {
-        display: flex;
-        gap: 4px;
-    }
-
-    .view-btn {
-        padding: 6px 8px;
-        border: 1px solid #e8ebed;
-        background: #ffffff;
-        color: #6b7280;
-        font-size: 12px;
-        border-radius: 3px;
-        cursor: pointer;
-    }
-
-    .view-btn.active {
-        background: #2a2a2a;
-        color: #ffffff;
-        border-color: #2a2a2a;
-    }
 
     /* Content Grid */
     .content-grid {
@@ -285,12 +362,34 @@ const categoryLabels = {
     /* Sidebar */
     .sidebar {
         position: sticky;
-        top: 120px;
+        top: 130px;
         height: fit-content;
+        max-height: calc(100vh - 150px);
+        overflow-y: auto;
         background: #ffffff;
         border-radius: 8px;
         padding: 20px;
         border: 1px solid #e8ebed;
+        scrollbar-width: thin;
+        scrollbar-color: #d1d5db #f9fafb;
+    }
+
+    .sidebar::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .sidebar::-webkit-scrollbar-track {
+        background: #f9fafb;
+        border-radius: 3px;
+    }
+
+    .sidebar::-webkit-scrollbar-thumb {
+        background: #d1d5db;
+        border-radius: 3px;
+    }
+
+    .sidebar::-webkit-scrollbar-thumb:hover {
+        background: #9ca3af;
     }
 
     .source-list {
@@ -420,6 +519,11 @@ const categoryLabels = {
         color: #6b7280;
         line-height: 1.5;
         margin-bottom: 8px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        max-height: 4.5em; /* 3 lines * 1.5 line-height */
     }
 
     .article-tags {
@@ -438,7 +542,60 @@ const categoryLabels = {
     }
 
     /* Responsive */
+    @media (max-width: 1024px) {
+        .header-nav {
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        
+        .header-nav::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .nav-link {
+            padding: 6px 10px;
+            font-size: 13px;
+        }
+        
+        .nav-count {
+            font-size: 11px;
+            padding: 1px 4px;
+        }
+    }
+
     @media (max-width: 768px) {
+        .header-content {
+            flex-direction: column;
+            gap: 16px;
+            align-items: flex-start;
+        }
+        
+        .header-nav {
+            width: 100%;
+            justify-content: flex-start;
+            padding: 4px;
+        }
+        
+        .nav-link {
+            padding: 6px 8px;
+            font-size: 12px;
+        }
+        
+        .nav-count {
+            font-size: 10px;
+            padding: 1px 4px;
+        }
+        
+        .header-meta {
+            align-self: flex-end;
+            font-size: 12px;
+        }
+        
+        .search-section {
+            top: 120px; /* Adjust for mobile header height */
+        }
+        
         .content-grid {
             grid-template-columns: 1fr;
             gap: 24px;
@@ -447,27 +604,15 @@ const categoryLabels = {
         .sidebar {
             position: static;
             order: 2;
-        }
-
-        .filter-container {
-            flex-direction: column;
-            align-items: stretch;
-            gap: 16px;
-        }
-
-        .search-container {
-            justify-content: space-between;
-        }
-
-        .search-box {
-            width: 180px;
+            max-height: none;
+            overflow-y: visible;
         }
     }
   </style>
 
   <script>
     // Filter functionality
-    const filterTabs = document.querySelectorAll('.filter-tab');
+    const navLinks = document.querySelectorAll('.nav-link[data-filter]');
     const articles = document.querySelectorAll('.article');
     const searchInput = document.getElementById('searchInput') as HTMLInputElement;
     const feedTitle = document.querySelector('.feed-title');
@@ -476,17 +621,34 @@ const categoryLabels = {
     let currentFilter = 'all';
     let searchTerm = '';
 
+    function updateActiveStates() {
+      // Update nav links
+      navLinks.forEach((link) => {
+        if (link.getAttribute('data-filter') === currentFilter) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+
     function applyFilters() {
       let visibleCount = 0;
       
       articles.forEach((article) => {
         const category = article.getAttribute('data-category');
+        
+        // Simple category matching
         const matchesCategory = currentFilter === 'all' || category === currentFilter;
         
         let matchesSearch = true;
         if (searchTerm) {
-          const text = article.textContent?.toLowerCase() || '';
-          matchesSearch = text.includes(searchTerm.toLowerCase());
+          // Search across title, summary, and full content for better matching
+          const title = article.querySelector('.article-title')?.textContent?.toLowerCase() || '';
+          const summary = article.querySelector('.article-excerpt')?.textContent?.toLowerCase() || '';
+          const fullContent = article.getAttribute('data-full-content')?.toLowerCase() || '';
+          const searchText = `${title} ${summary} ${fullContent}`;
+          matchesSearch = searchText.includes(searchTerm.toLowerCase());
         }
         
         const isVisible = matchesCategory && matchesSearch;
@@ -502,19 +664,31 @@ const categoryLabels = {
       
       // Update feed title
       if (feedTitle && currentFilter !== 'all') {
-        const activeTab = document.querySelector('.filter-tab.active');
-        feedTitle.textContent = activeTab?.textContent || 'All Sources';
+        const categoryNames: Record<string, string> = {
+          'markets': 'Markets',
+          'research': 'Research',
+          'macro': 'Economics',
+          'policy': 'Policy',
+          'technology': 'Technology',
+          'non-money': 'General',
+          'blogs': 'Blogs'
+        };
+        feedTitle.textContent = categoryNames[currentFilter] || 'All Sources';
       } else if (feedTitle) {
         feedTitle.textContent = 'All Sources';
       }
+      
+      updateActiveStates();
     }
 
-    // Filter tab clicks
-    filterTabs.forEach((tab) => {
-      tab.addEventListener('click', () => {
-        filterTabs.forEach((t) => t.classList.remove('active'));
-        tab.classList.add('active');
-        currentFilter = tab.getAttribute('data-filter') || 'all';
+    // Set initial active state
+    updateActiveStates();
+
+    // Navigation link clicks
+    navLinks.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        currentFilter = link.getAttribute('data-filter') || 'all';
         applyFilters();
       });
     });
@@ -556,15 +730,6 @@ const categoryLabels = {
     });
 
     // View toggle
-    document.getElementById('compactView')?.addEventListener('click', () => {
-      document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
-      document.getElementById('compactView')?.classList.add('active');
-    });
-
-    document.getElementById('cardView')?.addEventListener('click', () => {
-      document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
-      document.getElementById('cardView')?.classList.add('active');
-    });
 
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {

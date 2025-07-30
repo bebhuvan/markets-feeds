@@ -1,4 +1,4 @@
-export type Category = 'markets' | 'macro' | 'research' | 'policy' | 'filings';
+export type Category = 'markets' | 'macro' | 'research' | 'policy' | 'technology' | 'non-money' | 'blogs';
 export type Priority = 'breaking' | 'high' | 'normal' | 'low';
 
 export interface RSSSource {
@@ -20,7 +20,7 @@ export interface FeedItem {
   title: string;
   url: string;
   summary: string;
-  content?: string;
+  fullContent?: string;
   publishedAt: Date;
   fetchedAt: Date;
   category: Category;

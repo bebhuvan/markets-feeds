@@ -8,7 +8,7 @@
     "summary": "Draft review of John Cassidy: \"Capitalism & Its Critics\". 2025-04-07...",
     "publishedAt": "2025-07-08T22:51:13+00:00",
     "fetchedAt": "2025-07-28T06:22:16.625521+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -21,10 +21,10 @@
     "sourceName": "Brad DeLong",
     "title": "What Manufacturing Production Is Not Good For",
     "url": "https://braddelong.substack.com/p/what-manufacturing-production-is",
-    "summary": "Why chasing factory jobs for their own sake really is a dead end\u2014and what policymakers should do instead. It is unions and social-insurance states, not assembly lines, that hold the key to global...",
+    "summary": "Why chasing factory jobs for their own sake really is a dead end—and what policymakers should do instead. It is unions and social-insurance states, not assembly lines, that hold the key to global...",
     "publishedAt": "2025-07-08T20:35:12+00:00",
     "fetchedAt": "2025-07-28T06:22:16.625837+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -57,7 +57,7 @@
     "summary": "CME, Diet ARK, no-dividend ETF, more Jane Street options and vending machines.",
     "publishedAt": "2025-07-08T18:12:52+00:00",
     "fetchedAt": "2025-07-28T04:04:08.133035+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -90,7 +90,7 @@
     "summary": "What Every Investor Needs to Know About",
     "publishedAt": "2025-07-08T17:28:40+00:00",
     "fetchedAt": "2025-07-28T06:22:16.426661+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -117,9 +117,9 @@
     "id": "economist-finance-8eee4171f6de220c",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
-    "title": "Trump\u2019s trade deals try a creative way to hobble China",
+    "title": "Trump’s trade deals try a creative way to hobble China",
     "url": "https://www.economist.com/finance-and-economics/2025/07/08/trumps-trade-deals-try-a-creative-way-to-hobble-china",
-    "summary": "To appease the world\u2019s biggest market, countries must anger the world\u2019s biggest trader",
+    "summary": "To appease the world’s biggest market, countries must anger the world’s biggest trader",
     "publishedAt": "2025-07-08T17:15:34+00:00",
     "fetchedAt": "2025-07-28T03:50:55.558754+00:00",
     "category": "macro",
@@ -133,9 +133,9 @@
     "id": "noema-magazine-3e0a9a459221c158",
     "sourceId": "noema-magazine",
     "sourceName": "Noema",
-    "title": "Why Science Hasn\u2019t Solved Consciousness (Yet)",
+    "title": "Why Science Hasn’t Solved Consciousness (Yet)",
     "url": "https://www.noemamag.com/why-science-hasnt-solved-consciousness-yet",
-    "summary": "The post Why Science Hasn\u2019t Solved Consciousness (Yet) appeared first on NOEMA.",
+    "summary": "The post Why Science Hasn’t Solved Consciousness (Yet) appeared first on NOEMA.",
     "publishedAt": "2025-07-08T17:02:17+00:00",
     "fetchedAt": "2025-07-28T06:33:13.843425+00:00",
     "category": "non-money",
@@ -146,6 +146,23 @@
     "contentHash": "3e0a9a459221c158"
   },
   {
+    "id": "conversable-economist-1e07e1f5d201ec4b",
+    "sourceId": "conversable-economist",
+    "sourceName": "Conversable Economist",
+    "title": "Latin America: A Lost Century for Catch-up Growth",
+    "url": "https://conversableeconomist.com/2025/07/08/latin-america-a-lost-century-for-catch-up-growth/",
+    "summary": "It is common in talking about 1980s to refer to it as a “lost decade” for economic growth, when many developing economies around the world were trapped in destructive patterns of debt and inflation. But William F. Maloney, Xavier Cirera, and Maria Marta Ferreyra make a stronger claim about growth in Latin America, which is … Continue reading Latin America: A Lost Century for Catch-up Growth The post Latin America: A Lost Century for Catch-up Growth first appeared on Conversable Economist.",
+    "publishedAt": "2025-07-08T16:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:06.050462+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Debt"
+    ],
+    "priority": "high",
+    "contentHash": "1e07e1f5d201ec4b"
+  },
+  {
     "id": "the-zvi-d17d2ad22b915679",
     "sourceId": "the-zvi",
     "sourceName": "The Zvi",
@@ -154,12 +171,47 @@
     "summary": "What Balsa has been up to in the first half of 2025",
     "publishedAt": "2025-07-08T14:57:18+00:00",
     "fetchedAt": "2025-07-28T06:22:19.229632+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
     "priority": "normal",
     "contentHash": "d17d2ad22b915679"
+  },
+  {
+    "id": "bonddad-db4e48b98de1e5dd",
+    "sourceId": "bonddad",
+    "sourceName": "The Bonddad Blog",
+    "title": "Two important danger signals in the June employment report",
+    "url": "https://bonddad.blogspot.com/2025/07/two-important-danger-signals-in-june.html",
+    "summary": "- by New Deal democratThis is Ben Casellman, Chief Economic Correspondent for The NY Times’s take on last Friday’s employment report:I beg to differ. As I wrote Friday, underneath the headlines, this was a barely positive report - with some significant negatives. Let me point out a couple of the big ones today.The headline was 147,000 jobs added, about average for the past year:So it’s all good, right? Not so fast.That 147,000 breaks down to 74,000 private jobs + 63,000 education (and 10,000 other). In the past six years, only 3 other times have public sector jobs (including education and all other government jobs) been such a large component of the total gain:And the simple reason is that education employment is highly seasonal, with layoffs in May through July, and rehiring in August through October, as shown in the below graph where the non-seasonally adjusted numbers are in light blue, the seasonally adjusted ones in dark blue - and even then, I’ve had to divide the NSA numbers by ",
+    "publishedAt": "2025-07-08T14:50:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.837583+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "db4e48b98de1e5dd"
+  },
+  {
+    "id": "rzepczynski-d757001cdc352203",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Conditional betas solve a classic problem",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/conditional-betas-solve-classic-problem.html",
+    "summary": "Beta is time-varying. There is no dispute about this. The traditional approach to addressing this problem is to utilize a rolling window to adjust beta over time; however, this method does not account for the changing environment. It just increases the use of new information.A new paper, \"Conditional Betas: A Non-Standard Approach,\" attempts to find a new method to account for changing beta. It compares the quality of beta forecasts with one of the leading alternatives of windsorizing the data for beta. The overall effect of a simple machine learning approach is very positive. Results are strong and only based on past price data. This is worth further exploration. I cannot tell you how frustrating it is to see a hedge balanced trade fall apart because the beta estimate is wrong. Market neutral is no longer market neutral. This may not seem like a significant issue for long-only managers, but for a long/short portfolio, it is a substantial problem.",
+    "publishedAt": "2025-07-08T14:04:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.915784+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Earnings",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "d757001cdc352203"
   },
   {
     "id": "woman-of-letters-e1d3fff6291eb259",
@@ -176,6 +228,24 @@
     ],
     "priority": "normal",
     "contentHash": "e1d3fff6291eb259"
+  },
+  {
+    "id": "rzepczynski-b92019b72f42e9c8",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Gold as a safe asset - an alternative to debt.",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/gold-as-safe-asset-alternative-to-debt.html",
+    "summary": "One of the topics that has received attention in microfinance research is the discussion of what constitutes a safe asset and whether it is in short supply. During a crisis, there is an increased demand for safe assets that are information-insensitive and serve as a means to protect wealth. A simple example of a safe asset is the US Treasury bill. When there is high uncertainty, investors tend to sell risky assets and shift to safer ones. However, if there is a shortage of these safe assets, the price will be bid up, placing downward pressure on interest rates. Nevertheless, there is the assumption that the supposed safe asset will really be safe. That is, the risk or market uncertainty cannot come from the producer of the safe asset. If there is an increase in risk from the safe asset, it will lose its convenience yield, and it will no longer be uncorrelated with risky assets. In this case, there will be a demand for alternative safe assets. One alternative is gold. Gold is often unco",
+    "publishedAt": "2025-07-08T13:57:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.916570+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Debt",
+      "Commodities"
+    ],
+    "priority": "breaking",
+    "contentHash": "b92019b72f42e9c8"
   },
   {
     "id": "ecb-press-1d3a1ff46b47fd38",
@@ -217,7 +287,7 @@
     "sourceName": "Pens and Poison",
     "title": "George Orwell's Box",
     "url": "https://www.pensandpoison.org/p/george-orwells-box",
-    "summary": "How Orwell\u2019s Defense of Writing Led to Its Undoing",
+    "summary": "How Orwell’s Defense of Writing Led to Its Undoing",
     "publishedAt": "2025-07-08T12:08:19+00:00",
     "fetchedAt": "2025-07-28T06:33:15.949206+00:00",
     "category": "non-money",
@@ -264,9 +334,9 @@
     "id": "cfa-enterprising-investor-c1ff82cc2a6e8710",
     "sourceId": "cfa-enterprising-investor",
     "sourceName": "CFA Enterprising Investor",
-    "title": "Book Review: Cheaper Faster Better: How We\u2019ll Win the Climate War",
+    "title": "Book Review: Cheaper Faster Better: How We’ll Win the Climate War",
     "url": "https://blogs.cfainstitute.org/investor/2025/07/08/book-review-cheaper-faster-better-how-well-win-the-climate-war/",
-    "summary": "Can capitalism save the planet? Tom Steyer makes the case in this urgent, optimistic roadmap to a net-zero future. The post Book Review: Cheaper Faster Better: How We\u2019ll Win the Climate War appeared first on CFA Institute Enterprising Investor.",
+    "summary": "Can capitalism save the planet? Tom Steyer makes the case in this urgent, optimistic roadmap to a net-zero future. The post Book Review: Cheaper Faster Better: How We’ll Win the Climate War appeared first on CFA Institute Enterprising Investor.",
     "publishedAt": "2025-07-08T12:00:00+00:00",
     "fetchedAt": "2025-07-28T08:46:10.403592+00:00",
     "category": "research",
@@ -302,7 +372,7 @@
     "summary": "A Mixtape!",
     "publishedAt": "2025-07-08T10:46:27+00:00",
     "fetchedAt": "2025-07-28T06:22:16.955756+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -315,7 +385,7 @@
     "sourceName": "Aeon",
     "title": "The French liar",
     "url": "https://aeon.co/essays/was-rene-descartes-a-self-centred-guru-and-a-lying-fraud?utm_source=rss-feed",
-    "summary": "Ren\u00e9 Descartes, the founder of modern philosophy, was furiously condemned by his contemporaries. Why did they fear him? - by Sandrine Parageau Read at Aeon",
+    "summary": "René Descartes, the founder of modern philosophy, was furiously condemned by his contemporaries. Why did they fear him? - by Sandrine Parageau Read at Aeon",
     "publishedAt": "2025-07-08T10:00:00+00:00",
     "fetchedAt": "2025-07-28T06:33:10.648806+00:00",
     "category": "non-money",
@@ -373,5 +443,21 @@
     ],
     "priority": "normal",
     "contentHash": "9480f6ef7d2534d9"
+  },
+  {
+    "id": "yale-e360-ff89b4ebbe0008ea",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "In Uganda, Deadly Landslides Force an Agricultural Reckoning",
+    "url": "https://e360.yale.edu/features/uganda-elgon-landslide-agroforestry",
+    "summary": "As growing populations denude its slopes and heavy rain intensifies, Mount Elgon has become increasingly vulnerable to landslides. In response, Ugandan farmers are planting native trees and changing the crops they plant in efforts to build resilience against future disasters.Read more on E360 →",
+    "publishedAt": "2025-07-08T04:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.437267+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "normal",
+    "contentHash": "ff89b4ebbe0008ea"
   }
 ]

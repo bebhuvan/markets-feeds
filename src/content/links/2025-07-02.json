@@ -35,9 +35,9 @@
     "id": "cepr-news-334b3cb086c94e97",
     "sourceId": "cepr-news",
     "sourceName": "CEPR News",
-    "title": "\u20ac-coin holds steady in June",
+    "title": "€-coin holds steady in June",
     "url": "https://cepr.org/about/news/eu-coin-holds-steady-june",
-    "summary": "\u20ac-coin was unchanged from the previous month, at 0.26 in June, continuing to signal modest growth in the euro area.",
+    "summary": "€-coin was unchanged from the previous month, at 0.26 in June, continuing to signal modest growth in the euro area.",
     "publishedAt": "2025-07-02T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.249217+00:00",
     "category": "research",
@@ -57,7 +57,7 @@
     "summary": "Back in May I did a dramatization of a key and highly painful Senate hearing.",
     "publishedAt": "2025-07-02T22:01:34+00:00",
     "fetchedAt": "2025-07-28T06:22:19.230378+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -84,7 +84,7 @@
     "id": "economist-finance-9ce19b4453fe6471",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
-    "title": "India\u2019s Licence Raj offers America important lessons",
+    "title": "India’s Licence Raj offers America important lessons",
     "url": "https://www.economist.com/finance-and-economics/2025/07/02/indias-licence-raj-offers-america-important-lessons",
     "summary": "Even when a protectionist system is dismantled, its problems can endure",
     "publishedAt": "2025-07-02T18:32:46+00:00",
@@ -121,7 +121,7 @@
     "summary": "Also BlackRock and privates, Vanguard and privates, the Paramount settlement and Enron 2.0.",
     "publishedAt": "2025-07-02T18:05:08+00:00",
     "fetchedAt": "2025-07-28T04:04:08.133505+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -179,6 +179,22 @@
     "contentHash": "5a3270d141ce7fa3"
   },
   {
+    "id": "ecfr-ca759cdb75f13bdb",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "Lethal weapon: Why Europe can’t afford to blink on China’s rare earth blackmail",
+    "url": "https://ecfr.eu/article/lethal-weapon-why-europe-cant-afford-to-blink-on-chinas-rare-earth-blackmail/",
+    "summary": "China’s export restrictions are bringing European factories to the verge of shutting down. Yielding to Chinese pressure today will only invite more sophisticated threats tomorrow; only a united and assertive EU response can stop the cycle of coercion and protect Europe’s industrial core",
+    "publishedAt": "2025-07-02T15:26:01+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.189730+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "ca759cdb75f13bdb"
+  },
+  {
     "id": "gaby-delvalle-81556b8e72b9515b",
     "sourceId": "gaby-delvalle",
     "sourceName": "Gaby Delvalle",
@@ -232,7 +248,7 @@
     "sourceName": "Federal Reserve Working Papers",
     "title": "IFDP Paper: Trade Costs and Inflation Dynamics",
     "url": "https://www.federalreserve.gov/econres/ifdp/trade-costs-and-inflation-dynamics.htm",
-    "summary": "Pablo Cuba-Borda, Albert Queralto, Ricardo Reyes-Heroles, and Mika\u00ebl ScaramucciWe study how trade cost shocks influence inflation. Using bilateral trade flows from detailed global input-output data and a gravity framework, we estimate trade cost shocks and their effects on CPI inflation. Higher trade costs for final goods cause large but short-lived inflation spikes, while increased costs for intermediate inputs trigger more persistent inflation. A multi-country model of inflation with trade in final goods and intermediate inputs replicates these patterns. We show that trade cost shocks and tariffs on imported inputs transmit through global value chains and worsen monetary policy trade-offs. We use the model to quantify the effects of trade costs during the 2018\u20132019 U.S.-China trade war and to estimate the contribution of trade costs during the post-pandemic inflation surge. Novel data on U.S. domestic sourcing shores allow us to estimate trade cost shocks for the U.S. using Bayesian ",
+    "summary": "Pablo Cuba-Borda, Albert Queralto, Ricardo Reyes-Heroles, and Mikaël ScaramucciWe study how trade cost shocks influence inflation. Using bilateral trade flows from detailed global input-output data and a gravity framework, we estimate trade cost shocks and their effects on CPI inflation. Higher trade costs for final goods cause large but short-lived inflation spikes, while increased costs for intermediate inputs trigger more persistent inflation. A multi-country model of inflation with trade in final goods and intermediate inputs replicates these patterns. We show that trade cost shocks and tariffs on imported inputs transmit through global value chains and worsen monetary policy trade-offs. We use the model to quantify the effects of trade costs during the 2018–2019 U.S.-China trade war and to estimate the contribution of trade costs during the post-pandemic inflation surge. Novel data on U.S. domestic sourcing shores allow us to estimate trade cost shocks for the U.S. using Bayesian ",
     "publishedAt": "2025-07-02T14:30:00+00:00",
     "fetchedAt": "2025-07-28T08:46:10.664053+00:00",
     "category": "research",
@@ -262,7 +278,7 @@
     "id": "economist-business-04314ccedfdd9232",
     "sourceId": "economist-business",
     "sourceName": "Economist Business",
-    "title": "Ferrari is looking less like a carmaker and more like Herm\u00e8s",
+    "title": "Ferrari is looking less like a carmaker and more like Hermès",
     "url": "https://www.economist.com/business/2025/07/02/ferrari-is-looking-less-like-a-carmaker-and-more-like-hermes",
     "summary": "But will it thrive in the electric age?",
     "publishedAt": "2025-07-02T14:07:47+00:00",
@@ -289,6 +305,22 @@
     ],
     "priority": "high",
     "contentHash": "54d6f1024f9fb96e"
+  },
+  {
+    "id": "yale-e360-53d3db89b4d3ed3b",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "A Decade After a Lead Crisis, Flint Has At Last Replaced Its Pipes",
+    "url": "https://e360.yale.edu/digest/flint-pipe-replacement",
+    "summary": "A decade after Flint, Michigan, was beset by widespread lead contamination, officials confirmed the city has replaced its lead pipes, as ordered by a federal court.Read more on E360 →",
+    "publishedAt": "2025-07-02T12:51:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.438005+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "breaking",
+    "contentHash": "53d3db89b4d3ed3b"
   },
   {
     "id": "astral-codex-ten-b70d63e748e3a4a7",
@@ -332,7 +364,7 @@
     "summary": "Even the most well-built portfolios can feel shaky in uncertain markets.",
     "publishedAt": "2025-07-02T12:00:47+00:00",
     "fetchedAt": "2025-07-28T06:22:16.427159+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -364,7 +396,7 @@
     "summary": "Kamil on Coups and Power",
     "publishedAt": "2025-07-02T11:04:27+00:00",
     "fetchedAt": "2025-07-28T06:22:16.956247+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -396,7 +428,7 @@
     "summary": "Trump's \"Big Beautiful Bill\" is an advanced stage of a disease that took hold long ago.",
     "publishedAt": "2025-07-02T08:16:00+00:00",
     "fetchedAt": "2025-07-28T04:04:07.485097+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -425,7 +457,7 @@
     "sourceName": "New Left Review",
     "title": "Zhang Yongle: Reconfiguring Hegemony",
     "url": "https://newleftreview.org/issues/ii153/articles/yongle-zhang-reconfiguring-hegemony",
-    "summary": "A view from China of the battle for America\u2019s ideological soul, pitting Trump, home-grown nemesis of Western liberal democracy, against Francis Fukuyama, subtlest philosopher of its world-historical triumph. Are these contrasted figures two manifestations of the same hegemonic principle?",
+    "summary": "A view from China of the battle for America’s ideological soul, pitting Trump, home-grown nemesis of Western liberal democracy, against Francis Fukuyama, subtlest philosopher of its world-historical triumph. Are these contrasted figures two manifestations of the same hegemonic principle?",
     "publishedAt": "2025-07-02T00:00:00+00:00",
     "fetchedAt": "2025-07-28T06:33:14.573426+00:00",
     "category": "non-money",
@@ -441,7 +473,7 @@
     "sourceName": "New Left Review",
     "title": "Roberto Schwarz: Political Polyphonies",
     "url": "https://newleftreview.org/issues/ii153/articles/roberto-schwarz-political-polyphonies",
-    "summary": "Interview with the Brazilian critic and theorist on the literary and political ideas informing his epic play, Queen Lira. A volatile cacophony of voices disputing his country\u2019s path, from Dilma\u2019s impeachment to Bolsonaro\u2019s rise and Lula\u2019s unexpected return.",
+    "summary": "Interview with the Brazilian critic and theorist on the literary and political ideas informing his epic play, Queen Lira. A volatile cacophony of voices disputing his country’s path, from Dilma’s impeachment to Bolsonaro’s rise and Lula’s unexpected return.",
     "publishedAt": "2025-07-02T00:00:00+00:00",
     "fetchedAt": "2025-07-28T06:33:14.573709+00:00",
     "category": "non-money",
@@ -457,7 +489,7 @@
     "sourceName": "New Left Review",
     "title": "Alyssa Battistoni: Situating Freedom",
     "url": "https://newleftreview.org/issues/ii153/articles/alyssa-battistoni-situating-freedom",
-    "summary": "How might we reimagine freedom on an increasingly turbulent and resource-constrained planet? Charting a course between rival left accounts, Alyssa Battistoni offers a conception inspired by de Beauvoir\u2019s Ethics of Ambiguity: a \u2018situated\u2019 freedom, which recognizes natural contingency and centres human agency.",
+    "summary": "How might we reimagine freedom on an increasingly turbulent and resource-constrained planet? Charting a course between rival left accounts, Alyssa Battistoni offers a conception inspired by de Beauvoir’s Ethics of Ambiguity: a ‘situated’ freedom, which recognizes natural contingency and centres human agency.",
     "publishedAt": "2025-07-02T00:00:00+00:00",
     "fetchedAt": "2025-07-28T06:33:14.573981+00:00",
     "category": "non-money",
@@ -471,9 +503,9 @@
     "id": "new-left-review-85f350547db1c738",
     "sourceId": "new-left-review",
     "sourceName": "New Left Review",
-    "title": "Aaron Benanav: Beyond Capitalism\u20141",
+    "title": "Aaron Benanav: Beyond Capitalism—1",
     "url": "https://newleftreview.org/issues/ii153/articles/aaron-benanav-beyond-capitalism-1",
-    "summary": "In the first instalment of a major contribution to the reconceptualization of a post-capitalist social order, Aaron Benanav marshals insights from a long century of socialist thought and practice\u2014Cabet, Marx, Preobrazhensky, Neurath, Keynes\u2014to lay the theoretical foundations for his own multi-criterial model.",
+    "summary": "In the first instalment of a major contribution to the reconceptualization of a post-capitalist social order, Aaron Benanav marshals insights from a long century of socialist thought and practice—Cabet, Marx, Preobrazhensky, Neurath, Keynes—to lay the theoretical foundations for his own multi-criterial model.",
     "publishedAt": "2025-07-02T00:00:00+00:00",
     "fetchedAt": "2025-07-28T06:33:14.574234+00:00",
     "category": "non-money",
@@ -487,9 +519,9 @@
     "id": "new-left-review-6ebec8194700f7ec",
     "sourceId": "new-left-review",
     "sourceName": "New Left Review",
-    "title": "NLR Editors: Michael Burawoy: 1947\u20132025",
+    "title": "NLR Editors: Michael Burawoy: 1947–2025",
     "url": "https://newleftreview.org/issues/ii153/articles/nlr-editors-michael-burawoy-1947-2025",
-    "summary": "The well-travelled life and consistently lucid, radical thought of global labour\u2019s great comparative ethnographer\u2014and social theorist.",
+    "summary": "The well-travelled life and consistently lucid, radical thought of global labour’s great comparative ethnographer—and social theorist.",
     "publishedAt": "2025-07-02T00:00:00+00:00",
     "fetchedAt": "2025-07-28T06:33:14.574451+00:00",
     "category": "non-money",
@@ -521,7 +553,7 @@
     "sourceName": "New Left Review",
     "title": "Michael Levien: Michael Burawoy",
     "url": "https://newleftreview.org/issues/ii153/articles/michael-levien-michael-burawoy",
-    "summary": "Intellectual reconstruction of the work of Michael Burawoy, from globe-spanning analysis of production regimes\u2014post-colonial, advanced capitalist, state socialist\u2014to theoretical dialogues with Polanyi, Bourdieu and Du Bois.",
+    "summary": "Intellectual reconstruction of the work of Michael Burawoy, from globe-spanning analysis of production regimes—post-colonial, advanced capitalist, state socialist—to theoretical dialogues with Polanyi, Bourdieu and Du Bois.",
     "publishedAt": "2025-07-02T00:00:00+00:00",
     "fetchedAt": "2025-07-28T06:33:14.574908+00:00",
     "category": "non-money",

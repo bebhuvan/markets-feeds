@@ -88,20 +88,19 @@ class FeedAggregator:
     def load_config(self):
         """Load RSS sources - simplified list of most reliable sources"""
         self.sources = [
-            # Tier 1: Most reliable sources
+            # === MARKETS (Stocks, Trading, Corporate) ===
             {'id': 'bloomberg-markets', 'name': 'Bloomberg Markets', 'url': 'https://feeds.bloomberg.com/markets/news.rss', 'category': 'markets', 'priority': 1},
-            {'id': 'bloomberg-economics', 'name': 'Bloomberg Economics', 'url': 'https://feeds.bloomberg.com/economics/news.rss', 'category': 'macro', 'priority': 1},
             {'id': 'reuters-business', 'name': 'Reuters Business', 'url': 'https://feeds.reuters.com/reuters/businessNews', 'category': 'markets', 'priority': 1},
             {'id': 'ft-markets', 'name': 'Financial Times', 'url': 'https://www.ft.com/markets?format=rss', 'category': 'markets', 'priority': 1},
             {'id': 'wsj-markets', 'name': 'Wall Street Journal', 'url': 'https://feeds.a.dj.com/rss/RSSMarketsMain.xml', 'category': 'markets', 'priority': 1},
             {'id': 'cnbc-markets', 'name': 'CNBC Markets', 'url': 'https://www.cnbc.com/id/10000664/device/rss/rss.html', 'category': 'markets', 'priority': 1},
-            
-            # Tier 2: Good reliability
-            {'id': 'economist-finance', 'name': 'The Economist', 'url': 'https://www.economist.com/finance-and-economics/rss.xml', 'category': 'macro', 'priority': 2},
-            {'id': 'seeking-alpha', 'name': 'Seeking Alpha', 'url': 'https://seekingalpha.com/feed.xml', 'category': 'markets', 'priority': 2},
             {'id': 'marketwatch', 'name': 'MarketWatch', 'url': 'https://feeds.marketwatch.com/marketwatch/topstories', 'category': 'markets', 'priority': 2},
             {'id': 'yahoo-finance', 'name': 'Yahoo Finance', 'url': 'https://finance.yahoo.com/news/rssindex', 'category': 'markets', 'priority': 2},
             {'id': 'business-insider', 'name': 'Business Insider', 'url': 'https://feeds.businessinsider.com/custom/all', 'category': 'markets', 'priority': 2},
+            
+            # === MACRO ECONOMICS ===
+            {'id': 'bloomberg-economics', 'name': 'Bloomberg Economics', 'url': 'https://feeds.bloomberg.com/economics/news.rss', 'category': 'macro', 'priority': 1},
+            {'id': 'economist-finance', 'name': 'The Economist', 'url': 'https://www.economist.com/finance-and-economics/rss.xml', 'category': 'macro', 'priority': 2},
             
             # Central Banks & Policy
             {'id': 'fed-news', 'name': 'Federal Reserve', 'url': 'https://www.federalreserve.gov/feeds/press_all.xml', 'category': 'policy', 'priority': 1},
@@ -110,10 +109,10 @@ class FeedAggregator:
             
             # Research
             {'id': 'bis-papers', 'name': 'BIS Papers', 'url': 'https://www.bis.org/doclist/rss_all_categories.rss', 'category': 'research', 'priority': 2},
-            {'id': 'marginal-revolution', 'name': 'Marginal Revolution', 'url': 'https://marginalrevolution.com/feed', 'category': 'research', 'priority': 2},
-            {'id': 'calculated-risk', 'name': 'Calculated Risk', 'url': 'https://www.calculatedriskblog.com/feeds/posts/default', 'category': 'research', 'priority': 2},
+            {'id': 'marginal-revolution', 'name': 'Marginal Revolution', 'url': 'https://marginalrevolution.com/feed', 'category': 'non-money', 'priority': 2},
+            {'id': 'calculated-risk', 'name': 'Calculated Risk', 'url': 'https://www.calculatedriskblog.com/feeds/posts/default', 'category': 'macro', 'priority': 2},
             
-            # Indian Sources
+            # === INDIAN MARKETS ===
             {'id': 'et-markets', 'name': 'Economic Times', 'url': 'https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms', 'category': 'markets', 'priority': 2},
             {'id': 'thehindubusinessline', 'name': 'Hindu BusinessLine', 'url': 'https://www.thehindubusinessline.com/markets/?service=rss', 'category': 'markets', 'priority': 2},
             
@@ -121,7 +120,59 @@ class FeedAggregator:
             {'id': 'techmeme', 'name': 'Techmeme', 'url': 'https://www.techmeme.com/feed.xml', 'category': 'technology', 'priority': 2},
             
             # Filings
-            {'id': 'sec-press-releases', 'name': 'SEC Press Releases', 'url': 'https://www.sec.gov/news/pressreleases.rss', 'category': 'filings', 'priority': 2},
+            {'id': 'sec-press-releases', 'name': 'SEC Press Releases', 'url': 'https://www.sec.gov/news/pressreleases.rss', 'category': 'policy', 'priority': 2},
+            
+            # Indian Policy & Regulation
+            {'id': 'rbi-press', 'name': 'RBI Press Releases', 'url': 'https://www.rbi.org.in/pressreleases_rss.xml', 'category': 'policy', 'priority': 1},
+            {'id': 'sebi-news', 'name': 'SEBI', 'url': 'https://www.sebi.gov.in/sebirss.xml', 'category': 'policy', 'priority': 2},
+            
+            # Additional Research Sources
+            {'id': 'nber-papers', 'name': 'NBER Working Papers', 'url': 'https://back.nber.org/rss/new.xml', 'category': 'research', 'priority': 2},
+            {'id': 'fred-blog', 'name': 'FRED Blog', 'url': 'https://fredblog.stlouisfed.org/feed/', 'category': 'research', 'priority': 2},
+            {'id': 'of-dollars-data', 'name': 'Of Dollars And Data', 'url': 'https://ofdollarsanddata.com/feed/', 'category': 'markets', 'priority': 2},
+            {'id': 'our-world-data', 'name': 'Our World in Data', 'url': 'https://ourworldindata.org/feed', 'category': 'research', 'priority': 2},
+            {'id': 'pew-research', 'name': 'Pew Research Center', 'url': 'https://www.pewresearch.org/feed', 'category': 'research', 'priority': 2},
+            {'id': 'rmi-energy', 'name': 'RMI', 'url': 'https://rmi.org/feed/', 'category': 'technology', 'priority': 2},
+            
+            # Commentary & Opinion
+            {'id': 'project-syndicate', 'name': 'Project Syndicate', 'url': 'https://www.project-syndicate.org/rss', 'category': 'blogs', 'priority': 2},
+            
+            # Asian Markets
+            {'id': 'nikkei-asia', 'name': 'Nikkei Asia', 'url': 'https://asia.nikkei.com/rss/feed/nar', 'category': 'markets', 'priority': 2},
+            
+            # Technology & Global
+            {'id': 'rest-of-world', 'name': 'Rest of World', 'url': 'https://restofworld.org/feed', 'category': 'technology', 'priority': 2},
+            
+            # Culture & Ideas
+            {'id': 'lrb', 'name': 'London Review of Books', 'url': 'https://www.lrb.co.uk/feeds/rss', 'category': 'non-money', 'priority': 3},
+            {'id': 'aeon', 'name': 'Aeon Magazine', 'url': 'https://aeon.co/feed.rss', 'category': 'non-money', 'priority': 3},
+            {'id': 'yale-e360', 'name': 'Yale E360', 'url': 'https://e360.yale.edu/feed.xml', 'category': 'non-money', 'priority': 3},
+            {'id': 'freakonomics', 'name': 'Freakonomics', 'url': 'http://freakonomics.com/feed/', 'category': 'non-money', 'priority': 2},
+            
+            # Additional Markets & Analysis
+            {'id': 'google-bloomberg', 'name': 'Google News (Bloomberg)', 'url': 'https://news.google.com/rss/search?q=when:24h+allinurl:bloomberg.com&hl=en-US&gl=US&ceid=US:en', 'category': 'markets', 'priority': 2},
+            {'id': 'damodaran', 'name': 'Aswath Damodaran', 'url': 'http://aswathdamodaran.blogspot.com/feeds/posts/default', 'category': 'markets', 'priority': 2},
+            {'id': 'lyn-alden', 'name': 'Lyn Alden', 'url': 'https://www.lynalden.com/feed/', 'category': 'markets', 'priority': 2},
+            {'id': 'advisor-perspectives', 'name': 'Advisor Perspectives', 'url': 'https://www.advisorperspectives.com/content.rss', 'category': 'markets', 'priority': 2},
+            {'id': 'wealth-common-sense', 'name': 'A Wealth of Common Sense', 'url': 'https://awealthofcommonsense.com/2025/07/feed/', 'category': 'markets', 'priority': 2},
+            {'id': 'big-picture', 'name': 'The Big Picture', 'url': 'https://ritholtz.com/feed/', 'category': 'markets', 'priority': 2},
+            {'id': 'meb-faber', 'name': 'Meb Faber Research', 'url': 'https://mebfaber.com/feed/', 'category': 'markets', 'priority': 2},
+            
+            # Macro Analysis
+            {'id': 'bonddad', 'name': 'The Bonddad Blog', 'url': 'https://bonddad.blogspot.com/feeds/posts/default', 'category': 'macro', 'priority': 2},
+            {'id': 'rzepczynski', 'name': 'Disciplined Systematic Global Macro', 'url': 'https://mrzepczynski.blogspot.com/feeds/posts/default', 'category': 'macro', 'priority': 2},
+            {'id': 'allison-schrager', 'name': 'Known Unknowns', 'url': 'https://allisonschrager.substack.com/feed', 'category': 'macro', 'priority': 2},
+            {'id': 'econbrowser-new', 'name': 'Econbrowser', 'url': 'https://econbrowser.com/feed', 'category': 'macro', 'priority': 2},
+            {'id': 'conversable-economist', 'name': 'Conversable Economist', 'url': 'https://conversableeconomist.com/feed/', 'category': 'macro', 'priority': 2},
+            
+            # Policy & Research
+            {'id': 'apollo-academy', 'name': 'Apollo Academy', 'url': 'https://www.apolloacademy.com/feed/', 'category': 'markets', 'priority': 2},
+            {'id': 'ecfr', 'name': 'European Council on Foreign Relations', 'url': 'https://ecfr.eu/feed/', 'category': 'policy', 'priority': 2},
+            {'id': 'foreign-affairs', 'name': 'Foreign Affairs', 'url': 'https://www.foreignaffairs.com/rss.xml', 'category': 'policy', 'priority': 2},
+            {'id': 'ft-markets-main', 'name': 'FT Markets', 'url': 'https://www.ft.com/markets?format=rss', 'category': 'markets', 'priority': 1},
+            {'id': 'nyt-business', 'name': 'NYT Business', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Business.xml', 'category': 'markets', 'priority': 1},
+            {'id': 'nyt-economy', 'name': 'NYT Economy', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml', 'category': 'macro', 'priority': 1},
+            {'id': 'nyt-technology', 'name': 'NYT Technology', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml', 'category': 'technology', 'priority': 1},
         ]
         
         # Sort by priority (1 = highest priority)
@@ -270,6 +321,12 @@ class FeedAggregator:
                         if not pub_date:
                             pub_date = datetime.now(timezone.utc)
                         
+                        # Handle future dates and "coming soon" announcements
+                        # If the date is more than 1 day in the future, it's likely an announcement
+                        # Set it to current time minus 1 hour to keep it visible but not at the top
+                        if pub_date > datetime.now(timezone.utc) + timedelta(days=1):
+                            pub_date = datetime.now(timezone.utc) - timedelta(hours=1)
+                        
                         # Skip old items
                         if pub_date < datetime.now(timezone.utc) - timedelta(days=self.config['max_item_age']):
                             continue
@@ -282,16 +339,22 @@ class FeedAggregator:
                             continue
                         
                         # Get summary/content
-                        summary = entry.get('summary', '')
+                        raw_summary = entry.get('summary', '')
                         if hasattr(entry, 'content') and entry.content:
-                            content = entry.content[0].get('value', '') if isinstance(entry.content, list) else entry.content.get('value', '')
+                            raw_content = entry.content[0].get('value', '') if isinstance(entry.content, list) else entry.content.get('value', '')
                         else:
-                            content = summary
+                            raw_content = raw_summary
                         
-                        # Clean content
-                        summary = self.clean_html(summary)
-                        if not summary and content:
-                            summary = self.clean_html(content)[:500]
+                        # Clean both summary and full content
+                        summary = self.clean_html(raw_summary)
+                        full_content = self.clean_html(raw_content)
+                        
+                        # Fallback if summary is empty
+                        if not summary and full_content:
+                            summary = full_content[:500]
+                        
+                        # Limit full content to reasonable size (5k chars)
+                        full_content = full_content[:5000] if full_content else summary
                         
                         # Generate hash for deduplication
                         content_hash = self.generate_content_hash(title, url, summary)
@@ -301,9 +364,9 @@ class FeedAggregator:
                             self.state['stats']['total_duplicates'] += 1
                             continue
                         
-                        # Extract metadata
-                        tags = self.extract_tags(title, summary, source['category'])
-                        priority = self.determine_priority(title, summary)
+                        # Extract metadata using full content for better analysis
+                        tags = self.extract_tags(title, full_content, source['category'])
+                        priority = self.determine_priority(title, full_content)
                         
                         item = {
                             'id': f"{source['id']}-{content_hash}",
@@ -312,6 +375,7 @@ class FeedAggregator:
                             'title': title,
                             'url': url,
                             'summary': summary,
+                            'fullContent': full_content,
                             'publishedAt': pub_date.isoformat(),
                             'fetchedAt': datetime.now(timezone.utc).isoformat(),
                             'category': source['category'],

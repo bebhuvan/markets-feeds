@@ -3,7 +3,7 @@
     "id": "cepr-news-b405e596761ff8a7",
     "sourceId": "cepr-news",
     "sourceName": "CEPR News",
-    "title": "Beno\u00eet C\u0153ur\u00e9 joins the Conseil of the CEPR Association in Paris and the Board of Trustees in London",
+    "title": "Benoît Cœuré joins the Conseil of the CEPR Association in Paris and the Board of Trustees in London",
     "url": "https://cepr.org/about/news/benoit-coeure-joins-conseil-cepr-association-paris-and-board-trustees-london",
     "summary": "",
     "publishedAt": "2025-07-03T23:00:00+00:00",
@@ -35,7 +35,7 @@
     "id": "dwarkesh-podcast-5d5cebeedfb5ef35",
     "sourceId": "dwarkesh-podcast",
     "sourceName": "Dwarkesh Podcast",
-    "title": "Why I don\u2019t think AGI is right around the corner",
+    "title": "Why I don’t think AGI is right around the corner",
     "url": "https://www.dwarkesh.com/p/why-i-dont-think-agi-is-right-around",
     "summary": "An audio version of the original blog post",
     "publishedAt": "2025-07-03T21:19:05+00:00",
@@ -70,7 +70,7 @@
     "sourceName": "SemiAnalysis",
     "title": "DeepSeek Debrief: >128 Days Later",
     "url": "https://semianalysis.com/2025/07/03/deepseek-debrief-128-days-later/",
-    "summary": "SemiAnalysis is hiring an analyst in New York City for Core Research, our world class research product for the finance industry.\u00a0Please apply here It\u2019s been a bit over 150 days since the launch of the Chinese LLM DeepSeek R1 shook stock markets and the Western AI world. R1 was the first model to be publicly [\u2026]",
+    "summary": "SemiAnalysis is hiring an analyst in New York City for Core Research, our world class research product for the finance industry. Please apply here It’s been a bit over 150 days since the launch of the Chinese LLM DeepSeek R1 shook stock markets and the Western AI world. R1 was the first model to be publicly […]",
     "publishedAt": "2025-07-03T18:31:49+00:00",
     "fetchedAt": "2025-07-28T04:04:07.776725+00:00",
     "category": "research",
@@ -90,7 +90,7 @@
     "summary": "AI rollups, tokenization, arbitrage consulting, gambling loss deductions and stress test positioning.",
     "publishedAt": "2025-07-03T18:07:47+00:00",
     "fetchedAt": "2025-07-28T04:04:08.133351+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research",
       "AI"
@@ -102,7 +102,7 @@
     "id": "cnbc-economy-8deacf35a63fc040",
     "sourceId": "cnbc-economy",
     "sourceName": "CNBC Economy",
-    "title": "Here's where the jobs are for June 2025 \u2014 government sector leads the way",
+    "title": "Here's where the jobs are for June 2025 — government sector leads the way",
     "url": "https://www.cnbc.com/2025/07/03/heres-where-the-jobs-are-for-june-2025.html",
     "summary": "State and local government job growth boosted the U.S. labor market in June.",
     "publishedAt": "2025-07-03T15:45:44+00:00",
@@ -139,13 +139,30 @@
     "summary": "The big AI story this week was the battle over the insane AI regulatory moratorium, which came dangerously close to passing.",
     "publishedAt": "2025-07-03T15:32:59+00:00",
     "fetchedAt": "2025-07-28T06:22:19.230200+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "AI",
       "Research"
     ],
     "priority": "normal",
     "contentHash": "f14a8536660b8373"
+  },
+  {
+    "id": "ecfr-558705b5067c2909",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "Tide turners: How startups can shape Europe’s tech future and geoeconomic strategy",
+    "url": "https://ecfr.eu/article/tide-turners-how-startups-can-shape-europes-tech-future-and-geoeconomic-strategy/",
+    "summary": "European startups have long struggled to scale at home, but a new EU strategy could finally position the continent as a global innovation leader",
+    "publishedAt": "2025-07-03T15:30:22+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.189077+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy",
+      "Tech"
+    ],
+    "priority": "high",
+    "contentHash": "558705b5067c2909"
   },
   {
     "id": "cnbc-economy-a74cad93d9b8ac6b",
@@ -180,12 +197,29 @@
     "contentHash": "d3b34d8fe0e2c28f"
   },
   {
+    "id": "fred-blog-964f569e942b52d1",
+    "sourceId": "fred-blog",
+    "sourceName": "FRED Blog",
+    "title": "Corn crop yields between 1866 and 1951 : On the value of hybrids",
+    "url": "https://fredblog.stlouisfed.org/2025/07/corn-crop-yields-between-1866-and-1951/",
+    "summary": "It’s summer and crops are well under way—a nice time for the FRED Blog to look back at the history of corn in this country. Our FRED graph above shows the millions of acres of corn planted (green dashed line, … Continue reading →",
+    "publishedAt": "2025-07-03T13:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.797574+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "ESG"
+    ],
+    "priority": "normal",
+    "contentHash": "964f569e942b52d1"
+  },
+  {
     "id": "economist-business-99dbb43eef0dd04e",
     "sourceId": "economist-business",
     "sourceName": "Economist Business",
     "title": "Jeff Bezos 2.0: new wife, newish job, old vision",
     "url": "https://www.economist.com/business/2025/07/03/jeff-bezos-20-new-wife-newish-job-old-vision",
-    "summary": "The Amazon founder\u2019s semi-retirement plan",
+    "summary": "The Amazon founder’s semi-retirement plan",
     "publishedAt": "2025-07-03T12:58:43+00:00",
     "fetchedAt": "2025-07-28T03:55:24.204632+00:00",
     "category": "markets",
@@ -281,7 +315,7 @@
     "sourceName": "Pens and Poison",
     "title": "The Screwtape Letters Changed My Life",
     "url": "https://www.pensandpoison.org/p/the-screwtape-letters-changed-my",
-    "summary": "I\u2019m a secular humanist who used to sneer at religion. Now I stand up for it.",
+    "summary": "I’m a secular humanist who used to sneer at religion. Now I stand up for it.",
     "publishedAt": "2025-07-03T12:27:20+00:00",
     "fetchedAt": "2025-07-28T06:33:15.949646+00:00",
     "category": "non-money",
@@ -372,6 +406,39 @@
     "contentHash": "8cfd98c16f07f0aa"
   },
   {
+    "id": "ecfr-1b3ce5dcd527a9e7",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "Air of superiority: What the wars in the Middle East and Ukraine can teach Europeans about NATO readiness",
+    "url": "https://ecfr.eu/article/air-of-superiority-what-the-wars-in-the-middle-east-and-ukraine-can-teach-europeans-about-nato-readiness/",
+    "summary": "The wars in Ukraine and the Middle East are different in a multitude of important ways. But they nonetheless offer some common lessons for Europeans on the importance of air superiority to military victory",
+    "publishedAt": "2025-07-03T11:00:05+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.189320+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "1b3ce5dcd527a9e7"
+  },
+  {
+    "id": "yale-e360-3b19166727bfb34f",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "Meta Said A.I. Could Help Tackle Warming. An Early Experiment Underwhelmed",
+    "url": "https://e360.yale.edu/digest/meta-ai-carbon-removal",
+    "summary": "Last year, as part of an experiment in using A.I. to help with carbon removal, Meta identified 135 materials that could potentially be used to draw down carbon dioxide, work it described as \"groundbreaking.\" But when scientists tried to reproduce the results, they found that none of the materials could perform as promised and that some did not even exist.Read more on E360 →",
+    "publishedAt": "2025-07-03T10:59:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.437781+00:00",
+    "category": "culture",
+    "tags": [
+      "Earnings",
+      "Culture"
+    ],
+    "priority": "breaking",
+    "contentHash": "3b19166727bfb34f"
+  },
+  {
     "id": "china-talk-862d3248d547d805",
     "sourceId": "china-talk",
     "sourceName": "ChinaTalk",
@@ -380,7 +447,7 @@
     "summary": "America, A Q2 Update",
     "publishedAt": "2025-07-03T10:28:04+00:00",
     "fetchedAt": "2025-07-28T06:22:16.956072+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -391,7 +458,7 @@
     "id": "economist-finance-ecca8a2b48354029",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
-    "title": "Inside Iran\u2019s war economy",
+    "title": "Inside Iran’s war economy",
     "url": "https://www.economist.com/finance-and-economics/2025/07/03/inside-irans-war-economy",
     "summary": "Airstrikes and sanctions leave the country poor. They do little to halt its nuclear development",
     "publishedAt": "2025-07-03T09:57:06+00:00",
@@ -409,7 +476,7 @@
     "sourceName": "The Economist",
     "title": "Vanguard will soon crush fees for even more investors",
     "url": "https://www.economist.com/finance-and-economics/2025/07/03/vanguard-will-soon-crush-fees-for-even-more-investors",
-    "summary": "Pity the firm\u2019s rivals",
+    "summary": "Pity the firm’s rivals",
     "publishedAt": "2025-07-03T09:55:33+00:00",
     "fetchedAt": "2025-07-28T03:50:55.560041+00:00",
     "category": "macro",

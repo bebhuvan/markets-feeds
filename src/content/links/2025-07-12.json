@@ -20,7 +20,7 @@
     "id": "honest-broker-6effef5ec762fc55",
     "sourceId": "honest-broker",
     "sourceName": "The Honest Broker",
-    "title": "Indie Culture Is Great\u2014But What's Coming Next is Better",
+    "title": "Indie Culture Is Great—But What's Coming Next is Better",
     "url": "https://www.honest-broker.com/p/indie-culture-is-greatbut-whats-coming",
     "summary": "Things are about to change, and this is how it will happen",
     "publishedAt": "2025-07-12T19:47:04+00:00",
@@ -49,20 +49,20 @@
     "contentHash": "ae809cee9deb4200"
   },
   {
-    "id": "summer-of-protocols-d0785adaad3f8827",
-    "sourceId": "summer-of-protocols",
-    "sourceName": "Summer of Protocols",
-    "title": "Phantom in Eden",
-    "url": "https://protocolized.summerofprotocols.com/p/phantom-in-eden",
-    "summary": "Issue #34: The Librarians - Act Four",
-    "publishedAt": "2025-07-12T16:26:09+00:00",
-    "fetchedAt": "2025-07-30T02:00:01.069631+00:00",
-    "category": "non-money",
+    "id": "nyt-economy-80c5c7a0de4a9b06",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Trump Escalates Tariff Threats, Showing Little Interest in New Trade Deals",
+    "url": "https://www.nytimes.com/2025/07/12/business/economy/trump-tariffs-deals.html",
+    "summary": "The president’s supporters portray him as a top dealmaker. But, at least for now, far more trading partners have gotten stiff tariffs than trade deals.",
+    "publishedAt": "2025-07-12T15:48:00+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.474828+00:00",
+    "category": "macro",
     "tags": [
-      "Non-Money"
+      "Macro"
     ],
     "priority": "normal",
-    "contentHash": "d0785adaad3f8827"
+    "contentHash": "80c5c7a0de4a9b06"
   },
   {
     "id": "benthams-51e18e18a47d8762",
@@ -86,7 +86,7 @@
     "sourceName": "Programmable Mutter",
     "title": "The Political Economy of AI: A Syllabus",
     "url": "https://www.programmablemutter.com/p/the-political-economy-of-ai-a-syllabus",
-    "summary": "As I\u2019ve noted occasionally before, one of the most potentially useful things that academics do is preparing syllabi, and hence organizing information about the world.",
+    "summary": "As I’ve noted occasionally before, one of the most potentially useful things that academics do is preparing syllabi, and hence organizing information about the world.",
     "publishedAt": "2025-07-12T14:54:16+00:00",
     "fetchedAt": "2025-07-28T06:33:17.331848+00:00",
     "category": "non-money",
@@ -106,12 +106,29 @@
     "summary": "When you're a Tariff Man, you don't need reasons",
     "publishedAt": "2025-07-12T14:52:23+00:00",
     "fetchedAt": "2025-07-28T06:22:17.747148+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
     "priority": "high",
     "contentHash": "5feef8c34f4331b8"
+  },
+  {
+    "id": "bonddad-46c68c3f55070591",
+    "sourceId": "bonddad",
+    "sourceName": "The Bonddad Blog",
+    "title": "Weekly Indicators for July 7 - 11 at Seeking Alpha",
+    "url": "https://bonddad.blogspot.com/2025/07/weekly-indicators-for-july-7-11-at.html",
+    "summary": "- by New Deal democratMy “Weekly Indicators” post is up at Seeking Alpha.Despite the warning signs in some of the recent monthly data that I’ve highlighted in the past several weeks, the high frequency data this past week indicated smooth sailing, at least for now.Some of that is likely due to the 4th of July being one week ago, so some consumer data in particular rebounded. But at least one indicator - the S&P 500 making another new all-time high on Thursday - I suspect is due to absolute complacency; namely, the TACO trade. Wall Street must believe that T—-p is going to chicken out again w/r/t his new tariff announcements.In any event, clicking over and reading will as usual bring you up to the virtual moment as to the state of the economy, and reward me a little bit for collecting and organizing it for you.",
+    "publishedAt": "2025-07-12T14:19:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.828216+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "46c68c3f55070591"
   },
   {
     "id": "nils-gilman-0c2f58fe4452b597",
@@ -151,7 +168,7 @@
     "sourceName": "Construction Physics",
     "title": "Reading List 07/12/2025",
     "url": "https://www.construction-physics.com/p/reading-list-07122025",
-    "summary": "25 years of earthquakes, Google\u2019s 2013 efforts to build a phone in the US, bear attacks in Japan, coal seam fires, and more.",
+    "summary": "25 years of earthquakes, Google’s 2013 efforts to build a phone in the US, bear attacks in Japan, coal seam fires, and more.",
     "publishedAt": "2025-07-12T12:02:17+00:00",
     "fetchedAt": "2025-07-28T04:04:06.661458+00:00",
     "category": "research",
@@ -162,15 +179,31 @@
     "contentHash": "9d2a6d5644761765"
   },
   {
+    "id": "nyt-economy-c31362ad48ccf07e",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "As Trump Sows Tariff Confusion, Rules of Global Commerce Give Way to Chaos",
+    "url": "https://www.nytimes.com/2025/07/11/world/europe/trump-tariffs-global-trade-deals.html",
+    "summary": "Blunt letters dictating terms posted to social media and changes late in negotiations have left trading partners wondering what President Trump will do next.",
+    "publishedAt": "2025-07-12T11:44:37+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.475014+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "c31362ad48ccf07e"
+  },
+  {
     "id": "adam-tooze-a8ebed630a0683dc",
     "sourceId": "adam-tooze",
     "sourceName": "Adam Tooze",
-    "title": "Top Links 797 Upgrading America's military-industrial complex. The Rise and Fall of China\u2019s \u2018Fentanyl King\u2019 & the \"hole left by the Christian dark ages\" ;)",
+    "title": "Top Links 797 Upgrading America's military-industrial complex. The Rise and Fall of China’s ‘Fentanyl King’ & the \"hole left by the Christian dark ages\" ;)",
     "url": "https://adamtooze.substack.com/p/top-links-797-upgrading-americas",
     "summary": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
     "publishedAt": "2025-07-12T10:58:12+00:00",
     "fetchedAt": "2025-07-28T06:22:15.315536+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -186,7 +219,7 @@
     "summary": "Two incredulous guys talking",
     "publishedAt": "2025-07-12T10:30:24+00:00",
     "fetchedAt": "2025-07-28T06:22:17.747307+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -202,7 +235,7 @@
     "summary": "Initially behind the paywall because I am profoundly dissatisfied with it. Birdbrains & human gains: intelligence, culture, & deep biocultural evolutionary roots of economic history. But I have...",
     "publishedAt": "2025-07-12T10:10:00+00:00",
     "fetchedAt": "2025-07-28T06:22:16.624679+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],

@@ -39,7 +39,7 @@
     "sourceName": "The Economist",
     "title": "The great dealmaker is conspicuously short of trade deals",
     "url": "https://www.economist.com/finance-and-economics/2025/07/07/the-great-dealmaker-is-conspicuously-short-of-trade-deals",
-    "summary": "Donald Trump issues threats\u2014and grants deadline extensions",
+    "summary": "Donald Trump issues threats—and grants deadline extensions",
     "publishedAt": "2025-07-07T22:52:26+00:00",
     "fetchedAt": "2025-07-28T03:50:55.559121+00:00",
     "category": "macro",
@@ -48,6 +48,24 @@
     ],
     "priority": "normal",
     "contentHash": "330f0a0f4025c112"
+  },
+  {
+    "id": "conversable-economist-3019508b9b97f2c8",
+    "sourceId": "conversable-economist",
+    "sourceName": "Conversable Economist",
+    "title": "How Much Will AI Increase Productivity?",
+    "url": "https://conversableeconomist.com/2025/07/07/how-much-will-ai-increase-productivity/",
+    "summary": "It seems plausible that the developing AI technologies will improve productivity. I have friends and family who tell me how it is already useful in their own everyday work, often for speeding up the process of producing first drafts: say, of a Powerpoint slide for display, or a recommendation for an internship, or the software … Continue reading How Much Will AI Increase Productivity? The post How Much Will AI Increase Productivity? first appeared on Conversable Economist.",
+    "publishedAt": "2025-07-07T21:53:59+00:00",
+    "fetchedAt": "2025-07-30T08:46:06.050826+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "AI",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "3019508b9b97f2c8"
   },
   {
     "id": "fed-working-papers-c63529c3b4e0c11e",
@@ -72,7 +90,7 @@
     "sourceName": "Federal Reserve Working Papers",
     "title": "FEDS Paper: Trading Costs v. Indicative Liquidity in the Off-the-Run Treasury Market",
     "url": "https://www.federalreserve.gov/econres/feds/trading-costs-vs-indicative-liquidity-in-the-off-the-run-treasury-market.htm",
-    "summary": "Oleg SokolinskiyThis paper estimates trading costs in the off-the-run Treasury market using comprehensive transactions data and machine learning techniques. The analysis reveals several key findings that enhance the understanding of the off-the-run Treasury market liquidity. First, the indicative bid-ask spread is shown to be a biased measure of liquidity, even when not considering transaction volume. Specifically, bid-ask spreads systematically overstate trading costs of more seasoned Treasuries, and the liquidity of benchmark, on-the-run securities affects how off-the-run bid-ask spreads map to trading costs. Second, the paper demonstrates that trading costs may scale non-monotonically with transaction volume, which suggests selective, opportunistic liquidity-taking. Additionally, transaction size has greater effect on off-the-run securities\u2019 trading costs when benchmark, on-the-run liquidity is lower. Finally, indicative bid-ask spreads may notably overstate trading costs for larger",
+    "summary": "Oleg SokolinskiyThis paper estimates trading costs in the off-the-run Treasury market using comprehensive transactions data and machine learning techniques. The analysis reveals several key findings that enhance the understanding of the off-the-run Treasury market liquidity. First, the indicative bid-ask spread is shown to be a biased measure of liquidity, even when not considering transaction volume. Specifically, bid-ask spreads systematically overstate trading costs of more seasoned Treasuries, and the liquidity of benchmark, on-the-run securities affects how off-the-run bid-ask spreads map to trading costs. Second, the paper demonstrates that trading costs may scale non-monotonically with transaction volume, which suggests selective, opportunistic liquidity-taking. Additionally, transaction size has greater effect on off-the-run securities’ trading costs when benchmark, on-the-run liquidity is lower. Finally, indicative bid-ask spreads may notably overstate trading costs for larger",
     "publishedAt": "2025-07-07T20:49:00+00:00",
     "fetchedAt": "2025-07-28T08:46:10.662716+00:00",
     "category": "research",
@@ -90,7 +108,7 @@
     "sourceName": "Federal Reserve Working Papers",
     "title": "FEDS Paper: Gauging the Sentiment of Federal Open Market Committee Communications through the Eyes of the Financial Press",
     "url": "https://www.federalreserve.gov/econres/feds/gauging-the-sentiment-of-federal-open-market-committee-communications-through-the-eyes-of-the-financial-press.htm",
-    "summary": "Shantanu Banerjee, Paul Cordova, Michiel De Pooter, and Olesya V. GrishchenkoWe apply natural language processing tools to news articles in the financial press to construct a sentiment index\u2014an index of the perceived semantic orientation of monetary policy communications around scheduled Federal Open Market Committee (FOMC) meetings. To that end, we develop several dictionaries that capture various monetary policy tools: conventional monetary policy, asset purchases, and forward guidance. The surprises in the sentiment index around FOMC meetings announcements explain variation in major asset prices classes between May 1999 and November 2022. Sentiment index surprises are important for explaining the variation in asset prices beyond monetary policy surprises.",
+    "summary": "Shantanu Banerjee, Paul Cordova, Michiel De Pooter, and Olesya V. GrishchenkoWe apply natural language processing tools to news articles in the financial press to construct a sentiment index—an index of the perceived semantic orientation of monetary policy communications around scheduled Federal Open Market Committee (FOMC) meetings. To that end, we develop several dictionaries that capture various monetary policy tools: conventional monetary policy, asset purchases, and forward guidance. The surprises in the sentiment index around FOMC meetings announcements explain variation in major asset prices classes between May 1999 and November 2022. Sentiment index surprises are important for explaining the variation in asset prices beyond monetary policy surprises.",
     "publishedAt": "2025-07-07T20:10:00+00:00",
     "fetchedAt": "2025-07-28T08:46:10.663256+00:00",
     "category": "research",
@@ -155,7 +173,7 @@
     "sourceName": "Best of Econ Twitter",
     "title": "Best of #econtwitter - Week of June 22, 2025: good tweets",
     "url": "https://www.bestofecontwitter.com/p/best-of-econtwitter-week-of-june-bc7",
-    "summary": "Welcome readers old and new to this week\u2019s edition of the Best of Econtwitter newsletter.",
+    "summary": "Welcome readers old and new to this week’s edition of the Best of Econtwitter newsletter.",
     "publishedAt": "2025-07-07T17:11:14+00:00",
     "fetchedAt": "2025-07-28T08:52:50.304764+00:00",
     "category": "research",
@@ -171,7 +189,7 @@
     "sourceName": "Best of Econ Twitter",
     "title": "Best of #econtwitter - Week of June 22, 2025: paper summaries",
     "url": "https://www.bestofecontwitter.com/p/best-of-econtwitter-week-of-june-fda",
-    "summary": "Welcome readers old and new to this week\u2019s edition of the Best of Econtwitter newsletter.",
+    "summary": "Welcome readers old and new to this week’s edition of the Best of Econtwitter newsletter.",
     "publishedAt": "2025-07-07T17:10:14+00:00",
     "fetchedAt": "2025-07-28T08:52:50.305139+00:00",
     "category": "research",
@@ -190,7 +208,7 @@
     "summary": "Investors Should Stop Mixing and Start Integrating Factor Strategies",
     "publishedAt": "2025-07-07T17:09:41+00:00",
     "fetchedAt": "2025-07-28T06:22:16.426830+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -217,12 +235,12 @@
     "id": "matt-levine-98db66d247d7233b",
     "sourceId": "matt-levine",
     "sourceName": "Matt Levine Money Stuff",
-    "title": "Jane Street\u2019s Indian Options Trade Was Too Good",
+    "title": "Jane Street’s Indian Options Trade Was Too Good",
     "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-07/jane-street-s-indian-options-trade-was-too-good",
     "summary": "SEBI, MSOs, America Party.",
     "publishedAt": "2025-07-07T16:45:32+00:00",
     "fetchedAt": "2025-07-28T04:04:08.133197+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -238,7 +256,7 @@
     "summary": "U.S. wage growth; fertility and sexism; construction costs and house prices; the next financial crisis; macroeconomics vs. microeconomics;",
     "publishedAt": "2025-07-07T16:44:59+00:00",
     "fetchedAt": "2025-07-28T04:04:07.484510+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -262,15 +280,32 @@
     "contentHash": "e4ac3762e52fbeb0"
   },
   {
+    "id": "of-dollars-data-2785a4c7f64d0577",
+    "sourceId": "of-dollars-data",
+    "sourceName": "Of Dollars And Data",
+    "title": "How to Make More Without Working More",
+    "url": "https://ofdollarsanddata.com/how-to-make-more-without-working-more/",
+    "summary": "Making more without working more. It's the holy grail of personal finance. But is it as difficult to achieve as it seems? Or are there actual ways to increase your earnings without needing to increase your effort? The truth is somewhere in between. Yes, it's possible to increase your income without increasing your effort, but only if you change your strategy. This is the premise of my upcoming book, The Wealth Ladder, which comes out in 2 weeks. The core idea: the strategy that got you to one point in your financial life may not get you to the next. This is true whether you're trying to build wealth or simply earn more. Too often we get stuck in the same routines while expecting different results. But, when it comes to making more without working more, the answer isn't necessarily to work harder, but to work differently. Below are four strategies I explore in more depth in the book that can help raise your income over time. Let's dig in. Negotiate a Raise The simplest way to get paid m",
+    "publishedAt": "2025-07-07T15:30:50+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.663688+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "2785a4c7f64d0577"
+  },
+  {
     "id": "the-zvi-8b6abec2498a6617",
     "sourceId": "the-zvi",
     "sourceName": "The Zvi",
     "title": "On Alpha School",
     "url": "https://thezvi.substack.com/p/on-alpha-school",
-    "summary": "The epic 18k word writeup on Austin\u2019s flagship Alpha School is excellent. It is long, but given the blog you\u2019re reading now, if you have interest in such topics I\u2019d strongly consider reading the whole thing.",
+    "summary": "The epic 18k word writeup on Austin’s flagship Alpha School is excellent. It is long, but given the blog you’re reading now, if you have interest in such topics I’d strongly consider reading the whole thing.",
     "publishedAt": "2025-07-07T15:08:18+00:00",
     "fetchedAt": "2025-07-28T06:22:19.229847+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -315,7 +350,7 @@
     "sourceName": "SEC Press Releases",
     "title": "SEC Small Business Advisory Committee to Discuss Regulatory Framework for Finders and Continue Exploring Regulation A",
     "url": "https://www.sec.gov/newsroom/press-releases/2025-97-sec-small-business-advisory-committee-discuss-regulatory-framework-finders-continue-exploring",
-    "summary": "The Securities and Exchange Commission\u2019s Small Business Capital Formation Advisory Committee announced that it will hold a meeting at the SEC Headquarters in Washington D.C on Tuesday, July 22, 2025 at 10 a.m. E.T. The meeting will be open to the public\u2026",
+    "summary": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting at the SEC Headquarters in Washington D.C on Tuesday, July 22, 2025 at 10 a.m. E.T. The meeting will be open to the public…",
     "publishedAt": "2025-07-07T13:57:00+00:00",
     "fetchedAt": "2025-07-28T04:25:36.302962+00:00",
     "category": "filings",
@@ -324,6 +359,89 @@
     ],
     "priority": "normal",
     "contentHash": "6f2a058436cdd3df"
+  },
+  {
+    "id": "ecfr-099e9aba8b210445",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "Ukraine’s due, Russia’s debt: How to use Moscow’s money against itself",
+    "url": "https://ecfr.eu/article/ukraines-due-russias-debt-how-to-use-moscows-money-against-itself/",
+    "summary": "Russia’s hundreds of billions of frozen assets should be lent to Ukraine—with Moscow only getting its money back if it pays reparations. Europe can make this “reparation loan” without Trump’s permission",
+    "publishedAt": "2025-07-07T13:41:54+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.188432+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "099e9aba8b210445"
+  },
+  {
+    "id": "bonddad-4796de16c9a75320",
+    "sourceId": "bonddad",
+    "sourceName": "The Bonddad Blog",
+    "title": "Economically weighted ISM manufacturing + services indexes continue to warrant “recession watch”",
+    "url": "https://bonddad.blogspot.com/2025/07/economically-weighted-ism-manufacturing.html",
+    "summary": "- by New Deal democratLast month the new orders components of the economically weighted ISM manufacturing and services indexes warranted the hoisting of a yellow flag “Recession Watch.” This month that continued.To recap, because manufacturing is much less important to the economy than in the decades before the Millennium, the economically weighted average of the ISM services index (75%) as well as manufacturing (25%), especially over a three month period, has been much more accurate since 2000.Last week the ISM manufacturing index for June came in at 49.0, and its three month average was 48.7. The new orders subindex came in at 46.4, and its three month average was 47.1. On Thursday the non-manufacturing index was reported at 54.2, and the new orders index at 51.3. The three month average for the headline index was 52.6, and for new orders 50.0.Here is the manufacturing and services numbers for the past three years:The economically weighted average for the month of June alone is 52.9,",
+    "publishedAt": "2025-07-07T13:22:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.840542+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "high",
+    "contentHash": "4796de16c9a75320"
+  },
+  {
+    "id": "fred-blog-5252c8949e00f487",
+    "sourceId": "fred-blog",
+    "sourceName": "FRED Blog",
+    "title": "Disposable income and spending growth : Overall trends and effects from fiscal stimulus",
+    "url": "https://fredblog.stlouisfed.org/2025/07/disposable-income-and-spending-growth/",
+    "summary": "Disposable income and spending growth tend to follow similar long-term trends, as shown in our FRED graph above. Over the past 15 years, real disposable personal income growth and real personal consumption expenditures growth have averaged just over 2.5% year-over-year. … Continue reading →",
+    "publishedAt": "2025-07-07T13:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.797273+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "5252c8949e00f487"
+  },
+  {
+    "id": "yale-e360-7654662ce11f200e",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "With 'Big Beautiful Bill,' U.S. to Reverse Course on Clean Energy",
+    "url": "https://e360.yale.edu/digest/big-beautiful-bill-renewable-energy-china",
+    "summary": "The Republican spending bill, signed into law Friday, will reset the course for the U.S. energy sector, analyses show. The law rapidly phases out tax credits for wind, solar, and electric cars, while making it cheaper to drill and mine for fossil fuels on federal lands. Read more on E360 →",
+    "publishedAt": "2025-07-07T12:48:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.437518+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "high",
+    "contentHash": "7654662ce11f200e"
+  },
+  {
+    "id": "rzepczynski-f36d9d6a4ebfc7d5",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Performance at that the half year mark - nothing expected",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/performance-at-that-half-year-mark.html",
+    "summary": "We have lived through uncertainty, a war, trade battles, and various events that should have pushed markets lower; yet, we are at the highs in the core US market indices. This does not feel expected or normal.One of my favorite exercises is to play out scenarios - what would you have expected to happen if a particular event occurred, and then examine the reality. No one would have expected the current outcome. This sharpens your intuition and also tests expected relationships.We are now in a place with US stock indices touching all time highs and a widening of breath beyond the large cp tech sector. The markets have looked through uncertainty. Some of that uncertainty has been resolved, but that does not alter the underlying view that we are in an environment with a wide range of views. Of course, investors focus on downside uncertainty. There is also upside uncertainty, or a positive reaction to the unexpected., There is still a rotation effect toward international stocks; however, th",
+    "publishedAt": "2025-07-07T12:47:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.917196+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "f36d9d6a4ebfc7d5"
   },
   {
     "id": "small-potatoes-2564f19f2a90d76a",
@@ -398,7 +516,7 @@
     "summary": "straight from the Japan military archives",
     "publishedAt": "2025-07-07T11:06:33+00:00",
     "fetchedAt": "2025-07-28T06:22:16.955919+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
@@ -444,7 +562,7 @@
     "sourceName": "Psyche",
     "title": "How to draw en plein air",
     "url": "https://psyche.co/videos/to-become-more-attuned-to-the-world-around-you-try-sketching-outdoors?utm_source=rss-feed",
-    "summary": "Learn how to sketch outdoors from an artist, and the masters who inspire her, in the Museum of Modern Art\u2019s sculpture garden- Video by The Museum of Modern ArtWatch on Psyche",
+    "summary": "Learn how to sketch outdoors from an artist, and the masters who inspire her, in the Museum of Modern Art’s sculpture garden- Video by The Museum of Modern ArtWatch on Psyche",
     "publishedAt": "2025-07-07T10:01:00+00:00",
     "fetchedAt": "2025-07-28T06:33:10.763674+00:00",
     "category": "non-money",
@@ -458,9 +576,9 @@
     "id": "psyche-magazine-62b8ce17308ed2b3",
     "sourceId": "psyche-magazine",
     "sourceName": "Psyche",
-    "title": "Find meditation really boring? You\u2019re not the only one",
+    "title": "Find meditation really boring? You’re not the only one",
     "url": "https://psyche.co/ideas/find-meditation-really-boring-youre-not-the-only-one?utm_source=rss-feed",
-    "summary": "Other practices like sermons, yoga and retreats can also trigger \u2018spiritual boredom\u2019. Here\u2019s why it\u2019s normal and even useful- by Thomas GoetzRead on Psyche",
+    "summary": "Other practices like sermons, yoga and retreats can also trigger ‘spiritual boredom’. Here’s why it’s normal and even useful- by Thomas GoetzRead on Psyche",
     "publishedAt": "2025-07-07T10:00:00+00:00",
     "fetchedAt": "2025-07-28T06:33:10.763991+00:00",
     "category": "non-money",
@@ -517,5 +635,21 @@
     ],
     "priority": "normal",
     "contentHash": "5f48a138d24307cb"
+  },
+  {
+    "id": "our-world-data-3bf6fc806138df58",
+    "sourceId": "our-world-data",
+    "sourceName": "Our World in Data",
+    "title": "There are now more than half a billion mobile money accounts in the world, mostly in Africa — here's why this matters",
+    "url": "https://ourworldindata.org/mobile-money-why-it-matters",
+    "summary": "Mobile money allows people without banks to securely transfer funds via text message, and its adoption is growing rapidly.",
+    "publishedAt": "2025-07-07T04:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.498539+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "3bf6fc806138df58"
   }
 ]

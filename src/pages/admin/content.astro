@@ -1,0 +1,541 @@
+---
+export const prerender = false;
+
+// Simple password check
+const url = new URL(Astro.request.url);
+const password = url.searchParams.get('pass') || Astro.cookies.get('admin_pass')?.value;
+
+if (password !== 'MF2025!SecureTeam#AdminAccess789') {
+  return Astro.redirect('/admin/login');
+}
+
+// Set cookie for future requests
+Astro.cookies.set('admin_pass', password, {
+  httpOnly: true,
+  maxAge: 60 * 60 * 24, // 24 hours
+  path: '/'
+});
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Manager - Markets Feeds</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: #2a2a2a;
+            background: #fafbfc;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .header {
+            border-bottom: 1px solid #e8ebed;
+            padding: 20px 0;
+            background: #ffffff;
+            margin-bottom: 32px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2a2a2a;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 16px;
+        }
+
+        .nav-link {
+            padding: 8px 16px;
+            color: #6b7280;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.15s ease;
+        }
+
+        .nav-link.active {
+            background: #3b82f6;
+            color: #ffffff;
+        }
+
+        .nav-link:hover:not(.active) {
+            background: #f8fafc;
+            color: #2a2a2a;
+        }
+
+        .content-section {
+            background: #ffffff;
+            border: 1px solid #e8ebed;
+            border-radius: 8px;
+            margin-bottom: 24px;
+        }
+
+        .section-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid #f1f3f4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2a2a2a;
+        }
+
+        .section-content {
+            padding: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: #2a2a2a;
+            margin-bottom: 6px;
+        }
+
+        .form-input, .form-textarea, .form-select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #e8ebed;
+            border-radius: 4px;
+            font-size: 14px;
+            background: #ffffff;
+            font-family: inherit;
+        }
+
+        .form-textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .form-input:focus, .form-textarea:focus, .form-select:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.05);
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: 1px solid #e8ebed;
+            background: #ffffff;
+            color: #2a2a2a;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.15s ease;
+        }
+
+        .btn:hover {
+            background: #f8fafc;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+            color: #ffffff;
+            border-color: #3b82f6;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+        }
+
+        .media-section {
+            border: 1px solid #e8ebed;
+            border-radius: 4px;
+            padding: 16px;
+            background: #f8fafc;
+        }
+
+        .media-toggle {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .media-type-btn {
+            padding: 6px 12px;
+            border: 1px solid #e8ebed;
+            background: #ffffff;
+            color: #6b7280;
+            font-size: 12px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .media-type-btn.active {
+            background: #3b82f6;
+            color: #ffffff;
+            border-color: #3b82f6;
+        }
+
+        .media-fields {
+            display: none;
+        }
+
+        .media-fields.active {
+            display: block;
+        }
+
+        .preview-section {
+            margin-top: 24px;
+            padding: 16px;
+            border: 1px solid #e8ebed;
+            border-radius: 4px;
+            background: #ffffff;
+        }
+
+        .preview-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2a2a2a;
+            margin-bottom: 12px;
+        }
+
+        .post-preview {
+            border: 1px solid #f0f0f0;
+            border-radius: 4px;
+            padding: 20px;
+            background: #ffffff;
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .post-content {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+        }
+
+        .tags-display {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            padding: 4px 10px;
+            background: #f8f8f8;
+            color: #666;
+            font-size: 11px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-left">
+                    <div class="logo">Markets Feeds</div>
+                    <nav class="nav-links">
+                        <a href="/admin" class="nav-link">Dashboard</a>
+                        <a href="/admin/content" class="nav-link active">Content</a>
+                    </nav>
+                </div>
+                <a href="/discover" class="btn">View Discovery Feed →</a>
+            </div>
+        </header>
+
+        <!-- Create Discovery Post -->
+        <div class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">Create Discovery Post</h2>
+            </div>
+            
+            <div class="section-content">
+                <form id="discovery-form">
+                    <div class="form-group">
+                        <label class="form-label" for="title">Title</label>
+                        <input type="text" id="title" class="form-input" placeholder="Post title..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="author">Author</label>
+                        <input type="text" id="author" class="form-input" value="Research Team">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="tags">Tags (comma separated)</label>
+                        <input type="text" id="tags" class="form-input" placeholder="Federal Reserve, Interest Rates, Inflation">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="excerpt">Excerpt (optional)</label>
+                        <textarea id="excerpt" class="form-textarea" placeholder="Brief summary of the post..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Media Attachment (optional)</label>
+                        <div class="media-section">
+                            <div class="media-toggle">
+                                <button type="button" class="media-type-btn" data-type="none">None</button>
+                                <button type="button" class="media-type-btn" data-type="link">Link</button>
+                                <button type="button" class="media-type-btn" data-type="video">Video</button>
+                                <button type="button" class="media-type-btn" data-type="image">Image</button>
+                            </div>
+
+                            <div class="media-fields" id="link-fields">
+                                <div class="form-group">
+                                    <label class="form-label">URL</label>
+                                    <input type="url" id="media-url" class="form-input" placeholder="https://...">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Link Title</label>
+                                    <input type="text" id="media-title" class="form-input" placeholder="Article title">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Description</label>
+                                    <textarea id="media-description" class="form-textarea" placeholder="Brief description"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Preview Image URL (optional)</label>
+                                    <input type="url" id="media-image" class="form-input" placeholder="https://...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="content">Content</label>
+                        <textarea id="content" class="form-textarea" style="min-height: 200px;" placeholder="Write your insight here..." required></textarea>
+                    </div>
+
+                    <div style="display: flex; gap: 12px;">
+                        <button type="button" class="btn" id="preview-btn">Preview</button>
+                        <button type="submit" class="btn btn-primary">Generate Markdown</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Preview Section -->
+        <div class="preview-section" id="preview-section" style="display: none;">
+            <div class="preview-title">Preview</div>
+            <div class="post-preview" id="post-preview">
+                <!-- Preview content will be inserted here -->
+            </div>
+        </div>
+
+        <!-- Generated Markdown -->
+        <div class="content-section" id="markdown-section" style="display: none;">
+            <div class="section-header">
+                <h2 class="section-title">Generated Markdown</h2>
+                <button class="btn" id="copy-btn">Copy to Clipboard</button>
+            </div>
+            
+            <div class="section-content">
+                <textarea id="markdown-output" class="form-textarea" style="min-height: 300px; font-family: monospace;" readonly></textarea>
+                <div style="margin-top: 16px;">
+                    <p><strong>Instructions:</strong></p>
+                    <ol style="margin-left: 20px; color: #6b7280;">
+                        <li>Copy the markdown above</li>
+                        <li>Create a new file in <code>src/content/discoveries/</code></li>
+                        <li>Name it with today's date and title (e.g., <code>2025-07-30-fed-analysis.md</code>)</li>
+                        <li>Paste the content and commit to Git</li>
+                        <li>Your post will appear on the discovery feed!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Development mode authentication fallback
+        if (!window.location.search.includes('pass=') && sessionStorage.getItem('admin_auth')) {
+            const auth = sessionStorage.getItem('admin_auth');
+            if (auth === 'MF2025!SecureTeam#AdminAccess789') {
+                // Add password to URL for Astro to read
+                const url = new URL(window.location);
+                url.searchParams.set('pass', auth);
+                window.history.replaceState({}, '', url);
+                // Reload to let Astro process the password
+                window.location.reload();
+            }
+        }
+
+        // Media type toggle
+        document.querySelectorAll('.media-type-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active from all buttons
+                document.querySelectorAll('.media-type-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.media-fields').forEach(f => f.classList.remove('active'));
+                
+                // Add active to clicked button
+                btn.classList.add('active');
+                
+                // Show appropriate fields
+                const type = btn.dataset.type;
+                if (type !== 'none') {
+                    document.getElementById('link-fields').classList.add('active');
+                }
+            });
+        });
+
+        // Set default media type
+        document.querySelector('[data-type="none"]').classList.add('active');
+
+        // Preview functionality
+        document.getElementById('preview-btn').addEventListener('click', () => {
+            const title = document.getElementById('title').value;
+            const author = document.getElementById('author').value;
+            const content = document.getElementById('content').value;
+            const tags = document.getElementById('tags').value.split(',').map(t => t.trim()).filter(t => t);
+
+            const previewHtml = `
+                <div class="post-header">
+                    <div class="avatar">MF</div>
+                    <span style="font-weight: 500; color: #1a1a1a;">${author}</span>
+                    <span style="color: #999; font-size: 13px;">just now</span>
+                </div>
+                <div class="post-content">${content}</div>
+                ${tags.length > 0 ? `
+                    <div class="tags-display">
+                        ${tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                ` : ''}
+            `;
+
+            document.getElementById('post-preview').innerHTML = previewHtml;
+            document.getElementById('preview-section').style.display = 'block';
+        });
+
+        // Form submission
+        document.getElementById('discovery-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const title = document.getElementById('title').value;
+            const author = document.getElementById('author').value;
+            const tags = document.getElementById('tags').value.split(',').map(t => t.trim()).filter(t => t);
+            const excerpt = document.getElementById('excerpt').value;
+            const content = document.getElementById('content').value;
+
+            // Get media data
+            const activeMediaType = document.querySelector('.media-type-btn.active').dataset.type;
+            let mediaSection = '';
+            
+            if (activeMediaType !== 'none') {
+                const mediaUrl = document.getElementById('media-url').value;
+                const mediaTitle = document.getElementById('media-title').value;
+                const mediaDescription = document.getElementById('media-description').value;
+                const mediaImage = document.getElementById('media-image').value;
+
+                if (mediaUrl) {
+                    mediaSection = `media:
+  type: "${activeMediaType}"
+  url: "${mediaUrl}"
+  title: "${mediaTitle}"
+  description: "${mediaDescription}"
+  image: "${mediaImage}"`;
+                }
+            }
+
+            // Generate filename-friendly title
+            const filename = title.toLowerCase()
+                .replace(/[^a-z0-9\s-]/g, '')
+                .replace(/\s+/g, '-')
+                .substring(0, 50);
+
+            const today = new Date().toISOString().split('T')[0];
+
+            const markdown = `---
+title: "${title}"
+date: ${today}
+author: "${author}"
+tags: [${tags.map(tag => `"${tag}"`).join(', ')}]${excerpt ? `
+excerpt: "${excerpt}"` : ''}
+${mediaSection}
+---
+
+${content}`;
+
+            document.getElementById('markdown-output').value = markdown;
+            document.getElementById('markdown-section').style.display = 'block';
+            
+            // Scroll to markdown section
+            document.getElementById('markdown-section').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Copy to clipboard
+        document.getElementById('copy-btn').addEventListener('click', async () => {
+            const textarea = document.getElementById('markdown-output');
+            textarea.select();
+            
+            try {
+                await navigator.clipboard.writeText(textarea.value);
+                const btn = document.getElementById('copy-btn');
+                btn.textContent = 'Copied!';
+                setTimeout(() => {
+                    btn.textContent = 'Copy to Clipboard';
+                }, 2000);
+            } catch (err) {
+                // Fallback for older browsers
+                document.execCommand('copy');
+                const btn = document.getElementById('copy-btn');
+                btn.textContent = 'Copied!';
+                setTimeout(() => {
+                    btn.textContent = 'Copy to Clipboard';
+                }, 2000);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -21,7 +21,7 @@
     "sourceName": "Calculated Risk",
     "title": "Wednesday: Existing Home Sales",
     "url": "http://www.calculatedriskblog.com/2025/07/wednesday-existing-home-sales.html",
-    "summary": "Note: Mortgage rates are from MortgageNewsDaily.com and are for top tier scenarios. Wednesday: \u2022 At 7:00 AM ET, The Mortgage Bankers Association (MBA) will release the results for the mortgage purchase applications index. \u2022 At 10:00 AM: Existing Home Sales for June from the National Association of Realtors (NAR). The consensus is for 4.00 million SAAR, down from 4.03 million last month. \u2022 During the day: The AIA's Architecture Billings Index for June (a leading indicator for commercial and multi-family real estate).",
+    "summary": "Note: Mortgage rates are from MortgageNewsDaily.com and are for top tier scenarios. Wednesday: • At 7:00 AM ET, The Mortgage Bankers Association (MBA) will release the results for the mortgage purchase applications index. • At 10:00 AM: Existing Home Sales for June from the National Association of Realtors (NAR). The consensus is for 4.00 million SAAR, down from 4.03 million last month. • During the day: The AIA's Architecture Billings Index for June (a leading indicator for commercial and multi-family real estate).",
     "publishedAt": "2025-07-22T23:28:00+00:00",
     "fetchedAt": "2025-07-28T04:04:08.193711+00:00",
     "category": "research",
@@ -33,12 +33,28 @@
     "contentHash": "9f7c23bb93b20328"
   },
   {
+    "id": "nyt-economy-f6023a7167169016",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Trump Administration Keeps Pressure on Powell Over Rate Cuts and Renovations",
+    "url": "https://www.nytimes.com/2025/07/22/us/politics/trump-powell-interest-rate-cuts-fed-renovations.html",
+    "summary": "President Trump and his top aides have criticized Jerome H. Powell, the Fed chair, for his management of both the economy and a $2.5 billion revamp of the central bank’s headquarters.",
+    "publishedAt": "2025-07-22T23:09:10+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.472879+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "f6023a7167169016"
+  },
+  {
     "id": "cepr-discussion-papers-81ea9ac0a9e19125",
     "sourceId": "cepr-discussion-papers",
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20481 Money and Social Exclusion in Networks",
     "url": "https://cepr.org/publications/dp20481",
-    "summary": "Globalization offers unparalleled opportunities to expand welfare through cooperation across large networks of unrelated individuals. Social exclusion \u2013 permanent or temporary \u2013 and monetary exchange are institutions that in theory can incentivize cooperation. In an experiment, we evaluate their relative performance and interaction in anonymous networks of different sizes. Permanent social exclusion (ostracism) reduces long-run economic potential by leading to sparse networks. Monetary exchange and temporary social exclusion perform similarly well in small networks. In large networks, however, monetary exchange is the only institution that promotes full cooperation by crowding out ostracism and keeping the network complete. An insight is that monetary systems outperform social exclusion mechanisms in promoting cooperation in globalized social and economic networks.",
+    "summary": "Globalization offers unparalleled opportunities to expand welfare through cooperation across large networks of unrelated individuals. Social exclusion – permanent or temporary – and monetary exchange are institutions that in theory can incentivize cooperation. In an experiment, we evaluate their relative performance and interaction in anonymous networks of different sizes. Permanent social exclusion (ostracism) reduces long-run economic potential by leading to sparse networks. Monetary exchange and temporary social exclusion perform similarly well in small networks. In large networks, however, monetary exchange is the only institution that promotes full cooperation by crowding out ostracism and keeping the network complete. An insight is that monetary systems outperform social exclusion mechanisms in promoting cooperation in globalized social and economic networks.",
     "publishedAt": "2025-07-22T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.828351+00:00",
     "category": "research",
@@ -54,7 +70,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20485 Can a Tiger Change Its Stripes? Reform of Chinese State-Owned Enterprises in the Penumbra of the State",
     "url": "https://cepr.org/publications/dp20485",
-    "summary": "The majority of state-owned enterprises (SOEs) in China were privatized through ownership reforms over the last three decades. Using a comprehensive dataset of all medium and large enterprises in China between 1998 and 2013, we show that privatized SOEs continue to benefit from government support relative to private enterprises. Compared to private firms that were never state-owned, privatized SOEs are favored by lower interest loans and higher government subsidies. Moreover, both SOEs and privatized SOEs significantly underperform relative to private firms, despite some improvements post-privatization. An exception is in improvements in productivity growth, where former SOEs match or exceed their private sector counterparts\u2013results consistent with recent research. We also implement staggered difference-in-differences and matching estimation to account for treatment over multiple periods and selection into privatization. The tiger can change its stripes; however, former SOEs face a mor",
+    "summary": "The majority of state-owned enterprises (SOEs) in China were privatized through ownership reforms over the last three decades. Using a comprehensive dataset of all medium and large enterprises in China between 1998 and 2013, we show that privatized SOEs continue to benefit from government support relative to private enterprises. Compared to private firms that were never state-owned, privatized SOEs are favored by lower interest loans and higher government subsidies. Moreover, both SOEs and privatized SOEs significantly underperform relative to private firms, despite some improvements post-privatization. An exception is in improvements in productivity growth, where former SOEs match or exceed their private sector counterparts–results consistent with recent research. We also implement staggered difference-in-differences and matching estimation to account for treatment over multiple periods and selection into privatization. The tiger can change its stripes; however, former SOEs face a mor",
     "publishedAt": "2025-07-22T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.828802+00:00",
     "category": "research",
@@ -88,7 +104,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20483 Going back to the High Schools: Challenging Stereotypes about Economics",
     "url": "https://cepr.org/publications/dp20483",
-    "summary": "Students may hold stereotyped beliefs about subjects that distort subject choices. For example, economics is believed to be about money, not inequality or well-being, and this perception may attract some students to the subject, while deterring others. We report results from a UK-wide high school outreach program in which undergraduate champions delivered economics taster sessions to 5,000+ students. The sessions increase students\u2019 reported likelihood of studying economics by ~20 per cent. We shed light on what drives this increase. The sessions broaden students\u2019 understanding of what economics is about and this accounts for ~20 per cent of the increased likelihood. The sessions also change students\u2019 beliefs about (different attributes of) studying economics. The most important drivers of the increased likelihood are students\u2019 increased beliefs that they will do well in economics and that they will enjoy studying the subject.",
+    "summary": "Students may hold stereotyped beliefs about subjects that distort subject choices. For example, economics is believed to be about money, not inequality or well-being, and this perception may attract some students to the subject, while deterring others. We report results from a UK-wide high school outreach program in which undergraduate champions delivered economics taster sessions to 5,000+ students. The sessions increase students’ reported likelihood of studying economics by ~20 per cent. We shed light on what drives this increase. The sessions broaden students’ understanding of what economics is about and this accounts for ~20 per cent of the increased likelihood. The sessions also change students’ beliefs about (different attributes of) studying economics. The most important drivers of the increased likelihood are students’ increased beliefs that they will do well in economics and that they will enjoy studying the subject.",
     "publishedAt": "2025-07-22T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.829397+00:00",
     "category": "research",
@@ -105,7 +121,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20484 Do Female Experts Face an Authority Gap? Evidence from Economics",
     "url": "https://cepr.org/publications/dp20484",
-    "summary": "This paper reports results from a survey experiment comparing the effect of (the same) opinions expressed by male versus female experts. Members of the public were asked for their opinions on topical issues and shown the opinion of either a male or a female economist, all professors at leading US universities. We find, first, that experts can persuade members of the public \u2013 the opinions of individual expert economists have an effect on public opinion \u2013 and, second, that the opinions expressed by female economists are more persuasive than the same opinions expressed by male economists.",
+    "summary": "This paper reports results from a survey experiment comparing the effect of (the same) opinions expressed by male versus female experts. Members of the public were asked for their opinions on topical issues and shown the opinion of either a male or a female economist, all professors at leading US universities. We find, first, that experts can persuade members of the public – the opinions of individual expert economists have an effect on public opinion – and, second, that the opinions expressed by female economists are more persuasive than the same opinions expressed by male economists.",
     "publishedAt": "2025-07-22T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.829817+00:00",
     "category": "research",
@@ -122,7 +138,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20482 Customs Agents and Trade Facilitation",
     "url": "https://cepr.org/publications/dp20482",
-    "summary": "Administrative barriers to trade such as customs procedures are well-documented sources of delays and costs in cross-border commerce, often prompting firms to outsource these tasks to specialist customs agents. This paper examines the role of customs agents in a key global trade facilitation policy\u2014the Authorized Economic Operator Mutual Recognition Agreement (AEO-MRA)\u2014which enables certified traders to benefit from simplified customs procedures with partner countries. Focusing on the 2012 EU-US AEO-MRA, and using UK transaction-level customs data from HMRC that uniquely identify the AEO status of agents filing on behalf of firms, we document the widespread use of customs agents in UK exports. Guided by a theoretical framework, we show that non-certified firms benefited indirectly from the policy through certified agents, leading to more US market entry, fewer product exits, and higher export values. These findings highlight the role of intermediaries in extending the reach of trade fa",
+    "summary": "Administrative barriers to trade such as customs procedures are well-documented sources of delays and costs in cross-border commerce, often prompting firms to outsource these tasks to specialist customs agents. This paper examines the role of customs agents in a key global trade facilitation policy—the Authorized Economic Operator Mutual Recognition Agreement (AEO-MRA)—which enables certified traders to benefit from simplified customs procedures with partner countries. Focusing on the 2012 EU-US AEO-MRA, and using UK transaction-level customs data from HMRC that uniquely identify the AEO status of agents filing on behalf of firms, we document the widespread use of customs agents in UK exports. Guided by a theoretical framework, we show that non-certified firms benefited indirectly from the policy through certified agents, leading to more US market entry, fewer product exits, and higher export values. These findings highlight the role of intermediaries in extending the reach of trade fa",
     "publishedAt": "2025-07-22T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.830161+00:00",
     "category": "research",
@@ -136,9 +152,9 @@
     "id": "cepr-discussion-papers-1368f0476a0bd304",
     "sourceId": "cepr-discussion-papers",
     "sourceName": "CEPR Discussion Papers",
-    "title": "DP20487 Retail Investors\u2019 Contrarian Behavior Around News, Attention, and the Momentum Effect",
+    "title": "DP20487 Retail Investors’ Contrarian Behavior Around News, Attention, and the Momentum Effect",
     "url": "https://cepr.org/publications/dp20487",
-    "summary": "Using a large and representative panel of U.S. brokerage accounts, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and that such contrarian trading contributes to price momentum and post earnings announcement drift (PEAD). We show that extreme return streaks and surprises are not enough for stocks to exhibit PEAD and momentum and that the intensity of contrarian retail trading plays a key role: the PEAD of loser stocks with bad earnings surprises becomes increasingly more negative as retail buying pressure increases, and he PEAD of the stocks with the highest past returns and largest earnings surprises is the most positive for the stocks with the biggest net retail outflow. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. Younger and more attentive individuals are more likely to be contrarian, and a firm\u2019s dividend yield, leverage, size, book to market, and analyst coverage are a",
+    "summary": "Using a large and representative panel of U.S. brokerage accounts, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and that such contrarian trading contributes to price momentum and post earnings announcement drift (PEAD). We show that extreme return streaks and surprises are not enough for stocks to exhibit PEAD and momentum and that the intensity of contrarian retail trading plays a key role: the PEAD of loser stocks with bad earnings surprises becomes increasingly more negative as retail buying pressure increases, and he PEAD of the stocks with the highest past returns and largest earnings surprises is the most positive for the stocks with the biggest net retail outflow. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. Younger and more attentive individuals are more likely to be contrarian, and a firm’s dividend yield, leverage, size, book to market, and analyst coverage are a",
     "publishedAt": "2025-07-22T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.830507+00:00",
     "category": "research",
@@ -159,13 +175,29 @@
     "summary": "Congratulations, as always, to everyone who got to participate in the 2025 International Mathematical Olympiad, and especially to the gold and other medalists.",
     "publishedAt": "2025-07-22T20:43:57+00:00",
     "fetchedAt": "2025-07-28T06:22:19.227621+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research",
       "Commodities"
     ],
     "priority": "normal",
     "contentHash": "99f1f92a15a96632"
+  },
+  {
+    "id": "meb-faber-688a1e29df83faba",
+    "sourceId": "meb-faber",
+    "sourceName": "Meb Faber Research",
+    "title": "#6 – “The Stock Price Drops When The Company Pays A Dividend””",
+    "url": "https://mebfaber.com/2025/07/22/6-the-stock-price-drops-when-it-pays-a-dividend-youre-not-getting-an-allowance/",
+    "summary": "Investors love passive income. They fantasize about sitting on the beach, drinking pina coladas while their dividend checks roll in. However, each dividend payment causes the stock price to drop by an equal amount. This is investing 101. Unfortunately, many individual investors (and a non-zero amount of professional investors) do not understand this fundamental concept. […] The post #6 – “The Stock Price Drops When The Company Pays A Dividend”” appeared first on Meb Faber Research - Stock Market and Investing Blog.",
+    "publishedAt": "2025-07-22T20:18:44+00:00",
+    "fetchedAt": "2025-07-30T08:46:00.447509+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "688a1e29df83faba"
   },
   {
     "id": "gary-marcus-2928ec40298c3ade",
@@ -201,12 +233,45 @@
     "contentHash": "61d508765ef23d48"
   },
   {
+    "id": "nyt-economy-3a2aa6f08311cf53",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Trump Administration Keeps 19 Percent Tariff on Indonesia in Trade Deal",
+    "url": "https://www.nytimes.com/2025/07/22/us/politics/trump-indonesia-trade-deal.html",
+    "summary": "The administration provided some insight into the terms that were agreed upon between Indonesia and the United States, hinting at how other vague and hastily negotiated deals may turn out.",
+    "publishedAt": "2025-07-22T19:50:11+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.472603+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "3a2aa6f08311cf53"
+  },
+  {
+    "id": "conversable-economist-feea769643151fb7",
+    "sourceId": "conversable-economist",
+    "sourceName": "Conversable Economist",
+    "title": "Trying to Soften Up the Federal Reserve",
+    "url": "https://conversableeconomist.com/2025/07/22/trying-to-soften-up-the-federal-reserve/",
+    "summary": "There’s a well-known approach in politics when one agency wants another agency–not under its direct control–to do something. You first try to soften up the resistance of the other agency by accusing them of stuff. It’s even better if the accusations have some substance behind them, but really, all that matters is that the accusations … Continue reading Trying to Soften Up the Federal Reserve The post Trying to Soften Up the Federal Reserve first appeared on Conversable Economist.",
+    "publishedAt": "2025-07-22T19:29:29+00:00",
+    "fetchedAt": "2025-07-30T08:46:06.048627+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "feea769643151fb7"
+  },
+  {
     "id": "calculated-risk-e1d9968684d015a3",
     "sourceId": "calculated-risk",
     "sourceName": "Calculated Risk",
     "title": "Update: Lumber Prices Up 30% YoY",
     "url": "http://www.calculatedriskblog.com/2025/07/update-lumber-prices-up-30-yoy.html",
-    "summary": "This is something to watch again. Here is another update on lumber prices.SPECIAL NOTE: The CME group discontinued the Random Length Lumber Futures contract on May 16, 2023.\u00a0 I switched to a physically-delivered Lumber Futures contract that was started in August 2022.\u00a0 Unfortunately, this impacts long term price comparisons since the new contract was priced about 24% higher than the old random length contract for the period when both contracts were available. This graph shows CME random length framing futures through August 2022 (blue), and the new physically-delivered Lumber Futures (LBR) contract starting in August 2022 (Red).On July 22, 2025, LBR was at $669.50 per 1,000 board feet, up 30% from a year ago. Click on graph for larger image. There is somewhat of a seasonal demand for lumber, and lumber prices frequently peak in the first half of the year.The pickup in early 2018 was due to the Trump lumber tariffs in 2017.\u00a0 There were huge increases during the pandemic due to a combina",
+    "summary": "This is something to watch again. Here is another update on lumber prices.SPECIAL NOTE: The CME group discontinued the Random Length Lumber Futures contract on May 16, 2023.  I switched to a physically-delivered Lumber Futures contract that was started in August 2022.  Unfortunately, this impacts long term price comparisons since the new contract was priced about 24% higher than the old random length contract for the period when both contracts were available. This graph shows CME random length framing futures through August 2022 (blue), and the new physically-delivered Lumber Futures (LBR) contract starting in August 2022 (Red).On July 22, 2025, LBR was at $669.50 per 1,000 board feet, up 30% from a year ago. Click on graph for larger image. There is somewhat of a seasonal demand for lumber, and lumber prices frequently peak in the first half of the year.The pickup in early 2018 was due to the Trump lumber tariffs in 2017.  There were huge increases during the pandemic due to a combina",
     "publishedAt": "2025-07-22T19:11:00+00:00",
     "fetchedAt": "2025-07-28T04:04:08.194321+00:00",
     "category": "research",
@@ -249,15 +314,48 @@
     "contentHash": "bd0f46cce3bdad9e"
   },
   {
+    "id": "nyt-economy-dd168f6765fb8023",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Philippines’ Leader Meets With Trump to Clinch Trade Deal",
+    "url": "https://www.nytimes.com/2025/07/22/us/politics/trump-trade-philippines-marcos.html",
+    "summary": "President Trump announced that he had secured a deal with the country that will leave a 19 percent tariff in place, though no details were immediately available.",
+    "publishedAt": "2025-07-22T18:05:33+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.473073+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "dd168f6765fb8023"
+  },
+  {
+    "id": "wealth-common-sense-8d89d03642758c2b",
+    "sourceId": "wealth-common-sense",
+    "sourceName": "A Wealth of Common Sense",
+    "title": "The Ovarian Lottery",
+    "url": "https://awealthofcommonsense.com/2025/07/the-ovarian-lottery/",
+    "summary": "Some similarities between Steve Jobs, Warren Buffett and John Rockefeller. The post The Ovarian Lottery appeared first on A Wealth of Common Sense. ...",
+    "publishedAt": "2025-07-22T18:00:26+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.221280+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8d89d03642758c2b"
+  },
+  {
     "id": "matt-levine-16adda43ae4cef79",
     "sourceId": "matt-levine",
     "sourceName": "Matt Levine Money Stuff",
-    "title": "There\u2019s a GameStop Treasury Company",
+    "title": "There’s a GameStop Treasury Company",
     "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-22/there-s-a-gamestop-treasury-company",
     "summary": "Also ETF heartbeats, crypto lending, Libor transition collusion and meme-stock investment.",
     "publishedAt": "2025-07-22T17:47:56+00:00",
     "fetchedAt": "2025-07-28T04:04:08.131386+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research",
       "Crypto",
@@ -272,7 +370,7 @@
     "sourceName": "Abnormal Returns",
     "title": "Tuesday links: vanishingly few federal officials",
     "url": "https://abnormalreturns.com/2025/07/22/tuesday-links-vanishingly-few-federal-officials/",
-    "summary": "CryptoJP Morgan ($JPM) could soon start lending against crypto holdings. (ft.com)Ethereum ETFs are a year old. (sherwood.news)FinanceFINRA is looking to rework the \u201cpattern day trading\u201d rule. (finance.yahoo.com)When personal loan guarantees go bad. (wsj.com)Fund managementLike it or not, private assets are coming to your target-date fund. (morningstar.com)How Section 351 conversions in ETF-land work. (bloomberg.com)EuropeEurope needs its own home-grown technology providers. (ft.com)Why Europe wi",
+    "summary": "CryptoJP Morgan ($JPM) could soon start lending against crypto holdings. (ft.com)Ethereum ETFs are a year old. (sherwood.news)FinanceFINRA is looking to rework the “pattern day trading” rule. (finance.yahoo.com)When personal loan guarantees go bad. (wsj.com)Fund managementLike it or not, private assets are coming to your target-date fund. (morningstar.com)How Section 351 conversions in ETF-land work. (bloomberg.com)EuropeEurope needs its own home-grown technology providers. (ft.com)Why Europe wi",
     "publishedAt": "2025-07-22T17:41:14+00:00",
     "fetchedAt": "2025-07-28T06:12:24.045684+00:00",
     "category": "research",
@@ -319,7 +417,7 @@
     "id": "economist-business-bf613a5580cd4ab4",
     "sourceId": "economist-business",
     "sourceName": "Economist Business",
-    "title": "Airlines\u2019 favourite new pricing trick",
+    "title": "Airlines’ favourite new pricing trick",
     "url": "https://www.economist.com/business/2025/07/22/airlines-favourite-new-pricing-trick",
     "summary": "Our analysis shows that some carriers have started charging more for solo travellers",
     "publishedAt": "2025-07-22T16:11:30+00:00",
@@ -337,7 +435,7 @@
     "sourceName": "The Honest Broker",
     "title": "We Are Winning! (Update)",
     "url": "https://www.honest-broker.com/p/we-are-winning-update",
-    "summary": "It\u2019s nice to have good news to share from the music industry.",
+    "summary": "It’s nice to have good news to share from the music industry.",
     "publishedAt": "2025-07-22T16:09:50+00:00",
     "fetchedAt": "2025-07-28T06:33:13.418963+00:00",
     "category": "non-money",
@@ -353,7 +451,7 @@
     "sourceName": "Calculated Risk",
     "title": "Fed Forecasts: No Cuts or Three Cuts in 2025?",
     "url": "http://www.calculatedriskblog.com/2025/07/fed-forecasts-no-cuts-or-three-cuts-in.html",
-    "summary": "There are four remaining FOMC meetings this year: July, September, October and December.\u00a0 It is very unlikely that the FOMC will cut rates next week, but there are very different views on the rest of 2025.First, from BofA: With the u-rate rising more gradually in our new forecast and core PCE inflation likely to reach 3% over the summer, we don't think the Fed will be able to cut rates this year.And from Goldman Sachs:Starting in September, we expect the FOMC to deliver three consecutive 25bp cuts, provided inflation expectations remain in check amidst worries about Fed independence.Currently, market participants expect rate cuts in September and December.",
+    "summary": "There are four remaining FOMC meetings this year: July, September, October and December.  It is very unlikely that the FOMC will cut rates next week, but there are very different views on the rest of 2025.First, from BofA: With the u-rate rising more gradually in our new forecast and core PCE inflation likely to reach 3% over the summer, we don't think the Fed will be able to cut rates this year.And from Goldman Sachs:Starting in September, we expect the FOMC to deliver three consecutive 25bp cuts, provided inflation expectations remain in check amidst worries about Fed independence.Currently, market participants expect rate cuts in September and December.",
     "publishedAt": "2025-07-22T15:33:00+00:00",
     "fetchedAt": "2025-07-28T04:04:08.194649+00:00",
     "category": "research",
@@ -398,12 +496,45 @@
     "contentHash": "261f629cd407a944"
   },
   {
+    "id": "bonddad-4dc17efacda36217",
+    "sourceId": "bonddad",
+    "sourceName": "The Bonddad Blog",
+    "title": "Updating transport and consumer spending since Tariff-palooza!",
+    "url": "https://bonddad.blogspot.com/2025/07/updating-transport-and-consumer.html",
+    "summary": "- by New Deal democratNew economic data will resume tomorrow. Since I haven’t updated the impact of Tariff-palooza! on transport and spending in awhile, let’s take a look at that.The “tip of the spear” is container shipping. Here’s a graph of traffic at the busiest ports in the US, from CNBC:At the busiest ports, the steep decline this spring after a period of front-running is evident. In the past few weeks, there has been a rebound, doubtless in part caused by the TACO delay in tariff implementation. With the current “Liberation Day 2.0” set for August 1, a similar dynamic may well be in play.Once containers arrive in the US, they are typically shipped long distances by rail. Here is the historical record of monthly intermodal volumes through June, measured YoY to deal with seasonality:Again, the slowdown this spring is apparent.Here is a weekly close-up of the past year:Much like shipping traffic, there has been a rebound so far in July, which may very well represent front-running th",
+    "publishedAt": "2025-07-22T14:53:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.813947+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "4dc17efacda36217"
+  },
+  {
+    "id": "rzepczynski-7cbe4526e1eb075a",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Trend market performance not all the same",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/trend-market-performance-not-all-same.html",
+    "summary": "PremiaLab Research has issued a new paper titled \"Navigating Market Shifts with QIS Trend and Momentum Strategies,\" which analyzes trend and momentum behavior in 2025 and the last five years using their pure factor models. First, trend-following has not performed well across all major asset classes; however, an equity cross-sectional momentum approach did very well. The directional changes associated with the high uncertainty in 20205 have hurt those following trends. Trend-following is a pure directional strategy, while a momentum strategy focuses on relative movement to create a long/short portfolio.Over the longer term, equity momentum continues to perform well, but there were also substantial gains focused on short-term interest rates. Clearly, there are no exploitable trends in all assets, and the secret to good trend-following is to balance exposures across all asset classes.",
+    "publishedAt": "2025-07-22T14:41:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.909813+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "7cbe4526e1eb075a"
+  },
+  {
     "id": "economist-finance-ff276a8072910b1e",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
     "title": "Want higher pay? Stay in your job",
     "url": "https://www.economist.com/finance-and-economics/2025/07/22/want-higher-pay-stay-in-your-job",
-    "summary": "America\u2019s cooling labour market is bad news for those who move about",
+    "summary": "America’s cooling labour market is bad news for those who move about",
     "publishedAt": "2025-07-22T14:21:41+00:00",
     "fetchedAt": "2025-07-28T03:50:55.555578+00:00",
     "category": "macro",
@@ -435,7 +566,7 @@
     "sourceName": "Woman of Letters",
     "title": "This literary genre was dropped from the canon. But maybe it had something to offer.",
     "url": "https://www.woman-of-letters.com/p/positive-depictions-of-middle-class",
-    "summary": "Recently I introduced a friend to Dwight MacDonald\u2019s 1960 essay \u201cMasscult and Midcult\u201d, and she was beyond horrified by the snobby tone.",
+    "summary": "Recently I introduced a friend to Dwight MacDonald’s 1960 essay “Masscult and Midcult”, and she was beyond horrified by the snobby tone.",
     "publishedAt": "2025-07-22T14:01:36+00:00",
     "fetchedAt": "2025-07-28T06:33:17.443630+00:00",
     "category": "non-money",
@@ -468,7 +599,7 @@
     "sourceName": "Abnormal Returns",
     "title": "Research links: fewer people covering stocks",
     "url": "https://abnormalreturns.com/2025/07/22/research-links-fewer-people-covering-stocks/",
-    "summary": "Tuesdays are all about academic (and practitioner) literature at Abnormal Returns. You can check out last week\u2019s edition including a look at...",
+    "summary": "Tuesdays are all about academic (and practitioner) literature at Abnormal Returns. You can check out last week’s edition including a look at...",
     "publishedAt": "2025-07-22T13:39:58+00:00",
     "fetchedAt": "2025-07-28T06:12:24.045969+00:00",
     "category": "research",
@@ -534,7 +665,7 @@
     "sourceName": "Calculated Risk",
     "title": "California Home Sales Down Slightly YoY in June",
     "url": "http://www.calculatedriskblog.com/2025/07/california-home-sales-down-slightly-yoy.html",
-    "summary": "Today, in the Calculated Risk Real Estate Newsletter: California Home Sales Down Slightly YoY in June A brief excerpt: The NAR is scheduled to release June existing home sales on Wednesday, July 23rd at 10:00 AM ET. The consensus is for 4.00 million SAAR, down from 4.03 million last month. Housing economist Tom Lawler expects the NAR to report sales at a seasonally adjusted annual rate (SAAR) of 3.92 million for June, down from May and down slightly year-over-year. California reports Seasonally Adjusted (SA) sales and some measures of inventory whereas most of the local is Not Seasonally Adjusted (NSA). From the California Association of Realtors\u00ae (C.A.R.): California home sales rebound in June, reversing three straight months of declinesJune home sales activity rose 4.0 percent from the 254,190 homes sold in May and was down 0.3 percent from a year ago, when 264,960 homes were sold on an annualized basis. June\u2019s rebound reversed three consecutive months of sales declines and was only ",
+    "summary": "Today, in the Calculated Risk Real Estate Newsletter: California Home Sales Down Slightly YoY in June A brief excerpt: The NAR is scheduled to release June existing home sales on Wednesday, July 23rd at 10:00 AM ET. The consensus is for 4.00 million SAAR, down from 4.03 million last month. Housing economist Tom Lawler expects the NAR to report sales at a seasonally adjusted annual rate (SAAR) of 3.92 million for June, down from May and down slightly year-over-year. California reports Seasonally Adjusted (SA) sales and some measures of inventory whereas most of the local is Not Seasonally Adjusted (NSA). From the California Association of Realtors® (C.A.R.): California home sales rebound in June, reversing three straight months of declinesJune home sales activity rose 4.0 percent from the 254,190 homes sold in May and was down 0.3 percent from a year ago, when 264,960 homes were sold on an annualized basis. June’s rebound reversed three consecutive months of sales declines and was only ",
     "publishedAt": "2025-07-22T12:43:00+00:00",
     "fetchedAt": "2025-07-28T04:04:08.195329+00:00",
     "category": "research",
@@ -561,6 +692,22 @@
     "contentHash": "ebc6726353814b17"
   },
   {
+    "id": "of-dollars-data-5552cfe4a2c986c9",
+    "sourceId": "of-dollars-data",
+    "sourceName": "Of Dollars And Data",
+    "title": "The Wealth Ladder (Out Now!)",
+    "url": "https://ofdollarsanddata.com/the-wealth-ladder/",
+    "summary": "Imagine going to the doctor and getting the exact same treatment as the person who came before you, regardless of your symptoms. The same medication. The same dosage. The same advice. It would be dangerous at worst and malpractice at best. Unfortunately, this is how most financial advice is given today. We get one-size-fits-all solutions that don't consider where you are on your financial journey or where you want to end up in the future. But this isn't the right way to approach your money. Your financial strategy should evolve as you build wealth and your needs change. This is the big idea behind The Wealth Ladder: Proven Strategies for Every Step of Your Financial Life, which is officially out today! You can find it on Amazon, Barnes & Noble, Kindle, Audible (narrated by me), and everywhere else books are sold: Instead of providing a singular solution to your money problems, The Wealth Ladder provides the right strategy based on your financial starting point and desired destination. ",
+    "publishedAt": "2025-07-22T11:40:36+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.660771+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "5552cfe4a2c986c9"
+  },
+  {
     "id": "adam-tooze-713e4cc0ee8e4891",
     "sourceId": "adam-tooze",
     "sourceName": "Adam Tooze",
@@ -569,7 +716,7 @@
     "summary": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
     "publishedAt": "2025-07-22T10:56:20+00:00",
     "fetchedAt": "2025-07-28T06:22:15.312886+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -585,7 +732,7 @@
     "summary": "And will it ever come to America?",
     "publishedAt": "2025-07-22T10:31:05+00:00",
     "fetchedAt": "2025-07-28T06:22:17.745385+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -628,7 +775,7 @@
     "id": "psyche-magazine-9c4fadc07353ccef",
     "sourceId": "psyche-magazine",
     "sourceName": "Psyche",
-    "title": "Are you saying \u2018thank you\u2019 too effusively?",
+    "title": "Are you saying ‘thank you’ too effusively?",
     "url": "https://psyche.co/notes-to-self/to-look-like-a-boss-dont-say-thank-you-too-effusively?utm_source=rss-feed",
     "summary": "Research suggests that people who express their gratitude more effusively are judged as lower status and less influential- by Christian JarrettRead on Psyche",
     "publishedAt": "2025-07-22T10:00:00+00:00",
@@ -673,6 +820,40 @@
     "contentHash": "cb7003b1a458e95e"
   },
   {
+    "id": "apollo-academy-42bde729122099f5",
+    "sourceId": "apollo-academy",
+    "sourceName": "Apollo Academy",
+    "title": "Outlook for the US Dollar",
+    "url": "https://www.apolloacademy.com/outlook-for-the-us-dollar/",
+    "summary": "The dollar has depreciated more in the first half of 2025 than yield differentials would have predicted, see charts below... The post Outlook for the US Dollar appeared first on Apollo Academy.",
+    "publishedAt": "2025-07-22T10:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.207912+00:00",
+    "category": "research",
+    "tags": [
+      "Debt",
+      "Research",
+      "Currency"
+    ],
+    "priority": "low",
+    "contentHash": "42bde729122099f5"
+  },
+  {
+    "id": "yale-e360-1e511cd28200f5e9",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "China Breaks Ground on Colossal Dam Project in Asia's Grand Canyon",
+    "url": "https://e360.yale.edu/digest/chinachina-tibet-yarlung-tsangpo-dam-construction",
+    "summary": "China has begun construction on a massive dam project in the Yarlung Tsangpo Grand Canyon in Tibet, the longest and deepest canyon in the world. Experts fear the impact on wildlife in the river gorge, which is home to snow leopards and Bengal tigers, as well as some of the tallest and oldest trees in Asia.Read more on E360 →",
+    "publishedAt": "2025-07-22T09:55:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.434617+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "normal",
+    "contentHash": "1e511cd28200f5e9"
+  },
+  {
     "id": "nautilus-magazine-77e01d959fe4992f",
     "sourceId": "nautilus-magazine",
     "sourceName": "Nautilus",
@@ -697,7 +878,7 @@
     "summary": "It was always bound to happen.",
     "publishedAt": "2025-07-22T09:35:21+00:00",
     "fetchedAt": "2025-07-28T04:04:07.483268+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -753,6 +934,40 @@
     ],
     "priority": "normal",
     "contentHash": "b8faaec6ddac7a21"
+  },
+  {
+    "id": "foreign-affairs-ec9e49d5f52b0676",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "America Should Assume the Worst About AI",
+    "url": "https://www.foreignaffairs.com/united-states/artificial-intelligence-geopolitics-worst-about-ai",
+    "summary": "How to plan for a tech-driven geopolitical crisis.",
+    "publishedAt": "2025-07-22T04:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:49:27.487170+00:00",
+    "category": "policy",
+    "tags": [
+      "Tech",
+      "AI",
+      "Policy"
+    ],
+    "priority": "breaking",
+    "contentHash": "ec9e49d5f52b0676"
+  },
+  {
+    "id": "foreign-affairs-9ed6308036bb2cfc",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "America’s Pill Problem",
+    "url": "https://www.foreignaffairs.com/united-states/americas-pill-problem",
+    "summary": "Tariffs won’t fix the country’s reliance on foreign medicines.",
+    "publishedAt": "2025-07-22T04:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:49:27.487340+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "9ed6308036bb2cfc"
   },
   {
     "id": "platformer-651c8b24bd321197",

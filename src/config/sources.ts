@@ -1,19 +1,12 @@
 import type { RSSSource } from '../types';
 
 export const RSS_SOURCES: RSSSource[] = [
-  // Major International Finance Sources
+  // === FINANCIAL MARKETS (Stocks, Trading, Corporate News) ===
   {
     id: 'bloomberg-markets',
     name: 'Bloomberg Markets',
     url: 'https://feeds.bloomberg.com/markets/news.rss',
     category: 'markets',
-    enabled: true
-  },
-  {
-    id: 'bloomberg-economics',
-    name: 'Bloomberg Economics',
-    url: 'https://feeds.Bloomberg.com/economics/news.rss',
-    category: 'macro',
     enabled: true
   },
   {
@@ -31,17 +24,26 @@ export const RSS_SOURCES: RSSSource[] = [
     enabled: true
   },
   {
-    id: 'ft-economics',
-    name: 'FT Economics',
-    url: 'https://www.ft.com/global-economy?format=rss',
-    category: 'macro',
-    enabled: true
-  },
-  {
     id: 'wsj-markets',
     name: 'Wall Street Journal',
     url: 'https://feeds.a.dj.com/rss/RSSMarketsMain.xml',
     category: 'markets',
+    enabled: true
+  },
+  
+  // === MACRO ECONOMICS ===
+  {
+    id: 'bloomberg-economics',
+    name: 'Bloomberg Economics',
+    url: 'https://feeds.Bloomberg.com/economics/news.rss',
+    category: 'macro',
+    enabled: true
+  },
+  {
+    id: 'ft-economics',
+    name: 'FT Economics',
+    url: 'https://www.ft.com/global-economy?format=rss',
+    category: 'macro',
     enabled: true
   },
   {
@@ -125,6 +127,41 @@ export const RSS_SOURCES: RSSSource[] = [
     category: 'policy',
     enabled: true
   },
+  {
+    id: 'foreign-affairs',
+    name: 'Foreign Affairs',
+    url: 'https://www.foreignaffairs.com/rss.xml',
+    category: 'policy',
+    enabled: true
+  },
+  {
+    id: 'ft-markets-main',
+    name: 'FT Markets',
+    url: 'https://www.ft.com/markets?format=rss',
+    category: 'markets',
+    enabled: true
+  },
+  {
+    id: 'nyt-business',
+    name: 'NYT Business',
+    url: 'https://rss.nytimes.com/services/xml/rss/nyt/Business.xml',
+    category: 'markets',
+    enabled: true
+  },
+  {
+    id: 'nyt-economy',
+    name: 'NYT Economy',
+    url: 'https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml',
+    category: 'macro',
+    enabled: true
+  },
+  {
+    id: 'nyt-technology',
+    name: 'NYT Technology',
+    url: 'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml',
+    category: 'technology',
+    enabled: true
+  },
   
   // Research
   {
@@ -151,23 +188,9 @@ export const RSS_SOURCES: RSSSource[] = [
   
   // Additional Quality Sources
   {
-    id: 'seeking-alpha',
-    name: 'Seeking Alpha',
-    url: 'https://seekingalpha.com/feed.xml',
-    category: 'markets',
-    enabled: true
-  },
-  {
     id: 'marketwatch',
     name: 'MarketWatch',
     url: 'https://feeds.marketwatch.com/marketwatch/topstories',
-    category: 'markets',
-    enabled: true
-  },
-  {
-    id: 'investing-com',
-    name: 'Investing.com',
-    url: 'https://www.investing.com/rss/news.rss',
     category: 'markets',
     enabled: true
   },
@@ -350,13 +373,6 @@ export const RSS_SOURCES: RSSSource[] = [
   },
   
   // ESG & Sustainability
-  {
-    id: 'esg-today',
-    name: 'ESG Today',
-    url: 'https://www.esgtoday.com/feed/',
-    category: 'research',
-    enabled: true
-  },
   {
     id: 'responsible-investor',
     name: 'Responsible Investor',

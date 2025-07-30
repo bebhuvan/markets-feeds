@@ -53,7 +53,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20455 Informed Communication Equilibrium",
     "url": "https://cepr.org/publications/dp20455",
-    "summary": "We consider a privately informed sender selecting a mediated communication device to influence players\u2019 actions. In contrast to standard information design, there is no ex-ante commitment, and the communication device relies on information elicited from the informed parties. We define an informed communication equilibrium (ICE) as a perfect Bayesian equilibrium outcome of the informed mediated communication game. We show that the set of ICE is the subset of communication equilibria (CE) that yield sender payoff vectors bounded below by an equilibrium payoff vector of the silent game, under some consistent interim beliefs. The principal\u2019s ex-ante optimal CE may not be an ICE. In sender-receiver games, the set of CE payoff vectors lies in the convex hull of the set of payoff vectors above silence. Hence, if the latter set is convex, as is the case when the sender has transparent motives, the sets of CE and ICE coincide.",
+    "summary": "We consider a privately informed sender selecting a mediated communication device to influence players’ actions. In contrast to standard information design, there is no ex-ante commitment, and the communication device relies on information elicited from the informed parties. We define an informed communication equilibrium (ICE) as a perfect Bayesian equilibrium outcome of the informed mediated communication game. We show that the set of ICE is the subset of communication equilibria (CE) that yield sender payoff vectors bounded below by an equilibrium payoff vector of the silent game, under some consistent interim beliefs. The principal’s ex-ante optimal CE may not be an ICE. In sender-receiver games, the set of CE payoff vectors lies in the convex hull of the set of payoff vectors above silence. Hence, if the latter set is convex, as is the case when the sender has transparent motives, the sets of CE and ICE coincide.",
     "publishedAt": "2025-07-13T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.838527+00:00",
     "category": "research",
@@ -121,7 +121,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20453 Fuel Taxation and Environmental Externalities: Evidence from the World's Largest Environmental Tax Reform",
     "url": "https://cepr.org/publications/dp20453",
-    "summary": "We investigate how fuel taxation reduces climate and pollution externalities by evaluating the world\u2019s largest environmental tax reform. Using spatially detailed emissions data from more than 1,000 European regions in a synthetic difference-in-differences framework, we evaluate the impact of Germany\u2019s 1999 ecological tax reform on transport-related carbon and air pollutant emissions. We document sizable aggregate reductions for all emissions, exceeding 10 percent on average per year relative to synthetic baselines. Using official damage valuations, we estimate avoided external costs of more than \u20ac100 billion, two-thirds of which stem from health benefits due to reduced air pollution. Emission reductions and associated monetized benefits are larger in lower-income regions, contrasting with a slightly regressive distribution of fuel costs. These findings underscore the importance of incorporating air quality co-benefits when evaluating the efficiency and distributional effects of fuel an",
+    "summary": "We investigate how fuel taxation reduces climate and pollution externalities by evaluating the world’s largest environmental tax reform. Using spatially detailed emissions data from more than 1,000 European regions in a synthetic difference-in-differences framework, we evaluate the impact of Germany’s 1999 ecological tax reform on transport-related carbon and air pollutant emissions. We document sizable aggregate reductions for all emissions, exceeding 10 percent on average per year relative to synthetic baselines. Using official damage valuations, we estimate avoided external costs of more than €100 billion, two-thirds of which stem from health benefits due to reduced air pollution. Emission reductions and associated monetized benefits are larger in lower-income regions, contrasting with a slightly regressive distribution of fuel costs. These findings underscore the importance of incorporating air quality co-benefits when evaluating the efficiency and distributional effects of fuel an",
     "publishedAt": "2025-07-13T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.839784+00:00",
     "category": "research",
@@ -149,6 +149,73 @@
     "contentHash": "c0f4c71d5d87aa86"
   },
   {
+    "id": "rzepczynski-476aa15e877de4a6",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Ken Rogoff's new book - A great way to understand international finance",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/ken-rogoffs-new-book-great-way-to.html",
+    "summary": "This is a book that is a historical retrospective of the many key issues that Ken Rogoff researched over the last four decades. It is autobiographical as Rogoff walks through how he was engaged with many of the key topics of international finance. It was quite a run of problems: The Cold WarThe Asian currency crisisThe rise of China The issue of Japan and currency movesThe single currency in Europe All of these policy and economic issues required fundamental research to make the right choice and understand the crises being faced. Rogoff makes all of the issues approachable. The complexities are presented clearly, mixed with personal stories. If you want to understand the problems of international finance over the last few decades, you could not do better than read this book.",
+    "publishedAt": "2025-07-13T21:55:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.910803+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "breaking",
+    "contentHash": "476aa15e877de4a6"
+  },
+  {
+    "id": "rzepczynski-67dec140c60e1869",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Commodities march differently than gold",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/commodities-march-differently-than-gold.html",
+    "summary": "Gold is going higher, so it must be the case that commodities are also going higher? The data tells us otherwise. Commodities, on average, have been rangebound, but the gold versus commodity ratio tells a different story. The gains in gold are the result of something different. It is driven by the demand for a safe asset, not for its use in some production process or for consumption.  Does this mean that commodity prices should see a gain in the future? There could be a general commodity rise, but it is not in the card based on a ratio. Sometimes a charge is interesting but not informative.",
+    "publishedAt": "2025-07-13T21:42:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.911306+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "67dec140c60e1869"
+  },
+  {
+    "id": "rzepczynski-6604e9b95344eb10",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Opprtunity cost is the critical measure",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/opprtunity-cost-is-critical-measure.html",
+    "summary": "The simple genius of Charlie Munger: “All intelligent people should think primarily in terms of opportunity cost. When deciding whether to do something compare it with the best opportunity you have.”from farnanstreeetblog.comEvery finance decision, in fact every decision, has to be compared with the opportunity cost associated with the next best decision. Any use of time has to be compared with the next best alternative. Every decision has to be compared against other options every day. This is not supposed to drive a decision maker crazy because there are costs with changing decisions. Still, the idea of continuously measuring the opportunity cost is the basis for improving the use of time, energy, and money.",
+    "publishedAt": "2025-07-13T21:24:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.912023+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "6604e9b95344eb10"
+  },
+  {
+    "id": "rzepczynski-469e896636fb6d6f",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "The loss of dollar dominance",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/the-loss-of-dollar-dominance.html",
+    "summary": "I have written that the dollar decline is significant, but the fall only places the current dollar value near the long-term average. However, we need to acknowledge the extreme moves in the dollar over the last six months. The reason for the dollar decline is truly self-inflicted on the part of the US.The dollar decline is not driven by systematic factors that would have been picked up by a quant model. The trend/momentum would have called for a short signal, but the exogenous factors have not been seen in past data. Growth in the US is not below the rest of the world. There is the threat of a recession, but the numbers do not suggest lower relative growth. Inflation is still higher than desired, but again the numbers do ot suggest a dollar decline. The three areas of concern are uncertainty, trade, and debt. Usually, higher uncertainty will lead to a flight toward safety, but in this case, the uncertainty is with the US. The trade and tariff issue is real, but we lack sufficient evide",
+    "publishedAt": "2025-07-13T21:18:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.912591+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Debt",
+      "Currency"
+    ],
+    "priority": "high",
+    "contentHash": "469e896636fb6d6f"
+  },
+  {
     "id": "viks-newsletter-8b1045578e2c5aac",
     "sourceId": "viks-newsletter",
     "sourceName": "Viks Newsletter",
@@ -173,7 +240,7 @@
     "summary": "...I have been using \"chaos-monkey\", but that is inadequate (and highly insulting to all real chaos monkeys, to whom I apologize). But Jeff Tiedrich may well have the proper register:",
     "publishedAt": "2025-07-13T18:25:25+00:00",
     "fetchedAt": "2025-07-28T06:22:16.623830+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -184,7 +251,7 @@
     "id": "economist-business-f9005ddd6d821c1c",
     "sourceId": "economist-business",
     "sourceName": "Economist Business",
-    "title": "Can Nvidia persuade governments to pay for \u201csovereign\u201d AI?",
+    "title": "Can Nvidia persuade governments to pay for “sovereign” AI?",
     "url": "https://www.economist.com/business/2025/07/13/can-nvidia-persuade-governments-to-pay-for-sovereign-ai",
     "summary": "Politicians are warming to the idea",
     "publishedAt": "2025-07-13T17:58:38+00:00",
@@ -203,7 +270,7 @@
     "sourceName": "Gary Marcus",
     "title": "How o3 and Grok 4 Accidentally Vindicated Neurosymbolic AI",
     "url": "https://garymarcus.substack.com/p/how-o3-and-grok-4-accidentally-vindicated",
-    "summary": "Neurosymbolic AI is quietly winning. Here\u2019s what that means \u2013 and why it took so long",
+    "summary": "Neurosymbolic AI is quietly winning. Here’s what that means – and why it took so long",
     "publishedAt": "2025-07-13T17:07:57+00:00",
     "fetchedAt": "2025-07-28T06:22:17.976553+00:00",
     "category": "research",
@@ -247,6 +314,22 @@
     "contentHash": "4c82024453bedbc7"
   },
   {
+    "id": "nyt-economy-591081592a1b0eff",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "To Sidestep Trump Tariffs, Asian Nations Seek New Trade Partners",
+    "url": "https://www.nytimes.com/2025/07/13/business/economy/trump-tariffs-trade-deals.html",
+    "summary": "Most nations are still negotiating in hopes of avoiding punitive import taxes. At the same time, they’re looking for trading partners as a way around the United States.",
+    "publishedAt": "2025-07-13T15:18:43+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.474629+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "591081592a1b0eff"
+  },
+  {
     "id": "brad-delong-b58883d051e6a68b",
     "sourceId": "brad-delong",
     "sourceName": "Brad DeLong",
@@ -255,7 +338,7 @@
     "summary": "Monkey-chaos as constantly changing but ever-recurring kaleidoscope policy, with fake deals and real drama: the Trump performative tariff-threat theater of 2025 is a show running 24/7, and a...",
     "publishedAt": "2025-07-13T13:35:39+00:00",
     "fetchedAt": "2025-07-28T06:22:16.624222+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -282,12 +365,12 @@
     "id": "brad-delong-8c24d2e2c25faa3b",
     "sourceId": "brad-delong",
     "sourceName": "Brad DeLong",
-    "title": "LECTURE: Roots of How Ownership & Trade Have Made Us Truly Weird: \"Property\" & \"Exchange\" as a Co\u00f6rdination Mechanism at Societal Scale",
+    "title": "LECTURE: Roots of How Ownership & Trade Have Made Us Truly Weird: \"Property\" & \"Exchange\" as a Coördination Mechanism at Societal Scale",
     "url": "https://braddelong.substack.com/p/lecture-roots-of-how-ownership-and",
-    "summary": "My \u201croots of property, exchange, and the division of labor\u201d lecture. It tries to make novel and strange the idea people think that they \"own\" things: to impress students with how just plain weird...",
+    "summary": "My “roots of property, exchange, and the division of labor” lecture. It tries to make novel and strange the idea people think that they \"own\" things: to impress students with how just plain weird...",
     "publishedAt": "2025-07-13T12:08:34+00:00",
     "fetchedAt": "2025-07-28T06:22:16.624453+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -303,7 +386,7 @@
     "summary": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
     "publishedAt": "2025-07-13T10:57:19+00:00",
     "fetchedAt": "2025-07-28T06:22:15.315343+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research",
       "Currency"
@@ -337,7 +420,7 @@
     "summary": "A perfect merger of predation and corruption",
     "publishedAt": "2025-07-13T10:30:27+00:00",
     "fetchedAt": "2025-07-28T06:22:17.746973+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "M&A",
       "Research",

@@ -5,7 +5,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20465 Income Shocks and Demand for Sustainable Products",
     "url": "https://cepr.org/publications/dp20465",
-    "summary": "As consumer and investor demand for sustainability rises, firms are expanding their portfolios to include more sustainable products. This paper investigates whether such firms, as a result, become more exposed to household income shocks. Using U.S. retail scanner data, we find that declines in household income significantly reduce the share of spending on sustainable products\u2014especially among high-income households. These results are robust to alternative sustainability classifications and cannot be fully explained by health considerations. To help identify causal effects, we exploit exogenous variation in household income arising from the timing of tax rebate disbursements under the 2008 Economic Stimulus Payments program. A structural demand model indicates that the effect is driven by both high-income consumers\u2019 lower price sensitivity and a stronger preference for sustainable products, irrespective of price. Our findings suggest that firms focusing on sustainable offerings may face",
+    "summary": "As consumer and investor demand for sustainability rises, firms are expanding their portfolios to include more sustainable products. This paper investigates whether such firms, as a result, become more exposed to household income shocks. Using U.S. retail scanner data, we find that declines in household income significantly reduce the share of spending on sustainable products—especially among high-income households. These results are robust to alternative sustainability classifications and cannot be fully explained by health considerations. To help identify causal effects, we exploit exogenous variation in household income arising from the timing of tax rebate disbursements under the 2008 Economic Stimulus Payments program. A structural demand model indicates that the effect is driven by both high-income consumers’ lower price sensitivity and a stronger preference for sustainable products, irrespective of price. Our findings suggest that firms focusing on sustainable offerings may face",
     "publishedAt": "2025-07-16T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.835403+00:00",
     "category": "research",
@@ -23,7 +23,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20464 Dividend Signaling and Bank Payouts in the Great Financial Crisis",
     "url": "https://cepr.org/publications/dp20464",
-    "summary": "We study the dividend payouts of U.S. banks during the 2008 financial crisis. We show that banks with a higher share of short term liabilities to total liabilities, which were thus more exposed to the 2008 rollover crisis, increased their dividend payouts relative to less exposed banks. This relative increase in dividend payouts is concentrated in relatively cash-rich banks and is not driven by other systematic differences in bank asset portfolios across broad asset classes. The relative dividend payout increase was associated with a short-run increase in stock valuations and a decrease in short-term bond yields, as well as credit default swap premia. We argue that these empirical facts are consistent with a \u201ddividend signaling channel\u201d, whereby dividend payouts impact the coordination problem and rollover decisions of short-term lenders.",
+    "summary": "We study the dividend payouts of U.S. banks during the 2008 financial crisis. We show that banks with a higher share of short term liabilities to total liabilities, which were thus more exposed to the 2008 rollover crisis, increased their dividend payouts relative to less exposed banks. This relative increase in dividend payouts is concentrated in relatively cash-rich banks and is not driven by other systematic differences in bank asset portfolios across broad asset classes. The relative dividend payout increase was associated with a short-run increase in stock valuations and a decrease in short-term bond yields, as well as credit default swap premia. We argue that these empirical facts are consistent with a ”dividend signaling channel”, whereby dividend payouts impact the coordination problem and rollover decisions of short-term lenders.",
     "publishedAt": "2025-07-16T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.835719+00:00",
     "category": "research",
@@ -40,7 +40,7 @@
     "sourceName": "CEPR Discussion Papers",
     "title": "DP20466 Designing and Analyzing Powerful Experiments: Practical Tips for Applied Researchers",
     "url": "https://cepr.org/publications/dp20466",
-    "summary": "This paper offers practical advice on how to improve statistical power in randomized experiments through choices and actions researchers can take at the design, implementation, and analysis stages. At the design stage, the choice of estimand, choice of treatment, and decisions that affect the residual variance and intra-cluster correlation can all affect power for a given sample size. At the implementation stage, researchers can boost power through increasing compliance with treatment, reducing attrition, and improving outcome measurement. At the analysis stage, power can be increased through using different test statistics or estimands, through the choice of control variables, and through incorporating informative priors in a Bayesian analysis. A key message is that it does not make sense to talk of \u201cthe\u201d power of an experiment. A study can be well-powered for one outcome or estimand, but not others, and a fixed sample size can yield very different levels of power depending on researc",
+    "summary": "This paper offers practical advice on how to improve statistical power in randomized experiments through choices and actions researchers can take at the design, implementation, and analysis stages. At the design stage, the choice of estimand, choice of treatment, and decisions that affect the residual variance and intra-cluster correlation can all affect power for a given sample size. At the implementation stage, researchers can boost power through increasing compliance with treatment, reducing attrition, and improving outcome measurement. At the analysis stage, power can be increased through using different test statistics or estimands, through the choice of control variables, and through incorporating informative priors in a Bayesian analysis. A key message is that it does not make sense to talk of “the” power of an experiment. A study can be well-powered for one outcome or estimand, but not others, and a fixed sample size can yield very different levels of power depending on researc",
     "publishedAt": "2025-07-16T23:00:00+00:00",
     "fetchedAt": "2025-07-28T06:10:41.836080+00:00",
     "category": "research",
@@ -121,7 +121,7 @@
     "id": "economist-finance-25dcae5a9363f270",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
-    "title": "Stablecoins might cut America\u2019s debt payments. But at what cost?",
+    "title": "Stablecoins might cut America’s debt payments. But at what cost?",
     "url": "https://www.economist.com/finance-and-economics/2025/07/16/stablecoins-might-cut-americas-debt-payments-but-at-what-cost",
     "summary": "The Trump administration will take any help it can get",
     "publishedAt": "2025-07-16T18:57:14+00:00",
@@ -183,6 +183,39 @@
     "contentHash": "dc63fb4233632e7d"
   },
   {
+    "id": "nyt-economy-83cea655d040eebd",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Trump Announces ‘Great Deal’ on Trade With Indonesia",
+    "url": "https://www.nytimes.com/2025/07/16/business/economy/indonesia-trump-tariff-trade-agreement.html",
+    "summary": "President Trump said the agreement would partly walk back some of the steep tariffs he threatened on the country last week. Indonesia’s president called Mr. Trump a “tough negotiator.”",
+    "publishedAt": "2025-07-16T18:29:51+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.473451+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "83cea655d040eebd"
+  },
+  {
+    "id": "rmi-energy-d2290dbb31f68c20",
+    "sourceId": "rmi-energy",
+    "sourceName": "RMI",
+    "title": "Solar Under Storm III",
+    "url": "https://rmi.org/solar-under-storm-iii/",
+    "summary": "The next chapter in designing hurricane-resilient PV systems in a world of increasing tropical storms. The post Solar Under Storm III appeared first on RMI.",
+    "publishedAt": "2025-07-16T18:10:22+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.889195+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "d2290dbb31f68c20"
+  },
+  {
     "id": "henrik-karlsson-fb60162273af7ebe",
     "sourceId": "henrik-karlsson",
     "sourceName": "Henrik Karlsson",
@@ -204,7 +237,7 @@
     "sourceName": "n+1",
     "title": "The Prison Conference Money Shower",
     "url": "https://www.nplusonemag.com/online-only/online-only/the-prison-conference-money-shower/",
-    "summary": "Each of these classification rooms was decorated with an astonishing density of Disney paraphernalia. Men with grief-lined faces sat in front of Mickey Mouse reliquaries, mini princess figurines arranged in rainbow tiers on top of metal cabinets. Inspirational wall art, printed on polyethylene panels, read P.S. You Got This and One Small Thought in the Morning Can Change Your Whole Day. The decor raised the possibility that the fixations of the Disney adult are a direct response to conditions of oppression\u2014oppression in which the Disney adult is complicit.",
+    "summary": "Each of these classification rooms was decorated with an astonishing density of Disney paraphernalia. Men with grief-lined faces sat in front of Mickey Mouse reliquaries, mini princess figurines arranged in rainbow tiers on top of metal cabinets. Inspirational wall art, printed on polyethylene panels, read P.S. You Got This and One Small Thought in the Morning Can Change Your Whole Day. The decor raised the possibility that the fixations of the Disney adult are a direct response to conditions of oppression—oppression in which the Disney adult is complicit.",
     "publishedAt": "2025-07-16T17:42:52+00:00",
     "fetchedAt": "2025-07-28T06:33:17.917063+00:00",
     "category": "non-money",
@@ -218,18 +251,34 @@
     "id": "matt-levine-d3d96079ee39dd55",
     "sourceId": "matt-levine",
     "sourceName": "Matt Levine Money Stuff",
-    "title": "Zeno\u2019s Takeover",
+    "title": "Zeno’s Takeover",
     "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-16/zeno-s-takeover",
     "summary": "Also prime brokerage, private-wealth risks and the Strategy premium.",
     "publishedAt": "2025-07-16T17:17:51+00:00",
     "fetchedAt": "2025-07-28T04:04:08.131954+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research",
       "M&A"
     ],
     "priority": "high",
     "contentHash": "d3d96079ee39dd55"
+  },
+  {
+    "id": "rmi-energy-a8ac9f99efd12fde",
+    "sourceId": "rmi-energy",
+    "sourceName": "RMI",
+    "title": "Reality Check: Reinvesting at Coal Plant Sites with Clean Energy Upgrades Supports both Reliability and Affordability",
+    "url": "https://rmi.org/reality-check-reinvesting-at-coal-plant-sites-with-clean-energy-upgrades-supports-both-reliability-and-affordability/",
+    "summary": "Economic dispatch and clean repowering can help transition away from coal, maximizing reliability while continuing to support energy communities. The post Reality Check: Reinvesting at Coal Plant Sites with Clean Energy Upgrades Supports both Reliability and Affordability appeared first on RMI.",
+    "publishedAt": "2025-07-16T16:38:32+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.889477+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "a8ac9f99efd12fde"
   },
   {
     "id": "cfa-enterprising-investor-ff2d6aba1482d869",
@@ -256,7 +305,7 @@
     "summary": "While most people focused on Grok, there was another model release that got uniformly high praise: Kimi K2 from Moonshot.ai.",
     "publishedAt": "2025-07-16T16:11:59+00:00",
     "fetchedAt": "2025-07-28T06:22:19.228402+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "AI",
       "Research"
@@ -284,9 +333,9 @@
     "id": "economist-finance-52b65d9096a139d2",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
-    "title": "Our Big Mac index will sadden America\u2019s burger-lovers",
+    "title": "Our Big Mac index will sadden America’s burger-lovers",
     "url": "https://www.economist.com/finance-and-economics/2025/07/16/our-big-mac-index-will-sadden-americas-burger-lovers",
-    "summary": "Trump\u2019s tariffs have brought a double serving of pain",
+    "summary": "Trump’s tariffs have brought a double serving of pain",
     "publishedAt": "2025-07-16T16:03:33+00:00",
     "fetchedAt": "2025-07-28T03:50:55.556765+00:00",
     "category": "macro",
@@ -317,9 +366,9 @@
     "id": "liberty-rpf-d5c6a3f4d84f3ceb",
     "sourceId": "liberty-rpf",
     "sourceName": "Liberty's Highlights",
-    "title": "577: Nvidia + China, Jensen's Cash Pipeline, AMD, Huawei, Meta\u2019s 5GW Hyperion Cluster, U.S. DoD, Europe\u2019s War on A/C Kills, GLP-1, Grok 4 & 5, Guitars, and Apple TV+",
+    "title": "577: Nvidia + China, Jensen's Cash Pipeline, AMD, Huawei, Meta’s 5GW Hyperion Cluster, U.S. DoD, Europe’s War on A/C Kills, GLP-1, Grok 4 & 5, Guitars, and Apple TV+",
     "url": "https://www.libertyrpf.com/p/577-nvidia-china-jensens-cash-pipeline",
-    "summary": "\"we\u2019re reversing the reversal\"",
+    "summary": "\"we’re reversing the reversal\"",
     "publishedAt": "2025-07-16T15:42:38+00:00",
     "fetchedAt": "2025-07-28T04:04:08.433691+00:00",
     "category": "research",
@@ -351,10 +400,10 @@
     "sourceName": "Brad DeLong",
     "title": "The Iron InfoTech Law of Master & Servant: The Biggest Threat from MAMLMs Is Not Malevolent Machines, But Our Own Accidental Self-Pwnage",
     "url": "https://braddelong.substack.com/p/the-iron-infotech-law-of-master-and",
-    "summary": "The real risks from \u201cAI\u201d we need to deal with NOW is how they are already hacking our brains to turn us into zombie cognitive slaves of people and systems that do not wish us well at all\u2014with no...",
+    "summary": "The real risks from “AI” we need to deal with NOW is how they are already hacking our brains to turn us into zombie cognitive slaves of people and systems that do not wish us well at all—with no...",
     "publishedAt": "2025-07-16T15:33:59+00:00",
     "fetchedAt": "2025-07-28T06:22:16.623005+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "M&A",
       "Research",
@@ -394,6 +443,22 @@
     ],
     "priority": "normal",
     "contentHash": "e6f1950584f781a5"
+  },
+  {
+    "id": "conversable-economist-0f7e83f38e95063e",
+    "sourceId": "conversable-economist",
+    "sourceName": "Conversable Economist",
+    "title": "Tradeoffs of Lower Fertility Rates",
+    "url": "https://conversableeconomist.com/2025/07/16/tradeoffs-of-lower-fertility-rates/",
+    "summary": "When I was first worrying about public policy issues, back in the late 1970s, discussions of fertility rates often invoked the 1968 best-seller, The Population Bomb, written by Paul Ehrlich. At that time, the global population was about 3.5 billion–roughly half its current level. But the book warned that it was already too late, that … Continue reading Tradeoffs of Lower Fertility Rates The post Tradeoffs of Lower Fertility Rates first appeared on Conversable Economist.",
+    "publishedAt": "2025-07-16T15:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:06.049362+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "0f7e83f38e95063e"
   },
   {
     "id": "back-of-mind-9540259f7b351d2f",
@@ -437,12 +502,30 @@
     "summary": "Exchange-traded funds (ETFs) have revolutionized investing by offering low-cost, diversified exposure to various asset classes and investment strategies.",
     "publishedAt": "2025-07-16T14:12:51+00:00",
     "fetchedAt": "2025-07-28T06:22:16.425470+00:00",
-    "category": "research",
+    "category": "blogs",
     "tags": [
       "Research"
     ],
     "priority": "high",
     "contentHash": "cadd10aa5f173958"
+  },
+  {
+    "id": "bonddad-81746f53c948653d",
+    "sourceId": "bonddad",
+    "sourceName": "The Bonddad Blog",
+    "title": "June industrial production: a mild coincident positive for the economy",
+    "url": "https://bonddad.blogspot.com/2025/07/june-industrial-production-mild.html",
+    "summary": "- by New Deal democratIndustrial production is much less central to the US economic picture than it was before the “China shock,” since so much production moved overseas, meaning US consumers buy much more imported goods than they used to.Still it is an important if diminished coincident indicator. This morning’s report for June was positive, but less so than appeared on the surface.Headline industrial production (blue in the graph below) increased 0.3% for the month. It is higher by 0.7% than it was one year ago, and 0.5% higher than it was in September 2022, its former post-pandemic high. Manufacturing production (red) increased 0.1% and is 1.0% higher than one year ago, but -0.1% lower than its post-pandemic high of October 2022:What’s the difference? As has been the case a number of times in the past year, utilities production (blue in the graph below), and specifically electrical utilities (red):I strongly suspect this is due to the necessity to generate power for mining crypto - ",
+    "publishedAt": "2025-07-16T14:02:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.821844+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A",
+      "Crypto"
+    ],
+    "priority": "high",
+    "contentHash": "81746f53c948653d"
   },
   {
     "id": "cnbc-economy-b18afe36862a7cbd",
@@ -461,10 +544,27 @@
     "contentHash": "b18afe36862a7cbd"
   },
   {
+    "id": "bonddad-7505ffc7008df08a",
+    "sourceId": "bonddad",
+    "sourceName": "The Bonddad Blog",
+    "title": "Producer prices, consumer prices, and tariffs",
+    "url": "https://bonddad.blogspot.com/2025/07/producer-prices-consumer-prices-and.html",
+    "summary": "- by New Deal democratMuch of the commentary on yesterday’s CPI report suggested that the tariff impacts were apparent. My own analysis was more cautious. That’s simply because we don’t know for sure which items were affected by tariffs, and at this point referring to, e.g., appliances that showed relatively large monthly increases in prices is speculative - not wrong, mind you, simply speculative. The closest to rigorous analysis I read was that goods inflation was more than services inflation, which would make sense because few “services” can be imported.That issue continued into this morning’s report on June producer prices.Headline PPI was reported this morning to have been unchanged for June, while that for raw commodities increased 0.6%. Still, as shown by the below, the YoY trend in each is hardly that of accelerating inflation. Final demand PPI was up 2.4% YoY, continuing its cooling trend, while that for commodities was up 1.7%, in line with its trend for the past 12 months:Wh",
+    "publishedAt": "2025-07-16T13:32:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.823133+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "high",
+    "contentHash": "7505ffc7008df08a"
+  },
+  {
     "id": "stratechery-05739f500acf8dcd",
     "sourceId": "stratechery",
     "sourceName": "Stratechery",
-    "title": "Cloudflare\u2019s Content Independence Day, Google\u2019s Advantage, Monetizing AI",
+    "title": "Cloudflare’s Content Independence Day, Google’s Advantage, Monetizing AI",
     "url": "https://stratechery.com/2025/cloudflares-content-independence-day-googles-advantage-monetizing-ai/",
     "summary": "Cloudflare is unilaterally blocking AI crawlers unless they are willing to pay",
     "publishedAt": "2025-07-16T13:31:13+00:00",
@@ -508,6 +608,22 @@
     ],
     "priority": "breaking",
     "contentHash": "a3eaf8166bd6b424"
+  },
+  {
+    "id": "yale-e360-2c17ca7ff52f1fb2",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "Ice Recovered from European Alps Holds 12,000-Year Record of History",
+    "url": "https://e360.yale.edu/digest/french-alps-oldest-ice-core",
+    "summary": "Glacial ice offers a detailed record of the atmosphere, preserved in discrete layers, providing researchers with a valuable tool for studying planetary history. A sample taken from a glacier in the European Alps dates back at least 12,000 years, making it the oldest ice yet recovered from the region.Read more on E360 →",
+    "publishedAt": "2025-07-16T13:06:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.435692+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "normal",
+    "contentHash": "2c17ca7ff52f1fb2"
   },
   {
     "id": "moontower-meta-c9bbb8ae9c76313c",
@@ -581,10 +697,10 @@
     "sourceName": "Adam Tooze",
     "title": "Chartbook 396 Strangelove in the Middle East - or how the markets learned to stop worrying and love Israel's rampage.",
     "url": "https://adamtooze.substack.com/p/chartbook-396-strangelove-in-the",
-    "summary": "Here\u2019s a shocking fact:",
+    "summary": "Here’s a shocking fact:",
     "publishedAt": "2025-07-16T11:13:06+00:00",
     "fetchedAt": "2025-07-28T06:22:15.314599+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -600,7 +716,7 @@
     "summary": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
     "publishedAt": "2025-07-16T10:57:21+00:00",
     "fetchedAt": "2025-07-28T06:22:15.314795+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -616,7 +732,7 @@
     "summary": "The next Fed chair will be an obedient partisan",
     "publishedAt": "2025-07-16T10:31:26+00:00",
     "fetchedAt": "2025-07-28T06:22:17.746356+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -632,7 +748,7 @@
     "summary": "No.",
     "publishedAt": "2025-07-16T10:02:34+00:00",
     "fetchedAt": "2025-07-28T06:22:16.623168+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -645,7 +761,7 @@
     "sourceName": "Aeon",
     "title": "The myth of the golden ratio",
     "url": "https://aeon.co/videos/spiral-into-the-golden-ratio-and-separate-the-myths-from-the-maths?utm_source=rss-feed",
-    "summary": "What\u2019s so golden about the golden ratio? A myth-busting investigation tells the story of a misunderstood mathematical idea - by Aeon Video Watch at Aeon",
+    "summary": "What’s so golden about the golden ratio? A myth-busting investigation tells the story of a misunderstood mathematical idea - by Aeon Video Watch at Aeon",
     "publishedAt": "2025-07-16T10:01:00+00:00",
     "fetchedAt": "2025-07-28T06:33:10.646515+00:00",
     "category": "non-money",
@@ -661,7 +777,7 @@
     "sourceName": "Psyche",
     "title": "The final chapter",
     "url": "https://psyche.co/videos/froydis-faces-an-impossible-problem-how-to-grieve-a-father-she-hated-and-loved?utm_source=rss-feed",
-    "summary": "A Norwegian filmmaker turns the lens on herself to reflect on the complications of grieving her estranged, abusive father- Directed by Fr\u00f8ydis Fossli MoeWatch on Psyche",
+    "summary": "A Norwegian filmmaker turns the lens on herself to reflect on the complications of grieving her estranged, abusive father- Directed by Frøydis Fossli MoeWatch on Psyche",
     "publishedAt": "2025-07-16T10:01:00+00:00",
     "fetchedAt": "2025-07-28T06:33:10.760286+00:00",
     "category": "non-money",
@@ -691,7 +807,7 @@
     "id": "doomberg-cbff91a1eb7311c2",
     "sourceId": "doomberg",
     "sourceName": "Doomberg",
-    "title": "How It\u2019s Done",
+    "title": "How It’s Done",
     "url": "https://newsletter.doomberg.com/p/how-its-done",
     "summary": "The US finally gets serious about rare earth metals.",
     "publishedAt": "2025-07-16T09:02:07+00:00",
@@ -729,7 +845,7 @@
     "summary": "An incompetent, selfish, inwardly focused administration is making America less of an obstacle to China's rise.",
     "publishedAt": "2025-07-16T08:18:39+00:00",
     "fetchedAt": "2025-07-28T04:04:07.483843+00:00",
-    "category": "research",
+    "category": "non-money",
     "tags": [
       "Research"
     ],
@@ -768,6 +884,38 @@
     ],
     "priority": "normal",
     "contentHash": "12a38e6a47043bda"
+  },
+  {
+    "id": "foreign-affairs-4082770deeedbdd6",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "The Limits of Putin’s Balancing Act",
+    "url": "https://www.foreignaffairs.com/russia/limits-vladimir-putin-balancing-act-ukraine-kimmage-lipman",
+    "summary": "What the Kremlin will sacrifice in pursuit of victory in Ukraine.",
+    "publishedAt": "2025-07-16T04:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:49:27.488201+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "4082770deeedbdd6"
+  },
+  {
+    "id": "foreign-affairs-de96cc0b0065a327",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "How India Can Placate America",
+    "url": "https://www.foreignaffairs.com/south-asia/how-india-can-placate-america",
+    "summary": "In a reversal, it’s time for New Delhi to be generous with Washington.",
+    "publishedAt": "2025-07-16T04:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:49:27.488372+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "de96cc0b0065a327"
   },
   {
     "id": "platformer-2942ddace0ae3bdd",
