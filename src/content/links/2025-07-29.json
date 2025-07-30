@@ -561,6 +561,25 @@
     "contentHash": "37bd4fcf09fb7802"
   },
   {
+    "id": "bloomberg-markets-91f9d9adb6631bb8",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Treasuries Fall on Strong Economic Data Before Fed: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-29/stock-market-today-dow-s-p-live-updates",
+    "summary": "Wall Street traders gearing up for the Federal Reserve decision drove bonds lower as stocks hovered near record highs as data showed the world’s largest economy is holding up. The dollar rose for a fifth straight day, set for its longest winning streak since February.",
+    "fullContent": "The logo for Hong Kong Exchanges and Clearing Ltd. (HKEx) displayed on a screen at the Exchange Square complex in Hong Kong, China, on Wednesday, Feb. 26, 2025. Hong Kong's stock exchange reported its highest quarterly profit in nearly four years after China's stimulus measures boosted trading and listing volume.",
+    "publishedAt": "2025-07-29T22:16:46+00:00",
+    "fetchedAt": "2025-07-30T15:15:01.674996+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets",
+      "IPO"
+    ],
+    "priority": "high",
+    "contentHash": "91f9d9adb6631bb8"
+  },
+  {
     "id": "google-bloomberg-43277ffef7ee1f76",
     "sourceId": "google-bloomberg",
     "sourceName": "Google News (Bloomberg)",
@@ -1834,6 +1853,23 @@
     ],
     "priority": "normal",
     "contentHash": "7712611e2ac90919"
+  },
+  {
+    "id": "google-bloomberg-0195634c4a564bde",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Ivory Coast’s Octogenarian Leader Announces Reelection Bid - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVk03SU5BOUc4VnFwQjJBMDRTM0NMOFd1b2ZXTXZjcG9aU1U5RjNYZGVPSVlRZEVsUGJaVmg5T1RHemdFVXNoMjU0LU1VRkUyaW10cjlsazlDSGdfTHBXV1JLQXprNjVMeDBMRkpYcEczUmNOTXlTQnE3VVlFNzJZc1l3N3d2Qm90ZzhNaVp6MEpjNkE3U245SHJ3RVo0ek5PSmxiMjBCQWJLM1NwV0xqa1BBaW8?oc=5",
+    "summary": "Ivory Coast’s Octogenarian Leader Announces Reelection Bid  Bloomberg.com",
+    "fullContent": "Ivory Coast’s Octogenarian Leader Announces Reelection Bid  Bloomberg.com",
+    "publishedAt": "2025-07-29T16:18:25+00:00",
+    "fetchedAt": "2025-07-30T15:15:27.061643+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0195634c4a564bde"
   },
   {
     "id": "nyt-business-d3b947cab22668d0",
@@ -3279,40 +3315,5 @@
     ],
     "priority": "normal",
     "contentHash": "339f62e49f5b40e3"
-  },
-  {
-    "id": "thehindubusinessline-51093f00dc9395ec",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Aditya Infotech IPO fully subscribed on day 1 of offer led by retail, institutional investors",
-    "url": "https://www.thehindubusinessline.com/markets/aditya-infotech-ipo-fully-subscribed-on-day-1-of-offer-led-by-retail-institutional-investors/article69869377.ece",
-    "summary": "The ₹1,300-crore initial public offering (IPO) will conclude on July 31. The price band has been fixed at ₹640-675 per share.",
-    "publishedAt": "2025-07-29T12:24:44+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.208258+00:00",
-    "category": "markets",
-    "tags": [
-      "IPO",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "51093f00dc9395ec"
-  },
-  {
-    "id": "advisor-perspectives-a80e147983c65082",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "Washington Unleashes AI Gold Rush with Executive Order on Data Centers",
-    "url": "https://www.advisorperspectives.com/commentaries/2025/07/29/washington-ai-executive-order-data-centers?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "If there’s one thing I’ve learned after decades in the investment world, it’s that government policy is a precursor to change.",
-    "publishedAt": "2025-07-29T12:02:21+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.654479+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI",
-      "Commodities"
-    ],
-    "priority": "high",
-    "contentHash": "a80e147983c65082"
   }
 ]
