@@ -1452,6 +1452,24 @@
     "contentHash": "d4021b0f65b5affa"
   },
   {
+    "id": "yahoo-finance-18e1dd32e568efcc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Starbucks stock drops after US same-store sales fall for 6th straight quarter",
+    "url": "https://finance.yahoo.com/news/starbucks-stock-drops-after-us-same-store-sales-fall-for-6th-straight-quarter-202028730.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T20:20:28+00:00",
+    "fetchedAt": "2025-07-30T14:54:53.314180+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "18e1dd32e568efcc"
+  },
+  {
     "id": "yahoo-finance-6c5f8369c18a57a2",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -3275,21 +3293,5 @@
     ],
     "priority": "normal",
     "contentHash": "4ebc65900a1ec2d8"
-  },
-  {
-    "id": "bloomberg-markets-445f6c14f620d916",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Short Sellers Rack Up $2.5 Billion Loss on Riskiest US Stocks",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-28/short-sellers-rack-up-2-5-billion-loss-on-riskiest-us-stocks",
-    "summary": "It’s been a brutal month for traders shorting the riskiest US stocks, and as animal spirits imbue retail investors with boundless confidence, strategists expect the misery to continue for bears.",
-    "publishedAt": "2025-07-28T09:30:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.018335+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "445f6c14f620d916"
   }
 ]

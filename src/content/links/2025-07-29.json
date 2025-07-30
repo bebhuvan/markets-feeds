@@ -3044,6 +3044,23 @@
     "contentHash": "00e60caa2e0243b3"
   },
   {
+    "id": "yahoo-finance-edf62821c7631b5f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Procter & Gamble CEO on tariffs: they are 'inherently inflationary'",
+    "url": "https://finance.yahoo.com/news/procter--gamble-ceo-on-tariffs-they-are-inherently-inflationary-124544635.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T12:45:44+00:00",
+    "fetchedAt": "2025-07-30T14:54:53.314286+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "edf62821c7631b5f"
+  },
+  {
     "id": "project-syndicate-f0f7f02ddc1f9039",
     "sourceId": "project-syndicate",
     "sourceName": "Project Syndicate",
@@ -3291,24 +3308,5 @@
     ],
     "priority": "high",
     "contentHash": "8774788075a6ac3b"
-  },
-  {
-    "id": "google-bloomberg-725a0b8ea3421ba9",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Gold Holds Drop as US-EU Trade Deal Provides Boost for Dollar - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeWdKRmJYZVgtOGFDa3NBOHhUZlotcFNrek5WMElMZGdEVEE2c0dEZFRCT0lBNDUxNEhBZ2Y0WUp0aW5CY3BEYzNJZHZoYzBPcVRuT21GOHVIVzkyaFlBQ1luVFVJU3pocTNDYlNsV3R0YnM0VFZBdFJqT2RlY0p0Q0NvbXZ3MXB4eFJReTYyZkl3RHMwbFJ5eXJINlk4elJ2MkY1TWs1WVlRWU1ZNVNnZHl3?oc=5",
-    "summary": "Gold Holds Drop as US-EU Trade Deal Provides Boost for Dollar  Bloomberg.com",
-    "publishedAt": "2025-07-29T11:58:44+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.597747+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A",
-      "Currency",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "725a0b8ea3421ba9"
   }
 ]
