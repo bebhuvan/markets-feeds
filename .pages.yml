@@ -1,0 +1,96 @@
+media:
+  input: src/media
+  output: public/uploads
+
+content:
+  - name: discoveries
+    label: Discovery Posts
+    path: src/content/discoveries
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: text
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: author
+        label: Author
+        type: text
+        default: "Research Team"
+      - name: tags
+        label: Tags
+        type: list
+        item_type: text
+      - name: excerpt
+        label: Excerpt
+        type: textarea
+        rows: 3
+      - name: media
+        label: Media Attachment
+        type: object
+        fields:
+          - name: type
+            label: Type
+            type: select
+            options:
+              - link
+              - video
+              - image
+          - name: url
+            label: URL
+            type: text
+          - name: title
+            label: Title
+            type: text
+          - name: description
+            label: Description
+            type: textarea
+            rows: 2
+          - name: image
+            label: Preview Image
+            type: text
+      - name: body
+        label: Content
+        type: markdown
+        required: true
+        
+  - name: rss-sources
+    label: RSS Sources
+    path: src/config
+    type: file
+    file: sources.ts
+    fields:
+      - name: sources
+        label: RSS Sources
+        type: list
+        item_type: object
+        fields:
+          - name: id
+            label: Source ID
+            type: text
+            required: true
+          - name: name
+            label: Source Name
+            type: text
+            required: true
+          - name: url
+            label: RSS URL
+            type: text
+            required: true
+          - name: category
+            label: Category
+            type: select
+            options:
+              - markets
+              - research
+              - macro
+              - policy
+              - technology
+              - filings
+          - name: enabled
+            label: Enabled
+            type: boolean
+            default: true

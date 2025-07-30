@@ -10,7 +10,10 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "astro check",
-    "clean": "rm -rf dist .astro"
+    "clean": "rm -rf dist .astro",
+    "cms": "npx pagescms",
+    "aggregate": "python scripts/aggregate_feeds_improved.py",
+    "test-aggregate": "python scripts/aggregate_feeds_improved.py"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",

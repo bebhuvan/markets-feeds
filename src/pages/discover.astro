@@ -1,0 +1,376 @@
+---
+import { getCollection } from 'astro:content';
+
+const discoveries = await getCollection('discoveries');
+discoveries.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+function formatRelativeTime(date: Date): string {
+  const now = new Date();
+  const diffInMinutes = Math.floor((now.getTime() - date.getTime()) / (1000 * 60));
+  
+  if (diffInMinutes < 60) {
+    return `${diffInMinutes} min ago`;
+  } else if (diffInMinutes < 1440) {
+    return `${Math.floor(diffInMinutes / 60)} hours ago`;
+  } else {
+    return `${Math.floor(diffInMinutes / 1440)} days ago`;
+  }
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovery - Markets Feeds</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid #f0f0f0;
+            padding: 24px 0;
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            z-index: 100;
+            margin-bottom: 40px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            font-size: 17px;
+            font-weight: 600;
+            color: #1a1a1a;
+            letter-spacing: -0.01em;
+        }
+
+        .discovery-badge {
+            padding: 3px 10px;
+            background: #f8f8f8;
+            color: #666;
+            font-size: 11px;
+            font-weight: 500;
+            border-radius: 12px;
+            letter-spacing: 0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: #999;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 400;
+            transition: color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            color: #1a1a1a;
+        }
+
+        .nav-link.active {
+            color: #1a1a1a;
+            font-weight: 500;
+        }
+
+        /* Feed */
+        .feed {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        /* Post */
+        .post {
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 24px;
+            transition: all 0.2s ease;
+        }
+
+        .post:last-child {
+            border-bottom: none;
+        }
+
+        .post:hover {
+            transform: translateY(-1px);
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .post-author {
+            font-size: 14px;
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+
+        .post-time {
+            font-size: 13px;
+            color: #999;
+            font-weight: 400;
+        }
+
+        .post-content {
+            margin-bottom: 20px;
+        }
+
+        .post-text {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+            font-weight: 400;
+        }
+
+        .post-text a {
+            color: #1a1a1a;
+            text-decoration: none;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .post-text a:hover {
+            border-bottom-color: #1a1a1a;
+        }
+
+        /* Link Preview */
+        .link-preview {
+            border: 1px solid #f0f0f0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 16px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            background: #ffffff;
+        }
+
+        .link-preview:hover {
+            border-color: #ddd;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+        }
+
+        .preview-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: #fafafa;
+        }
+
+        .preview-content {
+            padding: 20px;
+        }
+
+        .preview-title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .preview-description {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+
+        .preview-domain {
+            font-size: 11px;
+            color: #999;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        /* Tags */
+        .post-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+
+        .tag {
+            padding: 4px 10px;
+            background: #f8f8f8;
+            color: #666;
+            font-size: 11px;
+            border-radius: 12px;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+
+        /* Animations */
+        .post {
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-left">
+                    <div class="logo">Markets Feeds</div>
+                    <span class="discovery-badge">Discovery</span>
+                </div>
+                <nav class="nav-links">
+                    <a href="/" class="nav-link">Feed</a>
+                    <a href="/discover" class="nav-link active">Discover</a>
+                    <a href="/admin" class="nav-link">Admin</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Feed -->
+        <div class="feed">
+            {discoveries.map(post => {
+                const { data, body } = post;
+                return (
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="avatar">MF</div>
+                            <span class="post-author">{data.author}</span>
+                            <span class="post-time">{formatRelativeTime(data.date)}</span>
+                        </div>
+                        
+                        <div class="post-content">
+                            <div class="post-text" set:html={body} />
+                            
+                            {data.media && data.media.type === 'link' && (
+                                <div class="link-preview" onclick={`openLink('${data.media.url}')`}>
+                                    {data.media.image && (
+                                        <img src={data.media.image} alt={data.media.title} class="preview-image" />
+                                    )}
+                                    <div class="preview-content">
+                                        <div class="preview-title">{data.media.title}</div>
+                                        <div class="preview-description">{data.media.description}</div>
+                                        <div class="preview-domain">{data.media.url ? new URL(data.media.url).hostname.toUpperCase() : ''}</div>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+
+                        {data.tags && data.tags.length > 0 && (
+                            <div class="post-tags">
+                                {data.tags.map(tag => (
+                                    <span class="tag">{tag}</span>
+                                ))}
+                            </div>
+                        )}
+                    </article>
+                );
+            })}
+            
+            {discoveries.length === 0 && (
+                <div style="text-align: center; padding: 60px 20px; color: #666;">
+                    <h3>No discovery posts yet</h3>
+                    <p style="margin-top: 8px; font-size: 14px;">Visit <a href="/admin" style="color: #1a1a1a;">the admin panel</a> to create your first post.</p>
+                </div>
+            )}
+        </div>
+    </div>
+
+    <script>
+        // Link preview clicks
+        function openLink(url: string) {
+            window.open(url, '_blank');
+        }
+
+        // Infinite scroll (placeholder)
+        let loading = false;
+        window.addEventListener('scroll', () => {
+            if (loading) return;
+            
+            const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+            
+            if (scrollTop + clientHeight >= scrollHeight - 1000) {
+                loading = true;
+                console.log('Loading more posts...');
+                
+                // Simulate loading
+                setTimeout(() => {
+                    loading = false;
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>

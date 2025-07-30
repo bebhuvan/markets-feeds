@@ -12,7 +12,7 @@ const linksCollection = defineCollection({
     content: z.string().optional(),
     publishedAt: z.string().datetime(),
     fetchedAt: z.string().datetime(),
-    category: z.enum(['markets', 'macro', 'research', 'policy']),
+    category: z.enum(['markets', 'macro', 'research', 'policy', 'technology', 'filings']),
     tags: z.array(z.string()),
     priority: z.enum(['breaking', 'high', 'normal', 'low']),
     contentHash: z.string(),
@@ -21,6 +21,25 @@ const linksCollection = defineCollection({
   })
 });
 
+const discoveryCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    date: z.date(),
+    author: z.string().default('Research Team'),
+    tags: z.array(z.string()).optional(),
+    excerpt: z.string().optional(),
+    media: z.object({
+      type: z.enum(['link', 'video', 'image']).optional(),
+      url: z.string().optional(),
+      title: z.string().optional(),
+      description: z.string().optional(),
+      image: z.string().optional()
+    }).optional()
+  })
+});
+
 export const collections = {
-  'links': linksCollection
+  'links': linksCollection,
+  'discoveries': discoveryCollection
 };

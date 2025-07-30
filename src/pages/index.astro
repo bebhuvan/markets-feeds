@@ -4,7 +4,7 @@ import ThemeToggle from '../components/ThemeToggle.astro';
 import Navigation from '../components/Navigation.astro';
 import LinkCard from '../components/LinkCard.astro';
 import type { FeedItem } from '../types';
-// import { formatDate } from '../utils/date';
+import { RSS_SOURCES } from '../config/sources';
 import '../styles/global.css';
 
 // Load all link data
@@ -20,183 +20,552 @@ for (const file of linkFiles) {
 // Sort by published date
 allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
-// Get today's date for highlighting (used in client-side script)
-// const today = formatDate(new Date());
-// const yesterday = formatDate(new Date(Date.now() - 86400000));
+// Calculate source counts
+const sourceCounts = allLinks.reduce((acc, link) => {
+  acc[link.sourceId] = (acc[link.sourceId] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+// Group sources by category
+const sourcesByCategory = RSS_SOURCES.reduce((acc, source) => {
+  if (!acc[source.category]) {
+    acc[source.category] = [];
+  }
+  acc[source.category].push({
+    ...source,
+    count: sourceCounts[source.id] || 0
+  });
+  return acc;
+}, {} as Record<string, any[]>);
+
+// Category display names
+const categoryLabels = {
+  markets: 'Financial News',
+  research: 'Academic Research',
+  macro: 'Economics',
+  policy: 'Central Banks',
+  technology: 'Technology',
+  filings: 'Regulatory'
+};
 ---
 
-<Layout title="Finance Links">
-  <div class="container max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-12">
-    <header class="mb-8">
-      <!-- Title -->
-      <div class="mb-6 text-center relative">
-        <div class="flex items-center justify-center gap-3 mb-2">
-          <h1 class="text-3xl font-bold text-foreground">
-            Markets Feeds
-          </h1>
-          <ThemeToggle />
-        </div>
-        <p class="text-text-light">
-          Financial news aggregation from trusted sources
-        </p>
-      </div>
-      
-      <!-- Search -->
-      <div class="mb-6">
-        <div class="relative max-w-md mx-auto">
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="Search articles, sources, topics..."
-            class="w-full pl-10 pr-4 py-2 text-sm border border-border rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-colors"
-          />
-          <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-text-subtle" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-          </svg>
-        </div>
-      </div>
-      
-      <Navigation currentPage="all" />
-      
-      <!-- Category Filters -->
-      <div class="flex flex-wrap justify-center gap-2 mb-6">
-        <button class="filter-btn active" data-filter="all">
-          All
-        </button>
-        <button class="filter-btn" data-filter="markets">
-          Markets
-        </button>
-        <button class="filter-btn" data-filter="macro">
-          Macro
-        </button>
-        <button class="filter-btn" data-filter="research">
-          Research
-        </button>
-        <button class="filter-btn" data-filter="technology">
-          Technology
-        </button>
-        <button class="filter-btn" data-filter="policy">
-          Policy
-        </button>
-        <button class="filter-btn" data-filter="filings">
-          Filings
-        </button>
-      </div>
-      
-      <!-- Sources Link -->
-      <div class="text-center">
-        <a 
-          href="/sources" 
-          class="text-sm text-text-subtle hover:text-text transition-colors"
-        >
-          View all sources →
-        </a>
+<Layout title="Markets Feeds">
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <div class="logo">Markets Feeds</div>
+        <div class="header-meta">Last updated: {new Date().toLocaleTimeString()}</div>
       </div>
     </header>
-    
+
+    <!-- Filters -->
+    <div class="filters">
+      <div class="filter-container">
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all">All</button>
+          <button class="filter-tab" data-filter="markets">Markets</button>
+          <button class="filter-tab" data-filter="research">Research</button>
+          <button class="filter-tab" data-filter="macro">Economics</button>
+          <button class="filter-tab" data-filter="policy">Policy</button>
+          <button class="filter-tab" data-filter="technology">Technology</button>
+        </div>
+        
+        <div class="search-container">
+          <input type="search" class="search-box" placeholder="Search articles..." id="searchInput" />
+          <div class="view-toggle">
+            <button class="view-btn active" id="compactView">Compact</button>
+            <button class="view-btn" id="cardView">Cards</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Content Grid -->
-    <main id="linkStream">
-      {allLinks.length > 0 ? (
-        <div>
-          {allLinks.map((link) => (
-            <LinkCard link={link} />
+    <div class="content-grid">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <ul class="source-list">
+          {Object.entries(sourcesByCategory).map(([category, sources]) => (
+            <li class="source-category">
+              <div class="category-header">{categoryLabels[category as keyof typeof categoryLabels]}</div>
+              <ul>
+                {sources.slice(0, 8).map(source => (
+                  <li class="source-item">
+                    <a href="#" class="source-link" data-source={source.id}>
+                      {source.name}
+                      <span class="source-count">{source.count}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </li>
           ))}
+        </ul>
+      </aside>
+
+      <!-- Main Feed -->
+      <main class="feed">
+        <div class="feed-header">
+          <h1 class="feed-title">All Sources</h1>
+          <div class="feed-meta">{allLinks.length} articles</div>
         </div>
-      ) : (
-        <div class="py-12 text-center text-text-subtle">
-          <p>No articles available</p>
+
+        <div class="articles" id="linkStream">
+          {allLinks.length > 0 ? (
+            allLinks.map((link) => (
+              <article class="article" data-category={link.category} data-source={link.sourceId}>
+                <div class="article-header">
+                  <span class="source-badge">{link.sourceName}</span>
+                  <span class="article-time">{new Date(link.publishedAt).toLocaleTimeString()}</span>
+                </div>
+                <h2 class="article-title">
+                  <a href={link.url} target="_blank" rel="noopener">{link.title}</a>
+                </h2>
+                {link.summary && (
+                  <p class="article-excerpt">{link.summary}</p>
+                )}
+                {link.tags.length > 0 && (
+                  <div class="article-tags">
+                    {link.tags.map(tag => (
+                      <span class="tag">{tag}</span>
+                    ))}
+                  </div>
+                )}
+              </article>
+            ))
+          ) : (
+            <div class="py-12 text-center text-text-subtle">
+              <p>No articles available</p>
+            </div>
+          )}
         </div>
-      )}
-    </main>
-    
-    <!-- Empty State for Filtered Results -->
-    <div id="emptyState" class="hidden py-12 text-center text-text-subtle">
-      <p>No results found</p>
+      </main>
     </div>
   </div>
-  
+
   <style>
-    .filter-btn {
-      @apply px-3 py-1.5 text-sm text-text-subtle hover:text-text transition-colors rounded-md hover:bg-accent;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    .filter-btn.active {
-      @apply text-text bg-accent;
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        line-height: 1.6;
+        color: #2a2a2a;
+        background: #fafbfc;
+    }
+
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* Header */
+    .header {
+        border-bottom: 1px solid #e8ebed;
+        padding: 20px 0;
+        position: sticky;
+        top: 0;
+        background: rgba(250, 251, 252, 0.95);
+        backdrop-filter: blur(10px);
+        z-index: 100;
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 18px;
+        font-weight: 600;
+        color: #2a2a2a;
+    }
+
+    .header-meta {
+        font-size: 13px;
+        color: #6b7280;
+    }
+
+    /* Filters */
+    .filters {
+        padding: 16px 0;
+        border-bottom: 1px solid #e8ebed;
+        background: #ffffff;
+    }
+
+    .filter-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .filter-tabs {
+        display: flex;
+        gap: 2px;
+        background: #f3f4f6;
+        border-radius: 6px;
+        padding: 2px;
+    }
+
+    .filter-tab {
+        padding: 8px 16px;
+        background: transparent;
+        border: none;
+        color: #6b7280;
+        font-size: 14px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        white-space: nowrap;
+    }
+
+    .filter-tab.active {
+        background: #ffffff;
+        color: #2a2a2a;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .search-container {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .search-box {
+        padding: 8px 12px;
+        border: 1px solid #e8ebed;
+        border-radius: 4px;
+        font-size: 14px;
+        width: 240px;
+        background: #ffffff;
+    }
+
+    .search-box:focus {
+        outline: none;
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.05);
+    }
+
+    .view-toggle {
+        display: flex;
+        gap: 4px;
+    }
+
+    .view-btn {
+        padding: 6px 8px;
+        border: 1px solid #e8ebed;
+        background: #ffffff;
+        color: #6b7280;
+        font-size: 12px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .view-btn.active {
+        background: #2a2a2a;
+        color: #ffffff;
+        border-color: #2a2a2a;
+    }
+
+    /* Content Grid */
+    .content-grid {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        gap: 40px;
+        padding: 32px 0;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        position: sticky;
+        top: 120px;
+        height: fit-content;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 20px;
+        border: 1px solid #e8ebed;
+    }
+
+    .source-list {
+        list-style: none;
+    }
+
+    .source-category {
+        margin-bottom: 24px;
+    }
+
+    .category-header {
+        font-size: 12px;
+        font-weight: 600;
+        color: #9ca3af;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #f3f4f6;
+    }
+
+    .source-item {
+        padding: 4px 0;
+    }
+
+    .source-link {
+        color: #6b7280;
+        text-decoration: none;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4px 8px;
+        border-radius: 4px;
+        transition: all 0.15s ease;
+    }
+
+    .source-link:hover {
+        color: #2a2a2a;
+        background: #f8fafc;
+    }
+
+    .source-count {
+        font-size: 12px;
+        color: #9ca3af;
+        background: #f3f4f6;
+        padding: 2px 6px;
+        border-radius: 10px;
+        min-width: 20px;
+        text-align: center;
+    }
+
+    /* Feed */
+    .feed {
+        min-height: 100vh;
+    }
+
+    .feed-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .feed-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #2a2a2a;
+    }
+
+    .feed-meta {
+        font-size: 13px;
+        color: #6b7280;
+    }
+
+    /* Articles */
+    .article {
+        padding: 20px 0;
+        border-bottom: 1px solid #f1f3f4;
+    }
+
+    .article:last-child {
+        border-bottom: none;
+    }
+
+    .article-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+
+    .source-badge {
+        padding: 3px 8px;
+        background: #f0f9ff;
+        color: #0369a1;
+        font-size: 11px;
+        font-weight: 500;
+        border-radius: 4px;
+        border: 1px solid #e0f2fe;
+    }
+
+    .article-time {
+        font-size: 12px;
+        color: #9ca3af;
+    }
+
+    .article-title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.4;
+        margin-bottom: 8px;
+    }
+
+    .article-title a {
+        color: #2a2a2a;
+        text-decoration: none;
+    }
+
+    .article-title a:hover {
+        color: #1e40af;
+        text-decoration: underline;
+    }
+
+    .article-excerpt {
+        font-size: 14px;
+        color: #6b7280;
+        line-height: 1.5;
+        margin-bottom: 8px;
+    }
+
+    .article-tags {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        padding: 2px 8px;
+        background: #f8fafc;
+        color: #64748b;
+        font-size: 11px;
+        border-radius: 3px;
+        border: 1px solid #e2e8f0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .content-grid {
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        .sidebar {
+            position: static;
+            order: 2;
+        }
+
+        .filter-container {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 16px;
+        }
+
+        .search-container {
+            justify-content: space-between;
+        }
+
+        .search-box {
+            width: 180px;
+        }
     }
   </style>
-  
+
   <script>
     // Filter functionality
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const linkItems = document.querySelectorAll('.link-item');
+    const filterTabs = document.querySelectorAll('.filter-tab');
+    const articles = document.querySelectorAll('.article');
     const searchInput = document.getElementById('searchInput') as HTMLInputElement;
-    const emptyState = document.getElementById('emptyState');
-    const linkStream = document.getElementById('linkStream');
+    const feedTitle = document.querySelector('.feed-title');
+    const feedMeta = document.querySelector('.feed-meta');
     
     let currentFilter = 'all';
     let searchTerm = '';
-    
+
     function applyFilters() {
       let visibleCount = 0;
       
-      linkItems.forEach((item) => {
-        const category = item.getAttribute('data-category');
+      articles.forEach((article) => {
+        const category = article.getAttribute('data-category');
         const matchesCategory = currentFilter === 'all' || category === currentFilter;
         
         let matchesSearch = true;
         if (searchTerm) {
-          const text = item.textContent?.toLowerCase() || '';
+          const text = article.textContent?.toLowerCase() || '';
           matchesSearch = text.includes(searchTerm.toLowerCase());
         }
         
         const isVisible = matchesCategory && matchesSearch;
-        (item as HTMLElement).style.display = isVisible ? 'block' : 'none';
+        (article as HTMLElement).style.display = isVisible ? 'block' : 'none';
         
         if (isVisible) visibleCount++;
       });
       
-      // Show/hide empty state
-      if (emptyState && linkStream) {
-        if (visibleCount === 0 && (searchTerm || currentFilter !== 'all')) {
-          emptyState.classList.remove('hidden');
-          linkStream.classList.add('hidden');
-        } else {
-          emptyState.classList.add('hidden');
-          linkStream.classList.remove('hidden');
-        }
+      // Update feed meta
+      if (feedMeta) {
+        feedMeta.textContent = `${visibleCount} articles`;
+      }
+      
+      // Update feed title
+      if (feedTitle && currentFilter !== 'all') {
+        const activeTab = document.querySelector('.filter-tab.active');
+        feedTitle.textContent = activeTab?.textContent || 'All Sources';
+      } else if (feedTitle) {
+        feedTitle.textContent = 'All Sources';
       }
     }
-    
-    // Filter button clicks
-    filterBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        filterBtns.forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-        currentFilter = btn.getAttribute('data-filter') || 'all';
+
+    // Filter tab clicks
+    filterTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        filterTabs.forEach((t) => t.classList.remove('active'));
+        tab.classList.add('active');
+        currentFilter = tab.getAttribute('data-filter') || 'all';
         applyFilters();
       });
     });
-    
-    // Search functionality - redirect to search page
+
+    // Search functionality
     if (searchInput) {
-      searchInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          const query = searchInput.value.trim();
-          if (query) {
-            window.location.href = `/search?q=${encodeURIComponent(query)}`;
-          } else {
-            window.location.href = '/search';
-          }
-        }
-      });
-      
-      // Also handle input for live filtering (keep existing functionality)
       searchInput.addEventListener('input', (e) => {
         searchTerm = (e.target as HTMLInputElement).value;
         applyFilters();
       });
     }
-    
+
+    // Source filter clicks
+    document.querySelectorAll('.source-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const sourceId = link.getAttribute('data-source');
+        
+        articles.forEach(article => {
+          const articleSource = article.getAttribute('data-source');
+          (article as HTMLElement).style.display = 
+            articleSource === sourceId ? 'block' : 'none';
+        });
+        
+        // Update feed title
+        if (feedTitle) {
+          feedTitle.textContent = link.textContent?.split(/\d+/)[0].trim() || 'Source';
+        }
+        
+        // Count visible articles
+        const visibleCount = Array.from(articles).filter(
+          article => article.getAttribute('data-source') === sourceId
+        ).length;
+        
+        if (feedMeta) {
+          feedMeta.textContent = `${visibleCount} articles`;
+        }
+      });
+    });
+
+    // View toggle
+    document.getElementById('compactView')?.addEventListener('click', () => {
+      document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('compactView')?.classList.add('active');
+    });
+
+    document.getElementById('cardView')?.addEventListener('click', () => {
+      document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('cardView')?.classList.add('active');
+    });
+
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
       // Focus search on '/' key
@@ -213,36 +582,5 @@ allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.published
         applyFilters();
       }
     });
-    
-    // Mark breaking news items with special styling
-    linkItems.forEach((item) => {
-      const priority = item.getAttribute('data-priority');
-      if (priority === 'breaking') {
-        item.classList.add('border-red-600/20');
-      }
-    });
-    
-    // Global function for tag filtering
-    (window as any).filterByTag = function(tag: string) {
-      searchInput.value = tag.toLowerCase();
-      searchTerm = tag.toLowerCase();
-      applyFilters();
-      searchInput.focus();
-    };
-
-    // Clear filters function
-    (window as any).clearFilters = function() {
-      // Reset search
-      searchInput.value = '';
-      searchTerm = '';
-      
-      // Reset category filter
-      filterBtns.forEach(btn => btn.classList.remove('active'));
-      document.querySelector('[data-filter="all"]')?.classList.add('active');
-      currentFilter = 'all';
-      
-      // Apply filters
-      applyFilters();
-    };
   </script>
 </Layout>
