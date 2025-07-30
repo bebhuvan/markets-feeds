@@ -1,5 +1,57 @@
 [
   {
+    "id": "ft-markets-6d803bc52c51eb7a",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "US Treasury to sell more short-term debt in continuation of Biden-era policy",
+    "url": "https://www.ft.com/content/4055340f-fda6-4b19-b64b-fc5d357450e2",
+    "summary": "Treasury secretary Scott Bessent previously criticised issuance of short-term bills as means of keeping long-term interest rates stable",
+    "fullContent": "Treasury secretary Scott Bessent previously criticised issuance of short-term bills as means of keeping long-term interest rates stable",
+    "publishedAt": "2025-07-30T13:08:48+00:00",
+    "fetchedAt": "2025-07-30T13:11:45.510804+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "high",
+    "contentHash": "6d803bc52c51eb7a"
+  },
+  {
+    "id": "rzepczynski-a79b0109e0ccd4b2",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "The power of combining value and momentum factors",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/the-power-of-combining-value-and.html",
+    "summary": "One of the more interesting combinations of factor exposures is value and momentum. Value and momentum have both delivered strong excess returns, and blending them together also has strong benefits, even though the value and momentum strategies are negatively correlated. An interesting new paper looks at the combination by trying to explain the excess returns through a pricing kernel that uses nine latent variables from the combined value and momentum cross-section, see \"Value and Momentum Leftovers\". The combination has proven to be much better than investing in each factor by itself. However, there is an issue of what the pricing kernel should be to help combine these two factors because there is a significant alpha after trying to price the combination. Additionally, the idea that you can just blend the value and momentum as a 50/50 combination may not be effective. We will not go into the details of this \"leftover\" argument other than to say that the use of latent variables can hel",
+    "fullContent": "One of the more interesting combinations of factor exposures is value and momentum. Value and momentum have both delivered strong excess returns, and blending them together also has strong benefits, even though the value and momentum strategies are negatively correlated. An interesting new paper looks at the combination by trying to explain the excess returns through a pricing kernel that uses nine latent variables from the combined value and momentum cross-section, see \"Value and Momentum Leftovers\". The combination has proven to be much better than investing in each factor by itself. However, there is an issue of what the pricing kernel should be to help combine these two factors because there is a significant alpha after trying to price the combination. Additionally, the idea that you can just blend the value and momentum as a 50/50 combination may not be effective. We will not go into the details of this \"leftover\" argument other than to say that the use of latent variables can hel",
+    "publishedAt": "2025-07-30T13:07:00+00:00",
+    "fetchedAt": "2025-07-30T13:12:16.377368+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "a79b0109e0ccd4b2"
+  },
+  {
+    "id": "business-insider-408e271acdfab313",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Ukraine's special operators used to dodge artillery shells. Now they're trying to survive Russian drones.",
+    "url": "https://www.businessinsider.com/ukraines-special-operators-focused-russian-artillery-now-drones-2025-7",
+    "summary": "Small drones have emerged as the main battlefield killer. This trend is being reflected in Ukrainian special operations training.",
+    "fullContent": "A Ukrainian special forces soldier walks in the water at night along the Dnipro River.APSmall exploding drones have emerged as the main battlefield killer in Ukraine.Ukraine's special operators were once focused on artillery, but now they train to survive drones.An American instructor said he teaches soldiers to hide, move smart, and use their guns if needed.Ukraine's special operators used to focus their training on surviving intense Russian artillery fire. Now, their attention has shifted to drones — the main battlefield killer.\"Things have changed drastically,\" an American instructor with the 4th Ranger Regiment of Ukraine's Special Operations Forces told Business Insider. He could only be identified by his call sign Scooter for security reasons.\"One of the main differences we see today is the prevalence of drones,\" he said. \"In 2022, it was primarily artillery fire. There was a lot more of it.\" The Ukrainian Rangers are now learning better concealment tactics and how to shoot down ",
+    "publishedAt": "2025-07-30T13:03:51+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.554410+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "408e271acdfab313"
+  },
+  {
     "id": "sebi-news-cb00e024b5fecef2",
     "sourceId": "sebi-news",
     "sourceName": "SEBI",
@@ -102,6 +154,128 @@
     "contentHash": "d9464fc2657eea80"
   },
   {
+    "id": "techmeme-bcb474858343ca78",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Palo Alto Networks has agreed to buy CyberArk Software in a cash-and-stock deal valuing the Israeli cybersecurity company at about $25B (Bloomberg)",
+    "url": "http://www.techmeme.com/250730/p26#a250730p26",
+    "summary": "Bloomberg: Palo Alto Networks has agreed to buy CyberArk Software in a cash-and-stock deal valuing the Israeli cybersecurity company at about $25B  —  Palo Alto Networks Inc. agreed to buy CyberArk Software Ltd. in a cash-and-stock deal valuing the Israeli cybersecurity company at about $25 billion.",
+    "fullContent": "Bloomberg: Palo Alto Networks has agreed to buy CyberArk Software in a cash-and-stock deal valuing the Israeli cybersecurity company at about $25B  —  Palo Alto Networks Inc. agreed to buy CyberArk Software Ltd. in a cash-and-stock deal valuing the Israeli cybersecurity company at about $25 billion.",
+    "publishedAt": "2025-07-30T13:00:14+00:00",
+    "fetchedAt": "2025-07-30T13:11:56.856515+00:00",
+    "category": "technology",
+    "tags": [
+      "Tech",
+      "M&A",
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "bcb474858343ca78"
+  },
+  {
+    "id": "yahoo-finance-716a683fcc750f4f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Former Diageo CFO Mahlan returns in interim role",
+    "url": "https://finance.yahoo.com/news/former-diageo-cfo-mahlan-returns-130010965.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T13:00:10+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.396777+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "716a683fcc750f4f"
+  },
+  {
+    "id": "yahoo-finance-77ebc60738265969",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "The London Company Mid Cap Portfolio Sold Skyworks Solutions (SWKS) in Q2. Here’s Why",
+    "url": "https://finance.yahoo.com/news/london-company-mid-cap-portfolio-125654001.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:56:54+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.396849+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "77ebc60738265969"
+  },
+  {
+    "id": "yahoo-finance-bc3d2d3df82445f9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "GDP Bounces Ahead Of Fed Meeting; S&P 500 Futures Edge Higher (Live Coverage)",
+    "url": "https://www.investors.com/news/economy/federal-reserve-meeting-fed-chair-powell-gdp-jobs-data-sp-500/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:55:47+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.396911+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "bc3d2d3df82445f9"
+  },
+  {
+    "id": "yahoo-finance-a0b5eef885e97528",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Here’s Why Churchill Downs Incorporated (CHDN) Traded Down in Q2",
+    "url": "https://finance.yahoo.com/news/why-churchill-downs-incorporated-chdn-125352476.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:53:52+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397032+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "a0b5eef885e97528"
+  },
+  {
+    "id": "yahoo-finance-a8adc76084cb0889",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Booking Holdings Beats Q2 Expectations But Stock Slips. Here's What Wall Street Is Saying.",
+    "url": "https://www.investors.com/news/technology/booking-stock-bkng-booking-holdings-q2-2025/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:52:28+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397130+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a8adc76084cb0889"
+  },
+  {
+    "id": "yahoo-finance-d3b1dcc9680eb096",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "U.S. Economy Grew at 3.0% Rate in Second Quarter",
+    "url": "https://www.wsj.com/economy/us-gdp-q2-2025-359c022b?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:52:00+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397186+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "d3b1dcc9680eb096"
+  },
+  {
     "id": "marketwatch-80ed0071dc06bf01",
     "sourceId": "marketwatch",
     "sourceName": "MarketWatch",
@@ -118,6 +292,23 @@
     ],
     "priority": "low",
     "contentHash": "80ed0071dc06bf01"
+  },
+  {
+    "id": "yahoo-finance-3fe545345042817d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Here’s Why Entegris (ENTG) Declined in Q2",
+    "url": "https://finance.yahoo.com/news/why-entegris-entg-declined-q2-125012936.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:50:12+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397242+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3fe545345042817d"
   },
   {
     "id": "advisor-perspectives-370a897bb72b957b",
@@ -170,6 +361,43 @@
     ],
     "priority": "normal",
     "contentHash": "47130597d6390599"
+  },
+  {
+    "id": "yahoo-finance-6fc344e392a6bff4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Treasury Department Will Boost Debt Buybacks",
+    "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-07-30-2025/card/treasury-department-says-it-will-boost-debt-buybacks-inTtFTcarFI7AYr8QpQG?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:49:25+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397294+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "6fc344e392a6bff4"
+  },
+  {
+    "id": "yahoo-finance-51227c17449da7b3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Meta Earnings Due Today. Zuckerberg's Big AI Bets Will Be In Focus.",
+    "url": "https://www.investors.com/news/technology/meta-stock-q2-2025-preview-zuckerberg-ai-facebook/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:48:29+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397349+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "51227c17449da7b3"
   },
   {
     "id": "google-bloomberg-230c9c95db74cdd3",
@@ -472,6 +700,41 @@
     "contentHash": "208c1234d73d12c0"
   },
   {
+    "id": "yahoo-finance-7e9c1195c13edce0",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Google vs. Tesla: Which Tech Stock is a Better Buy Right Now?",
+    "url": "https://finance.yahoo.com/news/google-vs-tesla-tech-stock-123229533.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:32:29+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397687+00:00",
+    "category": "markets",
+    "tags": [
+      "Tech",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7e9c1195c13edce0"
+  },
+  {
+    "id": "yahoo-finance-031d989f7472f2bd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "In This Frothy Market, It’s Boom Times for Brokers Like Robinhood",
+    "url": "https://www.wsj.com/finance/in-this-market-its-good-to-be-a-broker-14c1953b?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:32:00+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397744+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "031d989f7472f2bd"
+  },
+  {
     "id": "et-markets-6467a100ded5dcae",
     "sourceId": "et-markets",
     "sourceName": "Economic Times",
@@ -561,6 +824,23 @@
     "contentHash": "8b5014d71f043124"
   },
   {
+    "id": "yahoo-finance-efb04e62dcb3ffed",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "2 Soaring Stocks With More Upside Potential to Buy and Hold",
+    "url": "https://finance.yahoo.com/news/2-soaring-stocks-more-upside-123000357.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:30:00+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.398076+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "efb04e62dcb3ffed"
+  },
+  {
     "id": "yahoo-finance-7383d4e656534866",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -595,6 +875,40 @@
     ],
     "priority": "normal",
     "contentHash": "2bc252bb2c5ef34b"
+  },
+  {
+    "id": "yahoo-finance-ce66f29e1584d77c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Do Wall Street Analysts Like Verizon Communications Stock?",
+    "url": "https://finance.yahoo.com/news/wall-street-analysts-verizon-communications-122702227.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:27:02+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397873+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ce66f29e1584d77c"
+  },
+  {
+    "id": "yahoo-finance-1f9fcce02d9330a6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Prada Logs Higher Sales Amid Subdued Demand for Luxury Goods",
+    "url": "https://www.wsj.com/business/retail/prada-logs-higher-sales-amid-subdued-demand-for-luxury-goods-30812285?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:26:00+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397924+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1f9fcce02d9330a6"
   },
   {
     "id": "et-markets-ffd0a52da88e9147",
@@ -669,6 +983,23 @@
     "contentHash": "4579256dba2c43b9"
   },
   {
+    "id": "yahoo-finance-367e99cc49b30a2f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Are Wall Street Analysts Predicting Alphabet Stock Will Climb or Sink?",
+    "url": "https://finance.yahoo.com/news/wall-street-analysts-predicting-alphabet-122410782.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:24:10+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.397994+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "367e99cc49b30a2f"
+  },
+  {
     "id": "yahoo-finance-0885791bc9870368",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -685,6 +1016,25 @@
     ],
     "priority": "normal",
     "contentHash": "0885791bc9870368"
+  },
+  {
+    "id": "yahoo-finance-bdffadaec2ac3ddc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Amazon to Pay New York Times at Least $20 Million a Year in AI Deal",
+    "url": "https://www.wsj.com/business/media/amazon-to-pay-new-york-times-at-least-20-million-a-year-in-ai-deal-66db8503?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:23:00+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.398132+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "bdffadaec2ac3ddc"
   },
   {
     "id": "yahoo-finance-b17d7811f83fa827",
@@ -910,6 +1260,41 @@
     ],
     "priority": "normal",
     "contentHash": "fbc2d4aa4ede3980"
+  },
+  {
+    "id": "yahoo-finance-7e8dbb3e3a689e10",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Steven Madden Withdraws 2025 Guidance as Tariffs Weigh",
+    "url": "https://www.wsj.com/business/earnings/steven-madden-withdraws-2025-guidance-as-tariffs-weigh-ef7fa9d3?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:13:00+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.398358+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7e8dbb3e3a689e10"
+  },
+  {
+    "id": "yahoo-finance-641045af1b4c387f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "LendingClub Stock Soars 23%. The Online Lender Had a Stellar Quarter.",
+    "url": "https://www.barrons.com/articles/lendingclub-earnings-stock-price-247b621a?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T12:13:00+00:00",
+    "fetchedAt": "2025-07-30T13:11:50.398437+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "641045af1b4c387f"
   },
   {
     "id": "bloomberg-markets-773308bcc2607f62",
@@ -2815,6 +3200,23 @@
     "contentHash": "d5bea06b16c5f4f5"
   },
   {
+    "id": "google-bloomberg-8117710f5e2629b1",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Philippines Sees $1.7 Billion in Retirement Fund With New Push - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU2x3a3ZNSlF5NDNRTFFhUzVOT1pjdWxTUDM0cFo1ODhLMGtVUWdfYWlmaWhsMFJHdVUwMTdNVUVPZjBPYy03LWVDWmpxV3pGVzhUTmZEV1VOTGxBWmVQb3NTZUw1R3dPdWJTaURYc0xEMVNPRnptRFZjdmVRZWdNSFdxclVSUWFNYUxLWFZrOFpfOEc2OVZ0YUR0WkNMTmNjNHlWLVJVMzJhT2tUclU4cTBR?oc=5",
+    "summary": "Philippines Sees $1.7 Billion in Retirement Fund With New Push  Bloomberg.com",
+    "fullContent": "Philippines Sees $1.7 Billion in Retirement Fund With New Push  Bloomberg.com",
+    "publishedAt": "2025-07-30T10:16:28+00:00",
+    "fetchedAt": "2025-07-30T13:12:09.560054+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8117710f5e2629b1"
+  },
+  {
     "id": "techmeme-e04cda86c77f9225",
     "sourceId": "techmeme",
     "sourceName": "Techmeme",
@@ -3102,387 +3504,5 @@
     ],
     "priority": "normal",
     "contentHash": "dfaf435c314318d8"
-  },
-  {
-    "id": "yahoo-finance-21ec91757c14a2ff",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Bank of Canada seen holding rates steady for third time in a row",
-    "url": "https://finance.yahoo.com/news/bank-canada-seen-holding-rates-100109991.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T10:01:09+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.975904+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "21ec91757c14a2ff"
-  },
-  {
-    "id": "business-insider-ec13a8dd90872f2e",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Is this TV's endgame? A discussion with analyst Rich Greenfield.",
-    "url": "https://www.businessinsider.com/tv-cable-dying-paramount-fox-disney-cbs-next-analyst-explained-2025-7",
-    "summary": "The TV business has been shrinking for years, which is why media companies are trying to sell their cable networks. What now? A top analyst tells me.",
-    "publishedAt": "2025-07-30T10:01:01+00:00",
-    "fetchedAt": "2025-07-30T10:17:34.935100+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ec13a8dd90872f2e"
-  },
-  {
-    "id": "aeon-eb071e89552feefe",
-    "sourceId": "aeon",
-    "sourceName": "Aeon Magazine",
-    "title": "Geographies of racial capitalism with Ruth Wilson Gilmore",
-    "url": "https://aeon.co/videos/the-prison-abolitionist-who-dares-to-envision-a-world-without-unfreedoms?utm_source=rss-feed",
-    "summary": "The systems that make people unfree are deeply intertwined. This prison abolitionist dares to envision real alternatives - by Aeon Video Watch at Aeon",
-    "publishedAt": "2025-07-30T10:01:00+00:00",
-    "fetchedAt": "2025-07-30T10:18:03.503778+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "eb071e89552feefe"
-  },
-  {
-    "id": "yahoo-finance-95ac58afca5ac9a2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Mortgage and refinance interest rates today, July 30, 2025: Rates stay relatively flat",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-rates-today-wednesday-july-30-2025-100057547.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T10:00:57+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.975956+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "95ac58afca5ac9a2"
-  },
-  {
-    "id": "yahoo-finance-eae52b8f1cf5cdb3",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Renewable electricity adoption within mining",
-    "url": "https://finance.yahoo.com/news/renewable-electricity-adoption-within-mining-100051760.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T10:00:51+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.975999+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "eae52b8f1cf5cdb3"
-  },
-  {
-    "id": "yahoo-finance-f4cac7b0b5837e39",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "HELOC rates today, July 30, 2025: Unchanged as the Fed announces its decision",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-rates-today-wednesday-july-30-2025-100045834.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T10:00:45+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.976047+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "f4cac7b0b5837e39"
-  },
-  {
-    "id": "yahoo-finance-0339d30529e0b313",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "A divided Fed is expected to hold rates steady, defying Trump's calls for a cut",
-    "url": "https://finance.yahoo.com/news/a-divided-fed-is-expected-to-hold-rates-steady-defying-trumps-calls-for-a-cut-100041741.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T10:00:41+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.976095+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "0339d30529e0b313"
-  },
-  {
-    "id": "yahoo-finance-70c00aa4cf0f55ce",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Best money market account rates today, July 30, 2025 (secure up to 4.41% APY)",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-wednesday-july-30-2025-100033248.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T10:00:33+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.976144+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "70c00aa4cf0f55ce"
-  },
-  {
-    "id": "yahoo-finance-0cdd72839aff3359",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Best savings interest rates today, July 30, 2025 (Earn up to 4.3% APY)",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-savings-interest-rates-today-wednesday-july-30-2025-100013752.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T10:00:13+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.976191+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "0cdd72839aff3359"
-  },
-  {
-    "id": "yahoo-finance-2b12878d19265586",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Whirlpool is championing the tariffs that have hammered its quarter",
-    "url": "https://finance.yahoo.com/news/whirlpool-is-championing-the-tariffs-that-have-hammered-its-quarter-100013285.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T10:00:13+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.976236+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2b12878d19265586"
-  },
-  {
-    "id": "bloomberg-economics-a995029d06f3ff61",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Korea’s Lee Risks Wrath of Farmers With Concessions for US Deal",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-30/korea-s-lee-risks-wrath-of-farmers-with-concessions-for-us-deal",
-    "summary": "In a sweltering cattle shed south of Seoul, flies dart across hundreds of cows sitting at the heart of a trade talks between the US and South Korea.",
-    "fullContent": "Beef cattle eat animal feed in a shed in Cheonan, South Korea.",
-    "publishedAt": "2025-07-30T10:00:02+00:00",
-    "fetchedAt": "2025-07-30T10:26:04.452974+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "a995029d06f3ff61"
-  },
-  {
-    "id": "bloomberg-economics-c6b733c72cd1f4fc",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Angry Farmers Vow to Fight If Korea Leader Bows to Trump Demands",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-30/korea-s-lee-risks-wrath-of-farmers-with-concessions-for-us-deal",
-    "summary": "In a sweltering cattle shed south of Seoul, flies dart across hundreds of cows sitting at the heart of a trade talks between the US and South Korea.",
-    "fullContent": "Beef cattle eat animal feed in a shed in Cheonan, South Korea.",
-    "publishedAt": "2025-07-30T10:00:02+00:00",
-    "fetchedAt": "2025-07-30T13:01:22.775609+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "c6b733c72cd1f4fc"
-  },
-  {
-    "id": "yahoo-finance-50890ff37cc6169d",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Best CD rates today, July 30, 2025  (Lock in up to 5.5% APY)",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-wednesday-july-30-2025-100001803.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T10:00:01+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.976283+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "50890ff37cc6169d"
-  },
-  {
-    "id": "bloomberg-economics-73a74eac4f490ecb",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Donald Trump’s 50% Tariff Threat Gives Brazil’s Central Bank a New Headache",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-30/trump-tariff-threat-complicates-brazil-central-bank-decision",
-    "summary": "Brazil central bank’s strategy to keep interest rates high for a prolonged period will be put to the test by the 50% tariffs Donald Trump is expected to slap on the country as soon as this week.",
-    "publishedAt": "2025-07-30T10:00:00+00:00",
-    "fetchedAt": "2025-07-30T10:17:30.454473+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "73a74eac4f490ecb"
-  },
-  {
-    "id": "apollo-academy-ee3831f7e1ca694e",
-    "sourceId": "apollo-academy",
-    "sourceName": "Apollo Academy",
-    "title": "Stablecoin Outlook",
-    "url": "https://www.apolloacademy.com/stablecoin-outlook/",
-    "summary": "Almost 90% of stablecoin use is crypto trading, which will likely continue to grow. The big breakthrough will be if... The post Stablecoin Outlook appeared first on Apollo Academy.",
-    "publishedAt": "2025-07-30T10:00:00+00:00",
-    "fetchedAt": "2025-07-30T10:17:59.079684+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Markets"
-    ],
-    "priority": "low",
-    "contentHash": "ee3831f7e1ca694e"
-  },
-  {
-    "id": "yahoo-finance-b48db8eacdd0ebd7",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Coinbase Reports Earnings This Week. Here's How Much Traders Expect the Stock to Move",
-    "url": "https://finance.yahoo.com/news/coinbase-reports-earnings-week-heres-100000780.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T10:00:00+00:00",
-    "fetchedAt": "2025-07-30T10:26:11.681961+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "b48db8eacdd0ebd7"
-  },
-  {
-    "id": "rest-of-world-05b9671227d88276",
-    "sourceId": "rest-of-world",
-    "sourceName": "Rest of World",
-    "title": "Meta brought AI to rural Colombia. Now students are failing exams",
-    "url": "https://restofworld.org/2025/colombia-meta-ai-education/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "summary": "A classroom in Colombia where students have increasingly turned to AI.",
-    "fullContent": "Chemistry teacher María Intencipa misses the good old days — last year — when her small school in rural Colombia was sheltered from the artificial intelligence revolution by its remoteness. ...",
-    "publishedAt": "2025-07-30T10:00:00+00:00",
-    "fetchedAt": "2025-07-30T10:26:22.346322+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "05b9671227d88276"
-  },
-  {
-    "id": "yahoo-finance-ac6754a268f25318",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Where Will Nebius Group Be in 1 Year?",
-    "url": "https://finance.yahoo.com/news/where-nebius-group-1-100000129.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T10:00:00+00:00",
-    "fetchedAt": "2025-07-30T10:31:56.123026+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ac6754a268f25318"
-  },
-  {
-    "id": "google-bloomberg-38b62a6d44bf85d4",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Donald Trump’s 50% Tariff Threat Gives Brazil’s Central Bank a New Headache - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUlp2bVhOWndYRC1lV3Z6QnBYSW1ianBSM0VaRmJsX3ZFdWNtRjY0UDhRNzh1aklBaUtDejFWN1VVTW5IOEpxVzdzRDJmVW43Mkxmdk1STnhnQnktd25tVnVaNGNHZEJScDFJZUlmVHduLU8zSU9PN20xdXh2cmdsNTI4Vkw4TTRVb3JTVzZOd1JiME1aU25zVXl4WFFYeG8xdFVyZ293T3NXanVnYmoybg?oc=5",
-    "summary": "Donald Trump’s 50% Tariff Threat Gives Brazil’s Central Bank a New Headache  Bloomberg.com",
-    "fullContent": "Donald Trump’s 50% Tariff Threat Gives Brazil’s Central Bank a New Headache  Bloomberg.com",
-    "publishedAt": "2025-07-30T10:00:00+00:00",
-    "fetchedAt": "2025-07-30T13:01:48.691648+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "38b62a6d44bf85d4"
-  },
-  {
-    "id": "google-bloomberg-4453841a688429e3",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "China Prepares to Unseat US in Fight for $4.8 Trillion AI Market - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUkNFRTRPZHlwVWpxcU1PVUVXd0lkc3BVak1kZlFkUzZUc2Jvc3hEcVdreDIyOWw2XzhZTzJ0akd6R05OVTY1bGxrOUk5dGt6U1FUSVd2ZHhkR25NNFFEVGNMQWVwSEhxYVItamlIZHI4Z0FKU2loVDJsTzlsNERpSVl1VmhUQXZhZkxHLUZNRVRhWG1PZG5MWmJVUUNjVkxtY1h0cHRLVlFHN3kxMlEtQlNCSUU?oc=5",
-    "summary": "China Prepares to Unseat US in Fight for $4.8 Trillion AI Market  Bloomberg.com",
-    "fullContent": "China Prepares to Unseat US in Fight for $4.8 Trillion AI Market  Bloomberg.com",
-    "publishedAt": "2025-07-30T10:00:00+00:00",
-    "fetchedAt": "2025-07-30T13:01:48.692580+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "4453841a688429e3"
-  },
-  {
-    "id": "yahoo-finance-2938e93b30376f99",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Starbucks net earnings plunges 47% in Q3 FY25",
-    "url": "https://finance.yahoo.com/news/starbucks-net-earnings-plunges-47-095630389.html",
-    "summary": "",
-    "publishedAt": "2025-07-30T09:56:30+00:00",
-    "fetchedAt": "2025-07-30T10:17:33.976566+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2938e93b30376f99"
-  },
-  {
-    "id": "techmeme-5d0ca13c40d21371",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Sources: Bank of England governor blocked a meeting arranged by UK Chancellor between regulators and Revolut to discuss Revolut's full banking authorization (Financial Times)",
-    "url": "http://www.techmeme.com/250730/p17#a250730p17",
-    "summary": "Financial Times: Sources: Bank of England governor blocked a meeting arranged by UK Chancellor between regulators and Revolut to discuss Revolut's full banking authorization  —  Chancellor's aim to discuss fintech becoming fully fledged bank thwarted by BoE governor  —  Bank of England governor Andrew Bailey intervened …",
-    "publishedAt": "2025-07-30T09:55:02+00:00",
-    "fetchedAt": "2025-07-30T10:17:39.417600+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "5d0ca13c40d21371"
-  },
-  {
-    "id": "business-insider-b06973ac45aa2936",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "The high-protein trend is coming for your Starbucks order",
-    "url": "https://www.businessinsider.com/high-protein-diet-cold-foam-coming-starbucks-new-release-menu-2025-7",
-    "summary": "Starbucks CEO Brian Niccol announced plans for the coffee giant to unveil protein cold foam as an optional topping by year's end.",
-    "publishedAt": "2025-07-30T09:52:01+00:00",
-    "fetchedAt": "2025-07-30T10:17:34.935328+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "b06973ac45aa2936"
   }
 ]

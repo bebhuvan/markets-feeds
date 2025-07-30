@@ -451,6 +451,25 @@
     "contentHash": "89e43e84f538114c"
   },
   {
+    "id": "bloomberg-markets-eb54a0e2f499106e",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Bonds Fall in Fed Run-Up Amid Strong Economic Data: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-29/stock-market-today-dow-s-p-live-updates",
+    "summary": "Wall Street traders gearing up for the Federal Reserve decision drove bonds lower as stocks remained steady after data showed the world’s largest economy is holding up. The dollar advanced for a fifth straight day.",
+    "fullContent": "The logo for Hong Kong Exchanges and Clearing Ltd. (HKEx) displayed on a screen at the Exchange Square complex in Hong Kong, China, on Wednesday, Feb. 26, 2025. Hong Kong's stock exchange reported its highest quarterly profit in nearly four years after China's stimulus measures boosted trading and listing volume.",
+    "publishedAt": "2025-07-29T22:16:46+00:00",
+    "fetchedAt": "2025-07-30T13:11:45.461113+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings",
+      "IPO"
+    ],
+    "priority": "high",
+    "contentHash": "eb54a0e2f499106e"
+  },
+  {
     "id": "google-bloomberg-43277ffef7ee1f76",
     "sourceId": "google-bloomberg",
     "sourceName": "Google News (Bloomberg)",
@@ -3282,21 +3301,5 @@
     ],
     "priority": "high",
     "contentHash": "3bed7717315b94d8"
-  },
-  {
-    "id": "ft-markets-b85badb7d28daf4d",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times",
-    "title": "How Trump muddles the stock market",
-    "url": "https://www.ft.com/content/01867873-d328-40d9-85c5-9a5db992354e",
-    "summary": "Information overload may be contributing to the S&P 500’s resilience",
-    "publishedAt": "2025-07-29T11:20:40+00:00",
-    "fetchedAt": "2025-07-30T08:08:48.404273+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "b85badb7d28daf4d"
   }
 ]
