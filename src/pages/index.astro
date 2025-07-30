@@ -7,6 +7,7 @@ import Navigation from '../components/Navigation.astro';
 import LinkCard from '../components/LinkCard.astro';
 import type { FeedItem } from '../types';
 import { RSS_SOURCES } from '../config/sources';
+import { formatDistanceToNow } from '../utils/date';
 import '../styles/global.css';
 
 // Load all link data
@@ -108,7 +109,14 @@ const categoryLabels = {
           </a>
           <a href="/discover" class="nav-link secondary">Discovery</a>
         </nav>
-        <div class="header-meta">Last updated: {new Date().toLocaleTimeString()}</div>
+        <div class="header-meta">
+          <span class="meta-text">Updated: {new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</span>
+          <a href="/rss.xml" class="rss-link" title="RSS Feed">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248S0 22.546 0 20.752s1.456-3.248 3.252-3.248 3.251 1.454 3.251 3.248zM1.677 6.082v4.15c6.988 0 12.824 5.835 12.824 12.823h4.187C18.688 15.27 11.731 8.313 4.228 8.313c-.916 0-1.823.078-2.551.769zM.014 0v4.137c13.486 0 24.313 10.897 24.313 24.313H20.14C20.14 15.17 12.845 7.875 4.564 7.875A4.564 4.564 0 0 1 .014 4.137V0z"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -159,7 +167,7 @@ const categoryLabels = {
               <article class="article" data-category={link.category} data-source={link.sourceId} data-full-content={link.fullContent || ''}>
                 <div class="article-header">
                   <span class="source-badge">{link.sourceName}</span>
-                  <span class="article-time">{new Date(link.publishedAt).toLocaleTimeString()}</span>
+                  <span class="article-time">{formatDistanceToNow(new Date(link.publishedAt))}</span>
                 </div>
                 <h2 class="article-title">
                   <a href={link.url} target="_blank" rel="noopener">{link.title}</a>
@@ -310,6 +318,29 @@ const categoryLabels = {
 
     .header-meta {
         font-size: 13px;
+        color: #6b7280;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .rss-link {
+        color: #9ca3af;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        padding: 2px;
+        border-radius: 3px;
+        transition: all 0.2s ease;
+        opacity: 0.7;
+    }
+    
+    .rss-link:hover {
+        color: #f97316;
+        opacity: 1;
+    }
+    
+    .meta-text {
         color: #6b7280;
     }
 

@@ -173,6 +173,23 @@ class FeedAggregator:
             {'id': 'nyt-business', 'name': 'NYT Business', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Business.xml', 'category': 'markets', 'priority': 1},
             {'id': 'nyt-economy', 'name': 'NYT Economy', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml', 'category': 'macro', 'priority': 1},
             {'id': 'nyt-technology', 'name': 'NYT Technology', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml', 'category': 'technology', 'priority': 1},
+            
+            # === YOUTUBE CHANNELS (Videos) ===
+            {'id': 'cnbc-tv18-youtube', 'name': 'CNBC-TV18', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCPP3etACgdUWvizcES1dJ8Q', 'category': 'videos', 'priority': 2},
+            {'id': 'ndtv-profit-youtube', 'name': 'NDTV Profit India', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCXBD5iG5cr4ZYZ99K-fmDHg', 'category': 'videos', 'priority': 2},
+            {'id': 'bloomberg-business-youtube', 'name': 'Bloomberg Business', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg', 'category': 'videos', 'priority': 2},
+            {'id': 'aswath-damodaran-youtube', 'name': 'Aswath Damodaran', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCLvnJL8htRR1T9cbSccaoVw', 'category': 'videos', 'priority': 2},
+            {'id': 'ppfas-youtube', 'name': 'PPFAS Mutual Fund', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCmDkUXGj6xVXl4169HqeS1w', 'category': 'videos', 'priority': 2},
+            {'id': 'dwarkesh-patel-youtube', 'name': 'Dwarkesh Patel', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCZa18YV7qayTh-MRIrBhDpA', 'category': 'videos', 'priority': 2},
+            {'id': 'trendlyne-youtube', 'name': 'Trendlyne', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCznm57tnYpUpc2q2FmO3R3Q', 'category': 'videos', 'priority': 2},
+            {'id': 'novara-media-youtube', 'name': 'Novara Media', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCaVeJErxKLqNi1osok9H7MQ', 'category': 'videos', 'priority': 2},
+            {'id': 'wsj-youtube', 'name': 'Wall Street Journal', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCMliswJ7oukCeW35GSayhRA', 'category': 'videos', 'priority': 2},
+            {'id': 'norges-bank-youtube', 'name': 'Norges Bank Investment Management', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCRhQsN8AVIfZuBNeRV1A37w', 'category': 'videos', 'priority': 2},
+            {'id': 'harvard-hbs-youtube', 'name': 'Harvard Business School', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCFWULCY5B97CwS2VI-upZuA', 'category': 'videos', 'priority': 2},
+            {'id': 'cfa-society-india-youtube', 'name': 'CFA Institute', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8Zy7crsNBL8NJCc_ueF-CA', 'category': 'videos', 'priority': 2},
+            {'id': 'wocomo-docs-youtube', 'name': 'Wocomo Docs', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCymrhn6xwPcP_9vteK-zBeQ', 'category': 'videos', 'priority': 2},
+            {'id': 'invest-with-marcellus-youtube', 'name': 'Invest with Marcellus', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCjK6_t5lCGl_cX7x7ToBfDQ', 'category': 'videos', 'priority': 2},
+            {'id': 'microcap-club-youtube', 'name': 'MicroCap Club', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCzX4HLkD7eXBgzVwHMZlhmg', 'category': 'videos', 'priority': 2},
         ]
         
         # Sort by priority (1 = highest priority)
