@@ -2357,6 +2357,39 @@
     "contentHash": "93bdf62f1a024445"
   },
   {
+    "id": "yahoo-finance-05394e095e6fb1d2",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Your credit score could go through a big change this fall \u2014 but that\u2019s good news if you\u2019re part of this growing group",
+    "url": "https://finance.yahoo.com/news/credit-score-could-big-change-181500177.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T18:15:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.807079+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "05394e095e6fb1d2"
+  },
+  {
+    "id": "yahoo-finance-28328d181c45ad3c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Gold Falls as Trade Risk Outlook Eases",
+    "url": "https://www.wsj.com/finance/commodities-futures/gold-edges-lower-weighed-by-u-s-eu-trade-agreement-12a105de?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T18:13:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806871+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "Markets"
+    ],
+    "priority": "low",
+    "contentHash": "28328d181c45ad3c"
+  },
+  {
     "id": "small-potatoes-d245ed9a620757df",
     "sourceId": "small-potatoes",
     "sourceName": "Small Potatoes",
@@ -2404,6 +2437,22 @@
     ],
     "priority": "normal",
     "contentHash": "26d9c597ba5eb7ac"
+  },
+  {
+    "id": "yahoo-finance-ea5bfb5fc4f83b7a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "China's Steel Market Navigates Property Sector Challenges",
+    "url": "https://finance.yahoo.com/news/chinas-steel-market-navigates-property-180000490.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T18:00:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806778+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ea5bfb5fc4f83b7a"
   },
   {
     "id": "techmeme-c03a5996820fe8bd",
@@ -2454,6 +2503,22 @@
     ],
     "priority": "normal",
     "contentHash": "ef05aaff0308a872"
+  },
+  {
+    "id": "yahoo-finance-381c7cc694637df2",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Google Will Soon Be Told How to End Its Monopoly. What That Means for Apple.",
+    "url": "https://www.barrons.com/articles/google-monopoly-apple-alphabet-stocks-b401df6d?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:49:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806685+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "381c7cc694637df2"
   },
   {
     "id": "abnormal-returns-6ce30eeab87cefd2",
@@ -2507,6 +2572,55 @@
     "contentHash": "ba4311e21424a095"
   },
   {
+    "id": "yahoo-finance-8bce2850f492005a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock Of The Day Forms New Buy Point. You Probably Never Heard Of The Firm.",
+    "url": "https://www.investors.com/research/ibd-stock-of-the-day/stock-of-the-day-stonex-snex-stock/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:44:32+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806353+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8bce2850f492005a"
+  },
+  {
+    "id": "yahoo-finance-ae09269f592412f5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Warner Bros. Discovery Sets Leadership for Post-Split Companies",
+    "url": "https://www.wsj.com/business/media/warner-bros-discovery-details-leadership-72fb0816?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:42:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806254+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ae09269f592412f5"
+  },
+  {
+    "id": "yahoo-finance-dcf1af96a079f3ec",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "EU-US trade deal could add up to $19 billion in pharma industry costs, analysts say",
+    "url": "https://finance.yahoo.com/news/eu-us-trade-deal-could-174146078.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:41:46+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806478+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "dcf1af96a079f3ec"
+  },
+  {
     "id": "handelsblatt-a86f8c23543afe9d",
     "sourceId": "handelsblatt",
     "sourceName": "Handelsblatt",
@@ -2537,6 +2651,39 @@
     ],
     "priority": "high",
     "contentHash": "626af3053c7209dc"
+  },
+  {
+    "id": "yahoo-finance-9147fd2c7f874df9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Figma\u2019s Hot IPO Is This Week. Adobe Is Still Alive and Kickin\u2019.",
+    "url": "https://www.barrons.com/articles/figma-ipo-adobe-stock-price-931d0f8a?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:33:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806053+00:00",
+    "category": "markets",
+    "tags": [
+      "IPO",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9147fd2c7f874df9"
+  },
+  {
+    "id": "yahoo-finance-882d90a38161e309",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "United Natural Foods (UNFI) is Back for an Unusual Options Sequel",
+    "url": "https://finance.yahoo.com/news/united-natural-foods-unfi-back-173002974.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:30:02+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805846+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "882d90a38161e309"
   },
   {
     "id": "the-verge-d9e3a8d1846a9ea8",
@@ -2570,6 +2717,22 @@
     ],
     "priority": "normal",
     "contentHash": "bb784532d914dea5"
+  },
+  {
+    "id": "yahoo-finance-80dd56759b5b7dae",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Ceva Logistics restructures North America operations, names new chief",
+    "url": "https://finance.yahoo.com/news/ceva-logistics-restructures-north-america-172557400.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:25:57+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805744+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "80dd56759b5b7dae"
   },
   {
     "id": "zerohedge-d55563c88e85b49c",
@@ -2606,6 +2769,71 @@
     "contentHash": "e2979cb124505892"
   },
   {
+    "id": "yahoo-finance-baace359ab819df4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cotton Holding Gains on Monday\u2019s Midday",
+    "url": "https://finance.yahoo.com/news/cotton-holding-gains-monday-midday-171835525.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:18:35+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805347+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "baace359ab819df4"
+  },
+  {
+    "id": "yahoo-finance-4e3f58b8970dba1d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Soybean Bulls Tripping Up on Monday",
+    "url": "https://finance.yahoo.com/news/soybean-bulls-tripping-monday-171835805.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:18:35+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805455+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4e3f58b8970dba1d"
+  },
+  {
+    "id": "yahoo-finance-e5323461db53f3f0",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Corn Holding Lower at Midday",
+    "url": "https://finance.yahoo.com/news/corn-holding-lower-midday-171835442.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:18:35+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805647+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e5323461db53f3f0"
+  },
+  {
+    "id": "yahoo-finance-e059dfd4bf5f770b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Revvity Stock Tumbles After Earnings. What\u2019s Dragging On the Shares.",
+    "url": "https://www.barrons.com/articles/revvity-earnings-stock-price-241277b3?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:15:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805254+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e059dfd4bf5f770b"
+  },
+  {
     "id": "wired-91113fef0f6de418",
     "sourceId": "wired",
     "sourceName": "Wired",
@@ -2624,6 +2852,40 @@
     "contentHash": "91113fef0f6de418"
   },
   {
+    "id": "yahoo-finance-19e2992a7edf7a32",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Meta's Strong Revenues May Offset Concerns Over Soaring AI Investments: Analyst",
+    "url": "https://finance.yahoo.com/news/metas-strong-revenues-may-offset-171103945.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:11:03+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806967+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "19e2992a7edf7a32"
+  },
+  {
+    "id": "yahoo-finance-69d237b8cdb04a0a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Mill City Ventures III, Ltd. Announces $450,000,000 Private Placement to Initiate Sui Treasury Strategy",
+    "url": "https://finance.yahoo.com/news/mill-city-ventures-iii-ltd-170957339.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:09:57+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.804750+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "69d237b8cdb04a0a"
+  },
+  {
     "id": "calculated-risk-336266f4736a4953",
     "sourceId": "calculated-risk",
     "sourceName": "Calculated Risk",
@@ -2639,6 +2901,38 @@
     ],
     "priority": "high",
     "contentHash": "336266f4736a4953"
+  },
+  {
+    "id": "yahoo-finance-e52aee17bf906374",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Revvity Stock Sinks on Lowered China Immunodiagnostics Outlook",
+    "url": "https://finance.yahoo.com/news/revvity-stock-sinks-lowered-china-170623358.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:06:23+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.804076+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "low",
+    "contentHash": "e52aee17bf906374"
+  },
+  {
+    "id": "yahoo-finance-b31b1a700a559744",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "HK company offers stake in port terminals sale to Chinese company",
+    "url": "https://finance.yahoo.com/news/hk-company-offers-stake-port-170600330.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:06:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.803862+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b31b1a700a559744"
   },
   {
     "id": "the-verge-99f60fac59be4622",
@@ -2674,6 +2968,90 @@
     "contentHash": "68f9b730bf0dfa05"
   },
   {
+    "id": "yahoo-finance-85f3e330c5665470",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Pear Protocol Goes Live with Hyperliquid Integration and Announces $4.1M Strategic Round Led by Castle Island Ventures",
+    "url": "https://finance.yahoo.com/news/pear-protocol-goes-live-hyperliquid-170500600.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:05:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.803977+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "85f3e330c5665470"
+  },
+  {
+    "id": "yahoo-finance-476003c82a592d50",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "SEC Delays Decision on Trump-Linked Truth Social Bitcoin ETF Until September",
+    "url": "https://finance.yahoo.com/news/sec-delays-decision-trump-linked-170406026.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:04:06+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.804638+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "476003c82a592d50"
+  },
+  {
+    "id": "yahoo-finance-083c02f46845fb4c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "A Coinbase Director Tracked Down 913,000 'Lost Forever' Ethereum Tokens Worth $3.4 Billion\u2014Here's What Happened",
+    "url": "https://finance.yahoo.com/news/coinbase-director-tracked-down-913-170104643.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:01:04+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805155+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "083c02f46845fb4c"
+  },
+  {
+    "id": "yahoo-finance-04994d5ed46afca3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "DoorDash Hires Spotify Advertising Head as Chief Revenue Officer",
+    "url": "https://finance.yahoo.com/news/doordash-hires-spotify-advertising-head-170044985.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:00:44+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805557+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "04994d5ed46afca3"
+  },
+  {
+    "id": "yahoo-finance-2162862e38ed257b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Earnings Preview: What to Expect From Smurfit Westrock's Report",
+    "url": "https://finance.yahoo.com/news/earnings-preview-expect-smurfit-westrocks-170014984.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:00:14+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.804173+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2162862e38ed257b"
+  },
+  {
     "id": "oil-price-df6dae8c763cc6cb",
     "sourceId": "oil-price",
     "sourceName": "OilPrice.com",
@@ -2689,6 +3067,55 @@
     ],
     "priority": "normal",
     "contentHash": "df6dae8c763cc6cb"
+  },
+  {
+    "id": "yahoo-finance-d23469ec389977be",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Less than 2 years after Flexport bought Convoy\u2019s tech stack, it\u2019s being sold to DAT",
+    "url": "https://finance.yahoo.com/news/less-2-years-flexport-bought-170000789.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T17:00:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.804287+00:00",
+    "category": "markets",
+    "tags": [
+      "Tech",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d23469ec389977be"
+  },
+  {
+    "id": "yahoo-finance-6af09c7ac8dbd10a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Unlocking Oncology\u2019s Future: 3 Trending Cancer Biotech Stocks with \u2018Strong Buy\u2019 Ratings",
+    "url": "https://finance.yahoo.com/news/unlocking-oncology-future-3-trending-165930163.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T16:59:30+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.804395+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6af09c7ac8dbd10a"
+  },
+  {
+    "id": "yahoo-finance-ac494a95a75ffd22",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "The New Big Fear In Retirement Planning Is 100% Legit \u2014 How To Tackle It",
+    "url": "https://finance.yahoo.com/news/big-fear-retirement-planning-100-165723060.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T16:57:23+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805951+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ac494a95a75ffd22"
   },
   {
     "id": "best-of-econ-twitter-2345960b7d3bdc88",
@@ -2723,6 +3150,56 @@
     "contentHash": "1c2cd832857cafd8"
   },
   {
+    "id": "yahoo-finance-d3e795331b67d5de",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Investors plough $2bn into Ethereum ETFs as companies scoop up billions",
+    "url": "https://finance.yahoo.com/news/investors-plough-2bn-ethereum-etfs-165450358.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T16:54:50+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806158+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d3e795331b67d5de"
+  },
+  {
+    "id": "yahoo-finance-bb7acbbbb1e4c8dc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Ray-Ban Maker EssilorLuxottica Posts Sales Growth Amid AI Push",
+    "url": "https://www.wsj.com/business/earnings/ray-ban-maker-essilorluxottica-posts-sales-growth-amid-ai-push-035396ae?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T16:52:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.804529+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "bb7acbbbb1e4c8dc"
+  },
+  {
+    "id": "yahoo-finance-ae87a8fa052ec271",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Warner Bros. Cable Arm to Be Named Discovery Global After Split",
+    "url": "https://finance.yahoo.com/news/warner-bros-says-spinoff-named-165022439.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T16:50:22+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.806583+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ae87a8fa052ec271"
+  },
+  {
     "id": "bloomberg-economics-fa325f3f33568a32",
     "sourceId": "bloomberg-economics",
     "sourceName": "Bloomberg Economics",
@@ -2740,6 +3217,22 @@
     "contentHash": "fa325f3f33568a32"
   },
   {
+    "id": "yahoo-finance-47432a1ef7dd2fe0",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Nike Stock Could Gain on a Turnaround. J.P. Morgan Sees 17% Upside.",
+    "url": "https://www.barrons.com/articles/nike-stock-upgrade-upside-4555c8f7?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T16:46:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.804853+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "47432a1ef7dd2fe0"
+  },
+  {
     "id": "oil-price-39d4a503da2f5e5a",
     "sourceId": "oil-price",
     "sourceName": "OilPrice.com",
@@ -2755,6 +3248,39 @@
     ],
     "priority": "normal",
     "contentHash": "39d4a503da2f5e5a"
+  },
+  {
+    "id": "yahoo-finance-d0af2f2a0640de4b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "What You Need to Know Ahead of Darden Restaurants' Earnings Release",
+    "url": "https://finance.yahoo.com/news/know-ahead-darden-restaurants-earnings-164413246.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T16:44:13+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.805043+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d0af2f2a0640de4b"
+  },
+  {
+    "id": "yahoo-finance-9e889bd6575ebf77",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Ares and Blue Owl Only Rate Holds from Raymond James",
+    "url": "https://www.barrons.com/articles/blue-owl-capital-ares-stock-0bd63407?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T16:44:00+00:00",
+    "fetchedAt": "2025-07-30T04:54:09.804947+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "9e889bd6575ebf77"
   },
   {
     "id": "et-markets-deb350d46173169e",
