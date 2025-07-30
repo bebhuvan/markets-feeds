@@ -362,6 +362,7 @@ Astro.cookies.set('admin_pass', password, {
                     <div style="display: flex; gap: 12px;">
                         <button type="button" class="btn" id="preview-btn">Preview</button>
                         <button type="submit" class="btn btn-primary">Generate Markdown</button>
+                        <button type="button" class="btn btn-primary" id="publish-btn" style="background: #10b981;">🚀 Publish & Commit</button>
                     </div>
                 </form>
             </div>
@@ -384,15 +385,15 @@ Astro.cookies.set('admin_pass', password, {
             
             <div class="section-content">
                 <textarea id="markdown-output" class="form-textarea" style="min-height: 300px; font-family: monospace;" readonly></textarea>
+                <div id="publish-status" style="margin-top: 16px; display: none;">
+                    <!-- Publish status will be shown here -->
+                </div>
                 <div style="margin-top: 16px;">
-                    <p><strong>Instructions:</strong></p>
-                    <ol style="margin-left: 20px; color: #6b7280;">
-                        <li>Copy the markdown above</li>
-                        <li>Create a new file in <code>src/content/discoveries/</code></li>
-                        <li>Name it with today's date and title (e.g., <code>2025-07-30-fed-analysis.md</code>)</li>
-                        <li>Paste the content and commit to Git</li>
-                        <li>Your post will appear on the discovery feed!</li>
-                    </ol>
+                    <p><strong>Options:</strong></p>
+                    <ul style="margin-left: 20px; color: #6b7280;">
+                        <li><strong>Manual:</strong> Copy the markdown and create the file manually</li>
+                        <li><strong>Auto-Publish:</strong> Use the "🚀 Publish & Commit" button to automatically create the file and commit to Git</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -544,6 +545,109 @@ ${content}`;
                         btn.textContent = 'Copy to Clipboard';
                     }, 2000);
                 }
+            }
+        });
+
+        // Publish functionality
+        document.getElementById('publish-btn')?.addEventListener('click', async () => {
+            const title = (document.getElementById('title') as HTMLInputElement)?.value || '';
+            const author = (document.getElementById('author') as HTMLInputElement)?.value || 'Research Team';
+            const content = (document.getElementById('content') as HTMLTextAreaElement)?.value || '';
+            const excerpt = (document.getElementById('excerpt') as HTMLTextAreaElement)?.value || '';
+            const tagsInput = (document.getElementById('tags') as HTMLInputElement)?.value || '';
+            const tags = tagsInput.split(',').map((t: string) => t.trim()).filter((t: string) => t);
+
+            if (!title || !content) {
+                alert('Title and content are required');
+                return;
+            }
+
+            // Get media data
+            const activeMediaBtn = document.querySelector('.media-type-btn.active') as HTMLElement;
+            const activeMediaType = activeMediaBtn?.dataset.type || 'none';
+            let media = { type: 'none', url: '', title: '', description: '', image: '' };
+            
+            if (activeMediaType !== 'none') {
+                media = {
+                    type: activeMediaType,
+                    url: (document.getElementById('media-url') as HTMLInputElement)?.value || '',
+                    title: (document.getElementById('media-title') as HTMLInputElement)?.value || '',
+                    description: (document.getElementById('media-description') as HTMLTextAreaElement)?.value || '',
+                    image: (document.getElementById('media-image') as HTMLInputElement)?.value || ''
+                };
+            }
+
+            const publishBtn = document.getElementById('publish-btn');
+            const statusDiv = document.getElementById('publish-status');
+            
+            if (publishBtn && statusDiv) {
+                publishBtn.textContent = '⏳ Publishing...';
+                publishBtn.disabled = true;
+                statusDiv.style.display = 'block';
+                statusDiv.innerHTML = '<p style="color: #3b82f6;">📝 Creating post and committing to Git...</p>';
+
+                try {
+                    const response = await fetch('/admin/api/publish', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            title,
+                            content,
+                            author,
+                            tags,
+                            excerpt,
+                            media
+                        })
+                    });
+
+                    const result = await response.json();
+
+                    if (result.success) {
+                        statusDiv.innerHTML = `
+                            <div style="padding: 12px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 4px; margin-bottom: 16px;">
+                                <p style="color: #16a34a; margin: 0;">✅ ${result.message}</p>
+                                <p style="color: #16a34a; margin: 4px 0 0 0; font-size: 13px;">File: ${result.filename}</p>
+                                <p style="color: #16a34a; margin: 4px 0 0 0; font-size: 13px;">Your post will appear on the <a href="/discover" target="_blank" style="color: #16a34a; text-decoration: underline;">discovery feed</a> after the next build.</p>
+                            </div>
+                        `;
+                        
+                        // Clear the form
+                        (document.getElementById('title') as HTMLInputElement).value = '';
+                        (document.getElementById('content') as HTMLTextAreaElement).value = '';
+                        (document.getElementById('excerpt') as HTMLTextAreaElement).value = '';
+                        (document.getElementById('tags') as HTMLInputElement).value = '';
+                        (document.getElementById('media-url') as HTMLInputElement).value = '';
+                        (document.getElementById('media-title') as HTMLInputElement).value = '';
+                        (document.getElementById('media-description') as HTMLTextAreaElement).value = '';
+                        (document.getElementById('media-image') as HTMLInputElement).value = '';
+                        
+                        // Reset media type to none
+                        document.querySelectorAll('.media-type-btn').forEach(b => b.classList.remove('active'));
+                        document.querySelector('[data-type="none"]')?.classList.add('active');
+                        document.getElementById('link-fields')?.classList.remove('active');
+                        
+                    } else {
+                        statusDiv.innerHTML = `
+                            <div style="padding: 12px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 4px; margin-bottom: 16px;">
+                                <p style="color: #dc2626; margin: 0;">❌ ${result.error}</p>
+                                ${result.message ? `<p style="color: #dc2626; margin: 4px 0 0 0; font-size: 13px;">${result.message}</p>` : ''}
+                            </div>
+                        `;
+                    }
+
+                } catch (error) {
+                    statusDiv.innerHTML = `
+                        <div style="padding: 12px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 4px; margin-bottom: 16px;">
+                            <p style="color: #dc2626; margin: 0;">❌ Network error: Failed to publish post</p>
+                            <p style="color: #dc2626; margin: 4px 0 0 0; font-size: 13px;">${error instanceof Error ? error.message : 'Unknown error'}</p>
+                        </div>
+                    `;
+                }
+
+                publishBtn.textContent = '🚀 Publish & Commit';
+                publishBtn.disabled = false;
             }
         });
     </script>

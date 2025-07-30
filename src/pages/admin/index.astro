@@ -498,7 +498,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                           const hasError = errorSources.includes(source);
                           const count = Math.floor(Math.random() * 50);
                           return (
-                            <div class="feed-item" data-category={source.category} data-status={hasError ? 'error' : 'active'}>
+                            <div class="feed-item" data-category={source.category} data-status={hasError ? 'error' : 'active'} data-feed-id={source.id}>
                               <div class="feed-info">
                                 <div class="feed-name">{source.name}</div>
                                 <div class="feed-url">{source.url}</div>
@@ -512,7 +512,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                               <div class="feed-actions">
                                 <span class="feed-count">{hasError ? 0 : count}</span>
                                 <button class="btn btn-small" onclick={`editFeed('${source.id}')`}>Edit</button>
-                                <button class="btn btn-small" onclick={`testFeed('${source.id}')`}>Test</button>
+                                <button class="btn btn-small test-btn" onclick={`testFeed('${source.id}')`}>Test</button>
                                 <button class="btn btn-small btn-danger" onclick={`deleteFeed('${source.id}')`}>Delete</button>
                               </div>
                             </div>
@@ -626,25 +626,39 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             btn.textContent = '↻ Refreshing...';
             btn.disabled = true;
             
-            // Trigger GitHub Action or direct refresh
-            fetch('https://api.github.com/repos/YOUR_USERNAME/markets-feeds/actions/workflows/aggregate-feeds.yml/dispatches', {
+            // Use the local API to refresh feeds
+            fetch('/admin/api/feeds', {
                 method: 'POST',
                 headers: {
-                    'Accept': 'application/vnd.github.v3+json',
-                    'Authorization': 'token YOUR_GITHUB_TOKEN', // You'd need to set this up
+                    'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ ref: 'main' })
-            }).then(() => {
+                body: JSON.stringify({ action: 'refresh' })
+            }).then(response => response.json())
+            .then(result => {
                 if (btn) {
-                    btn.textContent = '✓ Refreshed';
-                    setTimeout(() => {
-                        btn.textContent = '↻ Refresh All Feeds';
-                        btn.disabled = false;
-                    }, 2000);
+                    if (result.success) {
+                        btn.textContent = '✓ Refreshed';
+                        setTimeout(() => {
+                            btn.textContent = '↻ Refresh All Feeds';
+                            btn.disabled = false;
+                            // Reload page to show updated stats
+                            window.location.reload();
+                        }, 2000);
+                    } else {
+                        btn.textContent = '✗ Error';
+                        console.error('Refresh error:', result.error);
+                        alert('Refresh failed: ' + result.error);
+                        setTimeout(() => {
+                            btn.textContent = '↻ Refresh All Feeds';
+                            btn.disabled = false;
+                        }, 2000);
+                    }
                 }
-            }).catch(() => {
+            }).catch(error => {
                 if (btn) {
                     btn.textContent = '✗ Error';
+                    console.error('Network error:', error);
+                    alert('Network error: ' + error.message);
                     setTimeout(() => {
                         btn.textContent = '↻ Refresh All Feeds';
                         btn.disabled = false;
@@ -655,12 +669,42 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
 
         window.showAddFeed = function() {
             const name = prompt('Feed Name:');
-            const url = prompt('RSS URL:');
-            const category = prompt('Category (markets/research/macro/policy/technology):');
+            if (!name) return;
             
-            if (name && url && category) {
-                alert('Add feed functionality would be implemented here.\nYou can manually add to sources.ts for now.');
+            const url = prompt('RSS URL:');
+            if (!url) return;
+            
+            const category = prompt('Category (markets/research/macro/policy/technology/non-money/blogs):');
+            if (!category) return;
+            
+            // Validate category
+            const validCategories = ['markets', 'research', 'macro', 'policy', 'technology', 'non-money', 'blogs'];
+            if (!validCategories.includes(category)) {
+                alert('Invalid category. Valid options: ' + validCategories.join(', '));
+                return;
             }
+            
+            // Add the feed
+            fetch('/admin/api/feeds', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ 
+                    action: 'add', 
+                    feedData: { name, url, category } 
+                })
+            }).then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    alert('Feed added successfully: ' + result.message);
+                    window.location.reload(); // Reload to show new feed
+                } else {
+                    alert('Error adding feed: ' + result.error);
+                }
+            }).catch(error => {
+                alert('Network error: ' + error.message);
+            });
         }
 
         window.editFeed = function(feedId) {
@@ -668,8 +712,49 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
         }
 
         window.testFeed = function(feedId) {
-            alert(`Testing feed ${feedId}...`);
-            // Here you would make a request to test the RSS feed
+            // Find the feed URL from the displayed feeds
+            const feedItem = document.querySelector(`[data-feed-id="${feedId}"]`);
+            const feedUrl = feedItem?.querySelector('.feed-url')?.textContent;
+            
+            if (!feedUrl) {
+                alert('Could not find feed URL');
+                return;
+            }
+            
+            const testBtn = feedItem?.querySelector('.test-btn');
+            if (testBtn) {
+                testBtn.textContent = 'Testing...';
+                testBtn.disabled = true;
+            }
+            
+            fetch('/admin/api/feeds', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ 
+                    action: 'test', 
+                    feedData: { url: feedUrl } 
+                })
+            }).then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    alert(`✅ Feed test successful: ${result.message}`);
+                } else {
+                    alert(`❌ Feed test failed: ${result.error}`);
+                }
+                
+                if (testBtn) {
+                    testBtn.textContent = 'Test';
+                    testBtn.disabled = false;
+                }
+            }).catch(error => {
+                alert('Network error: ' + error.message);
+                if (testBtn) {
+                    testBtn.textContent = 'Test';
+                    testBtn.disabled = false;
+                }
+            });
         }
 
         window.deleteFeed = function(feedId) {
@@ -690,7 +775,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
         }
 
         window.viewLogs = function() {
-            window.open('https://github.com/YOUR_USERNAME/markets-feeds/actions', '_blank');
+            window.open('https://github.com/bebhuvan/markets-feeds/actions', '_blank');
         }
     </script>
 </body>
