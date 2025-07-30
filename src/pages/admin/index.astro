@@ -558,7 +558,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             const auth = sessionStorage.getItem('admin_auth');
             if (auth === 'MF2025!SecureTeam#AdminAccess789') {
                 // Add password to URL for Astro to read
-                const url = new URL(window.location);
+                const url = new URL(window.location.href);
                 url.searchParams.set('pass', auth);
                 window.history.replaceState({}, '', url);
                 // Reload to let Astro process the password
@@ -568,54 +568,61 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
 
         // Search and filter functionality
         document.getElementById('feed-search')?.addEventListener('input', (e) => {
-            const searchTerm = e.target.value.toLowerCase();
+            const target = e.target as HTMLInputElement;
+            const searchTerm = target?.value.toLowerCase() || '';
             const feedItems = document.querySelectorAll('.feed-item');
             
             feedItems.forEach(item => {
-                const name = item.querySelector('.feed-name').textContent.toLowerCase();
-                const url = item.querySelector('.feed-url').textContent.toLowerCase();
+                const itemEl = item as HTMLElement;
+                const name = item.querySelector('.feed-name')?.textContent?.toLowerCase() || '';
+                const url = item.querySelector('.feed-url')?.textContent?.toLowerCase() || '';
                 
                 if (name.includes(searchTerm) || url.includes(searchTerm)) {
-                    item.style.display = 'flex';
+                    itemEl.style.display = 'flex';
                 } else {
-                    item.style.display = 'none';
+                    itemEl.style.display = 'none';
                 }
             });
         });
 
         document.getElementById('category-filter')?.addEventListener('change', (e) => {
-            const category = e.target.value;
+            const target = e.target as HTMLSelectElement;
+            const category = target?.value || '';
             const feedItems = document.querySelectorAll('.feed-item');
             
             feedItems.forEach(item => {
+                const itemEl = item as HTMLElement;
                 const itemCategory = item.getAttribute('data-category');
                 
                 if (!category || itemCategory === category) {
-                    item.style.display = 'flex';
+                    itemEl.style.display = 'flex';
                 } else {
-                    item.style.display = 'none';
+                    itemEl.style.display = 'none';
                 }
             });
         });
 
         document.getElementById('status-filter')?.addEventListener('change', (e) => {
-            const status = e.target.value;
+            const target = e.target as HTMLSelectElement;
+            const status = target?.value || '';
             const feedItems = document.querySelectorAll('.feed-item');
             
             feedItems.forEach(item => {
+                const itemEl = item as HTMLElement;
                 const itemStatus = item.getAttribute('data-status');
                 
                 if (!status || itemStatus === status) {
-                    item.style.display = 'flex';
+                    itemEl.style.display = 'flex';
                 } else {
-                    item.style.display = 'none';
+                    itemEl.style.display = 'none';
                 }
             });
         });
 
         // Quick actions
         function refreshAllFeeds() {
-            const btn = document.getElementById('refresh-all-btn');
+            const btn = document.getElementById('refresh-all-btn') as HTMLButtonElement;
+            if (!btn) return;
             btn.textContent = '↻ Refreshing...';
             btn.disabled = true;
             
@@ -628,17 +635,21 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                 },
                 body: JSON.stringify({ ref: 'main' })
             }).then(() => {
-                btn.textContent = '✓ Refreshed';
-                setTimeout(() => {
-                    btn.textContent = '↻ Refresh All Feeds';
-                    btn.disabled = false;
-                }, 2000);
+                if (btn) {
+                    btn.textContent = '✓ Refreshed';
+                    setTimeout(() => {
+                        btn.textContent = '↻ Refresh All Feeds';
+                        btn.disabled = false;
+                    }, 2000);
+                }
             }).catch(() => {
-                btn.textContent = '✗ Error';
-                setTimeout(() => {
-                    btn.textContent = '↻ Refresh All Feeds';
-                    btn.disabled = false;
-                }, 2000);
+                if (btn) {
+                    btn.textContent = '✗ Error';
+                    setTimeout(() => {
+                        btn.textContent = '↻ Refresh All Feeds';
+                        btn.disabled = false;
+                    }, 2000);
+                }
             });
         }
 
@@ -652,22 +663,24 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             }
         }
 
-        function editFeed(feedId) {
+        function editFeed(feedId: string) {
             alert(`Edit feed ${feedId} - This would open an edit modal`);
         }
 
-        function testFeed(feedId) {
+        function testFeed(feedId: string) {
             alert(`Testing feed ${feedId}...`);
             // Here you would make a request to test the RSS feed
         }
 
-        function deleteFeed(feedId) {
+        function deleteFeed(feedId: string) {
             if (confirm('Are you sure you want to delete this feed?')) {
                 alert(`Delete feed ${feedId} - This would remove from sources.ts`);
             }
         }
 
         function exportFeeds() {
+            // RSS_SOURCES is defined in the Astro frontmatter, pass it as a variable
+            const RSS_SOURCES = ${JSON.stringify(RSS_SOURCES)};
             const data = JSON.stringify({RSS_SOURCES}, null, 2);
             const blob = new Blob([data], { type: 'application/json' });
             const url = URL.createObjectURL(blob);

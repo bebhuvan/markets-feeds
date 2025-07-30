@@ -404,7 +404,7 @@ Astro.cookies.set('admin_pass', password, {
             const auth = sessionStorage.getItem('admin_auth');
             if (auth === 'MF2025!SecureTeam#AdminAccess789') {
                 // Add password to URL for Astro to read
-                const url = new URL(window.location);
+                const url = new URL(window.location.href);
                 url.searchParams.set('pass', auth);
                 window.history.replaceState({}, '', url);
                 // Reload to let Astro process the password
@@ -423,22 +423,22 @@ Astro.cookies.set('admin_pass', password, {
                 btn.classList.add('active');
                 
                 // Show appropriate fields
-                const type = btn.dataset.type;
+                const type = (btn as HTMLElement).dataset.type;
                 if (type !== 'none') {
-                    document.getElementById('link-fields').classList.add('active');
+                    document.getElementById('link-fields')?.classList.add('active');
                 }
             });
         });
 
         // Set default media type
-        document.querySelector('[data-type="none"]').classList.add('active');
+        document.querySelector('[data-type="none"]')?.classList.add('active');
 
         // Preview functionality
-        document.getElementById('preview-btn').addEventListener('click', () => {
-            const title = document.getElementById('title').value;
-            const author = document.getElementById('author').value;
-            const content = document.getElementById('content').value;
-            const tags = document.getElementById('tags').value.split(',').map(t => t.trim()).filter(t => t);
+        document.getElementById('preview-btn')?.addEventListener('click', () => {
+            const title = (document.getElementById('title') as HTMLInputElement)?.value || '';
+            const author = (document.getElementById('author') as HTMLInputElement)?.value || '';
+            const content = (document.getElementById('content') as HTMLTextAreaElement)?.value || '';
+            const tags = (document.getElementById('tags') as HTMLInputElement)?.value.split(',').map((t: string) => t.trim()).filter((t: string) => t) || [];
 
             const previewHtml = `
                 <div class="post-header">
@@ -454,29 +454,32 @@ Astro.cookies.set('admin_pass', password, {
                 ` : ''}
             `;
 
-            document.getElementById('post-preview').innerHTML = previewHtml;
-            document.getElementById('preview-section').style.display = 'block';
+            const postPreview = document.getElementById('post-preview');
+            const previewSection = document.getElementById('preview-section');
+            if (postPreview) postPreview.innerHTML = previewHtml;
+            if (previewSection) previewSection.style.display = 'block';
         });
 
         // Form submission
-        document.getElementById('discovery-form').addEventListener('submit', (e) => {
+        document.getElementById('discovery-form')?.addEventListener('submit', (e) => {
             e.preventDefault();
 
-            const title = document.getElementById('title').value;
-            const author = document.getElementById('author').value;
-            const tags = document.getElementById('tags').value.split(',').map(t => t.trim()).filter(t => t);
-            const excerpt = document.getElementById('excerpt').value;
-            const content = document.getElementById('content').value;
+            const title = (document.getElementById('title') as HTMLInputElement)?.value || '';
+            const author = (document.getElementById('author') as HTMLInputElement)?.value || '';
+            const tags = (document.getElementById('tags') as HTMLInputElement)?.value.split(',').map((t: string) => t.trim()).filter((t: string) => t) || [];
+            const excerpt = (document.getElementById('excerpt') as HTMLTextAreaElement)?.value || '';
+            const content = (document.getElementById('content') as HTMLTextAreaElement)?.value || '';
 
             // Get media data
-            const activeMediaType = document.querySelector('.media-type-btn.active').dataset.type;
+            const activeMediaBtn = document.querySelector('.media-type-btn.active') as HTMLElement;
+            const activeMediaType = activeMediaBtn?.dataset.type || 'none';
             let mediaSection = '';
             
             if (activeMediaType !== 'none') {
-                const mediaUrl = document.getElementById('media-url').value;
-                const mediaTitle = document.getElementById('media-title').value;
-                const mediaDescription = document.getElementById('media-description').value;
-                const mediaImage = document.getElementById('media-image').value;
+                const mediaUrl = (document.getElementById('media-url') as HTMLInputElement)?.value || '';
+                const mediaTitle = (document.getElementById('media-title') as HTMLInputElement)?.value || '';
+                const mediaDescription = (document.getElementById('media-description') as HTMLTextAreaElement)?.value || '';
+                const mediaImage = (document.getElementById('media-image') as HTMLInputElement)?.value || '';
 
                 if (mediaUrl) {
                     mediaSection = `media:
@@ -500,40 +503,47 @@ Astro.cookies.set('admin_pass', password, {
 title: "${title}"
 date: ${today}
 author: "${author}"
-tags: [${tags.map(tag => `"${tag}"`).join(', ')}]${excerpt ? `
+tags: [${tags.map((tag: string) => `"${tag}"`).join(', ')}]${excerpt ? `
 excerpt: "${excerpt}"` : ''}
 ${mediaSection}
 ---
 
 ${content}`;
 
-            document.getElementById('markdown-output').value = markdown;
-            document.getElementById('markdown-section').style.display = 'block';
-            
-            // Scroll to markdown section
-            document.getElementById('markdown-section').scrollIntoView({ behavior: 'smooth' });
+            const markdownOutput = document.getElementById('markdown-output') as HTMLTextAreaElement;
+            const markdownSection = document.getElementById('markdown-section');
+            if (markdownOutput) markdownOutput.value = markdown;
+            if (markdownSection) {
+                markdownSection.style.display = 'block';
+                markdownSection.scrollIntoView({ behavior: 'smooth' });
+            }
         });
 
         // Copy to clipboard
-        document.getElementById('copy-btn').addEventListener('click', async () => {
-            const textarea = document.getElementById('markdown-output');
+        document.getElementById('copy-btn')?.addEventListener('click', async () => {
+            const textarea = document.getElementById('markdown-output') as HTMLTextAreaElement;
+            if (!textarea) return;
             textarea.select();
             
             try {
                 await navigator.clipboard.writeText(textarea.value);
                 const btn = document.getElementById('copy-btn');
-                btn.textContent = 'Copied!';
-                setTimeout(() => {
-                    btn.textContent = 'Copy to Clipboard';
-                }, 2000);
+                if (btn) {
+                    btn.textContent = 'Copied!';
+                    setTimeout(() => {
+                        btn.textContent = 'Copy to Clipboard';
+                    }, 2000);
+                }
             } catch (err) {
                 // Fallback for older browsers
                 document.execCommand('copy');
                 const btn = document.getElementById('copy-btn');
-                btn.textContent = 'Copied!';
-                setTimeout(() => {
-                    btn.textContent = 'Copy to Clipboard';
-                }, 2000);
+                if (btn) {
+                    btn.textContent = 'Copied!';
+                    setTimeout(() => {
+                        btn.textContent = 'Copy to Clipboard';
+                    }, 2000);
+                }
             }
         });
     </script>

@@ -853,15 +853,19 @@ function getEmbedUrl(url: string, type: string): string {
 
         // Local search and filtering
         document.addEventListener('DOMContentLoaded', () => {
-            const searchInput = document.getElementById('searchInput');
-            const tagFilter = document.getElementById('tagFilter');
+            const searchInput = document.getElementById('searchInput') as HTMLInputElement;
+            const tagFilter = document.getElementById('tagFilter') as HTMLSelectElement;
             const posts = document.querySelectorAll('.post');
             
+            if (!searchInput || !tagFilter) return;
+            
             // Collect all unique tags
-            const allTags = new Set();
+            const allTags = new Set<string>();
             posts.forEach(post => {
                 const tags = post.querySelectorAll('.tag');
-                tags.forEach(tag => allTags.add(tag.textContent.trim()));
+                tags.forEach(tag => {
+                    if (tag.textContent) allTags.add(tag.textContent.trim());
+                });
             });
             
             // Populate tag filter
@@ -878,9 +882,13 @@ function getEmbedUrl(url: string, type: string): string {
                 const selectedTag = tagFilter.value;
 
                 posts.forEach(post => {
-                    const postText = post.querySelector('.post-text').textContent.toLowerCase();
-                    const postTitle = post.querySelector('.post-author').textContent.toLowerCase();
-                    const postTags = Array.from(post.querySelectorAll('.tag')).map(tag => tag.textContent.trim());
+                    const postElement = post as HTMLElement;
+                    const postTextEl = post.querySelector('.post-text');
+                    const postAuthorEl = post.querySelector('.post-author');
+                    
+                    const postText = postTextEl?.textContent?.toLowerCase() || '';
+                    const postTitle = postAuthorEl?.textContent?.toLowerCase() || '';
+                    const postTags = Array.from(post.querySelectorAll('.tag')).map(tag => tag.textContent?.trim() || '');
                     
                     const matchesSearch = !searchTerm || 
                         postText.includes(searchTerm) || 
@@ -889,9 +897,9 @@ function getEmbedUrl(url: string, type: string): string {
                     const matchesTag = !selectedTag || postTags.includes(selectedTag);
                     
                     if (matchesSearch && matchesTag) {
-                        post.style.display = 'block';
+                        postElement.style.display = 'block';
                     } else {
-                        post.style.display = 'none';
+                        postElement.style.display = 'none';
                     }
                 });
             }
