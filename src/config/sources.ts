@@ -379,6 +379,113 @@ export const RSS_SOURCES: RSSSource[] = [
     url: 'https://www.responsible-investor.com/rss/all/feed/',
     category: 'research',
     enabled: true
+  },
+  
+  // YouTube Channels - Video Content
+  {
+    id: 'cnbc-tv18-youtube',
+    name: 'CNBC-TV18',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCPP3etACgdUWvizcES1dJ8Q',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'ndtv-profit-youtube',
+    name: 'NDTV Profit India',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCXBD5iG5cr4ZYZ99K-fmDHg',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'bloomberg-business-youtube',
+    name: 'Bloomberg Business',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'aswath-damodaran-youtube',
+    name: 'Aswath Damodaran',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCLvnJL8htRR1T9cbSccaoVw',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'ppfas-youtube',
+    name: 'PPFAS Mutual Fund',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCmDkUXGj6xVXl4169HqeS1w',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'dwarkesh-patel-youtube',
+    name: 'Dwarkesh Patel',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCZa18YV7qayTh-MRIrBhDpA',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'trendlyne-youtube',
+    name: 'Trendlyne',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCznm57tnYpUpc2q2FmO3R3Q',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'novara-media-youtube',
+    name: 'Novara Media',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCaVeJErxKLqNi1osok9H7MQ',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'wsj-youtube',
+    name: 'Wall Street Journal',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCMliswJ7oukCeW35GSayhRA',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'norges-bank-youtube',
+    name: 'Norges Bank Investment Management',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCRhQsN8AVIfZuBNeRV1A37w',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'harvard-hbs-youtube',
+    name: 'Harvard Business School',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCFWULCY5B97CwS2VI-upZuA',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'cfa-society-india-youtube',
+    name: 'CFA Institute',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8Zy7crsNBL8NJCc_ueF-CA',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'wocomo-docs-youtube',
+    name: 'Wocomo Docs',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCymrhn6xwPcP_9vteK-zBeQ',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'invest-with-marcellus-youtube',
+    name: 'Invest with Marcellus',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCjK6_t5lCGl_cX7x7ToBfDQ',
+    category: 'videos',
+    enabled: true
+  },
+  {
+    id: 'microcap-club-youtube',
+    name: 'MicroCap Club',
+    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCzX4HLkD7eXBgzVwHMZlhmg',
+    category: 'videos',
+    enabled: true
   }
 ];
 

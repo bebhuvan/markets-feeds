@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import CategoryHeader from '../components/CategoryHeader.astro';
+import LinkCard from '../components/LinkCard.astro';
+import type { FeedItem } from '../types';
+import '../styles/global.css';
+
+// Load all link data and filter for video content
+const linkFiles = await Astro.glob('../content/links/*.json');
+const allLinks: FeedItem[] = [];
+
+for (const file of linkFiles) {
+  if (Array.isArray(file.default)) {
+    allLinks.push(...file.default.filter((item: FeedItem) => 
+      item.category === 'videos'
+    ));
+  }
+}
+
+// Sort by published date
+allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+---
+
+<Layout title="Videos - Markets Feeds" description="Latest financial and business videos from YouTube channels">
+  
+  <div class="container max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-12">
+    <CategoryHeader title="Videos" currentPage="videos" />
+    
+    <Navigation currentPage="videos" />
+    
+    <!-- Feed Items -->
+    <div class="space-y-0">
+      {allLinks.length === 0 ? (
+        <div class="text-center py-12">
+          <p class="text-text-subtle mb-4">No videos available at the moment.</p>
+          <p class="text-text-subtle text-sm">Video feeds are currently being set up. Check back soon!</p>
+        </div>
+      ) : (
+        allLinks.map((link) => (
+          <div class="video-card">
+            <LinkCard link={link} />
+            {/* Add YouTube video preview if it's a YouTube link */}
+            {link.url.includes('youtube.com') && (
+              <div class="video-preview mt-3">
+                <div class="video-indicator">
+                  🎥 YouTube Video
+                </div>
+              </div>
+            )}
+          </div>
+        ))
+      )}
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .video-card {
+    position: relative;
+  }
+  
+  .video-preview {
+    padding-left: 16px;
+  }
+  
+  .video-indicator {
+    font-size: 12px;
+    color: #dc2626;
+    background: #fef2f2;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #fecaca;
+  }
+  
+  /* Make video links more prominent */
+  .video-card :global(.article-title a) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .video-card :global(.article-title a):before {
+    content: "▶️";
+    font-size: 14px;
+  }
+</style>

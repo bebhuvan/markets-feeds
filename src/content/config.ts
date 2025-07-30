@@ -12,7 +12,7 @@ const linksCollection = defineCollection({
     fullContent: z.string().optional(),
     publishedAt: z.string(),
     fetchedAt: z.string(),
-    category: z.enum(['markets', 'macro', 'research', 'policy', 'technology', 'non-money', 'blogs', 'culture', 'filings', 'news', 'equities']),
+    category: z.enum(['markets', 'macro', 'research', 'policy', 'technology', 'non-money', 'blogs', 'culture', 'filings', 'news', 'equities', 'videos']),
     tags: z.array(z.string()),
     priority: z.enum(['breaking', 'high', 'normal', 'low']),
     contentHash: z.string(),

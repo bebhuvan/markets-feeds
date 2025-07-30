@@ -485,6 +485,9 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                             <option value="macro">Economics</option>
                             <option value="policy">Policy</option>
                             <option value="technology">Technology</option>
+                            <option value="non-money">General</option>
+                            <option value="blogs">Blogs</option>
+                            <option value="videos">Videos</option>
                         </select>
                         <select class="filter-select" id="status-filter">
                             <option value="">All Status</option>
@@ -674,11 +677,11 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             const url = prompt('RSS URL:');
             if (!url) return;
             
-            const category = prompt('Category (markets/research/macro/policy/technology/non-money/blogs):');
+            const category = prompt('Category (markets/research/macro/policy/technology/non-money/blogs/videos):');
             if (!category) return;
             
             // Validate category
-            const validCategories = ['markets', 'research', 'macro', 'policy', 'technology', 'non-money', 'blogs'];
+            const validCategories = ['markets', 'research', 'macro', 'policy', 'technology', 'non-money', 'blogs', 'videos'];
             if (!validCategories.includes(category)) {
                 alert('Invalid category. Valid options: ' + validCategories.join(', '));
                 return;
