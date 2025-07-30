@@ -1191,6 +1191,22 @@
     "contentHash": "4b1bee4bece66da2"
   },
   {
+    "id": "economist-business-901f3d87be834d44",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "Trump\u2019s tariff mayhem has been a blessing for shippers",
+    "url": "https://www.economist.com/business/2025/07/24/trumps-tariff-mayhem-has-been-a-blessing-for-shippers",
+    "summary": "But it has only delayed the coming plunge",
+    "publishedAt": "2025-07-24T12:59:53+00:00",
+    "fetchedAt": "2025-07-30T09:47:25.995786+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "901f3d87be834d44"
+  },
+  {
     "id": "the-zvi-6cb622fba283304e",
     "sourceId": "the-zvi",
     "sourceName": "The Zvi",
@@ -1399,6 +1415,22 @@
     ],
     "priority": "normal",
     "contentHash": "1ee30b30118a7282"
+  },
+  {
+    "id": "bis-papers-652ab43510d2123b",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Andriy Pyshnyy: National Bank of Ukraine press briefing - monetary policy decisions",
+    "url": "https://www.bis.org/review/r250728a.htm",
+    "summary": "Speech by Mr Andriy Pyshnyy, Governor of the National Bank of Ukraine, at a press briefing on monetary policy decisions, Kyiv, 24 July 2025.",
+    "publishedAt": "2025-07-24T11:18:00+00:00",
+    "fetchedAt": "2025-07-30T09:47:29.225750+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "652ab43510d2123b"
   },
   {
     "id": "wired-43f13023a548bb32",

@@ -82,6 +82,39 @@
     "contentHash": "8f7f7b2bb5d8ebfc"
   },
   {
+    "id": "yahoo-finance-9a67080b248b8418",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Analyst sets new shocking price target hot on tech stock",
+    "url": "https://finance.yahoo.com/news/analyst-sets-shocking-price-target-234813153.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:48:13+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.358397+00:00",
+    "category": "markets",
+    "tags": [
+      "Tech",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9a67080b248b8418"
+  },
+  {
+    "id": "yahoo-finance-d667a578fef6600e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Berkshire Hathaway Selling Part of Verisign Stake; Stock Falling After-Hours",
+    "url": "https://www.barrons.com/articles/berkshire-hathaway-verisign-shares-sale-3e8bda8a?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:48:00+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.356936+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d667a578fef6600e"
+  },
+  {
     "id": "reuters-main-d71e4a56911394b1",
     "sourceId": "reuters-main",
     "sourceName": "Reuters",
@@ -250,6 +283,22 @@
     "contentHash": "91928ffd0b3a9d81"
   },
   {
+    "id": "yahoo-finance-d2548315a73969d2",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Morgan Stanley sees a 'rolling recovery' underway that's set to drive the stock market up 12% by mid-2026",
+    "url": "https://finance.yahoo.com/news/morgan-stanley-sees-rolling-recovery-233537576.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:35:37+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.356460+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d2548315a73969d2"
+  },
+  {
     "id": "bloomberg-markets-b7a931c9ac91638f",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
@@ -264,6 +313,24 @@
     ],
     "priority": "normal",
     "contentHash": "b7a931c9ac91638f"
+  },
+  {
+    "id": "yahoo-finance-f6bc764684d33a58",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "After Surprising Earnings Pop, Should You Buy This High-Yield Dividend Stock?",
+    "url": "https://finance.yahoo.com/news/surprising-earnings-pop-buy-high-233002467.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:30:02+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.356584+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "f6bc764684d33a58"
   },
   {
     "id": "business-insider-40feeb4aefc6acab",
@@ -312,6 +379,23 @@
     ],
     "priority": "normal",
     "contentHash": "2a9aeacc2aac6927"
+  },
+  {
+    "id": "yahoo-finance-0c24352abc8f6c59",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Baker Hughes nears $13.6 billion deal to buy Chart, edging out Flowserve, FT reports",
+    "url": "https://finance.yahoo.com/news/baker-hughes-nears-13-6-232420669.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:24:20+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.356696+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0c24352abc8f6c59"
   },
   {
     "id": "bbc-business-705a328e2268aa29",
@@ -367,6 +451,22 @@
     "contentHash": "b9747b5936d16efc"
   },
   {
+    "id": "yahoo-finance-0ad35a7044f9883d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Here are the facts on 5 damaging Social Security myths that can ruin your retirement",
+    "url": "https://finance.yahoo.com/news/facts-5-damaging-social-security-231900027.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:19:00+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.356824+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0ad35a7044f9883d"
+  },
+  {
     "id": "zerohedge-096dc9286165872b",
     "sourceId": "zerohedge",
     "sourceName": "ZeroHedge",
@@ -415,6 +515,22 @@
     ],
     "priority": "normal",
     "contentHash": "e7cf6f5575a00190"
+  },
+  {
+    "id": "yahoo-finance-547d8c1bced98f26",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Nearly 60% Of Last Year's Graduates Still Haven't Landed Their First Job. 1 In 4 Gen Z Workers Regret Going To College",
+    "url": "https://finance.yahoo.com/news/nearly-60-last-years-graduates-230106983.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:01:06+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.357532+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "547d8c1bced98f26"
   },
   {
     "id": "bloomberg-economics-a1f003837e28c519",
@@ -515,6 +631,38 @@
     "contentHash": "192bfa49f4a95d32"
   },
   {
+    "id": "yahoo-finance-97b8bd6a91909e3c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Singapore Set to Hold Policy as Economy Shows Tariff Resilience",
+    "url": "https://finance.yahoo.com/news/singapore-set-hold-policy-economy-230000559.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:00:00+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.357892+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "97b8bd6a91909e3c"
+  },
+  {
+    "id": "yahoo-finance-9a8eaede1606b9eb",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Trump's trade deals are set to unleash an 11% rally for stocks through year-end, Oppenheimer says",
+    "url": "https://finance.yahoo.com/news/trumps-trade-deals-set-unleash-225917224.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:59:17+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.357050+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9a8eaede1606b9eb"
+  },
+  {
     "id": "bloomberg-markets-4e97f6c12e97cd7f",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
@@ -580,6 +728,87 @@
     "contentHash": "aa8512489e561008"
   },
   {
+    "id": "yahoo-finance-312668a686477b0a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Corn Bears Hold onto Losses at Monday\u2019s Close",
+    "url": "https://finance.yahoo.com/news/corn-bears-hold-onto-losses-224843529.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:48:43+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.357281+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "312668a686477b0a"
+  },
+  {
+    "id": "yahoo-finance-03cdd4ad3f7d3327",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cotton Pop Higher on Monday, USDA Shows Drop in Ratings",
+    "url": "https://finance.yahoo.com/news/cotton-pop-higher-monday-usda-224843093.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:48:43+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.357413+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "03cdd4ad3f7d3327"
+  },
+  {
+    "id": "yahoo-finance-375d4fc021148f9e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Soybeans Fall to Start the Week, as Ratings Improve",
+    "url": "https://finance.yahoo.com/news/soybeans-fall-start-week-ratings-224843198.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:48:43+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.357632+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "375d4fc021148f9e"
+  },
+  {
+    "id": "yahoo-finance-4bcfe91b71fc8840",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Air Canada Posts Lower Profit, Higher Revenue in Second Quarter",
+    "url": "https://www.wsj.com/business/earnings/air-canada-posts-lower-profit-higher-revenue-in-second-quarter-99c22331?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:48:00+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.357734+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4bcfe91b71fc8840"
+  },
+  {
+    "id": "yahoo-finance-656e985928c37cb5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Recursion Pharmaceuticals Stock Got Mashed on Monday",
+    "url": "https://finance.yahoo.com/news/why-recursion-pharmaceuticals-stock-got-224343363.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:43:43+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.359138+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "656e985928c37cb5"
+  },
+  {
     "id": "techmeme-42a2a654ec7398c1",
     "sourceId": "techmeme",
     "sourceName": "Techmeme",
@@ -627,6 +856,23 @@
     ],
     "priority": "normal",
     "contentHash": "338658c05ed46b5c"
+  },
+  {
+    "id": "yahoo-finance-634e27c303bbaa71",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Inverse Finance snags $2.6m from DeFi investors to plug bad debt hole",
+    "url": "https://finance.yahoo.com/news/inverse-finance-snags-2-6m-223633110.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:36:33+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.359642+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "634e27c303bbaa71"
   },
   {
     "id": "techmeme-5f53432b976e35b6",
@@ -817,6 +1063,39 @@
     "contentHash": "3535fa1009bb21cd"
   },
   {
+    "id": "yahoo-finance-44af87c609027f36",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Procter & Gamble Names Jejurikar as CEO",
+    "url": "https://www.wsj.com/business/c-suite/procter-gamble-names-jejurikar-ceo-30bbae50?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:17:00+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.358298+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "44af87c609027f36"
+  },
+  {
+    "id": "yahoo-finance-8e46dbb77175d4f3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Whirlpool Cuts Dividend, Full-Year Profit Guidance as Tariffs Hurt Quarterly Results",
+    "url": "https://www.wsj.com/business/earnings/whirlpool-cuts-dividend-full-year-profit-guidance-as-tariffs-hurt-quarterly-results-7dfeda58?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:15:00+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.358501+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8e46dbb77175d4f3"
+  },
+  {
     "id": "the-verge-471e21e6adbd134b",
     "sourceId": "the-verge",
     "sourceName": "The Verge",
@@ -868,6 +1147,23 @@
     "contentHash": "c596b55f669a26e9"
   },
   {
+    "id": "yahoo-finance-be3d60469f60aa06",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "What Wall Street Is Saying About the Trade Deal and Stock-Market Records",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-28-2025/card/what-wall-street-is-saying-about-the-trade-deal-and-stock-market-records-SJJVB6nBb9IutYgggI6D?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:00:02+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.358203+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "be3d60469f60aa06"
+  },
+  {
     "id": "zerohedge-cd2d5ee9464da531",
     "sourceId": "zerohedge",
     "sourceName": "ZeroHedge",
@@ -902,6 +1198,24 @@
     "contentHash": "f3a654dc0c2777c0"
   },
   {
+    "id": "yahoo-finance-1e40546dcbbc7a3c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Retail ETFs Pop on EU Deal; MAGS, QQQ Rise Ahead of Earnings",
+    "url": "https://finance.yahoo.com/news/retail-etfs-pop-eu-deal-220000096.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:00:00+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.358101+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1e40546dcbbc7a3c"
+  },
+  {
     "id": "bloomberg-markets-5e93e3dfe878f6b7",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
@@ -918,6 +1232,22 @@
     ],
     "priority": "normal",
     "contentHash": "5e93e3dfe878f6b7"
+  },
+  {
+    "id": "yahoo-finance-81d027b07a4ebfa0",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Bristol Myers, Bain Capital form new company to develop immunology drugs",
+    "url": "https://finance.yahoo.com/news/bristol-myers-bain-capital-form-215919235.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:59:19+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.357999+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "81d027b07a4ebfa0"
   },
   {
     "id": "ft-economics-01cb7d8c4cc08402",
@@ -951,6 +1281,38 @@
     ],
     "priority": "normal",
     "contentHash": "dbf30ba5ea489efa"
+  },
+  {
+    "id": "yahoo-finance-924d29c11f55a4bd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "What To Expect From Thursday's Report On Inflation",
+    "url": "https://finance.yahoo.com/news/expect-thursdays-report-inflation-215023895.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:50:23+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.358634+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "924d29c11f55a4bd"
+  },
+  {
+    "id": "yahoo-finance-754c0b859ef376b6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Harley-Davidson in talks to sell stake in financing unit, Bloomberg News reports",
+    "url": "https://finance.yahoo.com/news/harley-davidson-talks-sell-stake-215022547.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:50:22+00:00",
+    "fetchedAt": "2025-07-30T09:47:26.357155+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "754c0b859ef376b6"
   },
   {
     "id": "marketwatch-ff039707a8c7bae9",
