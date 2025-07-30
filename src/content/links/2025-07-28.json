@@ -497,6 +497,25 @@
     "contentHash": "6883d89d2823561f"
   },
   {
+    "id": "yahoo-finance-e3740525082132fd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Earnings live: Starbucks posts another US sales decline, Novo stock plunges, Big Tech giants on deck",
+    "url": "https://finance.yahoo.com/news/live/earnings-live-starbucks-posts-another-us-sales-decline-novo-stock-plunges-big-tech-giants-on-deck-213334904.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T21:33:34+00:00",
+    "fetchedAt": "2025-07-30T13:01:28.103728+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "e3740525082132fd"
+  },
+  {
     "id": "yahoo-finance-b2f54859787748a3",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -2404,6 +2423,24 @@
     "contentHash": "602c6251daf94e00"
   },
   {
+    "id": "yahoo-finance-f1750bc0b27ecfe9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Gold price today, Wednesday, July 30, 2025: Gold strengthens ahead of Fed meeting",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-july-30-2025-gold-strengthens-ahead-of-fed-meeting-115011083.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T11:50:11+00:00",
+    "fetchedAt": "2025-07-30T13:01:28.106165+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "high",
+    "contentHash": "f1750bc0b27ecfe9"
+  },
+  {
     "id": "allison-schrager-928db20c8cec3b67",
     "sourceId": "allison-schrager",
     "sourceName": "Known Unknowns",
@@ -3254,38 +3291,5 @@
     ],
     "priority": "high",
     "contentHash": "445f6c14f620d916"
-  },
-  {
-    "id": "bloomberg-economics-004b20ed8b641735",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Kazimir Sees ECB Holding Rates in September in Absence of Shock",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-28/kazimir-sees-ecb-holding-rates-in-september-in-absence-of-shock",
-    "summary": "The European Central Bank shouldn’t cut interest rates in September unless there’s evidence of a major deterioration in the economy, according to Governing Council member Peter Kazimir.",
-    "publishedAt": "2025-07-28T09:30:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:46.997624+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "004b20ed8b641735"
-  },
-  {
-    "id": "marketwatch-f78792a04b092c9d",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "Economists cheer end of ‘crippling uncertainty,’ but U.S. tariff deal gets frosty reception in Europe",
-    "url": "https://www.marketwatch.com/story/economists-cheer-end-of-crippling-uncertainty-but-u-s-tariff-deal-gets-frosty-reception-in-europe-6d3d3fe4?mod=mw_rss_topstories",
-    "summary": "U.S. and E.U. agree a 15% tariff deal",
-    "publishedAt": "2025-07-28T09:30:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:52.250748+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f78792a04b092c9d"
   }
 ]
