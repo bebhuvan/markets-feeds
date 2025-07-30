@@ -568,12 +568,12 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
 
         // Search and filter functionality
         document.getElementById('feed-search')?.addEventListener('input', (e) => {
-            const target = e.target as HTMLInputElement;
+            const target = e.target;
             const searchTerm = target?.value.toLowerCase() || '';
             const feedItems = document.querySelectorAll('.feed-item');
             
             feedItems.forEach(item => {
-                const itemEl = item as HTMLElement;
+                const itemEl = item;
                 const name = item.querySelector('.feed-name')?.textContent?.toLowerCase() || '';
                 const url = item.querySelector('.feed-url')?.textContent?.toLowerCase() || '';
                 
@@ -586,12 +586,12 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
         });
 
         document.getElementById('category-filter')?.addEventListener('change', (e) => {
-            const target = e.target as HTMLSelectElement;
+            const target = e.target;
             const category = target?.value || '';
             const feedItems = document.querySelectorAll('.feed-item');
             
             feedItems.forEach(item => {
-                const itemEl = item as HTMLElement;
+                const itemEl = item;
                 const itemCategory = item.getAttribute('data-category');
                 
                 if (!category || itemCategory === category) {
@@ -603,12 +603,12 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
         });
 
         document.getElementById('status-filter')?.addEventListener('change', (e) => {
-            const target = e.target as HTMLSelectElement;
+            const target = e.target;
             const status = target?.value || '';
             const feedItems = document.querySelectorAll('.feed-item');
             
             feedItems.forEach(item => {
-                const itemEl = item as HTMLElement;
+                const itemEl = item;
                 const itemStatus = item.getAttribute('data-status');
                 
                 if (!status || itemStatus === status) {
@@ -621,7 +621,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
 
         // Quick actions
         function refreshAllFeeds() {
-            const btn = document.getElementById('refresh-all-btn') as HTMLButtonElement;
+            const btn = document.getElementById('refresh-all-btn');
             if (!btn) return;
             btn.textContent = '↻ Refreshing...';
             btn.disabled = true;
@@ -663,16 +663,16 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             }
         }
 
-        function editFeed(feedId: string) {
+        function editFeed(feedId) {
             alert(`Edit feed ${feedId} - This would open an edit modal`);
         }
 
-        function testFeed(feedId: string) {
+        function testFeed(feedId) {
             alert(`Testing feed ${feedId}...`);
             // Here you would make a request to test the RSS feed
         }
 
-        function deleteFeed(feedId: string) {
+        function deleteFeed(feedId) {
             if (confirm('Are you sure you want to delete this feed?')) {
                 alert(`Delete feed ${feedId} - This would remove from sources.ts`);
             }
