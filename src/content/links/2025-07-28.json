@@ -4527,6 +4527,23 @@
     "contentHash": "78b0de706cea5157"
   },
   {
+    "id": "yahoo-finance-3481c634dfeb497e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Trade Deals and Earnings Optimism Boost Stocks",
+    "url": "https://finance.yahoo.com/news/trade-deals-earnings-optimism-boost-152133694.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:21:33+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.357323+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "3481c634dfeb497e"
+  },
+  {
     "id": "reuters-main-8756448099c4ac90",
     "sourceId": "reuters-main",
     "sourceName": "Reuters",
@@ -4691,6 +4708,23 @@
     "contentHash": "4ac46069be10e396"
   },
   {
+    "id": "yahoo-finance-b7a7fe4ad7fe93df",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "New FBS Analysis Highlights Liquidity Trends and Market Phases in Crypto",
+    "url": "https://finance.yahoo.com/news/fbs-analysis-highlights-liquidity-trends-151624633.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:16:24+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.357068+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "low",
+    "contentHash": "b7a7fe4ad7fe93df"
+  },
+  {
     "id": "yahoo-finance-5ec3015f5a42c0ec",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -4758,6 +4792,23 @@
     "contentHash": "7d5493be3213d16a"
   },
   {
+    "id": "yahoo-finance-e57ce2ffe965a54f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "PayPal Reports Q2 Earnings on July 29. Is PYPL Stock a Buy, Sell, or, Hold?",
+    "url": "https://finance.yahoo.com/news/paypal-reports-q2-earnings-july-151525794.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:15:25+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.356833+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "e57ce2ffe965a54f"
+  },
+  {
     "id": "reuters-main-101599a828be8801",
     "sourceId": "reuters-main",
     "sourceName": "Reuters",
@@ -4788,6 +4839,23 @@
     ],
     "priority": "normal",
     "contentHash": "97f2c08acda0f89c"
+  },
+  {
+    "id": "yahoo-finance-3be8d5f221a416ac",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Google Patent Straightens Out AI Training Data",
+    "url": "https://finance.yahoo.com/news/google-patent-straightens-ai-training-151500173.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:15:00+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.356732+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "3be8d5f221a416ac"
   },
   {
     "id": "reuters-main-7a0441db5cf2a48f",
@@ -5344,6 +5412,22 @@
     "contentHash": "1d3de7e562d20255"
   },
   {
+    "id": "yahoo-finance-022c0873aa790ae6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Nvidia CEO Jensen Huang says he\u2019s created more billionaires than any CEO in the world: \u2018Don\u2019t feel sad for anybody at my layer\u2019",
+    "url": "https://finance.yahoo.com/news/nvidia-ceo-jensen-huang-says-151139722.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:11:39+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.357230+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "022c0873aa790ae6"
+  },
+  {
     "id": "yahoo-finance-a630e90eaed035f6",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -5422,6 +5506,22 @@
     ],
     "priority": "normal",
     "contentHash": "f075a4bfd50bdaab"
+  },
+  {
+    "id": "yahoo-finance-304eaf5fdb5b2418",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Carnival Unveils Celebration Key, New Bahamas Destination",
+    "url": "https://finance.yahoo.com/news/carnival-unveils-celebration-key-bahamas-151123926.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:11:23+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.355540+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "304eaf5fdb5b2418"
   },
   {
     "id": "bloomberg-markets-7497e9da7868c473",
@@ -5555,6 +5655,38 @@
     "contentHash": "6ecd5ad8d892730f"
   },
   {
+    "id": "yahoo-finance-5943d786d28aa5f4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "BK Plus acquires UK accountancy practice Read Milburn",
+    "url": "https://finance.yahoo.com/news/bk-plus-acquires-uk-accountancy-150646281.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:06:46+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.356928+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5943d786d28aa5f4"
+  },
+  {
+    "id": "yahoo-finance-24e2a684dfc9dc2b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Who Benefits From Tax Changes in Trump\u2019s \u2018Big Beautiful Bill\u2019?",
+    "url": "https://finance.yahoo.com/news/benefits-tax-changes-trump-big-150644764.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:06:44+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.356536+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "24e2a684dfc9dc2b"
+  },
+  {
     "id": "et-markets-f3a16923eec2b484",
     "sourceId": "et-markets",
     "sourceName": "Economic Times",
@@ -5622,6 +5754,23 @@
     "contentHash": "fc29c22b02866070"
   },
   {
+    "id": "yahoo-finance-fd5e7869b691b803",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "World Bank Chief Says Zimbabwe Needs G-20 to Exit Debt Trap",
+    "url": "https://finance.yahoo.com/news/world-bank-chief-says-zimbabwe-150456347.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:04:56+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.356267+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "fd5e7869b691b803"
+  },
+  {
     "id": "reuters-main-e5448bd117cbbb42",
     "sourceId": "reuters-main",
     "sourceName": "Reuters",
@@ -5638,6 +5787,23 @@
     "contentHash": "e5448bd117cbbb42"
   },
   {
+    "id": "yahoo-finance-31d3f1fb1968bc23",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "PayPal Rolls Out New Crypto Feature: Here's Why You Should Care",
+    "url": "https://finance.yahoo.com/news/paypal-rolls-crypto-feature-heres-150215186.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:02:15+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.355733+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "normal",
+    "contentHash": "31d3f1fb1968bc23"
+  },
+  {
     "id": "reuters-main-21fd2462e403a128",
     "sourceId": "reuters-main",
     "sourceName": "Reuters",
@@ -5652,6 +5818,23 @@
     ],
     "priority": "normal",
     "contentHash": "21fd2462e403a128"
+  },
+  {
+    "id": "yahoo-finance-9b1ea75e60aff2b4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "18 ChatGPT Prompts To Use To Increase Your Wealth",
+    "url": "https://finance.yahoo.com/news/yourself-money-smart-20-chatgpt-160057244.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T15:01:35+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.355998+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "9b1ea75e60aff2b4"
   },
   {
     "id": "scmp-business-47001ae0e2a85e5a",
@@ -5880,6 +6063,23 @@
     "contentHash": "a3ff07721c41c921"
   },
   {
+    "id": "yahoo-finance-2dbb03edbbd76d5d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Bitcoin Price Drifts, XRP Gains. BTC Could Hit $1 Million, Cantor Analysts Say.",
+    "url": "https://www.barrons.com/articles/bitcoin-xrp-price-usd-news-f4f51ee0?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T14:56:00+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.355016+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "normal",
+    "contentHash": "2dbb03edbbd76d5d"
+  },
+  {
     "id": "techmeme-98c16c47738441b4",
     "sourceId": "techmeme",
     "sourceName": "Techmeme",
@@ -5896,6 +6096,22 @@
     ],
     "priority": "normal",
     "contentHash": "98c16c47738441b4"
+  },
+  {
+    "id": "yahoo-finance-c7b8bc0e79e4b80b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Smart Strategies for Energy Suppliers in the Data Center Boom",
+    "url": "https://finance.yahoo.com/news/smart-strategies-energy-suppliers-data-145237476.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T14:52:37+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.354808+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "c7b8bc0e79e4b80b"
   },
   {
     "id": "reuters-main-48b9ad5d61987f10",
@@ -5947,6 +6163,22 @@
     "contentHash": "0a539c5829caf8fe"
   },
   {
+    "id": "yahoo-finance-c3979ffdf8ff94fd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Tether\u2019s US entry poses challenge for Circle and itself",
+    "url": "https://finance.yahoo.com/news/why-tether-us-entry-poses-145000617.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T14:50:00+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.355120+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c3979ffdf8ff94fd"
+  },
+  {
     "id": "seeking-alpha-6e48b4f67468700d",
     "sourceId": "seeking-alpha",
     "sourceName": "Seeking Alpha",
@@ -5995,6 +6227,22 @@
     ],
     "priority": "normal",
     "contentHash": "902ea1cf3fe034b9"
+  },
+  {
+    "id": "yahoo-finance-476de012f60dec0b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Nike Stock Just Popped",
+    "url": "https://finance.yahoo.com/news/why-nike-stock-just-popped-144900018.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T14:49:00+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.354700+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "476de012f60dec0b"
   },
   {
     "id": "reuters-main-b212cfb52829f5ab",
@@ -6094,6 +6342,22 @@
     "contentHash": "25db41c43939fe6f"
   },
   {
+    "id": "yahoo-finance-f24027e6943bb932",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Should You Buy SoFi Stock Before July 29?",
+    "url": "https://finance.yahoo.com/news/buy-sofi-stock-july-29-144336118.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T14:43:36+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.355401+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f24027e6943bb932"
+  },
+  {
     "id": "seeking-alpha-f2d0ca4a606f2532",
     "sourceId": "seeking-alpha",
     "sourceName": "Seeking Alpha",
@@ -6124,6 +6388,24 @@
     ],
     "priority": "normal",
     "contentHash": "f04e13b722f24761"
+  },
+  {
+    "id": "yahoo-finance-bd3f1cb4ec5d7ddb",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dollar Rises as the EU and US Agree on a Trade Deal",
+    "url": "https://finance.yahoo.com/news/dollar-rises-eu-us-agree-143754225.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T14:37:54+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.355218+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Currency",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "bd3f1cb4ec5d7ddb"
   },
   {
     "id": "seeking-alpha-863ddcda1022ae88",
@@ -6685,6 +6967,23 @@
     ],
     "priority": "normal",
     "contentHash": "f6704d70a4eef91c"
+  },
+  {
+    "id": "yahoo-finance-f50307f955338342",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Gold price to stay above $3,000/oz as flight to safety endures- Reuters poll",
+    "url": "https://finance.yahoo.com/news/gold-price-stay-above-3-140814195.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T14:08:14+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.354913+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "f50307f955338342"
   },
   {
     "id": "yahoo-finance-2d61e62e03975d8b",

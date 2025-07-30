@@ -1050,6 +1050,23 @@
     "contentHash": "909000dd7d620ee9"
   },
   {
+    "id": "ft-economics-a95bf6a4c2811ac7",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "Wall Street gears up for \u2018pivotal\u2019 three days for US markets",
+    "url": "https://www.ft.com/content/afcafdf5-5d86-4530-bce2-98e2a77dc1b1",
+    "summary": "Economic data, corporate earnings and tariff news could set the tone for the remainder of the year",
+    "publishedAt": "2025-07-29T21:01:33+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.419175+00:00",
+    "category": "macro",
+    "tags": [
+      "Earnings",
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "a95bf6a4c2811ac7"
+  },
+  {
     "id": "techmeme-647829b0da1fb150",
     "sourceId": "techmeme",
     "sourceName": "Techmeme",
@@ -7356,6 +7373,22 @@
     ],
     "priority": "high",
     "contentHash": "508d186bd9f68f74"
+  },
+  {
+    "id": "handelsblatt-7712c081c2eaf6b4",
+    "sourceId": "handelsblatt",
+    "sourceName": "Handelsblatt",
+    "title": "Dow Jones, S&P 500, Nasdaq: US-Anleger sind nach Bilanzflut nerv\u00f6s \u2014\u00a0Wall Street schlie\u00dft im Minus",
+    "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-anleger-sind-nach-bilanzflut-nervoes/100144825.html",
+    "summary": "Eine Reihe entt\u00e4uschender Konzernbilanzen hat die US-B\u00f6rsen nach unten gedr\u00fcckt. Die Entwicklungen im Handelsstreit wirkten nur leicht auf das Marktgeschehen.",
+    "publishedAt": "2025-07-29T13:54:56+00:00",
+    "fetchedAt": "2025-07-30T02:38:11.281473+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7712c081c2eaf6b4"
   },
   {
     "id": "et-markets-11bafccf59ea1c74",
@@ -20907,6 +20940,23 @@
     ],
     "priority": "high",
     "contentHash": "36fd32f3ddf12a89"
+  },
+  {
+    "id": "bloomberg-markets-e613376f5dadf5b3",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "India\u2019s Nayara Cuts Oil Refinery Run Rate After EU Sanctions",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-29/india-s-nayara-trims-crude-processing-rates-after-eu-sanctions",
+    "summary": "Nayara Energy Ltd. is reducing run rates at its west India refinery as more domestic and global players spurn the refiner after the EU imposed sanctions on the company.",
+    "publishedAt": "2025-07-29T06:38:20+00:00",
+    "fetchedAt": "2025-07-30T02:38:12.403579+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "high",
+    "contentHash": "e613376f5dadf5b3"
   },
   {
     "id": "et-markets-09bf820ca7736b8c",
