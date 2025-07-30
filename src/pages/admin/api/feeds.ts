@@ -1,12 +1,6 @@
 export const prerender = false;
 
 import type { APIRoute } from 'astro';
-import fs from 'fs/promises';
-import path from 'path';
-import { exec } from 'child_process';
-import { promisify } from 'util';
-
-const execAsync = promisify(exec);
 
 export const POST: APIRoute = async ({ request }) => {
   try {
@@ -65,11 +59,7 @@ async function addFeed(feedData: { name: string; url: string; category: string }
     // Generate feed ID
     const feedId = name.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-');
 
-    // Read current sources file
-    const sourcesPath = path.join(process.cwd(), 'src/config/sources.ts');
-    let sourcesContent = await fs.readFile(sourcesPath, 'utf8');
-
-    // Create new feed entry
+    // Create new feed entry code
     const newFeed = `  {
     id: '${feedId}',
     name: '${name}',
@@ -78,30 +68,11 @@ async function addFeed(feedData: { name: string; url: string; category: string }
     enabled: true
   },`;
 
-    // Insert before the closing bracket
-    const insertPoint = sourcesContent.lastIndexOf('];');
-    sourcesContent = sourcesContent.slice(0, insertPoint) + newFeed + '\n' + sourcesContent.slice(insertPoint);
-
-    // Write back to file
-    await fs.writeFile(sourcesPath, sourcesContent, 'utf8');
-
-    // Commit changes
-    try {
-      await execAsync(`git add "${sourcesPath}"`);
-      await execAsync(`git commit -m "Add RSS feed: ${name}
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>"`);
-      await execAsync('git push origin main');
-    } catch (gitError) {
-      console.error('Git operations failed:', gitError);
-    }
-
     return new Response(JSON.stringify({ 
       success: true, 
-      message: `Feed "${name}" added successfully`,
-      feedId
+      message: `Feed configuration generated. In production, this would be added to sources.ts via GitHub Action.`,
+      feedId,
+      code: newFeed
     }), {
       status: 200,
       headers: { 'Content-Type': 'application/json' }
@@ -110,7 +81,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>"`);
   } catch (error) {
     console.error('Add feed error:', error);
     return new Response(JSON.stringify({ 
-      error: 'Failed to add feed',
+      error: 'Failed to generate feed configuration',
       message: error instanceof Error ? error.message : 'Unknown error'
     }), {
       status: 500,
@@ -182,16 +153,12 @@ async function testFeed(feedData: { url: string }) {
 
 async function refreshAllFeeds() {
   try {
-    // Run the aggregation script
-    const { stdout, stderr } = await execAsync('cd /home/bhuvanesh/markets-feeds && python3 scripts/aggregate_feeds_improved.py', {
-      timeout: 300000 // 5 minutes timeout
-    });
-
+    // In Cloudflare Workers, we can't run local scripts
+    // This would trigger a GitHub Action in production
     return new Response(JSON.stringify({ 
       success: true,
-      message: 'Feed refresh completed successfully',
-      output: stdout,
-      errors: stderr
+      message: 'Feed refresh request received. In production, this would trigger the RSS aggregation GitHub Action.',
+      timestamp: new Date().toISOString()
     }), {
       status: 200,
       headers: { 'Content-Type': 'application/json' }
@@ -201,7 +168,7 @@ async function refreshAllFeeds() {
     console.error('Refresh feeds error:', error);
     return new Response(JSON.stringify({ 
       success: false,
-      error: 'Failed to refresh feeds',
+      error: 'Failed to process refresh request',
       message: error instanceof Error ? error.message : 'Unknown error'
     }), {
       status: 200,

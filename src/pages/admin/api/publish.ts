@@ -1,12 +1,6 @@
 export const prerender = false;
 
 import type { APIRoute } from 'astro';
-import { exec } from 'child_process';
-import { promisify } from 'util';
-import fs from 'fs/promises';
-import path from 'path';
-
-const execAsync = promisify(exec);
 
 export const POST: APIRoute = async ({ request }) => {
   try {
@@ -33,7 +27,8 @@ export const POST: APIRoute = async ({ request }) => {
       });
     }
 
-    // Generate filename from title
+    // In Cloudflare Workers environment, we can't write files or run git commands
+    // Return the content that would be published for manual handling
     const date = new Date().toISOString().split('T')[0];
     const filename = `${date}-${title.toLowerCase()
       .replace(/[^a-z0-9\s-]/g, '')
@@ -62,49 +57,15 @@ ${mediaSection}
 
 ${content}`;
 
-    // Write file to discoveries directory
-    const filePath = path.join(process.cwd(), 'src/content/discoveries', filename);
-    await fs.writeFile(filePath, markdown, 'utf8');
-
-    // Git operations
-    try {
-      // Add the file
-      await execAsync(`git add "${filePath}"`);
-      
-      // Commit with descriptive message
-      const commitMessage = `Add discovery post: ${title}
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>`;
-      
-      await execAsync(`git commit -m "${commitMessage}"`);
-      
-      // Push to remote
-      await execAsync('git push origin main');
-
-      return new Response(JSON.stringify({ 
-        success: true, 
-        filename,
-        message: 'Post published successfully and committed to Git'
-      }), {
-        status: 200,
-        headers: { 'Content-Type': 'application/json' }
-      });
-
-    } catch (gitError) {
-      // If git operations fail, at least the file was created
-      console.error('Git operations failed:', gitError);
-      return new Response(JSON.stringify({ 
-        success: true, 
-        filename,
-        message: 'Post created but git operations failed',
-        warning: 'File saved locally but not committed to Git'
-      }), {
-        status: 200,
-        headers: { 'Content-Type': 'application/json' }
-      });
-    }
+    return new Response(JSON.stringify({ 
+      success: true, 
+      filename,
+      content: markdown,
+      message: 'Post content generated successfully. In production, this would trigger a GitHub Action to commit the file.'
+    }), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
+    });
 
   } catch (error) {
     console.error('Publish error:', error);
