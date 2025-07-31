@@ -232,14 +232,23 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             color: #2a2a2a;
         }
 
+        .feed-counter {
+            font-size: 14px;
+            font-weight: 400;
+            color: #6b7280;
+            margin-left: 8px;
+        }
+
         .section-content {
             padding: 24px;
         }
 
         /* Feed List */
         .feed-list {
-            max-height: 600px;
+            max-height: 700px;
             overflow-y: auto;
+            border: 1px solid #f1f3f4;
+            border-radius: 6px;
         }
 
         .feed-item {
@@ -677,7 +686,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             <!-- Feed Management -->
             <div class="content-section">
                 <div class="section-header">
-                    <h2 class="section-title">RSS Sources</h2>
+                    <h2 class="section-title">RSS Sources <span class="feed-counter" id="feed-counter">({RSS_SOURCES.length} feeds)</span></h2>
                     <button class="btn btn-primary" onclick="showAddFeed()">+ Add New Feed</button>
                 </div>
                 
@@ -703,7 +712,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                     </div>
 
                     <div class="feed-list" id="feed-list">
-                        {RSS_SOURCES.slice(0, 20).map(source => {
+                        {RSS_SOURCES.map(source => {
                           const hasError = errorSources.includes(source);
                           const count = Math.floor(Math.random() * 50);
                           return (
@@ -839,6 +848,20 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             }
         }
 
+        // Helper function to update feed counter
+        function updateFeedCounter() {
+            const allFeedItems = document.querySelectorAll('.feed-item');
+            const visibleFeedItems = Array.from(allFeedItems).filter(item => {
+                const style = window.getComputedStyle(item);
+                return style.display !== 'none';
+            });
+            
+            const counter = document.getElementById('feed-counter');
+            if (counter) {
+                counter.textContent = `(${visibleFeedItems.length} of ${allFeedItems.length} feeds)`;
+            }
+        }
+
         // Search and filter functionality
         document.getElementById('feed-search')?.addEventListener('input', (e) => {
             const target = e.target;
@@ -856,6 +879,8 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                     itemEl.style.display = 'none';
                 }
             });
+            
+            updateFeedCounter();
         });
 
         document.getElementById('category-filter')?.addEventListener('change', (e) => {
@@ -873,6 +898,8 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                     itemEl.style.display = 'none';
                 }
             });
+            
+            updateFeedCounter();
         });
 
         document.getElementById('status-filter')?.addEventListener('change', (e) => {
@@ -890,6 +917,8 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                     itemEl.style.display = 'none';
                 }
             });
+            
+            updateFeedCounter();
         });
 
         // Quick actions
