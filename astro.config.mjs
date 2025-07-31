@@ -9,7 +9,25 @@ export default defineConfig({
     mode: 'directory'
   }),
   build: {
-    format: 'directory'
+    format: 'directory',
+    inlineStylesheets: 'auto',
+    splitting: true
+  },
+  vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            'date-utils': ['./src/utils/date'],
+            'rss-sources': ['./src/config/rss-sources']
+          }
+        }
+      },
+      chunkSizeWarningLimit: 1000
+    },
+    ssr: {
+      noExternal: ['date-fns']
+    }
   },
   site: 'https://markets-feeds.pages.dev'
 });

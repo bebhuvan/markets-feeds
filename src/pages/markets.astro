@@ -6,11 +6,19 @@ import LinkCard from '../components/LinkCard.astro';
 import type { FeedItem } from '../types';
 import '../styles/global.css';
 
-// Load all link data and filter for markets content
+// Load only recent link data for performance - limit to latest 3 files
 const linkFiles = await Astro.glob('../content/links/*.json');
+const sortedFiles = linkFiles.sort((a, b) => {
+  const dateA = a.url?.match(/(\d{4}-\d{2}-\d{2})\.json$/)?.[1] || '0000-00-00';
+  const dateB = b.url?.match(/(\d{4}-\d{2}-\d{2})\.json$/)?.[1] || '0000-00-00';
+  return dateB.localeCompare(dateA);
+});
+
+// Load only the latest 3 files to reduce initial load time
+const recentFiles = sortedFiles.slice(0, 3);
 const allLinks: FeedItem[] = [];
 
-for (const file of linkFiles) {
+for (const file of recentFiles) {
   if (Array.isArray(file.default)) {
     allLinks.push(...file.default.filter((item: FeedItem) => 
       item.category === 'markets'
@@ -18,8 +26,9 @@ for (const file of linkFiles) {
   }
 }
 
-// Sort by published date
+// Sort by published date and limit to 50 most recent articles
 allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+const displayedLinks = allLinks.slice(0, 50);
 ---
 
 <Layout title="Markets - Markets Feeds" description="Latest market news, trading insights and financial market analysis">
@@ -31,12 +40,12 @@ allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.published
     
     <!-- Feed Items -->
     <div class="space-y-0">
-      {allLinks.length === 0 ? (
+      {displayedLinks.length === 0 ? (
         <div class="text-center py-12">
           <p class="text-text-subtle">No market updates available at the moment.</p>
         </div>
       ) : (
-        allLinks.map((link) => (
+        displayedLinks.map((link) => (
           <LinkCard link={link} />
         ))
       )}
