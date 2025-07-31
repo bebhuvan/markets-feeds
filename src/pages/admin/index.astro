@@ -938,8 +938,10 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             btn.disabled = true;
             
             console.log('Making API request to /admin/api/feeds');
+            console.log('Current cookies:', document.cookie);
+            console.log('Current location:', window.location.href);
             // Use the local API to refresh feeds
-            fetch('/admin/api/feeds', {
+            fetch('/admin/api/feeds?pass=MF2025!SecureTeam#AdminAccess789', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -1091,7 +1093,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             submitBtn.disabled = true;
             
             // Submit to API
-            fetch('/admin/api/feeds', {
+            fetch('/admin/api/feeds?pass=MF2025!SecureTeam#AdminAccess789', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -1210,7 +1212,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                 testBtn.disabled = true;
             }
             
-            fetch('/admin/api/feeds', {
+            fetch('/admin/api/feeds?pass=MF2025!SecureTeam#AdminAccess789', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -1268,7 +1270,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             
             try {
                 // 1. Clear browser cache via API call with cache-busting headers
-                const response = await fetch('/admin/api/feeds', {
+                const response = await fetch('/admin/api/feeds?pass=MF2025!SecureTeam#AdminAccess789', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

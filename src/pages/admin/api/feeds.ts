@@ -8,14 +8,28 @@ export const POST: APIRoute = async ({ request }) => {
     // Simple authentication check
     const url = new URL(request.url);
     const cookies = request.headers.get('cookie') || '';
-    console.log('🔧 Cookies received:', cookies ? 'present' : 'none');
+    console.log('🔧 Full cookie header:', cookies);
+    console.log('🔧 All request headers:', Object.fromEntries(request.headers.entries()));
+    console.log('🔧 Request URL:', request.url);
+    console.log('🔧 Request method:', request.method);
+    
     const hasAdminPass = cookies.includes('admin_pass=MF2025!SecureTeam#AdminAccess789') || 
                         url.searchParams.get('pass') === 'MF2025!SecureTeam#AdminAccess789';
     
+    console.log('🔧 Cookie includes admin_pass:', cookies.includes('admin_pass='));
+    console.log('🔧 URL param pass:', url.searchParams.get('pass'));
     console.log('🔧 Authentication check:', hasAdminPass ? 'passed' : 'failed');
+    
     if (!hasAdminPass) {
-      console.log('🔧 Returning 401 Unauthorized');
-      return new Response(JSON.stringify({ error: 'Unauthorized' }), {
+      console.log('🔧 Returning 401 Unauthorized - no valid auth found');
+      return new Response(JSON.stringify({ 
+        error: 'Unauthorized',
+        debug: {
+          hasCookies: cookies.length > 0,
+          cookieContent: cookies.substring(0, 50) + '...',
+          hasUrlPass: !!url.searchParams.get('pass')
+        }  
+      }), {
         status: 401,
         headers: { 'Content-Type': 'application/json' }
       });
