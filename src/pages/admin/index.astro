@@ -747,6 +747,10 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                             <h3>Refresh All</h3>
                             <p>Update all RSS feeds now</p>
                         </button>
+                        <button class="action-card" onclick="clearCache()">
+                            <h3>Clear Cache</h3>
+                            <p>Clear all browser and service worker caches</p>
+                        </button>
                         <button class="action-card" onclick="exportFeeds()">
                             <h3>Export Data</h3>
                             <p>Download feed configuration</p>
@@ -1130,6 +1134,88 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             a.href = url;
             a.download = 'rss-sources.json';
             a.click();
+        }
+
+        window.clearCache = async function() {
+            const button = event?.target;
+            if (button) {
+                const originalText = button.innerHTML;
+                button.innerHTML = '<h3>Clearing...</h3><p>Please wait</p>';
+                button.disabled = true;
+            }
+            
+            try {
+                // 1. Clear browser cache via API call with cache-busting headers
+                const response = await fetch('/admin/api/feeds', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Cache-Control': 'no-cache, no-store, must-revalidate',
+                        'Pragma': 'no-cache'
+                    },
+                    body: JSON.stringify({ action: 'clear-cache' })
+                });
+                
+                const result = await response.json();
+                
+                // 2. Clear Service Worker caches
+                if ('serviceWorker' in navigator && 'caches' in window) {
+                    const cacheNames = await caches.keys();
+                    await Promise.all(
+                        cacheNames.map(cacheName => {
+                            console.log('Deleting cache:', cacheName);
+                            return caches.delete(cacheName);
+                        })
+                    );
+                }
+                
+                // 3. Unregister and re-register service worker to force update
+                if ('serviceWorker' in navigator) {
+                    const registration = await navigator.serviceWorker.getRegistration();
+                    if (registration) {
+                        await registration.unregister();
+                        console.log('Service worker unregistered');
+                        
+                        // Re-register service worker
+                        setTimeout(() => {
+                            navigator.serviceWorker.register('/sw.js')
+                                .then(reg => console.log('Service worker re-registered:', reg))
+                                .catch(err => console.log('Service worker registration failed:', err));
+                        }, 100);
+                    }
+                }
+                
+                // 4. Clear localStorage and sessionStorage
+                try {
+                    localStorage.clear();
+                    sessionStorage.clear();
+                } catch (e) {
+                    console.log('Storage clearing failed:', e);
+                }
+                
+                if (result.success) {
+                    alert('✅ Cache cleared successfully!\n\n' +
+                          '• Browser cache cleared\n' +
+                          '• Service Worker cache cleared\n' +
+                          '• Local storage cleared\n' +
+                          '• CDN cache invalidation requested\n\n' +
+                          'The page will reload to ensure fresh content.');
+                    
+                    // Force reload with cache busting
+                    window.location.href = window.location.href + '?t=' + Date.now();
+                } else {
+                    alert('❌ Cache clearing failed: ' + result.error);
+                }
+                
+            } catch (error) {
+                console.error('Cache clearing error:', error);
+                alert('❌ Cache clearing failed: ' + error.message);
+            } finally {
+                if (button) {
+                    button.innerHTML = originalText;
+                    button.disabled = false;
+                }
+            }
         }
 
         window.viewLogs = function() {

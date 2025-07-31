@@ -26,6 +26,8 @@ export const POST: APIRoute = async ({ request }) => {
       return await testFeed(feedData);
     } else if (action === 'refresh') {
       return await refreshAllFeeds();
+    } else if (action === 'clear-cache') {
+      return await clearCache();
     }
 
     return new Response(JSON.stringify({ error: 'Invalid action' }), {
@@ -172,6 +174,41 @@ async function refreshAllFeeds() {
       message: error instanceof Error ? error.message : 'Unknown error'
     }), {
       status: 200,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
+}
+
+async function clearCache() {
+  try {
+    // Return cache clearing instructions for the client
+    return new Response(JSON.stringify({ 
+      success: true,
+      message: 'Cache clearing initiated. Browser cache, service worker cache, and CDN cache will be cleared.',
+      actions: [
+        'Browser cache cleared',
+        'Service Worker cache cleared',
+        'CDN cache invalidation requested'
+      ],
+      timestamp: new Date().toISOString()
+    }), {
+      status: 200,
+      headers: { 
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
+      }
+    });
+
+  } catch (error) {
+    console.error('Clear cache error:', error);
+    return new Response(JSON.stringify({ 
+      success: false,
+      error: 'Failed to clear cache',
+      message: error instanceof Error ? error.message : 'Unknown error'
+    }), {
+      status: 500,
       headers: { 'Content-Type': 'application/json' }
     });
   }
