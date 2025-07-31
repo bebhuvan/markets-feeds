@@ -944,6 +944,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                 headers: {
                     'Content-Type': 'application/json'
                 },
+                credentials: 'include',
                 body: JSON.stringify({ action: 'refresh' })
             })
             .then(response => {
@@ -1095,6 +1096,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                 headers: {
                     'Content-Type': 'application/json'
                 },
+                credentials: 'include',
                 body: JSON.stringify({ 
                     action: 'add', 
                     feedData: { name, url, category, priority } 
@@ -1213,6 +1215,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                 headers: {
                     'Content-Type': 'application/json'
                 },
+                credentials: 'include',
                 body: JSON.stringify({ 
                     action: 'test', 
                     feedData: { url: feedUrl } 
@@ -1272,6 +1275,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                         'Cache-Control': 'no-cache, no-store, must-revalidate',
                         'Pragma': 'no-cache'
                     },
+                    credentials: 'include',
                     body: JSON.stringify({ action: 'clear-cache' })
                 });
                 
