@@ -3,14 +3,18 @@ export const prerender = false;
 import type { APIRoute } from 'astro';
 
 export const POST: APIRoute = async ({ request }) => {
+  console.log('🔧 Admin API called:', request.method, request.url);
   try {
     // Simple authentication check
     const url = new URL(request.url);
     const cookies = request.headers.get('cookie') || '';
+    console.log('🔧 Cookies received:', cookies ? 'present' : 'none');
     const hasAdminPass = cookies.includes('admin_pass=MF2025!SecureTeam#AdminAccess789') || 
                         url.searchParams.get('pass') === 'MF2025!SecureTeam#AdminAccess789';
     
+    console.log('🔧 Authentication check:', hasAdminPass ? 'passed' : 'failed');
     if (!hasAdminPass) {
+      console.log('🔧 Returning 401 Unauthorized');
       return new Response(JSON.stringify({ error: 'Unauthorized' }), {
         status: 401,
         headers: { 'Content-Type': 'application/json' }
@@ -19,6 +23,7 @@ export const POST: APIRoute = async ({ request }) => {
 
     const body = await request.json();
     const { action, feedData } = body;
+    console.log('🔧 Request body parsed:', { action, feedData: !!feedData });
 
     if (action === 'add') {
       return await addFeed(feedData);

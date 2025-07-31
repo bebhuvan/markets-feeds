@@ -925,10 +925,12 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
         // Quick actions
         window.refreshAllFeeds = function() {
             const btn = document.getElementById('refresh-all-btn');
+            console.log('Refresh button clicked, button found:', !!btn);
             if (!btn) return;
             btn.textContent = '↻ Refreshing...';
             btn.disabled = true;
             
+            console.log('Making API request to /admin/api/feeds');
             // Use the local API to refresh feeds
             fetch('/admin/api/feeds', {
                 method: 'POST',
@@ -936,7 +938,15 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({ action: 'refresh' })
-            }).then(response => response.json())
+            })
+            .then(response => {
+                console.log('API response status:', response.status);
+                console.log('API response headers:', [...response.headers.entries()]);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                return response.json();
+            })
             .then(result => {
                 if (btn) {
                     if (result.success) {
@@ -996,10 +1006,14 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                     }
                 }
             }).catch(error => {
+                console.error('Fetch error details:', error);
+                console.error('Error type:', typeof error);
+                console.error('Error message:', error.message);
+                console.error('Error stack:', error.stack);
+                
                 if (btn) {
                     btn.textContent = '✗ Network Error';
-                    console.error('Network error:', error);
-                    alert('❌ Network error: ' + error.message + '\n\nPlease check your internet connection and try again.');
+                    alert('❌ Network error: ' + error.message + '\n\nCheck browser console for details.\n\nPlease check your internet connection and try again.');
                     setTimeout(() => {
                         btn.textContent = '↻ Refresh All Feeds';
                         btn.disabled = false;
