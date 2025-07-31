@@ -5,6 +5,11 @@ export interface Props {
 }
 
 const { title, description = 'Finance RSS aggregation platform' } = Astro.props;
+
+// Add cache-busting headers
+Astro.response.headers.set('Cache-Control', 'no-cache, no-store, must-revalidate');
+Astro.response.headers.set('Pragma', 'no-cache');
+Astro.response.headers.set('Expires', '0');
 ---
 
 <!DOCTYPE html>
