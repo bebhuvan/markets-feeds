@@ -1,5 +1,22 @@
 [
   {
+    "id": "bbc-technology-c757965b89639850",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "'Autofocus' specs promise sharp vision, near or far",
+    "url": "https://www.bbc.com/news/articles/cj6r06d7xdjo?at_medium=RSS&at_campaign=rss",
+    "summary": "Start-up firms and researchers are working on lenses that can change their focus.",
+    "fullContent": "Start-up firms and researchers are working on lenses that can change their focus.",
+    "publishedAt": "2025-07-10T23:05:30+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.579192+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "c757965b89639850"
+  },
+  {
     "id": "cepr-discussion-papers-5b5b632fa302cc74",
     "sourceId": "cepr-discussion-papers",
     "sourceName": "CEPR Discussion Papers",
@@ -212,6 +229,23 @@
     "contentHash": "a8d5b2922bf16426"
   },
   {
+    "id": "krebs-security-88db3dcafdf8d4e9",
+    "sourceId": "krebs-security",
+    "sourceName": "Krebs on Security",
+    "title": "UK Arrests Four in ‘Scattered Spider’ Ransom Group",
+    "url": "https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/",
+    "summary": "Authorities in the United Kingdom this week arrested four alleged members of \"Scattered Spider,\" a prolific data theft and extortion group whose recent victims include multiple airlines and the U.K. retail chain Marks & Spencer.",
+    "fullContent": "Authorities in the United Kingdom this week arrested four people aged 17 to 20 in connection with recent data theft and extortion attacks against the retailers Marks & Spencer and Harrods, and the British food retailer Co-op Group. The breaches have been linked to a prolific but loosely-affiliated cybercrime group dubbed “Scattered Spider,” whose other recent victims include multiple airlines. The U.K.’s National Crime Agency (NCA) declined verify the names of those arrested, saying only that they included two males aged 19, another aged 17, and 20-year-old female. Scattered Spider is the name given to an English-speaking cybercrime group known for using social engineering tactics to break into companies and steal data for ransom, often impersonating employees or contractors to deceive IT help desks into granting access. The FBI warned last month that Scattered Spider had recently shifted to targeting companies in the retail and airline sectors. KrebsOnSecurity has learned the identiti",
+    "publishedAt": "2025-07-10T17:31:10+00:00",
+    "fetchedAt": "2025-07-31T06:18:28.894111+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "88db3dcafdf8d4e9"
+  },
+  {
     "id": "brad-delong-3b175493313137a1",
     "sourceId": "brad-delong",
     "sourceName": "Brad DeLong",
@@ -389,6 +423,23 @@
     ],
     "priority": "normal",
     "contentHash": "6fa2d3cdf80e3a59"
+  },
+  {
+    "id": "bbc-technology-7f1fc05c8df30551",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Four arrested in connection with M&S and Co-op cyber-attacks",
+    "url": "https://www.bbc.com/news/articles/cwykgrv374eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Three men and one woman - aged between 17 and 20 - have been arrested in London and the Midlands.",
+    "fullContent": "Three men and one woman - aged between 17 and 20 - have been arrested in London and the Midlands.",
+    "publishedAt": "2025-07-10T13:42:24+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.573555+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "7f1fc05c8df30551"
   },
   {
     "id": "ecfr-0877a9644cc93a36",
@@ -688,6 +739,23 @@
     ],
     "priority": "high",
     "contentHash": "c49c21c648b80c92"
+  },
+  {
+    "id": "bbc-technology-ca3de983bdfc1590",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Musk says Grok chatbot was 'manipulated' into praising Hitler",
+    "url": "https://www.bbc.com/news/articles/c4g8r34nxeno?at_medium=RSS&at_campaign=rss",
+    "summary": "Anti-hate campaigners say the posts were \"irresponsible, dangerous and antisemitic.\"",
+    "fullContent": "Anti-hate campaigners say the posts were \"irresponsible, dangerous and antisemitic.\"",
+    "publishedAt": "2025-07-10T12:02:11+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.574003+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "ca3de983bdfc1590"
   },
   {
     "id": "construction-physics-dcd739124be41e41",

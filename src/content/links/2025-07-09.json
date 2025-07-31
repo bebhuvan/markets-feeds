@@ -49,6 +49,23 @@
     "contentHash": "f59f31ee731e9331"
   },
   {
+    "id": "bbc-technology-ad2cdd420eb6efcc",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Linda Yaccarino departs as boss of Musk's X",
+    "url": "https://www.bbc.com/news/articles/cx2gy3j9xq6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Her exit comes at a difficult time for Musk who, in a brief reply, thanked her for her \"contributions.\"",
+    "fullContent": "Her exit comes at a difficult time for Musk who, in a brief reply, thanked her for her \"contributions.\"",
+    "publishedAt": "2025-07-09T19:47:26+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.574370+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "ad2cdd420eb6efcc"
+  },
+  {
     "id": "larry-swedroe-e64c86bfbeab8cee",
     "sourceId": "larry-swedroe",
     "sourceName": "Larry Swedroe",
@@ -162,6 +179,24 @@
     ],
     "priority": "normal",
     "contentHash": "e35e7ba1e24101e9"
+  },
+  {
+    "id": "wsj-markets-main-bc7f641af1d660bb",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Challenger to FICO Credit Scores Gets Green Light for Use in Mortgages",
+    "url": "https://www.wsj.com/finance/regulation/mortgage-loan-vantagescore-fico-challenge-01841472?mod=rss_markets_main",
+    "summary": "Fannie Mae and Freddie Mac’s regulator says VantageScore can now be used to underwrite home loans, weighing on FICO’s stock.",
+    "fullContent": "Fannie Mae and Freddie Mac’s regulator says VantageScore can now be used to underwrite home loans, weighing on FICO’s stock.",
+    "publishedAt": "2025-07-09T17:14:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.208534+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "ESG"
+    ],
+    "priority": "normal",
+    "contentHash": "bc7f641af1d660bb"
   },
   {
     "id": "gary-marcus-1ea24b600a983108",
@@ -357,6 +392,23 @@
     "contentHash": "d0f4f1c4a8601950"
   },
   {
+    "id": "wsj-opinion-6588b5038e4d9a00",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Vie Ventures Launches to Bankroll Autoimmune-Disease Biotechs",
+    "url": "https://www.wsj.com/articles/vie-ventures-launches-to-bankroll-autoimmune-disease-biotechs-bc787c70?mod=rss_Technology",
+    "summary": "Aiming for a $75 million initial fund closing, the new venture investor plans to connect startups with nonprofits to speed their research.",
+    "fullContent": "Aiming for a $75 million initial fund closing, the new venture investor plans to connect startups with nonprofits to speed their research.",
+    "publishedAt": "2025-07-09T11:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.112310+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "6588b5038e4d9a00"
+  },
+  {
     "id": "china-talk-1146bfca7c429a94",
     "sourceId": "china-talk",
     "sourceName": "ChinaTalk",
@@ -503,5 +555,58 @@
     ],
     "priority": "normal",
     "contentHash": "58a270ef84fcd16a"
+  },
+  {
+    "id": "wsj-world-news-ef0a4cc344c40b62",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Africa Wants Its Critical Minerals to Yield Jobs, Not Just Dollars",
+    "url": "https://www.wsj.com/world/africa/africa-wants-its-critical-minerals-to-yield-jobs-not-just-dollars-850963e3",
+    "summary": "The Trump administration wants to cut deals to secure more of the key materials, but African countries are imposing export restrictions to help develop their own industries.",
+    "fullContent": "The Trump administration wants to cut deals to secure more of the key materials, but African countries are imposing export restrictions to help develop their own industries.",
+    "publishedAt": "2025-07-09T03:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.077737+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "ef0a4cc344c40b62"
+  },
+  {
+    "id": "krebs-security-841b5a4912bbdaa6",
+    "sourceId": "krebs-security",
+    "sourceName": "Krebs on Security",
+    "title": "Microsoft Patch Tuesday, July 2025 Edition",
+    "url": "https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/",
+    "summary": "Microsoft today released updates to fix at least 137 security vulnerabilities in its Windows operating systems and supported software. None of the weaknesses addressed this month are known to be actively exploited, but 14 of the flaws earned Microsoft's most-dire \"critical\" rating, meaning they could be exploited to seize control over vulnerable Windows PCs with little or no help from users.",
+    "fullContent": "Microsoft today released updates to fix at least 137 security vulnerabilities in its Windows operating systems and supported software. None of the weaknesses addressed this month are known to be actively exploited, but 14 of the flaws earned Microsoft’s most-dire “critical” rating, meaning they could be exploited to seize control over vulnerable Windows PCs with little or no help from users. While not listed as critical, CVE-2025-49719 is a publicly disclosed information disclosure vulnerability, with all versions as far back as SQL Server 2016 receiving patches. Microsoft rates CVE-2025-49719 as less likely to be exploited, but the availability of proof-of-concept code for this flaw means its patch should probably be a priority for affected enterprises. Mike Walters, co-founder of Action1, said CVE-2025-49719 can be exploited without authentication, and that many third-party applications depend on SQL server and the affected drivers — potentially introducing a supply-chain risk that e",
+    "publishedAt": "2025-07-09T00:53:33+00:00",
+    "fetchedAt": "2025-07-31T06:18:28.895828+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "high",
+    "contentHash": "841b5a4912bbdaa6"
+  },
+  {
+    "id": "bbc-technology-f0b2024fe9a04a09",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Instagram wrongly accuses some users of breaching child sex abuse rules",
+    "url": "https://www.bbc.com/news/articles/cy8kjdz9nr3o?at_medium=RSS&at_campaign=rss",
+    "summary": "It was \"horrible\", \"stressful\" and \"isolating\" those affected tell BBC News.",
+    "fullContent": "It was \"horrible\", \"stressful\" and \"isolating\" those affected tell BBC News.",
+    "publishedAt": "2025-07-09T00:09:29+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.574722+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "f0b2024fe9a04a09"
   }
 ]

@@ -83,6 +83,23 @@
     "contentHash": "0c24352abc8f6c59"
   },
   {
+    "id": "bbc-business-705a328e2268aa29",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "US companies up against 'nightmare' tariff wall",
+    "url": "https://www.bbc.com/news/articles/cqx2xx8qpl4o?at_medium=RSS&at_campaign=rss",
+    "summary": "Businesses both small and large are already reckoning with Trump's tariffs, and new levies are set to start this week.",
+    "fullContent": "Businesses both small and large are already reckoning with Trump's tariffs, and new levies are set to start this week.",
+    "publishedAt": "2025-07-28T23:23:47+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.659640+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "705a328e2268aa29"
+  },
+  {
     "id": "ft-markets-3907f9f2315ee7b6",
     "sourceId": "ft-markets",
     "sourceName": "Financial Times",
@@ -115,6 +132,23 @@
     ],
     "priority": "normal",
     "contentHash": "0ad35a7044f9883d"
+  },
+  {
+    "id": "bbc-technology-e7cf6f5575a00190",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Could aluminium become the packaging 'champion'?",
+    "url": "https://www.bbc.com/news/articles/ce3nw5vnzgpo?at_medium=RSS&at_campaign=rss",
+    "summary": "Some packaging firms say aluminium could be used more widely in packaging, but cost may hold it back",
+    "fullContent": "Some packaging firms say aluminium could be used more widely in packaging, but cost may hold it back",
+    "publishedAt": "2025-07-28T23:04:41+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.578080+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "e7cf6f5575a00190"
   },
   {
     "id": "yahoo-finance-547d8c1bced98f26",
@@ -297,6 +331,23 @@
     "contentHash": "634e27c303bbaa71"
   },
   {
+    "id": "wsj-world-news-18e91640d4ca1188",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Thailand, Cambodia Agree to Cease-Fire",
+    "url": "https://www.wsj.com/world/asia/thailand-cambodia-agree-to-cease-fire-9e5b76ac",
+    "summary": "At least 38 people have been killed in fighting linked to a century-old dispute over the countries’ shared border.",
+    "fullContent": "At least 38 people have been killed in fighting linked to a century-old dispute over the countries’ shared border.",
+    "publishedAt": "2025-07-28T22:34:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.064591+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "18e91640d4ca1188"
+  },
+  {
     "id": "yahoo-finance-4e1b7806091d948e",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -447,6 +498,24 @@
     "contentHash": "754c0b859ef376b6"
   },
   {
+    "id": "wsj-markets-main-716fce7e3ab0cfb9",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Opinion | The Interest Rate That Matters",
+    "url": "https://www.wsj.com/opinion/interest-rates-fomc-federal-reserve-jerome-powell-ten-year-treasury-b899ac3b?mod=rss_markets_main",
+    "summary": "When the Fed cut short rates in the fall, long-bond yields spiked.",
+    "fullContent": "When the Fed cut short rates in the fall, long-bond yields spiked.",
+    "publishedAt": "2025-07-28T21:42:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.200937+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "high",
+    "contentHash": "716fce7e3ab0cfb9"
+  },
+  {
     "id": "nyt-business-9a510421d199cc15",
     "sourceId": "nyt-business",
     "sourceName": "NYT Business",
@@ -461,6 +530,23 @@
     ],
     "priority": "normal",
     "contentHash": "9a510421d199cc15"
+  },
+  {
+    "id": "wsj-markets-main-5e62ef54e564ca41",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Opinion | The Gensler Surveillance Tax Goes Down",
+    "url": "https://www.wsj.com/opinion/sec-cat-tax-gary-gensler-eleventh-circuit-andrew-brasher-6cbbc2e5?mod=rss_markets_main",
+    "summary": "The Biden SEC Chair continues his stellar record of legal defeat.",
+    "fullContent": "The Biden SEC Chair continues his stellar record of legal defeat.",
+    "publishedAt": "2025-07-28T21:36:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.201483+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "low",
+    "contentHash": "5e62ef54e564ca41"
   },
   {
     "id": "yahoo-finance-d1ce3de3de3be55a",
@@ -632,6 +718,24 @@
     "contentHash": "145546776efeccab"
   },
   {
+    "id": "wsj-opinion-6485340a61d09e3d",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Cadence Design Systems Pleads Guilty to Export Violation, Will Pay $140.6 Million in Settlement",
+    "url": "https://www.wsj.com/business/earnings/cadence-design-systems-ups-outlook-amid-increasing-ai-demand-f6782414?mod=rss_Technology",
+    "summary": "The company will pay $140.6 million to settle claims that it illegally exported products to China. Separately, Cadence posted higher revenue in the second quarter and boosted its full-year earnings outlook.",
+    "fullContent": "The company will pay $140.6 million to settle claims that it illegally exported products to China. Separately, Cadence posted higher revenue in the second quarter and boosted its full-year earnings outlook.",
+    "publishedAt": "2025-07-28T21:28:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.118853+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "6485340a61d09e3d"
+  },
+  {
     "id": "yahoo-finance-0066bc2c45dbe9fe",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -662,6 +766,23 @@
     ],
     "priority": "normal",
     "contentHash": "3aa9cc91ca09f918"
+  },
+  {
+    "id": "wsj-world-news-ebce321649529012",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "How Trump Got the Upper Hand Over the EU on Tariffs",
+    "url": "https://www.wsj.com/world/europe/trade-deal-us-european-union-16adcd0a",
+    "summary": "European officials gave up on trying to avoid tariffs altogether and instead looked for the best agreement they could get.",
+    "fullContent": "European officials gave up on trying to avoid tariffs altogether and instead looked for the best agreement they could get.",
+    "publishedAt": "2025-07-28T21:19:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.073935+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "ebce321649529012"
   },
   {
     "id": "yahoo-finance-63a2ab3f9a6cef3e",
@@ -845,6 +966,40 @@
     "contentHash": "87dc11eabe9a5d84"
   },
   {
+    "id": "wsj-world-news-08e1c44f459b9f93",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Trump Says U.S., Europe to Send More Aid to Gaza",
+    "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-europe-to-send-more-aid-to-gaza-b7d83af9",
+    "summary": "The president described the food crisis in the enclave as a “terrible situation,” and said the U.S. would set up food centers and fund the effort along with European nations.",
+    "fullContent": "The president described the food crisis in the enclave as a “terrible situation,” and said the U.S. would set up food centers and fund the effort along with European nations.",
+    "publishedAt": "2025-07-28T21:04:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.064083+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "breaking",
+    "contentHash": "08e1c44f459b9f93"
+  },
+  {
+    "id": "cnbc-business-f3de9bd793543768",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Stocks making the biggest moves after hours: Cadence Design Systems, Whirlpool, Nucor and more",
+    "url": "https://www.cnbc.com/2025/07/28/stocks-making-the-biggest-moves-after-hours-cdns-whr-nue.html",
+    "summary": "These are the stocks posting the largest moves in extended trading.",
+    "fullContent": "These are the stocks posting the largest moves in extended trading.",
+    "publishedAt": "2025-07-28T21:03:56+00:00",
+    "fetchedAt": "2025-07-31T06:18:02.276653+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f3de9bd793543768"
+  },
+  {
     "id": "yahoo-finance-69b5912d43b75079",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -1025,6 +1180,25 @@
     "contentHash": "6d54ee282baffe49"
   },
   {
+    "id": "wsj-markets-main-5aaf9f7d25e9968b",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Stocks Keep Streak of Records Going Following Europe-U.S. Trade Deal",
+    "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-28-2025-48fb101e?mod=rss_markets_main",
+    "summary": "The euro fell against the U.S. dollar amid European pushback over the pact. The Nasdaq Composite and S&P 500 inched up to fresh records.",
+    "fullContent": "The euro fell against the U.S. dollar amid European pushback over the pact. The Nasdaq Composite and S&P 500 inched up to fresh records.",
+    "publishedAt": "2025-07-28T20:54:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.199345+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets",
+      "Currency"
+    ],
+    "priority": "normal",
+    "contentHash": "5aaf9f7d25e9968b"
+  },
+  {
     "id": "yahoo-finance-43eb0ca785f3f619",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -1139,6 +1313,24 @@
     ],
     "priority": "normal",
     "contentHash": "bc3b7f652e469d18"
+  },
+  {
+    "id": "bbc-business-88452b94fe1f50fb",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "France and Germany lead downbeat EU response to US trade deal",
+    "url": "https://www.bbc.com/news/articles/c3ez97zv5y5o?at_medium=RSS&at_campaign=rss",
+    "summary": "France describes it as a \"submission\", though there is relief in Europe that a trade war has been averted.",
+    "fullContent": "France describes it as a \"submission\", though there is relief in Europe that a trade war has been averted.",
+    "publishedAt": "2025-07-28T20:42:47+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.660037+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "88452b94fe1f50fb"
   },
   {
     "id": "yahoo-finance-d2754c827b3a8100",
@@ -1685,6 +1877,23 @@
     "contentHash": "dd359197051705e4"
   },
   {
+    "id": "nyt-science-319c9932dfbd09c0",
+    "sourceId": "nyt-science",
+    "sourceName": "NYT Science",
+    "title": "Healthy Lifestyle Can Help People at Risk for Dementia, Study Finds",
+    "url": "https://www.nytimes.com/2025/07/28/health/alzheimers-dementia-healthy-lifestyle.html",
+    "summary": "The study found that a combination of exercise, healthy diet and other behaviors led to cognitive benefits. How much intense guidance is required was unclear, experts said.",
+    "fullContent": "Phyllis Jones, left, and Patty Kelly, both of Aurora, Ill., were participants in the two-year study and became friends, encouraging each other during the process, which included diet changes and exercise.",
+    "publishedAt": "2025-07-28T19:53:24+00:00",
+    "fetchedAt": "2025-07-31T06:18:03.223163+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "319c9932dfbd09c0"
+  },
+  {
     "id": "nyt-economy-dec60910752e2cb5",
     "sourceId": "nyt-economy",
     "sourceName": "NYT Economy",
@@ -1719,6 +1928,23 @@
     "contentHash": "47ff2803bd8d5dd1"
   },
   {
+    "id": "nyt-science-b64239b7e2730636",
+    "sourceId": "nyt-science",
+    "sourceName": "NYT Science",
+    "title": "RFK Jr. Plans Overhaul of Federal Vaccine-Injury Compensation System",
+    "url": "https://www.nytimes.com/2025/07/28/health/kennedy-vaccine-injury-court.html",
+    "summary": "The program, created by Congress, allows people who believe they were injured by vaccines to apply for financial compensation.",
+    "fullContent": "Health Secretary Robert F. Kennedy Jr. has long complained about legal challenges regarding vaccine injuries.",
+    "publishedAt": "2025-07-28T19:29:14+00:00",
+    "fetchedAt": "2025-07-31T06:18:03.222694+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "high",
+    "contentHash": "b64239b7e2730636"
+  },
+  {
     "id": "nyt-business-ff1258782f6183fa",
     "sourceId": "nyt-business",
     "sourceName": "NYT Business",
@@ -1749,6 +1975,25 @@
     ],
     "priority": "normal",
     "contentHash": "432c898f031cd279"
+  },
+  {
+    "id": "wsj-markets-main-e8f140ab1bbbde6a",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Fintech Billionaire Beats Co-Founder in Fight to Keep Voting Superpowers",
+    "url": "https://www.wsj.com/finance/stocks/wise-shareholder-vote-kristo-kaarmann-6793e6e5?mod=rss_markets_main",
+    "summary": "Shareholders in Wise, a rare U.K. tech success, voted in favor of moving its main stock listing to New York and extending dual-class shares by a decade.",
+    "fullContent": "Shareholders in Wise, a rare U.K. tech success, voted in favor of moving its main stock listing to New York and extending dual-class shares by a decade.",
+    "publishedAt": "2025-07-28T19:12:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.199761+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "IPO",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "e8f140ab1bbbde6a"
   },
   {
     "id": "econbrowser-new-aa1d9f31da227db6",
@@ -1783,6 +2028,24 @@
     ],
     "priority": "normal",
     "contentHash": "f9f16ebf61a87b3e"
+  },
+  {
+    "id": "wsj-opinion-1d319103509c4c7b",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Ryan Reynolds, Gwyneth Paltrow Help Astronomer Move On From Coldplay Kiss Cam",
+    "url": "https://www.wsj.com/business/media/astronomer-ad-gwyneth-paltrow-ryan-reynolds-570dd3e7?mod=rss_Technology",
+    "summary": "The Hollywood stars assisted the tech firm stung by a concert public-relations crisis.",
+    "fullContent": "The Hollywood stars assisted the tech firm stung by a concert public-relations crisis.",
+    "publishedAt": "2025-07-28T18:22:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.107328+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs",
+      "Tech"
+    ],
+    "priority": "breaking",
+    "contentHash": "1d319103509c4c7b"
   },
   {
     "id": "nyt-business-46a1d48fc3546c52",
@@ -1899,6 +2162,59 @@
     ],
     "priority": "normal",
     "contentHash": "2d9268d87580039f"
+  },
+  {
+    "id": "bbc-business-f809494636170311",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Cost of living and cold weather payments open",
+    "url": "https://www.bbc.com/news/articles/cp8ze9g055no?at_medium=RSS&at_campaign=rss",
+    "summary": "Eligible islanders can claim £516.50 to help with cost of living pressures.",
+    "fullContent": "Eligible islanders can claim £516.50 to help with cost of living pressures.",
+    "publishedAt": "2025-07-28T16:09:03+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.668262+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f809494636170311"
+  },
+  {
+    "id": "cnbc-business-2d347a3c0d23b787",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Stocks making the biggest moves midday: Tesla, Nike, Revvity, Anheuser-Busch and more",
+    "url": "https://www.cnbc.com/2025/07/28/stocks-making-the-biggest-moves-midday-tsla-nke-rvty-bud.html",
+    "summary": "These are some of the stocks posting the biggest moves in midday trading.",
+    "fullContent": "These are some of the stocks posting the biggest moves in midday trading.",
+    "publishedAt": "2025-07-28T16:06:55+00:00",
+    "fetchedAt": "2025-07-31T06:18:02.277311+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2d347a3c0d23b787"
+  },
+  {
+    "id": "wsj-markets-main-8bef15cb0394d6db",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Opinion | Can Markets Trust Stablecoins?",
+    "url": "https://www.wsj.com/opinion/can-markets-trust-stablecoins-finance-investing-economy-policy-c03e0f1d?mod=rss_markets_main",
+    "summary": "The Genius Act brings more order to crypto, but the new currency it enables dresses old risks in new tech.",
+    "fullContent": "The Genius Act brings more order to crypto, but the new currency it enables dresses old risks in new tech.",
+    "publishedAt": "2025-07-28T15:56:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.201892+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto",
+      "Tech"
+    ],
+    "priority": "low",
+    "contentHash": "8bef15cb0394d6db"
   },
   {
     "id": "nyt-business-e207f08e64261311",
@@ -2148,6 +2464,42 @@
     "contentHash": "9705dabe5640f995"
   },
   {
+    "id": "wsj-world-news-10a9e6e20b709a51",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "U.S. Promised Windfalls From Japan Deal. Tokyo Has Other Ideas.",
+    "url": "https://www.wsj.com/world/asia/u-s-promised-windfalls-from-japan-deal-tokyo-has-other-ideas-da46a756",
+    "summary": "Japan is playing down the risks from its deal after the White House said the U.S. would direct $550 billion in investments by Japan and keep 90% of the profit.",
+    "fullContent": "Japan is playing down the risks from its deal after the White House said the U.S. would direct $550 billion in investments by Japan and keep 90% of the profit.",
+    "publishedAt": "2025-07-28T14:27:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.065036+00:00",
+    "category": "policy",
+    "tags": [
+      "Earnings",
+      "M&A",
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "10a9e6e20b709a51"
+  },
+  {
+    "id": "bbc-technology-fc18b26c41c041b6",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "VPNs top download charts as age verification law kicks in",
+    "url": "https://www.bbc.com/news/articles/cn72ydj70g5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Experts say free versions of such apps or services may carry potential security and privacy risks.",
+    "fullContent": "Experts say free versions of such apps or services may carry potential security and privacy risks.",
+    "publishedAt": "2025-07-28T14:25:21+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.565242+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "fc18b26c41c041b6"
+  },
+  {
     "id": "ecfr-66f6e7ed306dce11",
     "sourceId": "ecfr",
     "sourceName": "European Council on Foreign Relations",
@@ -2179,6 +2531,24 @@
     ],
     "priority": "high",
     "contentHash": "cfc49752e7effa78"
+  },
+  {
+    "id": "wsj-markets-main-e5d4c4b320fccaf6",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Trump and Bessent Bring New Style to Managing America’s Debt",
+    "url": "https://www.wsj.com/finance/investing/trump-and-bessent-bring-new-style-to-managing-americas-debt-5c2de0cc?mod=rss_markets_main",
+    "summary": "The president and the Treasury secretary have said they will wait for rates to fall before issuing longer-term bonds.",
+    "fullContent": "The president and the Treasury secretary have said they will wait for rates to fall before issuing longer-term bonds.",
+    "publishedAt": "2025-07-28T14:04:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.197555+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "high",
+    "contentHash": "e5d4c4b320fccaf6"
   },
   {
     "id": "advisor-perspectives-01478ee297d27c13",
@@ -2328,6 +2698,23 @@
     ],
     "priority": "normal",
     "contentHash": "10d8a74afcd9e235"
+  },
+  {
+    "id": "cnbc-business-db9cdbbef06a9f14",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Stocks making big premarket moves: Cheniere Energy, Nike, Kratos, ASML and more",
+    "url": "https://www.cnbc.com/2025/07/28/stocks-making-the-biggest-premarket-moves.html",
+    "summary": "These are some of the stocks posting the largest moves in early trading Monday.",
+    "fullContent": "These are some of the stocks posting the largest moves in early trading Monday.",
+    "publishedAt": "2025-07-28T12:59:46+00:00",
+    "fetchedAt": "2025-07-31T06:18:02.277675+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "db9cdbbef06a9f14"
   },
   {
     "id": "advisor-perspectives-3d892bb57718e26b",
@@ -2939,366 +3326,5 @@
     ],
     "priority": "normal",
     "contentHash": "ed4f649b91e3b306"
-  },
-  {
-    "id": "et-markets-aea2d4afb5114c98",
-    "sourceId": "et-markets",
-    "sourceName": "Economic Times",
-    "title": "Sensex falls 700 pts from day's peak, Nifty below 24,700. Here are 5 reasons why the Indian stock market is in a downtrend",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-falls-700-pts-from-days-peak-nifty-below-24700-here-are-5-reasons-why-the-indian-stock-market-is-in-a-downtrend/articleshow/122951074.cms",
-    "summary": "Indian markets tumbled on Monday with Sensex falling 726 points and Nifty breaching 24,700. Weak Q1 results, stalled US trade talks, IT layoffs, and FII outflows dampened investor sentiment.",
-    "publishedAt": "2025-07-28T09:40:48+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.625352+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "aea2d4afb5114c98"
-  },
-  {
-    "id": "investing-com-b6414c53928a1e5c",
-    "sourceId": "investing-com",
-    "sourceName": "Investing.com",
-    "title": "European leaders react to US-EU trade deal",
-    "url": "https://www.investing.com/news/commodities-news/european-leaders-react-to-useu-trade-deal-4154620",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:40:27+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.750591+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "b6414c53928a1e5c"
-  },
-  {
-    "id": "investing-com-dec47830bcde1fbb",
-    "sourceId": "investing-com",
-    "sourceName": "Investing.com",
-    "title": "ECB not rushing to cut rates, says Slovak policymaker Kazimir",
-    "url": "https://www.investing.com/news/economic-indicators/ecb-not-rushing-to-cut-rates-says-slovak-policymaker-kazimir-93CH-4154639",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:40:18+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.750662+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "dec47830bcde1fbb"
-  },
-  {
-    "id": "seeking-alpha-4e2f9d10f6308de5",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Fidelity Small Cap Index Fund Q2 2025 Commentary",
-    "url": "https://seekingalpha.com/article/4805042-fidelity-small-cap-index-fund-q2-2025-commentary?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:40:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.523916+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4e2f9d10f6308de5"
-  },
-  {
-    "id": "reuters-main-e9a9c81ef8672a67",
-    "sourceId": "reuters-main",
-    "sourceName": "Reuters",
-    "title": "Audi abaisse ses perspectives sous le poids des droits de douane et coûts de restructuration",
-    "url": "https://www.reuters.com/fr/affaires/audi-abaisse-ses-perspectives-sous-le-poids-des-droits-de-douane-et-cots-de-2025-07-28/",
-    "summary": "Audi, la marque haut de gamme de Volkswagen , a révisé à la baisse ses prévisions pour l'ensemble de l'année, lundi, citant l'impact de l'augmentation des droits de douane américains et des dépenses de restructuration.",
-    "publishedAt": "2025-07-28T09:39:34+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.793959+00:00",
-    "category": "news",
-    "tags": [
-      "News"
-    ],
-    "priority": "normal",
-    "contentHash": "e9a9c81ef8672a67"
-  },
-  {
-    "id": "seeking-alpha-5846030c8f77a9a0",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Heartland Mid Cap Value Strategy Q2 2025 Commentary",
-    "url": "https://seekingalpha.com/article/4805025-heartland-mid-cap-value-strategy-q2-2025-commentary?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:39:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.523984+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "5846030c8f77a9a0"
-  },
-  {
-    "id": "seeking-alpha-e4207b58594572da",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "BITW: Against My Bitcoin‑Maximalist Philosophy",
-    "url": "https://seekingalpha.com/article/4805024-bitw-against-my-bitcoinmaximalist-philosophy?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:38:23+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.524051+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "e4207b58594572da"
-  },
-  {
-    "id": "investing-com-e40f5668ac44d587",
-    "sourceId": "investing-com",
-    "sourceName": "Investing.com",
-    "title": "PulteGroup's SWOT analysis: homebuilder faces margin pressures amid stock rally",
-    "url": "https://www.investing.com/news/swot-analysis/pultegroups-swot-analysis-homebuilder-faces-margin-pressures-amid-stock-rally-93CH-4154638",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:38:12+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.750732+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "low",
-    "contentHash": "e40f5668ac44d587"
-  },
-  {
-    "id": "handelsblatt-88b9f98dae937606",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "Passives Einkommen : Kann ich von meinem Vermögen leben? Drei Rechenbeispiele zeigen, wie realistisch das ist",
-    "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/passives-einkommen-so-berechnen-sie-ob-sie-von-ihrem-ersparten-leben-koennen-01/100073458.html",
-    "summary": "Was einfach klingt, erfordert gute Investments und einen realistischen Blick in die Zukunft. Fiktive Beispiele zeigen, in welcher Lebenssituation die Chancen am größten sind.",
-    "publishedAt": "2025-07-28T09:38:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:46.932846+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "88b9f98dae937606"
-  },
-  {
-    "id": "reuters-main-6b3c7464e0ee8ae3",
-    "sourceId": "reuters-main",
-    "sourceName": "Reuters",
-    "title": "European leaders react to US-EU trade deal",
-    "url": "https://www.reuters.com/world/europe/european-leaders-react-us-eu-trade-deal-2025-07-28/",
-    "summary": "The U.S. struck a framework trade agreement with the European Union on Sunday, imposing a 15% import tariff on most EU goods and averting a bigger trade war between the two allies that account for almost a third of global trade.",
-    "publishedAt": "2025-07-28T09:36:47+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.798762+00:00",
-    "category": "news",
-    "tags": [
-      "M&A",
-      "News"
-    ],
-    "priority": "normal",
-    "contentHash": "6b3c7464e0ee8ae3"
-  },
-  {
-    "id": "bloomberg-markets-c7a0e4c94e1c8a66",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Adani Green’s Profit Jumps as Plant Installations Accelerate",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-28/adani-green-s-profit-jumps-as-plant-installations-accelerate",
-    "summary": "Adani Green Energy Ltd.’s first-quarter profit climbed 60% from a year earlier, driven by a sharp rise in generation capacity and a surge in electricity sales.",
-    "publishedAt": "2025-07-28T09:35:48+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.017748+00:00",
-    "category": "markets",
-    "tags": [
-      "ESG",
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "c7a0e4c94e1c8a66"
-  },
-  {
-    "id": "reuters-main-c8bbeb91c68b0026",
-    "sourceId": "reuters-main",
-    "sourceName": "Reuters",
-    "title": "French trimaran takes line honours in 100th anniversary Fastnet Race",
-    "url": "https://www.reuters.com/sports/french-trimaran-takes-line-honours-100th-anniversary-fastnet-race-2025-07-28/",
-    "summary": "SVR Lazartigue surged to line honours in the 2025 Rolex Fastnet Race on Monday, the sleek blue trimaran slicing through the darkness to become the first of a record-breaking 444-strong fleet to reach Cherbourg, France.",
-    "publishedAt": "2025-07-28T09:35:46+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.794511+00:00",
-    "category": "news",
-    "tags": [
-      "News"
-    ],
-    "priority": "breaking",
-    "contentHash": "c8bbeb91c68b0026"
-  },
-  {
-    "id": "investing-com-ecf1c9a5ff3cdadc",
-    "sourceId": "investing-com",
-    "sourceName": "Investing.com",
-    "title": "ECB's Kazimir says big unexpected economic shift needed for September rate cut",
-    "url": "https://www.investing.com/news/economy-news/ecbs-kazimir-says-big-unexpected-economic-shift-needed-for-september-rate-cut-4154637",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:35:39+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.750799+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "ecf1c9a5ff3cdadc"
-  },
-  {
-    "id": "investing-com-a0f215944ef3a49b",
-    "sourceId": "investing-com",
-    "sourceName": "Investing.com",
-    "title": "U.S. equity futures rise after U.S.-EU trade deal; pivotal week ahead",
-    "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-rise-after-useu-trade-deal-pivotal-week-ahead-4154240",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:35:27+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.750867+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a0f215944ef3a49b"
-  },
-  {
-    "id": "handelsblatt-ff0342ea861d36b6",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "MSCI World : Wöchentlich, monatlich, jährlich? Welcher Rhythmus ETF-Sparern die höchste Rendite liefert﻿",
-    "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-dieser-einzahlungsmodus-bringt-die-hoechste-rendite-ein/100128013.html",
-    "summary": "Wöchentlich, monatlich oder jährlich? Anleger müssen sich entscheiden, in welchen Zeitabständen sie in ihre ETF-Sparpläne einzahlen wollen. Das Handelsblatt hat fünf Varianten verglichen.",
-    "publishedAt": "2025-07-28T09:34:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:46.933205+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ff0342ea861d36b6"
-  },
-  {
-    "id": "yahoo-finance-15ccdd8fbcab6afb",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Base Metal Prices Edge Higher After U.S., EU Reach Deal",
-    "url": "https://www.wsj.com/finance/commodities-futures/gold-edges-lower-weighed-by-u-s-eu-trade-agreement-12a105de?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:34:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.549974+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "15ccdd8fbcab6afb"
-  },
-  {
-    "id": "reuters-main-6a2089507603113a",
-    "sourceId": "reuters-main",
-    "sourceName": "Reuters",
-    "title": "ECB's Kazimir says big unexpected economic shift needed for September rate cut",
-    "url": "https://www.reuters.com/business/ecbs-kazimir-says-big-unexpected-economic-shift-needed-september-rate-cut-2025-07-28/",
-    "summary": "The European Central Bank is not in any hurry to lower borrowing costs again and it would take a major unexpected economic shift to make a case for action in September, Slovak policymaker Peter Kazimir said on Monday.",
-    "publishedAt": "2025-07-28T09:33:48+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.794780+00:00",
-    "category": "news",
-    "tags": [
-      "News"
-    ],
-    "priority": "high",
-    "contentHash": "6a2089507603113a"
-  },
-  {
-    "id": "reuters-main-a4df5b96119b89ef",
-    "sourceId": "reuters-main",
-    "sourceName": "Reuters",
-    "title": "France-Bayrou voit dans l'accord UE-US un \"jour sombre\" et une \"soumission\"",
-    "url": "https://www.reuters.com/fr/actualites/france-bayrou-voit-dans-laccord-ue-us-un-jour-sombre-et-une-soumission-2025-07-28/",
-    "summary": "Le Premier ministre français, François Bayrou, a déploré lundi un \"jour sombre\" et une \"soumission\" après la signature de l'accord commercial entre les Etats-Unis et l'Union européenne.",
-    "publishedAt": "2025-07-28T09:33:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.795047+00:00",
-    "category": "news",
-    "tags": [
-      "News"
-    ],
-    "priority": "normal",
-    "contentHash": "a4df5b96119b89ef"
-  },
-  {
-    "id": "handelsblatt-bc399d017cadb2a3",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "Geldanlage : Wie Sie Ihre Kinder Schritt für Schritt reich machen",
-    "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-so-eroeffnen-sie-das-ideale-depot-fuer-ihr-kind/100093867.html",
-    "summary": "Kinder lieben es, Geschenke auszupacken. Doch mit einem Sparplan und einem richtigen Depot haben sie die Chance, mit 18 auf ein kleines Vermögen zuzugreifen. Was Eltern wissen müssen.",
-    "publishedAt": "2025-07-28T09:33:00+00:00",
-    "fetchedAt": "2025-07-28T09:46:46.933551+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "bc399d017cadb2a3"
-  },
-  {
-    "id": "investing-com-523a44d1f7eb3c2e",
-    "sourceId": "investing-com",
-    "sourceName": "Investing.com",
-    "title": "U.S.-EU trade deal seen reducing European growth by 0.5% - Capital Economics",
-    "url": "https://www.investing.com/news/economy-news/useu-trade-deal-seen-reducing-european-growth-by-05--capital-economics-4154636",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:32:54+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.750934+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "523a44d1f7eb3c2e"
-  },
-  {
-    "id": "investing-com-b76ff31a4376d71f",
-    "sourceId": "investing-com",
-    "sourceName": "Investing.com",
-    "title": "RBC warns it's still 'too early' to say tariffs won’t generate higher inflation",
-    "url": "https://www.investing.com/news/economy/rbc-warns-its-still-too-early-to-say-tariffs-wont-generate-higher-inflation-4154635",
-    "summary": "",
-    "publishedAt": "2025-07-28T09:31:59+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.751007+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "b76ff31a4376d71f"
-  },
-  {
-    "id": "bloomberg-markets-4ca652c5bcd3f0cb",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Diageo Said to Tap BofA, Goldman for East African Arm Review",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-28/diageo-said-to-tap-bofa-goldman-for-east-african-unit-review",
-    "summary": "Diageo Plc has picked Bank of America Corp. and Goldman Sachs Group Inc. for a strategic review of East African Breweries Ltd., people familiar with the matter said, as the distiller looks to an asset light model to free up capital for reviving growth.",
-    "publishedAt": "2025-07-28T09:31:26+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.016933+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "4ca652c5bcd3f0cb"
   }
 ]

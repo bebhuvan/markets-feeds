@@ -49,6 +49,23 @@
     "contentHash": "e8f8a4bf89c96ba3"
   },
   {
+    "id": "wsj-world-news-dad269604444fb53",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Venezuela Releases 10 Americans in Exchange for Prisoners in El Salvador",
+    "url": "https://www.wsj.com/world/americas/10-americans-released-from-venezuela-in-exchange-for-prisoners-in-el-salvador-064c660b",
+    "summary": "Salvadoran President Nayib Bukele said the exchange was the result of months of negotiations.",
+    "fullContent": "Salvadoran President Nayib Bukele said the exchange was the result of months of negotiations.",
+    "publishedAt": "2025-07-18T21:58:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.072665+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "dad269604444fb53"
+  },
+  {
     "id": "honest-broker-68804e1a50ffed68",
     "sourceId": "honest-broker",
     "sourceName": "The Honest Broker",
@@ -63,6 +80,24 @@
     ],
     "priority": "normal",
     "contentHash": "68804e1a50ffed68"
+  },
+  {
+    "id": "wsj-markets-main-ee0e5f262654afbb",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Charles Schwab Profit Jumps on Tariff Trading Surge",
+    "url": "https://www.wsj.com/finance/banking/charles-schwab-profit-jumps-on-tariff-trading-surge-10af4574?mod=rss_markets_main",
+    "summary": "The brokerage benefited from the market’s busy—and bumpy—ride since April.",
+    "fullContent": "The brokerage benefited from the market’s busy—and bumpy—ride since April.",
+    "publishedAt": "2025-07-18T21:01:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.195892+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ee0e5f262654afbb"
   },
   {
     "id": "wealth-common-sense-7237c632d73f34ac",
@@ -330,6 +365,24 @@
     "contentHash": "0d961a05b4801f14"
   },
   {
+    "id": "bbc-technology-dbe2396ffaef1838",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "The floating robot collecting rubbish in our waterways",
+    "url": "https://www.bbc.com/news/videos/cn5kn3dln3ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Tech Now meets the team behind WasteShark - can it help tackle marine plastic pollution?",
+    "fullContent": "Tech Now meets the team behind WasteShark - can it help tackle marine plastic pollution?",
+    "publishedAt": "2025-07-18T15:12:08+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.576516+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "dbe2396ffaef1838"
+  },
+  {
     "id": "quanta-magazine-e77a764eab5a3435",
     "sourceId": "quanta-magazine",
     "sourceName": "Quanta Magazine",
@@ -380,6 +433,23 @@
     ],
     "priority": "normal",
     "contentHash": "f559d5fbf0614f56"
+  },
+  {
+    "id": "wsj-markets-main-b060cc471a6c0eeb",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Why Banks Are on High Alert About Stablecoins",
+    "url": "https://www.wsj.com/finance/currencies/why-banks-are-on-high-alert-about-stablecoins-2f308aa0?mod=rss_markets_main",
+    "summary": "Banks fear the tokens could siphon deposits they use to fund loans to companies and consumers.",
+    "fullContent": "Banks fear the tokens could siphon deposits they use to fund loans to companies and consumers.",
+    "publishedAt": "2025-07-18T13:52:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.205365+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "breaking",
+    "contentHash": "b060cc471a6c0eeb"
   },
   {
     "id": "brad-delong-57a54f0a5c2aedfc",
@@ -692,6 +762,24 @@
     "contentHash": "e69b6ebcfb51b3a7"
   },
   {
+    "id": "bbc-technology-f9e4cd970ab1fc42",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Netflix uses AI effects for first time to cut costs",
+    "url": "https://www.bbc.com/news/articles/c9vr4rymlw9o?at_medium=RSS&at_campaign=rss",
+    "summary": "The streaming firm says AI allowed The Eternaut to complete a sequence faster and cheaper.",
+    "fullContent": "The streaming firm says AI allowed The Eternaut to complete a sequence faster and cheaper.",
+    "publishedAt": "2025-07-18T08:54:29+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.568245+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "f9e4cd970ab1fc42"
+  },
+  {
     "id": "ecfr-d6dc819398d77de2",
     "sourceId": "ecfr",
     "sourceName": "European Council on Foreign Relations",
@@ -722,6 +810,24 @@
     ],
     "priority": "normal",
     "contentHash": "09ad4e4f8b2d2738"
+  },
+  {
+    "id": "krebs-security-874dadac0d77d89a",
+    "sourceId": "krebs-security",
+    "sourceName": "Krebs on Security",
+    "title": "Poor Passwords Tattle on AI Hiring Bot Maker Paradox.ai",
+    "url": "https://krebsonsecurity.com/2025/07/poor-passwords-tattle-on-ai-hiring-bot-maker-paradox-ai/",
+    "summary": "Security researchers recently revealed that the personal information of millions of people who applied for jobs at McDonald's was exposed after they guessed the password (\"123456\") for the fast food chain's account at Paradox.ai, a company that makes artificial intelligence based hiring chatbots used by many Fortune 500 companies. Paradox.ai said the security oversight was an isolated incident that did not affect its other customers, but recent security breaches involving its employees in Vietnam tell a more nuanced story.",
+    "fullContent": "Security researchers recently revealed that the personal information of millions of people who applied for jobs at McDonald’s was exposed after they guessed the password (“123456”) for the fast food chain’s account at Paradox.ai, a company that makes artificial intelligence based hiring chatbots used by many Fortune 500 firms. Paradox.ai said the security oversight was an isolated incident that did not affect its other customers, but recent security breaches involving its employees in Vietnam tell a more nuanced story. A screenshot of the paradox.ai homepage showing its AI hiring chatbot “Olivia” interacting with potential hires. Earlier this month, security researchers Ian Carroll and Sam Curry wrote about simple methods they found to access the backend of the AI chatbot platform on McHire.com, the McDonald’s website that many of its franchisees use to screen job applicants. As first reported by Wired, the researchers discovered that the weak password used by Paradox exposed 64 millio",
+    "publishedAt": "2025-07-18T01:23:20+00:00",
+    "fetchedAt": "2025-07-31T06:18:28.888944+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "874dadac0d77d89a"
   },
   {
     "id": "platformer-4df95a062f3fe027",

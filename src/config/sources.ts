@@ -486,6 +486,95 @@ export const RSS_SOURCES: RSSSource[] = [
     url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCzX4HLkD7eXBgzVwHMZlhmg',
     category: 'videos',
     enabled: true
+  },
+  
+  // === NEW RSS FEEDS ===
+  
+  // CNBC RSS Feeds
+  {
+    id: 'cnbc-markets',
+    name: 'CNBC Markets',
+    url: 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114',
+    category: 'markets',
+    enabled: true
+  },
+  {
+    id: 'cnbc-business',
+    name: 'CNBC Business',
+    url: 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664',
+    category: 'markets',
+    enabled: true
+  },
+  {
+    id: 'cnbc-technology',
+    name: 'CNBC Technology',
+    url: 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15838368',
+    category: 'technology',
+    enabled: true
+  },
+  
+  // Dow Jones / WSJ Feeds
+  {
+    id: 'wsj-world-news',
+    name: 'WSJ World News',
+    url: 'https://feeds.content.dowjones.io/public/rss/RSSWorldNews',
+    category: 'policy',
+    enabled: true
+  },
+  {
+    id: 'wsj-markets-main',
+    name: 'WSJ Markets',
+    url: 'https://feeds.content.dowjones.io/public/rss/RSSMarketsMain',
+    category: 'markets',
+    enabled: true
+  },
+  {
+    id: 'wsj-opinion',
+    name: 'WSJ Opinion',
+    url: 'https://feeds.content.dowjones.io/public/rss/RSSWSJD',
+    category: 'blogs',
+    enabled: true
+  },
+  
+  // NYT Science
+  {
+    id: 'nyt-science',
+    name: 'NYT Science',
+    url: 'https://rss.nytimes.com/services/xml/rss/nyt/Science.xml',
+    category: 'technology',
+    enabled: true
+  },
+  
+  // BBC Feeds
+  {
+    id: 'bbc-business',
+    name: 'BBC Business',
+    url: 'https://feeds.bbci.co.uk/news/business/rss.xml',
+    category: 'markets',
+    enabled: true
+  },
+  {
+    id: 'bbc-technology',
+    name: 'BBC Technology',
+    url: 'https://feeds.bbci.co.uk/news/technology/rss.xml',
+    category: 'technology',
+    enabled: true
+  },
+  
+  // Specialized Sources
+  {
+    id: 'evonomics',
+    name: 'Evonomics',
+    url: 'https://evonomics.com/feed/',
+    category: 'macro',
+    enabled: true
+  },
+  {
+    id: 'krebs-security',
+    name: 'Krebs on Security',
+    url: 'https://krebsonsecurity.com/feed/',
+    category: 'technology',
+    enabled: true
   }
 ];
 

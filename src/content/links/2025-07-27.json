@@ -87,6 +87,23 @@
     "contentHash": "8cdfb01e3616654a"
   },
   {
+    "id": "bbc-business-f594ce0ab1abf4ad",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "The Caribbean islands that give you a passport if you buy a home",
+    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo?at_medium=RSS&at_campaign=rss",
+    "summary": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
+    "fullContent": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
+    "publishedAt": "2025-07-27T23:46:06+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.661208+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f594ce0ab1abf4ad"
+  },
+  {
     "id": "calculated-risk-c425b6c546d7b894",
     "sourceId": "calculated-risk",
     "sourceName": "Calculated Risk",
@@ -237,6 +254,24 @@
     ],
     "priority": "normal",
     "contentHash": "28f65634a12e8a91"
+  },
+  {
+    "id": "bbc-technology-20ef142bf185e15d",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Google failed to warn 10 million of Turkey earthquake severity",
+    "url": "https://www.bbc.com/news/articles/c77v2kx304go?at_medium=RSS&at_campaign=rss",
+    "summary": "The tech giant said only 469 serious warnings were sent out ahead of the 7.8 magnitude quake.",
+    "fullContent": "The tech giant said only 469 serious warnings were sent out ahead of the 7.8 magnitude quake.",
+    "publishedAt": "2025-07-27T23:16:50+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.565664+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "20ef142bf185e15d"
   },
   {
     "id": "marketwatch-1a9c576462a58799",
@@ -982,6 +1017,23 @@
     ],
     "priority": "normal",
     "contentHash": "12e62b4439df8027"
+  },
+  {
+    "id": "wsj-opinion-3e6f90ddb4420fb3",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Opinion | Vinay Prasad Is a Bernie Sanders Acolyte in MAHA Drag",
+    "url": "https://www.wsj.com/opinion/vinay-prasad-is-a-bernie-sanders-acolyte-in-maha-drag-healthcare-bfc3be57?mod=rss_Technology",
+    "summary": "A top FDA appointee who doesn’t think patients can be trusted to make their own healthcare decisions.",
+    "fullContent": "A top FDA appointee who doesn’t think patients can be trusted to make their own healthcare decisions.",
+    "publishedAt": "2025-07-27T20:24:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.114453+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs"
+    ],
+    "priority": "low",
+    "contentHash": "3e6f90ddb4420fb3"
   },
   {
     "id": "zerohedge-1144271f66c1b851",
@@ -1761,6 +1813,40 @@
     ],
     "priority": "normal",
     "contentHash": "d2e50e1cebec6a56"
+  },
+  {
+    "id": "wsj-opinion-828bb339f26b2dd1",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Opinion | The Sarepta Mugging and Drug Innovation",
+    "url": "https://www.wsj.com/opinion/sarepta-elevidys-gene-therapy-duchenne-fda-marty-makary-vinay-prasad-4637cce9?mod=rss_Technology",
+    "summary": "The Trump FDA tries to kill a therapy that has helped boys with a deadly diagnosis.",
+    "fullContent": "The Trump FDA tries to kill a therapy that has helped boys with a deadly diagnosis.",
+    "publishedAt": "2025-07-27T17:37:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.114842+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs"
+    ],
+    "priority": "low",
+    "contentHash": "828bb339f26b2dd1"
+  },
+  {
+    "id": "wsj-markets-main-afdd75eb06d1fa31",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Opinion | Don’t Rule Out a Rate Hike",
+    "url": "https://www.wsj.com/opinion/dont-rule-out-a-rate-hike-the-fed-inflation-9e9a36ff?mod=rss_markets_main",
+    "summary": "The Fed might have to raise the target rate to bring down inflation.",
+    "fullContent": "The Fed might have to raise the target rate to bring down inflation.",
+    "publishedAt": "2025-07-27T17:35:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.202304+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "afdd75eb06d1fa31"
   },
   {
     "id": "handelsblatt-709f2d6cb5cd78cc",
@@ -2923,6 +3009,40 @@
     "contentHash": "311d9e0839fac2db"
   },
   {
+    "id": "wsj-markets-main-f1411354a2211f9a",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Citi Rolls Out a New Premium Card in Fight for Affluent Customers",
+    "url": "https://www.wsj.com/finance/banking/citi-rolls-out-a-new-premium-card-in-fight-for-affluent-customers-e3b106c4?mod=rss_markets_main",
+    "summary": "With a $595 annual fee, the Strata Elite will compete with the Chase Sapphire Reserve and American Express Platinum.",
+    "fullContent": "With a $595 annual fee, the Strata Elite will compete with the Chase Sapphire Reserve and American Express Platinum.",
+    "publishedAt": "2025-07-27T13:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.195064+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f1411354a2211f9a"
+  },
+  {
+    "id": "wsj-opinion-ed4e0f182053b0a5",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Why You Should Use a Password Manager for All Your Secrets, Not Just Logins",
+    "url": "https://www.wsj.com/tech/personal-tech/why-you-should-use-a-password-manager-for-all-your-secrets-not-just-logins-e4c46a8b?mod=rss_Technology",
+    "summary": "Consolidate your personal data with your passwords for convenience and security.",
+    "fullContent": "Consolidate your personal data with your passwords for convenience and security.",
+    "publishedAt": "2025-07-27T13:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.109883+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "ed4e0f182053b0a5"
+  },
+  {
     "id": "ft-technology-e3f41cd3cdd31f23",
     "sourceId": "ft-technology",
     "sourceName": "FT Technology",
@@ -3180,117 +3300,5 @@
     ],
     "priority": "normal",
     "contentHash": "13f52f847bfce9a2"
-  },
-  {
-    "id": "scmp-business-88fe6688ab1655c9",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Landmark US Chinatown survived Covid, hate crimes – but tariffs pose new threat",
-    "url": "https://www.scmp.com/economy/global-economy/article/3319564/landmark-us-chinatown-survived-covid-anti-asian-violence-tariffs-pose-new-threat?utm_source=rss_feed",
-    "summary": "Oakland Chinatown, one of the oldest in the United States, almost feels as lively as Hong Kong on a busy afternoon. Shoppers squeeze along narrow pavements lined with hanging lanterns and sacks of oranges, while a variety store welcomes customers with racks of clothing and slippers. While many of the shoppers are Chinese, a considerable number could come from anywhere – a sign that Chinatown draws people from the wider San Francisco Bay Area. Despite signs of a recovery since the Covid-19...",
-    "publishedAt": "2025-07-27T12:00:09+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.593348+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "88fe6688ab1655c9"
-  },
-  {
-    "id": "ft-economics-e419700a4fa0862f",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "The answer to UK stagnation is staring us in the face",
-    "url": "https://www.ft.com/content/393e8c8a-1d13-45a6-8079-1447232898ee",
-    "summary": "Decades of policies focusing on London and the Southeast have entrenched inequalities on productivity",
-    "publishedAt": "2025-07-27T12:00:08+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.914983+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "e419700a4fa0862f"
-  },
-  {
-    "id": "the-verge-4cb2fb70d9c7961f",
-    "sourceId": "the-verge",
-    "sourceName": "The Verge",
-    "title": "Apple beta season is here",
-    "url": "https://www.theverge.com/installer-newsletter/714227/apple-ios-26-beta-retro95-pc-phone-cases-ddr-installer",
-    "summary": "Hi, friends! Welcome to Installer No. 91, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, how is summer more than a month over already, and also you can read all the old editions at the Installer homepage.) This week, I'm pondering the leaked Pixel 10 lineup, marveling […]",
-    "publishedAt": "2025-07-27T12:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.093777+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "4cb2fb70d9c7961f"
-  },
-  {
-    "id": "scmp-business-312df0d029cdea74",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Hong Kong slams Western countries over criticism of bounties for second day",
-    "url": "https://www.scmp.com/news/hong-kong/politics/article/3319755/hong-kong-slams-western-countries-over-criticism-bounties-second-straight-day?utm_source=rss_feed",
-    "summary": "The Hong Kong government has hit out at “irresponsible remarks” by Western countries for the second straight day following its decision to pursue overseas-based activists for alleged national security violations related to a group called “Hong Kong Parliament”. Authorities said on Sunday that they strongly opposed and disapproved of “smears with distorted facts” that had been communicated by officials and politicians from countries such as the US, Canada and Australia, as well as “anti-China...",
-    "publishedAt": "2025-07-27T11:50:17+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.593608+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "312df0d029cdea74"
-  },
-  {
-    "id": "handelsblatt-e2ebdd1b22d2dce1",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "Haushalt: EU-Kommission will nicht gegen deutsche Haushaltsdefizite vorgehen",
-    "url": "https://www.handelsblatt.com/politik/deutschland/haushalt-eu-kommission-will-nicht-gegen-deutsche-haushaltsdefizite-vorgehen/100144380.html",
-    "summary": "EU-Wirtschaftskommissar Dombrovskis verweist auf eine Ausnahmeregel wegen hoher Verteidigungsausgaben. Eine endgültige Entscheidung erfolgt aber erst im nächsten Frühjahr.",
-    "publishedAt": "2025-07-27T11:49:25+00:00",
-    "fetchedAt": "2025-07-28T08:47:58.275817+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "e2ebdd1b22d2dce1"
-  },
-  {
-    "id": "business-insider-3fa37f99009dd014",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "I was accepted into UC Berkeley with a full scholarship, but the cost of moving to California was still too high. I turned down the offer.",
-    "url": "https://www.businessinsider.com/accepted-into-uc-berkeley-free-tuition-turned-down-offer-2025-7",
-    "summary": "Getting into UC Berkeley with a full-ride scholarship was a dream come true. But I knew I couldn't afford California, and I wanted to be near family.",
-    "publishedAt": "2025-07-27T11:47:01+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.893434+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3fa37f99009dd014"
-  },
-  {
-    "id": "thehindubusinessline-78d8f9892138b51a",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "SEBI, exchanges revise surveillance framework for small-cap firms effective July 28",
-    "url": "https://www.thehindubusinessline.com/markets/sebi-exchanges-revise-surveillance-framework-for-small-cap-firms-effective-july-28/article69861598.ece",
-    "summary": "Revised framework to benefit 28 companies currently under the surveillance framework",
-    "publishedAt": "2025-07-27T11:44:08+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.359036+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "78d8f9892138b51a"
   }
 ]

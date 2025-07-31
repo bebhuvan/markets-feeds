@@ -815,6 +815,23 @@
     "contentHash": "2fe5e06955e6b11a"
   },
   {
+    "id": "wsj-world-news-632847a939fec476",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Trump Sought Escape on His Summer Golf Vacation. Some Scots Thought Otherwise.",
+    "url": "https://www.wsj.com/world/uk/trump-sought-escape-on-his-summer-golf-vacation-some-scots-thought-otherwise-7a917ecf",
+    "summary": "A small group of protesters greeted the president at his golf course on Scotland’s west coast.",
+    "fullContent": "A small group of protesters greeted the president at his golf course on Scotland’s west coast.",
+    "publishedAt": "2025-07-26T20:54:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.066724+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "632847a939fec476"
+  },
+  {
     "id": "yahoo-finance-df181e4e367b48ee",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -960,6 +977,23 @@
     "contentHash": "5beb73720705016a"
   },
   {
+    "id": "nyt-science-fa34b7d5408a1e3b",
+    "sourceId": "nyt-science",
+    "sourceName": "NYT Science",
+    "title": "Infection From Brain-Eating Amoeba Kills Boy in South Carolina",
+    "url": "https://www.nytimes.com/2025/07/26/health/south-carolina-child-dead-brain-eating-amoeba.html",
+    "summary": "A lawyer for the family of 12-year-old Jaysen Carr said he died on July 18 after contracting a deadly infectious amoeba while swimming in a reservoir.",
+    "fullContent": "A lawyer for the family of 12-year-old Jaysen Carr said he died on July 18 after contracting a deadly infectious amoeba while swimming in a reservoir.",
+    "publishedAt": "2025-07-26T19:27:40+00:00",
+    "fetchedAt": "2025-07-31T06:18:03.223516+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "fa34b7d5408a1e3b"
+  },
+  {
     "id": "summer-of-protocols-92a021bdea170b8b",
     "sourceId": "summer-of-protocols",
     "sourceName": "Summer of Protocols",
@@ -1007,6 +1041,23 @@
     ],
     "priority": "normal",
     "contentHash": "a1a080f999046b9b"
+  },
+  {
+    "id": "bbc-technology-74b40d168e1f6441",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "EE says latest outage fixed after 'technical fault'",
+    "url": "https://www.bbc.com/news/articles/cx2q8qw0q0go?at_medium=RSS&at_campaign=rss",
+    "summary": "The mobile phone service provider says it carried out work overnight after customers reported problems.",
+    "fullContent": "The mobile phone service provider says it carried out work overnight after customers reported problems.",
+    "publishedAt": "2025-07-26T19:02:36+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.566011+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "74b40d168e1f6441"
   },
   {
     "id": "oil-price-816691a7bbc8fa35",
@@ -1581,6 +1632,40 @@
     "contentHash": "02831de717fb9dc0"
   },
   {
+    "id": "wsj-world-news-845f5156b06d5203",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "A Cosmic Mystery: Is China Building the World’s Biggest Telescope?",
+    "url": "https://www.wsj.com/world/china/a-cosmic-mystery-is-china-building-the-worlds-biggest-telescope-d436cdef",
+    "summary": "Top American astronomers are hunting for clues about a 48-foot-wide scope that Beijing isn’t talking about.",
+    "fullContent": "Top American astronomers are hunting for clues about a 48-foot-wide scope that Beijing isn’t talking about.",
+    "publishedAt": "2025-07-26T14:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.076913+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "845f5156b06d5203"
+  },
+  {
+    "id": "bbc-technology-f5a910d4df6a6744",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Hackers steal images from women's dating safety app that vets men",
+    "url": "https://www.bbc.com/news/articles/c7vl57n74pqo?at_medium=RSS&at_campaign=rss",
+    "summary": "Thousands of women registered with Tea have had their images illegally accessed, the US firm says.",
+    "fullContent": "Thousands of women registered with Tea have had their images illegally accessed, the US firm says.",
+    "publishedAt": "2025-07-26T13:58:47+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.564882+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "f5a910d4df6a6744"
+  },
+  {
     "id": "cnbc-markets-8f430674becee781",
     "sourceId": "cnbc-markets",
     "sourceName": "CNBC Markets",
@@ -1745,6 +1830,23 @@
     "contentHash": "35aba26860e6fc79"
   },
   {
+    "id": "wsj-markets-main-e1b3145a552f40ba",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Trump Fast-Tracks Deregulatory Push at Consumer-Protection Bureau",
+    "url": "https://www.wsj.com/finance/regulation/trump-fast-tracks-deregulatory-push-at-consumer-protection-bureau-530e02d1?mod=rss_markets_main",
+    "summary": "The president has directed federal agencies to slash regulation, but some are going further.",
+    "fullContent": "The president has directed federal agencies to slash regulation, but some are going further.",
+    "publishedAt": "2025-07-26T13:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.207237+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "e1b3145a552f40ba"
+  },
+  {
     "id": "wired-9f56bb45402cfeb9",
     "sourceId": "wired",
     "sourceName": "Wired",
@@ -1888,6 +1990,23 @@
     ],
     "priority": "normal",
     "contentHash": "963103bdc1ff945e"
+  },
+  {
+    "id": "wsj-opinion-abb59bde57bde275",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Is Dubai Chocolate the Next Pumpkin Spice?",
+    "url": "https://www.wsj.com/tech/dubai-chocolate-trend-history-social-media-13915425?mod=rss_Technology",
+    "summary": "Social media fueled a flavor mix of chocolate, pistachio and kataifi dough—and now big food companies are betting on its staying power.",
+    "fullContent": "Social media fueled a flavor mix of chocolate, pistachio and kataifi dough—and now big food companies are betting on its staying power.",
+    "publishedAt": "2025-07-26T12:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.115238+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "abb59bde57bde275"
   },
   {
     "id": "advisor-perspectives-47a81efea1d1e811",
@@ -2411,6 +2530,23 @@
     "contentHash": "209a3b0d9338abb8"
   },
   {
+    "id": "wsj-world-news-502b6269e98274b9",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "The Ukrainian Police Agency at the Center of Protests Against Zelensky",
+    "url": "https://www.wsj.com/world/europe/ukraine-nabu-anticoruption-agency-9ff64124",
+    "summary": "The National Anticorruption Bureau of Ukraine has long been a battleground in Ukrainian politics, where graft is rife.",
+    "fullContent": "The National Anticorruption Bureau of Ukraine has long been a battleground in Ukrainian politics, where graft is rife.",
+    "publishedAt": "2025-07-26T04:01:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.074768+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "502b6269e98274b9"
+  },
+  {
     "id": "ft-markets-3229321e0f4a55c5",
     "sourceId": "ft-markets",
     "sourceName": "Financial Times",
@@ -2508,6 +2644,42 @@
     ],
     "priority": "normal",
     "contentHash": "c88510b4716b3491"
+  },
+  {
+    "id": "wsj-markets-main-31ad2d4c76cceb39",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "The Hottest Business Strategy This Summer Is Buying Crypto",
+    "url": "https://www.wsj.com/finance/currencies/crypto-treasury-e7ae573c?mod=rss_markets_main",
+    "summary": "Small companies are raising billions of dollars to buy bitcoin and other, more obscure cryptocurrencies. What could possibly go wrong?",
+    "fullContent": "Small companies are raising billions of dollars to buy bitcoin and other, more obscure cryptocurrencies. What could possibly go wrong?",
+    "publishedAt": "2025-07-26T01:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.204845+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "high",
+    "contentHash": "31ad2d4c76cceb39"
+  },
+  {
+    "id": "bbc-technology-a6e6452d9fd308cf",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Tech Now",
+    "url": "https://www.bbc.co.uk/iplayer/episode/m002gm6k?at_medium=RSS&at_campaign=rss",
+    "summary": "Yasmin Morgan-Griffiths has exclusive access to La Sagrada Familia in Barcelona.",
+    "fullContent": "Yasmin Morgan-Griffiths has exclusive access to La Sagrada Familia in Barcelona.",
+    "publishedAt": "2025-07-26T01:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.575394+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "a6e6452d9fd308cf"
   },
   {
     "id": "nyt-technology-cd8badffd1a7997f",

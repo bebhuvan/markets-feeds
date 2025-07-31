@@ -70,7 +70,7 @@
     "sourceName": "BBC Business",
     "title": "Labour might be down, but it's not necessarily out - voters reflect on a year in power",
     "url": "https://www.bbc.com/news/articles/cvg8vjm4ee1o?at_medium=RSS&at_campaign=rss",
-    "summary": "What\u2019s gone wrong for Labour? 2024 voters delve into it, writes Laura Kuenssberg.",
+    "summary": "What’s gone wrong for Labour? 2024 voters delve into it, writes Laura Kuenssberg.",
     "publishedAt": "2025-07-05T16:11:02+00:00",
     "fetchedAt": "2025-07-29T02:56:14.151864+00:00",
     "category": "markets",
@@ -145,6 +145,23 @@
     ],
     "priority": "normal",
     "contentHash": "f712246e2efbf728"
+  },
+  {
+    "id": "wsj-world-news-03d4ef3b9bad69f1",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Congo Braces for HIV Surge After U.S. Funding Stops",
+    "url": "https://www.wsj.com/world/africa/us-funding-cuts-aids-congo-c3c35e56",
+    "summary": "U.S. funded treatments in the country have helped reduce deaths from HIV/AIDS to around 14,000 a year, from as high as 200,000.",
+    "fullContent": "U.S. funded treatments in the country have helped reduce deaths from HIV/AIDS to around 14,000 a year, from as high as 200,000.",
+    "publishedAt": "2025-07-05T03:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.078128+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "03d4ef3b9bad69f1"
   },
   {
     "id": "branko-milanovic-0dd13b1a0fce0e24",

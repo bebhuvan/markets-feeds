@@ -233,6 +233,24 @@
     "contentHash": "61d508765ef23d48"
   },
   {
+    "id": "bbc-technology-82968af057487bb0",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Tech Life",
+    "url": "https://www.bbc.co.uk/sounds/play/w3ct6zp0?at_medium=RSS&at_campaign=rss",
+    "summary": "An American waste management company is storing organic waste deep underground.",
+    "fullContent": "An American waste management company is storing organic waste deep underground.",
+    "publishedAt": "2025-07-22T20:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.575783+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "82968af057487bb0"
+  },
+  {
     "id": "nyt-economy-3a2aa6f08311cf53",
     "sourceId": "nyt-economy",
     "sourceName": "NYT Economy",
@@ -478,6 +496,24 @@
     "contentHash": "947021eeaa5cae5b"
   },
   {
+    "id": "wsj-world-news-f5c1ef9574df50e4",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "U.K. Government Will Stick to Budget Rules, Treasury Chief Says",
+    "url": "https://www.wsj.com/world/uk/u-k-government-will-stick-to-budget-rules-treasury-chief-says-386b7325",
+    "summary": "The U.K. government will continue to stick to its budget rules despite a series of challenges that include big changes in geopolitics and trade, Chancellor of the Exchequer Rachel Reeves said.",
+    "fullContent": "The U.K. government will continue to stick to its budget rules despite a series of challenges that include big changes in geopolitics and trade, Chancellor of the Exchequer Rachel Reeves said.",
+    "publishedAt": "2025-07-22T14:59:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.067537+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "f5c1ef9574df50e4"
+  },
+  {
     "id": "cnbc-markets-261f629cd407a944",
     "sourceId": "cnbc-markets",
     "sourceName": "CNBC Markets",
@@ -709,6 +745,26 @@
     "contentHash": "ebc6726353814b17"
   },
   {
+    "id": "bbc-technology-df51c19ec4f60b53",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "OpenAI and UK sign deal to use AI in public services",
+    "url": "https://www.bbc.com/news/articles/czdv68gejm7o?at_medium=RSS&at_campaign=rss",
+    "summary": "The US tech firm behind ChatGPT say it will work with the UK government to 'deliver prosperity for all'.",
+    "fullContent": "The US tech firm behind ChatGPT say it will work with the UK government to 'deliver prosperity for all'.",
+    "publishedAt": "2025-07-22T12:00:26+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.566709+00:00",
+    "category": "technology",
+    "tags": [
+      "M&A",
+      "Technology",
+      "Tech",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "df51c19ec4f60b53"
+  },
+  {
     "id": "of-dollars-data-5552cfe4a2c986c9",
     "sourceId": "of-dollars-data",
     "sourceName": "Of Dollars And Data",
@@ -739,6 +795,23 @@
     ],
     "priority": "normal",
     "contentHash": "713e4cc0ee8e4891"
+  },
+  {
+    "id": "wsj-world-news-b82bec8c7d37fc56",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "U.S. Says Government Employee Blocked From Leaving China",
+    "url": "https://www.wsj.com/world/china/u-s-says-government-employee-blocked-from-leaving-china-e196e312",
+    "summary": "The disclosure of the exit ban on an employee of the U.S. Patent and Trademark Office comes after Beijing confirmed imposing similar restrictions on a Wells Fargo banker.",
+    "fullContent": "The disclosure of the exit ban on an employee of the U.S. Patent and Trademark Office comes after Beijing confirmed imposing similar restrictions on a Wells Fargo banker.",
+    "publishedAt": "2025-07-22T10:51:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.077347+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "b82bec8c7d37fc56"
   },
   {
     "id": "paul-krugman-cd741dc9d35977ce",

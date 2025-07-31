@@ -16,6 +16,24 @@
     "contentHash": "5afe758ad83898e3"
   },
   {
+    "id": "bbc-technology-deb72d1abec82528",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "US passes first major national crypto legislation",
+    "url": "https://www.bbc.com/news/articles/cd78lvd94zyo?at_medium=RSS&at_campaign=rss",
+    "summary": "It marks a milestone for the once fringe industry, as it expands its power in Washington.",
+    "fullContent": "It marks a milestone for the once fringe industry, as it expands its power in Washington.",
+    "publishedAt": "2025-07-17T23:17:14+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.567147+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Crypto"
+    ],
+    "priority": "normal",
+    "contentHash": "deb72d1abec82528"
+  },
+  {
     "id": "bbc-business-815013b5dc113eae",
     "sourceId": "bbc-business",
     "sourceName": "BBC Business",
@@ -180,6 +198,41 @@
     ],
     "priority": "normal",
     "contentHash": "d78299c81e4f4992"
+  },
+  {
+    "id": "wsj-markets-main-3d51127990fc6e9e",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "House Passes Crypto Bills After Trump Rallies Republicans",
+    "url": "https://www.wsj.com/finance/currencies/crypto-bills-congress-43014009?mod=rss_markets_main",
+    "summary": "The bills establish standards for stablecoins, lay out rules for crypto exchanges and ban central-bank digital currencies.",
+    "fullContent": "The bills establish standards for stablecoins, lay out rules for crypto exchanges and ban central-bank digital currencies.",
+    "publishedAt": "2025-07-17T20:54:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.205821+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "normal",
+    "contentHash": "3d51127990fc6e9e"
+  },
+  {
+    "id": "bbc-technology-8938cab0838afe83",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Meta investors settle $8bn lawsuit with Zuckerberg over Facebook privacy",
+    "url": "https://www.bbc.com/news/articles/cx2jmledvr3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Shareholders accused Meta leaders of damaging the company by allowing repeat violations of Facebook users' privacy.",
+    "fullContent": "Shareholders accused Meta leaders of damaging the company by allowing repeat violations of Facebook users' privacy.",
+    "publishedAt": "2025-07-17T20:05:28+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.567903+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "8938cab0838afe83"
   },
   {
     "id": "dwarkesh-patel-youtube-dfe569cfeb528bb0",
@@ -856,6 +909,25 @@
     "contentHash": "0ce3a12cb8650166"
   },
   {
+    "id": "wsj-markets-main-5f14d6a11716e302",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Big Banks Are Spinning Market Chaos Into Gold",
+    "url": "https://www.wsj.com/finance/banking/big-banks-are-spinning-market-chaos-into-gold-4f11ca29?mod=rss_markets_main",
+    "summary": "Jittery markets are swelling trading revenue and profit, prompting banks to put more money to work on Wall Street.",
+    "fullContent": "Jittery markets are swelling trading revenue and profit, prompting banks to put more money to work on Wall Street.",
+    "publishedAt": "2025-07-17T09:30:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.196294+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "5f14d6a11716e302"
+  },
+  {
     "id": "astral-codex-ten-c2214f72a29f8f22",
     "sourceId": "astral-codex-ten",
     "sourceName": "Astral Codex Ten",
@@ -935,5 +1007,22 @@
     ],
     "priority": "high",
     "contentHash": "1a3c7576e8af06bf"
+  },
+  {
+    "id": "wsj-world-news-d7fc1ca4a5dff023",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Nationalist Vigilantes Are Now Policing Russia’s Streets",
+    "url": "https://www.wsj.com/world/russia/nationalist-vigilantes-are-now-policing-russias-streets-02732125",
+    "summary": "Far-right groups are filling the vacuum left in Russian cities as many police officers serve in the war in Ukraine.",
+    "fullContent": "Far-right groups are filling the vacuum left in Russian cities as many police officers serve in the war in Ukraine.",
+    "publishedAt": "2025-07-17T03:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.079084+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "d7fc1ca4a5dff023"
   }
 ]

@@ -32,6 +32,41 @@
     "contentHash": "35a9fff898878797"
   },
   {
+    "id": "bbc-business-cf3c626c97b33724",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "How are trade deals actually negotiated?",
+    "url": "https://www.bbc.com/news/articles/c2ezp9d7nk2o?at_medium=RSS&at_campaign=rss",
+    "summary": "With trade agreements making headlines, three former negotiators explain how the talks unfold.",
+    "fullContent": "With trade agreements making headlines, three former negotiators explain how the talks unfold.",
+    "publishedAt": "2025-07-23T23:44:59+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.662464+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "cf3c626c97b33724"
+  },
+  {
+    "id": "wsj-opinion-41b6ae01274af049",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Trump Administration Pledges to Stimulate AI Use and Exports",
+    "url": "https://www.wsj.com/tech/ai/trump-pledges-moves-to-stimulate-ai-use-and-exports-b85b0b15?mod=rss_Technology",
+    "summary": "The administration’s artificial-intelligence “action plan” aims to boost construction of data centers and encourage exports.",
+    "fullContent": "The administration’s artificial-intelligence “action plan” aims to boost construction of data centers and encourage exports.",
+    "publishedAt": "2025-07-23T23:26:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.116970+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "41b6ae01274af049"
+  },
+  {
     "id": "nyt-technology-b836ab405e82aec0",
     "sourceId": "nyt-technology",
     "sourceName": "NYT Technology",
@@ -231,6 +266,24 @@
     "contentHash": "2bf6fba66f721b0f"
   },
   {
+    "id": "wsj-markets-main-880352ac2c2cf4ad",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Lawmakers Subpoena JPMorgan and BofA Over IPO of Chinese Battery Giant",
+    "url": "https://www.wsj.com/finance/banking/lawmakers-subpoena-jpmorgan-and-bofa-over-ipo-of-chinese-battery-startup-83f20c0d?mod=rss_markets_main",
+    "summary": "A House committee focused on national security had previously urged banks to stop work on CATL’s initial public offering.",
+    "fullContent": "A House committee focused on national security had previously urged banks to stop work on CATL’s initial public offering.",
+    "publishedAt": "2025-07-23T21:14:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.195493+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "IPO"
+    ],
+    "priority": "normal",
+    "contentHash": "880352ac2c2cf4ad"
+  },
+  {
     "id": "wired-1ec96a04552b96b8",
     "sourceId": "wired",
     "sourceName": "Wired",
@@ -261,6 +314,24 @@
     ],
     "priority": "normal",
     "contentHash": "45b351ab75d4d997"
+  },
+  {
+    "id": "wsj-markets-main-a6b62324bacd450c",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Goldman and BNY Team Up to Tokenize Money-Market Funds",
+    "url": "https://www.wsj.com/finance/investing/goldman-and-bny-team-up-to-tokenize-money-market-funds-4d01b4d5?mod=rss_markets_main",
+    "summary": "The banking giants join a growing list of traditional financial firms seeking to bring crypto technology to assets ranging from stocks and investment funds to commodities.",
+    "fullContent": "The banking giants join a growing list of traditional financial firms seeking to bring crypto technology to assets ranging from stocks and investment funds to commodities.",
+    "publishedAt": "2025-07-23T19:37:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.198519+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "normal",
+    "contentHash": "a6b62324bacd450c"
   },
   {
     "id": "china-talk-4d7c821a8cd4e338",
@@ -856,6 +927,23 @@
     "contentHash": "ec89cd7a7c01dea6"
   },
   {
+    "id": "bbc-business-1ca008dd2ac8c0e1",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "The big winner from Coca-Cola's Trump-inspired sugar push",
+    "url": "https://www.bbc.com/news/articles/cp8263jn20zo?at_medium=RSS&at_campaign=rss",
+    "summary": "The sugar industry has long been protected and now Trump has given it another shot in the arm by pressing Coca Cola.",
+    "fullContent": "The sugar industry has long been protected and now Trump has given it another shot in the arm by pressing Coca Cola.",
+    "publishedAt": "2025-07-23T13:59:04+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.662867+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1ca008dd2ac8c0e1"
+  },
+  {
     "id": "abnormal-returns-4ff2f8cfef30a02b",
     "sourceId": "abnormal-returns",
     "sourceName": "Abnormal Returns",
@@ -983,6 +1071,26 @@
     ],
     "priority": "high",
     "contentHash": "37e0dcc4a57d3fef"
+  },
+  {
+    "id": "wsj-opinion-40e9bbc278a1e25c",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Why Amazon Wants an AI Bracelet That Records Everything You Say",
+    "url": "https://www.wsj.com/tech/personal-tech/amazon-bee-ai-wearable-cea07934?mod=rss_Technology",
+    "summary": "The tech giant’s acquisition of Bee is its latest move into the burgeoning AI-gadget business.",
+    "fullContent": "The tech giant’s acquisition of Bee is its latest move into the burgeoning AI-gadget business.",
+    "publishedAt": "2025-07-23T12:14:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.110272+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs",
+      "M&A",
+      "Tech",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "40e9bbc278a1e25c"
   },
   {
     "id": "foreign-affairs-9358d8d9429a6645",
@@ -1216,6 +1324,24 @@
     "contentHash": "a7621e54a63231d4"
   },
   {
+    "id": "wsj-opinion-324e0c12d24f50db",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Robotics Startup Dash Bio Sprints to New Financing",
+    "url": "https://www.wsj.com/articles/robotics-startup-dash-bio-sprints-to-new-financing-73d98dc8?mod=rss_Technology",
+    "summary": "The company seeks to accelerate drug development by automating analysis of study samples.",
+    "fullContent": "The company seeks to accelerate drug development by automating analysis of study samples.",
+    "publishedAt": "2025-07-23T10:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.111916+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs",
+      "Tech"
+    ],
+    "priority": "high",
+    "contentHash": "324e0c12d24f50db"
+  },
+  {
     "id": "nautilus-magazine-c80bf4ae43359a84",
     "sourceId": "nautilus-magazine",
     "sourceName": "Nautilus",
@@ -1298,6 +1424,23 @@
     ],
     "priority": "normal",
     "contentHash": "9a08751c33013164"
+  },
+  {
+    "id": "wsj-markets-main-7686b6745d1e185e",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Morgan Stanley’s Screening of Wealth-Management Clients Draws More Scrutiny",
+    "url": "https://www.wsj.com/finance/regulation/morgan-stanley-money-laundering-probe-866ddbd1?mod=rss_markets_main",
+    "summary": "The Wall Street firm is being investigated over whether it properly vetted its clients for money-laundering risks.",
+    "fullContent": "The Wall Street firm is being investigated over whether it properly vetted its clients for money-laundering risks.",
+    "publishedAt": "2025-07-23T01:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.207683+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7686b6745d1e185e"
   },
   {
     "id": "the-acquirers-fund-19a4115e9924dbdb",

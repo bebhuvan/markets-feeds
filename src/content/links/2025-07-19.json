@@ -1,5 +1,24 @@
 [
   {
+    "id": "bbc-technology-63f742fb4aef9131",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "How the rise of green tech is feeding another environmental crisis",
+    "url": "https://www.bbc.com/news/articles/c30741j351go?at_medium=RSS&at_campaign=rss",
+    "summary": "The world's race to decarbonise has led to the rise of electric cars - and with it, soaring demand for lithium, which is required for the batteries",
+    "fullContent": "The world's race to decarbonise has led to the rise of electric cars - and with it, soaring demand for lithium, which is required for the batteries",
+    "publishedAt": "2025-07-19T23:05:12+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.567548+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "ESG",
+      "Tech"
+    ],
+    "priority": "breaking",
+    "contentHash": "63f742fb4aef9131"
+  },
+  {
     "id": "dave-nadig-9d4df9c832d4a3da",
     "sourceId": "dave-nadig",
     "sourceName": "Dave Nadig",
@@ -197,6 +216,23 @@
     "contentHash": "ef059ba070a9f7be"
   },
   {
+    "id": "wsj-opinion-587f7f6c77e5881a",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Traveling Abroad? How to Avoid Surprise Phone Charges and Save Money on Roaming",
+    "url": "https://www.wsj.com/tech/personal-tech/travel-pass-esim-cellular-data-abroad-cd7c055c?mod=rss_Technology",
+    "summary": "A daily pass from your carrier is convenient, but a prepaid, downloadable eSIM can be a lot cheaper.",
+    "fullContent": "A daily pass from your carrier is convenient, but a prepaid, downloadable eSIM can be a lot cheaper.",
+    "publishedAt": "2025-07-19T11:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.110709+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "587f7f6c77e5881a"
+  },
+  {
     "id": "adam-tooze-fde2d1ed022b41cc",
     "sourceId": "adam-tooze",
     "sourceName": "Adam Tooze",
@@ -309,6 +345,75 @@
     ],
     "priority": "normal",
     "contentHash": "bc1dfc3696693183"
+  },
+  {
+    "id": "wsj-world-news-a62d2bb40c1a990a",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "The U.K. Closed a Tax Loophole for the Global Rich. Now They’re Fleeing.",
+    "url": "https://www.wsj.com/world/uk/the-u-k-closed-a-tax-loophole-for-the-global-rich-now-theyre-fleeing-f078cce4",
+    "summary": "Instead of paying up, wealthy expats are getting out—sparking questions about whether the move will raise any money at all.",
+    "fullContent": "Instead of paying up, wealthy expats are getting out—sparking questions about whether the move will raise any money at all.",
+    "publishedAt": "2025-07-19T04:01:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.068054+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "a62d2bb40c1a990a"
+  },
+  {
+    "id": "wsj-world-news-cbc4a575497bae0f",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Brazil’s Bolsonaro Ordered to Wear Ankle Monitor",
+    "url": "https://www.wsj.com/world/americas/brazils-bolsonaro-ordered-to-wear-ankle-bracelet-6cf432df",
+    "summary": "President Trump’s plan to place tariffs on Brazilian goods because of a legal action against the country’s former president has boosted its leftist leader.",
+    "fullContent": "President Trump’s plan to place tariffs on Brazilian goods because of a legal action against the country’s former president has boosted its leftist leader.",
+    "publishedAt": "2025-07-19T02:11:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.072147+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "cbc4a575497bae0f"
+  },
+  {
+    "id": "bbc-technology-f04e0b2bf029ce1e",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Tech Now",
+    "url": "https://www.bbc.co.uk/iplayer/episode/m002g8zw?at_medium=RSS&at_campaign=rss",
+    "summary": "Ione Wells explores if lithium mining can be done more sustainably.",
+    "fullContent": "Ione Wells explores if lithium mining can be done more sustainably.",
+    "publishedAt": "2025-07-19T01:00:30+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.576124+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "f04e0b2bf029ce1e"
+  },
+  {
+    "id": "wsj-opinion-15558409d55c787d",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "The ‘Smart’ Restrooms That Can Solve America’s Public Bathroom Crisis",
+    "url": "https://www.wsj.com/tech/personal-tech/america-public-bathroom-crisis-218f6e57?mod=rss_Technology",
+    "summary": "Throne Labs is betting that Uber-like ratings and privacy-protecting sensors can lead to a better, more enduring system of public toilets.",
+    "fullContent": "Throne Labs is betting that Uber-like ratings and privacy-protecting sensors can lead to a better, more enduring system of public toilets.",
+    "publishedAt": "2025-07-19T01:00:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.111126+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs"
+    ],
+    "priority": "breaking",
+    "contentHash": "15558409d55c787d"
   },
   {
     "id": "cnbc-markets-8d5f0ab7b1c9792c",

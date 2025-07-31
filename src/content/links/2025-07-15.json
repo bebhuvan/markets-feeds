@@ -131,6 +131,41 @@
     "contentHash": "a03b2ff49093541d"
   },
   {
+    "id": "bbc-technology-f013ad9dbbf903a1",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Tech Life",
+    "url": "https://www.bbc.co.uk/sounds/play/w3ct6znz?at_medium=RSS&at_campaign=rss",
+    "summary": "We take a deep dive into quantum computers, with experts answering listeners' questions.",
+    "fullContent": "We take a deep dive into quantum computers, with experts answering listeners' questions.",
+    "publishedAt": "2025-07-15T19:30:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.576915+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "f013ad9dbbf903a1"
+  },
+  {
+    "id": "wsj-world-news-d49a79eb5ba95bbf",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "A Day After Trump Promised New Arms for Ukraine, He Warns Kyiv Against Striking Moscow",
+    "url": "https://www.wsj.com/world/russia/trump-advised-zelensky-to-take-the-fight-to-russia-senior-ukrainian-official-says-bdf7dffe",
+    "summary": "The president’s call for Ukraine to avoid hitting Moscow continued his pattern of swinging between pressure on both sides to end the war and underscored the uncertainties about his strategy.",
+    "fullContent": "The president’s call for Ukraine to avoid hitting Moscow continued his pattern of swinging between pressure on both sides to end the war and underscored the uncertainties about his strategy.",
+    "publishedAt": "2025-07-15T18:54:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.079515+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "high",
+    "contentHash": "d49a79eb5ba95bbf"
+  },
+  {
     "id": "nyt-economy-87b2441441fc220b",
     "sourceId": "nyt-economy",
     "sourceName": "NYT Economy",
@@ -505,6 +540,23 @@
     "contentHash": "ee545ecaa84e1f58"
   },
   {
+    "id": "wsj-world-news-fe3ba2c5eb89f7e1",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Defense Official’s Data Blunder Forced U.K. to Secretly Relocate Thousands of Afghans",
+    "url": "https://www.wsj.com/world/uk/defense-officials-data-blunder-forced-u-k-to-secretly-relocate-thousands-of-afghans-c2e0a5b1",
+    "summary": "The U.K. government went to great lengths to keep the mistake and its ramifications secret, including acquiring a rare court injunction banning all reporting on the matter back in 2023.",
+    "fullContent": "The U.K. government went to great lengths to keep the mistake and its ramifications secret, including acquiring a rare court injunction banning all reporting on the matter back in 2023.",
+    "publishedAt": "2025-07-15T15:20:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.068517+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "fe3ba2c5eb89f7e1"
+  },
+  {
     "id": "fed-news-dc0adf15847ce835",
     "sourceId": "fed-news",
     "sourceName": "Federal Reserve",
@@ -651,6 +703,24 @@
     ],
     "priority": "normal",
     "contentHash": "88c01c3b27d51e5a"
+  },
+  {
+    "id": "bbc-technology-3ee05cd34f8f09b4",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "WeTransfer says files not used to train AI after backlash",
+    "url": "https://www.bbc.com/news/articles/cp8mp79gyz1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Some social media users had threatened to delete their accounts after WeTransfer's terms were updated.",
+    "fullContent": "Some social media users had threatened to delete their accounts after WeTransfer's terms were updated.",
+    "publishedAt": "2025-07-15T12:47:23+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.569374+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "3ee05cd34f8f09b4"
   },
   {
     "id": "yale-e360-b507aa7ca067e6ba",
@@ -863,6 +933,41 @@
     "contentHash": "1450dddef2248463"
   },
   {
+    "id": "bbc-technology-c537587b1ade5d4c",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Reddit starts verifying ages of users in the UK",
+    "url": "https://www.bbc.com/news/articles/cj4ep1znk4zo?at_medium=RSS&at_campaign=rss",
+    "summary": "The platform will bring in the measures from 14 July to stop under-18s looking at \"certain mature content\".",
+    "fullContent": "The platform will bring in the measures from 14 July to stop under-18s looking at \"certain mature content\".",
+    "publishedAt": "2025-07-15T08:14:17+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.571589+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "c537587b1ade5d4c"
+  },
+  {
+    "id": "bbc-technology-e741daa46590fc18",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Nvidia says it will restart AI chip sales to China",
+    "url": "https://www.bbc.com/news/articles/cy8g22n32d0o?at_medium=RSS&at_campaign=rss",
+    "summary": "The move would reverse a US ban on sales of the high-end chip to the world's second largest economy.",
+    "fullContent": "The move would reverse a US ban on sales of the high-end chip to the world's second largest economy.",
+    "publishedAt": "2025-07-15T06:03:35+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.570657+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "e741daa46590fc18"
+  },
+  {
     "id": "imf-news-special-f6caa6d00d1c279d",
     "sourceId": "imf-news-special",
     "sourceName": "IMF News Special",
@@ -947,6 +1052,43 @@
     ],
     "priority": "normal",
     "contentHash": "39cb88c070d4cc79"
+  },
+  {
+    "id": "bbc-technology-31b10eb3ce19b3b3",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Meta to spend hundreds of billions to build AI data centres",
+    "url": "https://www.bbc.com/news/articles/c1e02vx55wpo?at_medium=RSS&at_campaign=rss",
+    "summary": "The founder of the social media giant said one of the sites would cover an area nearly the size of Manhattan.",
+    "fullContent": "The founder of the social media giant said one of the sites would cover an area nearly the size of Manhattan.",
+    "publishedAt": "2025-07-15T03:59:02+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.571178+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "31b10eb3ce19b3b3"
+  },
+  {
+    "id": "krebs-security-6e81e36657804e3c",
+    "sourceId": "krebs-security",
+    "sourceName": "Krebs on Security",
+    "title": "DOGE Denizen Marko Elez Leaked API Key for xAI",
+    "url": "https://krebsonsecurity.com/2025/07/doge-denizen-marko-elez-leaked-api-key-for-xai/",
+    "summary": "Marko Elez, a 25-year-old employee at Elon Musk's Department of Government Efficiency (DOGE), has been granted access to sensitive databases at the U.S. Social Security Administration, the Treasury and Justice departments, and the Department of Homeland Security. So it should fill all Americans with a deep sense of confidence to learn that Mr. Elez over the weekend inadvertently published a private key that allowed anyone to interact directly with more than four dozen large language models (LLMs) developed by Musk's artificial intelligence company xAI.",
+    "fullContent": "Marko Elez, a 25-year-old employee at Elon Musk’s Department of Government Efficiency (DOGE), has been granted access to sensitive databases at the U.S. Social Security Administration, the Treasury and Justice departments, and the Department of Homeland Security. So it should fill all Americans with a deep sense of confidence to learn that Mr. Elez over the weekend inadvertently published a private key that allowed anyone to interact directly with more than four dozen large language models (LLMs) developed by Musk’s artificial intelligence company xAI. Image: Shutterstock, @sdx15. On July 13, Mr. Elez committed a code script to GitHub called “agent.py” that included a private application programming interface (API) key for xAI. The inclusion of the private key was first flagged by GitGuardian, a company that specializes in detecting and remediating exposed secrets in public and proprietary environments. GitGuardian’s systems constantly scan GitHub and other code repositories for expose",
+    "publishedAt": "2025-07-15T01:23:43+00:00",
+    "fetchedAt": "2025-07-31T06:18:28.890894+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Debt",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "6e81e36657804e3c"
   },
   {
     "id": "platformer-2c10d98c29d59ab3",

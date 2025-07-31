@@ -118,6 +118,23 @@
     "contentHash": "9f9fa948c6e6a820"
   },
   {
+    "id": "wsj-world-news-f8e1e14439e54644",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Canada Limits Steel Imports From All Countries Except U.S., Mexico",
+    "url": "https://www.wsj.com/world/americas/canada-imposes-limits-on-steel-imports-from-all-countries-except-u-s-mexico-3f1f5263",
+    "summary": "Canada introduced limits on how much foreign steel produced in countries other than the U.S. and Mexico can be imported to help a domestic sector reeling from President Trump’s tariffs.",
+    "fullContent": "Canada introduced limits on how much foreign steel produced in countries other than the U.S. and Mexico can be imported to help a domestic sector reeling from President Trump’s tariffs.",
+    "publishedAt": "2025-07-16T19:13:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.073084+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "f8e1e14439e54644"
+  },
+  {
     "id": "economist-finance-25dcae5a9363f270",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
@@ -645,6 +662,23 @@
     "contentHash": "a3eaf8166bd6b424"
   },
   {
+    "id": "bbc-technology-55f8f2f77dcfa23d",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Co-op boss confirms all 6.5m members had data stolen",
+    "url": "https://www.bbc.com/news/articles/cql0ple066po?at_medium=RSS&at_campaign=rss",
+    "summary": "In her first interview since the attack, Co-op's chief executive said she was \"incredibly sorry\" to customers.",
+    "fullContent": "In her first interview since the attack, Co-op's chief executive said she was \"incredibly sorry\" to customers.",
+    "publishedAt": "2025-07-16T13:10:12+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.568666+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "55f8f2f77dcfa23d"
+  },
+  {
     "id": "yale-e360-2c17ca7ff52f1fb2",
     "sourceId": "yale-e360",
     "sourceName": "Yale E360",
@@ -886,6 +920,23 @@
     ],
     "priority": "normal",
     "contentHash": "19b6874a13f7648c"
+  },
+  {
+    "id": "bbc-technology-70d69518b5dc4db8",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "How will age verification for porn work and what about privacy?",
+    "url": "https://www.bbc.com/news/articles/ceq7ye3q2zwo?at_medium=RSS&at_campaign=rss",
+    "summary": "Anyone in the UK wanting to access online porn will soon have to undergo more rigorous age checks.",
+    "fullContent": "Anyone in the UK wanting to access online porn will soon have to undergo more rigorous age checks.",
+    "publishedAt": "2025-07-16T08:04:09+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.569016+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "70d69518b5dc4db8"
   },
   {
     "id": "cnbc-economy-0e36f3dbb73045f5",

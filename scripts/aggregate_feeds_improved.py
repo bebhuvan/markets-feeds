@@ -173,6 +173,25 @@ class FeedAggregator:
             {'id': 'nyt-business', 'name': 'NYT Business', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Business.xml', 'category': 'markets', 'priority': 1},
             {'id': 'nyt-economy', 'name': 'NYT Economy', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml', 'category': 'macro', 'priority': 1},
             {'id': 'nyt-technology', 'name': 'NYT Technology', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml', 'category': 'technology', 'priority': 1},
+            {'id': 'nyt-science', 'name': 'NYT Science', 'url': 'https://rss.nytimes.com/services/xml/rss/nyt/Science.xml', 'category': 'technology', 'priority': 1},
+            
+            # === CNBC RSS FEEDS ===
+            {'id': 'cnbc-markets', 'name': 'CNBC Markets', 'url': 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114', 'category': 'markets', 'priority': 1},
+            {'id': 'cnbc-business', 'name': 'CNBC Business', 'url': 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664', 'category': 'markets', 'priority': 1},
+            {'id': 'cnbc-technology', 'name': 'CNBC Technology', 'url': 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15838368', 'category': 'technology', 'priority': 1},
+            
+            # === DOW JONES / WSJ FEEDS ===
+            {'id': 'wsj-world-news', 'name': 'WSJ World News', 'url': 'https://feeds.content.dowjones.io/public/rss/RSSWorldNews', 'category': 'policy', 'priority': 1},
+            {'id': 'wsj-markets-main', 'name': 'WSJ Markets', 'url': 'https://feeds.content.dowjones.io/public/rss/RSSMarketsMain', 'category': 'markets', 'priority': 1},
+            {'id': 'wsj-opinion', 'name': 'WSJ Opinion', 'url': 'https://feeds.content.dowjones.io/public/rss/RSSWSJD', 'category': 'blogs', 'priority': 1},
+            
+            # === BBC FEEDS ===
+            {'id': 'bbc-business', 'name': 'BBC Business', 'url': 'https://feeds.bbci.co.uk/news/business/rss.xml', 'category': 'markets', 'priority': 1},
+            {'id': 'bbc-technology', 'name': 'BBC Technology', 'url': 'https://feeds.bbci.co.uk/news/technology/rss.xml', 'category': 'technology', 'priority': 1},
+            
+            # === SPECIALIZED SOURCES ===
+            {'id': 'evonomics', 'name': 'Evonomics', 'url': 'https://evonomics.com/feed/', 'category': 'macro', 'priority': 2},
+            {'id': 'krebs-security', 'name': 'Krebs on Security', 'url': 'https://krebsonsecurity.com/feed/', 'category': 'technology', 'priority': 2},
             
             # === YOUTUBE CHANNELS (Videos) ===
             {'id': 'cnbc-tv18-youtube', 'name': 'CNBC-TV18', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCPP3etACgdUWvizcES1dJ8Q', 'category': 'videos', 'priority': 2},
