@@ -205,8 +205,8 @@ const categoryLabels = {
                 </h2>
                 {link.summary && link.summary.trim() && (
                   <p class="article-excerpt">
-                    {link.summary.length > 150 
-                      ? link.summary.substring(0, 150).trim() + '...' 
+                    {link.summary.length > 400 
+                      ? link.summary.substring(0, 400).trim() + '...' 
                       : link.summary}
                   </p>
                 )}
@@ -609,10 +609,11 @@ const categoryLabels = {
         color: #6b7280;
         line-height: 1.5;
         margin-bottom: 8px;
-        /* Remove webkit-line-clamp for better text display */
-        max-height: 8em; /* ~5-6 lines * 1.5 line-height */
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
         overflow: hidden;
-        display: block;
+        max-height: 9em; /* 6 lines * 1.5 line-height */
     }
 
     .article-tags {
