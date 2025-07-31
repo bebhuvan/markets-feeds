@@ -71,9 +71,19 @@ async function addFeed(feedData: { name: string; url: string; category: string; 
     enabled: true
   },`;
 
-    const githubToken = process.env.GITHUB_TOKEN;
+    // Debug: Check multiple ways to access environment variables
+    const githubToken = process.env.GITHUB_TOKEN || 
+                       globalThis.process?.env?.GITHUB_TOKEN ||
+                       (typeof Deno !== 'undefined' ? Deno.env.get('GITHUB_TOKEN') : undefined);
     const repoOwner = 'bebhuvan'; // Replace with actual repo owner
     const repoName = 'markets-feeds'; // Replace with actual repo name
+    
+    // Debug logging for add feed
+    console.log('Add feed - Environment check:', {
+      hasToken: !!githubToken,
+      tokenLength: githubToken ? githubToken.length : 0,
+      tokenPrefix: githubToken ? githubToken.substring(0, 7) + '...' : 'none'
+    });
     
     if (githubToken) {
       try {
@@ -252,9 +262,20 @@ async function testFeed(feedData: { url: string }) {
 async function refreshAllFeeds() {
   try {
     // Try to trigger GitHub Actions workflow via API
-    const githubToken = process.env.GITHUB_TOKEN;
+    // Debug: Check multiple ways to access environment variables
+    const githubToken = process.env.GITHUB_TOKEN || 
+                       globalThis.process?.env?.GITHUB_TOKEN ||
+                       (typeof Deno !== 'undefined' ? Deno.env.get('GITHUB_TOKEN') : undefined);
     const repoOwner = 'bebhuvan'; // Replace with actual repo owner
     const repoName = 'markets-feeds'; // Replace with actual repo name
+    
+    // Debug logging (will show in Cloudflare Functions logs)
+    console.log('Environment check:', {
+      hasToken: !!githubToken,
+      tokenLength: githubToken ? githubToken.length : 0,
+      tokenPrefix: githubToken ? githubToken.substring(0, 7) + '...' : 'none',
+      envKeys: Object.keys(process.env || {}).filter(k => k.includes('GITHUB') || k.includes('TOKEN'))
+    });
     
     if (githubToken) {
       try {
@@ -315,11 +336,23 @@ async function refreshAllFeeds() {
     } else {
       // Fallback when no GitHub token available
       return new Response(JSON.stringify({ 
-        success: true,
-        message: 'Feed refresh request received. GitHub token not configured, so this would trigger the RSS aggregation workflow in production.',
+        success: false,
+        error: 'GitHub token not found',
+        message: 'GITHUB_TOKEN environment variable is not accessible in this runtime environment.',
         timestamp: new Date().toISOString(),
         workflow_triggered: false,
-        fallback_message: 'To enable automatic workflow triggering, configure GITHUB_TOKEN environment variable with repo permissions.'
+        debug_info: {
+          runtime: typeof process !== 'undefined' ? 'Node.js' : typeof Deno !== 'undefined' ? 'Deno' : 'Unknown',
+          hasProcess: typeof process !== 'undefined',
+          hasProcessEnv: typeof process?.env !== 'undefined',
+          envKeyCount: Object.keys(process?.env || {}).length
+        },
+        solutions: [
+          '1. Verify GITHUB_TOKEN is set in Cloudflare Pages environment variables',
+          '2. Ensure the variable is set for the Production environment',
+          '3. Check that the latest deployment includes the environment variable',
+          '4. Manual fallback: https://github.com/bebhuvan/markets-feeds/actions/workflows/aggregate-feeds.yml'
+        ]
       }), {
         status: 200,
         headers: { 'Content-Type': 'application/json' }
