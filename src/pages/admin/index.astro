@@ -836,6 +836,7 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
 
     <script define:vars={{ RSS_SOURCES }}>
         // Development mode authentication fallback
+        // GITHUB_TOKEN environment variable configured - admin functions should work
         if (!window.location.search.includes('pass=') && sessionStorage.getItem('admin_auth')) {
             const auth = sessionStorage.getItem('admin_auth');
             if (auth === 'MF2025!SecureTeam#AdminAccess789') {
