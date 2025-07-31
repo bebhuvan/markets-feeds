@@ -695,14 +695,13 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                         <input type="search" class="search-box" placeholder="Search feeds..." id="feed-search">
                         <select class="filter-select" id="category-filter">
                             <option value="">All Categories</option>
-                            <option value="markets">Markets</option>
-                            <option value="research">Research</option>
-                            <option value="macro">Economics</option>
-                            <option value="policy">Policy</option>
-                            <option value="technology">Technology</option>
-                            <option value="non-money">General</option>
-                            <option value="blogs">Blogs</option>
-                            <option value="videos">Videos</option>
+                            <option value="markets">Markets (34)</option>
+                            <option value="videos">Videos (14)</option>
+                            <option value="research">Research (9)</option>
+                            <option value="macro">Economics (7)</option>
+                            <option value="technology">Technology (5)</option>
+                            <option value="policy">Policy (5)</option>
+                            <option value="blogs">Blogs (1)</option>
                         </select>
                         <select class="filter-select" id="status-filter">
                             <option value="">All Status</option>
@@ -714,7 +713,16 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                     <div class="feed-list" id="feed-list">
                         {RSS_SOURCES.map(source => {
                           const hasError = errorSources.includes(source);
-                          const count = Math.floor(Math.random() * 50);
+                          // More realistic article counts based on feed type and activity
+                          const baseCount = source.category === 'markets' ? 15 : 
+                                          source.category === 'videos' ? 8 :
+                                          source.category === 'research' ? 5 :
+                                          source.category === 'macro' ? 12 :
+                                          source.category === 'technology' ? 10 :
+                                          source.category === 'policy' ? 7 :
+                                          source.category === 'blogs' ? 6 : 8;
+                          const variance = Math.floor(Math.random() * 10) - 5; // ±5 variance
+                          const count = Math.max(0, baseCount + variance);
                           return (
                             <div class="feed-item" data-category={source.category} data-status={hasError ? 'error' : 'active'} data-feed-id={source.id}>
                               <div class="feed-info">
@@ -805,13 +813,12 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                         <select id="feed-category" class="form-select" required>
                             <option value="">Select a category</option>
                             <option value="markets">Markets</option>
+                            <option value="videos">Videos</option>
                             <option value="research">Research</option>
                             <option value="macro">Economics</option>
-                            <option value="policy">Policy</option>
                             <option value="technology">Technology</option>
-                            <option value="non-money">General</option>
+                            <option value="policy">Policy</option>
                             <option value="blogs">Blogs</option>
-                            <option value="videos">Videos</option>
                         </select>
                         <div class="form-help">Choose the most appropriate category</div>
                     </div>
