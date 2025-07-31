@@ -74,7 +74,7 @@ async function addFeed(feedData: { name: string; url: string; category: string; 
     // Debug: Check multiple ways to access environment variables
     const githubToken = process.env.GITHUB_TOKEN || 
                        globalThis.process?.env?.GITHUB_TOKEN ||
-                       (typeof Deno !== 'undefined' ? Deno.env.get('GITHUB_TOKEN') : undefined);
+                       ((globalThis as any).Deno?.env?.get?.('GITHUB_TOKEN'));
     const repoOwner = 'bebhuvan'; // Replace with actual repo owner
     const repoName = 'markets-feeds'; // Replace with actual repo name
     
@@ -265,7 +265,7 @@ async function refreshAllFeeds() {
     // Debug: Check multiple ways to access environment variables
     const githubToken = process.env.GITHUB_TOKEN || 
                        globalThis.process?.env?.GITHUB_TOKEN ||
-                       (typeof Deno !== 'undefined' ? Deno.env.get('GITHUB_TOKEN') : undefined);
+                       ((globalThis as any).Deno?.env?.get?.('GITHUB_TOKEN'));
     const repoOwner = 'bebhuvan'; // Replace with actual repo owner
     const repoName = 'markets-feeds'; // Replace with actual repo name
     
@@ -342,7 +342,7 @@ async function refreshAllFeeds() {
         timestamp: new Date().toISOString(),
         workflow_triggered: false,
         debug_info: {
-          runtime: typeof process !== 'undefined' ? 'Node.js' : typeof Deno !== 'undefined' ? 'Deno' : 'Unknown',
+          runtime: typeof process !== 'undefined' ? 'Node.js' : (globalThis as any).Deno ? 'Deno' : 'Unknown',
           hasProcess: typeof process !== 'undefined',
           hasProcessEnv: typeof process?.env !== 'undefined',
           envKeyCount: Object.keys(process?.env || {}).length
