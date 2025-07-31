@@ -194,7 +194,6 @@ class FeedAggregator:
             {'id': 'krebs-security', 'name': 'Krebs on Security', 'url': 'https://krebsonsecurity.com/feed/', 'category': 'technology', 'priority': 2},
             
             # === YOUTUBE CHANNELS (Videos) ===
-            {'id': 'cnbc-tv18-youtube', 'name': 'CNBC-TV18', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCPP3etACgdUWvizcES1dJ8Q', 'category': 'videos', 'priority': 2},
             {'id': 'ndtv-profit-youtube', 'name': 'NDTV Profit India', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCXBD5iG5cr4ZYZ99K-fmDHg', 'category': 'videos', 'priority': 2},
             {'id': 'bloomberg-business-youtube', 'name': 'Bloomberg Business', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg', 'category': 'videos', 'priority': 2},
             {'id': 'aswath-damodaran-youtube', 'name': 'Aswath Damodaran', 'url': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCLvnJL8htRR1T9cbSccaoVw', 'category': 'videos', 'priority': 2},

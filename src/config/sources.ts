@@ -383,13 +383,6 @@ export const RSS_SOURCES: RSSSource[] = [
   
   // YouTube Channels - Video Content
   {
-    id: 'cnbc-tv18-youtube',
-    name: 'CNBC-TV18',
-    url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCPP3etACgdUWvizcES1dJ8Q',
-    category: 'videos',
-    enabled: true
-  },
-  {
     id: 'ndtv-profit-youtube',
     name: 'NDTV Profit India',
     url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCXBD5iG5cr4ZYZ99K-fmDHg',
