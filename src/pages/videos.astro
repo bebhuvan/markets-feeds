@@ -24,7 +24,7 @@ allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.published
 
 <Layout title="Videos - Markets Feeds" description="Latest financial and business videos from YouTube channels">
   
-  <div class="container max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-12">
+  <div class="container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-12 overflow-x-hidden">
     <CategoryHeader title="Videos" currentPage="videos" />
     
     <Navigation currentPage="videos" />
@@ -56,8 +56,23 @@ allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.published
 </Layout>
 
 <style>
+  /* Prevent horizontal scrolling */
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  
   .video-card {
     position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
   
   .video-preview {
@@ -72,6 +87,10 @@ allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.published
     border-radius: 4px;
     display: inline-block;
     border: 1px solid #fecaca;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   
   /* Make video links more prominent */
@@ -79,10 +98,39 @@ allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.published
     display: flex;
     align-items: center;
     gap: 8px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    max-width: 100%;
   }
   
   .video-card :global(.article-title a):before {
     content: "▶️";
     font-size: 14px;
+    flex-shrink: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .video-card :global(.article-title a) {
+      font-size: 16px;
+      line-height: 1.4;
+    }
+    
+    .video-indicator {
+      font-size: 11px;
+      padding: 3px 6px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .video-card :global(.article-title a) {
+      font-size: 15px;
+      gap: 6px;
+    }
+    
+    .video-preview {
+      padding-left: 12px;
+    }
   }
 </style>

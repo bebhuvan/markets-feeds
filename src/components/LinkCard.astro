@@ -83,14 +83,72 @@ const timeAgo = formatDistanceToNow(new Date(link.publishedAt));
 </article>
 
 <style>
+  /* Prevent horizontal overflow */
+  .link-item {
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    box-sizing: border-box;
+  }
+  
+  .link-item h2 a {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    display: block;
+  }
+  
+  .link-item p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
   .line-clamp-3 {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    max-width: 100%;
   }
   
   .link-item:first-child {
     border-top: 1px solid hsl(var(--border));
+  }
+  
+  /* Responsive tag layout */
+  .link-item div:last-child {
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .link-item div:last-child::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Mobile responsive adjustments */
+  @media (max-width: 768px) {
+    .link-item {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    
+    .link-item h2 a {
+      font-size: 16px;
+      line-height: 1.4;
+    }
+    
+    .link-item p {
+      font-size: 14px;
+    }
+    
+    .link-item .flex {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
   }
 </style>
