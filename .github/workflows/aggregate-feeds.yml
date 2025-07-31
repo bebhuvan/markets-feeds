@@ -67,7 +67,15 @@ jobs:
           git config --local user.name "GitHub Action"
           git add src/content/links/*.json scripts/aggregator_state.json
           git diff --cached --quiet || git commit -m "Update RSS feeds [skip ci]"
-          git push
+          
+          # Handle potential conflicts by pulling before pushing
+          for i in {1..3}; do
+            git push && break || {
+              echo "Push failed, attempting pull and retry (attempt $i/3)"
+              git pull --rebase --strategy-option=ours
+              sleep 5
+            }
+          done
           
       - name: Upload logs
         if: always()
