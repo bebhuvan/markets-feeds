@@ -139,7 +139,7 @@ const categoryLabels = {
         </nav>
         <div class="header-meta">
           <span class="meta-text">Updated: {lastUpdateTime.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' })} 
-            <span class="build-info" title={`Build: ${buildTime}`}>🔄</span>
+            <span class="build-info" title={`Build: ${buildTime} | ID: ${buildId}`}>🔄{buildId}</span>
           </span>
           <a href="/rss.xml" class="rss-link" title="RSS Feed">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
