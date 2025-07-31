@@ -973,6 +973,23 @@
     "contentHash": "7740048e11c05d46"
   },
   {
+    "id": "economist-finance-f9afb28feb83f160",
+    "sourceId": "economist-finance",
+    "sourceName": "The Economist",
+    "title": "Despite double dissent, Jerome Powell retains his hold on markets",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/30/despite-double-dissent-jerome-powell-retains-his-hold-on-markets",
+    "summary": "A hawkish tilt changes rate-cut expectations",
+    "fullContent": "A hawkish tilt changes rate-cut expectations",
+    "publishedAt": "2025-07-30T22:28:38+00:00",
+    "fetchedAt": "2025-07-31T06:35:30.328711+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "f9afb28feb83f160"
+  },
+  {
     "id": "nyt-business-adea3ec6568454fd",
     "sourceId": "nyt-business",
     "sourceName": "NYT Business",
@@ -3507,22 +3524,5 @@
     ],
     "priority": "high",
     "contentHash": "46dd8118305fd326"
-  },
-  {
-    "id": "business-insider-1fd219769d6c3efd",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "The Fed holds rates steady for the fifth time this year, but some officials think it's the wrong call",
-    "url": "https://www.businessinsider.com/fed-holds-interest-rates-steady-jerome-powell-trump-2025-7",
-    "summary": "The Fed announced it will leave interest rates unchanged in July, despite Trump and members of his cabinet pushing for a cut.",
-    "fullContent": "Jerome Powell said the Fed will hold interest rates steady in July.Chip Somodevilla/Getty ImagesThe Federal Reserve will hold interest rates steady, aligning with market expectations.Strong job growth and rising inflation likely influenced the Fed's decision to maintain rates.Two Fed governors dissented from the decision, preferring lower rates.America's central bank is once again holding interest rates steady, although two Fed governors disagreed with the move in a rare departure from the committee's typical unanimity.The Federal Open Market Committee announced Wednesday that it will not cut its benchmark rate, holding for the fifth time this year. It's a decision in line with forecasts: CME FedWatch, which anticipates interest-rate changes based on market moves, had projected a 96.9% chance of a hold in July. The Fed said in its July 30 statement that strong jobs numbers and a recent uptick in inflation contributed to the call.Fed Governors Christopher Waller and Michelle W. Bowman d",
-    "publishedAt": "2025-07-30T18:00:21+00:00",
-    "fetchedAt": "2025-07-31T01:31:35.468313+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "1fd219769d6c3efd"
   }
 ]
