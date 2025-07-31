@@ -50,8 +50,9 @@ const lastUpdateTime = allLinks.length > 0
   ? new Date(Math.max(...allLinks.map(link => new Date(link.fetchedAt || link.publishedAt).getTime())))
   : new Date();
 
-// Generate cache-busting timestamp
+// Generate cache-busting timestamp  
 const buildTime = new Date().toISOString();
+const buildId = Math.random().toString(36).substring(7);
 
 // Calculate source counts
 const sourceCounts = allLinks.reduce((acc, link) => {
@@ -608,10 +609,10 @@ const categoryLabels = {
         line-height: 1.5;
         margin-bottom: 8px;
         display: -webkit-box;
-        -webkit-line-clamp: 4;
+        -webkit-line-clamp: 5;
         -webkit-box-orient: vertical;
         overflow: hidden;
-        max-height: 6em; /* 4 lines * 1.5 line-height */
+        max-height: 7.5em; /* 5 lines * 1.5 line-height */
     }
 
     .article-tags {
