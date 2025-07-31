@@ -10,9 +10,9 @@ export const RSS_SOURCES: RSSSource[] = [
     enabled: true
   },
   {
-    id: 'reuters-business',
-    name: 'Reuters Business',
-    url: 'https://feeds.reuters.com/reuters/businessNews',
+    id: 'bloomberg-politics',
+    name: 'Bloomberg Politics',
+    url: 'https://feeds.bloomberg.com/politics/news.rss',
     category: 'markets',
     enabled: true
   },

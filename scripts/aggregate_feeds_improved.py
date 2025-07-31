@@ -90,7 +90,8 @@ class FeedAggregator:
         self.sources = [
             # === MARKETS (Stocks, Trading, Corporate) ===
             {'id': 'bloomberg-markets', 'name': 'Bloomberg Markets', 'url': 'https://feeds.bloomberg.com/markets/news.rss', 'category': 'markets', 'priority': 1},
-            {'id': 'reuters-business', 'name': 'Reuters Business', 'url': 'https://feeds.reuters.com/reuters/businessNews', 'category': 'markets', 'priority': 1},
+            # Reuters RSS feeds are no longer accessible - replaced with additional Bloomberg source
+            {'id': 'bloomberg-politics', 'name': 'Bloomberg Politics', 'url': 'https://feeds.bloomberg.com/politics/news.rss', 'category': 'markets', 'priority': 1},
             {'id': 'ft-markets', 'name': 'Financial Times', 'url': 'https://www.ft.com/markets?format=rss', 'category': 'markets', 'priority': 1},
             {'id': 'wsj-markets', 'name': 'Wall Street Journal', 'url': 'https://feeds.a.dj.com/rss/RSSMarketsMain.xml', 'category': 'markets', 'priority': 1},
             {'id': 'cnbc-markets', 'name': 'CNBC Markets', 'url': 'https://www.cnbc.com/id/10000664/device/rss/rss.html', 'category': 'markets', 'priority': 1},
