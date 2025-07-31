@@ -958,20 +958,27 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                             }, 3000);
                         }
                     } else {
-                        btn.textContent = '✗ Error';
                         console.error('Refresh error:', result.error);
-                        let errorMessage = 'Refresh failed: ' + result.error;
-                        if (result.message) {
-                            errorMessage += '\n\nDetails: ' + result.message;
+                        
+                        if (result.error && (result.error.includes('Unauthorized') || result.error.includes('401'))) {
+                            btn.textContent = '🔑 Token Required';
+                            alert('🔑 GitHub Token Required\n\nTo enable automatic RSS refresh:\n\n1. Create Personal Access Token:\n   GitHub → Settings → Developer settings → Personal access tokens\n\n2. Grant "repo" and "workflow" permissions\n\n3. Add GITHUB_TOKEN environment variable in Cloudflare Pages\n\n4. Redeploy the site\n\nAlternatively, you can manually trigger refresh at:\nhttps://github.com/bebhuvan/markets-feeds/actions/workflows/aggregate-feeds.yml');
+                        } else {
+                            btn.textContent = '✗ Error';
+                            let errorMessage = 'Refresh failed: ' + result.error;
+                            if (result.message) {
+                                errorMessage += '\n\nDetails: ' + result.message;
+                            }
+                            if (result.fallback_message) {
+                                errorMessage += '\n\n' + result.fallback_message;
+                            }
+                            alert('❌ ' + errorMessage);
                         }
-                        if (result.fallback_message) {
-                            errorMessage += '\n\n' + result.fallback_message;
-                        }
-                        alert('❌ ' + errorMessage);
+                        
                         setTimeout(() => {
                             btn.textContent = '↻ Refresh All Feeds';
                             btn.disabled = false;
-                        }, 3000);
+                        }, 4000);
                     }
                 }
             }).catch(error => {
