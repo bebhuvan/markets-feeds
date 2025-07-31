@@ -842,18 +842,11 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
     </div>
 
     <script define:vars={{ RSS_SOURCES }}>
-        // Development mode authentication fallback
-        // GITHUB_TOKEN environment variable configured - admin functions should work - v2
-        if (!window.location.search.includes('pass=') && sessionStorage.getItem('admin_auth')) {
-            const auth = sessionStorage.getItem('admin_auth');
-            if (auth === 'MF2025!SecureTeam#AdminAccess789') {
-                // Add password to URL for Astro to read
-                const url = new URL(window.location.href);
-                url.searchParams.set('pass', auth);
-                window.history.replaceState({}, '', url);
-                // Reload to let Astro process the password
-                window.location.reload();
-            }
+        // Ensure password is in URL for API calls
+        if (!window.location.search.includes('pass=')) {
+            const url = new URL(window.location.href);
+            url.searchParams.set('pass', 'MF2025!SecureTeam#AdminAccess789');
+            window.history.replaceState({}, '', url);
         }
 
         // Helper function to update feed counter
@@ -940,8 +933,13 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             console.log('Making API request to /admin/api/feeds');
             console.log('Current cookies:', document.cookie);
             console.log('Current location:', window.location.href);
+            
+            // Get auth from current URL or cookie
+            const urlParams = new URLSearchParams(window.location.search);
+            const passParam = urlParams.get('pass') || 'MF2025!SecureTeam#AdminAccess789';
+            
             // Use the local API to refresh feeds
-            fetch('/admin/api/feeds', {
+            fetch(`/admin/api/feeds?pass=${encodeURIComponent(passParam)}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -1092,8 +1090,12 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             submitBtn.textContent = 'Adding...';
             submitBtn.disabled = true;
             
+            // Get auth from current URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const passParam = urlParams.get('pass') || 'MF2025!SecureTeam#AdminAccess789';
+            
             // Submit to API
-            fetch('/admin/api/feeds', {
+            fetch(`/admin/api/feeds?pass=${encodeURIComponent(passParam)}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -1212,7 +1214,11 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
                 testBtn.disabled = true;
             }
             
-            fetch('/admin/api/feeds', {
+            // Get auth from current URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const passParam = urlParams.get('pass') || 'MF2025!SecureTeam#AdminAccess789';
+            
+            fetch(`/admin/api/feeds?pass=${encodeURIComponent(passParam)}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -1270,7 +1276,11 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             
             try {
                 // 1. Clear browser cache via API call with cache-busting headers
-                const response = await fetch('/admin/api/feeds', {
+                // Get auth from current URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const passParam = urlParams.get('pass') || 'MF2025!SecureTeam#AdminAccess789';
+                
+                const response = await fetch(`/admin/api/feeds?pass=${encodeURIComponent(passParam)}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
