@@ -47,9 +47,9 @@ export const POST: APIRoute = async ({ request }) => {
   }
 };
 
-async function addFeed(feedData: { name: string; url: string; category: string }) {
+async function addFeed(feedData: { name: string; url: string; category: string; priority?: number }) {
   try {
-    const { name, url, category } = feedData;
+    const { name, url, category, priority = 2 } = feedData;
     
     if (!name || !url || !category) {
       return new Response(JSON.stringify({ error: 'Name, URL, and category are required' }), {
@@ -59,31 +59,127 @@ async function addFeed(feedData: { name: string; url: string; category: string }
     }
 
     // Generate feed ID
-    const feedId = name.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-');
+    const feedId = name.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').substring(0, 50);
 
     // Create new feed entry code
-    const newFeed = `  {
+    const newFeedEntry = `  {
     id: '${feedId}',
     name: '${name}',
     url: '${url}',
     category: '${category}' as Category,
+    priority: ${priority},
     enabled: true
   },`;
 
-    return new Response(JSON.stringify({ 
-      success: true, 
-      message: `Feed configuration generated. In production, this would be added to sources.ts via GitHub Action.`,
-      feedId,
-      code: newFeed
-    }), {
-      status: 200,
-      headers: { 'Content-Type': 'application/json' }
-    });
+    const githubToken = process.env.GITHUB_TOKEN;
+    const repoOwner = 'bebhuvan'; // Replace with actual repo owner
+    const repoName = 'markets-feeds'; // Replace with actual repo name
+    
+    if (githubToken) {
+      try {
+        // Get current sources.ts file content
+        const getFileResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/src/config/sources.ts`, {
+          headers: {
+            'Authorization': `Bearer ${githubToken}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'User-Agent': 'Markets-Feeds-Admin/1.0'
+          }
+        });
+
+        if (!getFileResponse.ok) {
+          throw new Error(`Failed to fetch sources.ts: ${getFileResponse.status}`);
+        }
+
+        const fileData = await getFileResponse.json();
+        const currentContent = atob(fileData.content);
+        
+        // Find the insertion point (before the closing bracket of RSS_SOURCES array)
+        const insertionPoint = currentContent.lastIndexOf('];');
+        if (insertionPoint === -1) {
+          throw new Error('Could not find RSS_SOURCES array closing bracket');
+        }
+
+        // Insert the new feed entry
+        const updatedContent = currentContent.slice(0, insertionPoint) + newFeedEntry + '\n' + currentContent.slice(insertionPoint);
+
+        // Update the file via GitHub API
+        const updateResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/src/config/sources.ts`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${githubToken}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json',
+            'User-Agent': 'Markets-Feeds-Admin/1.0'
+          },
+          body: JSON.stringify({
+            message: `Add RSS feed: ${name}\n\nAdded via admin dashboard:\n- Name: ${name}\n- URL: ${url}\n- Category: ${category}\n- Priority: ${priority}`,
+            content: btoa(updatedContent),
+            sha: fileData.sha,
+            branch: 'main'
+          })
+        });
+
+        if (updateResponse.ok) {
+          return new Response(JSON.stringify({ 
+            success: true,
+            message: `RSS feed "${name}" has been successfully added to sources.ts and committed to the repository!`,
+            feedId,
+            git_updated: true,
+            commit_message: `Add RSS feed: ${name}`
+          }), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' }
+          });
+        } else {
+          const errorText = await updateResponse.text();
+          console.error('GitHub update error:', updateResponse.status, errorText);
+          
+          return new Response(JSON.stringify({ 
+            success: false,
+            error: `GitHub update failed: ${updateResponse.status}`,
+            message: 'Failed to update sources.ts. The feed configuration was generated but not committed.',
+            code: newFeedEntry,
+            fallback_message: 'You can manually add this feed to src/config/sources.ts'
+          }), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' }
+          });
+        }
+        
+      } catch (githubError) {
+        console.error('GitHub API error:', githubError);
+        
+        return new Response(JSON.stringify({ 
+          success: false,
+          error: 'GitHub API error',
+          message: githubError instanceof Error ? githubError.message : 'Unknown GitHub error',
+          code: newFeedEntry,
+          fallback_message: 'You can manually add this feed to src/config/sources.ts'
+        }), {
+          status: 200,
+          headers: { 'Content-Type': 'application/json' }
+        });
+      }
+    } else {
+      // Fallback when no GitHub token available
+      return new Response(JSON.stringify({ 
+        success: true,
+        message: `Feed configuration generated for "${name}". GitHub token not configured, so this would be added to sources.ts automatically in production.`,
+        feedId,
+        code: newFeedEntry,
+        git_updated: false,
+        fallback_message: 'To enable automatic source updates, configure GITHUB_TOKEN environment variable with repo write permissions.'
+      }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
+      });
+    }
 
   } catch (error) {
     console.error('Add feed error:', error);
     return new Response(JSON.stringify({ 
-      error: 'Failed to generate feed configuration',
+      success: false,
+      error: 'Failed to add feed',
       message: error instanceof Error ? error.message : 'Unknown error'
     }), {
       status: 500,
@@ -155,25 +251,90 @@ async function testFeed(feedData: { url: string }) {
 
 async function refreshAllFeeds() {
   try {
-    // In Cloudflare Workers, we can't run local scripts
-    // This would trigger a GitHub Action in production
-    return new Response(JSON.stringify({ 
-      success: true,
-      message: 'Feed refresh request received. In production, this would trigger the RSS aggregation GitHub Action.',
-      timestamp: new Date().toISOString()
-    }), {
-      status: 200,
-      headers: { 'Content-Type': 'application/json' }
-    });
+    // Try to trigger GitHub Actions workflow via API
+    const githubToken = process.env.GITHUB_TOKEN;
+    const repoOwner = 'bebhuvan'; // Replace with actual repo owner
+    const repoName = 'markets-feeds'; // Replace with actual repo name
+    
+    if (githubToken) {
+      try {
+        const response = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/actions/workflows/aggregate-feeds.yml/dispatches`, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${githubToken}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json',
+            'User-Agent': 'Markets-Feeds-Admin/1.0'
+          },
+          body: JSON.stringify({
+            ref: 'main',
+            inputs: {
+              triggered_by: 'admin_dashboard',
+              timestamp: new Date().toISOString()
+            }
+          })
+        });
+
+        if (response.ok) {
+          return new Response(JSON.stringify({ 
+            success: true,
+            message: 'RSS feed refresh triggered successfully! The aggregation workflow is now running. Check the logs for progress.',
+            timestamp: new Date().toISOString(),
+            workflow_triggered: true
+          }), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' }
+          });
+        } else {
+          const errorText = await response.text();
+          console.error('GitHub API error:', response.status, errorText);
+          
+          return new Response(JSON.stringify({ 
+            success: false,
+            error: `GitHub API error: ${response.status}`,
+            message: 'Failed to trigger workflow. Please check GitHub token permissions.',
+            fallback_message: 'You can manually trigger the workflow at: https://github.com/bebhuvan/markets-feeds/actions/workflows/aggregate-feeds.yml'
+          }), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' }
+          });
+        }
+      } catch (githubError) {
+        console.error('GitHub API request failed:', githubError);
+        
+        return new Response(JSON.stringify({ 
+          success: false,
+          error: 'GitHub API request failed',
+          message: githubError instanceof Error ? githubError.message : 'Network error',
+          fallback_message: 'You can manually trigger the workflow at: https://github.com/bebhuvan/markets-feeds/actions/workflows/aggregate-feeds.yml'
+        }), {
+          status: 200,
+          headers: { 'Content-Type': 'application/json' }
+        });
+      }
+    } else {
+      // Fallback when no GitHub token available
+      return new Response(JSON.stringify({ 
+        success: true,
+        message: 'Feed refresh request received. GitHub token not configured, so this would trigger the RSS aggregation workflow in production.',
+        timestamp: new Date().toISOString(),
+        workflow_triggered: false,
+        fallback_message: 'To enable automatic workflow triggering, configure GITHUB_TOKEN environment variable with repo permissions.'
+      }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
+      });
+    }
 
   } catch (error) {
     console.error('Refresh feeds error:', error);
     return new Response(JSON.stringify({ 
       success: false,
       error: 'Failed to process refresh request',
-      message: error instanceof Error ? error.message : 'Unknown error'
+      message: error instanceof Error ? error.message : 'Unknown error',
+      fallback_message: 'You can manually trigger the workflow at: https://github.com/bebhuvan/markets-feeds/actions/workflows/aggregate-feeds.yml'
     }), {
-      status: 200,
+      status: 500,
       headers: { 'Content-Type': 'application/json' }
     });
   }

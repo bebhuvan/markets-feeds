@@ -939,32 +939,50 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             .then(result => {
                 if (btn) {
                     if (result.success) {
-                        btn.textContent = '✓ Refreshed';
-                        setTimeout(() => {
-                            btn.textContent = '↻ Refresh All Feeds';
-                            btn.disabled = false;
-                            // Reload page to show updated stats
-                            window.location.reload();
-                        }, 2000);
+                        if (result.workflow_triggered) {
+                            btn.textContent = '✓ Workflow Started';
+                            alert('✅ RSS Feed Refresh Started!\n\n' + result.message + '\n\nThe page will reload in a few seconds to check for new data.');
+                            setTimeout(() => {
+                                window.location.reload();
+                            }, 3000);
+                        } else {
+                            btn.textContent = '⚠ Token Missing';
+                            let message = result.message;
+                            if (result.fallback_message) {
+                                message += '\n\n' + result.fallback_message;
+                            }
+                            alert('⚠️ Partial Success:\n\n' + message);
+                            setTimeout(() => {
+                                btn.textContent = '↻ Refresh All Feeds';
+                                btn.disabled = false;
+                            }, 3000);
+                        }
                     } else {
                         btn.textContent = '✗ Error';
                         console.error('Refresh error:', result.error);
-                        alert('Refresh failed: ' + result.error);
+                        let errorMessage = 'Refresh failed: ' + result.error;
+                        if (result.message) {
+                            errorMessage += '\n\nDetails: ' + result.message;
+                        }
+                        if (result.fallback_message) {
+                            errorMessage += '\n\n' + result.fallback_message;
+                        }
+                        alert('❌ ' + errorMessage);
                         setTimeout(() => {
                             btn.textContent = '↻ Refresh All Feeds';
                             btn.disabled = false;
-                        }, 2000);
+                        }, 3000);
                     }
                 }
             }).catch(error => {
                 if (btn) {
-                    btn.textContent = '✗ Error';
+                    btn.textContent = '✗ Network Error';
                     console.error('Network error:', error);
-                    alert('Network error: ' + error.message);
+                    alert('❌ Network error: ' + error.message + '\n\nPlease check your internet connection and try again.');
                     setTimeout(() => {
                         btn.textContent = '↻ Refresh All Feeds';
                         btn.disabled = false;
-                    }, 2000);
+                    }, 3000);
                 }
             });
         }
@@ -1042,13 +1060,43 @@ const errorSources = RSS_SOURCES.filter(s => Math.random() < 0.05); // Mock 5% e
             }).then(response => response.json())
             .then(result => {
                 if (result.success) {
-                    showFormSuccess('Feed added successfully: ' + result.message);
-                    setTimeout(() => {
-                        hideAddFeedModal();
-                        window.location.reload(); // Reload to show new feed
-                    }, 1500);
+                    if (result.git_updated) {
+                        showFormSuccess('✅ Feed added successfully!\n\n' + result.message + '\n\nThe feed will be available after the next aggregation run.');
+                        setTimeout(() => {
+                            hideAddFeedModal();
+                            // Ask if user wants to trigger refresh
+                            if (confirm('Feed added successfully! Would you like to trigger a feed refresh now to start collecting articles?')) {
+                                refreshAllFeeds();
+                            } else {
+                                window.location.reload();
+                            }
+                        }, 2000);
+                    } else {
+                        let message = '⚠️ Partial Success:\n\n' + result.message;
+                        if (result.fallback_message) {
+                            message += '\n\n' + result.fallback_message;
+                        }
+                        if (result.code) {
+                            message += '\n\nGenerated Code:\n' + result.code;
+                        }
+                        showFormSuccess(message);
+                        setTimeout(() => {
+                            hideAddFeedModal();
+                            window.location.reload();
+                        }, 3000);
+                    }
                 } else {
-                    showFormError('Error adding feed: ' + result.error);
+                    let errorMessage = 'Error adding feed: ' + result.error;
+                    if (result.message) {
+                        errorMessage += '\n\nDetails: ' + result.message;
+                    }
+                    if (result.fallback_message) {
+                        errorMessage += '\n\n' + result.fallback_message;
+                    }
+                    if (result.code) {
+                        errorMessage += '\n\nGenerated Code:\n' + result.code;
+                    }
+                    showFormError(errorMessage);
                 }
             }).catch(error => {
                 showFormError('Network error: ' + error.message);
