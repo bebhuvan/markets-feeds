@@ -209,6 +209,25 @@
     "contentHash": "ddef2a6df85c3039"
   },
   {
+    "id": "yahoo-finance-c6df9d399d224f05",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq rise as Wall Street awaits Fed decision, Big Tech results",
+    "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rise-as-wall-street-awaits-fed-decision-big-tech-results-233533000.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T23:35:33+00:00",
+    "fetchedAt": "2025-07-30T15:48:31.560374+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "c6df9d399d224f05"
+  },
+  {
     "id": "google-bloomberg-986f5ff26f37f5a3",
     "sourceId": "google-bloomberg",
     "sourceName": "Google News (Bloomberg)",
@@ -578,6 +597,26 @@
     ],
     "priority": "high",
     "contentHash": "91f9d9adb6631bb8"
+  },
+  {
+    "id": "bloomberg-markets-ad0b5b3c9391e5ec",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Tech Gains Buoy Stocks After Volatile Fed Session: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-29/stock-market-today-dow-s-p-live-updates",
+    "summary": "Disappointment the Federal Reserve steered clear of signaling imminent rate cuts unnerved bond traders, sending 10-year yields to the biggest runup in two weeks. Smaller declines in stocks were quickly reversed in late hours as Microsoft Corp. and Meta Platforms Inc. reported solid earnings.",
+    "fullContent": "The logo for Hong Kong Exchanges and Clearing Ltd. (HKEx) displayed on a screen at the Exchange Square complex in Hong Kong, China, on Wednesday, Feb. 26, 2025. Hong Kong's stock exchange reported its highest quarterly profit in nearly four years after China's stimulus measures boosted trading and listing volume.",
+    "publishedAt": "2025-07-29T22:16:46+00:00",
+    "fetchedAt": "2025-07-31T01:31:30.187282+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "IPO",
+      "Tech",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "ad0b5b3c9391e5ec"
   },
   {
     "id": "google-bloomberg-43277ffef7ee1f76",
@@ -1488,6 +1527,41 @@
     "contentHash": "9dd8874d0d8515ef"
   },
   {
+    "id": "yahoo-finance-cc811bc0d287c69d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Is your bank financially sound? Here's how to find out.",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/bank-financially-sound-bauer-financial-180757668.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T18:07:57+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865795+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "cc811bc0d287c69d"
+  },
+  {
+    "id": "yahoo-finance-055b70715b2e6ab2",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Earnings Will Be ‘Worse Than Expected’ for UnitedHealth. How Should You Play UNH Stock Here?",
+    "url": "https://finance.yahoo.com/news/earnings-worse-expected-unitedhealth-play-180557122.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T18:05:57+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865734+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "055b70715b2e6ab2"
+  },
+  {
     "id": "nyt-technology-99c5f947e78fefc1",
     "sourceId": "nyt-technology",
     "sourceName": "NYT Technology",
@@ -1519,6 +1593,23 @@
     ],
     "priority": "normal",
     "contentHash": "c7c0483dba987b90"
+  },
+  {
+    "id": "yahoo-finance-5c1648f64eaec587",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "New S&P 500 Stock Trade Desk Earns Rating Upgrade After Nearly Doubling In Less Than 4 Months",
+    "url": "https://www.investors.com/news/stocks-with-rising-relative-strength-trade-desk-cl-a/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:57:28+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865663+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5c1648f64eaec587"
   },
   {
     "id": "google-bloomberg-346f84f01daaa90a",
@@ -1589,6 +1680,40 @@
     "contentHash": "5cbc6e649ce13763"
   },
   {
+    "id": "yahoo-finance-4cc50e8655eda270",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why value investing has worked better outside the US",
+    "url": "https://finance.yahoo.com/news/why-value-investing-worked-better-174651291.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:46:51+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865532+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4cc50e8655eda270"
+  },
+  {
+    "id": "yahoo-finance-21deb7c96d0ff73c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Private-Equity Firm GTCR to Buy Advisor Marketing Firm FMG Suite",
+    "url": "https://www.barrons.com/advisor/articles/private-equity-gtcr-to-buy-fmg-suite-d085bba6?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:45:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865474+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "21deb7c96d0ff73c"
+  },
+  {
     "id": "google-bloomberg-1ef9d5a04d856cad",
     "sourceId": "google-bloomberg",
     "sourceName": "Google News (Bloomberg)",
@@ -1639,6 +1764,129 @@
     "contentHash": "96faf23896071cc6"
   },
   {
+    "id": "yahoo-finance-283d9b2e0f631ec9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Trade Deal Brings Relief to Europe’s Luxury Industry",
+    "url": "https://www.wsj.com/business/retail/trade-deal-brings-relief-to-europes-luxury-industry-d212f90f?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:41:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865404+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "283d9b2e0f631ec9"
+  },
+  {
+    "id": "yahoo-finance-c6131b56e85c3fca",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "As SoFi Raises 2025 Guidance, Should You Buy, Sell, or Hold SOFI Stock Here?",
+    "url": "https://finance.yahoo.com/news/sofi-raises-2025-guidance-buy-174053475.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:40:53+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865337+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c6131b56e85c3fca"
+  },
+  {
+    "id": "yahoo-finance-61d89bb5dc32a5dd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Unusual Options Activity for Builders FirstSource (BLDR) May Point to an Earnings Surprise",
+    "url": "https://finance.yahoo.com/news/why-unusual-options-activity-builders-173002526.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:30:02+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865044+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "61d89bb5dc32a5dd"
+  },
+  {
+    "id": "yahoo-finance-c03c90d69238487d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "U.S. covered call funds attract record inflows as investors seek yield",
+    "url": "https://finance.yahoo.com/news/u-covered-call-funds-attract-172938000.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:29:38+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.864904+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "c03c90d69238487d"
+  },
+  {
+    "id": "yahoo-finance-67e572cb430bd8fa",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Treasury 7-Year Auction Sees Exceptionally Strong Demand",
+    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-072925/card/treasury-7-year-auction-sees-exceptionally-strong-demand-lLLZQswv6IgrNMQ3KiFc?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:29:10+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.864629+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "67e572cb430bd8fa"
+  },
+  {
+    "id": "yahoo-finance-06bd35e186e8c6b9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cotton Falling on Tuesday Trade",
+    "url": "https://finance.yahoo.com/news/cotton-falling-tuesday-trade-172842674.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:28:42+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.864503+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "06bd35e186e8c6b9"
+  },
+  {
+    "id": "yahoo-finance-edccaa480b69968b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Investors View Bristol‑Myers Squibb (BMY) as a Safe Dividend Stock for Income",
+    "url": "https://finance.yahoo.com/news/why-investors-view-bristol-myers-172540565.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:25:40+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.864392+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "edccaa480b69968b"
+  },
+  {
     "id": "google-bloomberg-6392b588dfa77a20",
     "sourceId": "google-bloomberg",
     "sourceName": "Google News (Bloomberg)",
@@ -1654,6 +1902,129 @@
     ],
     "priority": "normal",
     "contentHash": "6392b588dfa77a20"
+  },
+  {
+    "id": "yahoo-finance-06048489dc10e74f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Medtronic (MDT) is One of the Most Trusted Safe Dividend Stocks in Healthcare",
+    "url": "https://finance.yahoo.com/news/why-medtronic-mdt-one-most-172217988.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:22:17+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.864254+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "06048489dc10e74f"
+  },
+  {
+    "id": "yahoo-finance-56b7c7e11f62a2a4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Procter & Gamble Posts Earnings Beat and Names New CEO. What to Know.",
+    "url": "https://www.barrons.com/articles/procter-gamble-earnings-stock-price-6839dcc3?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:22:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.863964+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "56b7c7e11f62a2a4"
+  },
+  {
+    "id": "yahoo-finance-cfda9017e85f43fa",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "UPS Shares Decline as Lack of Guidance, Weaker Results Show Prolonged Challenges",
+    "url": "https://www.wsj.com/business/earnings/ups-quarterly-income-and-revenue-fall-2025-guidance-withheld-6b5fa5b1?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:20:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.863691+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "cfda9017e85f43fa"
+  },
+  {
+    "id": "yahoo-finance-1027cbcdf3e8ac58",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "A Megamerger Creates America’s First Coast-to-Coast Rail Operator",
+    "url": "https://www.wsj.com/business/logistics/transcontinental-railway-union-pacific-norfolk-southern-03e313aa?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:20:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.863818+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1027cbcdf3e8ac58"
+  },
+  {
+    "id": "yahoo-finance-fe665ebe36b8b97c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why U.S. Bancorp (USB) is a Core Holding for Investors Seeking Safe Dividend Stocks",
+    "url": "https://finance.yahoo.com/news/why-u-bancorp-usb-core-171834034.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:18:34+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.863557+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "fe665ebe36b8b97c"
+  },
+  {
+    "id": "yahoo-finance-708be704dddc59d9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Should You Buy Palantir Stock Ahead of Q2 Earnings on August 4?",
+    "url": "https://finance.yahoo.com/news/buy-palantir-stock-ahead-q2-171521357.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:15:21+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.863285+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "708be704dddc59d9"
+  },
+  {
+    "id": "yahoo-finance-6c8f20953562f9df",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Safe Dividend Stocks in Tech: Why IBM Offers Long-Term Income Security",
+    "url": "https://finance.yahoo.com/news/safe-dividend-stocks-tech-why-171337976.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:13:37+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.863165+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "6c8f20953562f9df"
   },
   {
     "id": "google-bloomberg-74918c99283961b9",
@@ -1690,6 +2061,111 @@
     "contentHash": "2dd97c1e6c694cad"
   },
   {
+    "id": "yahoo-finance-c1a84ab54dfc0da3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "L’Oreal Logs Higher Sales Amid North America, China Recovery",
+    "url": "https://www.wsj.com/business/earnings/loreal-logs-higher-sales-amid-north-america-china-recovery-443b8571?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:11:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.863087+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c1a84ab54dfc0da3"
+  },
+  {
+    "id": "yahoo-finance-05a597f6fed11455",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Iran to lead conventional refinery capacity growth in the Middle East by 2030",
+    "url": "https://finance.yahoo.com/news/iran-lead-conventional-refinery-capacity-171014828.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:10:14+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865596+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "05a597f6fed11455"
+  },
+  {
+    "id": "yahoo-finance-840b16178d07f42d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Qualcomm Stock's Pre-Earnings Technical Setup",
+    "url": "https://finance.yahoo.com/news/qualcomm-stocks-pre-earnings-technical-171013705.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:10:13+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.863021+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "840b16178d07f42d"
+  },
+  {
+    "id": "yahoo-finance-bd6ca84cd7986add",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "7 Highest-Paying and Most Popular AI Jobs in 2025",
+    "url": "https://finance.yahoo.com/news/7-highest-paying-most-popular-170839162.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:08:39+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.865267+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "bd6ca84cd7986add"
+  },
+  {
+    "id": "yahoo-finance-3541f5ab07cc9e97",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Safe Dividend Stocks Spotlight: Southern Company’s (SO) Consistent Utility Yield",
+    "url": "https://finance.yahoo.com/news/safe-dividend-stocks-spotlight-southern-170824065.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:08:24+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862820+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "3541f5ab07cc9e97"
+  },
+  {
+    "id": "yahoo-finance-84cff3cdf1a851be",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Realty Income’s (O) Monthly Payout Model Makes It One of the Safest Dividend Stocks",
+    "url": "https://finance.yahoo.com/news/realty-income-o-monthly-payout-170751318.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:07:51+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862669+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "84cff3cdf1a851be"
+  },
+  {
     "id": "ft-markets-51ee5937d6d35aca",
     "sourceId": "ft-markets",
     "sourceName": "Financial Times",
@@ -1704,6 +2180,75 @@
     ],
     "priority": "normal",
     "contentHash": "51ee5937d6d35aca"
+  },
+  {
+    "id": "yahoo-finance-a855c2d1b71ee422",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Warren Buffett unloads $1.2 billion of this popular tech stock",
+    "url": "https://finance.yahoo.com/news/warren-buffett-unloads-1-2-170700834.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:07:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.864094+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "a855c2d1b71ee422"
+  },
+  {
+    "id": "yahoo-finance-67a3c1bde9e6f4c3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Should You Buy Advanced Micro Devices (AMD) Stock Before Aug. 5? Here's What History Says.",
+    "url": "https://finance.yahoo.com/news/buy-advanced-micro-devices-amd-170500667.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:05:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862315+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "67a3c1bde9e6f4c3"
+  },
+  {
+    "id": "yahoo-finance-b7bfbdf9012d807f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Novo Nordisk Shares Plummet as Competition Weighs on Sales",
+    "url": "https://www.wsj.com/business/earnings/novo-nordisk-stock-earnings-q2-2025-b12fb01c?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:05:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862382+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b7bfbdf9012d807f"
+  },
+  {
+    "id": "yahoo-finance-32fe85744fb97e13",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "UnitedHealth Continues to Struggle as Rising Medical Costs, Shortfalls Affect Business",
+    "url": "https://www.wsj.com/business/earnings/unitedhealth-group-unh-q2-earnings-report-stock-2025-be365219?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:05:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862451+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "32fe85744fb97e13"
   },
   {
     "id": "nyt-business-31a42a9c5a37dc5f",
@@ -1722,6 +2267,23 @@
     "contentHash": "31a42a9c5a37dc5f"
   },
   {
+    "id": "yahoo-finance-cfc4dc3527026cf8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Safe Dividend Stocks Spotlight: The Strength Behind Enterprise Products Partners’ (EPD) Payout History",
+    "url": "https://finance.yahoo.com/news/safe-dividend-stocks-spotlight-strength-170155118.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:01:55+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862528+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "cfc4dc3527026cf8"
+  },
+  {
     "id": "advisor-perspectives-4c6b148db21b5516",
     "sourceId": "advisor-perspectives",
     "sourceName": "Advisor Perspectives",
@@ -1738,6 +2300,126 @@
     "contentHash": "4c6b148db21b5516"
   },
   {
+    "id": "yahoo-finance-2f5b9a3234dc670a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "What it's like to intern at Goldman's sales and trading division during a record-breaking year",
+    "url": "https://finance.yahoo.com/news/intern-goldmans-sales-trading-division-170001725.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:00:01+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862597+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "breaking",
+    "contentHash": "2f5b9a3234dc670a"
+  },
+  {
+    "id": "yahoo-finance-373e3878f2532435",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Georgia firm that called itself part of the ‘patriot economy’ abruptly closes — and investors worry their money is gone",
+    "url": "https://finance.yahoo.com/news/georgia-firm-called-itself-part-170000377.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:00:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862751+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "373e3878f2532435"
+  },
+  {
+    "id": "yahoo-finance-6635b8d71fd446a8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Wall Street Loves AI Hype, but Less Than 1 in 10 Businesses Use It. Here's Who's Winning Anyway.",
+    "url": "https://finance.yahoo.com/news/wall-street-loves-ai-hype-170000084.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:00:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862962+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "6635b8d71fd446a8"
+  },
+  {
+    "id": "yahoo-finance-220866c4cd55e31b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Spreading housing market weakness sees $23 billion builder offer $50K incentives per sale",
+    "url": "https://finance.yahoo.com/news/spreading-housing-market-weakness-sees-170000995.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T17:00:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.863412+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "220866c4cd55e31b"
+  },
+  {
+    "id": "yahoo-finance-437b66e9aebcdb89",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Black Hills Corporation (BKH): A Long-Term Performer Among Safe Dividend Stocks",
+    "url": "https://finance.yahoo.com/news/black-hills-corporation-bkh-long-165920094.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T16:59:20+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862235+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "437b66e9aebcdb89"
+  },
+  {
+    "id": "yahoo-finance-674d80ecf978c4cc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why NNN REIT (NNN) Belongs on Every List of Safe Dividend Stocks",
+    "url": "https://finance.yahoo.com/news/why-nnn-reit-nnn-belongs-165638280.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T16:56:38+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862158+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "674d80ecf978c4cc"
+  },
+  {
+    "id": "yahoo-finance-5dc19b42067b023f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "S&P 500 hits record high, but down 34% in comparison to legacy asset",
+    "url": "https://finance.yahoo.com/news/p-500-hits-record-high-165505221.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T16:55:05+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.864768+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5dc19b42067b023f"
+  },
+  {
     "id": "econbrowser-new-4061496db8362b36",
     "sourceId": "econbrowser-new",
     "sourceName": "Econbrowser",
@@ -1752,6 +2434,23 @@
     ],
     "priority": "high",
     "contentHash": "4061496db8362b36"
+  },
+  {
+    "id": "yahoo-finance-b01866b753311ec2",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "The Obesity Bubble Has Finally Burst. Novo Nordisk Shares Drop 21%.",
+    "url": "https://www.barrons.com/articles/novo-nordisk-stock-ozempic-wegovy-cut-outlook-50016e0a?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T16:55:00+00:00",
+    "fetchedAt": "2025-07-31T04:52:38.862890+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b01866b753311ec2"
   },
   {
     "id": "cnbc-markets-e4bdfedca4284ddc",
@@ -2313,6 +3012,23 @@
     "contentHash": "305860ec924f3b2d"
   },
   {
+    "id": "yahoo-finance-c21224562f384bf9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Whirlpool shares slump,; co slashes forecast and dividend",
+    "url": "https://finance.yahoo.com/news/whirlpool-shares-slide-slashing-forecast-152024965.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:20:24+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.366638+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c21224562f384bf9"
+  },
+  {
     "id": "dwarkesh-patel-youtube-b1325bf61760bc5a",
     "sourceId": "dwarkesh-patel-youtube",
     "sourceName": "Dwarkesh Patel",
@@ -2363,6 +3079,161 @@
     "contentHash": "c7ed885b09c0dbc1"
   },
   {
+    "id": "yahoo-finance-058651bcdfb5d1aa",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "The London Company SMID Cap Trimmed AerCap Holdings (AER) on Share Price Appreciation",
+    "url": "https://finance.yahoo.com/news/london-company-smid-cap-trimmed-151740898.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:17:40+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.366451+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "058651bcdfb5d1aa"
+  },
+  {
+    "id": "yahoo-finance-c6e1d87cc5dd0eb9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Merck Earnings Beat Analyst Estimates. Why the Stock Is Dropping.",
+    "url": "https://www.barrons.com/articles/merck-earnings-stock-price-14ee6662?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:16:00+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.366386+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "c6e1d87cc5dd0eb9"
+  },
+  {
+    "id": "yahoo-finance-d1a0b77da6034f4d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Do You Believe in the Growth Prospects of Armstrong World Industries (AWI)?",
+    "url": "https://finance.yahoo.com/news/believe-growth-prospects-armstrong-world-151555766.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:15:55+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.366324+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d1a0b77da6034f4d"
+  },
+  {
+    "id": "yahoo-finance-01388c2365523831",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "UnitedHealth, UPS, and Whirlpool Show First Cracks in a Strong Earnings Season",
+    "url": "https://www.barrons.com/articles/stock-rally-big-tech-narrow-earnings-a84f80f4?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:15:00+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.366261+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "01388c2365523831"
+  },
+  {
+    "id": "yahoo-finance-e640bf542dfd36a4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stocks Slide in Afternoon Session",
+    "url": "https://finance.yahoo.com/news/stocks-supported-strong-earnings-trade-150627532.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:06:27+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.366122+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e640bf542dfd36a4"
+  },
+  {
+    "id": "yahoo-finance-c00fc2c9c5529682",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "IonQ Just Nabbed a Former JPMorgan Research Leader. How Should You Play the Quantum Computing Stock Here?",
+    "url": "https://finance.yahoo.com/news/ionq-just-nabbed-former-jpmorgan-150257910.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:02:57+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.365463+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c00fc2c9c5529682"
+  },
+  {
+    "id": "yahoo-finance-be019721380cd5da",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Renault procurement chief Provost is frontrunner for CEO job, media reports say",
+    "url": "https://finance.yahoo.com/news/renaults-procurement-chief-leading-candidate-150118496.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:01:18+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.365394+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "be019721380cd5da"
+  },
+  {
+    "id": "yahoo-finance-fa3a74e345ce2663",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Four Ways to Prepare for When Your Adult Kids Need Financial Help",
+    "url": "https://www.wsj.com/personal-finance/adult-children-financial-help-tips-54a7c601?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:00:00+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.364928+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "fa3a74e345ce2663"
+  },
+  {
+    "id": "yahoo-finance-54047bebe188b971",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Brent Jumps Above $70 on Secondary Tariff Fears",
+    "url": "https://finance.yahoo.com/news/brent-jumps-above-70-secondary-150000874.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T15:00:00+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.365068+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "54047bebe188b971"
+  },
+  {
     "id": "advisor-perspectives-a4504c086958c55b",
     "sourceId": "advisor-perspectives",
     "sourceName": "Advisor Perspectives",
@@ -2378,6 +3249,24 @@
     ],
     "priority": "normal",
     "contentHash": "a4504c086958c55b"
+  },
+  {
+    "id": "yahoo-finance-bf9a3464e280c94c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "If You Had Invested $1K in These 6 Companies at IPO, You’d Have Over $2 Million Today",
+    "url": "https://finance.yahoo.com/news/had-invested-1k-6-companies-145754830.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T14:57:54+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.366196+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "IPO"
+    ],
+    "priority": "normal",
+    "contentHash": "bf9a3464e280c94c"
   },
   {
     "id": "thehindubusinessline-5761e0edca63625b",
@@ -2396,924 +3285,90 @@
     "contentHash": "5761e0edca63625b"
   },
   {
-    "id": "trendlyne-youtube-136f771be3fa477a",
-    "sourceId": "trendlyne-youtube",
-    "sourceName": "Trendlyne",
-    "title": "Bank of India Earnings Call for Q1FY26",
-    "url": "https://www.youtube.com/watch?v=_FpMYx4Q1fQ",
-    "summary": "Conference Call with Bank of India Management and Analysts on Q1FY26 Earnings Performance and Outlook. Get the Earnings/Conference Calls podcast: https://trendlyne.com/feeds/earning-calls-podcast-rss/ To download the Trendlyne app: https://play.google.com/store/apps/details?id=com.trendlyne.markets All earnings transcripts: https://trendlyne.com/earnings-transcripts/",
-    "fullContent": "Conference Call with Bank of India Management and Analysts on Q1FY26 Earnings Performance and Outlook. Get the Earnings/Conference Calls podcast: https://trendlyne.com/feeds/earning-calls-podcast-rss/ To download the Trendlyne app: https://play.google.com/store/apps/details?id=com.trendlyne.markets All earnings transcripts: https://trendlyne.com/earnings-transcripts/",
-    "publishedAt": "2025-07-29T14:46:50+00:00",
-    "fetchedAt": "2025-07-30T15:00:42.720411+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos",
-      "Earnings"
-    ],
-    "priority": "low",
-    "contentHash": "136f771be3fa477a"
-  },
-  {
-    "id": "advisor-perspectives-7dd682ab03e8e113",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "Consumer Confidence Improves Slightly in July",
-    "url": "https://www.advisorperspectives.com/dshort/updates/2025/07/29/consumer-confidence-improves-slightly-in-july?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "The Conference Board's Consumer Confidence Index® saw a modest increase in July, rising 2.0 points to 97.2. This marks the index's second gain in three months, suggesting a recent stabilization in consumer confidence, albeit at a subdued level.",
-    "publishedAt": "2025-07-29T14:38:28+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.652899+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7dd682ab03e8e113"
-  },
-  {
-    "id": "project-syndicate-f18ba5327791238d",
-    "sourceId": "project-syndicate",
-    "sourceName": "Project Syndicate",
-    "title": "A New Trade Agenda for Climate-Resilient Development",
-    "url": "https://www.project-syndicate.org/commentary/reimagining-trade-for-climate-justice-in-africa-and-beyond-by-saliem-fakir-2025-07",
-    "summary": "Although today’s geopolitical landscape is fraught with uncertainty, it also creates opportunities to advance green solutions missing from current trade frameworks. But policymakers must be prepared to introduce new trade rules that support low-carbon transitions in Africa and across the Global South.",
-    "publishedAt": "2025-07-29T14:33:13+00:00",
-    "fetchedAt": "2025-07-30T08:21:43.035029+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "ESG"
-    ],
-    "priority": "high",
-    "contentHash": "f18ba5327791238d"
-  },
-  {
-    "id": "google-bloomberg-7e7099c97cc50fd9",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Novo Falls by Record as Wegovy Slumps and Insider Named CEO - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSlVoaGVOcEhVMm43ZjlNcWVEOWIxT1BZRG00OFBTMVVidkU5a0EtWmRVV19IUU9FQzN0VC1RZ1FwaGM3VTItR0NsU3pQM2drVVE0Ykh0WkpjVEhSaGZaS2k4Nk9rMFlMdkNjakRDNTFZMWpNQXA2T1kxalNITjVrZ0gwNXVfelExZ3FlX1NyMUM2SEh0OXViWE91aW9EY1QySkV6VnF6NG1tRVh6?oc=5",
-    "summary": "Novo Falls by Record as Wegovy Slumps and Insider Named CEO  Bloomberg.com",
-    "publishedAt": "2025-07-29T14:32:05+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.598848+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7e7099c97cc50fd9"
-  },
-  {
-    "id": "google-bloomberg-45e251eae49c7761",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Novo Falls by Record as Wegovy Slumps and Insider Named CEO - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSlVoaGVOcEhVMm43ZjlNcWVEOWIxT1BZRG00OFBTMVVidkU5a0EtWmRVV19IUU9FQzN0VC1RZ1FwaGM3VTItR0NsU3pQM2drVVE0Ykh0WkpjVEhSaGZaS2k4Nk9rMFlMdkNjakRDNTFZMWpNQXA2T1kxalNITjVrZ0gwNXVfelExZ3FlX1NyMUM2SEh0OXViWE91aW9EY1QySkV6VnF6NG1tRVh6?oc=5",
-    "summary": "Novo Falls by Record as Wegovy Slumps and Insider Named CEO  Bloomberg",
-    "publishedAt": "2025-07-29T14:32:05+00:00",
-    "fetchedAt": "2025-07-30T09:09:19.598641+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "45e251eae49c7761"
-  },
-  {
-    "id": "nyt-business-23b97a81a82c737a",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Europe Made Major Trade Concessions to Trump. How Did That Happen?",
-    "url": "https://www.nytimes.com/2025/07/29/world/europe/europe-trump-trade-concessions-analysis.html",
-    "summary": "Some European politicians are dismayed that the European Union did not drive a harder bargain, but facing the threat of a damaging trade war, officials say they had little choice.",
-    "publishedAt": "2025-07-29T14:25:27+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.789224+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "23b97a81a82c737a"
-  },
-  {
-    "id": "google-bloomberg-cbc682ab2e690e99",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "PayPal Raises 2025 Profit Forecast as Venmo Revenue Jumps 20% - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNczdJNWl5V2VzLVF3cXJBLWFoR3R4UG9UeTZTZ1dBVWIwOWhqWTZCZmlJdUpvQlpVVnpRY0R5VElBODlTaGxzZ2hSbWdIQkU3MXdKbVhRb0prMjBZRFBYQzBWckVwUWdNbnF3eTN1c1R2MXVnQkVkR2wtNWo2cWNhYWlQU0V1NGo1UjZ6enlxeXEtUjRQdXY2Y1BSS0k5RDlKMTc5QkxKUGg1eUhGUGRoeg?oc=5",
-    "summary": "PayPal Raises 2025 Profit Forecast as Venmo Revenue Jumps 20%  Bloomberg.com",
-    "publishedAt": "2025-07-29T14:19:27+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.593104+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "cbc682ab2e690e99"
-  },
-  {
-    "id": "google-bloomberg-7e37329ac72f5a96",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "PayPal Raises 2025 Profit Forecast as Venmo Revenue Jumps 20% - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNczdJNWl5V2VzLVF3cXJBLWFoR3R4UG9UeTZTZ1dBVWIwOWhqWTZCZmlJdUpvQlpVVnpRY0R5VElBODlTaGxzZ2hSbWdIQkU3MXdKbVhRb0prMjBZRFBYQzBWckVwUWdNbnF3eTN1c1R2MXVnQkVkR2wtNWo2cWNhYWlQU0V1NGo1UjZ6enlxeXEtUjRQdXY2Y1BSS0k5RDlKMTc5QkxKUGg1eUhGUGRoeg?oc=5",
-    "summary": "PayPal Raises 2025 Profit Forecast as Venmo Revenue Jumps 20%  Bloomberg",
-    "publishedAt": "2025-07-29T14:19:27+00:00",
-    "fetchedAt": "2025-07-30T09:09:19.590758+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "7e37329ac72f5a96"
-  },
-  {
-    "id": "advisor-perspectives-15a78b2c3b28ef07",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "4 Ways to Make the Biggest Marketing Impact With Limited Resources",
-    "url": "https://www.advisorperspectives.com/articles/2025/07/29/4-ways-make-biggest-marketing-impact-limited-resources?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "Trying to do too much without a focused strategy reaps negligible results over time — it also causes burnout.",
-    "publishedAt": "2025-07-29T14:18:44+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.653135+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "15a78b2c3b28ef07"
-  },
-  {
-    "id": "advisor-perspectives-cb8bce2351a48aba",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "Job Openings Fall More Than Expected in June",
-    "url": "https://www.advisorperspectives.com/dshort/updates/2025/07/29/jolts-report-job-openings-june-2025?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "Job openings fell more than expected in June, hitting 7.437 million vacancies, according to the latest Job Openings and Labor Turnover Survey (JOLTS). This marks the first monthly decline since March and was lower than the expected 7.510 million openings. Meanwhile, hires, quits, and layoffs also declined.",
-    "publishedAt": "2025-07-29T14:10:47+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.653411+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "cb8bce2351a48aba"
-  },
-  {
-    "id": "google-bloomberg-ca0091a76a4831d8",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Beijing Floods Kill 30 as Xi Calls for Life-Saving Efforts - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUGlDN2ktdThlWHZTX3Z4OVdpckZiS05KVDFWd1pwNXd5Rk1URVhDQkZmS1BIN2JDdXZjZVc0a25tbnJBRFJ6N215aHp4RWpEQm1paTRXTm1IenJROHZySGpSZU5nZHpfS2hLcjBoYjBhSnRaVU52Sk9fNEVEdHpCWlgtUGt2VGRPLXJUbFJ2bzFDSGRPQ1BNa1NHeE1ROGx5SmkwZlhNRE44ZlVRY1Uxam1B?oc=5",
-    "summary": "Beijing Floods Kill 30 as Xi Calls for Life-Saving Efforts  Bloomberg.com",
-    "publishedAt": "2025-07-29T14:06:41+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.598430+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ca0091a76a4831d8"
-  },
-  {
-    "id": "google-bloomberg-8581b9503c776b6e",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Beijing Floods Kill 30 as Xi Calls for Life-Saving Efforts - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUGlDN2ktdThlWHZTX3Z4OVdpckZiS05KVDFWd1pwNXd5Rk1URVhDQkZmS1BIN2JDdXZjZVc0a25tbnJBRFJ6N215aHp4RWpEQm1paTRXTm1IenJROHZySGpSZU5nZHpfS2hLcjBoYjBhSnRaVU52Sk9fNEVEdHpCWlgtUGt2VGRPLXJUbFJ2bzFDSGRPQ1BNa1NHeE1ROGx5SmkwZlhNRE44ZlVRY1Uxam1B?oc=5",
-    "summary": "Beijing Floods Kill 30 as Xi Calls for Life-Saving Efforts  Bloomberg",
-    "publishedAt": "2025-07-29T14:06:41+00:00",
-    "fetchedAt": "2025-07-30T09:09:19.597947+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "8581b9503c776b6e"
-  },
-  {
-    "id": "bloomberg-economics-e438ea9df87c34a8",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "US Consumer Confidence Rises on Outlook for Economy, Job Market",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/us-consumer-confidence-improves-on-outlook-for-economy",
-    "summary": "US consumer confidence increased in July as concerns eased about the outlook for the broader economy and the labor market.",
-    "publishedAt": "2025-07-29T14:05:41+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.549313+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "low",
-    "contentHash": "e438ea9df87c34a8"
-  },
-  {
-    "id": "thehindubusinessline-4217aa95f1a61065",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Egg prices crash on price war among producer States, weak demand",
-    "url": "https://www.thehindubusinessline.com/economy/agri-business/egg-prices-crash-on-price-war-among-producer-states-weak-demand/article69869967.ece",
-    "summary": "Onset of Shravan month has resulted to weak demand; summer in Middle East impacts exports",
-    "publishedAt": "2025-07-29T14:04:46+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.205609+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4217aa95f1a61065"
-  },
-  {
-    "id": "bloomberg-economics-019bb64bd04447b8",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "US Job Openings Fall to 7.44 Million After Back-to-Back Jumps",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/us-job-openings-fall-to-7-44-million-after-back-to-back-jumps",
-    "summary": "US job openings fell in June after jumping in each of the prior two months, hovering at a level that indicates generally stable demand for workers.",
-    "publishedAt": "2025-07-29T14:02:56+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.549519+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "019bb64bd04447b8"
-  },
-  {
-    "id": "thehindubusinessline-15318255c6a5ffd1",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "NSE awaits SEBI nod for offer to settle two cases",
-    "url": "https://www.thehindubusinessline.com/markets/nse-awaits-sebi-nod-for-offer-to-settle-two-cases/article69869741.ece",
-    "summary": "NSE’s listing plans have been halted by the market regulator due to ongoing cases dating back to 2015 in which some high-frequency trading firms were alleged to have gained unfair access to its co-location servers",
-    "publishedAt": "2025-07-29T14:02:19+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.205814+00:00",
-    "category": "markets",
-    "tags": [
-      "IPO",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "15318255c6a5ffd1"
-  },
-  {
-    "id": "calculated-risk-be52f0dab7260706",
-    "sourceId": "calculated-risk",
-    "sourceName": "Calculated Risk",
-    "title": "BLS: Job Openings Decreased to 7.4 million in June",
-    "url": "http://www.calculatedriskblog.com/2025/07/bls-job-openings-decreased-to-74.html",
-    "summary": "From the BLS: Job Openings and Labor Turnover Summary The number of job openings was little changed at 7.4 million in June, the U.S. Bureau of Labor Statistics reported today. Over the month, both hires and total separations were little changed at 5.2 million and 5.1 million, respectively. Within separations, quits (3.1 million) were little changed while layoffs and discharges (1.6 million) were unchanged. emphasis added The following graph shows job openings (black line), hires (dark blue), Layoff, Discharges and other (red column), and Quits (light blue column) from the JOLTS. This series started in December 2000. Note: The difference between JOLTS hires and separations is similar to the CES (payroll survey) net jobs headline numbers. This report is for June; the employment report this Friday will be for July. Click on graph for larger image. Note that hires (dark blue) and total separations (red and light blue columns stacked) are usually pretty close each month. This is a measure o",
-    "publishedAt": "2025-07-29T14:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:56.636519+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "be52f0dab7260706"
-  },
-  {
-    "id": "bonddad-2b1bcd68b3f8ee98",
-    "sourceId": "bonddad",
-    "sourceName": "The Bonddad Blog",
-    "title": "Repeat home sales and leading apartment rent indexes both point to lower shelter inflation ahead",
-    "url": "https://bonddad.blogspot.com/2025/07/repeat-home-sales-and-leading-apartment.html",
-    "summary": "- by New Deal democratThis morning’s repeat home sales reports from the FHFA and S&P Case Shiller were not good news for sellers - but very good news for future consumer inflation readings.On a seasonally adjusted basis, in the three month average through May, the Case-Shiller national index (light blue in the graphs below) declined -0.3%, while the FHFA purchase index declined -0.2%. In the case of the FHFA index, this was the second decline in a row; in the Case-Shiller Index, the third. This is on par with the declines we last saw in the summer of 2023 (note: as per usual, FRED hasn’t updated the FHFA information yet):Put another way, there has been actual *de*flation in the house price indexes since February, by -0.5% in the FHFA Index and -1.0% in the Case Shiller Index.On a YoY basis, price gains in both indexes not only continued to decelerate, at 2.7% for the Case Shiller index, and 3.0% for the FHFA index; but these were the lowest YoY% increases since 2012 for both indexes ex",
-    "publishedAt": "2025-07-29T13:53:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.802950+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "2b1bcd68b3f8ee98"
-  },
-  {
-    "id": "advisor-perspectives-c6c26b6e8e1f57ad",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "S&P CoreLogic Case-Shiller Index: Home Prices Down for Third Straight Month",
-    "url": "https://www.advisorperspectives.com/dshort/updates/2025/07/29/sp-corelogic-case-shiller-home-price-index-may-2025?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "Home prices declined in May as the benchmark national index fell for a third straight month. The seasonally adjusted home prices for the national index saw a 0.3% decrease month-over-month and a 2.2% increase year-over-year. This marks the fourth straight month annual gains have slowed and is the smallest annual increase since July 2023. After adjusting for inflation, the monthly change fell to -0.6% and annual change fell to -1.9%.",
-    "publishedAt": "2025-07-29T13:51:57+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.653746+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "c6c26b6e8e1f57ad"
-  },
-  {
-    "id": "calculated-risk-adab0d0c9751d790",
-    "sourceId": "calculated-risk",
-    "sourceName": "Calculated Risk",
-    "title": "Newsletter: Case-Shiller: National House Price Index Up 2.3% year-over-year in May",
-    "url": "http://www.calculatedriskblog.com/2025/07/newsletter-case-shiller-national-house.html",
-    "summary": "Today, in the Calculated Risk Real Estate Newsletter: Case-Shiller: National House Price Index Up 2.3% year-over-year in May Excerpt: S&P/Case-Shiller released the monthly Home Price Indices forMay (\"May\" is a 3-month average of March, April and May closing prices). March closing prices include some contracts signed in January, so there is a significant lag to this data. Here is a graph of the month-over-month (MoM) change in the Case-Shiller National Index Seasonally Adjusted (SA). The MoM decrease in the seasonally adjusted (SA) Case-Shiller National Index was at -0.29% (a -3.5% annual rate). This was the third consecutive MoM decrease. On a seasonally adjusted basis, prices increased month-to-month in just 8 of the 20 Case-Shiller cities. San Francisco has fallen 8.2% from the recent peak, Tampa is down 3.3% from the peak, and Denver down 3.3%.",
-    "publishedAt": "2025-07-29T13:46:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:56.637098+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "adab0d0c9751d790"
-  },
-  {
-    "id": "ft-markets-804d46d4bc2abd4f",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times",
-    "title": "IMF upgrades global growth forecast as weaker dollar aids world economy",
-    "url": "https://www.ft.com/content/a92ec981-8a89-4caf-878d-6278186c9e31",
-    "summary": "Fund says fall of US currency has helped lessen effect of Donald Trump’s tariffs",
-    "publishedAt": "2025-07-29T13:43:50+00:00",
-    "fetchedAt": "2025-07-30T08:08:48.403164+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Currency"
-    ],
-    "priority": "normal",
-    "contentHash": "804d46d4bc2abd4f"
-  },
-  {
-    "id": "advisor-perspectives-75082699f7e4f88b",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "FHFA House Price Index Down 0.2% in May",
-    "url": "https://www.advisorperspectives.com/dshort/updates/2025/07/29/house-price-index-fhfa-down-may-2025?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "The Federal Housing Finance Agency (FHFA) house price index (HPI) fell to 434.4 in May, the second straight monthly decline. U.S. house prices were down 0.2% from the previous month, lower than the expected 0.1% decline, and up 2.8% from one year ago.",
-    "publishedAt": "2025-07-29T13:42:39+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.654006+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "75082699f7e4f88b"
-  },
-  {
-    "id": "google-bloomberg-329c6bb7f1c8d319",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Spotify Swings to a Second-Quarter Loss, Missing Estimates - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMUZtWkFTeVA5VkpIdlRPRmlabUFoOEg2LVFqS0hHMzlyZkFpWWFWWXBucUt5YzUzR2lYSjBZVlhSWjJUeHJsMEVUd21oc3hPWXUtdGFObkt6THNRandXb3ZtbVhuc1Q0QUVKbzFtYUZLTmFmRlFoRDhhZVdSN1NmbDg3dDVoTDVQN0NXV1NEZUYtaV9KNnV4MEVqb3hFVnNsZnNKd05JZkFxbWdW?oc=5",
-    "summary": "Spotify Swings to a Second-Quarter Loss, Missing Estimates  Bloomberg.com",
-    "publishedAt": "2025-07-29T13:41:58+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.592881+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "329c6bb7f1c8d319"
-  },
-  {
-    "id": "google-bloomberg-f284aef998c372d2",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Spotify Swings to a Second-Quarter Loss, Missing Estimates - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMUZtWkFTeVA5VkpIdlRPRmlabUFoOEg2LVFqS0hHMzlyZkFpWWFWWXBucUt5YzUzR2lYSjBZVlhSWjJUeHJsMEVUd21oc3hPWXUtdGFObkt6THNRandXb3ZtbVhuc1Q0QUVKbzFtYUZLTmFmRlFoRDhhZVdSN1NmbDg3dDVoTDVQN0NXV1NEZUYtaV9KNnV4MEVqb3hFVnNsZnNKd05JZkFxbWdW?oc=5",
-    "summary": "Spotify Swings to a Second-Quarter Loss, Missing Estimates  Bloomberg",
-    "publishedAt": "2025-07-29T13:41:58+00:00",
-    "fetchedAt": "2025-07-30T09:09:19.590504+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "f284aef998c372d2"
-  },
-  {
-    "id": "thehindubusinessline-551b70638ac4859a",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Broker’s call: SAIL (Neutral)",
-    "url": "https://www.thehindubusinessline.com/markets/brokers-call-sail-neutral/article69869779.ece",
-    "summary": "Motilal Oswal",
-    "publishedAt": "2025-07-29T13:38:17+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.205975+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "551b70638ac4859a"
-  },
-  {
-    "id": "ft-markets-8d0393d4202dc675",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times",
-    "title": "Trump says UK taxes on North Sea oil ‘make no sense’",
-    "url": "https://www.ft.com/content/4b8bb597-39f5-4bf4-91fd-3f5629eda42f",
-    "summary": "Britain has signalled to oil companies ‘we don’t want you’, US president says",
-    "publishedAt": "2025-07-29T13:37:17+00:00",
-    "fetchedAt": "2025-07-30T08:08:48.403396+00:00",
-    "category": "markets",
-    "tags": [
-      "Commodities",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "8d0393d4202dc675"
-  },
-  {
-    "id": "thehindubusinessline-332fab77a24b5ee2",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Brokerages continue to feel the heat of F&O curbs in Q1",
-    "url": "https://www.thehindubusinessline.com/markets/brokerages-continue-to-feel-the-heat-of-fo-curbs-in-q1/article69869685.ece",
-    "summary": "Muted trading volumes weigh on profits for most retail brokers; diversified players fare better",
-    "publishedAt": "2025-07-29T13:32:39+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.206236+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "332fab77a24b5ee2"
-  },
-  {
-    "id": "google-bloomberg-29e9635603c30044",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "China Crypto Firm Bitmain Plans First US Factory in Trump Gambit - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaGxpcm4zZ28xT0pCUmloT2ZuZk9EV21HN1Y3ejhJb25sNG1TalpEMlU4TXlmVW9mSGx5bXZYZkdmR25GeXd3d1Zwbm9NYVlzaXpMcEJKc2JBb0xGMENqUnBpOFpvU2VjRmFNNWtNN0cwQmtJYzAwbjlndFgySWpMbFNHeThGOVBFX2lGUHFIUzU0SzZOVVF0cExpeGFIT0xhQmcxbjdVSnZQUDJJYU14SzlSQ2E?oc=5",
-    "summary": "China Crypto Firm Bitmain Plans First US Factory in Trump Gambit  Bloomberg.com",
-    "publishedAt": "2025-07-29T13:32:26+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.598645+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Crypto"
-    ],
-    "priority": "normal",
-    "contentHash": "29e9635603c30044"
-  },
-  {
-    "id": "google-bloomberg-261c52cec6e59826",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "China Crypto Firm Bitmain Plans First US Factory in Trump Gambit - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaGxpcm4zZ28xT0pCUmloT2ZuZk9EV21HN1Y3ejhJb25sNG1TalpEMlU4TXlmVW9mSGx5bXZYZkdmR25GeXd3d1Zwbm9NYVlzaXpMcEJKc2JBb0xGMENqUnBpOFpvU2VjRmFNNWtNN0cwQmtJYzAwbjlndFgySWpMbFNHeThGOVBFX2lGUHFIUzU0SzZOVVF0cExpeGFIT0xhQmcxbjdVSnZQUDJJYU14SzlSQ2E?oc=5",
-    "summary": "China Crypto Firm Bitmain Plans First US Factory in Trump Gambit  Bloomberg",
-    "publishedAt": "2025-07-29T13:32:26+00:00",
-    "fetchedAt": "2025-07-30T09:09:19.598324+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "261c52cec6e59826"
-  },
-  {
-    "id": "thehindubusinessline-d616ea483546ef67",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Reliance, ONGC, BP ink pact for offshore exploration in Saurashtra basin",
-    "url": "https://www.thehindubusinessline.com/markets/commodities/reliance-ongc-bp-ink-pact-for-offshore-exploration-in-saurashtra-basin/article69869605.ece",
-    "summary": "The block, titled “GS-OSHP-2022/2,” spans 5,454 sq km and was awarded under the Hydrocarbon Exploration and Licensing Policy",
-    "publishedAt": "2025-07-29T13:19:19+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.206625+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "d616ea483546ef67"
-  },
-  {
-    "id": "thehindubusinessline-e569e78db0616571",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Edelweiss MF expects consumer demand to revive in H2 of this fiscal",
-    "url": "https://www.thehindubusinessline.com/markets/edelweiss-mf-expects-consumer-demand-to-revive-in-h2-of-this-fiscal/article69869078.ece",
-    "summary": "Financialisation is an inevitable part of India’s growth story — the movement of household assets from physical assets to financial assets, said Radhika Gupta, MD & CEO, Edelweiss Mutual Fund",
-    "publishedAt": "2025-07-29T13:12:03+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.206860+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "e569e78db0616571"
-  },
-  {
-    "id": "thehindubusinessline-c9a4c457a2d776be",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Joyalukkas secures AED500 million working capital deal for global expansion",
-    "url": "https://www.thehindubusinessline.com/companies/joyalukkas-secures-aed500-million-working-capital-deal-for-global-expansion/article69869508.ece",
-    "summary": "The agreement supports the company’s long-term expansion plans across the UAE and key international markets including the UK, USA, Canada, and Australia",
-    "publishedAt": "2025-07-29T13:08:19+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.207079+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c9a4c457a2d776be"
-  },
-  {
-    "id": "thehindubusinessline-f89cd63c6efad3dd",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Markets rebound after 3-day slump; Nifty forms bullish engulfing pattern",
-    "url": "https://www.thehindubusinessline.com/markets/stock-markets/markets-rebound-after-3-day-slump-nifty-forms-bullish-engulfing-pattern/article69869388.ece",
-    "summary": "Jio Financial led the gainers on the Nifty, while SBI Life and Axis Bank were among the top losers.",
-    "publishedAt": "2025-07-29T13:04:09+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.207262+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f89cd63c6efad3dd"
-  },
-  {
-    "id": "bloomberg-economics-501588f517e785ca",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "EU to Make Reduced Aid Payout to Ukraine Due to Lagging Reforms",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/eu-to-make-reduced-aid-payout-to-ukraine-due-to-lagging-reforms",
-    "summary": "The European Union plans to reduce a major package of financial support to Ukraine by €1.5 billion ($1.7 billion) after Kyiv said it had been unable to meet all required reform milestones, said a spokesperson of the bloc’s executive.",
-    "publishedAt": "2025-07-29T13:01:48+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.549739+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "501588f517e785ca"
-  },
-  {
-    "id": "google-bloomberg-452a3d08d5dd9b53",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "EU to Make Reduced Aid Payout to Ukraine Due to Lagging Reforms - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc290LUFqY3F6eEJzdk1SZFZ0d0FDUHVUS1pjSU9MMzJTOHVyMUdnZHl0R3dEOWc4ZU5BRWRNLUZ5czlrT2JaQ250ZWtkT0pmS0xLUDU0T0JPUEpXVU5OUnAtNkJLT3lpQVFxZnV2WXM2Ni1PRFRtUWp5TTRkQUppZmt4SE1JQjhwOUtGR1FPbWZ5T0ZpUVEyWE9GUm40c3hCUDRmRlRoZjFoY2F4Q3RPa1JyYXc?oc=5",
-    "summary": "EU to Make Reduced Aid Payout to Ukraine Due to Lagging Reforms  Bloomberg.com",
-    "fullContent": "EU to Make Reduced Aid Payout to Ukraine Due to Lagging Reforms  Bloomberg.com",
-    "publishedAt": "2025-07-29T13:01:48+00:00",
-    "fetchedAt": "2025-07-30T13:01:48.705154+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "452a3d08d5dd9b53"
-  },
-  {
-    "id": "imf-publications-0fa5bf539e019d4a",
-    "sourceId": "imf-publications",
-    "sourceName": "IMF Publications",
-    "title": "Coming Soon on July 29 at 9:00 AM ET: World Economic Outlook Update, July 2025",
-    "url": "https://www.imf.org/en/Publications/WEO/Issues/2025/07/29/world-economic-outlook-update-july-2025",
+    "id": "yahoo-finance-96e92d4c89022da9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Berkshire Hathaway Deal for CSX Looks More Likely After Blockbuster Norfolk Southern-Union Pacific Railroad Merger",
+    "url": "https://www.barrons.com/articles/warren-buffett-berkshire-hathaway-csx-norfolk-southern-union-pacific-7ccb7ccc?siteid=yhoof2&yptr=yahoo",
     "summary": "",
-    "publishedAt": "2025-07-29T13:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.434471+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "low",
-    "contentHash": "0fa5bf539e019d4a"
-  },
-  {
-    "id": "bloomberg-economics-689ef275a7599db3",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "US Tariffs Threaten Brazil’s Bet on New Orange-Growing Area",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/trump-tariffs-threatens-brazil-s-bet-on-new-oranges-belt",
-    "summary": "After decades battling a deadly crop disease, Brazilian orange farmers finally hit on a way to expand supply by moving some production to the country’s northeast.",
-    "publishedAt": "2025-07-29T13:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.548322+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "689ef275a7599db3"
-  },
-  {
-    "id": "bloomberg-economics-09d11cf186aee712",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "World’s ‘Precarious’ Trade Backdrop Hurting Growth, IMF Says",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/world-s-precarious-trade-backdrop-is-hurting-growth-imf-says",
-    "summary": "The world economy will keep weakening and remains vulnerable to trade shocks even though it is showing some resilience to Donald Trump’s tariffs, the International Monetary Fund said.",
-    "publishedAt": "2025-07-29T13:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.549137+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "09d11cf186aee712"
-  },
-  {
-    "id": "bloomberg-economics-5aeef806d9935dba",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "UK to Grow Faster Than European Peers for Two Years, IMF Says",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/uk-to-grow-faster-than-european-peers-for-two-years-imf-says",
-    "summary": "Britain will grow faster than any other major European economy this year and next but continue to lag behind the US and Canada among Group of Seven industrialized nations, according to the International Monetary Fund.",
-    "publishedAt": "2025-07-29T13:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.549939+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "5aeef806d9935dba"
-  },
-  {
-    "id": "imf-news-06fc267ed48e02b3",
-    "sourceId": "imf-news",
-    "sourceName": "IMF News",
-    "title": "World Economic Outlook Update, July 2025: Opening Remarks by Pierre-Olivier Gourinchas",
-    "url": "https://www.imf.org/en/News/Articles/2025/07/29/sp072925-pierre-olivier-gourinchas-opening-remarks-world-economic-outlook-update-july-2025",
-    "summary": "",
-    "publishedAt": "2025-07-29T13:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:51.757903+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "low",
-    "contentHash": "06fc267ed48e02b3"
-  },
-  {
-    "id": "calculated-risk-ca2fbc0723abcda6",
-    "sourceId": "calculated-risk",
-    "sourceName": "Calculated Risk",
-    "title": "Case-Shiller: National House Price Index Up 2.3% year-over-year in May",
-    "url": "http://www.calculatedriskblog.com/2025/07/case-shiller-national-house-price-index.html",
-    "summary": "S&P/Case-Shiller released the monthly Home Price Indices for May (\"May\" is a 3-month average of March, April and May closing prices). This release includes prices for 20 individual cities, two composite indices (for 10 cities and 20 cities) and the monthly National index. From S&P S&P CoreLogic Case-Shiller Index Records 2.3% Annual Gain in May 2025 The S&P CoreLogic Case-Shiller U.S. National Home Price NSA Index, covering all nine U.S. census divisions, reported a 2.3% annual return for May, down from a 2.7% annual gain in the previous month. The 10-City Composite saw an annual increase of 3.4%, down from a 4.1% annual increase in the previous month. The 20-City Composite posted a year-over-year increase of 2.8%, down from a 3.4% increase in the previous month. New York again reported the highest annual gain among the 20 cities with a 7.4% increase in May, followed by Chicago and Detroit with annual increases of 6.1% and 4.9%, respectively. Tampa posted the lowest return, falling 2.4",
-    "publishedAt": "2025-07-29T13:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:56.638073+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "ca2fbc0723abcda6"
-  },
-  {
-    "id": "thehindubusinessline-68cc884ff7160a40",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Broker’s call: Hindustan Aeronautics (Buy)",
-    "url": "https://www.thehindubusinessline.com/markets/brokers-call-hindustan-aeronautics-buy/article69869505.ece",
-    "summary": "Anand Rathi",
-    "publishedAt": "2025-07-29T12:58:14+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.207427+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "68cc884ff7160a40"
-  },
-  {
-    "id": "thehindubusinessline-be2a2c7d36886056",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "MAN Industries raises ₹255 crore via preferential allotment",
-    "url": "https://www.thehindubusinessline.com/markets/man-industries-raises-255-crore-via-preferential-allotment/article69869338.ece",
-    "summary": "The company will use the fund in the ongoing expansions in Jammu and Saudi Arabia, strengthen the balance sheet and bolster working capital for enhanced operational resilience.",
-    "publishedAt": "2025-07-29T12:56:11+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.207650+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "be2a2c7d36886056"
-  },
-  {
-    "id": "advisor-perspectives-de6c453acbe6b71a",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "Q2 Rebound is No Big Deal",
-    "url": "https://www.advisorperspectives.com/commentaries/2025/07/29/q2-rebound-no-big-deal?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "President Trump announced higher tariffs were on the way almost as soon as he took office. As a result, businesses focused on buying foreign goods in advance, to front run those tariffs, putting some of their purchases from domestic producers on the backburner.",
-    "publishedAt": "2025-07-29T12:54:02+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.654247+00:00",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T14:57:00+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.364581+00:00",
     "category": "markets",
     "tags": [
       "Markets",
       "M&A"
     ],
     "priority": "normal",
-    "contentHash": "de6c453acbe6b71a"
+    "contentHash": "96e92d4c89022da9"
   },
   {
-    "id": "thehindubusinessline-28b4ee57bafda10d",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "SEBI extends time to Oct 1 to implement framework on retail investors participation in algo trade",
-    "url": "https://www.thehindubusinessline.com/markets/sebi-extends-time-to-oct-1-to-implement-framework-on-retail-investors-participation-in-algo-trade/article69869461.ece",
-    "summary": "At present, only institutional investors are allowed to put in algorithmic (algo) trading, which provides significant advantages of timed and programmed order execution",
-    "publishedAt": "2025-07-29T12:53:28+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.207866+00:00",
+    "id": "yahoo-finance-15d24f84bc824949",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Here’s Why NewMarket Corporation (NEU) Surged in Q2",
+    "url": "https://finance.yahoo.com/news/why-newmarket-corporation-neu-surged-145644076.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T14:56:44+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.364512+00:00",
     "category": "markets",
     "tags": [
       "Markets"
     ],
     "priority": "normal",
-    "contentHash": "28b4ee57bafda10d"
+    "contentHash": "15d24f84bc824949"
   },
   {
-    "id": "big-picture-e1222d591f6298ec",
-    "sourceId": "big-picture",
-    "sourceName": "The Big Picture",
-    "title": "What Is Driving Inflation?",
-    "url": "https://ritholtz.com/2025/07/what-is-driving-inflation/",
-    "summary": "The Inflationistas are an eclectic mix of subgroups, beliefs, and ideologies. They count the bond vigilantes, hard money advocates, Milton Friedmanites, Fed haters, goldbugs and crypto bros amongst their numbers. Their unifying thread: Printers go Brrrrr. As a group, they believe that money printing is the reason for all price increases and, therefore, must… Read More The post What Is Driving Inflation? appeared first on The Big Picture.",
-    "publishedAt": "2025-07-29T12:45:52+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.560365+00:00",
+    "id": "yahoo-finance-a848779b9feca1da",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "SoFi Technologies Stock Jumps on Q2 Results, Raised Outlook",
+    "url": "https://finance.yahoo.com/news/sofi-technologies-stock-jumps-q2-145402004.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T14:54:02+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.364668+00:00",
     "category": "markets",
     "tags": [
       "Markets",
-      "Crypto",
-      "Debt"
+      "Earnings"
     ],
-    "priority": "high",
-    "contentHash": "e1222d591f6298ec"
+    "priority": "low",
+    "contentHash": "a848779b9feca1da"
   },
   {
-    "id": "yahoo-finance-00e60caa2e0243b3",
+    "id": "yahoo-finance-83f3e237541352bb",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
-    "title": "Procter & Gamble CEO on if tariffs: they are 'inherently inflationary'",
-    "url": "https://finance.yahoo.com/news/procter--gamble-ceo-on-if-tariffs-they-are-inherently-inflationary-124544706.html",
+    "title": "Gap Replaces Athleta CEO With Nike Exec. It’s Another Reset.",
+    "url": "https://www.barrons.com/articles/gap-athleta-ceo-nike-stock-862dc5b2?siteid=yhoof2&yptr=yahoo",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-29T12:45:44+00:00",
-    "fetchedAt": "2025-07-30T14:53:06.675887+00:00",
+    "publishedAt": "2025-07-29T14:54:00+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.364198+00:00",
     "category": "markets",
     "tags": [
       "Markets"
     ],
-    "priority": "high",
-    "contentHash": "00e60caa2e0243b3"
+    "priority": "normal",
+    "contentHash": "83f3e237541352bb"
   },
   {
-    "id": "yahoo-finance-edf62821c7631b5f",
+    "id": "yahoo-finance-c4cfb8e61b2e461b",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
-    "title": "Procter & Gamble CEO on tariffs: they are 'inherently inflationary'",
-    "url": "https://finance.yahoo.com/news/procter--gamble-ceo-on-tariffs-they-are-inherently-inflationary-124544635.html",
+    "title": "Why JetBlue Stock Took Off Today",
+    "url": "https://finance.yahoo.com/news/why-jetblue-stock-took-off-145340267.html",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-29T12:45:44+00:00",
-    "fetchedAt": "2025-07-30T14:58:32.596306+00:00",
+    "publishedAt": "2025-07-29T14:53:40+00:00",
+    "fetchedAt": "2025-07-31T02:37:22.364385+00:00",
     "category": "markets",
     "tags": [
       "Markets"
     ],
-    "priority": "high",
-    "contentHash": "edf62821c7631b5f"
-  },
-  {
-    "id": "project-syndicate-f0f7f02ddc1f9039",
-    "sourceId": "project-syndicate",
-    "sourceName": "Project Syndicate",
-    "title": "How Central Banks Jeopardized Their Independence",
-    "url": "https://www.project-syndicate.org/commentary/central-banks-eroded-independence-with-too-much-quantitative-easing-by-otmar-issing-2025-07",
-    "summary": "The independent status that many central banks currently enjoy is a historical exception and could be reversed by a change in the political climate – as US President Donald Trump's attacks on Federal Reserve Chair Jerome Powell imply. But monetary authorities have also helped create this situation by expanding their mandate.",
-    "publishedAt": "2025-07-29T12:42:16+00:00",
-    "fetchedAt": "2025-07-30T08:21:43.035271+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "ESG"
-    ],
-    "priority": "high",
-    "contentHash": "f0f7f02ddc1f9039"
-  },
-  {
-    "id": "bloomberg-economics-c512ee2352eb4571",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Unrest Over High Costs Spread as Calm Returns to Angola Capital",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/unrest-over-high-costs-spread-as-calm-returns-to-angola-capital",
-    "summary": "Protests against rising fuel prices spread to Angola’s central city of Huambo, as authorities said calm returned to the capital after police were deployed to quell unrest that left at least four people dead.",
-    "publishedAt": "2025-07-29T12:40:29+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.550141+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
     "priority": "normal",
-    "contentHash": "c512ee2352eb4571"
-  },
-  {
-    "id": "nyt-business-bb4558280514a479",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "The Country Where 76% of Cars Sold Are Electric",
-    "url": "https://www.nytimes.com/2025/07/28/business/nepal-electric-vehicles-china.html",
-    "summary": "Subsidies, hydroelectricity and a manufacturing powerhouse neighbor are moving the cars into Nepal faster than almost anywhere else.",
-    "publishedAt": "2025-07-29T12:37:48+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.793432+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "bb4558280514a479"
-  },
-  {
-    "id": "thehindubusinessline-eb8a8dfa4abd2541",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Weekly Rupee view: Rupee coming close to a crucial support",
-    "url": "https://www.thehindubusinessline.com/portfolio/technical-analysis/weekly-rupee-view-rupee-coming-close-to-a-crucial-support/article69869339.ece",
-    "summary": "Fed meeting outcome will need a watch",
-    "publishedAt": "2025-07-29T12:36:56+00:00",
-    "fetchedAt": "2025-07-30T08:08:55.208045+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Currency"
-    ],
-    "priority": "high",
-    "contentHash": "eb8a8dfa4abd2541"
-  },
-  {
-    "id": "bloomberg-economics-b54c2243552e4842",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Harsh Reality of US Trade Deal Stirs EU Soul-Searching Over Lost Clout",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/brutal-us-trade-deal-stirs-eu-soul-searching-over-loss-of-clout",
-    "summary": "As European Union leaders work through the consequences of their new trading arrangement with the US, they are confronting the bitter reality of just how far they have fallen.",
-    "publishedAt": "2025-07-29T12:35:38+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.550417+00:00",
-    "category": "macro",
-    "tags": [
-      "M&A",
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "b54c2243552e4842"
-  },
-  {
-    "id": "bloomberg-economics-b54d747a98e54bb3",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "US Goods-Trade Deficit Narrows Thanks to Broad Drop in Imports",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/us-merchandise-trade-deficit-narrows-by-more-than-forecast",
-    "summary": "The US merchandise-trade deficit shrank in June by more than forecast, reflecting a broad decline in imports as the pre-tariff rush to secure goods unwinds.",
-    "publishedAt": "2025-07-29T12:33:12+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.548937+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "b54d747a98e54bb3"
-  },
-  {
-    "id": "nyt-business-7077894eb92eb60a",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Are Cracks Appearing in Trump’s Antitrust Strategy?",
-    "url": "https://www.nytimes.com/2025/07/29/business/dealbook/justice-dept-antitrust-slater-loomer.html",
-    "summary": "Two top officials are reportedly out of a job, amid reported disagreements within the Justice Department over how it regulates deals.",
-    "publishedAt": "2025-07-29T12:31:27+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.788652+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "high",
-    "contentHash": "7077894eb92eb60a"
-  },
-  {
-    "id": "nyt-economy-339f62e49f5b40e3",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "Trump Is Winning His Trade War. What Will That Mean for the Economy?",
-    "url": "https://www.nytimes.com/2025/07/29/business/economy/trump-tariffs-economy.html",
-    "summary": "The president’s vision for reshaping global trade is falling into place, but he is embarking on an experiment that economists say could still produce damaging results.",
-    "publishedAt": "2025-07-29T12:26:53+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.471580+00:00",
-    "category": "macro",
-    "tags": [
-      "Earnings",
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "339f62e49f5b40e3"
+    "contentHash": "c4cfb8e61b2e461b"
   }
 ]
