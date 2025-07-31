@@ -35,6 +35,23 @@
     "contentHash": "41e39317633f12c6"
   },
   {
+    "id": "bloomberg-markets-f63a2feb9858d31d",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "French Inflation Stays Below 1% as Energy Weighs on Prices",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/french-inflation-stays-below-1-as-energy-weighs-on-prices",
+    "summary": "French inflation was stable in July at a level well below the European Central Bank’s 2% target, supporting the case for policymakers to keep the door open to more interest-rate cuts.",
+    "fullContent": "Shoppers in Aix-en-Provence, France. Photographer: Jeremy Suyker/Bloomberg",
+    "publishedAt": "2025-07-31T06:45:00+00:00",
+    "fetchedAt": "2025-07-31T06:57:12.683486+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "f63a2feb9858d31d"
+  },
+  {
     "id": "et-markets-7a85589b7a1ea348",
     "sourceId": "et-markets",
     "sourceName": "Economic Times",
@@ -3496,22 +3513,5 @@
     ],
     "priority": "normal",
     "contentHash": "4557f295e1ad5cae"
-  },
-  {
-    "id": "bloomberg-markets-1770c94800ce511d",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Adani Open to Investing $10 Billion in Vietnam in Global Push",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/adani-open-to-investing-10-billion-in-vietnam-in-global-push",
-    "summary": "Gautam Adani is willing to invest $10 billion in Vietnam, as the Indian tycoon seeks new growth opportunities in Asia after an ongoing bribery probe in the US tempered his ports-to-power conglomerate’s global ambitions.",
-    "fullContent": "Gautam Adani speaks during a Bloomberg Television interview at the group’s headquarters in Ahmedabad, Gujarat, India.",
-    "publishedAt": "2025-07-31T03:23:27+00:00",
-    "fetchedAt": "2025-07-31T04:52:33.448777+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1770c94800ce511d"
   }
 ]
