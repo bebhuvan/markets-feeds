@@ -1766,6 +1766,24 @@
     "contentHash": "d5586503f385476e"
   },
   {
+    "id": "wsj-youtube-cd65de9d19dd2f4b",
+    "sourceId": "wsj-youtube",
+    "sourceName": "Wall Street Journal",
+    "title": "WSJ Trade Reporter Breaks Down State of U.S. Deals Ahead of Aug. 1 Deadline | WSJ News",
+    "url": "https://www.youtube.com/watch?v=uf7SOvMNkRM",
+    "summary": "Major trading partners like India and South Korea have until Aug. 1 to make a trade deal with the U.S. before President Trump’s steep tariffs kick in. WSJ trade reporter Gavin Bade explains where those deals stand. Photo: Chinatopix via AP #Trump #Tariffs #WSJ",
+    "fullContent": "Major trading partners like India and South Korea have until Aug. 1 to make a trade deal with the U.S. before President Trump’s steep tariffs kick in. WSJ trade reporter Gavin Bade explains where those deals stand. Photo: Chinatopix via AP #Trump #Tariffs #WSJ",
+    "publishedAt": "2025-07-30T21:45:11+00:00",
+    "fetchedAt": "2025-08-01T02:46:20.891610+00:00",
+    "category": "videos",
+    "tags": [
+      "M&A",
+      "Videos"
+    ],
+    "priority": "normal",
+    "contentHash": "cd65de9d19dd2f4b"
+  },
+  {
     "id": "bloomberg-politics-c8c62506e329cec2",
     "sourceId": "bloomberg-politics",
     "sourceName": "Bloomberg Politics",
@@ -3521,22 +3539,5 @@
     ],
     "priority": "normal",
     "contentHash": "4646fd50b9eb086f"
-  },
-  {
-    "id": "nyt-business-541c05527305500a",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "See How Often Two Fed Governors Have Dissented on a Rate Change Vote",
-    "url": "https://www.nytimes.com/2025/07/30/business/economy/fed-rate-dissent-powell.html",
-    "summary": "Two top Fed officials voted against the central bank’s decision to leave rates unchanged, the first dual dissent in more than 30 years.",
-    "fullContent": "Two top Fed officials voted against the central bank’s decision to leave rates unchanged, the first dual dissent in more than 30 years.",
-    "publishedAt": "2025-07-30T19:34:55+00:00",
-    "fetchedAt": "2025-07-31T01:31:35.599344+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "541c05527305500a"
   }
 ]
