@@ -9,16 +9,14 @@ import '../styles/global.css';
 // Load recent link data for performance - load latest 8 files for better video coverage
 const linkFiles = await Astro.glob('../content/links/*.json');
 
-// Sort by extracting date from first item in each file (more reliable than URL)
+// Sort files by date from filename (URL-based sorting - reliable)
 const sortedFiles = linkFiles
   .filter(file => !file.url?.includes('sample-data.json'))
-  .map(file => {
-    const firstItem = Array.isArray(file.default) && file.default[0];
-    const fileDate = firstItem?.publishedAt?.split('T')[0] || '2000-01-01';
-    return { file, fileDate };
-  })
-  .sort((a, b) => b.fileDate.localeCompare(a.fileDate))
-  .map(item => item.file);
+  .sort((a, b) => {
+    const dateA = a.url?.match(/(2025-\d{2}-\d{2})\.json$/)?.[1] || '2000-01-01';
+    const dateB = b.url?.match(/(2025-\d{2}-\d{2})\.json$/)?.[1] || '2000-01-01';
+    return dateB.localeCompare(dateA);
+  });
 
 // Load the latest 8 files to get comprehensive video content
 const recentFiles = sortedFiles.slice(0, 8);
