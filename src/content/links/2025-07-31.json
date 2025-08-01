@@ -1403,6 +1403,23 @@
     "contentHash": "335169c8153b25a7"
   },
   {
+    "id": "bloomberg-markets-3a0f3d1be73a33ef",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Stocks Extend Losses on Tariffs, Swiss Franc Drops: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/asian-stocks-to-slip-as-tariff-deadline-sours-mood-markets-wrap",
+    "summary": "A global stock selloff extended to a sixth day - the longest losing streak since September 2023 - after President Donald Trump boosted tariffs for imports from across the world.",
+    "fullContent": "Container trucks at the Oi Container Terminal in Tokyo, Japan, on Tuesday, July 8, 2025. Japan’s exports fell for a second month as US President Donald Trump’s tariff campaign continued to weigh on trade, further raising the risk of a technical recession for the nation’s sputtering economy.",
+    "publishedAt": "2025-07-31T22:16:21+00:00",
+    "fetchedAt": "2025-08-01T07:40:27.590951+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3a0f3d1be73a33ef"
+  },
+  {
     "id": "business-insider-7e08a3688a962ada",
     "sourceId": "business-insider",
     "sourceName": "Business Insider",
@@ -3414,6 +3431,23 @@
     "contentHash": "f57f8471af7ef965"
   },
   {
+    "id": "bloomberg-economics-6c5df3ac617e4168",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Trump Embraces Economic Coercion With Tariffs as a Big Stick",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-embraces-economic-coercion-with-tariffs-as-his-big-stick",
+    "summary": "Back in January, a global survey found that Indians were the most upbeat of any nation about what a second Donald Trump presidency would mean for their country. They’re likely having second thoughts now.",
+    "fullContent": "A gantry crane and the Zhen Hua 15 heavy load cargo carrier at the Vizhinjam transshipment container port, developed by Adani Ports and Special Economic Zone Ltd., ahead of its inauguration in Vizhinjam, Kerala, India, on Saturday, Oct. 14, 2023. Located near the southernmost tip of the country, the Vizhinjam transshipment container port the first of its kind in India will allow the nation to grab a bigger slice of the international maritime trade currently dominated by China.",
+    "publishedAt": "2025-07-31T18:15:20+00:00",
+    "fetchedAt": "2025-08-01T07:40:27.567069+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "6c5df3ac617e4168"
+  },
+  {
     "id": "ndtv-profit-youtube-c88d28334e5eb1ac",
     "sourceId": "ndtv-profit-youtube",
     "sourceName": "NDTV Profit India",
@@ -3481,39 +3515,5 @@
     ],
     "priority": "normal",
     "contentHash": "18e3330cbf9dddc4"
-  },
-  {
-    "id": "google-bloomberg-04f8772e94636d5a",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Google Loses Appeal in App Store Fight With Fortnite Maker Epic - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2w0Z05uOVRHUDVnWFdOYm9qTzhfd2xuQlRrTUZXYl9GWDZFNGdmbmxJOTd4ZzVJUVF3VEQtQkFPWnl4SFR4VmtXSmUtM3h0SEdXQzROendFTFotVUtDMU1QVzdoMWZzTFRuRF9wWEVkbUJZZWRfWVNUOFo1VG8wNTU5U2YtNkRYeHB5YlhkX1FUQ1BnZ01SVjAwdVJJVHBNbGhMeDhtNEpFSlgyLVFXV0lB?oc=5",
-    "summary": "Google Loses Appeal in App Store Fight With Fortnite Maker Epic  Bloomberg.com",
-    "fullContent": "Google Loses Appeal in App Store Fight With Fortnite Maker Epic  Bloomberg.com",
-    "publishedAt": "2025-07-31T18:06:16+00:00",
-    "fetchedAt": "2025-08-01T02:46:09.363272+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "04f8772e94636d5a"
-  },
-  {
-    "id": "google-bloomberg-535aac7b02e0191c",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Google Loses Appeal in App Store Fight With Fortnite Maker Epic - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2w0Z05uOVRHUDVnWFdOYm9qTzhfd2xuQlRrTUZXYl9GWDZFNGdmbmxJOTd4ZzVJUVF3VEQtQkFPWnl4SFR4VmtXSmUtM3h0SEdXQzROendFTFotVUtDMU1QVzdoMWZzTFRuRF9wWEVkbUJZZWRfWVNUOFo1VG8wNTU5U2YtNkRYeHB5YlhkX1FUQ1BnZ01SVjAwdVJJVHBNbGhMeDhtNEpFSlgyLVFXV0lB?oc=5",
-    "summary": "Google Loses Appeal in App Store Fight With Fortnite Maker Epic  Bloomberg",
-    "fullContent": "Google Loses Appeal in App Store Fight With Fortnite Maker Epic  Bloomberg",
-    "publishedAt": "2025-07-31T18:06:16+00:00",
-    "fetchedAt": "2025-08-01T05:00:51.592066+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "535aac7b02e0191c"
   }
 ]

@@ -3129,6 +3129,24 @@
     "contentHash": "4284f8c272f3d4d6"
   },
   {
+    "id": "yahoo-finance-f57794881b284035",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "SEC Approves In-Kind Crypto ETF Redemptions",
+    "url": "https://finance.yahoo.com/news/sec-approves-kind-crypto-etf-201500418.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:15:00+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.692354+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f57794881b284035"
+  },
+  {
     "id": "wsj-markets-main-b8621d72e2e87c57",
     "sourceId": "wsj-markets-main",
     "sourceName": "WSJ Markets",
@@ -3147,6 +3165,24 @@
     "contentHash": "b8621d72e2e87c57"
   },
   {
+    "id": "yahoo-finance-a07a1632142618d2",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Generac Stock Soared. Strong Earnings Aren’t the Only Reason.",
+    "url": "https://www.barrons.com/articles/generac-earnings-stock-price-7851014f?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:14:00+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.692257+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a07a1632142618d2"
+  },
+  {
     "id": "cnbc-markets-d5a0058efe398462",
     "sourceId": "cnbc-markets",
     "sourceName": "CNBC Markets",
@@ -3162,6 +3198,96 @@
     ],
     "priority": "normal",
     "contentHash": "d5a0058efe398462"
+  },
+  {
+    "id": "yahoo-finance-cbd6b535afc55413",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dow Drops 170 Points After Powell Doesn't Tease September Cut",
+    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-073025/card/dow-drops-170-points-after-powell-doesn-t-tease-september-cut-QQ7Um9iS907puscEyyiz?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:13:01+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.692141+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "cbd6b535afc55413"
+  },
+  {
+    "id": "yahoo-finance-566f1531b2e94c69",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "EBay sees quarterly revenue above estimates, shares jump",
+    "url": "https://finance.yahoo.com/news/ebay-forecasts-quarterly-revenue-above-201218236.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:12:18+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691885+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "566f1531b2e94c69"
+  },
+  {
+    "id": "yahoo-finance-64307178f39875b1",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Crude Oil and the US Dollar Index Are Heading Higher, and Commodity Traders Are Taking Note",
+    "url": "https://finance.yahoo.com/news/crude-oil-us-dollar-index-201125901.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:11:25+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691972+00:00",
+    "category": "markets",
+    "tags": [
+      "Currency",
+      "Commodities",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "64307178f39875b1"
+  },
+  {
+    "id": "yahoo-finance-85a2e34d0fc21386",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Harley-Davidson Stock Soars 13%. It Wasn’t Earnings.",
+    "url": "https://www.barrons.com/articles/harley-davidson-earnings-stock-price-5a66abe8?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:11:00+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691804+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "85a2e34d0fc21386"
+  },
+  {
+    "id": "yahoo-finance-43eddcb0e556d9b1",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Meta shares jump as AI fuels ad sales, outweighing big capital costs",
+    "url": "https://finance.yahoo.com/news/meta-narrows-annual-capital-expenditures-201049557.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:10:49+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691717+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "43eddcb0e556d9b1"
   },
   {
     "id": "business-insider-b24cc7d40390dfee",
@@ -3196,6 +3322,24 @@
     ],
     "priority": "low",
     "contentHash": "0fb80afd90be276c"
+  },
+  {
+    "id": "yahoo-finance-84916cea2212fcc9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Red-Hot Seagate Stock Slips Despite Earnings Beat. Here's What Wall Street Is Saying.",
+    "url": "https://www.investors.com/news/technology/seagate-stock-stx-earnings-july-2025/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:09:51+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691539+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "84916cea2212fcc9"
   },
   {
     "id": "google-bloomberg-68c908125da6bb2b",
@@ -3234,6 +3378,24 @@
     "contentHash": "c63c145873dce810"
   },
   {
+    "id": "yahoo-finance-b7dab818e90e6008",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Ford raises projected tariff hit to results, shares drop 3%",
+    "url": "https://finance.yahoo.com/news/ford-raises-projected-tariff-hit-200911550.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:09:11+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691452+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b7dab818e90e6008"
+  },
+  {
     "id": "cnbc-markets-d9a413deb7ca471f",
     "sourceId": "cnbc-markets",
     "sourceName": "CNBC Markets",
@@ -3249,6 +3411,95 @@
     ],
     "priority": "high",
     "contentHash": "d9a413deb7ca471f"
+  },
+  {
+    "id": "yahoo-finance-1fd77d8dfea1225e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dollar Holds Strong Eyeing  a 1% Move",
+    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-073025/card/dollar-holds-strong-eyeing-a-1-move-mmyzX9NizR2EM3SpUmC9?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:07:59+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691276+00:00",
+    "category": "markets",
+    "tags": [
+      "Currency",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1fd77d8dfea1225e"
+  },
+  {
+    "id": "yahoo-finance-6a440365fea5b8b0",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Booking Holdings Beats Q2 Expectations With 'Steady' Travel Demand Despite Uncertainty",
+    "url": "https://www.investors.com/news/technology/booking-stock-bkng-booking-holdings-q2-2025/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:07:58+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691365+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6a440365fea5b8b0"
+  },
+  {
+    "id": "yahoo-finance-03848bc8c9d78bcc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Drugmaker Teva Pharmaceutical Narrowed Full-Year Guidance After Beating Q2 Earnings",
+    "url": "https://www.investors.com/news/technology/teva-stock-pharmaceutical-q2-earnings-stock-market/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:07:17+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691006+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "03848bc8c9d78bcc"
+  },
+  {
+    "id": "yahoo-finance-9f26fdeb8b2aea82",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Arm shares drop as outlook disappoints; company looks to invest to make own chips",
+    "url": "https://finance.yahoo.com/news/chip-tech-provider-arm-looks-200716295.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:07:16+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.690884+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "low",
+    "contentHash": "9f26fdeb8b2aea82"
+  },
+  {
+    "id": "yahoo-finance-5304185cecb5c053",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Microsoft to spend record $30 billion this quarter as AI investments pay off",
+    "url": "https://finance.yahoo.com/news/microsoft-tops-quarterly-revenue-estimates-200711810.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:07:11+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.691095+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "5304185cecb5c053"
   },
   {
     "id": "bloomberg-business-youtube-8838ed5746a20ba6",
@@ -3300,244 +3551,5 @@
     ],
     "priority": "normal",
     "contentHash": "12b51772c4ab21c0"
-  },
-  {
-    "id": "advisor-perspectives-bce52a38bb247a7d",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "GDP Per Capita: Q2 2025 Advance Estimate",
-    "url": "https://www.advisorperspectives.com/dshort/updates/2025/07/30/gdp-per-capita-q2-2025-advance-estimate?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "The advance estimate for Q2 GDP came in at 2.97%, an acceleration from -0.50% for the Q1 third estimate. With a per-capita adjustment, the headline number is lower at 2.46%, a pickup from -1.00% for the Q1 headline number.",
-    "fullContent": "The advance estimate for Q2 GDP came in at 2.97%, an acceleration from -0.50% for the Q1 third estimate. With a per-capita adjustment, the headline number is lower at 2.46%, a pickup from -1.00% for the Q1 headline number.",
-    "publishedAt": "2025-07-30T20:00:28+00:00",
-    "fetchedAt": "2025-07-31T01:31:52.794072+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "bce52a38bb247a7d"
-  },
-  {
-    "id": "ft-markets-3c92150dabcea5d2",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times",
-    "title": "US copper prices fall after Trump exempts refined metals from tariffs",
-    "url": "https://www.ft.com/content/b78c3f66-69db-4211-a697-58211e5c9a39",
-    "summary": "Washington follows through with plans to impose 50% levies on some products",
-    "fullContent": "Washington follows through with plans to impose 50% levies on some products",
-    "publishedAt": "2025-07-30T19:58:27+00:00",
-    "fetchedAt": "2025-07-31T01:31:30.413329+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3c92150dabcea5d2"
-  },
-  {
-    "id": "google-bloomberg-ce1e66e5cb8e2927",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Powell Cites Inflation Risk as Fed Holds Interest Rates Steady - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdTYtV1JycDJkVllqblQtT0JfdVVGa295ZjVtSGN2T256VE1CY3hsdVMzZlpVUlh0UzdBMGhWUmJqX3RlQmNtSUF1NEZnd2lXQ3ZEZm9sMkRFSElQM1p1THFiQ1BqZF9xMDdZMGpDOElleFRFYVJydkkyQ19jby1MLTJFMV9YVXFma3lGQXVqdW9URkRXTXBvU01DSVE0NnFpTGxRY3NZd2pENDNEVlFVZw?oc=5",
-    "summary": "Powell Cites Inflation Risk as Fed Holds Interest Rates Steady  Bloomberg",
-    "fullContent": "Powell Cites Inflation Risk as Fed Holds Interest Rates Steady  Bloomberg",
-    "publishedAt": "2025-07-30T19:58:26+00:00",
-    "fetchedAt": "2025-07-31T01:31:53.426917+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "ce1e66e5cb8e2927"
-  },
-  {
-    "id": "google-bloomberg-1f27e5ff25150321",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Powell Cites Inflation Risk as Fed Holds Interest Rates Steady - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdTYtV1JycDJkVllqblQtT0JfdVVGa295ZjVtSGN2T256VE1CY3hsdVMzZlpVUlh0UzdBMGhWUmJqX3RlQmNtSUF1NEZnd2lXQ3ZEZm9sMkRFSElQM1p1THFiQ1BqZF9xMDdZMGpDOElleFRFYVJydkkyQ19jby1MLTJFMV9YVXFma3lGQXVqdW9URkRXTXBvU01DSVE0NnFpTGxRY3NZd2pENDNEVlFVZw?oc=5",
-    "summary": "Powell Cites Inflation Risk as Fed Holds Interest Rates Steady  Bloomberg.com",
-    "fullContent": "Powell Cites Inflation Risk as Fed Holds Interest Rates Steady  Bloomberg.com",
-    "publishedAt": "2025-07-30T19:58:26+00:00",
-    "fetchedAt": "2025-07-31T02:37:40.884972+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "1f27e5ff25150321"
-  },
-  {
-    "id": "google-bloomberg-ff4c93dfecc6d24a",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "NYC Mayor Candidate Mamdani Says He’s ‘Not Defunding the Police’ - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUVRIelhCZlJFdWhiOVVhZzZIZTBxWHZkVTBFQ1hSa1BiTHJxamw4ZHhNZlJabjR1R29WcnBldW8wS3ExbVNfR1E4bGNnbFFFWWQ1WXdqcUJtQ1hYSllhNkd3MVJKdlFsT2JYdTBEcERJSi1NVzAtMXhzODBEcDJndXBZazhmVldlbXRBd1ZDU2VBa1RJaGV5UGk2RGxpaXNzQjlGM0NQNGhQRnNOUTZWZkEzbw?oc=5",
-    "summary": "NYC Mayor Candidate Mamdani Says He’s ‘Not Defunding the Police’  Bloomberg.com",
-    "fullContent": "NYC Mayor Candidate Mamdani Says He’s ‘Not Defunding the Police’  Bloomberg.com",
-    "publishedAt": "2025-07-30T19:54:41+00:00",
-    "fetchedAt": "2025-07-31T02:37:40.892029+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ff4c93dfecc6d24a"
-  },
-  {
-    "id": "google-bloomberg-be27df8c01d8ea6e",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "NYC Mayor Candidate Mamdani Says He’s ‘Not Defunding the Police’ - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUVRIelhCZlJFdWhiOVVhZzZIZTBxWHZkVTBFQ1hSa1BiTHJxamw4ZHhNZlJabjR1R29WcnBldW8wS3ExbVNfR1E4bGNnbFFFWWQ1WXdqcUJtQ1hYSllhNkd3MVJKdlFsT2JYdTBEcERJSi1NVzAtMXhzODBEcDJndXBZazhmVldlbXRBd1ZDU2VBa1RJaGV5UGk2RGxpaXNzQjlGM0NQNGhQRnNOUTZWZkEzbw?oc=5",
-    "summary": "NYC Mayor Candidate Mamdani Says He’s ‘Not Defunding the Police’  Bloomberg",
-    "fullContent": "NYC Mayor Candidate Mamdani Says He’s ‘Not Defunding the Police’  Bloomberg",
-    "publishedAt": "2025-07-30T19:54:41+00:00",
-    "fetchedAt": "2025-07-31T04:52:57.388022+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "be27df8c01d8ea6e"
-  },
-  {
-    "id": "cnbc-markets-e498919f77c83efc",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Powell to Trump and traders: See you in September",
-    "url": "https://www.cnbc.com/2025/07/30/powell-to-trump-and-traders-see-you-in-september.html",
-    "summary": "\"That meeting will have fireworks; today was just sparklers,\" one investor said.",
-    "fullContent": "\"That meeting will have fireworks; today was just sparklers,\" one investor said.",
-    "publishedAt": "2025-07-30T19:54:30+00:00",
-    "fetchedAt": "2025-07-31T06:18:02.221297+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "e498919f77c83efc"
-  },
-  {
-    "id": "conversable-economist-89eb3353b0761d93",
-    "sourceId": "conversable-economist",
-    "sourceName": "Conversable Economist",
-    "title": "Little Progress in Reducing US Carbon Emissions",
-    "url": "https://conversableeconomist.com/2025/07/30/little-progress-in-reducing-us-carbon-emissions/",
-    "summary": "There’s a game played about reducing US carbon emissions that I find annoying. It involves making a big deal about announcing timelines, but not actually taking the steps needed to meet those timelines. For example, as President Biden was leaving office late 2024, he annouced a goal that the US economy would be net-zero for … Continue reading Little Progress in Reducing US Carbon Emissions The post Little Progress in Reducing US Carbon Emissions first appeared on Conversable Economist.",
-    "fullContent": "There’s a game played about reducing US carbon emissions that I find annoying. It involves making a big deal about announcing timelines, but not actually taking the steps needed to meet those timelines. For example, as President Biden was leaving office late 2024, he annouced a goal that the US economy would be net-zero for carbon emissions by 2050. Or at the state level, California announced that zero-emissions cars would be two-thirds of all cars sold in California by 2030 and 100% of all cars sold in California by 2035. Well, how is that going? Here’s the figure from a 2024 EPA report showing US greenhouse gas emissions from 1990 to 2022. As you can see, there’s a modest rise from 1990 into the early 21st century, and then a modest decline since around 2007. But at least for me, it’s pretty hard to look at that figure and extrapolate to net-zero emissions by 2050. For those who view carbon emissions and the risks of global warming as existential issues, this figure should suggest th",
-    "publishedAt": "2025-07-30T19:51:38+00:00",
-    "fetchedAt": "2025-07-31T06:18:26.411834+00:00",
-    "category": "macro",
-    "tags": [
-      "M&A",
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "89eb3353b0761d93"
-  },
-  {
-    "id": "google-bloomberg-12f67d3c09e14c8a",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Trump Delays 50% Brazil Levy, Excludes Orange Juice, Embraer - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSlpDSk9yVC1FX1owOGpaTFZwbVp4UWFTcTN2YnJsak1sRDhWazJxYjJLOVV0YXQ5dHpRLTRrVjlnT01ZcnlGcFFENUZtaXpUSlRlQktyTmZfdlY3ejJhWDJfYkhCZFBvNkliRkl0WVA1N1psLUxHX1F0M1VkRWNEeS1PdHVyY0ZHQnpiWVQ5ZFgwZHI0Z2kxd1RVbEdoLVFRd2MzTE5jUUVWWVZNRnlGWnhUWEo?oc=5",
-    "summary": "Trump Delays 50% Brazil Levy, Excludes Orange Juice, Embraer  Bloomberg",
-    "fullContent": "Trump Delays 50% Brazil Levy, Excludes Orange Juice, Embraer  Bloomberg",
-    "publishedAt": "2025-07-30T19:46:37+00:00",
-    "fetchedAt": "2025-07-31T01:31:53.428827+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "12f67d3c09e14c8a"
-  },
-  {
-    "id": "google-bloomberg-1e6914ddfdd8d5a6",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Trump Delays 50% Brazil Levy, Excludes Orange Juice, Embraer - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSlpDSk9yVC1FX1owOGpaTFZwbVp4UWFTcTN2YnJsak1sRDhWazJxYjJLOVV0YXQ5dHpRLTRrVjlnT01ZcnlGcFFENUZtaXpUSlRlQktyTmZfdlY3ejJhWDJfYkhCZFBvNkliRkl0WVA1N1psLUxHX1F0M1VkRWNEeS1PdHVyY0ZHQnpiWVQ5ZFgwZHI0Z2kxd1RVbEdoLVFRd2MzTE5jUUVWWVZNRnlGWnhUWEo?oc=5",
-    "summary": "Trump Delays 50% Brazil Levy, Excludes Orange Juice, Embraer  Bloomberg.com",
-    "fullContent": "Trump Delays 50% Brazil Levy, Excludes Orange Juice, Embraer  Bloomberg.com",
-    "publishedAt": "2025-07-30T19:46:37+00:00",
-    "fetchedAt": "2025-07-31T02:37:40.886022+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1e6914ddfdd8d5a6"
-  },
-  {
-    "id": "cnbc-markets-96ca4410f0a7d8b1",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Woman pleads guilty in $30M scam that sold access to Trump fundraiser, fake U.S. residency",
-    "url": "https://www.cnbc.com/2025/07/30/guilty-trump-fundraiser-investment-fraud-new-york.html",
-    "summary": "More than 150 people, many foreign nationals from China, were duped into investments in hopes of winning legal residency in the United States.",
-    "fullContent": "More than 150 people, many foreign nationals from China, were duped into investments in hopes of winning legal residency in the United States.",
-    "publishedAt": "2025-07-30T19:43:51+00:00",
-    "fetchedAt": "2025-07-31T09:45:16.434377+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "96ca4410f0a7d8b1"
-  },
-  {
-    "id": "nyt-business-bfe1dcf4f6b4638a",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "What the Fed’s Rate Decision Means for Loans, Credit Cards, Mortgages and More",
-    "url": "https://www.nytimes.com/2025/07/30/business/fed-interest-rate-loans-mortgages.html",
-    "summary": "Here’s how the central bank’s interest rate stance influences car loans, credit cards, mortgages, savings and student loans.",
-    "fullContent": "Vehicles on a container ship at a port in Miami. Auto rates have been largely stable but remain elevated, and tariffs threaten to push prices higher.",
-    "publishedAt": "2025-07-30T19:43:40+00:00",
-    "fetchedAt": "2025-07-31T01:31:35.600961+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "bfe1dcf4f6b4638a"
-  },
-  {
-    "id": "nyt-business-4bbee48edfe237b9",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Takeaways from the Fed meeting.",
-    "url": "https://www.nytimes.com/live/2025/07/30/business/federal-reserve-interest-rates/takeaways-from-the-fed-meeting",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T19:41:22+00:00",
-    "fetchedAt": "2025-07-31T01:31:35.598158+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "4bbee48edfe237b9"
-  },
-  {
-    "id": "calculated-risk-4646fd50b9eb086f",
-    "sourceId": "calculated-risk",
-    "sourceName": "Calculated Risk",
-    "title": "Las Vegas in June: Visitor Traffic Down 11.3% YoY; Convention Traffic Down 10.7% YoY",
-    "url": "http://www.calculatedriskblog.com/2025/07/las-vegas-in-june-visitor-traffic-down.html",
-    "summary": "From the Las Vegas Visitor Authority: June 2025 Las Vegas Visitor Statistics Reflecting the broader backdrop of persistent economic uncertainty and weaker consumer confidence, compounded by a slower convention month, the destination saw a ‐11% YoY decline in visitation, hosting approximately 3.1M visitors. Convention attendance was approx. 375k for the month (down ‐10.7%), reflecting in part out rotations of shows that were held elsewhere this year, including InfoComm (30k attendees) and Cisco Live (18k attendees). Hotel occupancy of 78.7% (down ‐6.5 pts) and ADR of $164 (‐6.6% YoY) translated to monthly RevPAR below $129 (‐13.8% YoY). emphasis added Click on graph for larger image. The first graph shows visitor traffic for 2019 (Black), 2020 (dark blue), 2021 (light blue), 2022 (light orange), 2023 (orange), 2024 (dark orange) and 2025 (red). Visitor traffic was down 11.3% compared to last June.  Visitor traffic was down 14.2% compared to June 2019.Year-to-date (YTD) visitor traffic i",
-    "fullContent": "From the Las Vegas Visitor Authority: June 2025 Las Vegas Visitor Statistics Reflecting the broader backdrop of persistent economic uncertainty and weaker consumer confidence, compounded by a slower convention month, the destination saw a ‐11% YoY decline in visitation, hosting approximately 3.1M visitors. Convention attendance was approx. 375k for the month (down ‐10.7%), reflecting in part out rotations of shows that were held elsewhere this year, including InfoComm (30k attendees) and Cisco Live (18k attendees). Hotel occupancy of 78.7% (down ‐6.5 pts) and ADR of $164 (‐6.6% YoY) translated to monthly RevPAR below $129 (‐13.8% YoY). emphasis added Click on graph for larger image. The first graph shows visitor traffic for 2019 (Black), 2020 (dark blue), 2021 (light blue), 2022 (light orange), 2023 (orange), 2024 (dark orange) and 2025 (red). Visitor traffic was down 11.3% compared to last June.  Visitor traffic was down 14.2% compared to June 2019.Year-to-date (YTD) visitor traffic i",
-    "publishedAt": "2025-07-30T19:36:00+00:00",
-    "fetchedAt": "2025-07-31T01:31:41.335639+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "4646fd50b9eb086f"
   }
 ]
