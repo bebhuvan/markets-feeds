@@ -6,29 +6,48 @@ import LinkCard from '../components/LinkCard.astro';
 import type { FeedItem } from '../types';
 import '../styles/global.css';
 
-// Load recent link data for technology content  
-const linkFiles = await Astro.glob('../content/links/*.json');
+// Load recent link data for technology content with error handling
+let linkFiles: any[] = [];
+let allLinks: FeedItem[] = [];
 
-// Sort files by date from filename (URL-based sorting - reliable)
-const sortedFiles = linkFiles
-  .filter(file => !file.url?.includes('sample-data.json'))
-  .sort((a, b) => {
-    const dateA = a.url?.match(/(2025-\d{2}-\d{2})\.json$/)?.[1] || '2000-01-01';
-    const dateB = b.url?.match(/(2025-\d{2}-\d{2})\.json$/)?.[1] || '2000-01-01';
-    return dateB.localeCompare(dateA);
-  });
+try {
+  linkFiles = await Astro.glob('../content/links/*.json');
+  
+  // Sort files by date from filename (URL-based sorting - reliable)
+  const sortedFiles = linkFiles
+    .filter(file => file.url && !file.url.includes('sample-data.json'))
+    .sort((a, b) => {
+      const dateA = a.url?.match(/(2025-\d{2}-\d{2})\.json$/)?.[1] || '2000-01-01';
+      const dateB = b.url?.match(/(2025-\d{2}-\d{2})\.json$/)?.[1] || '2000-01-01';
+      return dateB.localeCompare(dateA);
+    });
 
-// Load the latest 10 files for better technology content coverage
-const recentFiles = sortedFiles.slice(0, 10);
-const allLinks: FeedItem[] = [];
+  // Load the latest 10 files for better technology content coverage
+  const recentFiles = sortedFiles.slice(0, 10);
 
-for (const file of recentFiles) {
-  if (Array.isArray(file.default)) {
-    const techItems = file.default.filter((item: FeedItem) => 
-      item.category === 'technology'
-    );
-    allLinks.push(...techItems);
+  for (const file of recentFiles) {
+    try {
+      if (Array.isArray(file.default)) {
+        const techItems = file.default.filter((item: FeedItem) => 
+          item && item.category === 'technology' && item.title && item.url
+        );
+        allLinks.push(...techItems);
+      }
+    } catch (fileError) {
+      console.error(`Error processing file ${file.url}:`, fileError);
+    }
   }
+} catch (error) {
+  console.error('Error loading link files:', error);
+}
+
+// Debug information
+console.log(`Technology page debug - ${new Date().toISOString()}:`);
+console.log(`- Total files loaded: ${linkFiles.length}`);
+console.log(`- Technology items found: ${allLinks.length}`);
+if (allLinks.length > 0) {
+  console.log(`- Latest tech item: ${allLinks[0].title} (${allLinks[0].publishedAt})`);
+  console.log(`- Oldest tech item: ${allLinks[allLinks.length-1].title} (${allLinks[allLinks.length-1].publishedAt})`);
 }
 
 // Sort by published date
