@@ -1,0 +1,9 @@
+FORCE DEPLOY: 2025-08-01T14:30:00Z
+Commit: 0eb754c
+Build ID: FORCE_REBUILD_$(date +%s)
+Cache Bust: TRUE
+
+This file forces a new deployment to bypass any caching issues.
+The critical Astro.glob fix has been deployed but may be cached.
+
+Expected: 143 technology items should now display correctly.
