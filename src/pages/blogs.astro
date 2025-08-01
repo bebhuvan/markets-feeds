@@ -6,23 +6,30 @@ import LinkCard from '../components/LinkCard.astro';
 import type { FeedItem } from '../types';
 import '../styles/global.css';
 
-// Load recent link data for performance - increase to latest 15 files for better research content coverage
+// Load recent link data for performance - increase to latest 10 files for better content coverage
 const linkFiles = await Astro.glob('../content/links/*.json');
-const sortedFiles = linkFiles.sort((a, b) => {
-  const dateA = a.url?.match(/(\d{4}-\d{2}-\d{2})\.json$/)?.[1] || '0000-00-00';
-  const dateB = b.url?.match(/(\d{4}-\d{2}-\d{2})\.json$/)?.[1] || '0000-00-00';
-  return dateB.localeCompare(dateA);
-});
 
-// Load the latest 15 files to ensure we get research content (research appears to be in older files)
-const recentFiles = sortedFiles.slice(0, 15);
+// Sort by extracting date from first item in each file (more reliable than URL)
+const sortedFiles = linkFiles
+  .filter(file => !file.url?.includes('sample-data.json'))
+  .map(file => {
+    const firstItem = Array.isArray(file.default) && file.default[0];
+    const fileDate = firstItem?.publishedAt?.split('T')[0] || '2000-01-01';
+    return { file, fileDate };
+  })
+  .sort((a, b) => b.fileDate.localeCompare(a.fileDate))
+  .map(item => item.file);
+
+// Load the latest 10 files to ensure we get blog content
+const recentFiles = sortedFiles.slice(0, 10);
 const allLinks: FeedItem[] = [];
 
 for (const file of recentFiles) {
   if (Array.isArray(file.default)) {
-    allLinks.push(...file.default.filter((item: FeedItem) => 
-      item.category === 'research'
-    ));
+    const blogItems = file.default.filter((item: FeedItem) => 
+      item.category === 'blogs'
+    );
+    allLinks.push(...blogItems);
   }
 }
 
@@ -42,21 +49,22 @@ const showingStart = startIndex + 1;
 const showingEnd = Math.min(endIndex, allLinks.length);
 const hasPrevPage = currentPage > 1;
 const hasNextPage = currentPage < totalPages;
+
 ---
 
-<Layout title="Research & Analysis - Markets Feeds" description="Latest financial research, analysis and academic content">
+<Layout title="Blogs & Opinion - Markets Feeds" description="Latest financial blogs, opinion pieces, and editorial content">
   
   <div class="container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-12 overflow-x-hidden">
-    <CategoryHeader title="Research & Analysis" currentPage="research" />
+    <CategoryHeader title="Blogs & Opinion" currentPage="blogs" />
     
-    <Navigation currentPage="research" />
+    <Navigation currentPage="blogs" />
     
     <main id="linkStream">
       {displayedLinks.length > 0 ? (
         <div>
           <!-- Show pagination info -->
           <div class="flex justify-between items-center mb-6 text-sm text-text-subtle">
-            <div>Showing {showingStart}-{showingEnd} of {allLinks.length} research articles</div>
+            <div>Showing {showingStart}-{showingEnd} of {allLinks.length} blog posts</div>
             <div>Page {currentPage} of {totalPages}</div>
           </div>
           
@@ -69,7 +77,7 @@ const hasNextPage = currentPage < totalPages;
             <div class="flex justify-center items-center gap-4 mt-8 pt-6 border-t border-border">
               {hasPrevPage && (
                 <a 
-                  href={`/research?page=${currentPage - 1}`}
+                  href={`/blogs?page=${currentPage - 1}`}
                   class="btn-secondary flex items-center gap-2 px-4 py-2"
                 >
                   ← Previous
@@ -82,7 +90,7 @@ const hasNextPage = currentPage < totalPages;
               
               {hasNextPage && (
                 <a 
-                  href={`/research?page=${currentPage + 1}`}
+                  href={`/blogs?page=${currentPage + 1}`}
                   class="btn-secondary flex items-center gap-2 px-4 py-2"
                 >
                   Next →
@@ -93,8 +101,8 @@ const hasNextPage = currentPage < totalPages;
         </div>
       ) : (
         <div class="py-12 text-center text-text-subtle">
-          <p class="mb-4">No research articles available</p>
-          <p class="text-sm">Research content is being aggregated. Check back soon!</p>
+          <p class="mb-4">No blog posts available</p>
+          <p class="text-sm">Blog content is being aggregated. Check back soon!</p>
         </div>
       )}
     </main>
@@ -114,10 +122,12 @@ const hasNextPage = currentPage < totalPages;
     
     let searchTerm = '';
     
-    searchInput.addEventListener('input', () => {
-      searchTerm = searchInput.value.toLowerCase();
-      applyFilters();
-    });
+    if (searchInput) {
+      searchInput.addEventListener('input', () => {
+        searchTerm = searchInput.value.toLowerCase();
+        applyFilters();
+      });
+    }
     
     function applyFilters() {
       let visibleCount = 0;
@@ -152,10 +162,12 @@ const hasNextPage = currentPage < totalPages;
     
     // Global function for tag clicking
     (window as any).filterByTag = function(tag: string) {
-      searchInput.value = tag.toLowerCase();
-      searchTerm = tag.toLowerCase();
-      applyFilters();
-      searchInput.focus();
+      if (searchInput) {
+        searchInput.value = tag.toLowerCase();
+        searchTerm = tag.toLowerCase();
+        applyFilters();
+        searchInput.focus();
+      }
     };
   </script>
 </Layout>

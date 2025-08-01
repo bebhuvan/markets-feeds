@@ -6,11 +6,19 @@ import LinkCard from '../components/LinkCard.astro';
 import type { FeedItem } from '../types';
 import '../styles/global.css';
 
-// Load all link data for the archive
+// Load recent link data for the archive (last 60 files for better performance)
 const linkFiles = await Astro.glob('../content/links/*.json');
+const sortedFiles = linkFiles.sort((a, b) => {
+  const dateA = a.url?.match(/(\d{4}-\d{2}-\d{2})\.json$/)?.[1] || '0000-00-00';
+  const dateB = b.url?.match(/(\d{4}-\d{2}-\d{2})\.json$/)?.[1] || '0000-00-00';
+  return dateB.localeCompare(dateA);
+});
+
+// Limit to latest 60 files for performance (2 months of data)
+const recentFiles = sortedFiles.slice(0, 60);
 const allLinks: FeedItem[] = [];
 
-for (const file of linkFiles) {
+for (const file of recentFiles) {
   if (Array.isArray(file.default)) {
     allLinks.push(...file.default);
   }

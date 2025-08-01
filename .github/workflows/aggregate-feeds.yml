@@ -2,8 +2,16 @@ name: Aggregate RSS Feeds
 
 on:
   schedule:
+    # Run at 5:00 AM IST (23:30 UTC previous day) - Early pre-market
+    - cron: '30 23 * * 0-4'
     # Run at 6:00 AM IST (00:30 UTC) - Pre-market
     - cron: '30 0 * * 1-5'
+    # Run at 6:30 AM IST (01:00 UTC) - Additional morning run
+    - cron: '0 1 * * 1-5'
+    # Run at 6:45 AM IST (01:15 UTC) - Additional morning run
+    - cron: '15 1 * * 1-5'
+    # Run at 7:30 AM IST (02:00 UTC) - Additional morning run
+    - cron: '0 2 * * 1-5'
     # Run at 8:00 AM IST (02:30 UTC) - Morning update
     - cron: '30 2 * * 1-5'
     # Run at 9:45 AM IST (04:15 UTC) - Market open

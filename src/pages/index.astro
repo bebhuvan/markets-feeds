@@ -11,7 +11,7 @@ import { RSS_SOURCES } from '../config/sources';
 import { formatDistanceToNow } from '../utils/date';
 import '../styles/global.css';
 
-// Load recent link data for performance - limit to latest 35 files (1+ month)
+// Load recent link data for performance - limit to latest 7 files (1 week)
 const linkFiles = await Astro.glob('../content/links/*.json');
 const sortedFiles = linkFiles.sort((a, b) => {
   const dateA = a.url?.match(/(\d{4}-\d{2}-\d{2})\.json$/)?.[1] || '0000-00-00';
@@ -19,8 +19,8 @@ const sortedFiles = linkFiles.sort((a, b) => {
   return dateB.localeCompare(dateA);
 });
 
-// Load the latest 35 files (approximately 1+ month of data)  
-const recentFiles = sortedFiles.slice(0, 35);
+// Load the latest 7 files (approximately 1 week of data)  
+const recentFiles = sortedFiles.slice(0, 7);
 const allLinks: FeedItem[] = [];
 
 for (const file of recentFiles) {

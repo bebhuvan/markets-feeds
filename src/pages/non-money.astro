@@ -6,7 +6,7 @@ import LinkCard from '../components/LinkCard.astro';
 import type { FeedItem } from '../types';
 import '../styles/global.css';
 
-// Load only recent link data for performance - limit to latest 3 files
+// Load recent link data for non-money content - limit to latest 10 files
 const linkFiles = await Astro.glob('../content/links/*.json');
 const sortedFiles = linkFiles.sort((a, b) => {
   const dateA = a.url?.match(/(\d{4}-\d{2}-\d{2})\.json$/)?.[1] || '0000-00-00';
@@ -14,36 +14,34 @@ const sortedFiles = linkFiles.sort((a, b) => {
   return dateB.localeCompare(dateA);
 });
 
-// Load only the latest 3 files to reduce initial load time
-const recentFiles = sortedFiles.slice(0, 3);
+// Load the latest 10 files for better non-money content coverage
+const recentFiles = sortedFiles.slice(0, 10);
 const allLinks: FeedItem[] = [];
-
-// Non-money sources - matching the script configuration
-const nonMoneySources = [
-  'gaby-delvalle', 'way-of-work', 'benthams', 'leading-edge', 'astral-codex-ten',
-  'freddie-deboer', 'res-obscura', 'nicholas-decker', 'max-read', 'henrik-karlsson',
-  'visakan-veerasamy', 'simon-sarris', 'ai-log-blog', 'unhappy-man', 'experimental-history',
-  'age-of-invention', 'not-boring', 'roots-of-progress', 'nate-silver', 'public-policy-ss',
-  'branko-milanovic', 'aeon-magazine', 'psyche-magazine', 'common-reader', 'summer-of-protocols',
-  'nautilus-magazine', 'noema-magazine', 'n-plus-one', 'quanta-magazine', 'programmable-mutter',
-  'back-of-mind', 'marginal-revolution', 'dave-karpf', 'woman-of-letters', 'school-unconformed',
-  'honest-broker', 'works-in-progress', 'construction-physics', 'rotten-and-good', 'over-the-field',
-  'nils-gilman', 'pens-and-poison', 'philosophy-garden', 'noah-smith', 'jacobin',
-  'new-left-review', 'small-potatoes', 'shruti-rajagopalan', 'rohan-venkat', 'africanist-perspective',
-  'sustainability-by-numbers'
-];
 
 for (const file of recentFiles) {
   if (Array.isArray(file.default)) {
     allLinks.push(...file.default.filter((item: FeedItem) => 
-      nonMoneySources.includes(item.sourceId)
+      item.category === 'non-money'
     ));
   }
 }
 
-// Sort by published date and limit to 50 most recent articles
+// Sort by published date
 allLinks.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
-const displayedLinks = allLinks.slice(0, 50);
+
+// Pagination logic
+const ARTICLES_PER_PAGE = 25;
+const currentPage = parseInt(Astro.url.searchParams.get('page') || '1');
+const totalPages = Math.ceil(allLinks.length / ARTICLES_PER_PAGE);
+const startIndex = (currentPage - 1) * ARTICLES_PER_PAGE;
+const endIndex = startIndex + ARTICLES_PER_PAGE;
+const displayedLinks = allLinks.slice(startIndex, endIndex);
+
+// Pagination info
+const showingStart = startIndex + 1;
+const showingEnd = Math.min(endIndex, allLinks.length);
+const hasPrevPage = currentPage > 1;
+const hasNextPage = currentPage < totalPages;
 ---
 
 <Layout title="Non-Money Feeds - Markets Feeds" description="General interest content, culture, politics, science, and ideas">
@@ -53,84 +51,71 @@ const displayedLinks = allLinks.slice(0, 50);
     
     <Navigation currentPage="non-money" />
     
-    <!-- Search Input -->
-    <div class="mb-8">
-      <input
-        type="text"
-        id="searchInput"
-        placeholder="Search general interest content..."
-        class="w-full px-4 py-3 text-sm border border-border rounded-lg bg-background text-foreground placeholder:text-text-subtle focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-      />
-    </div>
+    <!-- Pagination Info -->
+    {allLinks.length > 0 && (
+      <div class="mb-6 text-sm text-text-subtle text-center">
+        Showing {showingStart}-{showingEnd} of {allLinks.length} non-money articles
+      </div>
+    )}
     
-    <main id="linkStream" class="space-y-0">
-      {displayedLinks.length > 0 ? (
+    <!-- Feed Items -->
+    <div class="space-y-0">
+      {displayedLinks.length === 0 ? (
+        <div class="text-center py-12">
+          <p class="text-text-subtle">No non-money content available at the moment.</p>
+        </div>
+      ) : (
         displayedLinks.map((link) => (
           <LinkCard link={link} />
         ))
-      ) : (
-        <div class="text-center py-12">
-          <p class="text-text-subtle">No general interest content available yet. Check back soon!</p>
-        </div>
       )}
-    </main>
-    
-    <div id="emptyState" class="hidden text-center py-12">
-      <p class="text-text-subtle">No matching content found.</p>
     </div>
+    
+    <!-- Pagination Controls -->
+    {totalPages > 1 && (
+      <div class="flex justify-center items-center gap-4 mt-8 pt-8 border-t border-border">
+        {hasPrevPage ? (
+          <a 
+            href={`/non-money?page=${currentPage - 1}`}
+            class="flex items-center gap-2 px-4 py-2 text-sm bg-card border border-border rounded-lg hover:bg-card-hover transition-colors"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            Previous
+          </a>
+        ) : (
+          <div class="flex items-center gap-2 px-4 py-2 text-sm text-text-subtle">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            Previous
+          </div>
+        )}
+        
+        <span class="text-sm text-text-subtle">
+          Page {currentPage} of {totalPages}
+        </span>
+        
+        {hasNextPage ? (
+          <a 
+            href={`/non-money?page=${currentPage + 1}`}
+            class="flex items-center gap-2 px-4 py-2 text-sm bg-card border border-border rounded-lg hover:bg-card-hover transition-colors"
+          >
+            Next
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        ) : (
+          <div class="flex items-center gap-2 px-4 py-2 text-sm text-text-subtle">
+            Next
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </div>
+        )}
+      </div>
+    )}
   </div>
-  
-  <script>
-    // Search functionality
-    const searchInput = document.getElementById('searchInput') as HTMLInputElement;
-    const linkItems = document.querySelectorAll('.link-item');
-    const emptyState = document.getElementById('emptyState');
-    const linkStream = document.getElementById('linkStream');
-    
-    let searchTerm = '';
-    
-    searchInput.addEventListener('input', () => {
-      searchTerm = searchInput.value.toLowerCase();
-      applyFilters();
-    });
-    
-    function applyFilters() {
-      let visibleCount = 0;
-      
-      linkItems.forEach(item => {
-        const title = item.querySelector('h2')?.textContent?.toLowerCase() || '';
-        const summary = item.querySelector('p')?.textContent?.toLowerCase() || '';
-        const tags = item.getAttribute('data-tags')?.toLowerCase() || '';
-        
-        const matchesSearch = searchTerm === '' || 
-          title.includes(searchTerm) || 
-          summary.includes(searchTerm) ||
-          tags.includes(searchTerm);
-        
-        if (matchesSearch) {
-          (item as HTMLElement).style.display = 'block';
-          visibleCount++;
-        } else {
-          (item as HTMLElement).style.display = 'none';
-        }
-      });
-      
-      // Show/hide empty state
-      if (visibleCount === 0) {
-        linkStream?.classList.add('hidden');
-        emptyState?.classList.remove('hidden');
-      } else {
-        linkStream?.classList.remove('hidden');
-        emptyState?.classList.add('hidden');
-      }
-    }
-    
-    // Global function for tag clicking
-    (window as any).filterByTag = function(tag: string) {
-      searchInput.value = tag.toLowerCase();
-      searchTerm = tag.toLowerCase();
-      applyFilters();
-      searchInput.focus();
-    };
-  </script>
 </Layout>
