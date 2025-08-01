@@ -2148,6 +2148,23 @@
     "contentHash": "5fe5be7cc4bae36d"
   },
   {
+    "id": "yahoo-finance-cb83901d660832ff",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Southwest Airlines credit cards have new annual fees — are these cards still worth it?",
+    "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/southwest-airlines-credit-cards-new-annual-fees-211555417.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:15:55+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998574+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "cb83901d660832ff"
+  },
+  {
     "id": "google-bloomberg-2639fa366be73237",
     "sourceId": "google-bloomberg",
     "sourceName": "Google News (Bloomberg)",
@@ -2202,6 +2219,41 @@
     "contentHash": "9976ad784fde5eee"
   },
   {
+    "id": "yahoo-finance-10427df30095a311",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Best personal loans for bad credit for August 2025",
+    "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/best-personal-loans-for-bad-credit-211415243.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:14:15+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998472+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "10427df30095a311"
+  },
+  {
+    "id": "yahoo-finance-2cfb74f961d5c4d8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tech, Media & Telecom Roundup: Market Talk",
+    "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-f7a6f2a5?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:14:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998303+00:00",
+    "category": "markets",
+    "tags": [
+      "Tech",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2cfb74f961d5c4d8"
+  },
+  {
     "id": "google-bloomberg-068e2bff9431e68a",
     "sourceId": "google-bloomberg",
     "sourceName": "Google News (Bloomberg)",
@@ -2217,6 +2269,77 @@
     ],
     "priority": "normal",
     "contentHash": "068e2bff9431e68a"
+  },
+  {
+    "id": "yahoo-finance-e22791804c70ac87",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Basic Materials Roundup: Market Talk",
+    "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-eebdc3e4?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:13:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998042+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e22791804c70ac87"
+  },
+  {
+    "id": "yahoo-finance-1383da12e207a97e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Qualcomm Logs Higher Profit as Chip Sales Rise",
+    "url": "https://www.wsj.com/business/earnings/qualcomm-logs-higher-profit-as-chip-sales-rise-9e800a42?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:12:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997860+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1383da12e207a97e"
+  },
+  {
+    "id": "yahoo-finance-a92cc36e5a355a0a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Bitcoin Eases After White House Digital Asset Report, Fed Announcement",
+    "url": "https://www.investors.com/news/bitcoin-price-white-house-digital-asset-report-fomc-meeting-federal-reserve-interest-rates/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:11:58+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997691+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "a92cc36e5a355a0a"
+  },
+  {
+    "id": "yahoo-finance-c9bd49d11b88e4da",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Crypto ETFs Get Major Relief From SEC",
+    "url": "https://finance.yahoo.com/news/crypto-etfs-major-relief-sec-211021133.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:10:21+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997414+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c9bd49d11b88e4da"
   },
   {
     "id": "bloomberg-business-youtube-eeb9f55e288af02b",
@@ -2236,6 +2359,23 @@
     ],
     "priority": "low",
     "contentHash": "eeb9f55e288af02b"
+  },
+  {
+    "id": "yahoo-finance-fcba186f8b4e718d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Health Care Roundup: Market Talk",
+    "url": "https://www.wsj.com/health/health-care-roundup-market-talk-3b338c61?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:10:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997237+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "fcba186f8b4e718d"
   },
   {
     "id": "bloomberg-business-youtube-c391a823223362e6",
@@ -2276,6 +2416,24 @@
     "contentHash": "d0bc447968e579fe"
   },
   {
+    "id": "yahoo-finance-1a637385310141b5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Ford CEO on Earnings, EV Offerings, Tariffs",
+    "url": "https://finance.yahoo.com/video/ford-ceo-earnings-ev-offerings-210843004.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:08:43+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998662+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1a637385310141b5"
+  },
+  {
     "id": "nyt-business-7c96e81fd99e669d",
     "sourceId": "nyt-business",
     "sourceName": "NYT Business",
@@ -2291,6 +2449,24 @@
     ],
     "priority": "normal",
     "contentHash": "7c96e81fd99e669d"
+  },
+  {
+    "id": "yahoo-finance-eac2806511a796f5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "CPKC Profit, Revenue Rise on More Shipments",
+    "url": "https://www.wsj.com/business/earnings/cpkc-profit-revenue-rise-on-more-shipments-373e474b?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:08:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996113+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "eac2806511a796f5"
   },
   {
     "id": "bloomberg-business-youtube-5f9138ae97f8ba9d",
@@ -2311,6 +2487,41 @@
     "contentHash": "5f9138ae97f8ba9d"
   },
   {
+    "id": "yahoo-finance-a91143282daf2e10",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "TransMedics Sees Its Earnings Soar",
+    "url": "https://finance.yahoo.com/news/transmedics-sees-earnings-soar-210606868.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:06:06+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.995521+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a91143282daf2e10"
+  },
+  {
+    "id": "yahoo-finance-b14bb3a7b9459655",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Planning to pay for your kids' college tuition? Experts suggest you start saving before they're even born",
+    "url": "https://finance.yahoo.com/news/planning-pay-kids-college-tuition-210500050.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:05:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.995636+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b14bb3a7b9459655"
+  },
+  {
     "id": "bloomberg-politics-82fdd5be64769e8e",
     "sourceId": "bloomberg-politics",
     "sourceName": "Bloomberg Politics",
@@ -2327,6 +2538,57 @@
     ],
     "priority": "normal",
     "contentHash": "82fdd5be64769e8e"
+  },
+  {
+    "id": "yahoo-finance-df97bb411f1b93ff",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Federal Reserve resists Trump push, keeps rates unchanged",
+    "url": "https://finance.yahoo.com/news/federal-resists-trump-push-keeps-210307914.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:03:07+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996027+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "df97bb411f1b93ff"
+  },
+  {
+    "id": "yahoo-finance-c33652320366e078",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "First Look: Profitablity measures at C.H. Robinson point higher in 2Q",
+    "url": "https://finance.yahoo.com/news/first-look-profitablity-measures-c-210305427.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:03:05+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.995736+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c33652320366e078"
+  },
+  {
+    "id": "yahoo-finance-ee7671a5a0a41621",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "BOJ turns less gloomy on economy, keeps rate-hike chance alive",
+    "url": "https://finance.yahoo.com/news/boj-cautiously-upbeat-keep-rates-210215127.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:02:15+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.995934+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "ee7671a5a0a41621"
   },
   {
     "id": "bloomberg-markets-dab4ad872371c0d6",
@@ -2364,6 +2626,24 @@
     "contentHash": "ca27a3047a4f8b08"
   },
   {
+    "id": "yahoo-finance-3b1bb4091a113482",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Meta Stock Pops as Earnings Blow Past Estimates",
+    "url": "https://finance.yahoo.com/news/meta-stock-pops-earnings-blow-210048739.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:00:48+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996497+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3b1bb4091a113482"
+  },
+  {
     "id": "cnbc-tv18-youtube-8772254b59aa3eed",
     "sourceId": "cnbc-tv18-youtube",
     "sourceName": "CNBC-TV18",
@@ -2379,6 +2659,23 @@
     ],
     "priority": "normal",
     "contentHash": "8772254b59aa3eed"
+  },
+  {
+    "id": "yahoo-finance-23a6876da7a2a917",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "S&P 500 Gains and Losses Today: Generac Stock Surges; IDEX Shares Drop",
+    "url": "https://finance.yahoo.com/news/p-500-gains-losses-today-210042483.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:00:42+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996861+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "23a6876da7a2a917"
   },
   {
     "id": "bloomberg-markets-faaae0588634ad78",
@@ -2415,6 +2712,127 @@
     ],
     "priority": "normal",
     "contentHash": "815f08f00a9789d4"
+  },
+  {
+    "id": "yahoo-finance-a2bd648b670a34c3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cybersecurity ETFs Down on $25B Palo Alto Networks Deal",
+    "url": "https://finance.yahoo.com/news/cybersecurity-etfs-down-25b-palo-210000716.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T21:00:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.995830+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a2bd648b670a34c3"
+  },
+  {
+    "id": "yahoo-finance-67df58f72af4a50b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Breakups Beat the Market—Here’s Where The Next 400% Trade Starts",
+    "url": "https://finance.yahoo.com/news/breakups-beat-market-where-next-205912298.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:59:12+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996216+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "67df58f72af4a50b"
+  },
+  {
+    "id": "yahoo-finance-2fa232502f374734",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Novo Nordisk Stock Plummeted Today",
+    "url": "https://finance.yahoo.com/news/why-novo-nordisk-stock-plummeted-205854526.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:58:54+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997776+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2fa232502f374734"
+  },
+  {
+    "id": "yahoo-finance-a6d7d8975aa16a6f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Morgan Stanley Says Nvidia Has ‘Exceptional’ Strength. Should You Buy NVDA Stock Here?",
+    "url": "https://finance.yahoo.com/news/morgan-stanley-says-nvidia-exceptional-205800259.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:58:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996316+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a6d7d8975aa16a6f"
+  },
+  {
+    "id": "yahoo-finance-ab7fe2875eff69f9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stocks to Watch Recap: Freeport-McMoran, Hershey, Palo Alto, Starbucks",
+    "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-07-30-2025/card/stocks-to-watch-wednesday-visa-starbucks-meta-sofi-tYW5EGZYgvBC9BXbEg2k?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:57:41+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996591+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ab7fe2875eff69f9"
+  },
+  {
+    "id": "yahoo-finance-12a1453e6400f6c5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Google proposes to open Play Store to more real-money games in India",
+    "url": "https://finance.yahoo.com/news/google-proposes-open-play-store-205719770.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:57:19+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997329+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "12a1453e6400f6c5"
+  },
+  {
+    "id": "yahoo-finance-13611e804cce5c2c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Arm’s Earnings Meet Expectations. Why the Stock Is Falling.",
+    "url": "https://www.barrons.com/articles/arm-earnings-stock-price-news-9d1b3f8d?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:57:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996409+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "13611e804cce5c2c"
   },
   {
     "id": "business-insider-1717740f14694d88",
@@ -2471,6 +2889,24 @@
     "contentHash": "d81cbe0c03302d5a"
   },
   {
+    "id": "yahoo-finance-98ef1229f826b570",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Ford trims full-year profit view as tariffs weigh",
+    "url": "https://finance.yahoo.com/news/ford-trims-full-profit-view-205520752.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:55:20+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998128+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "98ef1229f826b570"
+  },
+  {
     "id": "techmeme-a9287255f294899a",
     "sourceId": "techmeme",
     "sourceName": "Techmeme",
@@ -2487,6 +2923,41 @@
     ],
     "priority": "normal",
     "contentHash": "a9287255f294899a"
+  },
+  {
+    "id": "yahoo-finance-52e132d1ac6688d4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Should You Buy the Post-Earnings Dip in Starbucks Stock?",
+    "url": "https://finance.yahoo.com/news/buy-post-earnings-dip-starbucks-205445200.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:54:45+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996680+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "52e132d1ac6688d4"
+  },
+  {
+    "id": "yahoo-finance-c8bf7f6ce45907b5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Microsoft Sees Cloud Growth Accelerate",
+    "url": "https://finance.yahoo.com/news/microsoft-sees-cloud-growth-accelerate-205434719.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:54:34+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998384+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "c8bf7f6ce45907b5"
   },
   {
     "id": "google-bloomberg-66dd692fbf7a277f",
@@ -2525,6 +2996,23 @@
     "contentHash": "6cc9131fc2dbf8f3"
   },
   {
+    "id": "yahoo-finance-b1a2c9f490bb816f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Will interest rates continue dropping this year?",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/interest-rates-dropping-205321059.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:53:21+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996766+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "b1a2c9f490bb816f"
+  },
+  {
     "id": "bloomberg-markets-b96acae01b4358bb",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
@@ -2542,6 +3030,40 @@
     ],
     "priority": "low",
     "contentHash": "b96acae01b4358bb"
+  },
+  {
+    "id": "yahoo-finance-ceb339d8b79fd499",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "How Rubrik, IBD Stock Of The Day, Is Building Cloud Data Management Platform From Security Roots",
+    "url": "https://www.investors.com/research/ibd-stock-of-the-day/rubrik-stock-security-ransomware-cloud-data-management/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:50:50+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996968+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ceb339d8b79fd499"
+  },
+  {
+    "id": "yahoo-finance-493380909215ac63",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "What is a credit card retention offer — and how do you ask for one?",
+    "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/credit-card-retention-offer-205041318.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:50:41+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997067+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "493380909215ac63"
   },
   {
     "id": "google-bloomberg-7f28c0b06cadc511",
@@ -2616,6 +3138,41 @@
     "contentHash": "cae921113620eaf3"
   },
   {
+    "id": "yahoo-finance-5b28af4c8aba3c0a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Heard on the Street Recap: Steady, With Dissent",
+    "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-07-30-2025/card/heard-on-the-street-recap-steady-with-dissent-7IESTJtP7gsF8m6UA8FZ?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:49:21+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997154+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5b28af4c8aba3c0a"
+  },
+  {
+    "id": "yahoo-finance-7440deed0f684dcd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Oil shipments from Brazil to US to resume after tariff exemption, says lobby group",
+    "url": "https://finance.yahoo.com/news/oil-shipments-brazil-us-resume-204712948.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:47:12+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997510+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7440deed0f684dcd"
+  },
+  {
     "id": "business-insider-719df11bc1e0a672",
     "sourceId": "business-insider",
     "sourceName": "Business Insider",
@@ -2683,6 +3240,24 @@
     ],
     "priority": "normal",
     "contentHash": "ad5d40547a30006f"
+  },
+  {
+    "id": "yahoo-finance-7f88c25a26bb75c5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "EBay Logs Higher Profit, Revenue On Strong Volumes",
+    "url": "https://www.wsj.com/business/earnings/ebay-logs-higher-profit-revenue-on-strong-volumes-e0f6b697?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:45:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997603+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7f88c25a26bb75c5"
   },
   {
     "id": "cnbc-markets-292c46ea61b30a29",
@@ -2769,6 +3344,41 @@
     ],
     "priority": "high",
     "contentHash": "eb2f80044fd768fe"
+  },
+  {
+    "id": "yahoo-finance-d9385db06d774483",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stocks Fall After Powell Remarks on Potential Rate Cut Dim Investor Hopes",
+    "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-30-2025-8845196e?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:42:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997956+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "d9385db06d774483"
+  },
+  {
+    "id": "yahoo-finance-c6583b70fd5a1fa3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "EBay Stock Jumps As Accelerating Sales Growth Powers Earnings Beat",
+    "url": "https://www.investors.com/news/technology/ebay-stock-q2-2025-earnings-ecommerce-tariffs/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:41:44+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998220+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c6583b70fd5a1fa3"
   },
   {
     "id": "techmeme-ae35b813b843775b",
@@ -2882,6 +3492,23 @@
     "contentHash": "f533fffdef890eca"
   },
   {
+    "id": "yahoo-finance-aff2f2cd96d26005",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "These Stocks Moved the Most Today: Humana, SoFi, LendingClub, Generac, Palo Alto, Teradyne, Harley-Davidson, Peloton, and More",
+    "url": "https://www.barrons.com/articles/stock-movers-624049e4?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:35:00+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998765+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "aff2f2cd96d26005"
+  },
+  {
     "id": "cnbc-tv18-youtube-1a6c23cdcd203c50",
     "sourceId": "cnbc-tv18-youtube",
     "sourceName": "CNBC-TV18",
@@ -2914,642 +3541,5 @@
     ],
     "priority": "normal",
     "contentHash": "db4fe24baa08de52"
-  },
-  {
-    "id": "cnbc-tv18-youtube-afe662e2090f2680",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC-TV18",
-    "title": "ट्रंप ने भारत पर लगाया 25% टैरिफ | Trump Tariffs | Donald Trump |  Sau Baat ki Ek Baat | #shorts",
-    "url": "https://www.youtube.com/shorts/mOuhTd9Bevk",
-    "summary": "ट्रंप ने भारत पर लगाया 25% टैरिफ | Trump Tariffs | Donald Trump | Sau Baat ki Ek Baat | #shorts #donaldtrump #trumptariffs #viral #viralvideo न्यूज़18 इंडिया भारत का नंबर 1 न्यूज चैनल है। जो 24 घंटे आप तक देश और दुनिया की हर खबर पहुँचाता है। राजनीति, मनोरंजन, बॉलीवुड, खेल के साथ साथ आप तक वो हर खबर हम पहुँचाते हैं जो आपके लिए महत्वपूर्ण है। इसलिए बने रहें हमारे साथ और सब्सक्राइब करें हमारा YouTube चैनल #News18IndiaNumber1 News18 India is India's No.1 hindi News Channel. We bring you the latest, most relevant and the news that concerns you from all over the world. Politics, Entertainment, Bollywood, OTT, Sports, News to Use, Technology, all the news that is important for you to know, we bring you that. Be with us as News18India viewer and subscribe our YouTube channel #News18IndiaNumber1 Subscribe our channel for the latest news updates: https://www.youtube.com/@news18India Like us: https://www.facebook.com/News18India/ Follow us: https://twitter.com/News18India News18 Mobile App https:",
-    "fullContent": "ट्रंप ने भारत पर लगाया 25% टैरिफ | Trump Tariffs | Donald Trump | Sau Baat ki Ek Baat | #shorts #donaldtrump #trumptariffs #viral #viralvideo न्यूज़18 इंडिया भारत का नंबर 1 न्यूज चैनल है। जो 24 घंटे आप तक देश और दुनिया की हर खबर पहुँचाता है। राजनीति, मनोरंजन, बॉलीवुड, खेल के साथ साथ आप तक वो हर खबर हम पहुँचाते हैं जो आपके लिए महत्वपूर्ण है। इसलिए बने रहें हमारे साथ और सब्सक्राइब करें हमारा YouTube चैनल #News18IndiaNumber1 News18 India is India's No.1 hindi News Channel. We bring you the latest, most relevant and the news that concerns you from all over the world. Politics, Entertainment, Bollywood, OTT, Sports, News to Use, Technology, all the news that is important for you to know, we bring you that. Be with us as News18India viewer and subscribe our YouTube channel #News18IndiaNumber1 Subscribe our channel for the latest news updates: https://www.youtube.com/@news18India Like us: https://www.facebook.com/News18India/ Follow us: https://twitter.com/News18India News18 Mobile App https:",
-    "publishedAt": "2025-07-30T20:32:13+00:00",
-    "fetchedAt": "2025-07-31T01:32:04.841288+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "normal",
-    "contentHash": "afe662e2090f2680"
-  },
-  {
-    "id": "techmeme-e07a65a940822739",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Microsoft reports Q4 Azure and other cloud services revenue up 39% YoY, vs. 34.75% est., and full-year Azure revenue up 34% YoY to $75B, vs. $74.62B est. (Reuters)",
-    "url": "http://www.techmeme.com/250730/p38#a250730p38",
-    "summary": "Reuters: Microsoft reports Q4 Azure and other cloud services revenue up 39% YoY, vs. 34.75% est., and full-year Azure revenue up 34% YoY to $75B, vs. $74.62B est.  —  Microsoft (MSFT.O) forecast on Wednesday a record $30 billion in capital spending for the current fiscal first quarter …",
-    "fullContent": "Reuters: Microsoft reports Q4 Azure and other cloud services revenue up 39% YoY, vs. 34.75% est., and full-year Azure revenue up 34% YoY to $75B, vs. $74.62B est.  —  Microsoft (MSFT.O) forecast on Wednesday a record $30 billion in capital spending for the current fiscal first quarter …",
-    "publishedAt": "2025-07-30T20:30:02+00:00",
-    "fetchedAt": "2025-07-31T01:31:41.400779+00:00",
-    "category": "technology",
-    "tags": [
-      "Earnings",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "e07a65a940822739"
-  },
-  {
-    "id": "bloomberg-business-youtube-18cc1ac50c0e13f9",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business",
-    "title": "LIVE: Federal Reserve Chair Powell speaks after leaving rates unchanged",
-    "url": "https://www.youtube.com/watch?v=wNTdmLCoHPY",
-    "summary": "Federal Reserve officials left interest rates unchanged but downgraded their view of the US economy. Officials said recent indicators suggest that growth of economic activity moderated in the first half of the year, and the labor market is \"solid\" and inflation \"remains somewhat elevated.\" Bloomberg Television analyzes the latest Fed rate decision with top guests and market reaction and analysis. Fed Chair Powell speaks at 2:30 pm ET.",
-    "fullContent": "Federal Reserve officials left interest rates unchanged but downgraded their view of the US economy. Officials said recent indicators suggest that growth of economic activity moderated in the first half of the year, and the labor market is \"solid\" and inflation \"remains somewhat elevated.\" Bloomberg Television analyzes the latest Fed rate decision with top guests and market reaction and analysis. Fed Chair Powell speaks at 2:30 pm ET.",
-    "publishedAt": "2025-07-30T20:26:17+00:00",
-    "fetchedAt": "2025-07-31T01:32:04.583520+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "high",
-    "contentHash": "18cc1ac50c0e13f9"
-  },
-  {
-    "id": "business-insider-0e7600e1ec676a37",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Microsoft joins Nvidia in $4 trillion market cap club after strong earnings report",
-    "url": "https://www.businessinsider.com/microsoft-earnings-report-fourth-quarter-reaction-2025-7",
-    "summary": "Microsoft shares surged so much after hours that the tech giant joined the $4 trillion market cap club.",
-    "fullContent": "Microsoft CEO Satya NadellaJason Redmond/APMicrosoft reported its fourth-quarter earnings on Wednesday.Shares in the tech giant jumped after earnings came in above estimates.CEO Satya Nadella said that cloud and AI continue to drive the company's growth.Microsoft isn't slowing down.The world's second-largest company by market cap reported blockbuster fourth-quarter earnings, sending shares surging so high after hours that the tech giant became a member of the exclusive $4 trillion club.Shares were up over 9% after hours following Microsoft's strong earnings report. As a result, Microsoft joined Nvidia as the only other company to reach over $4 trillion in market cap.Microsoft reported fourth-quarter revenue of $76.4 billion and earnings of $3.65. Analysts surveyed by Bloomberg expected quarterly revenue of $73.89 billion and earnings of $3.37 per share.CEO Satya Nadella said that cloud and AI continue to fuel the company's growth.\"Cloud and AI is the driving force of business transform",
-    "publishedAt": "2025-07-30T20:24:39+00:00",
-    "fetchedAt": "2025-07-31T01:31:35.453026+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI",
-      "Tech",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "0e7600e1ec676a37"
-  },
-  {
-    "id": "nyt-science-7f770d7d0af0710e",
-    "sourceId": "nyt-science",
-    "sourceName": "NYT Science",
-    "title": "Why Did Such a Powerful Earthquake Generate Such a Weak Tsunami?",
-    "url": "https://www.nytimes.com/2025/07/30/science/russia-earthquake-tsunami-physics.html",
-    "summary": "The quake in Russia on Wednesday was among the strongest ever recorded — but in many places, the resulting wave was small.",
-    "fullContent": "People who evacuated to higher ground in Ishinomaki, Japan, watching the sea on Wednesday.",
-    "publishedAt": "2025-07-30T20:23:51+00:00",
-    "fetchedAt": "2025-07-31T06:18:03.217566+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology"
-    ],
-    "priority": "high",
-    "contentHash": "7f770d7d0af0710e"
-  },
-  {
-    "id": "wsj-youtube-724daba54a87fac6",
-    "sourceId": "wsj-youtube",
-    "sourceName": "Wall Street Journal",
-    "title": "Powell on Pressure From Trump: Fed Independence Remains 'Very Important' | WSJ News",
-    "url": "https://www.youtube.com/watch?v=1CLNby6md1M",
-    "summary": "Federal Reserve Chair Jerome Powell fielded questions from reporters on the pressure campaign from President Trump, who's aggressively lobbying the central bank chair to lower interest rates. Photo: Mark Schiefelbein/AP; Mandel Ngan/AFP/Getty Images #wsj #thewallstreetjournal #powell #federalreserve #fedindependence #trump",
-    "fullContent": "Federal Reserve Chair Jerome Powell fielded questions from reporters on the pressure campaign from President Trump, who's aggressively lobbying the central bank chair to lower interest rates. Photo: Mark Schiefelbein/AP; Mandel Ngan/AFP/Getty Images #wsj #thewallstreetjournal #powell #federalreserve #fedindependence #trump",
-    "publishedAt": "2025-07-30T20:22:53+00:00",
-    "fetchedAt": "2025-07-31T01:32:14.204034+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "high",
-    "contentHash": "724daba54a87fac6"
-  },
-  {
-    "id": "rmi-energy-a59207cab9745288",
-    "sourceId": "rmi-energy",
-    "sourceName": "RMI",
-    "title": "When Energy Meets Resilience: A Practical Guide for Climate-Ready Minigrids in Africa",
-    "url": "https://rmi.org/when-energy-meets-resilience-a-practical-guide-for-climate-ready-minigrids-in-africa/",
-    "summary": "RMI's Climate Risk and Resilience Toolkit to help planners, developers, and stakeholders integrate climate resilience aspects into every stage of the minigrid life cycle for rural African communities. The post When Energy Meets Resilience: A Practical Guide for Climate-Ready Minigrids in Africa appeared first on RMI.",
-    "fullContent": "The post When Energy Meets Resilience: A Practical Guide for Climate-Ready Minigrids in Africa appeared first on RMI.",
-    "publishedAt": "2025-07-30T20:22:21+00:00",
-    "fetchedAt": "2025-07-31T01:31:47.510968+00:00",
-    "category": "technology",
-    "tags": [
-      "ESG",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "a59207cab9745288"
-  },
-  {
-    "id": "cnbc-markets-1b2df8c7c1c8f591",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Meta’s Reality Labs posts $4.53 billion loss in second quarter",
-    "url": "https://www.cnbc.com/2025/07/30/metas-reality-labs-second-quarter-2025.html",
-    "summary": "Meta’s Reality Labs posts $4.53 billion loss in second quarter",
-    "fullContent": "Meta’s Reality Labs posts $4.53 billion loss in second quarter",
-    "publishedAt": "2025-07-30T20:20:49+00:00",
-    "fetchedAt": "2025-07-31T06:18:02.222405+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1b2df8c7c1c8f591"
-  },
-  {
-    "id": "business-insider-d450e51a1558bade",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "I asked ChatGPT's Study Mode if I should buy a car. The questions it asked me back convinced me to stay car-free.",
-    "url": "https://www.businessinsider.com/chatgpt-study-mode-ai-big-life-decision-making-buy-car-2025-7",
-    "summary": "ChatGPT's study mode surprised me by introducing new concepts and asking guiding questions not just about my budget, but about how I feel.",
-    "fullContent": "I asked ChatGPT Study Mode to help me consider buying my first car.OpenAII asked ChatGPT's study mode to help me decide if I would buy my first car.Study Mode is meant to guide thinking instead of giving users an answer.I was surprised that AI helped me examine my feelings and resist the pressure of car ownership.For months, I've been paralyzed with indecision every time I walk past a car dealership.It all started earlier this summer when my partner bought his first car — a five-year-old black Ford Fusion — ahead of a move to Indiana for his Ph.D. program.Since then, we've both been using the car we named Raven, and I've become used to picking up groceries with ease and leaving home 10 minutes before a dinner party starts. But with him leaving in three weeks and taking Raven along for the ride, I've become overwhelmed with confusion every time I ask myself: Should I buy a car?So I asked ChatGPT.And not just any ChatGPT: I chose Study Mode, a new iteration that appeared this week in the",
-    "publishedAt": "2025-07-30T20:19:59+00:00",
-    "fetchedAt": "2025-07-31T01:31:35.454908+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "d450e51a1558bade"
-  },
-  {
-    "id": "wsj-youtube-5e3c459a33ff966a",
-    "sourceId": "wsj-youtube",
-    "sourceName": "Wall Street Journal",
-    "title": "Fed’s Powell: Holding Rates Steady Leaves Fed ‘Well-Positioned’ | WSJ News",
-    "url": "https://www.youtube.com/watch?v=_USwpNz9NVo",
-    "summary": "Federal Reserve Chair Jerome Powell spoke to reporters after the central bank decided to leave interest rates unchanged. Photo: Mandel Ngan/AFP/Getty Images #wsj #thewallstreetjournal #federalreserve #powell #interestrates",
-    "fullContent": "Federal Reserve Chair Jerome Powell spoke to reporters after the central bank decided to leave interest rates unchanged. Photo: Mandel Ngan/AFP/Getty Images #wsj #thewallstreetjournal #federalreserve #powell #interestrates",
-    "publishedAt": "2025-07-30T20:19:38+00:00",
-    "fetchedAt": "2025-07-31T01:32:14.204433+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "high",
-    "contentHash": "5e3c459a33ff966a"
-  },
-  {
-    "id": "google-bloomberg-633ef2b318c58d1e",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Arm-Backed Ambiq Micro Shares Rise 61% After $96 Million IPO - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ0s1QUxSZWlveC14Rmw5akRzcFpTdFlIRzFoblZoN25OX3VnMXYwaVFDdGhOMTZXOWVWN3dfRVF5UU85UmNBanVFM3JaZVViQTVKUEkzY3JLd2E3LXUtUnRwRW5XYW9BZ0ZPRGowRm9Wb2VyaU02WGdSZXJDZTdxbmhtNWN3N0Z4cVVkSWxiU09PRDRTdzFWN3o3X2pScndocjR1enhVUGdLRktMdl9YLXF3?oc=5",
-    "summary": "Arm-Backed Ambiq Micro Shares Rise 61% After $96 Million IPO  Bloomberg.com",
-    "fullContent": "Arm-Backed Ambiq Micro Shares Rise 61% After $96 Million IPO  Bloomberg.com",
-    "publishedAt": "2025-07-30T20:17:21+00:00",
-    "fetchedAt": "2025-07-31T15:48:36.158660+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "IPO"
-    ],
-    "priority": "normal",
-    "contentHash": "633ef2b318c58d1e"
-  },
-  {
-    "id": "nyt-technology-4284f8c272f3d4d6",
-    "sourceId": "nyt-technology",
-    "sourceName": "NYT Technology",
-    "title": "Ford Is Latest Carmaker to Blame Tariffs for Profit Slump",
-    "url": "https://www.nytimes.com/2025/07/30/business/ford-profit-tariffs.html",
-    "summary": "The company estimated that duties on imported cars and car parts would cost it $2 billion this year.",
-    "fullContent": "Ford Motor vehicles at a dealership in Austin, Texas. Tariffs imposed by President Trump have been a recurring theme as automakers have reported earnings this month.",
-    "publishedAt": "2025-07-30T20:15:35+00:00",
-    "fetchedAt": "2025-07-31T01:31:35.544396+00:00",
-    "category": "technology",
-    "tags": [
-      "Earnings",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "4284f8c272f3d4d6"
-  },
-  {
-    "id": "yahoo-finance-f57794881b284035",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "SEC Approves In-Kind Crypto ETF Redemptions",
-    "url": "https://finance.yahoo.com/news/sec-approves-kind-crypto-etf-201500418.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:15:00+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.692354+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f57794881b284035"
-  },
-  {
-    "id": "wsj-markets-main-b8621d72e2e87c57",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "In This Frothy Market, It’s Boom Times for Brokers Like Robinhood",
-    "url": "https://www.wsj.com/finance/in-this-market-its-good-to-be-a-broker-14c1953b?mod=rss_markets_main",
-    "summary": "Individual investors are trading with abandon, driving up prices of everything from stocks to crypto—and turbocharging the brokerage business.",
-    "fullContent": "Individual investors are trading with abandon, driving up prices of everything from stocks to crypto—and turbocharging the brokerage business.",
-    "publishedAt": "2025-07-30T20:14:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.191588+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Crypto"
-    ],
-    "priority": "normal",
-    "contentHash": "b8621d72e2e87c57"
-  },
-  {
-    "id": "yahoo-finance-a07a1632142618d2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Generac Stock Soared. Strong Earnings Aren’t the Only Reason.",
-    "url": "https://www.barrons.com/articles/generac-earnings-stock-price-7851014f?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:14:00+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.692257+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a07a1632142618d2"
-  },
-  {
-    "id": "cnbc-markets-d5a0058efe398462",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "The 10 most expensive U.S. metro areas to buy a home—half are in California",
-    "url": "https://www.cnbc.com/2025/07/30/most-expensive-us-cities-to-buy-a-home.html",
-    "summary": "By median price, San Jose, California, is the most expensive metro area for U.S. homebuyers for the second year in a row, per a report from SmartAsset.",
-    "fullContent": "By median price, San Jose, California, is the most expensive metro area for U.S. homebuyers for the second year in a row, per a report from SmartAsset.",
-    "publishedAt": "2025-07-30T20:13:15+00:00",
-    "fetchedAt": "2025-07-31T06:18:02.228678+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "d5a0058efe398462"
-  },
-  {
-    "id": "yahoo-finance-cbd6b535afc55413",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Dow Drops 170 Points After Powell Doesn't Tease September Cut",
-    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-073025/card/dow-drops-170-points-after-powell-doesn-t-tease-september-cut-QQ7Um9iS907puscEyyiz?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:13:01+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.692141+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "cbd6b535afc55413"
-  },
-  {
-    "id": "yahoo-finance-566f1531b2e94c69",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "EBay sees quarterly revenue above estimates, shares jump",
-    "url": "https://finance.yahoo.com/news/ebay-forecasts-quarterly-revenue-above-201218236.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:12:18+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691885+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "566f1531b2e94c69"
-  },
-  {
-    "id": "yahoo-finance-64307178f39875b1",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Crude Oil and the US Dollar Index Are Heading Higher, and Commodity Traders Are Taking Note",
-    "url": "https://finance.yahoo.com/news/crude-oil-us-dollar-index-201125901.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:11:25+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691972+00:00",
-    "category": "markets",
-    "tags": [
-      "Currency",
-      "Commodities",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "64307178f39875b1"
-  },
-  {
-    "id": "yahoo-finance-85a2e34d0fc21386",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Harley-Davidson Stock Soars 13%. It Wasn’t Earnings.",
-    "url": "https://www.barrons.com/articles/harley-davidson-earnings-stock-price-5a66abe8?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:11:00+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691804+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "85a2e34d0fc21386"
-  },
-  {
-    "id": "yahoo-finance-43eddcb0e556d9b1",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Meta shares jump as AI fuels ad sales, outweighing big capital costs",
-    "url": "https://finance.yahoo.com/news/meta-narrows-annual-capital-expenditures-201049557.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:10:49+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691717+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "43eddcb0e556d9b1"
-  },
-  {
-    "id": "business-insider-b24cc7d40390dfee",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "I made Ina Garten's easy weeknight Bolognese pasta, and the delicious dish only took 30 minutes",
-    "url": "https://www.businessinsider.com/ina-garten-easy-weeknight-bolognese-pasta-recipe-review",
-    "summary": "Ina Garten's Bolognese pasta is perfect for busy weeknights. The easy and delicious dish only takes 30 minutes to make.",
-    "fullContent": "Ina Garten's weeknight Bolognese pasta is one of my favorite Barefoot Contessa recipes.Anneta Konstantinides/Business InsiderIna Garten has a quick Bolognese pasta that she says is perfect for busy weeknights.The dish includes ground sirloin, orecchiette pasta, dry red wine, and fresh basil leaves.Garten's Bolognese only took 30 minutes and was packed with so much delicious flavor.Ina Garten has always been my go-to when it comes to pasta. I've tried so many of her recipes that I've even ranked them.One of my favorites is her weeknight Bolognese, which is super quick and can be easily adapted with whatever's in your pantry and fridge.The rich and comforting dish was exactly what I needed after a long day. Better yet? I whipped it up in just 30 minutes.Garten's weeknight Bolognese is made with ground sirloin, orecchiette, and dry red wine.Anneta Konstantinides/Business InsiderTo make Garten's weeknight Bolognese for 4-5, you'll need:1 pound of dried pasta, such as orecchiette or small s",
-    "publishedAt": "2025-07-30T20:10:42+00:00",
-    "fetchedAt": "2025-07-31T01:31:35.458345+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "b24cc7d40390dfee"
-  },
-  {
-    "id": "business-insider-0fb80afd90be276c",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "My baby needed open heart surgery at 5 days old. A stranger gave me the words of encouragement I needed.",
-    "url": "https://www.businessinsider.com/stranger-gave-me-hope-baby-nicu-recovery-2025-7",
-    "summary": "My son needed open heart surgery at 5 days old and I couldn't hold him for 55 days. A stranger's words gave me the hope I needed.",
-    "fullContent": "Jennifer Polixenni Brankin/Getty ImagesWhen I was pregnant with my fourth child, I found out he had a life-threatening heart defect. He had his first surgery at 5 days old, and I wasn't able to hold him for 55 days. A stranger said the words I needed to hear until my son was able to come home. When I was five months pregnant with my fourth child, I found out I was having a boy — my first after three daughters. I was elated. But that moment of joy quickly blurred into fear when doctors also told me he had only one functioning kidney and a life-threatening heart defect called aortic stenosis. His heart wasn't pumping blood properly. The outlook wasn't good.Every specialist I saw repeated the same idea: That's a big surgery for such a tiny body. As the pregnancy progressed, the condition worsened. They told me they would try to keep him inside for as long as possible to let him grow stronger, but at 38 weeks, they decided to induce me.They said if he cried at birth, I'd get to hold him br",
-    "publishedAt": "2025-07-30T20:10:01+00:00",
-    "fetchedAt": "2025-07-31T01:31:35.459797+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "low",
-    "contentHash": "0fb80afd90be276c"
-  },
-  {
-    "id": "yahoo-finance-84916cea2212fcc9",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Red-Hot Seagate Stock Slips Despite Earnings Beat. Here's What Wall Street Is Saying.",
-    "url": "https://www.investors.com/news/technology/seagate-stock-stx-earnings-july-2025/?src=A00220&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:09:51+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691539+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "84916cea2212fcc9"
-  },
-  {
-    "id": "google-bloomberg-68c908125da6bb2b",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Carvana Reports Stronger Quarterly Profit on Record Car Sales (CVNA) - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQazVzamlDRXZNQjhZVnJmYW9WZ1pvWDhId05LVVJMelN0Vms0eU1FNjV1WksyWlRsakdycUZMTUFoQVpwcDNrUUwyTUFPWUk1SzNBdzFoUTBKajgtVzEwRV8xa2lxdmhpN1FsSWhUalNxRDYxcmZmRFFfeEJnUDZJbk0wU3M0VEFxYk9kWnBhanFBWmN6ZjYwdmxXaTE0WVhacFBRWE9odXAtNDZRTWI2emZ3?oc=5",
-    "summary": "Carvana Reports Stronger Quarterly Profit on Record Car Sales (CVNA)  Bloomberg",
-    "fullContent": "Carvana Reports Stronger Quarterly Profit on Record Car Sales (CVNA)  Bloomberg",
-    "publishedAt": "2025-07-30T20:09:40+00:00",
-    "fetchedAt": "2025-07-31T04:52:57.374748+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "68c908125da6bb2b"
-  },
-  {
-    "id": "google-bloomberg-c63c145873dce810",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Carvana Reports Stronger Quarterly Profit on Record Car Sales (CVNA) - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQazVzamlDRXZNQjhZVnJmYW9WZ1pvWDhId05LVVJMelN0Vms0eU1FNjV1WksyWlRsakdycUZMTUFoQVpwcDNrUUwyTUFPWUk1SzNBdzFoUTBKajgtVzEwRV8xa2lxdmhpN1FsSWhUalNxRDYxcmZmRFFfeEJnUDZJbk0wU3M0VEFxYk9kWnBhanFBWmN6ZjYwdmxXaTE0WVhacFBRWE9odXAtNDZRTWI2emZ3?oc=5",
-    "summary": "Carvana Reports Stronger Quarterly Profit on Record Car Sales (CVNA)  Bloomberg.com",
-    "fullContent": "Carvana Reports Stronger Quarterly Profit on Record Car Sales (CVNA)  Bloomberg.com",
-    "publishedAt": "2025-07-30T20:09:40+00:00",
-    "fetchedAt": "2025-07-31T15:48:36.161283+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "c63c145873dce810"
-  },
-  {
-    "id": "yahoo-finance-b7dab818e90e6008",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Ford raises projected tariff hit to results, shares drop 3%",
-    "url": "https://finance.yahoo.com/news/ford-raises-projected-tariff-hit-200911550.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:09:11+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691452+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "b7dab818e90e6008"
-  },
-  {
-    "id": "cnbc-markets-d9a413deb7ca471f",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Divided Fed holds key interest rate steady, defying Trump's demands for aggressive cuts",
-    "url": "https://www.cnbc.com/2025/07/30/fed-leaves-interest-rates-unchanged-as-expected.html",
-    "summary": "A divided Federal Reserve on Wednesday voted to keep its benchmark interest rate steady, with two top officials dissenting.",
-    "fullContent": "A divided Federal Reserve on Wednesday voted to keep its benchmark interest rate steady, with two top officials dissenting.",
-    "publishedAt": "2025-07-30T20:08:27+00:00",
-    "fetchedAt": "2025-07-31T01:31:30.154337+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "d9a413deb7ca471f"
-  },
-  {
-    "id": "yahoo-finance-1fd77d8dfea1225e",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Dollar Holds Strong Eyeing  a 1% Move",
-    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-073025/card/dollar-holds-strong-eyeing-a-1-move-mmyzX9NizR2EM3SpUmC9?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:07:59+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691276+00:00",
-    "category": "markets",
-    "tags": [
-      "Currency",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1fd77d8dfea1225e"
-  },
-  {
-    "id": "yahoo-finance-6a440365fea5b8b0",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Booking Holdings Beats Q2 Expectations With 'Steady' Travel Demand Despite Uncertainty",
-    "url": "https://www.investors.com/news/technology/booking-stock-bkng-booking-holdings-q2-2025/?src=A00220&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:07:58+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691365+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6a440365fea5b8b0"
-  },
-  {
-    "id": "yahoo-finance-03848bc8c9d78bcc",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why Drugmaker Teva Pharmaceutical Narrowed Full-Year Guidance After Beating Q2 Earnings",
-    "url": "https://www.investors.com/news/technology/teva-stock-pharmaceutical-q2-earnings-stock-market/?src=A00220&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:07:17+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691006+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "03848bc8c9d78bcc"
-  },
-  {
-    "id": "yahoo-finance-9f26fdeb8b2aea82",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Arm shares drop as outlook disappoints; company looks to invest to make own chips",
-    "url": "https://finance.yahoo.com/news/chip-tech-provider-arm-looks-200716295.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:07:16+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.690884+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "low",
-    "contentHash": "9f26fdeb8b2aea82"
-  },
-  {
-    "id": "yahoo-finance-5304185cecb5c053",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Microsoft to spend record $30 billion this quarter as AI investments pay off",
-    "url": "https://finance.yahoo.com/news/microsoft-tops-quarterly-revenue-estimates-200711810.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-30T20:07:11+00:00",
-    "fetchedAt": "2025-08-01T07:40:32.691095+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "5304185cecb5c053"
-  },
-  {
-    "id": "bloomberg-business-youtube-8838ed5746a20ba6",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business",
-    "title": "Fed Is in 'Uncharted Territories,' Dudley Says",
-    "url": "https://www.youtube.com/watch?v=4zQCxBlOM9w",
-    "summary": "Former New York Fed President William Dudley, a Bloomberg Opinion contributor, tells Bloomberg TV that “when you are in uncharted territories, you want to be cautious -- and that’s what the Fed is being.” He spoke after the Fed left rates unchanged. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: https://www.instagram.com/bloombergbusiness/ TikTok: https://www.tiktok.com/@bloombergbusiness?lang=en Reddit: https://www.re",
-    "fullContent": "Former New York Fed President William Dudley, a Bloomberg Opinion contributor, tells Bloomberg TV that “when you are in uncharted territories, you want to be cautious -- and that’s what the Fed is being.” He spoke after the Fed left rates unchanged. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: https://www.instagram.com/bloombergbusiness/ TikTok: https://www.tiktok.com/@bloombergbusiness?lang=en Reddit: https://www.re",
-    "publishedAt": "2025-07-30T20:06:39+00:00",
-    "fetchedAt": "2025-07-31T01:32:04.584233+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "high",
-    "contentHash": "8838ed5746a20ba6"
-  },
-  {
-    "id": "google-bloomberg-8b96a979bf76151f",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Trump Ends Tariff Break for Low-Value Goods in Blow to Online Retailers - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYmJMZkRXUzY3dHlPR0ROUzJfOTBVaWFNZGZCN181U3NWMWR6WnpIRkdyWjZuSjNxOVp5ZV90NklvVnlNdkt6ejFtbHM2S3M3UUlOeVNlaFVUR2Q0ZFlOYkkzQ09hTmcwOTVuSmdtRzlKaE1FRmZqQm1YNlJDSW5kTHJLdEJicGstTzZJVGUwZHJHaWp2bl9jWDZIQkJsWG1CY2pxWkdhdF96TlNjaXc?oc=5",
-    "summary": "Trump Ends Tariff Break for Low-Value Goods in Blow to Online Retailers  Bloomberg",
-    "fullContent": "Trump Ends Tariff Break for Low-Value Goods in Blow to Online Retailers  Bloomberg",
-    "publishedAt": "2025-07-30T20:05:50+00:00",
-    "fetchedAt": "2025-07-31T01:31:53.429254+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "8b96a979bf76151f"
-  },
-  {
-    "id": "google-bloomberg-12b51772c4ab21c0",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Trump Ends Tariff Break for Low-Value Goods in Blow to Online Retailers - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYmJMZkRXUzY3dHlPR0ROUzJfOTBVaWFNZGZCN181U3NWMWR6WnpIRkdyWjZuSjNxOVp5ZV90NklvVnlNdkt6ejFtbHM2S3M3UUlOeVNlaFVUR2Q0ZFlOYkkzQ09hTmcwOTVuSmdtRzlKaE1FRmZqQm1YNlJDSW5kTHJLdEJicGstTzZJVGUwZHJHaWp2bl9jWDZIQkJsWG1CY2pxWkdhdF96TlNjaXc?oc=5",
-    "summary": "Trump Ends Tariff Break for Low-Value Goods in Blow to Online Retailers  Bloomberg.com",
-    "fullContent": "Trump Ends Tariff Break for Low-Value Goods in Blow to Online Retailers  Bloomberg.com",
-    "publishedAt": "2025-07-30T20:05:50+00:00",
-    "fetchedAt": "2025-07-31T02:37:40.886879+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "12b51772c4ab21c0"
   }
 ]

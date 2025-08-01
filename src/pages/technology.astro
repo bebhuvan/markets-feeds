@@ -13,13 +13,19 @@ let allLinks: FeedItem[] = [];
 try {
   linkFiles = await Astro.glob('../content/links/*.json');
   
-  // Sort files by date from filename (URL-based sorting - reliable)
+  // Sort files by date from content or position (Astro.glob url property is unreliable)
   const sortedFiles = linkFiles
-    .filter(file => file.url && !file.url.includes('sample-data.json'))
+    .filter(file => Array.isArray(file.default) && file.default.length > 0)
+    .filter(file => {
+      // Skip sample data by checking first item properties
+      const firstItem = file.default[0];
+      return firstItem && !firstItem.id?.includes('sample');
+    })
     .sort((a, b) => {
-      const dateA = a.url?.match(/(2025-\d{2}-\d{2})\.json$/)?.[1] || '2000-01-01';
-      const dateB = b.url?.match(/(2025-\d{2}-\d{2})\.json$/)?.[1] || '2000-01-01';
-      return dateB.localeCompare(dateA);
+      // Sort by newest first item date
+      const dateA = a.default[0]?.publishedAt || '2000-01-01';
+      const dateB = b.default[0]?.publishedAt || '2000-01-01';
+      return new Date(dateB).getTime() - new Date(dateA).getTime();
     });
 
   // Load the latest 10 files for better technology content coverage
@@ -34,7 +40,7 @@ try {
         allLinks.push(...techItems);
       }
     } catch (fileError) {
-      console.error(`Error processing file ${file.url}:`, fileError);
+      console.error(`Error processing file:`, fileError);
     }
   }
 } catch (error) {
