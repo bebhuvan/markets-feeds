@@ -1,5 +1,22 @@
 [
   {
+    "id": "bloomberg-markets-e35fbbb3c0cfa720",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Investors See Opportunity in Defense, Energy Sector as India's Russia Ties Get Spotlight",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-01/india-market-buzz-domestic-plays-in-focus-as-trade-risks-rise",
+    "summary": "Before the trading day starts we bring you a digest of the key news and events that are likely to move markets. Today we look at:",
+    "fullContent": "Before the trading day starts we bring you a digest of the key news and events that are likely to move markets. Today we look at:",
+    "publishedAt": "2025-08-01T02:51:30+00:00",
+    "fetchedAt": "2025-08-01T02:59:39.555494+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e35fbbb3c0cfa720"
+  },
+  {
     "id": "nikkei-asia-e23c9afa33d0880d",
     "sourceId": "nikkei-asia",
     "sourceName": "Nikkei Asia",
@@ -240,6 +257,23 @@
     "contentHash": "336cd2b7026fdc42"
   },
   {
+    "id": "et-markets-fc25f88d17e59da1",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times",
+    "title": "IT and pharma out of picture at present; FMCG turning out to be the only defensive play: Rohit Srivastava",
+    "url": "https://economictimes.indiatimes.com/markets/expert-view/it-and-pharma-out-of-picture-at-present-fmcg-turning-out-to-be-the-only-defensive-play-rohit-srivastava/articleshow/123018237.cms",
+    "summary": "Rohit Srivastava of Strike Money Analytics suggests the market will likely hold above 24,600. A gradual upward trend is anticipated as clarity emerges. The impact centers on US-exposed stocks. Domestic-focused sectors, like FMCG and steel, will drive gains. FMCG is a defensive play amid global market turmoil. Domestically focused mid and smallcaps will attract attention.",
+    "fullContent": "Rohit Srivastava of Strike Money Analytics suggests the market will likely hold above 24,600. A gradual upward trend is anticipated as clarity emerges. The impact centers on US-exposed stocks. Domestic-focused sectors, like FMCG and steel, will drive gains. FMCG is a defensive play amid global market turmoil. Domestically focused mid and smallcaps will attract attention.",
+    "publishedAt": "2025-08-01T02:41:00+00:00",
+    "fetchedAt": "2025-08-01T02:59:51.340707+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "fc25f88d17e59da1"
+  },
+  {
     "id": "cnbc-markets-6ac1e311f8f713b7",
     "sourceId": "cnbc-markets",
     "sourceName": "CNBC Markets",
@@ -289,6 +323,59 @@
     ],
     "priority": "normal",
     "contentHash": "96746d6c63fd2df8"
+  },
+  {
+    "id": "bloomberg-economics-59ffe36f06d7a07c",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Cambodia to Scrap Tariffs, Buy Boeing Jets in US Trade Deal",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-01/cambodia-to-scrap-tariffs-buy-boeing-jets-in-us-trade-deal",
+    "summary": "Cambodia will scrap tariffs on US goods and pledged to buy as many as 20 Boeing Co. 737 Max jets in a bid to narrow its trade gap with Washington, according to Deputy Prime Minister Sun Chanthol.",
+    "fullContent": "National carrier Air Cambodia Co. is negotiating a deal for 10 planes with an option for 10 more. Photographer: Jason Alden/Bloomberg",
+    "publishedAt": "2025-08-01T02:36:51+00:00",
+    "fetchedAt": "2025-08-01T02:59:39.740191+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "59ffe36f06d7a07c"
+  },
+  {
+    "id": "et-markets-59ca9a9dd4aef6ba",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times",
+    "title": "Positive Breakout: These 6 stocks close cross above their 200 DMA",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-these-6-stocks-close-cross-above-their-200-dma/slideshow/123033219.cms",
+    "summary": "The 200-day DMA is used by traders as a key indicator to determine a particular stock's overall trend.",
+    "fullContent": "The 200-day DMA is used by traders as a key indicator to determine a particular stock's overall trend.",
+    "publishedAt": "2025-08-01T02:36:43+00:00",
+    "fetchedAt": "2025-08-01T02:59:51.341134+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "59ca9a9dd4aef6ba"
+  },
+  {
+    "id": "bloomberg-markets-e55a872dae9dc736",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Goldman Urges Caution as Global Credit Spreads Hit 2007 Lows",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-01/goldman-urges-caution-as-global-credit-spreads-hit-2007-lows",
+    "summary": "Goldman Sachs Group Inc. credit strategists are urging clients to hedge risks as yield premiums on global corporate notes tightened to their lowest since 2007 this week.",
+    "fullContent": "Goldman Sachs Group Inc. credit strategists are urging clients to hedge risks as yield premiums on global corporate notes tightened to their lowest since 2007 this week.",
+    "publishedAt": "2025-08-01T02:35:50+00:00",
+    "fetchedAt": "2025-08-01T02:59:39.555998+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "e55a872dae9dc736"
   },
   {
     "id": "cnbc-markets-d1494851d67c2de5",
@@ -343,6 +430,24 @@
     "contentHash": "f16db103159353e4"
   },
   {
+    "id": "et-markets-38e6ff36ed19c17e",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times",
+    "title": "Patel Chem Specialities IPO to list today: GMP hints at solid debut",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/patel-chem-specialities-ipo-to-list-today-gmp-hints-at-solid-debut/articleshow/123033113.cms",
+    "summary": "Patel Chem Specialities' SME IPO is set for a strong debut on August 1, fueled by overwhelming investor demand. The IPO, oversubscribed by 167.32 times, boasts a grey market premium of Rs 24, suggesting a listing price of Rs 108, a 28% premium over the issue price.",
+    "fullContent": "Patel Chem Specialities' SME IPO is set for a strong debut on August 1, fueled by overwhelming investor demand. The IPO, oversubscribed by 167.32 times, boasts a grey market premium of Rs 24, suggesting a listing price of Rs 108, a 28% premium over the issue price.",
+    "publishedAt": "2025-08-01T02:32:48+00:00",
+    "fetchedAt": "2025-08-01T02:59:51.341592+00:00",
+    "category": "markets",
+    "tags": [
+      "IPO",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "38e6ff36ed19c17e"
+  },
+  {
     "id": "thehindubusinessline-7080a2f6ef225a97",
     "sourceId": "thehindubusinessline",
     "sourceName": "Hindu BusinessLine",
@@ -358,6 +463,60 @@
     ],
     "priority": "normal",
     "contentHash": "7080a2f6ef225a97"
+  },
+  {
+    "id": "thehindubusinessline-8755a7a09a8c0292",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Automobile shares, Nuvama, Godrej Properties, Siemens Energy, Waaree Energy, Gujarat Gas and others will remain in focus today (August 1, 2025)",
+    "url": "https://www.thehindubusinessline.com/markets/automobile-shares-nuvama-godrej-properties-siemens-energy-waree-energy-gujarat-gas-and-others-will-remain-in-focus-today-august-1-2025/article69881249.ece",
+    "summary": "Other buzzing stocks: PDS, Alfa Transformers, PNB Housing Finance, Indian Hotels, Deepak Nitrite, RPP Infra, Zinka Logistics",
+    "fullContent": "Other buzzing stocks: PDS, Alfa Transformers, PNB Housing Finance, Indian Hotels, Deepak Nitrite, RPP Infra, Zinka Logistics",
+    "publishedAt": "2025-08-01T02:32:11+00:00",
+    "fetchedAt": "2025-08-01T02:59:51.066033+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8755a7a09a8c0292"
+  },
+  {
+    "id": "bloomberg-business-youtube-bfb7eeef972cbc79",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business",
+    "title": "Trump Sets 10% Minimum Global Tariff | Bloomberg: The Asia Trade, 8/1/25",
+    "url": "https://www.youtube.com/watch?v=EXbWBXdHHmI",
+    "summary": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. Chapters: 00:00:00 - Bloomberg: The Asia Trade begins 00:00:27 - Breaking: Trump sets tariffs before deadline with 10% baseline rates 00:00:59 - Breaking: Trump raises tariffs on Canada to 35%, keeps USMCA exemption 00:04:34 - tion (7A) 00:09:18 - Apple reports massive revenue beat in third quarter 00:13:38 - Amazon projects profit that underwhelms on expense of AI race 00:17:48 - Lowy Institute's Jenny Gordon on new US tariff announcements 00:26:18 - Canadian dollar holds steady even as Trump raises tariffs 00:29:04 - Brown University Professor Sebnem Kalemli-Ozcan on tariffs, Fed, US economy outlook 00:37:37 - Exclusive: Tata Steel to explore new markets amid tariff risks 00:48:4",
+    "fullContent": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. Chapters: 00:00:00 - Bloomberg: The Asia Trade begins 00:00:27 - Breaking: Trump sets tariffs before deadline with 10% baseline rates 00:00:59 - Breaking: Trump raises tariffs on Canada to 35%, keeps USMCA exemption 00:04:34 - tion (7A) 00:09:18 - Apple reports massive revenue beat in third quarter 00:13:38 - Amazon projects profit that underwhelms on expense of AI race 00:17:48 - Lowy Institute's Jenny Gordon on new US tariff announcements 00:26:18 - Canadian dollar holds steady even as Trump raises tariffs 00:29:04 - Brown University Professor Sebnem Kalemli-Ozcan on tariffs, Fed, US economy outlook 00:37:37 - Exclusive: Tata Steel to explore new markets amid tariff risks 00:48:4",
+    "publishedAt": "2025-08-01T02:30:58+00:00",
+    "fetchedAt": "2025-08-01T03:00:05.468508+00:00",
+    "category": "videos",
+    "tags": [
+      "Videos",
+      "Earnings",
+      "Currency",
+      "AI"
+    ],
+    "priority": "breaking",
+    "contentHash": "bfb7eeef972cbc79"
+  },
+  {
+    "id": "et-markets-4fe50efd6f3b4849",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times",
+    "title": "‘Stay invested, don’t panic’: Vikas Khemani on market volatility",
+    "url": "https://economictimes.indiatimes.com/markets/expert-view/stay-invested-dont-panic-vikas-khemani-on-market-volatility/articleshow/123019056.cms",
+    "summary": "Vikas Khemani of Carnelian Asset Management suggests that while potential tariffs may cause short-term adjustments for Indian pharma, the sector's long-term outlook remains positive due to its dominance in the US generic drug market. He advises investors to remain invested in India, emphasizing its robust domestic growth story and the likelihood of a trade resolution between the US and India.",
+    "fullContent": "Vikas Khemani of Carnelian Asset Management suggests that while potential tariffs may cause short-term adjustments for Indian pharma, the sector's long-term outlook remains positive due to its dominance in the US generic drug market. He advises investors to remain invested in India, emphasizing its robust domestic growth story and the likelihood of a trade resolution between the US and India.",
+    "publishedAt": "2025-08-01T02:30:00+00:00",
+    "fetchedAt": "2025-08-01T02:59:51.342436+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "low",
+    "contentHash": "4fe50efd6f3b4849"
   },
   {
     "id": "et-markets-85b172ec8bc60dd0",
@@ -376,6 +535,23 @@
     ],
     "priority": "normal",
     "contentHash": "85b172ec8bc60dd0"
+  },
+  {
+    "id": "google-bloomberg-af62ecff59c8e4e0",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump Issues Tariff Orders From Taiwan to Switzerland - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByNFFkTTVQdjNOSTFPZEo5bDUtZzBwOXZNTnA5Ni13NG1JdUZvSHpYTDRGR3JhNm12eFA0dXVOSXBQclpja0lJSEhEUzlKNEdnT1NuQndkT2d0Y2V5Z3l3akljWmMxSno5TU9uZ1pQaW8yNVVuNWt5S0pR?oc=5",
+    "summary": "Trump Issues Tariff Orders From Taiwan to Switzerland  Bloomberg.com",
+    "fullContent": "Trump Issues Tariff Orders From Taiwan to Switzerland  Bloomberg.com",
+    "publishedAt": "2025-08-01T02:24:21+00:00",
+    "fetchedAt": "2025-08-01T02:59:57.734485+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "af62ecff59c8e4e0"
   },
   {
     "id": "marketwatch-022c9430aa0c8728",
