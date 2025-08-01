@@ -192,6 +192,24 @@
     "contentHash": "383533e4f14d944e"
   },
   {
+    "id": "bloomberg-politics-14405e1b2a1d268f",
+    "sourceId": "bloomberg-politics",
+    "sourceName": "Bloomberg Politics",
+    "title": "Trump Sets 19% Tariff on Thailand, Cambodia After Peace Deal",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-sets-19-tariff-on-thailand-cambodia-after-peace-deal",
+    "summary": "The US set a 19% levy on imports from Thailand and Cambodia, lower than the 36% they originally faced, after President Donald Trump threatened to block trade deals with them unless they ended a deadly border clash.",
+    "fullContent": "Anwar Ibrahim, center, Hun Manet, left, and Phumtham Wechayachai in Putrajaya on July 28.",
+    "publishedAt": "2025-07-31T23:41:31+00:00",
+    "fetchedAt": "2025-08-01T04:05:30.241684+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "14405e1b2a1d268f"
+  },
+  {
     "id": "bloomberg-business-youtube-181f291ac61f9fb3",
     "sourceId": "bloomberg-business-youtube",
     "sourceName": "Bloomberg Business",
@@ -261,6 +279,24 @@
     ],
     "priority": "low",
     "contentHash": "f442ad29245a8359"
+  },
+  {
+    "id": "bbc-technology-d5595b4e211f4917",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Tech giants blocking some Ukraine and Gaza posts under new online rules",
+    "url": "https://www.bbc.com/news/articles/cj3l0e4vr0ko?at_medium=RSS&at_campaign=rss",
+    "summary": "Tech companies are restricting debates of public interest to comply the Online Safety Act, analysis shows.",
+    "fullContent": "Tech companies are restricting debates of public interest to comply the Online Safety Act, analysis shows.",
+    "publishedAt": "2025-07-31T23:38:38+00:00",
+    "fetchedAt": "2025-08-01T04:05:37.451059+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "low",
+    "contentHash": "d5595b4e211f4917"
   },
   {
     "id": "bbc-business-b9d29e044743dc2a",
@@ -402,6 +438,23 @@
     ],
     "priority": "normal",
     "contentHash": "9eab3b6369e2bbdd"
+  },
+  {
+    "id": "bloomberg-politics-d642dd2b2b43305b",
+    "sourceId": "bloomberg-politics",
+    "sourceName": "Bloomberg Politics",
+    "title": "Trump Unveils New Tariff Regime to Reshape Trade Order",
+    "url": "https://www.bloomberg.com/news/live-blog/2025-07-31/us-tariff-deadline",
+    "summary": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
+    "fullContent": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
+    "publishedAt": "2025-07-31T23:19:07+00:00",
+    "fetchedAt": "2025-08-01T04:05:30.246197+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d642dd2b2b43305b"
   },
   {
     "id": "cnbc-markets-3f4f4a295b8fa7fd",
@@ -3462,57 +3515,5 @@
     ],
     "priority": "normal",
     "contentHash": "5f4ca08a070a180b"
-  },
-  {
-    "id": "google-bloomberg-149ea8f618ce1b62",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "How Trump’s Copper Tariffs Surprise Shook the Market - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdGNNT2VTSXM1dFNCUUtfY3MxV0lINHBXa0k2eVQyd2d0a3ZFUGl3LXM4c3lIdU9xSmxyVjBwMHUwc2RhQ3dPeHFwc3JwdEtycmRUWEgtd0VnSEVnYU9uRmJpdE1SaVdTal9tQ1ZXaC02cTViSUFqSXpfNVdzc044VFdtOGQzWUdVTFM2MnJYeEdiczdJUFplcEduWVM4d1RWYnRWTjIyZjJWZ0NvLU9vV3dsSFVNazRkeUJsY0Fn?oc=5",
-    "summary": "How Trump’s Copper Tariffs Surprise Shook the Market  Bloomberg.com",
-    "fullContent": "How Trump’s Copper Tariffs Surprise Shook the Market  Bloomberg.com",
-    "publishedAt": "2025-07-31T16:42:34+00:00",
-    "fetchedAt": "2025-08-01T02:46:09.359878+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "149ea8f618ce1b62"
-  },
-  {
-    "id": "bloomberg-economics-d57c08c58d8f981a",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "West Africa Junta Leaders Plan Taxes to Fund New Investment Bank",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/west-africa-junta-leaders-plan-taxes-to-fund-new-investment-bank",
-    "summary": "The military-led governments of Mali, Niger and Burkina Faso plan to channel part of their revenues into a new investment bank to reduce their reliance on foreign donors.",
-    "fullContent": "Menaka, Mali, in 2022. Photographer: Souleymane Ag Anara/AFP/Getty Images",
-    "publishedAt": "2025-07-31T16:40:44+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.854090+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "d57c08c58d8f981a"
-  },
-  {
-    "id": "thehindubusinessline-c79f68442aa71e0d",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Tata Capital to file final papers next week for ₹18,000 cr IPO",
-    "url": "https://www.thehindubusinessline.com/companies/tata-capital-to-file-final-papers-next-week-for-18000-cr-ipo/article69879388.ece",
-    "summary": "Sources said that the issue is likely to hit the market in the first or second week of September",
-    "fullContent": "Sources said that the issue is likely to hit the market in the first or second week of September",
-    "publishedAt": "2025-07-31T16:31:41+00:00",
-    "fetchedAt": "2025-08-01T02:46:03.140391+00:00",
-    "category": "markets",
-    "tags": [
-      "IPO",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c79f68442aa71e0d"
   }
 ]

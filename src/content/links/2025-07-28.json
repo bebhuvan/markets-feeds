@@ -1662,6 +1662,24 @@
     "contentHash": "18e1dd32e568efcc"
   },
   {
+    "id": "yahoo-finance-625181d56c387669",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Starbucks posts 6th straight quarter of US same-store sales declines as turnaround efforts continue",
+    "url": "https://finance.yahoo.com/news/starbucks-posts-6th-straight-quarter-of-us-same-store-sales-declines-as-turnaround-efforts-continue-202028803.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T20:20:28+00:00",
+    "fetchedAt": "2025-08-01T04:05:37.254859+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "625181d56c387669"
+  },
+  {
     "id": "yahoo-finance-6c5f8369c18a57a2",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -3309,22 +3327,5 @@
     ],
     "priority": "normal",
     "contentHash": "cc14b58ce5661699"
-  },
-  {
-    "id": "reuters-main-ed4f649b91e3b306",
-    "sourceId": "reuters-main",
-    "sourceName": "Reuters",
-    "title": "Singapore Airlines' first-quarter profit falls nearly 59%",
-    "url": "https://www.reuters.com/markets/asia/singapore-airlines-first-quarter-profit-falls-nearly-59-2025-07-28/",
-    "summary": "Singapore Airlines posted a 58.8% fall in first-quarter net profit on Monday, pressured by lower operating profit, reduced interest income and losses from associated companies.",
-    "publishedAt": "2025-07-28T09:43:59+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.792868+00:00",
-    "category": "news",
-    "tags": [
-      "Earnings",
-      "News"
-    ],
-    "priority": "normal",
-    "contentHash": "ed4f649b91e3b306"
   }
 ]
