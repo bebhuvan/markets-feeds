@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "chmod +x build.sh && ./build.sh",
+    "build-only": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "fetch-feeds": "tsx src/scripts/fetch-all-feeds.ts",
