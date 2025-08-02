@@ -1,0 +1,361 @@
+---
+export const prerender = false;
+
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Navigation from '../components/Navigation.astro';
+import Article from '../components/Article.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { dataLoader } from '../lib/data-loader';
+import '../styles/global.css';
+
+// Get search parameters
+const url = Astro.url;
+const query = url.searchParams.get('q') || '';
+const category = url.searchParams.get('category') || '';
+const source = url.searchParams.get('source') || '';
+const page = parseInt(url.searchParams.get('page') || '1');
+
+// Build search filters
+const filters: any = {};
+if (category) filters.categories = [category];
+if (source) filters.sources = [source];
+
+// Load data
+const categoryCounts = await dataLoader.getCategoryCounts();
+const sourceCounts = await dataLoader.getSourceCounts();
+
+let searchResults: any = null;
+let totalArticles = 0;
+
+if (query.trim()) {
+  // Perform search
+  searchResults = await dataLoader.searchArticles(query, filters, page, 50);
+  totalArticles = searchResults.total;
+} else {
+  // No query, show recent articles with filters applied
+  const allItems = await dataLoader.loadData();
+  let filteredItems = allItems;
+  
+  if (category) {
+    filteredItems = filteredItems.filter(item => item.category === category);
+  }
+  if (source) {
+    filteredItems = filteredItems.filter(item => item.sourceId === source);
+  }
+  
+  const paginationResult = dataLoader.paginate(filteredItems, page, 50);
+  searchResults = {
+    items: paginationResult.items,
+    total: filteredItems.length,
+    query: ''
+  };
+  totalArticles = filteredItems.length;
+}
+
+const items = searchResults.items;
+const hasResults = items.length > 0;
+const isSearch = query.trim().length > 0;
+---
+
+<Layout title={query ? `Search: ${query} - Markets Feeds` : 'Search - Markets Feeds'}>
+  <Header />
+  <Navigation categoryCounts={categoryCounts} />
+  
+  <div class="container">
+    <!-- Search Header -->
+    <div class="search-header">
+      <h1 class="search-title">
+        {isSearch ? `Search Results` : 'Browse Articles'}
+      </h1>
+      
+      <div class="search-form">
+        <form method="GET" action="/search" class="search-form-container">
+          <div class="search-input-group">
+            <input 
+              type="search" 
+              name="q" 
+              value={query}
+              placeholder="Search articles, companies, topics..."
+              class="search-input"
+              autocomplete="off"
+            />
+            <button type="submit" class="search-button">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+              </svg>
+            </button>
+          </div>
+          
+          <!-- Search Filters -->
+          <div class="search-filters">
+            <select name="category" class="filter-select">
+              <option value="">All Categories</option>
+              {Object.entries(categoryCounts).map(([key, count]) => (
+                <option value={key} selected={category === key}>
+                  {key.charAt(0).toUpperCase() + key.slice(1)} ({count})
+                </option>
+              ))}
+            </select>
+            
+            <input type="hidden" name="page" value="1" />
+          </div>
+        </form>
+      </div>
+      
+      <!-- Search Results Info -->
+      <div class="search-info">
+        {isSearch ? (
+          <p>
+            Found <strong>{totalArticles.toLocaleString()}</strong> results for 
+            <strong>"{query}"</strong>
+            {category && ` in ${category}`}
+            {source && ` from ${source}`}
+          </p>
+        ) : (
+          <p>
+            Showing <strong>{totalArticles.toLocaleString()}</strong> articles
+            {category && ` in ${category}`}
+            {source && ` from ${source}`}
+          </p>
+        )}
+      </div>
+    </div>
+
+    <div class="content-grid">
+      <!-- Main Results -->
+      <main class="feed">
+        {!hasResults ? (
+          <div class="no-results">
+            <div class="no-results-icon">🔍</div>
+            <h2>No articles found</h2>
+            <p>Try adjusting your search terms or filters</p>
+            <div class="search-suggestions">
+              <h3>Popular searches:</h3>
+              <div class="suggestion-tags">
+                <a href="/search?q=earnings" class="suggestion-tag">earnings</a>
+                <a href="/search?q=fed" class="suggestion-tag">federal reserve</a>
+                <a href="/search?q=inflation" class="suggestion-tag">inflation</a>
+                <a href="/search?q=markets" class="suggestion-tag">stock markets</a>
+                <a href="/search?q=ai" class="suggestion-tag">artificial intelligence</a>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <>
+            <div class="articles">
+              {items.map((article: any) => (
+                <Article article={article} />
+              ))}
+            </div>
+
+            {/* Pagination for search results */}
+            {totalArticles > 50 && (
+              <div class="pagination">
+                {page > 1 ? (
+                  <a 
+                    href={`/search?q=${encodeURIComponent(query)}&category=${category}&page=${page - 1}`} 
+                    class="pagination-btn"
+                  >
+                    ← Previous
+                  </a>
+                ) : (
+                  <span class="pagination-btn disabled">← Previous</span>
+                )}
+                
+                <span class="pagination-info">
+                  Page {page} of {Math.ceil(totalArticles / 50)}
+                </span>
+                
+                {page < Math.ceil(totalArticles / 50) ? (
+                  <a 
+                    href={`/search?q=${encodeURIComponent(query)}&category=${category}&page=${page + 1}`} 
+                    class="pagination-btn"
+                  >
+                    Next →
+                  </a>
+                ) : (
+                  <span class="pagination-btn disabled">Next →</span>
+                )}
+              </div>
+            )}
+          </>
+        )}
+      </main>
+      
+      <!-- Sidebar -->
+      <Sidebar sourceCounts={sourceCounts} categoryCounts={categoryCounts} />
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .search-header {
+    padding: 32px 0;
+    border-bottom: 1px solid #e8ebed;
+    margin-bottom: 32px;
+  }
+
+  .search-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2a2a2a;
+    margin-bottom: 24px;
+  }
+
+  .search-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 800px;
+  }
+
+  .search-input-group {
+    display: flex;
+    gap: 8px;
+  }
+
+  .search-input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 2px solid #e8ebed;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #ffffff;
+    transition: all 0.15s ease;
+  }
+
+  .search-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  }
+
+  .search-button {
+    padding: 12px 20px;
+    background: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-button:hover {
+    background: #1d4ed8;
+  }
+
+  .search-filters {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .filter-select {
+    padding: 8px 12px;
+    border: 1px solid #e8ebed;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #ffffff;
+    color: #6b7280;
+  }
+
+  .search-info {
+    margin-top: 16px;
+    color: #6b7280;
+    font-size: 14px;
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 80px 20px;
+    color: #6b7280;
+  }
+
+  .no-results-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  .no-results h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2a2a2a;
+    margin-bottom: 8px;
+  }
+
+  .search-suggestions {
+    margin-top: 32px;
+  }
+
+  .search-suggestions h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2a2a2a;
+    margin-bottom: 12px;
+  }
+
+  .suggestion-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .suggestion-tag {
+    padding: 6px 12px;
+    background: #f8fafc;
+    color: #6b7280;
+    text-decoration: none;
+    border-radius: 16px;
+    font-size: 13px;
+    border: 1px solid #e8ebed;
+    transition: all 0.15s ease;
+  }
+
+  .suggestion-tag:hover {
+    background: #eff6ff;
+    color: #1e40af;
+    border-color: #dbeafe;
+  }
+
+  @media (max-width: 768px) {
+    .search-input-group {
+      flex-direction: column;
+    }
+    
+    .search-filters {
+      justify-content: stretch;
+    }
+    
+    .filter-select {
+      flex: 1;
+    }
+  }
+</style>
+
+<script>
+  // Auto-submit form when filters change
+  document.querySelectorAll('.filter-select').forEach(select => {
+    select.addEventListener('change', () => {
+      select.closest('form')?.submit();
+    });
+  });
+  
+  // Add search suggestions/autocomplete (basic implementation)
+  const searchInput = document.querySelector('.search-input') as HTMLInputElement;
+  if (searchInput) {
+    let debounceTimeout: number;
+    
+    searchInput.addEventListener('input', () => {
+      clearTimeout(debounceTimeout);
+      debounceTimeout = setTimeout(() => {
+        // Here you could fetch search suggestions from an API
+        // For now, just basic client-side functionality
+      }, 300);
+    });
+  }
+</script>

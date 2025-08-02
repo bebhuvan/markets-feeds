@@ -1,0 +1,75 @@
+---
+export const prerender = false;
+
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Navigation from '../components/Navigation.astro';
+import Article from '../components/Article.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { dataLoader } from '../lib/data-loader';
+import '../styles/global.css';
+
+// Get page number
+const page = parseInt(Astro.url.searchParams.get('page') || '1');
+
+// Load data
+const allItems = await dataLoader.loadData();
+const categoryCounts = await dataLoader.getCategoryCounts();
+const { items, totalPages, totalItems, hasNext, hasPrev } = dataLoader.paginate(allItems, page);
+
+// Get last update time
+const lastUpdate = allItems.length > 0 
+  ? new Date(Math.max(...allItems.map(item => new Date(item.fetchedAt || item.publishedAt).getTime())))
+  : new Date();
+
+// Get source counts for sidebar
+const sourceCounts = await dataLoader.getSourceCounts();
+---
+
+<Layout title="Markets Feeds - Financial News Aggregator">
+  <Header lastUpdate={lastUpdate} />
+  <Navigation categoryCounts={categoryCounts} />
+  
+  <div class="container">
+    <div class="content-grid">
+      <!-- Main Feed -->
+      <main class="feed">
+        <div class="feed-header">
+          <h1 class="feed-title">All Sources</h1>
+          <div class="feed-meta">{totalItems} articles</div>
+        </div>
+
+        <div class="articles">
+          {items.map(article => (
+            <Article article={article} />
+          ))}
+        </div>
+
+        {totalPages > 1 && (
+          <div class="pagination">
+            {hasPrev ? (
+              <a href={`/?page=${page - 1}`} class="pagination-btn">
+                ← Previous
+              </a>
+            ) : (
+              <span class="pagination-btn disabled">← Previous</span>
+            )}
+            
+            <span class="pagination-info">Page {page} of {totalPages}</span>
+            
+            {hasNext ? (
+              <a href={`/?page=${page + 1}`} class="pagination-btn">
+                Next →
+              </a>
+            ) : (
+              <span class="pagination-btn disabled">Next →</span>
+            )}
+          </div>
+        )}
+      </main>
+      
+      <!-- Sidebar -->
+      <Sidebar sourceCounts={sourceCounts} categoryCounts={categoryCounts} />
+    </div>
+  </div>
+</Layout>

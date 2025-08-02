@@ -1,0 +1,87 @@
+---
+export const prerender = false;
+
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Navigation from '../components/Navigation.astro';
+import Article from '../components/Article.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { dataLoader } from '../lib/data-loader';
+import { CATEGORIES } from '../lib/categories';
+import '../styles/global.css';
+
+// Get category and page
+const { category } = Astro.params;
+const page = parseInt(Astro.url.searchParams.get('page') || '1');
+
+// Validate category
+if (!category || !CATEGORIES[category as keyof typeof CATEGORIES]) {
+  return Astro.redirect('/');
+}
+
+// Load data
+const categoryItems = await dataLoader.getByCategory(category);
+const categoryCounts = await dataLoader.getCategoryCounts();
+const { items, totalPages, totalItems, hasNext, hasPrev } = dataLoader.paginate(categoryItems, page);
+
+const categoryLabel = CATEGORIES[category as keyof typeof CATEGORIES];
+
+// Get source counts for sidebar
+const sourceCounts = await dataLoader.getSourceCounts();
+---
+
+<Layout title={`${categoryLabel} - Markets Feeds`}>
+  <Header />
+  <Navigation currentCategory={category} categoryCounts={categoryCounts} />
+  
+  <div class="container">
+    <div class="content-grid">
+      <!-- Main Feed -->
+      <main class="feed">
+        <div class="feed-header">
+          <h1 class="feed-title">{categoryLabel}</h1>
+          <div class="feed-meta">{totalItems} articles</div>
+        </div>
+
+        {totalItems === 0 ? (
+          <div style="text-align: center; padding: 80px 20px; color: #6b7280;">
+            <p>No articles found in {categoryLabel}</p>
+          </div>
+        ) : (
+          <>
+            <div class="articles">
+              {items.map(article => (
+                <Article article={article} />
+              ))}
+            </div>
+
+            {totalPages > 1 && (
+              <div class="pagination">
+                {hasPrev ? (
+                  <a href={`/${category}?page=${page - 1}`} class="pagination-btn">
+                    ← Previous
+                  </a>
+                ) : (
+                  <span class="pagination-btn disabled">← Previous</span>
+                )}
+                
+                <span class="pagination-info">Page {page} of {totalPages}</span>
+                
+                {hasNext ? (
+                  <a href={`/${category}?page=${page + 1}`} class="pagination-btn">
+                    Next →
+                  </a>
+                ) : (
+                  <span class="pagination-btn disabled">Next →</span>
+                )}
+              </div>
+            )}
+          </>
+        )}
+      </main>
+      
+      <!-- Sidebar -->
+      <Sidebar sourceCounts={sourceCounts} categoryCounts={categoryCounts} currentCategory={category} />
+    </div>
+  </div>
+</Layout>

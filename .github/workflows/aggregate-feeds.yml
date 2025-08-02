@@ -74,7 +74,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add src/content/links/*.json scripts/aggregator_state.json
-          git diff --cached --quiet || git commit -m "Update RSS feeds [skip ci]"
+          git diff --cached --quiet || git commit -m "Update RSS feeds"
           
           # Handle potential conflicts by pulling before pushing
           for i in {1..3}; do
