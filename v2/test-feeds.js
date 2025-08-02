@@ -1,13 +1,18 @@
 #!/usr/bin/env node
 
 // Simple test script to debug feed fetching
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 console.log('🧪 Testing feed fetching system...\n');
 
 // Test 1: Check if we can import the feed fetcher
 try {
   console.log('1. Testing module imports...');
-  const fs = require('fs');
-  const path = require('path');
   
   // Check if required files exist
   const feedsConfigPath = path.join(__dirname, 'feeds.config.json');
@@ -30,8 +35,6 @@ try {
 // Test 2: Check feeds config
 try {
   console.log('\n2. Testing feeds configuration...');
-  const fs = require('fs');
-  const path = require('path');
   
   const configPath = path.join(__dirname, 'feeds.config.json');
   const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
