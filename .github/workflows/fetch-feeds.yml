@@ -30,16 +30,17 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '20'
         cache: 'npm'
+        cache-dependency-path: 'v2/package-lock.json'
     
     - name: Install dependencies
-      run: npm ci
+      run: cd v2 && npm ci
     
     - name: Fetch RSS feeds
-      run: npm run fetch-feeds
+      run: cd v2 && npm run fetch-feeds
       env:
         NODE_ENV: production
     
@@ -49,9 +50,9 @@ jobs:
         git config --global user.email 'bot@markets-feeds.com'
         
         # Check if there are changes
-        if [ -n "$(git status --porcelain content/links/)" ]; then
-          git add content/links/*.json
-          git add fetch-report.json
+        if [ -n "$(git status --porcelain v2/content/links/)" ]; then
+          git add v2/content/links/*.json
+          git add v2/fetch-report.json
           git commit -m "🤖 Update feeds - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
           echo "✅ Changes pushed to repository"
@@ -60,11 +61,11 @@ jobs:
         fi
     
     - name: Upload fetch report
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: fetch-report
-        path: fetch-report.json
+        path: v2/fetch-report.json
         retention-days: 7
     
     - name: Check for errors and notify
