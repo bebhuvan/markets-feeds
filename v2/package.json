@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "fetch-feeds": "tsx src/scripts/fetch-all-feeds.ts",
-    "recategorize": "tsx src/scripts/recategorize-feeds.ts"
+    "recategorize": "tsx src/scripts/recategorize-feeds.ts",
+    "test-feeds": "node test-feeds.js"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^11.2.0",
