@@ -1,0 +1,32 @@
+name: Test Minimal
+
+on:
+  workflow_dispatch: # Only manual trigger
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    
+    - name: Setup Node.js (minimal)
+      run: |
+        curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+        sudo apt-get install -y nodejs
+        node --version
+        npm --version
+    
+    - name: Test directory structure
+      run: |
+        ls -la
+        cd v2
+        ls -la
+        cat package.json
+    
+    - name: Install and test
+      run: |
+        cd v2
+        npm install
+        npm run test-feeds
