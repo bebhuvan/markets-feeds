@@ -2,6 +2,27 @@
 
 A modern financial news aggregator built with Astro, featuring automated RSS feed collection and intelligent categorization.
 
+## ⚠️ Known Issues
+
+### GitHub Actions Workflow Failures
+- **Problem**: All GitHub Actions workflows fail with `Dependencies lock file not found` error
+- **Cause**: `actions/setup-node@v4` automatically tries to use npm cache but can't find package-lock.json
+- **Attempted Fixes**: 
+  - Created package-lock.json in root
+  - Used `actions/setup-node@v3` 
+  - Disabled caching entirely
+  - Manual Node.js installation
+  - Multiple workflow variations
+- **Status**: ❌ Still failing - GitHub Actions keeps reverting to v4 somehow
+- **Workaround**: Use Cloudflare Pages build process or manual updates
+
+### Current State
+- ✅ **Local development works perfectly**
+- ✅ **60+ RSS feeds configured and tested**
+- ✅ **Complete admin dashboard functional**
+- ✅ **Astro build process works**
+- ❌ **Automated RSS fetching via GitHub Actions fails**
+
 ## 🚀 Deployment Instructions
 
 ### Option 1: Cloudflare Pages (Recommended)
@@ -21,6 +42,8 @@ A modern financial news aggregator built with Astro, featuring automated RSS fee
 3. **Environment Variables:**
    - `NODE_VERSION`: `20`
    - `NPM_FLAGS`: `--legacy-peer-deps` (if needed)
+
+**Note**: The build.sh script will attempt to fetch fresh feeds during build, but may fail due to network restrictions.
 
 ### Option 2: Manual Feed Updates
 
@@ -68,13 +91,15 @@ v2/
 └── feeds.config.json   # RSS feed configuration
 ```
 
-## 🤖 Automated Updates
+## 🤖 Automated Updates (CURRENTLY BROKEN)
 
-The system is designed to automatically fetch feeds, but if GitHub Actions fails:
+**GitHub Actions Issue**: All workflows fail with cache/dependency errors despite multiple fix attempts.
 
-1. **Set up a cron job** on any server
+**Alternative Solutions**:
+1. **Set up a cron job** on any server with the feed fetch script
 2. **Use Cloudflare Workers** with scheduled triggers
 3. **Manual updates** as shown above
+4. **New chat session** - Try debugging GitHub Actions with fresh context
 
 ## 📈 Data Sources
 
