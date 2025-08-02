@@ -1,0 +1,41 @@
+# Dependencies
+v2/node_modules/
+v2/.npm/
+
+# Build outputs
+v2/dist/
+v2/.astro/
+v2/.output/
+
+# Environment files
+v2/.env
+v2/.env.local
+v2/.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+v2/.cache/
+v2/.next/
+v2/.nuxt/
+
+# Temporary files
+v2/tmp/
+v2/temp/
+
+# Development
+v2/.dev/
+v2/.vite/
+
+# Reports
+fetch-report.json
