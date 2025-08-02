@@ -1,0 +1,25 @@
+name: Fetch Feeds
+
+on:
+  schedule:
+    - cron: '30 0 * * *'  # 6 AM IST
+    - cron: '30 9 * * *'  # 3 PM IST
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+        cache: 'npm'
+    - run: npm ci
+    - run: cd v2 && npm install && npm run fetch-feeds
+    - run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add v2/content/links/*.json || true
+        git add v2/fetch-report.json || true
+        git diff --staged --quiet || (git commit -m "Update feeds $(date)" && git push)

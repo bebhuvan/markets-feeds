@@ -1,0 +1,23 @@
+{
+  "name": "markets-feeds-v2",
+  "type": "module",
+  "version": "2.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch-feeds": "tsx src/scripts/fetch-all-feeds.ts",
+    "recategorize": "tsx src/scripts/recategorize-feeds.ts",
+    "test-feeds": "node test-feeds.js"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^11.2.0",
+    "astro": "^4.15.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.3.3"
+  }
+}
