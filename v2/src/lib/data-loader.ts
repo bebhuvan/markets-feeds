@@ -40,7 +40,11 @@ export class DataLoader {
       
       const data = (module as any).default;
       if (Array.isArray(data)) {
-        items.push(...data);
+        // Filter out articles with empty titles or summaries to prevent blank display
+        const validArticles = data.filter((item: FeedItem) => 
+          item.title && item.title.trim().length > 0
+        );
+        items.push(...validArticles);
       }
     }
 
