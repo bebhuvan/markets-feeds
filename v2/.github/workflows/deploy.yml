@@ -1,0 +1,50 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v2/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'v2/**'
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: 'v2/package-lock.json'
+        
+    - name: Install dependencies
+      working-directory: ./v2
+      run: npm ci
+      
+    - name: Build project
+      working-directory: ./v2
+      run: npm run build-only
+      
+    - name: Verify build artifacts
+      working-directory: ./v2
+      run: |
+        echo "✅ Build completed successfully"
+        echo "📁 Build artifacts:"
+        ls -la dist/
+        echo "📊 Build size:"
+        du -sh dist/
+        
+    - name: Deploy notification
+      if: github.ref == 'refs/heads/main'
+      run: |
+        echo "🚀 Main branch updated - Cloudflare Pages will deploy automatically"
+        echo "📱 Site will be live in ~2-5 minutes"
