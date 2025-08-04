@@ -132,6 +132,11 @@ export class DataLoader {
     return items.filter(item => item.category === category);
   }
 
+  async getBySource(sourceId: string): Promise<FeedItem[]> {
+    const items = await this.loadData();
+    return items.filter(item => item.sourceId === sourceId);
+  }
+
   async getCategoryCounts(): Promise<Record<string, number>> {
     const items = await this.loadData();
     const counts: Record<string, number> = {};
