@@ -32,7 +32,7 @@ const sourceCounts = await dataLoader.getSourceCounts();
 
 <Layout title={`${sourceName} - Latest News`}>
   <Header />
-  <Navigation />
+  <Navigation categoryCounts={categoryCounts} />
   
   <main class="main-content">
     <div class="content-wrapper">

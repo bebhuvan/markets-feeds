@@ -9,7 +9,7 @@ export interface Props {
 const { currentCategory, categoryCounts } = Astro.props;
 
 // Strategic categories - main ones plus extracted distinct types
-const mainCategories = ['markets', 'earnings', 'ma', 'crypto', 'macro', 'technology', 'eclectic'];
+const mainCategories = ['markets', 'earnings', 'ma', 'crypto', 'macro', 'technology'];
 const otherCategories = Object.keys(CATEGORIES).filter(cat => !mainCategories.includes(cat));
 ---
 
@@ -18,12 +18,12 @@ const otherCategories = Object.keys(CATEGORIES).filter(cat => !mainCategories.in
     <div class="nav-container">
       <div class="nav-tabs">
         <a href="/" class={`nav-tab ${!currentCategory ? 'active' : ''}`}>
-          All <span class="count">{Object.values(categoryCounts).reduce((a, b) => a + b, 0)}</span>
+          All <span class="count">{categoryCounts ? Object.values(categoryCounts).reduce((a, b) => a + b, 0) : 0}</span>
         </a>
         
         {/* Main categories */}
         {mainCategories.map(key => 
-          categoryCounts[key] > 0 && (
+          categoryCounts && categoryCounts[key] > 0 && (
             <a 
               href={`/${key}`} 
               class={`nav-tab ${currentCategory === key ? 'active' : ''}`}
@@ -43,7 +43,7 @@ const otherCategories = Object.keys(CATEGORIES).filter(cat => !mainCategories.in
         </a>
 
         {/* Dropdown for other categories */}
-        {otherCategories.some(cat => categoryCounts[cat] > 0) && (
+        {categoryCounts && otherCategories.some(cat => categoryCounts[cat] > 0) && (
           <div class="nav-dropdown">
             <button class="nav-tab dropdown-trigger">
               More
@@ -53,7 +53,7 @@ const otherCategories = Object.keys(CATEGORIES).filter(cat => !mainCategories.in
             </button>
             <div class="dropdown-menu">
               {otherCategories.map(key => 
-                categoryCounts[key] > 0 && (
+                categoryCounts && categoryCounts[key] > 0 && (
                   <a 
                     href={`/${key}`} 
                     class={`dropdown-item ${currentCategory === key ? 'active' : ''}`}
