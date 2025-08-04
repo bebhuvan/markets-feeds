@@ -66,11 +66,6 @@ jobs:
           echo "Found changes, committing..."
           git add v2/content/links/*.json
           
-          # Add report if it exists
-          if [[ -f "v2/fetch-report.json" ]]; then
-            git add v2/fetch-report.json
-          fi
-          
           git commit -m "🤖 Auto-update feeds $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
           echo "✅ Successfully pushed new feeds"
