@@ -349,7 +349,8 @@
       "sourceId": "nse-online-announcements",
       "category": "filings",
       "fetchInterval": 360,
-      "active": true
+      "active": false,
+      "note": "NSE RSS feeds discontinued - returning 404 errors"
     },
     {
       "id": "nse_annual_reports",
@@ -358,7 +359,8 @@
       "sourceId": "nse-annual-reports",
       "category": "filings",
       "fetchInterval": 720,
-      "active": true
+      "active": false,
+      "note": "NSE RSS feeds discontinued - returning 404/403 errors"
     },
     {
       "id": "nse_corporate_action",
@@ -367,7 +369,8 @@
       "sourceId": "nse-corporate-actions",
       "category": "filings",
       "fetchInterval": 480,
-      "active": true
+      "active": false,
+      "note": "NSE RSS feeds discontinued - returning 403 errors"
     },
     {
       "id": "nse_financial_results",
@@ -376,7 +379,8 @@
       "sourceId": "nse-financial-results",
       "category": "earnings",
       "fetchInterval": 360,
-      "active": true
+      "active": false,
+      "note": "NSE RSS feeds discontinued - returning 403 errors"
     },
     {
       "id": "nse_offer_documents",
@@ -385,7 +389,8 @@
       "sourceId": "nse-offer-documents",
       "category": "filings",
       "fetchInterval": 600,
-      "active": true
+      "active": false,
+      "note": "NSE RSS feeds discontinued - some work but with empty content"
     },
     {
       "id": "nse_circulars",
@@ -394,7 +399,8 @@
       "sourceId": "nse-circulars",
       "category": "regulation",
       "fetchInterval": 480,
-      "active": true
+      "active": false,
+      "note": "NSE RSS feeds discontinued - returning 403 errors"
     },
     {
       "id": "bse_notices",
@@ -732,7 +738,7 @@
     {
       "id": "moneycontrol_news",
       "name": "Money Control News",
-      "url": "https://www.moneycontrol.com/news/listing/page-1/",
+      "url": "https://www.moneycontrol.com/rss/business.xml",
       "sourceId": "moneycontrol-news",
       "category": "markets",
       "fetchInterval": 180,

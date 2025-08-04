@@ -61,6 +61,8 @@ export class FeedFetcher {
       const isYouTubeFeed = config.sourceId.includes('youtube');
       const isEclecticFeed = config.category === 'eclectic';
       const isSubstackFeed = config.url.includes('substack.com');
+      const isReutersFeed = config.sourceId.includes('reuters');
+      const isMoneyControlFeed = config.sourceId.includes('moneycontrol');
       const headers: Record<string, string> = {
         'Accept': 'application/rss+xml, application/xml, text/xml, application/atom+xml',
         'Accept-Encoding': 'gzip, deflate',
@@ -81,13 +83,35 @@ export class FeedFetcher {
         headers['Referer'] = 'https://www.youtube.com/';
         headers['DNT'] = '1';
       } else if (isEclecticFeed || isSubstackFeed) {
-        // Use personal RSS reader-like headers for Substack and eclectic feeds
-        headers['User-Agent'] = 'Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)';
-        headers['Accept-Language'] = 'en-US,en;q=0.8';
-        headers['Connection'] = 'keep-alive';
+        // Use different strategies for Substack feeds to avoid 403 errors
         if (isSubstackFeed) {
+          // Try browser-like headers first
+          headers['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+          headers['Accept-Language'] = 'en-US,en;q=0.9';
+          headers['Connection'] = 'keep-alive';
+          headers['Sec-Fetch-Dest'] = 'document';
+          headers['Sec-Fetch-Mode'] = 'navigate';
+          headers['Sec-Fetch-Site'] = 'none';
+          headers['Sec-Fetch-User'] = '?1';
           headers['Referer'] = 'https://substack.com/';
+        } else {
+          // Use RSS reader headers for other eclectic feeds
+          headers['User-Agent'] = 'Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)';
+          headers['Accept-Language'] = 'en-US,en;q=0.8';
+          headers['Connection'] = 'keep-alive';
         }
+      } else if (isReutersFeed) {
+        // Reuters needs specific headers to avoid blocking
+        headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+        headers['Accept-Language'] = 'en-US,en;q=0.9';
+        headers['Connection'] = 'keep-alive';
+        headers['Referer'] = 'https://www.reuters.com/';
+      } else if (isMoneyControlFeed) {
+        // MoneyControl needs browser headers and correct RSS URL
+        headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+        headers['Accept-Language'] = 'en-US,en;q=0.9';
+        headers['Connection'] = 'keep-alive';
+        headers['Referer'] = 'https://www.moneycontrol.com/';
       } else {
         headers['User-Agent'] = 'Markets-Feeds-Bot/2.0 (+https://markets-feeds.com)';
       }
