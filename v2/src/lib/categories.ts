@@ -27,13 +27,10 @@ export const CATEGORIES = {
   'eclectic': 'Eclectic'
 } as const;
 
-// Source categories for sidebar
+// Source categories for sidebar - using actual sourceIds from data
 export const SOURCE_CATEGORIES = {
-  'Indian Markets': ['et-markets', 'thehindubusinessline', 'moneycontrol-news', 'ndtv-profit-rss'],
-  'Indian Regulation': ['rbi-press', 'sebi-news', 'bse-notices', 'nse-online-announcements'],
+  'Indian Markets': ['et-markets', 'thehindubusinessline', 'ndtv-profit-rss'],
+  'Indian Regulation': ['rbi-press', 'sebi-news', 'bse-notices', 'nse-announcements'],
   'Global Financial': ['bloomberg-markets', 'ft-markets', 'reuters-business', 'economist-finance'],
-  'Research': ['nber-papers', 'harvard-hbs-youtube', 'cfa-institute-blog'],
-  'Commentary': ['eclectic', 'blogs', 'analysis'],
-  'Technology': ['techmeme', 'the-verge', 'wired'],
-  'Other': ['podcasts', 'newsletters', 'aggregators']
+  'Research': ['harvard-hbs-youtube', 'cfa-institute-blog'],
 };
