@@ -1,5 +1,5 @@
 ---
-import { CATEGORIES } from '../lib/categories';
+import { CATEGORIES, SOURCE_CATEGORIES } from '../lib/categories';
 
 export interface Props {
   sourceCounts: Record<string, number>;
@@ -80,19 +80,37 @@ const quickFilters = [
     </div>
   </div>
 
-  <!-- Top Sources -->
+  <!-- Source Categories -->
   <div class="sidebar-section">
-    <h3 class="sidebar-title">Top Sources</h3>
-    <ul class="source-list">
-      {topSources.map(([sourceId, count]) => (
-        <li class="source-item">
-          <a href={`/source/${sourceId}`} class="source-link">
-            <span class="source-name">{sourceId.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</span>
-            <span class="source-count">{count}</span>
-          </a>
-        </li>
-      ))}
-    </ul>
+    <h3 class="sidebar-title">News Sources</h3>
+    {Object.entries(SOURCE_CATEGORIES).slice(0, 4).map(([categoryName, sourceIds]) => (
+      <div class="source-category">
+        <div class="source-category-label">{categoryName}</div>
+        <ul class="source-list">
+          {sourceIds.slice(0, 4).map(sourceId => {
+            const count = sourceCounts[sourceId] || 0;
+            const displayName = sourceId
+              .replace(/-/g, ' ')
+              .replace(/\b\w/g, l => l.toUpperCase())
+              .replace('Et Markets', 'ET Markets')
+              .replace('Thehindubusinessline', 'Hindu BusinessLine')
+              .replace('Moneycontrol News', 'MoneyControl')
+              .replace('Ndtv Profit', 'NDTV Profit')
+              .replace('Rbi Press', 'RBI Press')
+              .replace('Sebi News', 'SEBI News')
+              .replace('Bse Notices', 'BSE Notices');
+            return (
+              <li class="source-item">
+                <a href={`/source/${sourceId}`} class="source-link">
+                  <span class="source-name">{displayName}</span>
+                  <span class="source-count">{count}</span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    ))}
   </div>
 
   <!-- Market Calendar -->
@@ -320,9 +338,30 @@ const quickFilters = [
     font-weight: 500;
   }
 
+  /* Source Categories */
+  .source-category {
+    margin-bottom: 12px;
+  }
+
+  .source-category:last-child {
+    margin-bottom: 0;
+  }
+
+  .source-category-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #f3f4f6;
+  }
+
   /* Source list */
   .source-list {
     list-style: none;
+    margin-bottom: 8px;
   }
 
   .source-item {
