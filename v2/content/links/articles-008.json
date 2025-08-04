@@ -1,5 +1,175 @@
 [
   {
+    "id": "oil-price-6fc27b78",
+    "sourceId": "oil-price",
+    "sourceName": "OilPrice.com",
+    "title": "Inside the Lavish Lifestyles of Putin&#039;s Inner Circle",
+    "url": "https://oilprice.com/Geopolitics/International/Inside-the-Lavish-Lifestyle-of-Putins-Inner-Circle.html",
+    "summary": "Private beachfronts, million-dollar bathtubs, evenings of wine, whiskey, cigars, and karaoke – or performances by Russian pop stars whose fame stretches back to the 1990s. Those are some of the trappings of an “ultraluxe” villa complex in Dubai where Sergei Chemezov – the Western-sanctioned head of",
+    "fullContent": "Private beachfronts, million-dollar bathtubs, evenings of wine, whiskey, cigars, and karaoke – or performances by Russian pop stars whose fame stretches back to the 1990s. Those are some of the trappings of an “ultraluxe” villa complex in Dubai where Sergei Chemezov – the Western-sanctioned head of the massive Russian state defense conglomerate Rostec and a close ally of President Vladimir Putin since they were KGB officers in communist East Germany – spends time with family, friends, and associates. While they are…",
+    "publishedAt": "2025-08-01T21:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.703Z",
+    "category": "commodities",
+    "tags": [
+      "commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "6fc27b78"
+  },
+  {
+    "id": "nyt-business-3c8150ee",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-tariffs-stock-markets-trade-dollar.html",
+    "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+    "fullContent": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+    "publishedAt": "2025-08-01T20:56:33.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3c8150ee"
+  },
+  {
+    "id": "nyt-economy-3c8150ee",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-tariffs-stock-markets-trade-dollar.html",
+    "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+    "fullContent": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+    "publishedAt": "2025-08-01T20:56:33.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.874Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "3c8150ee"
+  },
+  {
+    "id": "cnbc-markets-7009486",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Tesla must pay portion of $329 million in damages after fatal Autopilot crash, jury says",
+    "url": "https://www.cnbc.com/2025/08/01/tesla-must-pay-329-million-in-damages-in-fatal-autopilot-case.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-01T20:48:28.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.495Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7009486"
+  },
+  {
+    "id": "wired-247372eb",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "Tesla Found Partly Liable in 2019 Autopilot Death",
+    "url": "https://www.wired.com/story/tesla-liable-2019-autopilot-crash-death/",
+    "summary": "A Miami jury has ordered the automaker to pay up to $243 million after finding that the Tesla vehicle had a “defect.” It's the first time Tesla has been found liable in an Autopilot-related crash.",
+    "fullContent": "A Miami jury has ordered the automaker to pay up to $243 million after finding that the Tesla vehicle had a “defect.” It's the first time Tesla has been found liable in an Autopilot-related crash.",
+    "publishedAt": "2025-08-01T20:41:28.000Z",
+    "fetchedAt": "2025-08-04T06:58:46.586Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "247372eb"
+  },
+  {
+    "id": "cnbc-markets-18ad7212",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Jeffrey Epstein victims and family blast Trump for Ghislaine Maxwell prison transfer",
+    "url": "https://www.cnbc.com/2025/08/01/jeffrey-epstein-ghislaine-maxwell-prison-florida-texas.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-01T20:36:51.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.495Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "18ad7212"
+  },
+  {
+    "id": "nyt-business-6edde4f8",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Trump Turns to Untested Tariffs to Reorder Global Trade",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-tariffs.html",
+    "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+    "fullContent": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+    "publishedAt": "2025-08-01T20:26:39.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6edde4f8"
+  },
+  {
+    "id": "nyt-economy-6edde4f8",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Trump Turns to Untested Tariffs to Reorder Global Trade",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-tariffs.html",
+    "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+    "fullContent": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+    "publishedAt": "2025-08-01T20:26:39.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.874Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "6edde4f8"
+  },
+  {
+    "id": "nyt-business-4f721b01",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Switzerland Is Stunned by 39% U.S. Tariff, Among the Highest in the World",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/switzerland-trump-tariffs.html",
+    "summary": "Swiss officials plan to negotiate urgently for a lower rate, before the punishing levy takes effect next week.",
+    "fullContent": "Swiss officials plan to negotiate urgently for a lower rate, before the punishing levy takes effect next week.",
+    "publishedAt": "2025-08-01T20:19:52.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4f721b01"
+  },
+  {
+    "id": "nyt-economy-4f721b01",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Switzerland Is Stunned by 39% U.S. Tariff, Among the Highest in the World",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/switzerland-trump-tariffs.html",
+    "summary": "Swiss officials plan to negotiate urgently for a lower rate, before the punishing levy takes effect next week.",
+    "fullContent": "Swiss officials plan to negotiate urgently for a lower rate, before the punishing levy takes effect next week.",
+    "publishedAt": "2025-08-01T20:19:52.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.874Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "4f721b01"
+  },
+  {
     "id": "paul-krugman-6cd07144",
     "sourceId": "paul-krugman",
     "sourceName": "Paul Krugman",
@@ -1528,175 +1698,5 @@
     ],
     "priority": "normal",
     "contentHash": "44f0dab1"
-  },
-  {
-    "id": "wired-56b14e94",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Palantir Is Extending Its Reach Even Further Into Government",
-    "url": "https://www.wired.com/story/palantir-government-contracting-push/",
-    "summary": "Palantir has become one of the few winners in the Trump administration’s cost-cutting efforts, offering other contractors a lifeline while consolidating its own reach and power.",
-    "fullContent": "Palantir has become one of the few winners in the Trump administration’s cost-cutting efforts, offering other contractors a lifeline while consolidating its own reach and power.",
-    "publishedAt": "2025-08-01T10:30:00.000Z",
-    "fetchedAt": "2025-08-04T06:58:46.586Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "56b14e94"
-  },
-  {
-    "id": "scmp-business-1f81cfc4",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Hong Kong court freezes US$1.8 billion HSBC account in Wahaha inheritance fight",
-    "url": "https://www.scmp.com/business/china-business/article/3320465/hong-kong-court-freezes-us18-billion-hsbc-account-wahaha-inheritance-battle-unfolds?utm_source=rss_feed",
-    "summary": "A Hong Kong court has formally frozen an HSBC account at the heart of a high-stakes lawsuit that pits three claimants of a multibillion-dollar inheritance against the CEO of Hangzhou Wahaha Group, a beverage empire dubbed “China’s Coca-Cola”. The order will remain in force until another parallel law",
-    "fullContent": "A Hong Kong court has formally frozen an HSBC account at the heart of a high-stakes lawsuit that pits three claimants of a multibillion-dollar inheritance against the CEO of Hangzhou Wahaha Group, a beverage empire dubbed “China’s Coca-Cola”. The order will remain in force until another parallel lawsuit filed in a Hangzhou court is finished, or until a further order is passed by the Hong Kong court, according to a ruling by Deputy High Court Judge Gary CC Lam on Friday. The three plaintiffs –...",
-    "publishedAt": "2025-08-01T10:19:36.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.462Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1f81cfc4"
-  },
-  {
-    "id": "bloomberg-economics-3afcd6b8",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-01/boj-watchers-bring-forward-next-rate-hike-call-after-trade-deals",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T10:15:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.342Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "3afcd6b8"
-  },
-  {
-    "id": "bloomberg-politics-3afcd6b8",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-01/boj-watchers-bring-forward-next-rate-hike-call-after-trade-deals",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T10:15:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.570Z",
-    "category": "policy",
-    "tags": [
-      "policy"
-    ],
-    "priority": "normal",
-    "contentHash": "3afcd6b8"
-  },
-  {
-    "id": "bbc-business-521abca6",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "",
-    "url": "https://www.bbc.com/news/articles/c8deqejdrmro?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T10:06:25.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.136Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "521abca6"
-  },
-  {
-    "id": "wired-c9e5edd",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "The Best Mouth Tape (2025)",
-    "url": "https://www.wired.com/story/the-wired-guide-to-mouth-tape/",
-    "summary": "TikTokkers and biohackers are fast to recommend mouth tape for better sleep. But it’s not a solution for everyone.",
-    "fullContent": "TikTokkers and biohackers are fast to recommend mouth tape for better sleep. But it’s not a solution for everyone.",
-    "publishedAt": "2025-08-01T10:02:00.000Z",
-    "fetchedAt": "2025-08-04T06:58:46.586Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "c9e5edd"
-  },
-  {
-    "id": "scmp-business-1c463767",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "HKEX to lower minimum float for more companies to tap IPO boom",
-    "url": "https://www.scmp.com/business/banking-finance/article/3320458/hong-kong-lower-exchanges-minimum-float-let-more-companies-join-citys-ipo-bonanza?utm_source=rss_feed",
-    "summary": "Hong Kong Exchanges and Clearing (HKEX), which recently reclaimed the crown as the world’s largest market for new listings, announced new rules on Friday to reduce the public float requirement for initial public offerings (IPOs). The new rules lower the barrier to raise capital for companies that ar",
-    "fullContent": "Hong Kong Exchanges and Clearing (HKEX), which recently reclaimed the crown as the world’s largest market for new listings, announced new rules on Friday to reduce the public float requirement for initial public offerings (IPOs). The new rules lower the barrier to raise capital for companies that are already listed in mainland China. Starting Monday, the minimum float of mainland companies in Hong Kong will be set at HK$3 billion (US$386 million), or 10 per cent of their outstanding capital,...",
-    "publishedAt": "2025-08-01T10:00:24.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.462Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1c463767"
-  },
-  {
-    "id": "yahoo-finance-62ef96e2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Mortgage and refinance interest rates today, August 1, 2025: Year-over-year rates hardly move",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-rates-today-friday-august-1-2025-100010284.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T10:00:10.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.154Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "62ef96e2"
-  },
-  {
-    "id": "stratechery-77583ff9",
-    "sourceId": "stratechery",
-    "sourceName": "Stratechery",
-    "title": "2025.31: How to Think About Figma",
-    "url": "https://stratechery.com/2025/how-to-think-about-figma/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T10:00:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.015Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "77583ff9"
-  },
-  {
-    "id": "wired-36617f7d",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Uber’s Drive to Become the Kleenex of Robotaxis",
-    "url": "https://www.wired.com/story/ubers-drive-to-become-the-kleenex-of-robotaxis/",
-    "summary": "It doesn’t matter who makes the tech—when you call a robocar, Uber’s mission now is to make sure you use its app.",
-    "fullContent": "It doesn’t matter who makes the tech—when you call a robocar, Uber’s mission now is to make sure you use its app.",
-    "publishedAt": "2025-08-01T10:00:00.000Z",
-    "fetchedAt": "2025-08-04T06:58:46.586Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "36617f7d"
   }
 ]

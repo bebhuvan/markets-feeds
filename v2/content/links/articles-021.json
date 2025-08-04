@@ -1,5 +1,177 @@
 [
   {
+    "id": "noahpinion-1ff9481f",
+    "sourceId": "noahpinion",
+    "sourceName": "Noahpinion",
+    "title": "",
+    "url": "https://www.noahpinion.blog/p/xi-jinping-is-the-main-thing-holding",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T07:30:50.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.564Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "1ff9481f"
+  },
+  {
+    "id": "foreign-affairs-28b47c63",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "The Intifada That Hasn’t Arrived",
+    "url": "https://www.foreignaffairs.com/israel/intifada-hasnt-arrived",
+    "summary": "Why have Israel’s recent wars led to little terrorism and no mass uprising?",
+    "fullContent": "Why have Israel’s recent wars led to little terrorism and no mass uprising?",
+    "publishedAt": "2025-07-28T04:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.957Z",
+    "category": "policy",
+    "tags": [
+      "policy"
+    ],
+    "priority": "normal",
+    "contentHash": "28b47c63"
+  },
+  {
+    "id": "foreign-affairs-14703596",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "Liberalism Doomed the Liberal International Order",
+    "url": "https://www.foreignaffairs.com/united-states/liberalism-doomed-liberal-international-order",
+    "summary": "A less legalistic system would help protect democracies.",
+    "fullContent": "A less legalistic system would help protect democracies.",
+    "publishedAt": "2025-07-28T04:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.957Z",
+    "category": "policy",
+    "tags": [
+      "policy"
+    ],
+    "priority": "normal",
+    "contentHash": "14703596"
+  },
+  {
+    "id": "economist-finance-31c49629",
+    "sourceId": "economist-finance",
+    "sourceName": "Economist Finance",
+    "title": "",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/28/europe-averts-its-trumpian-trade-nightmare",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T00:11:36.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.178Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "31c49629"
+  },
+  {
+    "id": "bloomberg-markets-e61019a6dc819c71",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Gold Holds Decline as US-EU Trade Deal Eases Some Haven Demand",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
+    "summary": "Gold steadied after the US and European Union announced they had reached a tariff agreement, staving off some concerns about a potentially painful trade war between the economies.",
+    "publishedAt": "2025-07-27T23:58:55+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.597925+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "e61019a6dc819c71"
+  },
+  {
+    "id": "bloomberg-markets-5be1dfd570ba6ff5",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Gold Steadies as Traders Weigh US-EU Trade Deal Ahead of the Fed",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
+    "summary": "Gold steadied after the US and European Union announced a tariff agreement, staving off some concern about a potentially painful trade war between the economies.",
+    "publishedAt": "2025-07-27T23:58:55+00:00",
+    "fetchedAt": "2025-07-28T06:33:11.099339+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "Markets",
+      "M&A"
+    ],
+    "priority": "high",
+    "contentHash": "5be1dfd570ba6ff5"
+  },
+  {
+    "id": "bloomberg-markets-cf382b52df2c6b78",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Gold Steadies as Markets Mull US-EU Deal Ahead of the Fed",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
+    "summary": "Gold wavered after the US and European Union announced a tariff agreement, staving off some concern about a potentially painful trade war between the economies.",
+    "publishedAt": "2025-07-27T23:58:55+00:00",
+    "fetchedAt": "2025-07-28T09:46:47.018836+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "M&A",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "cf382b52df2c6b78"
+  },
+  {
+    "id": "et-markets-25bfe393a66891f5",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times",
+    "title": "Why 60% of NSE 500 stocks remain below their 2024 highs",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-60-of-nse-500-stocks-remain-below-their-2024-highs/articleshow/122941990.cms",
+    "summary": "Despite a recent market rebound, many stocks are still below their 2024 highs. An ETIG study reveals that a significant portion of NSE 500 stocks remain considerably lower than their peak values. Analysts suggest these stocks may struggle to reach previous highs due to valuation concerns and limited earnings growth prospects.",
+    "publishedAt": "2025-07-27T23:54:32+00:00",
+    "fetchedAt": "2025-07-28T03:50:55.474095+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "25bfe393a66891f5"
+  },
+  {
+    "id": "bbc-business-8cdfb01e3616654a",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "The Caribbean islands that give you a passport if you buy a home",
+    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo",
+    "summary": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
+    "publishedAt": "2025-07-27T23:46:06+00:00",
+    "fetchedAt": "2025-07-28T08:47:55.135459+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8cdfb01e3616654a"
+  },
+  {
+    "id": "bbc-business-f594ce0ab1abf4ad",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "The Caribbean islands that give you a passport if you buy a home",
+    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo?at_medium=RSS&at_campaign=rss",
+    "summary": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
+    "fullContent": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
+    "publishedAt": "2025-07-27T23:46:06+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.661208+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f594ce0ab1abf4ad"
+  },
+  {
     "id": "bbc-business-25026b11",
     "sourceId": "bbc-business",
     "sourceName": "BBC Business",
@@ -1494,172 +1666,5 @@
     ],
     "priority": "high",
     "contentHash": "43bfb44c89793cb3"
-  },
-  {
-    "id": "bloomberg-markets-3fcb40f91508be84",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Trump Says a Deal Has Been Reached With the EU",
-    "url": "https://www.bloomberg.com/news/videos/2025-07-27/trump-says-a-deal-has-been-reached-with-the-eu-video-mdm1c0t8",
-    "summary": "European Commission President Ursula von der Leyen met with US President Donald Trump at Trump Turnberry golf club in Scotland on July 27. The leaders agreed to a deal that will see the bloc face 15% tariffs on most of its exports, including automobiles, staving off a trade war that could have delivered a hammer blow to the global economy. (Source: Bloomberg)",
-    "publishedAt": "2025-07-27T18:51:15+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.599484+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "3fcb40f91508be84"
-  },
-  {
-    "id": "marginal-revolution-6887b6853fdd2c6a",
-    "sourceId": "marginal-revolution",
-    "sourceName": "Marginal Revolution",
-    "title": "Not many links for the next two days or so",
-    "url": "https://marginalrevolution.com/marginalrevolution/2025/07/not-many-links-for-the-next-two-days-or-so.html?utm_source=rss&utm_medium=rss&utm_campaign=not-many-links-for-the-next-two-days-or-so",
-    "summary": "I am for a short while separated from my laptop, and I find links harder and slower to do through other means.  So for a brief while not many links here. Links will resume in due time, in the meantime enjoy the plain text, etc. The post Not many links for the next two days or so appeared first on Marginal REVOLUTION.",
-    "publishedAt": "2025-07-27T18:37:43+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.241750+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "6887b6853fdd2c6a"
-  },
-  {
-    "id": "seeking-alpha-ab70e07b11457164",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Capital One Shows Credit Improvement As Discover Distorts Results",
-    "url": "https://seekingalpha.com/article/4804947-capital-one-shows-credit-improvement-discover-distorts-results?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T18:30:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252386+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "ab70e07b11457164"
-  },
-  {
-    "id": "viks-newsletter-e4b9fbea70caeee2",
-    "sourceId": "viks-newsletter",
-    "sourceName": "Viks Newsletter",
-    "title": "Why the Future of RF Amplification in Satellites is Solid-State Devices on GaN",
-    "url": "https://www.viksnewsletter.com/p/why-the-future-of-satcom-rf-amplification-is-gan",
-    "summary": "Exploring the technology, trade-offs, and system-level impact of GaN-based power amplifiers that are slowly replacing vacuum tube technology used in satellite communications.",
-    "publishedAt": "2025-07-27T18:29:10+00:00",
-    "fetchedAt": "2025-07-28T06:22:18.638102+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "e4b9fbea70caeee2"
-  },
-  {
-    "id": "zerohedge-2b3d5fd69d2e1593",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Trump, EU Reach Tariff Deal To Avoid Trade War",
-    "url": "https://www.zerohedge.com/markets/trump-eu-reach-tariff-deal-avoid-trade-war",
-    "summary": "Trump, EU Reach Tariff Deal To Avoid Trade War President Trump said he reached a trade deal with the European Union late on Sunday, avoiding a trade war with the US’s largest trading partner and marking his biggest deal so far in his attempt to remake the global trading system through higher tariffs for U.S. trading partners. The pact comes less than a week before a Friday deadline for President Donald Trump’s higher tariffs to take effect on August 1. The president in May threatened to impose a 50% duty on nearly all EU goods, adding pressure that accelerated negotiations, before lowering that to 30%. Trump made the announcement at Trump Turnberry, his seaside golf resort in western Scotland, after meeting with European Commission President Ursula von der Leyen, who leads the EU’s executive body. 🚨BREAKING: President Trump lands EU trade deal: - EU to purchase $750 billion in US and invest $600 billion in US - EU to purchase a “vast amount” of military equipment - EU opens up markets ",
-    "publishedAt": "2025-07-27T18:28:24+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.540268+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "breaking",
-    "contentHash": "2b3d5fd69d2e1593"
-  },
-  {
-    "id": "bloomberg-markets-c1a6f659b3a56931",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Russia Starts First Direct Flights From Moscow to Pyongyang",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/russia-starts-first-direct-flights-from-moscow-to-pyongyang",
-    "summary": "Russia’s first direct flight from Moscow to Pyongyang, North Korea, took off Sunday evening, in a sign of deepening ties with the isolated Communist state.",
-    "publishedAt": "2025-07-27T18:11:12+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.599681+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c1a6f659b3a56931"
-  },
-  {
-    "id": "techmeme-ec61f8688ad5c116",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Berlin-based Buena, which is building AI-powered software to automate property management tasks, raised $58M, including a Series A led by GV (Cate Lawrence/Tech.eu)",
-    "url": "http://www.techmeme.com/250727/p19#a250727p19",
-    "summary": "Cate Lawrence / Tech.eu: Berlin-based Buena, which is building AI-powered software to automate property management tasks, raised $58M, including a Series A led by GV  —  Buena has acquired 20+ firms since 2023, with triple-digit growth and a product-first approach targeting 30,000 under-digitised players.",
-    "publishedAt": "2025-07-27T18:10:01+00:00",
-    "fetchedAt": "2025-07-28T06:12:26.069044+00:00",
-    "category": "technology",
-    "tags": [
-      "Tech",
-      "AI",
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "ec61f8688ad5c116"
-  },
-  {
-    "id": "marginal-revolution-d3f712497ab862e7",
-    "sourceId": "marginal-revolution",
-    "sourceName": "Marginal Revolution",
-    "title": "Tom Lehrer, RIP",
-    "url": "https://marginalrevolution.com/marginalrevolution/2025/07/tom-lehrer-rip.html?utm_source=rss&utm_medium=rss&utm_campaign=tom-lehrer-rip",
-    "summary": "The post Tom Lehrer, RIP appeared first on Marginal REVOLUTION.",
-    "publishedAt": "2025-07-27T18:08:56+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.242039+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "d3f712497ab862e7"
-  },
-  {
-    "id": "seeking-alpha-e877583df612b4f5",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Union Pacific: Solid Quarter, Big Merger Potential",
-    "url": "https://seekingalpha.com/article/4804869-union-pacific-solid-quarter-big-merger-potential?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T18:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252414+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "e877583df612b4f5"
-  },
-  {
-    "id": "seeking-alpha-389772ec9f1b18e8",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Reddit: Watch For Weak User Trend",
-    "url": "https://seekingalpha.com/article/4804879-reddit-watch-for-weak-user-trend?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T18:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252439+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "389772ec9f1b18e8"
   }
 ]

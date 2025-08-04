@@ -1,5 +1,171 @@
 [
   {
+    "id": "yahoo-finance-fde47f9212ab4cf7",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Analyst Highlights ‘Game Changer’ Catalyst for Eli Lilly (LLY)",
+    "url": "https://finance.yahoo.com/news/analyst-highlights-game-changer-catalyst-201223189.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:12:23+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755384+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "fde47f9212ab4cf7"
+  },
+  {
+    "id": "yahoo-finance-962cf84848663ee1",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tesla Inks $16.5 Billion Deal For AI With Samsung And Elon Musk Says This",
+    "url": "https://www.investors.com/news/tesla-stock-market-billion-dollar-ai-chip-deal-samsung-elon-musk-says-this/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:12:21+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755322+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "962cf84848663ee1"
+  },
+  {
+    "id": "cnbc-markets-f9000d7d40d8f1e2",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "JPMorgan says fintech middlemen like Plaid are 'massively taxing' its systems with unnecessary pings",
+    "url": "https://www.cnbc.com/2025/07/28/jpmorgan-fintech-middlemen-plaid-data-requests-taxing-systems.html",
+    "summary": "JPMorgan, the biggest U.S. bank by assets, is preparing to charge fintech middlemen such as Plaid and MX new fees for access to customer data.",
+    "publishedAt": "2025-07-28T20:06:41+00:00",
+    "fetchedAt": "2025-07-30T08:08:47.047021+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f9000d7d40d8f1e2"
+  },
+  {
+    "id": "advisor-perspectives-dd359197051705e4",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "World Markets Watchlist: July 28, 2025",
+    "url": "https://www.advisorperspectives.com/dshort/updates/2025/07/28/world-markets-watchlist-july-28-2025?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "All nine indexes on our world markets watch list have posted gains through July 28, 2025.",
+    "publishedAt": "2025-07-28T20:04:27+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.657418+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "dd359197051705e4"
+  },
+  {
+    "id": "nyt-science-319c9932dfbd09c0",
+    "sourceId": "nyt-science",
+    "sourceName": "NYT Science",
+    "title": "Healthy Lifestyle Can Help People at Risk for Dementia, Study Finds",
+    "url": "https://www.nytimes.com/2025/07/28/health/alzheimers-dementia-healthy-lifestyle.html",
+    "summary": "The study found that a combination of exercise, healthy diet and other behaviors led to cognitive benefits. How much intense guidance is required was unclear, experts said.",
+    "fullContent": "Phyllis Jones, left, and Patty Kelly, both of Aurora, Ill., were participants in the two-year study and became friends, encouraging each other during the process, which included diet changes and exercise.",
+    "publishedAt": "2025-07-28T19:53:24+00:00",
+    "fetchedAt": "2025-07-31T06:18:03.223163+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "319c9932dfbd09c0"
+  },
+  {
+    "id": "nyt-economy-dec60910752e2cb5",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Who Pays for U.S. Tariffs, and Where Does the Money Go?",
+    "url": "https://www.nytimes.com/2025/07/28/business/economy/trump-tariffs-payment.html",
+    "summary": "President Trump is seeking to raise federal revenue by imposing levies on goods from foreign nations. Here’s how the process works.",
+    "publishedAt": "2025-07-28T19:49:45+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.471775+00:00",
+    "category": "macro",
+    "tags": [
+      "Earnings",
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "dec60910752e2cb5"
+  },
+  {
+    "id": "ft-markets-47ff2803bd8d5dd1",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "Wise shareholders back plan to move listing from UK to US",
+    "url": "https://www.ft.com/content/b4d17f4e-e62a-4bb5-8d1e-b132251c3744",
+    "summary": "Fintech sees off investor rebellion led by co-founder, who opposed extension of dual-class share structure",
+    "publishedAt": "2025-07-28T19:31:01+00:00",
+    "fetchedAt": "2025-07-30T08:08:48.406293+00:00",
+    "category": "markets",
+    "tags": [
+      "IPO",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "47ff2803bd8d5dd1"
+  },
+  {
+    "id": "nyt-science-b64239b7e2730636",
+    "sourceId": "nyt-science",
+    "sourceName": "NYT Science",
+    "title": "RFK Jr. Plans Overhaul of Federal Vaccine-Injury Compensation System",
+    "url": "https://www.nytimes.com/2025/07/28/health/kennedy-vaccine-injury-court.html",
+    "summary": "The program, created by Congress, allows people who believe they were injured by vaccines to apply for financial compensation.",
+    "fullContent": "Health Secretary Robert F. Kennedy Jr. has long complained about legal challenges regarding vaccine injuries.",
+    "publishedAt": "2025-07-28T19:29:14+00:00",
+    "fetchedAt": "2025-07-31T06:18:03.222694+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "high",
+    "contentHash": "b64239b7e2730636"
+  },
+  {
+    "id": "nyt-business-ff1258782f6183fa",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "U.S. and China Meet as Trade Truce Nears Expiration",
+    "url": "https://www.nytimes.com/2025/07/28/business/us-china-trade-tariffs-talks.html",
+    "summary": "Top American and Chinese officials are meeting for two days of talks in Stockholm as the Trump administration tries to complete trade deals.",
+    "publishedAt": "2025-07-28T19:22:50+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.793255+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "ff1258782f6183fa"
+  },
+  {
+    "id": "cnbc-markets-432c898f031cd279",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Quantum computing firm IonQ hires former JPMorgan Chase applied research head",
+    "url": "https://www.cnbc.com/2025/07/28/ionq-hires-former-jpmorgan-chase-applied-research-head.html",
+    "summary": "IonQ is one of the larger examples of pure-play quantum firms. IonQ and competitors including Rigetti and D-Wave have seen their shares surge in the past year.",
+    "publishedAt": "2025-07-28T19:13:36+00:00",
+    "fetchedAt": "2025-07-30T08:08:47.047392+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "432c898f031cd279"
+  },
+  {
     "id": "wsj-markets-main-e8f140ab1bbbde6a",
     "sourceId": "wsj-markets-main",
     "sourceName": "WSJ Markets",
@@ -1502,177 +1668,5 @@
     ],
     "priority": "normal",
     "contentHash": "cc14b58ce5661699"
-  },
-  {
-    "id": "noahpinion-1ff9481f",
-    "sourceId": "noahpinion",
-    "sourceName": "Noahpinion",
-    "title": "",
-    "url": "https://www.noahpinion.blog/p/xi-jinping-is-the-main-thing-holding",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-28T07:30:50.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.564Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "1ff9481f"
-  },
-  {
-    "id": "foreign-affairs-28b47c63",
-    "sourceId": "foreign-affairs",
-    "sourceName": "Foreign Affairs",
-    "title": "The Intifada That Hasn’t Arrived",
-    "url": "https://www.foreignaffairs.com/israel/intifada-hasnt-arrived",
-    "summary": "Why have Israel’s recent wars led to little terrorism and no mass uprising?",
-    "fullContent": "Why have Israel’s recent wars led to little terrorism and no mass uprising?",
-    "publishedAt": "2025-07-28T04:00:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.957Z",
-    "category": "policy",
-    "tags": [
-      "policy"
-    ],
-    "priority": "normal",
-    "contentHash": "28b47c63"
-  },
-  {
-    "id": "foreign-affairs-14703596",
-    "sourceId": "foreign-affairs",
-    "sourceName": "Foreign Affairs",
-    "title": "Liberalism Doomed the Liberal International Order",
-    "url": "https://www.foreignaffairs.com/united-states/liberalism-doomed-liberal-international-order",
-    "summary": "A less legalistic system would help protect democracies.",
-    "fullContent": "A less legalistic system would help protect democracies.",
-    "publishedAt": "2025-07-28T04:00:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.957Z",
-    "category": "policy",
-    "tags": [
-      "policy"
-    ],
-    "priority": "normal",
-    "contentHash": "14703596"
-  },
-  {
-    "id": "economist-finance-31c49629",
-    "sourceId": "economist-finance",
-    "sourceName": "Economist Finance",
-    "title": "",
-    "url": "https://www.economist.com/finance-and-economics/2025/07/28/europe-averts-its-trumpian-trade-nightmare",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-28T00:11:36.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.178Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "31c49629"
-  },
-  {
-    "id": "bloomberg-markets-e61019a6dc819c71",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Gold Holds Decline as US-EU Trade Deal Eases Some Haven Demand",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
-    "summary": "Gold steadied after the US and European Union announced they had reached a tariff agreement, staving off some concerns about a potentially painful trade war between the economies.",
-    "publishedAt": "2025-07-27T23:58:55+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.597925+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "e61019a6dc819c71"
-  },
-  {
-    "id": "bloomberg-markets-5be1dfd570ba6ff5",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Gold Steadies as Traders Weigh US-EU Trade Deal Ahead of the Fed",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
-    "summary": "Gold steadied after the US and European Union announced a tariff agreement, staving off some concern about a potentially painful trade war between the economies.",
-    "publishedAt": "2025-07-27T23:58:55+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.099339+00:00",
-    "category": "markets",
-    "tags": [
-      "Commodities",
-      "Markets",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "5be1dfd570ba6ff5"
-  },
-  {
-    "id": "bloomberg-markets-cf382b52df2c6b78",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Gold Steadies as Markets Mull US-EU Deal Ahead of the Fed",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
-    "summary": "Gold wavered after the US and European Union announced a tariff agreement, staving off some concern about a potentially painful trade war between the economies.",
-    "publishedAt": "2025-07-27T23:58:55+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.018836+00:00",
-    "category": "markets",
-    "tags": [
-      "Commodities",
-      "M&A",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "cf382b52df2c6b78"
-  },
-  {
-    "id": "et-markets-25bfe393a66891f5",
-    "sourceId": "et-markets",
-    "sourceName": "Economic Times",
-    "title": "Why 60% of NSE 500 stocks remain below their 2024 highs",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-60-of-nse-500-stocks-remain-below-their-2024-highs/articleshow/122941990.cms",
-    "summary": "Despite a recent market rebound, many stocks are still below their 2024 highs. An ETIG study reveals that a significant portion of NSE 500 stocks remain considerably lower than their peak values. Analysts suggest these stocks may struggle to reach previous highs due to valuation concerns and limited earnings growth prospects.",
-    "publishedAt": "2025-07-27T23:54:32+00:00",
-    "fetchedAt": "2025-07-28T03:50:55.474095+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "25bfe393a66891f5"
-  },
-  {
-    "id": "bbc-business-8cdfb01e3616654a",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "The Caribbean islands that give you a passport if you buy a home",
-    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo",
-    "summary": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
-    "publishedAt": "2025-07-27T23:46:06+00:00",
-    "fetchedAt": "2025-07-28T08:47:55.135459+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "8cdfb01e3616654a"
-  },
-  {
-    "id": "bbc-business-f594ce0ab1abf4ad",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "The Caribbean islands that give you a passport if you buy a home",
-    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo?at_medium=RSS&at_campaign=rss",
-    "summary": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
-    "fullContent": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
-    "publishedAt": "2025-07-27T23:46:06+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.661208+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f594ce0ab1abf4ad"
   }
 ]

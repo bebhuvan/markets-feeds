@@ -1,5 +1,168 @@
 [
   {
+    "id": "bse-notices-5cc8f4caa6b2234c",
+    "sourceId": "bse-notices",
+    "sourceName": "BSE Notices",
+    "title": "Non-Competitive Bidding for Auction of State Government Securities (SDL) on July 29, 2025",
+    "url": "https://www.bseindia.com/markets/MarketInfo/DispNoticesNCirculars.aspx?Noticeid={F42B5100-5C4B-4BC3-A535-CAD833670556}&noticeno=20250727-1&dt=07/27/2025&icount=1&totcount=2&flag=0",
+    "summary": "",
+    "publishedAt": "2025-07-27T12:17:39+00:00",
+    "fetchedAt": "2025-07-28T04:46:42.736115+00:00",
+    "category": "filings",
+    "tags": [
+      "Filings"
+    ],
+    "priority": "normal",
+    "contentHash": "5cc8f4caa6b2234c"
+  },
+  {
+    "id": "business-insider-cc8b92d71b6c34aa",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "I moved to Portland at 22. Now that I'm 30, I've outgrown so much of what I loved about the city.",
+    "url": "https://www.businessinsider.com/ready-to-leave-portland-outgrowing-city-in-30s-2025-7",
+    "summary": "I loved moving to Portland when I was 22. Now that I'm in my 30s, I feel ready to move to a city with new career opportunities and stronger community.",
+    "publishedAt": "2025-07-27T12:05:01+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.893238+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "cc8b92d71b6c34aa"
+  },
+  {
+    "id": "moontower-meta-74418ad2bd443983",
+    "sourceId": "moontower-meta",
+    "sourceName": "Moontower Meta",
+    "title": "kids make markets at moontower camp",
+    "url": "https://moontower.substack.com/p/kids-make-markets-at-moontower-camp",
+    "summary": "Moontower #277",
+    "publishedAt": "2025-07-27T12:03:15+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.669406+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "74418ad2bd443983"
+  },
+  {
+    "id": "advisor-perspectives-70d2c8a3baec7dbd",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "A Weaker Dollar? It May Be Time to Get Used to It",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/27/weaker-dollar-time-used-to-it?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "Policy shifts may create an incentive to diversify.",
+    "publishedAt": "2025-07-27T12:03:13+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.663043+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Currency"
+    ],
+    "priority": "high",
+    "contentHash": "70d2c8a3baec7dbd"
+  },
+  {
+    "id": "wired-13f52f847bfce9a2",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "TCL QM8K Review: The Best Mid-Tier TV",
+    "url": "https://www.wired.com/review/tcl-qm8k/",
+    "summary": "It doesn’t matter what you’re watching or where, this new mini LED TCL pushes the boundaries of budget beauty.",
+    "publishedAt": "2025-07-27T12:02:00+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.123295+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "13f52f847bfce9a2"
+  },
+  {
+    "id": "economist-finance-73a48f4b",
+    "sourceId": "economist-finance",
+    "sourceName": "Economist Finance",
+    "title": "",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/27/whos-feeling-the-pain-of-trumps-tariffs",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-27T10:53:20.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.178Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "73a48f4b"
+  },
+  {
+    "id": "paul-krugman-760a7551",
+    "sourceId": "paul-krugman",
+    "sourceName": "Paul Krugman",
+    "title": "",
+    "url": "https://paulkrugman.substack.com/p/understanding-interest-rate-policy",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-27T10:30:36.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.940Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "760a7551"
+  },
+  {
+    "id": "yahoo-finance-eb2a04c7af9da5bd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "SAP SE (SAP): “I Thought That Stock Would Be Down Much More,” Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/sap-se-sap-thought-stock-234722668.html",
+    "summary": "",
+    "publishedAt": "2025-07-26T23:47:22+00:00",
+    "fetchedAt": "2025-07-28T08:52:46.214674+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "eb2a04c7af9da5bd"
+  },
+  {
+    "id": "yahoo-finance-29d17aedfc526dbe",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "GE Vernova Inc. (GEV) Is The Only One With The Power, Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/ge-vernova-inc-gev-only-234704028.html",
+    "summary": "",
+    "publishedAt": "2025-07-26T23:47:04+00:00",
+    "fetchedAt": "2025-07-28T08:46:13.075913+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "29d17aedfc526dbe"
+  },
+  {
+    "id": "yahoo-finance-aa91b9f193a34751",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Capital One Financial Corporation (COF): CEO’s Going For A “Worldwide Card,” Says Jim Cramer",
+    "url": "https://finance.yahoo.com/news/capital-one-financial-corporation-cof-234644952.html",
+    "summary": "",
+    "publishedAt": "2025-07-26T23:46:44+00:00",
+    "fetchedAt": "2025-07-28T08:46:13.075860+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "aa91b9f193a34751"
+  },
+  {
     "id": "yahoo-finance-4a09636be9d3dcee",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -1467,171 +1630,5 @@
     ],
     "priority": "high",
     "contentHash": "4aec652518acea8c"
-  },
-  {
-    "id": "cnbc-markets-9617e2a2b3690cda",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Media trailblazer Tom Rogers changes ‘raging bull’ stance on Netflix, sees worrisome signs",
-    "url": "https://www.cnbc.com/2025/07/26/netflix-raging-bull-changes-stance-what-worries-media-mogul-rogers.html",
-    "summary": "Former NBC Cable President Tom Rogers is raising concerns about Netflix amid a competitive streaming environment.",
-    "publishedAt": "2025-07-26T15:22:33+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.265132+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "9617e2a2b3690cda"
-  },
-  {
-    "id": "dwarkesh-patel-youtube-4a07941360b3d541",
-    "sourceId": "dwarkesh-patel-youtube",
-    "sourceName": "Dwarkesh Patel",
-    "title": "Why Russia Was Defeated By A Smaller Japan – Sarah Paine",
-    "url": "https://www.youtube.com/watch?v=uUd28EGDNtE",
-    "summary": "Full Episode: https://www.youtube.com/watch?v=KxIeJjEGLdo After my last lecture series with Sarah Paine ended, I still had so many questions. I knew we’d only scratched the surface of Sarah’s scholarship, so I immediately invited her back for another series: she graciously agreed, and we’ll be releasing the results online over the coming weeks and months!",
-    "fullContent": "Full Episode: https://www.youtube.com/watch?v=KxIeJjEGLdo After my last lecture series with Sarah Paine ended, I still had so many questions. I knew we’d only scratched the surface of Sarah’s scholarship, so I immediately invited her back for another series: she graciously agreed, and we’ll be releasing the results online over the coming weeks and months!",
-    "publishedAt": "2025-07-26T15:09:52+00:00",
-    "fetchedAt": "2025-07-30T15:00:42.738605+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "4a07941360b3d541"
-  },
-  {
-    "id": "nyt-technology-647bda30cd216e9c",
-    "sourceId": "nyt-technology",
-    "sourceName": "NYT Technology",
-    "title": "What to Know About the Hack at Tea, an App Where Women Share Red Flags About Men",
-    "url": "https://www.nytimes.com/2025/07/26/us/tea-safety-dating-app-hack.html",
-    "summary": "A data breach exposed photos and ID cards of women who signed up for a fast-growing app for women to share details of men they might date.",
-    "publishedAt": "2025-07-26T15:03:33+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.508155+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "647bda30cd216e9c"
-  },
-  {
-    "id": "oil-price-d29aa21940bd06f0",
-    "sourceId": "oil-price",
-    "sourceName": "OilPrice.com",
-    "title": "Global Gas Flaring Surges to 17-Year High",
-    "url": "https://oilprice.com/Energy/Natural-Gas/Global-Gas-Flaring-Surges-to-17-Year-High.html",
-    "summary": "Despite big promises by oil majors to reduce gas flaring, the practice continues to be a major issue, contributing to high levels of greenhouse gas emissions. The International Energy Agency (IEA) and several state governments are aiming to achieve a global green transition, but decarbonising certain sectors, such as the oil industry, is proving extremely difficult. If gas flaring continues to take place, it could compromise the acceleration to green. Gas flaring is the burning of the natural gas associated with oil extraction. The practice has…",
-    "publishedAt": "2025-07-26T15:00:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.904911+00:00",
-    "category": "markets",
-    "tags": [
-      "ESG",
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "d29aa21940bd06f0"
-  },
-  {
-    "id": "jacobin-353f944b47b08fe7",
-    "sourceId": "jacobin",
-    "sourceName": "Jacobin",
-    "title": "Mohsen Mahdawi on His ICE Detention and Justice in Palestine",
-    "url": "https://jacobin.com/2025/07/mohsen-mahdawi-columbia-ice-palestine/",
-    "summary": "Since October 7, 2023, Mohsen Mahdawi has been central to the Columbia University protest movement against Israel’s bombardment, calling for a ceasefire, and advocating for nonviolent resistance. On April 14, he was kidnapped by ICE at an appointment to apply for US citizenship in Vermont. He was released on April 30, with Judge Geoffrey Crawford […]",
-    "publishedAt": "2025-07-26T14:56:49+00:00",
-    "fetchedAt": "2025-07-28T06:33:17.774844+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "353f944b47b08fe7"
-  },
-  {
-    "id": "wired-8215de2469c88e77",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Best Noise-Canceling Headphones: Sony, Bose, Apple, and More",
-    "url": "https://www.wired.com/gallery/best-noise-canceling-headphones/",
-    "summary": "Tune out (or rock out) with our favorite over-ears and earbuds.",
-    "publishedAt": "2025-07-26T14:03:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.123747+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "8215de2469c88e77"
-  },
-  {
-    "id": "woman-of-letters-e373215939cfb006",
-    "sourceId": "woman-of-letters",
-    "sourceName": "Woman of Letters",
-    "title": "Samuel Richardson Prize deadline is July 31 + open thread",
-    "url": "https://www.woman-of-letters.com/p/samuel-richardson-prize-deadline",
-    "summary": "The rules for the contest are here, but the summary is that entries to the Samuel Richardson Prize should be longer than 40,000 words, and they should’ve been self-published in the last five years and available to be purchased or read online.",
-    "publishedAt": "2025-07-26T14:01:43+00:00",
-    "fetchedAt": "2025-07-28T06:33:17.443067+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "e373215939cfb006"
-  },
-  {
-    "id": "the-verge-02831de717fb9dc0",
-    "sourceId": "the-verge",
-    "sourceName": "The Verge",
-    "title": "Here are the laptops I’d tell any parent to consider for their back-to-school student",
-    "url": "https://www.theverge.com/this-is-my-next/713373/best-laptops-for-students",
-    "summary": "We’re in the heart of summer fun, but it’s already time for back-to-school planning, especially if that involves buying a new laptop. The dizzying number of different laptops and configurations can feel overwhelming, especially if you want something that doesn’t cost too much but will still last a long time. My general guidelines are to […]",
-    "publishedAt": "2025-07-26T14:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.094055+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "02831de717fb9dc0"
-  },
-  {
-    "id": "wsj-world-news-845f5156b06d5203",
-    "sourceId": "wsj-world-news",
-    "sourceName": "WSJ World News",
-    "title": "A Cosmic Mystery: Is China Building the World’s Biggest Telescope?",
-    "url": "https://www.wsj.com/world/china/a-cosmic-mystery-is-china-building-the-worlds-biggest-telescope-d436cdef",
-    "summary": "Top American astronomers are hunting for clues about a 48-foot-wide scope that Beijing isn’t talking about.",
-    "fullContent": "Top American astronomers are hunting for clues about a 48-foot-wide scope that Beijing isn’t talking about.",
-    "publishedAt": "2025-07-26T14:00:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.076913+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "normal",
-    "contentHash": "845f5156b06d5203"
-  },
-  {
-    "id": "bbc-technology-f5a910d4df6a6744",
-    "sourceId": "bbc-technology",
-    "sourceName": "BBC Technology",
-    "title": "Hackers steal images from women's dating safety app that vets men",
-    "url": "https://www.bbc.com/news/articles/c7vl57n74pqo?at_medium=RSS&at_campaign=rss",
-    "summary": "Thousands of women registered with Tea have had their images illegally accessed, the US firm says.",
-    "fullContent": "Thousands of women registered with Tea have had their images illegally accessed, the US firm says.",
-    "publishedAt": "2025-07-26T13:58:47+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.564882+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "f5a910d4df6a6744"
   }
 ]

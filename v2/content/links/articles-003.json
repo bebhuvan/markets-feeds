@@ -1,5 +1,56 @@
 [
   {
+    "id": "nikkei-asia-3d36b0b9",
+    "sourceId": "nikkei-asia",
+    "sourceName": "Nikkei Asia",
+    "title": "",
+    "url": "https://asia.nikkei.com/business/automobiles/malaysia-s-quarterly-auto-sales-top-indonesia-s-for-1st-time",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:57:21.554Z",
+    "fetchedAt": "2025-08-04T06:57:21.554Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3d36b0b9"
+  },
+  {
+    "id": "nikkei-asia-6c1ff025",
+    "sourceId": "nikkei-asia",
+    "sourceName": "Nikkei Asia",
+    "title": "",
+    "url": "https://asia.nikkei.com/business/materials/thailand-s-siam-cement-to-adjust-asean-operations-after-tariffs",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:57:21.554Z",
+    "fetchedAt": "2025-08-04T06:57:21.554Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6c1ff025"
+  },
+  {
+    "id": "nikkei-asia-2a5d51bc",
+    "sourceId": "nikkei-asia",
+    "sourceName": "Nikkei Asia",
+    "title": "",
+    "url": "https://asia.nikkei.com/business/markets/japanese-stocks-slide-on-worries-over-us-economy-after-jobs-data",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:57:21.554Z",
+    "fetchedAt": "2025-08-04T06:57:21.555Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2a5d51bc"
+  },
+  {
     "id": "scmp-business-1666ba0d",
     "sourceId": "scmp-business",
     "sourceName": "SCMP Business",
@@ -17,6 +68,108 @@
     "contentHash": "1666ba0d"
   },
   {
+    "id": "seeking-alpha-6527dac1",
+    "sourceId": "seeking-alpha",
+    "sourceName": "Seeking Alpha",
+    "title": "ClearBridge International Value ADR Portfolios Q2 2025 Commentary",
+    "url": "https://seekingalpha.com/article/4808241-clearbridge-international-value-adr-portfolios-q2-2025-commentary?source=feed_all_articles",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:55:00.000Z",
+    "fetchedAt": "2025-08-04T07:05:46.189Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6527dac1"
+  },
+  {
+    "id": "seeking-alpha-5a2e286b",
+    "sourceId": "seeking-alpha",
+    "sourceName": "Seeking Alpha",
+    "title": "Oscar Health Ahead Of Q2: Brace For Strategic Reset",
+    "url": "https://seekingalpha.com/article/4808226-oscar-health-ahead-of-q2-brace-for-strategic-reset?source=feed_all_articles",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:54:37.000Z",
+    "fetchedAt": "2025-08-04T07:05:46.189Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5a2e286b"
+  },
+  {
+    "id": "et-markets-6eae231a",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times Markets",
+    "title": "",
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/highway-infrastructure-ipo-gmp-hints-at-57-listing-pop-ahead-of-issue-launch-check-key-dates-details-and-more/articleshow/123089011.cms",
+    "summary": "<![CDATA[Highway Infrastructure will open its Rs 130 crore IPO on Tuesday, August 5 and August 7. The offer includes a fresh equity component of 1.39 crore shares worth approximately Rs 97.52 crore, alongside an offer for sale (OFS) of 46 lakh shares by promoter shareholders, totalling Rs 32.48 cro",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:54:25.000Z",
+    "fetchedAt": "2025-08-04T07:05:45.245Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6eae231a"
+  },
+  {
+    "id": "bloomberg-markets-65ff2827",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/south-africa-to-boost-continental-trade-ties-as-us-tariffs-bite",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:53:34.000Z",
+    "fetchedAt": "2025-08-04T07:05:45.211Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "65ff2827"
+  },
+  {
+    "id": "bloomberg-economics-65ff2827",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/south-africa-to-boost-continental-trade-ties-as-us-tariffs-bite",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:53:34.000Z",
+    "fetchedAt": "2025-08-04T07:05:45.573Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "65ff2827"
+  },
+  {
+    "id": "bloomberg-politics-65ff2827",
+    "sourceId": "bloomberg-politics",
+    "sourceName": "Bloomberg Politics",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/south-africa-to-boost-continental-trade-ties-as-us-tariffs-bite",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:53:34.000Z",
+    "fetchedAt": "2025-08-04T07:05:45.579Z",
+    "category": "policy",
+    "tags": [
+      "policy"
+    ],
+    "priority": "normal",
+    "contentHash": "65ff2827"
+  },
+  {
     "id": "business-insider-1041ade5",
     "sourceId": "business-insider",
     "sourceName": "Business Insider",
@@ -32,6 +185,23 @@
     ],
     "priority": "normal",
     "contentHash": "1041ade5"
+  },
+  {
+    "id": "et-markets-736b40af",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times Markets",
+    "title": "",
+    "url": "https://economictimes.indiatimes.com/markets/expert-view/indian-markets-in-wait-and-watch-mode-amid-tariff-tensions-and-mpc-cues-chakri-lokapriya/articleshow/123089005.cms",
+    "summary": "<![CDATA[Chakri Lokapriya of LGT Wealth suggests a cautious approach to Indian IT, favoring large names like Infosys, TCS, and HCL Technologies. He sees potential in Delhivery's tech-driven logistics but anticipates a gradual improvement in the sector. While the RBI might hold rates this quarter, th",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:50:45.000Z",
+    "fetchedAt": "2025-08-04T07:05:45.245Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "736b40af"
   },
   {
     "id": "seeking-alpha-7ca92e84",
@@ -1528,175 +1698,5 @@
     ],
     "priority": "normal",
     "contentHash": "5ee358f2"
-  },
-  {
-    "id": "ft-markets-68ef7e23",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/2b554e86-a4a6-4361-8db6-04876528b02b",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:21.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "68ef7e23"
-  },
-  {
-    "id": "ft-economics-12c10a1d",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/349f84de-bff3-45b0-91d8-3d6636006e6f",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:21.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "12c10a1d"
-  },
-  {
-    "id": "ft-markets-3837efe6",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/3eded430-a854-44d6-9739-e8a350eae25f",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:11.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3837efe6"
-  },
-  {
-    "id": "ft-markets-3f3801c5",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/ea294f3a-b741-4cca-bee3-0f8c47b7c1ec",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:11.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3f3801c5"
-  },
-  {
-    "id": "ft-markets-569f42db",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/8a680ceb-256e-467e-bb7b-e163318a374c",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:11.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "569f42db"
-  },
-  {
-    "id": "ft-markets-13fd8b9e",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/4f3bb631-4069-4035-96eb-99acf6aaea5a",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:11.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "13fd8b9e"
-  },
-  {
-    "id": "ft-economics-750ac9eb",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/69da750e-6268-4bee-a5d6-64afde46db46",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:11.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "750ac9eb"
-  },
-  {
-    "id": "ft-economics-3415b1c9",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/5b94bd99-80be-4eb6-8979-b576743c8789",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:11.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "3415b1c9"
-  },
-  {
-    "id": "ft-economics-3f3801c5",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/ea294f3a-b741-4cca-bee3-0f8c47b7c1ec",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:11.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "3f3801c5"
-  },
-  {
-    "id": "ft-technology-23844bf0",
-    "sourceId": "ft-technology",
-    "sourceName": "FT Technology",
-    "title": "",
-    "url": "https://www.ft.com/content/04a83e0d-0128-4f59-9835-cb434a4257ec",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:11.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.846Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "23844bf0"
   }
 ]

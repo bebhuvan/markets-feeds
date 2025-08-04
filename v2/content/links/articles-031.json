@@ -1,5 +1,167 @@
 [
   {
+    "id": "ecfr-895359d773e9cc57",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "Decommission, not disarm: How Europe can help nudge Gaza toward peace",
+    "url": "https://ecfr.eu/article/decommission-not-disarm-how-europe-can-help-nudge-gaza-toward-peace/",
+    "summary": "As Israel and Hamas edge toward a ceasefire, shifts are under way in both: Hamas is quietly opening up to decommissioning and Israel’s security elite is realising military victory is a myth. European leaders have a rare chance to help shift the Gaza war from attrition to political resolution",
+    "publishedAt": "2025-07-21T09:35:42+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.186130+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "895359d773e9cc57"
+  },
+  {
+    "id": "doomberg-a6c248235d5443db",
+    "sourceId": "doomberg",
+    "sourceName": "Doomberg",
+    "title": "TPS Reports",
+    "url": "https://newsletter.doomberg.com/p/tps-reports",
+    "summary": "Own a sizeable company or sell to one? Get ready to start counting carbon for California.",
+    "publishedAt": "2025-07-21T09:02:13+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.642639+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "a6c248235d5443db"
+  },
+  {
+    "id": "ecb-press-32cdf0f97ae92cc4",
+    "sourceId": "ecb-press",
+    "sourceName": "European Central Bank",
+    "title": "Survey on the Access to Finance of Enterprises: firms report lower interest rates amid pressures arising from trade tensions",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250721~10dbeea4c7.en.html",
+    "summary": "",
+    "publishedAt": "2025-07-21T08:00:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.750748+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "high",
+    "contentHash": "32cdf0f97ae92cc4"
+  },
+  {
+    "id": "ecb-press-491158a",
+    "sourceId": "ecb-press",
+    "sourceName": "ECB Press",
+    "title": "Survey on the Access to Finance of Enterprises: firms report lower interest rates amid pressures arising from trade tensions",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250721~10dbeea4c7.en.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-21T08:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.826Z",
+    "category": "central-banking",
+    "tags": [
+      "central-banking"
+    ],
+    "priority": "normal",
+    "contentHash": "491158a"
+  },
+  {
+    "id": "cnbc-economy-be6c9890ae7b7362",
+    "sourceId": "cnbc-economy",
+    "sourceName": "CNBC Economy",
+    "title": "Brexit made businesses abandon the UK. Trump's hefty EU tariffs could bring them back",
+    "url": "https://www.cnbc.com/2025/07/21/brexit-made-firms-leave-the-uk-trumps-tariffs-could-bring-them-back.html",
+    "summary": "President Trump's threatened 30% tariffs on the EU might prompt some businesses to take another look at the U.K.",
+    "publishedAt": "2025-07-21T06:28:22+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.632227+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "be6c9890ae7b7362"
+  },
+  {
+    "id": "cnbc-economy-1328a2a7",
+    "sourceId": "cnbc-economy",
+    "sourceName": "CNBC Economy",
+    "title": "Brexit made businesses abandon the UK. Trump's hefty EU tariffs could bring them back",
+    "url": "https://www.cnbc.com/2025/07/21/brexit-made-firms-leave-the-uk-trumps-tariffs-could-bring-them-back.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-21T06:28:22.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.393Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "1328a2a7"
+  },
+  {
+    "id": "rohan-venkat-0b52ea0c16621593",
+    "sourceId": "rohan-venkat",
+    "sourceName": "Rohan Venkat",
+    "title": "Interview: Avinash Paliwal on India's 'Near East' and history rhyming in Bangladesh",
+    "url": "https://rohanvenkat.substack.com/p/interview-avinash-paliwal-on-indias",
+    "summary": "\"The place where debates in India about citizenship, state building, and statecraft truly happened were actually in the east.\"",
+    "publishedAt": "2025-07-21T05:01:33+00:00",
+    "fetchedAt": "2025-07-28T06:33:14.195027+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "0b52ea0c16621593"
+  },
+  {
+    "id": "grumpy-economist-3b1484d27c02191f",
+    "sourceId": "grumpy-economist",
+    "sourceName": "Grumpy Economist",
+    "title": "340B Shenanigans",
+    "url": "https://www.grumpy-economist.com/p/340b-shenanigans",
+    "summary": "Dan Snow at the Price Points Substack has a lovely deep dive into the 340B drug pricing program.",
+    "publishedAt": "2025-07-21T04:12:13+00:00",
+    "fetchedAt": "2025-07-28T06:38:29.357809+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "3b1484d27c02191f"
+  },
+  {
+    "id": "our-world-data-06eef5f3745d884e",
+    "sourceId": "our-world-data",
+    "sourceName": "Our World in Data",
+    "title": "The Demographic and Health Surveys brought crucial data for more than 90 countries — without them, we risk darkness",
+    "url": "https://ourworldindata.org/demographic-health-surveys-risk",
+    "summary": "Cuts to US aid could end the Demographic and Health Surveys. This would leave a massive gap in our understanding of global health, mortality, and development.",
+    "publishedAt": "2025-07-21T04:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.497205+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "06eef5f3745d884e"
+  },
+  {
+    "id": "foreign-affairs-06a83bbc012e8918",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "Making America Alone Again",
+    "url": "https://www.foreignaffairs.com/united-states/making-america-alone-again-alliances-margaret-macmillan",
+    "summary": "History offers few parallels for Washington’s repudiation of its own alliances.",
+    "publishedAt": "2025-07-21T04:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:49:27.487520+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "06a83bbc012e8918"
+  },
+  {
     "id": "foreign-affairs-6cfec157",
     "sourceId": "foreign-affairs",
     "sourceName": "Foreign Affairs",
@@ -1491,176 +1653,5 @@
     ],
     "priority": "high",
     "contentHash": "0d961a05b4801f14"
-  },
-  {
-    "id": "stratechery-10f67450",
-    "sourceId": "stratechery",
-    "sourceName": "Stratechery",
-    "title": "2025.29: What It Takes to Change the Web",
-    "url": "https://stratechery.com/2025/what-it-takes-to-change-the-web/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-18T15:14:47.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.015Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "10f67450"
-  },
-  {
-    "id": "bbc-technology-dbe2396ffaef1838",
-    "sourceId": "bbc-technology",
-    "sourceName": "BBC Technology",
-    "title": "The floating robot collecting rubbish in our waterways",
-    "url": "https://www.bbc.com/news/videos/cn5kn3dln3ko?at_medium=RSS&at_campaign=rss",
-    "summary": "Tech Now meets the team behind WasteShark - can it help tackle marine plastic pollution?",
-    "fullContent": "Tech Now meets the team behind WasteShark - can it help tackle marine plastic pollution?",
-    "publishedAt": "2025-07-18T15:12:08+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.576516+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology",
-      "Tech"
-    ],
-    "priority": "normal",
-    "contentHash": "dbe2396ffaef1838"
-  },
-  {
-    "id": "bbc-business-1321bea2",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "",
-    "url": "https://www.bbc.com/news/videos/c80pnjmlp53o?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-18T15:08:15.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.137Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1321bea2"
-  },
-  {
-    "id": "quanta-magazine-e77a764eab5a3435",
-    "sourceId": "quanta-magazine",
-    "sourceName": "Quanta Magazine",
-    "title": "How Distillation Makes AI Models Smaller and Cheaper",
-    "url": "https://www.quantamagazine.org/how-distillation-makes-ai-models-smaller-and-cheaper-20250718/",
-    "summary": "Fundamental technique lets researchers use a big, expensive “teacher” model to train a “student” model for less. The post How Distillation Makes AI Models Smaller and Cheaper first appeared on Quanta Magazine",
-    "publishedAt": "2025-07-18T14:50:08+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.477535+00:00",
-    "category": "non-money",
-    "tags": [
-      "AI",
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "e77a764eab5a3435"
-  },
-  {
-    "id": "dwarkesh-patel-youtube-dc4a21ddf954ebc5",
-    "sourceId": "dwarkesh-patel-youtube",
-    "sourceName": "Dwarkesh Patel",
-    "title": "The Left's 100 Year Long Civil War",
-    "url": "https://www.youtube.com/watch?v=4nvGFWyX2zk",
-    "summary": "Kotkin is arguably the world’s foremost expert on Joseph Stalin and has written a massive 2-volume biography of Stalin (with a 3rd volume in the works). Full Episode: https://youtu.be/YMfd3EoHfPI Me on Twitter: https://x.com/dwarkesh_sp",
-    "fullContent": "Kotkin is arguably the world’s foremost expert on Joseph Stalin and has written a massive 2-volume biography of Stalin (with a 3rd volume in the works). Full Episode: https://youtu.be/YMfd3EoHfPI Me on Twitter: https://x.com/dwarkesh_sp",
-    "publishedAt": "2025-07-18T14:25:31+00:00",
-    "fetchedAt": "2025-07-30T15:00:42.741465+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "normal",
-    "contentHash": "dc4a21ddf954ebc5"
-  },
-  {
-    "id": "bonddad-f559d5fbf0614f56",
-    "sourceId": "bonddad",
-    "sourceName": "The Bonddad Blog",
-    "title": "Housing construction continues to look recessionary",
-    "url": "https://bonddad.blogspot.com/2025/07/housing-construction-continues-to-look.html",
-    "summary": "- by New Deal democrat﻿As we get towards the end of the month, the data from the important leading housing sector begins to be reported. This morning’s report on housing permits, starts, and construction continues the trend that has been in place for several years.For the month, permits (gold in the graph below) increased 3,000 to 1.397 annualized, while the more noisy starts (blue) increased 58,000 to 1.321 annualized. But both of these are still very close to their post-pandemic lows. But the metric that is the least noisy of all and conveys the most signal, single family starts (red), decreased 33,000 to 866,000 annualized:In the above graph, I normalized permits and single family permits to 100 as of their post-pandemic peaks. I did the same for starts, but used their peak three month average. Starts are down 23.9% from their peak, permits 27.2%, and single family permits 30.3%. Is this sufficient to be recessionary? Here’s the historical pre-pandemic absolute levels of all three o",
-    "publishedAt": "2025-07-18T14:12:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.818041+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "M&A",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "f559d5fbf0614f56"
-  },
-  {
-    "id": "wsj-markets-main-b060cc471a6c0eeb",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Why Banks Are on High Alert About Stablecoins",
-    "url": "https://www.wsj.com/finance/currencies/why-banks-are-on-high-alert-about-stablecoins-2f308aa0?mod=rss_markets_main",
-    "summary": "Banks fear the tokens could siphon deposits they use to fund loans to companies and consumers.",
-    "fullContent": "Banks fear the tokens could siphon deposits they use to fund loans to companies and consumers.",
-    "publishedAt": "2025-07-18T13:52:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.205365+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "breaking",
-    "contentHash": "b060cc471a6c0eeb"
-  },
-  {
-    "id": "brad-delong-57a54f0a5c2aedfc",
-    "sourceId": "brad-delong",
-    "sourceName": "Brad DeLong",
-    "title": "Central Banking in the Age of Chaos-Monkey Tariff Threats: It Would Not Be That Hard for Fed Governor Chris Waller to Do His Job Professionally",
-    "url": "https://braddelong.substack.com/p/central-banking-in-the-age-of-chaos",
-    "summary": "& yet it seems to be beyond him to do that? I mean, the principal thing that even an obsequious Professional Republican economist should be doing right now is pushing Trump to end the tariff chaos...",
-    "publishedAt": "2025-07-18T12:53:56+00:00",
-    "fetchedAt": "2025-07-28T06:22:16.622569+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "57a54f0a5c2aedfc"
-  },
-  {
-    "id": "not-boring-b2ddc3d827933fa4",
-    "sourceId": "not-boring",
-    "sourceName": "Not Boring",
-    "title": "Weekly Dose of Optimism #153",
-    "url": "https://www.notboring.co/p/weekly-dose-of-optimism-153",
-    "summary": "Trump AI, Hyperion, Bedrock Robotics, IVF Threesome, GABA Labs, Reindustrialize, Floundering",
-    "publishedAt": "2025-07-18T12:42:17+00:00",
-    "fetchedAt": "2025-07-28T06:33:12.253242+00:00",
-    "category": "non-money",
-    "tags": [
-      "AI",
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "b2ddc3d827933fa4"
-  },
-  {
-    "id": "the-zvi-ad733f1458931857",
-    "sourceId": "the-zvi",
-    "sourceName": "The Zvi",
-    "title": "On METR's AI Coding RCT",
-    "url": "https://thezvi.substack.com/p/on-metrs-ai-coding-rct",
-    "summary": "METR ran a proper RCT experiment seeing how much access to Cursor (using Sonnet 3.7) would accelerate coders working on their own open source repos.",
-    "publishedAt": "2025-07-18T12:30:34+00:00",
-    "fetchedAt": "2025-07-28T06:22:19.228033+00:00",
-    "category": "non-money",
-    "tags": [
-      "AI",
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "ad733f1458931857"
   }
 ]

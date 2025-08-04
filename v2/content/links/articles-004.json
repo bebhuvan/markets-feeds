@@ -1,5 +1,175 @@
 [
   {
+    "id": "ft-markets-68ef7e23",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/2b554e86-a4a6-4361-8db6-04876528b02b",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:21.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "68ef7e23"
+  },
+  {
+    "id": "ft-economics-12c10a1d",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "",
+    "url": "https://www.ft.com/content/349f84de-bff3-45b0-91d8-3d6636006e6f",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:21.000Z",
+    "fetchedAt": "2025-08-04T06:57:30.192Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "12c10a1d"
+  },
+  {
+    "id": "ft-markets-3837efe6",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/3eded430-a854-44d6-9739-e8a350eae25f",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:11.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3837efe6"
+  },
+  {
+    "id": "ft-markets-3f3801c5",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/ea294f3a-b741-4cca-bee3-0f8c47b7c1ec",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:11.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3f3801c5"
+  },
+  {
+    "id": "ft-markets-569f42db",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/8a680ceb-256e-467e-bb7b-e163318a374c",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:11.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "569f42db"
+  },
+  {
+    "id": "ft-markets-13fd8b9e",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/4f3bb631-4069-4035-96eb-99acf6aaea5a",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:11.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "13fd8b9e"
+  },
+  {
+    "id": "ft-economics-750ac9eb",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "",
+    "url": "https://www.ft.com/content/69da750e-6268-4bee-a5d6-64afde46db46",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:11.000Z",
+    "fetchedAt": "2025-08-04T06:57:30.192Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "750ac9eb"
+  },
+  {
+    "id": "ft-economics-3415b1c9",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "",
+    "url": "https://www.ft.com/content/5b94bd99-80be-4eb6-8979-b576743c8789",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:11.000Z",
+    "fetchedAt": "2025-08-04T06:57:30.192Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "3415b1c9"
+  },
+  {
+    "id": "ft-economics-3f3801c5",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "",
+    "url": "https://www.ft.com/content/ea294f3a-b741-4cca-bee3-0f8c47b7c1ec",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:11.000Z",
+    "fetchedAt": "2025-08-04T06:57:30.192Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "3f3801c5"
+  },
+  {
+    "id": "ft-technology-23844bf0",
+    "sourceId": "ft-technology",
+    "sourceName": "FT Technology",
+    "title": "",
+    "url": "https://www.ft.com/content/04a83e0d-0128-4f59-9835-cb434a4257ec",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:11.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.846Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "23844bf0"
+  },
+  {
     "id": "nyt-business-2e4d3911",
     "sourceId": "nyt-business",
     "sourceName": "NYT Business",
@@ -1528,175 +1698,5 @@
     ],
     "priority": "normal",
     "contentHash": "204eda01"
-  },
-  {
-    "id": "bloomberg-markets-2d4071f",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-03/japan-s-stocks-set-to-drop-after-us-data-spark-growth-worries",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-03T22:18:47.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.240Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2d4071f"
-  },
-  {
-    "id": "zerohedge-5c1acd27",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Super PAC Targeting Massie Funded By Three Israel-Backing Billionaires",
-    "url": "https://www.zerohedge.com/political/super-pac-targeting-massie-funded-three-israel-backing-billionaires",
-    "summary": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Super PAC Targeting Massie Funded By Three Israel-Backing Billionaires</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-",
-    "fullContent": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Super PAC Targeting Massie Funded By Three Israel-Backing Billionaires</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Though it sports a Kentucky- and MAGA-branded name, <strong>the new Super PAC launched solely to support a primary challenge against popular Republican Congressman Thomas Massie is funded entirely by three Israel-backing billionaires</strong> from Nevada, New York and Florida, according to disclosure filings posted on Thursday. </p> <p>The super PAC was <a href=\"https://www.zerohedge.com/political/trump-team-launches-superpac-focused-solely-ousting-massie\">launched in June</a>, just days after President Trump threw a <a href=\"https://x.com/RepThomasMassie/status/1936952561489379560\">social media tantrum</a> over Massie's condemnation of Trump's commitment of US forces to Israel's war on Iran. <strong>Massie has long been a thorn in Trump's side</strong> on domestic issues too, from opposing<strong> </strong>the $2 trillion, Trump-backed Covid-19 \"relief package\" in 2020 to voting against this year's Big Beautiful Bill. However, <strong>Massie's opposition to US involvement in Israel's war seemed to have been the last straw</strong>. Trump assigned his top political operatives Tony Fabrizio and Chris LaCivita to start and run the super PAC. LaCivita told <a href=\"https://www.axios.com/2025/06/22/trump-massie-congress-2026\"><em>Axios</em></a> the entity will spend \"whatever it takes\" to oust Massie.</p> <a data-image-external-href=\"\" data-image-href=\"/s3/files/inline-images/2173361018.jpg?itok=miLxzusT\" data-link-option=\"0\" href=\"https://cms.zerohedge.com/s3/files/inline-images/2173361018.jpg?itok=miLxzusT\"><picture><figure role=\"group\" class=\"caption caption-img inline-images image-style-inline-images\"><img alt=\"\" data-entity-type=\"file\" data-entity-uuid=\"e3d8bcdc-2816-4fca-b2c2-cdfadc467f6e\" data-responsive-image-style=\"inline_images\" height=\"281\" src=\"https://assets.zerohedge.com/s3fs-public/styles/inline_image_mobile/public/inline-images/2173361018.jpg?itok=miLxzusT\" typeof=\"foaf:Image\" width=\"500\" /><figcaption><strong>Miriam Adelson is one of three Israel-backing billionaires funding an effort to oust Rep. Thomas Massie</strong> (Getty via <a href=\"https://www.newarab.com/news/israeli-us-billionaire-adelson-gives-100m-trump-campaign\"><em>The New Arab</em></a>)</figcaption></figure></picture></a> <p>The PAC's only <strong>three donors have two things in common:</strong> they're billionaires, and they're ardent supporters of Israel. According to the PAC's first <a href=\"https://docquery.fec.gov/cgi-bin/forms/C00908723/1909602/sa/ALL\">funding disclosure</a> filed with the Federal Election Commission on Thursday, it has received: </p> <ul><li> <p>$1 million from New Yorker hedge fund manager <strong>Paul Singer, </strong>who has also funded a Israel-favoring US <a href=\"https://mondoweiss.net/2018/08/yorker-profile-neoconservative/\">think tank</a> and other pro-Israel organizations, and urged Trump to <a href=\"https://lobelog.com/three-billionaires-paved-way-for-trumps-iran-deal-withdrawal/\">withdraw</a> from the Iran nuclear deal </p> </li> <li> <p>$250,000 from Floridian hedge fund manager <strong>John Paulson</strong></p> </li> <li> <p>$750,000 from the Preserve America Super PAC, which has also been led by La Civita and primarily funded by Nevadan <strong>Miriam Adelson</strong> and earlier, her late husband <strong>Sheldon Adelson</strong></p> </li> </ul><blockquote class=\"twitter-tweet\"> <p dir=\"ltr\" lang=\"en\" xml:lang=\"en\" xml:lang=\"en\">Three billionaires from New York City and Las Vegas have funded a superPAC deceptively named Kentucky MAGA to run millions of dollars of negative ads against me because I vote against foreign aid for Israel and needless wars in the Middle East. Kentuckians aren’t falling for it. <a href=\"https://t.co/YuNYKWa7Oy\">https://t.co/YuNYKWa7Oy</a></p> — Thomas Massie (@RepThomasMassie) <a href=\"https://twitter.com/RepThomasMassie/status/1951349732699259055?ref_src=twsrc%5Etfw\">August 1, 2025</a></blockquote> <script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script><p>The PAC is called \"MAGA Kentucky,\" a name that's misleading on two levels. Not only are its funders not Kentuckians, <strong>their principal motive for destroying Massie is his opposition to US bankrolling of Israel and participation in its wars.</strong> That is anything but a MAGA motive. As Trump recently told a prominent Jewish donor, <a href=\"https://www.ft.com/content/8d703b13-eefb-448d-933d-fa70e8e2dc78\">\"My people are starting to hate Israel.”</a> </p> <p><strong>MAGA Kentucky has already started running misleading attack ads</strong> that cherry-pick items from the sprawling Big Beautiful Bill and accuse Massie of voting \"against\" them, and also accuse him of \"siding\" with Iran's ayatollah: </p> <blockquote class=\"twitter-tweet\"> <p dir=\"ltr\" lang=\"en\" xml:lang=\"en\" xml:lang=\"en\">“Massie sided with Democrats and the Ayatollah.”<br /><br /> President Trump’s anti-Thomas Massie SuperPAC is out with its first ad against the Kentucky Congressman. <a href=\"https://t.co/OwpfP3P6ql\">pic.twitter.com/OwpfP3P6ql</a></p> — Yashar Ali 🐘 (@yashar) <a href=\"https://twitter.com/yashar/status/1938386672120631616?ref_src=twsrc%5Etfw\">June 26, 2025</a></blockquote> <script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script><p>In addition to opposing aid to Israel, <strong>Massie has also voted against legislation designed to stop Americans from criticizing Israel.</strong> The Antisemitism Awareness Act would use an <a href=\"zerohedge.com/political/pro-israel-pac-guns-massie-who-says-speaker-johnson-may-have-encouraged-attack\">expansive definition of antisemitism</a> to expose universities to federal enforcement action if students voiced opposition to Zionism -- a political philosophy -- or compared the actions of Israel's government to those of Nazi Germany. </p> <p>In April, <strong>Massie <a href=\"https://www.zerohedge.com/political/massie-bill-demands-federal-candidates-disclose-dual-citizenship#google_vignette\">introduced</a> the Dual Loyalty Disclosure Act</strong>, which would require candidates for federal office to disclose any non-American citizenships they hold. Advocates of Israel swiftly accused him of antisemitism, but Massie said his measure doesn't target any specific country. \"We swear an oath to the Constitution, and the question is, if you're a citizen of two countries, which oath are you taking more seriously, or can you take them both seriously?\" Massie <a href=\"https://www.foxnews.com/politics/massie-several-gop-colleagues-push-proposal-require-dual-citizenship-disclosure-political-candidates\">asked</a> <em>Fox's</em> Will Cain. </p> <blockquote class=\"twitter-tweet\"> <p dir=\"ltr\" lang=\"en\" xml:lang=\"en\" xml:lang=\"en\">The swamp spent $1.8 million on attack ads against me. Here’s my first commercial to respond. We bought $129,000 of these ads in KY. Please help me buy more by donating at this link: <a href=\"https://t.co/AgJY01IWPL\">https://t.co/AgJY01IWPL</a> <a href=\"https://t.co/XfZQj2hh8x\">pic.twitter.com/XfZQj2hh8x</a></p> — Thomas Massie for Congress (@MassieforKY) <a href=\"https://twitter.com/MassieforKY/status/1948178977165656435?ref_src=twsrc%5Etfw\">July 24, 2025</a></blockquote> <script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script><p>First elected to Congress in 2012 and consistently advocating for fiscal discipline, the right of armed self-defense, and a non-interventionist foreign policy, <strong>Massie has built a large and loyal national following among the libertarian right and other conservatives</strong>, with many regarding him as the congressional successor to the iconic Ron Paul. In his latest aggravation of Trump and House Speaker Mike Johnson, <strong>Massie is leading the drive to compel the release of Epstein investigative files. </strong>He has introduced a discharge petition that's predicted to secure enough signatures to force a vote on the <a href=\"https://massie.house.gov/uploadedfiles/efta.pdf\"><em>Epstein Files Transparency Act</em></a> (EFTA <a href=\"https://www.congress.gov/bill/119th-congress/house-resolution/581/text\">H.Res. 581</a>)<i>, </i>which he introduced with Democratic California Rep. Ro Khanna. </p> <p>With Georgia GOP Rep Marjorie Taylor <a href=\"https://www.zerohedge.com/geopolitical/mtg-moves-strike-half-billion-military-aid-nuclear-armed-israel\">Greene recently introducing an amendment to remove military aid to Israel</a> from the defense bill, and <a href=\"https://www.nytimes.com/2025/07/29/us/politics/marjorie-taylor-greene-gaza-genocide.html\">accusing Israel of committing genocide</a> in Gaza, <strong>don't be surprised to see a \"MAGA Georgia\" PAC</strong> created to oust her, too -- funded by a similar cast of Israel-first characters. In the meantime, the drive to take out Massie is having unintended consequences: </p> <blockquote class=\"twitter-tweet\"> <p dir=\"ltr\" lang=\"en\" xml:lang=\"en\" xml:lang=\"en\">I just made my first donation to a politician in my entire life. Of course it was to <a href=\"https://twitter.com/RepThomasMassie?ref_src=twsrc%5Etfw\">@RepThomasMassie</a>. I urge EVERYONE to do likewise! <a href=\"https://t.co/9Va4l9TyHg\">https://t.co/9Va4l9TyHg</a> <a href=\"https://t.co/izrLICaXpv\">pic.twitter.com/izrLICaXpv</a></p> — Daniel McAdams (@DanielLMcAdams) <a href=\"https://twitter.com/DanielLMcAdams/status/1939760073099944235?ref_src=twsrc%5Etfw\">June 30, 2025</a></blockquote> <script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script><blockquote class=\"twitter-tweet\" data-conversation=\"none\"> <p dir=\"ltr\" lang=\"en\" xml:lang=\"en\" xml:lang=\"en\">I just donated, and I do this every time I see the fake conservatives attacking Rep. Thomas Massie <a href=\"https://twitter.com/MassieforKY?ref_src=twsrc%5Etfw\">@MassieforKY</a>, who is the real constitutional conservative in the House. <a href=\"https://t.co/9hf84vYAaE\">pic.twitter.com/9hf84vYAaE</a></p> — Scott Boykin (@scottaboykin) <a href=\"https://twitter.com/scottaboykin/status/1951291279821713802?ref_src=twsrc%5Etfw\">August 1, 2025</a></blockquote> <script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script></div> <span rel=\"schema:author\" class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><a title=\"View user profile.\" href=\"https://cms.zerohedge.com/users/tyler-durden\" lang=\"\" about=\"https://cms.zerohedge.com/users/tyler-durden\" typeof=\"schema:Person\" property=\"schema:name\" datatype=\"\" class=\"username\" xml:lang=\"\">Tyler Durden</a></span> <span property=\"schema:dateCreated\" content=\"2025-08-03T22:05:00+00:00\" class=\"field field--name-created field--type-created field--label-hidden\">Sun, 08/03/2025 - 18:05</span>",
-    "publishedAt": "2025-08-03T22:05:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.237Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5c1acd27"
-  },
-  {
-    "id": "bloomberg-markets-33e8cf2",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-03/latest-oil-market-news-and-analysis-for-aug-4",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-03T22:04:21.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.240Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "33e8cf2"
-  },
-  {
-    "id": "bloomberg-politics-361f3d73",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-03/uk-pledges-extra-100-million-to-tackle-people-smuggling-gangs",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-03T21:30:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.570Z",
-    "category": "policy",
-    "tags": [
-      "policy"
-    ],
-    "priority": "normal",
-    "contentHash": "361f3d73"
-  },
-  {
-    "id": "marketwatch-75b5a029",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "Here&#x2019;s what&#x2019;s worth streaming in August 2025 on Netflix, Hulu, HBO Max, Disney+ and more",
-    "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-august-2025-on-netflix-hulu-hbo-max-disney-and-more-2654312a?mod=mw_rss_topstories",
-    "summary": "&#x2018;Wednesday&#x2019; and &#x2018;Peacemaker&#x2019; return, while &#x2018;Alien: Earth&#x2019; lands and &#x2018;King of the Hill&#x2019; gets revived",
-    "fullContent": "&#x2018;Wednesday&#x2019; and &#x2018;Peacemaker&#x2019; return, while &#x2018;Alien: Earth&#x2019; lands and &#x2018;King of the Hill&#x2019; gets revived",
-    "publishedAt": "2025-08-03T21:21:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.463Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "75b5a029"
-  },
-  {
-    "id": "cnbc-markets-65fc0fa9",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "'The revisions are hard evidence': White House struggles to justify firing of BLS chief over weak jobs numbers",
-    "url": "https://www.cnbc.com/2025/08/03/white-house-trump-bls-chief-firing.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-03T21:02:37.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.495Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "65fc0fa9"
-  },
-  {
-    "id": "bloomberg-economics-52ada228",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/features/2025-08-03/can-trump-lower-interest-rates-by-replacing-fed-s-powell",
-    "summary": "Higher rates are the result of far more than Fed decisions. Debt, demographics, and deglobalization are all driving the price of money up.]]>",
-    "fullContent": "Higher rates are the result of far more than Fed decisions. Debt, demographics, and deglobalization are all driving the price of money up.]]>",
-    "publishedAt": "2025-08-03T21:00:26.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.342Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "52ada228"
-  },
-  {
-    "id": "zerohedge-6bec46e1",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "\"Forecast Models Perk Up\": Atlantic Hurricane Season Enters Active Months",
-    "url": "https://www.zerohedge.com/weather/forecast-models-perk-atlantic-hurricane-season-enters-active-months",
-    "summary": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">\"Forecast Models Perk Up\": Atlantic Hurricane Season Enters Active Months</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--ty",
-    "fullContent": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">\"Forecast Models Perk Up\": Atlantic Hurricane Season Enters Active Months</span> <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Only three named storms (Andrea, Barry, and Chantal) have formed so far during this year's Atlantic hurricane season. While it's been quiet since hurricane season began on June 1, nearly 200 years of historical data suggest activity in the Atlantic Basin typically begins to ramp up around this time. </p> <p>The latest data from the National Hurricane Center shows an \"area of disturbance\" in the Atlantic Basin, with a 30% chance of forming over the next seven days. </p> <p><a data-image-external-href=\"\" data-image-href=\"/s3/files/inline-images/2025-08-03_12-37-36.png?itok=Su9iUUYs\" data-link-option=\"0\" href=\"https://cms.zerohedge.com/s3/files/inline-images/2025-08-03_12-37-36.png?itok=Su9iUUYs\"><picture><img data-entity-type=\"file\" data-entity-uuid=\"56871143-5bf2-4503-9673-3b104da1f972\" data-responsive-image-style=\"inline_images\" height=\"364\" width=\"500\" class=\"inline-images image-style-inline-images\" src=\"https://assets.zerohedge.com/s3fs-public/styles/inline_image_mobile/public/inline-images/2025-08-03_12-37-36.png?itok=Su9iUUYs\" alt=\"\" typeof=\"foaf:Image\" /></picture></a></p> <p>WPIX-TV Channel 11 New York's Senior Meteorologist Mike Masco noted on X:</p> <blockquote class=\"twitter-tweet\"> <p dir=\"ltr\" lang=\"en\" xml:lang=\"en\" xml:lang=\"en\">TROPICAL ATLANTIC STARTING TO WAKE UP?<br /> Two area's of interest over the next 5-10 days.<br /> 1. The \"X\" in orange may get a name (because we love to name storms in the central Atlantic). Most of this stays east and well out to sea<br /> 2. The second area of interest is the yellow area. If… <a href=\"https://t.co/oCiu8juOvJ\">pic.twitter.com/oCiu8juOvJ</a></p> — Mike Masco (@MikeMasco) <a href=\"https://twitter.com/MikeMasco/status/1952038223238087106?ref_src=twsrc%5Etfw\">August 3, 2025</a></blockquote> <script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script><p>The system comes as Atlantic remains quiet for now, but seasonal data suggests this could soon all change...</p> <p><a data-image-external-href=\"\" data-image-href=\"/s3/files/inline-images/2025-08-03_12-37-17.png?itok=O_qLwKut\" data-link-option=\"0\" href=\"https://cms.zerohedge.com/s3/files/inline-images/2025-08-03_12-37-17.png?itok=O_qLwKut\"><picture><img data-entity-type=\"file\" data-entity-uuid=\"466cabf4-01e8-44eb-8d87-895fe0ff6d34\" data-responsive-image-style=\"inline_images\" height=\"272\" width=\"500\" class=\"inline-images image-style-inline-images\" src=\"https://assets.zerohedge.com/s3fs-public/styles/inline_image_mobile/public/inline-images/2025-08-03_12-37-17.png?itok=O_qLwKut\" alt=\"\" typeof=\"foaf:Image\" /></picture></a></p> <p>\"We're<strong> already seeing longer-range forecast models start to perk up,</strong>\" WPLG-TV hurricane expert Michael Lowry told USA Today in a recent interview, adding, \"<strong>The deep Atlantic tropical waves coming from Africa have been peppier this week, and July 24's long-range forecast models jumped from a generally quiet next 15 days to a much busier look for the first part of August</strong>.\"</p> <p>Hurricane experts generally agree that September 10 is the peak of the Atlantic hurricane season, with most of the storms expected from now to mid-September. The season runs <strong>through November 30</strong>.</p> <p>Looking ahead, Masco noted that it's time to start analyzing long-range forecasts for the Lower 48's upcoming winter season...</p> <blockquote class=\"twitter-tweet\"> <p dir=\"ltr\" lang=\"en\" xml:lang=\"en\" xml:lang=\"en\">IS THAT A NEGATIVE EPO HEADING INTO WINTER???<br /> Getting to that time of the year we start to look at the tea leaves for winter and it's ALWAYS a good sign to see the emergence of a sustained - EPO which pushes a colder pattern across the eastern USA. The bigger takeaway is a -EPO… <a href=\"https://t.co/pfWSPecehE\">pic.twitter.com/pfWSPecehE</a></p> — Mike Masco (@MikeMasco) <a href=\"https://twitter.com/MikeMasco/status/1951616081518321994?ref_src=twsrc%5Etfw\">August 2, 2025</a></blockquote> <script async=\"\" src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script><p>. . . </p> </div> <span rel=\"schema:author\" class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><a title=\"View user profile.\" href=\"https://cms.zerohedge.com/users/tyler-durden\" lang=\"\" about=\"https://cms.zerohedge.com/users/tyler-durden\" typeof=\"schema:Person\" property=\"schema:name\" datatype=\"\" class=\"username\" xml:lang=\"\">Tyler Durden</a></span> <span property=\"schema:dateCreated\" content=\"2025-08-03T20:55:00+00:00\" class=\"field field--name-created field--type-created field--label-hidden\">Sun, 08/03/2025 - 16:55</span>",
-    "publishedAt": "2025-08-03T20:55:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.237Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6bec46e1"
-  },
-  {
-    "id": "fortune-15c259e1",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Trump&#8217;s former jobs data chief decries firing of successor",
-    "url": "https://fortune.com/2025/08/03/trump-bls-chief-william-beach-jobs-report-revision-erika-mcentarfer/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-03T20:51:48.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.610Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "15c259e1"
-  },
-  {
-    "id": "fortune-77d701d5",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Iran&#8217;s currency has plunged so much in value that Tehran plans to chop off four zeros from the rial",
-    "url": "https://fortune.com/2025/08/03/iran-currency-value-us-dollar-rial-four-zeros/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-03T20:32:15.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.610Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "77d701d5"
   }
 ]
