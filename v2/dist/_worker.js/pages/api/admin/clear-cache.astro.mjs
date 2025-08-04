@@ -1,5 +1,5 @@
 globalThis.process ??= {}; globalThis.process.env ??= {};
-import { d as dataLoader } from '../../../chunks/data-loader_oNe7eG_G.mjs';
+import { d as dataLoader } from '../../../chunks/data-loader_C_xSJv18.mjs';
 import { i as ideasLoader } from '../../../chunks/ideas-loader_DKY5xBjU.mjs';
 export { renderers } from '../../../renderers.mjs';
 

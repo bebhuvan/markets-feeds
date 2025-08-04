@@ -1,1 +1,0 @@
-const r=document.querySelector(".search-form");r&&r.addEventListener("submit",e=>{const t=r.querySelector('input[name="q"]');t.value.trim()||(e.preventDefault(),t.focus())});const c=document.querySelectorAll(".filter-btn");c.forEach(e=>{e.addEventListener("click",()=>{const t=e.getAttribute("data-filter");e.classList.toggle("active"),console.log("Filter applied:",t)})});

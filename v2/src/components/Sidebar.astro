@@ -24,12 +24,12 @@ const topSources = Object.entries(sourceCounts)
   .sort(([, a], [, b]) => b - a)
   .slice(0, 8);
 
-// Quick filters
+// Quick filters - implement actual filtering logic
 const quickFilters = [
-  { id: 'breaking', label: '🔥 Breaking News', count: 12 },
-  { id: 'earnings', label: '📊 Earnings', count: 28 },
-  { id: 'fed', label: '🏛️ Fed News', count: 5 },
-  { id: 'crypto', label: '₿ Crypto', count: 15 }
+  { id: 'breaking', label: '🔥 Breaking News', keywords: ['breaking', 'urgent', 'alert', 'emergency'] },
+  { id: 'earnings', label: '📊 Earnings', keywords: ['earnings', 'quarterly', 'results', 'profit', 'revenue'] },
+  { id: 'fed', label: '🏛️ Fed News', keywords: ['federal reserve', 'fed', 'interest rates', 'monetary policy'] },
+  { id: 'crypto', label: '₿ Crypto', keywords: ['bitcoin', 'crypto', 'cryptocurrency', 'blockchain', 'ethereum'] }
 ];
 ---
 
@@ -68,9 +68,9 @@ const quickFilters = [
     <h3 class="sidebar-title">Quick Filters</h3>
     <div class="filter-buttons">
       {quickFilters.map(filter => (
-        <button class="filter-btn" data-filter={filter.id}>
+        <button class="filter-btn" data-filter={filter.id} data-keywords={filter.keywords.join(',')}>
           <span>{filter.label}</span>
-          <span class="filter-count">{filter.count}</span>
+          <span class="filter-count">0</span>
         </button>
       ))}
     </div>
@@ -91,25 +91,18 @@ const quickFilters = [
     </ul>
   </div>
 
-  <!-- Economic Calendar -->
+  <!-- Market Calendar -->
   <div class="sidebar-section">
     <h3 class="sidebar-title">This Week</h3>
-    <div class="calendar-events">
-      <div class="calendar-event">
-        <div class="event-date">Aug 2</div>
-        <div class="event-title">Jobs Report</div>
-        <div class="event-impact high">High Impact</div>
-      </div>
-      <div class="calendar-event">
-        <div class="event-date">Aug 5</div>
-        <div class="event-title">Fed Meeting</div>
-        <div class="event-impact medium">Medium</div>
-      </div>
-      <div class="calendar-event">
-        <div class="event-date">Aug 7</div>
-        <div class="event-title">CPI Data</div>
-        <div class="event-impact high">High Impact</div>
-      </div>
+    <div class="calendar-link-container">
+      <a href="https://zerodha.com/markets/calendar/" target="_blank" rel="noopener noreferrer" class="calendar-link">
+        <div class="calendar-icon">📅</div>
+        <div class="calendar-content">
+          <div class="calendar-title">Market Calendar</div>
+          <div class="calendar-subtitle">View upcoming market events & earnings</div>
+        </div>
+        <div class="external-icon">↗</div>
+      </a>
     </div>
   </div>
 </aside>
@@ -339,72 +332,140 @@ const quickFilters = [
     text-align: center;
   }
 
-  /* Economic Calendar */
-  .calendar-events {
+  /* Market Calendar Link */
+  .calendar-link-container {
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .calendar-link {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    align-items: center;
+    padding: 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    gap: 10px;
   }
 
-  .calendar-event {
-    padding: 8px;
-    background: #f8fafc;
-    border-radius: 5px;
-    border-left: 3px solid #e8ebed;
+  .calendar-link:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
 
-  .event-date {
-    font-size: 10px;
+  .calendar-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+
+  .calendar-content {
+    flex: 1;
+  }
+
+  .calendar-title {
+    font-size: 13px;
     font-weight: 600;
-    color: #9ca3af;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    color: #ffffff;
     margin-bottom: 2px;
   }
 
-  .event-title {
-    font-size: 12px;
-    font-weight: 500;
-    color: #2a2a2a;
-    margin-bottom: 4px;
+  .calendar-subtitle {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.3;
   }
 
-  .event-impact {
-    font-size: 10px;
-    font-weight: 500;
-    padding: 2px 6px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-  }
-
-  .event-impact.high {
-    color: #dc2626;
-    background: #fee2e2;
-  }
-
-  .event-impact.medium {
-    color: #d97706;
-    background: #fef3c7;
-  }
-
-  .event-impact.low {
-    color: #059669;
-    background: #d1fae5;
+  .external-icon {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    flex-shrink: 0;
   }
 </style>
 
 <script>
   // Filter functionality
   const filterButtons = document.querySelectorAll('.filter-btn');
+  const articles = document.querySelectorAll('.article');
+  
+  // Count matching articles and update filter counts on load
+  function updateFilterCounts() {
+    filterButtons.forEach(btn => {
+      const keywords = btn.getAttribute('data-keywords')?.split(',') || [];
+      const count = countMatchingArticles(keywords);
+      const countElement = btn.querySelector('.filter-count');
+      if (countElement) {
+        countElement.textContent = count.toString();
+      }
+    });
+  }
+  
+  function countMatchingArticles(keywords) {
+    let count = 0;
+    articles.forEach(article => {
+      const title = article.querySelector('.article-title')?.textContent?.toLowerCase() || '';
+      const excerpt = article.querySelector('.article-excerpt')?.textContent?.toLowerCase() || '';
+      const text = title + ' ' + excerpt;
+      
+      if (keywords.some(keyword => text.includes(keyword.toLowerCase()))) {
+        count++;
+      }
+    });
+    return count;
+  }
+  
+  function filterArticles(keywords, isActive) {
+    articles.forEach(article => {
+      const title = article.querySelector('.article-title')?.textContent?.toLowerCase() || '';
+      const excerpt = article.querySelector('.article-excerpt')?.textContent?.toLowerCase() || '';
+      const text = title + ' ' + excerpt;
+      
+      const matches = keywords.some(keyword => text.includes(keyword.toLowerCase()));
+      
+      if (isActive) {
+        // Show only matching articles
+        article.style.display = matches ? 'block' : 'none';
+      } else {
+        // Show all articles when filter is disabled
+        const anyFilterActive = document.querySelector('.filter-btn.active');
+        if (!anyFilterActive) {
+          article.style.display = 'block';
+        }
+      }
+    });
+  }
   
   filterButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      const filter = btn.getAttribute('data-filter');
-      btn.classList.toggle('active');
+      const keywords = btn.getAttribute('data-keywords')?.split(',') || [];
+      const isActive = btn.classList.toggle('active');
       
-      // Here you would implement the actual filtering logic
-      console.log('Filter applied:', filter);
+      // Remove active class from other filters for single-filter mode
+      filterButtons.forEach(otherBtn => {
+        if (otherBtn !== btn) {
+          otherBtn.classList.remove('active');
+        }
+      });
+      
+      // Apply filter
+      if (isActive) {
+        filterArticles(keywords, true);
+      } else {
+        // Show all articles when no filter is active
+        articles.forEach(article => {
+          article.style.display = 'block';
+        });
+      }
     });
+  });
+  
+  // Initialize filter counts when page loads
+  document.addEventListener('DOMContentLoaded', updateFilterCounts);
+  
+  // Update counts when articles are dynamically loaded
+  const observer = new MutationObserver(updateFilterCounts);
+  observer.observe(document.querySelector('.articles') || document.body, {
+    childList: true,
+    subtree: true
   });
 </script>

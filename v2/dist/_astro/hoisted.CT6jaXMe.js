@@ -1,1 +1,0 @@
-import"./hoisted.D20SHbgW.js";document.querySelectorAll(".filter-select").forEach(e=>{e.addEventListener("change",()=>{e.closest("form")?.submit()})});const t=document.querySelector(".search-input");if(t){let e;t.addEventListener("input",()=>{clearTimeout(e),e=setTimeout(()=>{},300)})}

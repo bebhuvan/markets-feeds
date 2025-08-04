@@ -1,7 +1,7 @@
 globalThis.process ??= {}; globalThis.process.env ??= {};
 import { c as createComponent, f as renderComponent, r as renderTemplate, m as maybeRenderHead, b as addAttribute } from '../../chunks/astro/server_a_q7el7H.mjs';
 import { $ as $$Layout } from '../../chunks/Layout_C7d_4Fi7.mjs';
-import { d as dataLoader } from '../../chunks/data-loader_oNe7eG_G.mjs';
+import { d as dataLoader } from '../../chunks/data-loader_C_xSJv18.mjs';
 import { C as CATEGORIES } from '../../chunks/categories_YOHYfcsb.mjs';
 /* empty css                                        */
 export { renderers } from '../../renderers.mjs';
