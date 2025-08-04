@@ -48,7 +48,7 @@
     {
       "id": "wsj_markets_main",
       "name": "WSJ Markets",
-      "url": "https://feeds.wsj.com/public/resources/MWI_NEWS_MARKETS",
+      "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain",
       "sourceId": "wsj-markets-main",
       "category": "markets",
       "fetchInterval": 30,
@@ -174,7 +174,7 @@
     {
       "id": "wsj_opinion",
       "name": "WSJ Opinion",
-      "url": "https://feeds.wsj.com/public/resources/MWI_OPINION",
+      "url": "https://feeds.content.dowjones.io/public/rss/RSSOpinion",
       "sourceId": "wsj-opinion",
       "category": "blogs",
       "fetchInterval": 120,
@@ -183,7 +183,7 @@
     {
       "id": "wsj_world_news",
       "name": "WSJ World News",
-      "url": "https://feeds.wsj.com/public/resources/MWI_WORLD_NEWS",
+      "url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
       "sourceId": "wsj-world-news",
       "category": "news",
       "fetchInterval": 60,
@@ -232,24 +232,6 @@
       "sourceId": "zerohedge",
       "category": "markets",
       "fetchInterval": 30,
-      "active": true
-    },
-    {
-      "id": "seeking_alpha",
-      "name": "Seeking Alpha",
-      "url": "https://seekingalpha.com/feed.xml",
-      "sourceId": "seeking-alpha",
-      "category": "markets",
-      "fetchInterval": 45,
-      "active": true
-    },
-    {
-      "id": "calculated_risk",
-      "name": "Calculated Risk",
-      "url": "https://www.calculatedriskblog.com/feeds/posts/default",
-      "sourceId": "calculated-risk",
-      "category": "macro",
-      "fetchInterval": 60,
       "active": true
     },
     {
@@ -361,11 +343,74 @@
       "active": true
     },
     {
+      "id": "nse_online_announcements",
+      "name": "NSE Online Announcements",
+      "url": "https://nsearchives.nseindia.com/content/RSS/Online_announcements.xml",
+      "sourceId": "nse-online-announcements",
+      "category": "filings",
+      "fetchInterval": 360,
+      "active": true
+    },
+    {
+      "id": "nse_annual_reports",
+      "name": "NSE Annual Reports",
+      "url": "https://nsearchives.nseindia.com/content/RSS/Annual_Reports.xml",
+      "sourceId": "nse-annual-reports",
+      "category": "filings",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "nse_corporate_action",
+      "name": "NSE Corporate Actions",
+      "url": "https://nsearchives.nseindia.com/content/RSS/Corporate_action.xml",
+      "sourceId": "nse-corporate-actions",
+      "category": "filings",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "nse_financial_results",
+      "name": "NSE Financial Results",
+      "url": "https://nsearchives.nseindia.com/content/RSS/Financial_Results.xml",
+      "sourceId": "nse-financial-results",
+      "category": "earnings",
+      "fetchInterval": 360,
+      "active": true
+    },
+    {
+      "id": "nse_offer_documents",
+      "name": "NSE Offer Documents",
+      "url": "https://nsearchives.nseindia.com/content/RSS/Offer_Documents.xml",
+      "sourceId": "nse-offer-documents",
+      "category": "filings",
+      "fetchInterval": 600,
+      "active": true
+    },
+    {
+      "id": "nse_circulars",
+      "name": "NSE Circulars",
+      "url": "https://nsearchives.nseindia.com/content/RSS/Circulars.xml",
+      "sourceId": "nse-circulars",
+      "category": "regulation",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "bse_notices",
+      "name": "BSE Notices",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnnouncementData/w",
+      "sourceId": "bse-notices",
+      "category": "filings",
+      "fetchInterval": 30,
+      "active": true
+    },
+    {
       "id": "sebi_news",
       "name": "SEBI News",
       "url": "https://www.sebi.gov.in/sebirss.xml",
       "sourceId": "sebi-news",
-      "category": "regulation",
+      "category": "filings",
       "fetchInterval": 60,
       "active": true
     },
@@ -496,13 +541,989 @@
       "active": false
     },
     {
+      "id": "youtube_soic_finance",
+      "name": "SOIC Finance YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0AQrC3gYBVLqIGBOvKprKg",
+      "sourceId": "soic-finance-youtube",
+      "category": "videos",
+      "fetchInterval": 120,
+      "active": true
+    },
+    {
       "id": "youtube_cnbc_tv18",
       "name": "CNBC TV18 YouTube",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo7a6riBNG8-Xw_6umQH4ng",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPP3etACgdUWvizcES1dJ8Q",
       "sourceId": "cnbc-tv18-youtube",
       "category": "videos",
       "fetchInterval": 60,
+      "active": true
+    },
+    {
+      "id": "youtube_ndtv_profit",
+      "name": "NDTV Profit YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXBD5iG5cr4ZYZ99K-fmDHg",
+      "sourceId": "ndtv-profit-youtube",
+      "category": "videos",
+      "fetchInterval": 60,
+      "active": true
+    },
+    {
+      "id": "youtube_bloomberg_business",
+      "name": "Bloomberg Business YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg",
+      "sourceId": "bloomberg-business-youtube",
+      "category": "videos",
+      "fetchInterval": 60,
+      "active": true
+    },
+    {
+      "id": "youtube_aswath_damodaran",
+      "name": "Aswath Damodaran YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLvnJL8htRR1T9cbSccaoVw",
+      "sourceId": "aswath-damodaran-youtube",
+      "category": "videos",
+      "fetchInterval": 180,
+      "active": true
+    },
+    {
+      "id": "youtube_ppfas_mf",
+      "name": "PPFAS Mutual Fund YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmDkUXGj6xVXl4169HqeS1w",
+      "sourceId": "ppfas-mf-youtube",
+      "category": "videos",
+      "fetchInterval": 240,
+      "active": true
+    },
+    {
+      "id": "youtube_dwarkesh_patel",
+      "name": "Dwarkesh Patel YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZa18YV7qayTh-MRIrBhDpA",
+      "sourceId": "dwarkesh-patel-youtube",
+      "category": "videos",
+      "fetchInterval": 180,
+      "active": true
+    },
+    {
+      "id": "youtube_trendlyne",
+      "name": "Trendlyne YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCznm57tnYpUpc2q2FmO3R3Q",
+      "sourceId": "trendlyne-youtube",
+      "category": "videos",
+      "fetchInterval": 120,
+      "active": true
+    },
+    {
+      "id": "youtube_novara_media",
+      "name": "Novara Media YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaVeJErxKLqNi1osok9H7MQ",
+      "sourceId": "novara-media-youtube",
+      "category": "videos",
+      "fetchInterval": 180,
+      "active": true
+    },
+    {
+      "id": "youtube_wsj",
+      "name": "WSJ YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMliswJ7oukCeW35GSayhRA",
+      "sourceId": "wsj-youtube",
+      "category": "videos",
+      "fetchInterval": 60,
+      "active": true
+    },
+    {
+      "id": "youtube_norges_bank",
+      "name": "Norges Bank Investment YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRhQsN8AVIfZuBNeRV1A37w",
+      "sourceId": "norges-bank-youtube",
+      "category": "videos",
+      "fetchInterval": 240,
+      "active": true
+    },
+    {
+      "id": "youtube_harvard_hbs",
+      "name": "Harvard Business School YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFWULCY5B97CwS2VI-upZuA",
+      "sourceId": "harvard-hbs-youtube",
+      "category": "videos",
+      "fetchInterval": 240,
+      "active": true
+    },
+    {
+      "id": "youtube_cfa_society_india",
+      "name": "CFA Society India YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8Zy7crsNBL8NJCc_ueF-CA",
+      "sourceId": "cfa-society-india-youtube",
+      "category": "videos",
+      "fetchInterval": 180,
+      "active": true
+    },
+    {
+      "id": "youtube_wocomo_docs",
+      "name": "Wocomo Docs YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCymrhn6xwPcP_9vteK-zBeQ",
+      "sourceId": "wocomo-docs-youtube",
+      "category": "videos",
+      "fetchInterval": 240,
+      "active": true
+    },
+    {
+      "id": "youtube_invest_marcellus",
+      "name": "Invest with Marcellus YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjK6_t5lCGl_cX7x7ToBfDQ",
+      "sourceId": "invest-marcellus-youtube",
+      "category": "videos",
+      "fetchInterval": 180,
+      "active": true
+    },
+    {
+      "id": "youtube_microcap_club",
+      "name": "MicroCap Club YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzX4HLkD7eXBgzVwHMZlhmg",
+      "sourceId": "microcap-club-youtube",
+      "category": "videos",
+      "fetchInterval": 240,
+      "active": true
+    },
+    {
+      "id": "business_standard_home",
+      "name": "Business Standard Home",
+      "url": "https://www.business-standard.com/rss/home",
+      "sourceId": "business-standard-home",
+      "category": "markets",
+      "fetchInterval": 720,
       "active": false
+    },
+    {
+      "id": "business_standard_latest",
+      "name": "Business Standard Latest",
+      "url": "https://www.business-standard.com/rss/latest",
+      "sourceId": "business-standard-latest",
+      "category": "markets",
+      "fetchInterval": 720,
+      "active": false
+    },
+    {
+      "id": "ndtv_profit_rss",
+      "name": "NDTV Profit RSS",
+      "url": "https://www.ndtvprofit.com/rss-notifications",
+      "sourceId": "ndtv-profit-rss",
+      "category": "markets",
+      "fetchInterval": 120,
+      "active": true
+    },
+    {
+      "id": "marketwatch_realtime",
+      "name": "MarketWatch Real-time Headlines",
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines",
+      "sourceId": "marketwatch-realtime",
+      "category": "markets",
+      "fetchInterval": 30,
+      "active": true
+    },
+    {
+      "id": "cfa_institute_blog",
+      "name": "CFA Institute Enterprising Investor",
+      "url": "https://blogs.cfainstitute.org/investor/feed/",
+      "sourceId": "cfa-institute-blog",
+      "category": "research",
+      "fetchInterval": 180,
+      "active": true
+    },
+    {
+      "id": "moneycontrol_news",
+      "name": "Money Control News",
+      "url": "https://www.moneycontrol.com/news/listing/page-1/",
+      "sourceId": "moneycontrol-news",
+      "category": "markets",
+      "fetchInterval": 180,
+      "active": true
+    },
+    {
+      "id": "spglobal_research",
+      "name": "S&P Global Research",
+      "url": "https://www.spglobal.com/spdji/en/rss/research.xml",
+      "sourceId": "spglobal-research",
+      "category": "research",
+      "fetchInterval": 240,
+      "active": false,
+      "note": "URL needs verification - may require authentication or different endpoint"
+    },
+    {
+      "id": "spglobal_market_commentary",
+      "name": "S&P Global Market Commentary",
+      "url": "https://www.spglobal.com/spdji/en/rss/market-commentary.xml",
+      "sourceId": "spglobal-market-commentary",
+      "category": "research",
+      "fetchInterval": 180,
+      "active": false,
+      "note": "URL needs verification - may require authentication or different endpoint"
+    },
+    {
+      "id": "spglobal_spiva",
+      "name": "S&P Global SPIVA",
+      "url": "https://www.spglobal.com/spdji/en/rss/spiva.xml",
+      "sourceId": "spglobal-spiva",
+      "category": "research",
+      "fetchInterval": 360,
+      "active": false,
+      "note": "URL needs verification - may require authentication or different endpoint"
+    },
+    {
+      "id": "spglobal_index_news",
+      "name": "S&P Global Index News",
+      "url": "https://www.spglobal.com/spdji/en/rss/index-news-announcements.xml",
+      "sourceId": "spglobal-index-news",
+      "category": "markets",
+      "fetchInterval": 120,
+      "active": false,
+      "note": "URL needs verification - may require authentication or different endpoint"
+    },
+    {
+      "id": "gaby_delvalle",
+      "name": "Gaby Del Valle",
+      "url": "https://gabydelvalle.substack.com/feed",
+      "sourceId": "gaby-delvalle",
+      "category": "eclectic",
+      "fetchInterval": 360,
+      "active": true
+    },
+    {
+      "id": "way_of_work",
+      "name": "The Way of Work",
+      "url": "https://newsletter.thewayofwork.com/feed",
+      "sourceId": "way-of-work",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "benthams",
+      "name": "Bentham's Newsletter",
+      "url": "https://benthams.substack.com/feed",
+      "sourceId": "benthams",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "leading_edge",
+      "name": "The Leading Edge",
+      "url": "https://newsletter.theleading-edge.org/feed",
+      "sourceId": "leading-edge",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "astral_codex_ten",
+      "name": "Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/feed",
+      "sourceId": "astral-codex-ten",
+      "category": "eclectic",
+      "fetchInterval": 360,
+      "active": true
+    },
+    {
+      "id": "freddie_deboer",
+      "name": "Freddie deBoer",
+      "url": "https://freddiedeboer.substack.com/feed",
+      "sourceId": "freddie-deboer",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "res_obscura",
+      "name": "Res Obscura",
+      "url": "https://resobscura.substack.com/feed",
+      "sourceId": "res-obscura",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "nicholas_decker",
+      "name": "Nicholas Decker",
+      "url": "https://nicholasdecker.substack.com/feed",
+      "sourceId": "nicholas-decker",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "max_read",
+      "name": "Max Read",
+      "url": "https://maxread.substack.com/feed",
+      "sourceId": "max-read",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "henrik_karlsson",
+      "name": "Henrik Karlsson",
+      "url": "https://www.henrikkarlsson.xyz/feed",
+      "sourceId": "henrik-karlsson",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "visa_kanv",
+      "name": "Visa Kanv",
+      "url": "https://visakanv.substack.com/feed",
+      "sourceId": "visa-kanv",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "simon_sarris",
+      "name": "Simon Sarris",
+      "url": "https://map.simonsarris.com/feed",
+      "sourceId": "simon-sarris",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "ai_log_blog",
+      "name": "AI Log Blog",
+      "url": "https://ailogblog.substack.com/feed",
+      "sourceId": "ai-log-blog",
+      "category": "eclectic",
+      "fetchInterval": 360,
+      "active": true
+    },
+    {
+      "id": "unhappy_man",
+      "name": "The Unhappy Man",
+      "url": "https://theunhappyman.substack.com/feed",
+      "sourceId": "unhappy-man",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "experimental_history",
+      "name": "Experimental History",
+      "url": "https://www.experimental-history.com/feed",
+      "sourceId": "experimental-history",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "age_of_invention",
+      "name": "Age of Invention",
+      "url": "https://www.ageofinvention.xyz/feed",
+      "sourceId": "age-of-invention",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "not_boring",
+      "name": "Not Boring",
+      "url": "https://www.notboring.co/feed",
+      "sourceId": "not-boring",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "roots_of_progress",
+      "name": "Roots of Progress",
+      "url": "https://newsletter.rootsofprogress.org/feed",
+      "sourceId": "roots-of-progress",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "nate_silver",
+      "name": "Nate Silver",
+      "url": "https://www.natesilver.net/feed",
+      "sourceId": "nate-silver",
+      "category": "eclectic",
+      "fetchInterval": 360,
+      "active": true
+    },
+    {
+      "id": "public_policy_substack",
+      "name": "Public Policy (Substack)",
+      "url": "https://publicpolicy.substack.com/feed",
+      "sourceId": "public-policy-substack",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "branko_milanovic",
+      "name": "Branko Milanovic",
+      "url": "https://branko2f7.substack.com/feed",
+      "sourceId": "branko-milanovic",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "aeon_magazine",
+      "name": "Aeon Magazine",
+      "url": "https://aeon.co/feed.rss",
+      "sourceId": "aeon-magazine",
+      "category": "eclectic",
+      "fetchInterval": 360,
+      "active": true
+    },
+    {
+      "id": "psyche_magazine",
+      "name": "Psyche Magazine",
+      "url": "https://psyche.co/feed.rss",
+      "sourceId": "psyche-magazine",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "common_reader",
+      "name": "The Common Reader",
+      "url": "https://www.commonreader.co.uk/feed",
+      "sourceId": "common-reader",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "summer_of_protocols",
+      "name": "Summer of Protocols",
+      "url": "https://protocolized.summerofprotocols.com/feed",
+      "sourceId": "summer-of-protocols",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "gary_marcus",
+      "name": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/feed",
+      "sourceId": "gary-marcus",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "nautilus_magazine",
+      "name": "Nautilus Magazine",
+      "url": "https://nautil.us/feed/?_sp=b0840929-e993-4908-b182-0a086cc42588.1739703703525",
+      "sourceId": "nautilus-magazine",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "noema_magazine",
+      "name": "Noema Magazine",
+      "url": "https://www.noemamag.com/?feed=noemarss",
+      "sourceId": "noema-magazine",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "n_plus_one",
+      "name": "n+1 Magazine",
+      "url": "https://www.nplusonemag.com/feed/",
+      "sourceId": "n-plus-one",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "quanta_magazine",
+      "name": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/feed/",
+      "sourceId": "quanta-magazine",
+      "category": "eclectic",
+      "fetchInterval": 360,
+      "active": true
+    },
+    {
+      "id": "programmable_mutter",
+      "name": "Programmable Mutter",
+      "url": "https://www.programmablemutter.com/feed",
+      "sourceId": "programmable-mutter",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "back_of_mind",
+      "name": "Back of Mind",
+      "url": "https://backofmind.substack.com/feed",
+      "sourceId": "back-of-mind",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "dave_karpf",
+      "name": "Dave Karpf",
+      "url": "https://davekarpf.substack.com/feed",
+      "sourceId": "dave-karpf",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "woman_of_letters",
+      "name": "Woman of Letters",
+      "url": "https://www.woman-of-letters.com/feed",
+      "sourceId": "woman-of-letters",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "school_unconformed",
+      "name": "School of the Unconformed",
+      "url": "https://schooloftheunconformed.substack.com/feed",
+      "sourceId": "school-unconformed",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "honest_broker",
+      "name": "The Honest Broker",
+      "url": "https://www.honest-broker.com/feed",
+      "sourceId": "honest-broker",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "works_in_progress",
+      "name": "Works in Progress",
+      "url": "https://www.worksinprogress.news/feed",
+      "sourceId": "works-in-progress",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "construction_physics",
+      "name": "Construction Physics",
+      "url": "https://www.construction-physics.com/feed",
+      "sourceId": "construction-physics",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "rotten_and_good",
+      "name": "Rotten and Good",
+      "url": "https://rottenandgood.substack.com/feed",
+      "sourceId": "rotten-and-good",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "over_the_field",
+      "name": "Over the Field",
+      "url": "https://overthefield.substack.com/feed",
+      "sourceId": "over-the-field",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "nils_gilman",
+      "name": "Nils Gilman",
+      "url": "https://nilsgilman.substack.com/feed",
+      "sourceId": "nils-gilman",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "pens_and_poison",
+      "name": "Pens and Poison",
+      "url": "https://www.pensandpoison.org/feed",
+      "sourceId": "pens-and-poison",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "philosophy_garden",
+      "name": "The Philosophy Garden",
+      "url": "https://thephilosophygarden.substack.com/feed",
+      "sourceId": "philosophy-garden",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "brad_delong",
+      "name": "Brad DeLong",
+      "url": "https://braddelong.substack.com/feed",
+      "sourceId": "brad-delong",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "jacobin_magazine",
+      "name": "Jacobin Magazine",
+      "url": "https://jacobin.com/feed/",
+      "sourceId": "jacobin-magazine",
+      "category": "eclectic",
+      "fetchInterval": 360,
+      "active": true
+    },
+    {
+      "id": "new_left_review",
+      "name": "New Left Review",
+      "url": "https://newleftreview.org/feed",
+      "sourceId": "new-left-review",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "small_potatoes",
+      "name": "Small Potatoes",
+      "url": "https://smallpotatoes.paulbloom.net/feed",
+      "sourceId": "small-potatoes",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "shruti_rajagopalan",
+      "name": "Shruti Rajagopalan",
+      "url": "https://srajagopalan.substack.com/feed",
+      "sourceId": "shruti-rajagopalan",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "rohan_venkat",
+      "name": "Rohan Venkat",
+      "url": "https://rohanvenkat.substack.com/feed",
+      "sourceId": "rohan-venkat",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "adam_tooze",
+      "name": "Adam Tooze",
+      "url": "https://adamtooze.substack.com/feed",
+      "sourceId": "adam-tooze",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "africanist_perspective",
+      "name": "Africanist Perspective",
+      "url": "https://www.africanistperspective.com/feed",
+      "sourceId": "africanist-perspective",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "sustainability_by_numbers",
+      "name": "Sustainability by Numbers",
+      "url": "https://www.sustainabilitybynumbers.com/feed",
+      "sourceId": "sustainability-by-numbers",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "afraw",
+      "name": "Africa Foresight",
+      "url": "https://afraw.substack.com/feed",
+      "sourceId": "afraw",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "join_reboot",
+      "name": "Join Reboot",
+      "url": "https://joinreboot.org/feed",
+      "sourceId": "join-reboot",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "urban_proxima",
+      "name": "Urban Proxima",
+      "url": "https://www.urbanproxima.com/feed",
+      "sourceId": "urban-proxima",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "changing_lanes",
+      "name": "Changing Lanes Newsletter",
+      "url": "https://www.changinglanesnewsletter.com/feed",
+      "sourceId": "changing-lanes",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "matt_clancy",
+      "name": "Matt Clancy",
+      "url": "https://mattsclancy.substack.com/feed",
+      "sourceId": "matt-clancy",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "ggd_world",
+      "name": "GGD World",
+      "url": "https://www.ggd.world/feed",
+      "sourceId": "ggd-world",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "existential_crunch",
+      "name": "Existential Crunch",
+      "url": "https://existentialcrunch.substack.com/feed",
+      "sourceId": "existential-crunch",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "doomsday_machines",
+      "name": "Doomsday Machines",
+      "url": "https://doomsdaymachines.net/feed",
+      "sourceId": "doomsday-machines",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "climate_brink",
+      "name": "The Climate Brink",
+      "url": "https://www.theclimatebrink.com/feed",
+      "sourceId": "climate-brink",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "understanding_ai",
+      "name": "Understanding AI",
+      "url": "https://www.understandingai.org/feed",
+      "sourceId": "understanding-ai",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "uncharted_territories",
+      "name": "Uncharted Territories",
+      "url": "https://unchartedterritories.tomaspueyo.com/feed",
+      "sourceId": "uncharted-territories",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "hypertextual",
+      "name": "Hypertextual",
+      "url": "https://hypertextual.substack.com/feed",
+      "sourceId": "hypertextual",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "derek_thompson",
+      "name": "Derek Thompson",
+      "url": "https://www.derekthompson.org/feed",
+      "sourceId": "derek-thompson",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "high_capacity",
+      "name": "High Capacity",
+      "url": "https://www.high-capacity.com/feed",
+      "sourceId": "high-capacity",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "statecraft",
+      "name": "Statecraft",
+      "url": "https://www.statecraft.pub/feed",
+      "sourceId": "statecraft",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "infinite_scroll",
+      "name": "Infinite Scroll",
+      "url": "https://www.infinitescroll.us/feed",
+      "sourceId": "infinite-scroll",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "one_useful_thing",
+      "name": "One Useful Thing",
+      "url": "https://www.oneusefulthing.org/feed",
+      "sourceId": "one-useful-thing",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "paul_goldsmith_pinkham",
+      "name": "Paul Goldsmith-Pinkham",
+      "url": "https://paulgp.substack.com/feed",
+      "sourceId": "paul-goldsmith-pinkham",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "parachute_earth",
+      "name": "Parachute Earth",
+      "url": "https://parachuteearth.substack.com/feed",
+      "sourceId": "parachute-earth",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "global_developments",
+      "name": "Global Developments",
+      "url": "https://www.global-developments.org/feed",
+      "sourceId": "global-developments",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "progress_and_poverty",
+      "name": "Progress and Poverty",
+      "url": "https://progressandpoverty.substack.com/feed",
+      "sourceId": "progress-and-poverty",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "eric_topol",
+      "name": "Eric Topol",
+      "url": "https://erictopol.substack.com/feed",
+      "sourceId": "eric-topol",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "url": "https://semianalysis.substack.com/feed",
+      "sourceId": "semianalysis",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "volts",
+      "name": "Volts",
+      "url": "https://www.volts.wtf/feed",
+      "sourceId": "volts",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "economic_forces",
+      "name": "Economic Forces",
+      "url": "https://www.economicforces.xyz/feed",
+      "sourceId": "economic-forces",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "ai_futures",
+      "name": "AI Futures",
+      "url": "https://blog.ai-futures.org/feed",
+      "sourceId": "ai-futures",
+      "category": "eclectic",
+      "fetchInterval": 480,
+      "active": true
+    },
+    {
+      "id": "writing_ruxandra",
+      "name": "Writing Ruxandra",
+      "url": "https://www.writingruxandrabio.com/feed",
+      "sourceId": "writing-ruxandra",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "asimov_press",
+      "name": "Asimov Press",
+      "url": "https://www.asimov.press/feed",
+      "sourceId": "asimov-press",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "conspicuous_cognition",
+      "name": "Conspicuous Cognition",
+      "url": "https://www.conspicuouscognition.com/feed",
+      "sourceId": "conspicuous-cognition",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "everything_is_bullshit",
+      "name": "Everything Is Bullshit",
+      "url": "https://www.everythingisbullshit.blog/feed",
+      "sourceId": "everything-is-bullshit",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "optimally_irrational",
+      "name": "Optimally Irrational",
+      "url": "https://www.optimallyirrational.com/feed",
+      "sourceId": "optimally-irrational",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
     }
   ]
 }

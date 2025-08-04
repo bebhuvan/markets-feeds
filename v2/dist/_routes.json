@@ -4,6 +4,7 @@
     "/*"
   ],
   "exclude": [
-    "/_astro/*"
+    "/_astro/*",
+    "/favicon.svg"
   ]
 }

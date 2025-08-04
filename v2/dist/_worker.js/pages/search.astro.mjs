@@ -1,9 +1,9 @@
 globalThis.process ??= {}; globalThis.process.env ??= {};
 import { c as createComponent, a as createAstro, f as renderComponent, r as renderTemplate, m as maybeRenderHead, b as addAttribute, F as Fragment } from '../chunks/astro/server_a_q7el7H.mjs';
 import { $ as $$Layout } from '../chunks/Layout_C7d_4Fi7.mjs';
-import { $ as $$Header, a as $$Navigation } from '../chunks/Navigation_D8ZskTcs.mjs';
-import { $ as $$Article } from '../chunks/Article_Bdh5iTQI.mjs';
-import { $ as $$Sidebar } from '../chunks/Sidebar_CAaIqBpS.mjs';
+import { $ as $$Header, a as $$Navigation } from '../chunks/Navigation_CkhqanKi.mjs';
+import { $ as $$Article } from '../chunks/Article_DBAou-j-.mjs';
+import { $ as $$Sidebar } from '../chunks/Sidebar_Yzg5os2W.mjs';
 import { d as dataLoader } from '../chunks/data-loader_C_xSJv18.mjs';
 /* empty css                                      */
 /* empty css                                  */

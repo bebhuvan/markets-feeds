@@ -1,7 +1,7 @@
 globalThis.process ??= {}; globalThis.process.env ??= {};
 import { renderers } from './renderers.mjs';
 import { createExports } from './_@astrojs-ssr-adapter.mjs';
-import { manifest } from './manifest_ClzRZSM2.mjs';
+import { manifest } from './manifest_D5uu34-j.mjs';
 
 const _page0 = () => import('./pages/_image.astro.mjs');
 const _page1 = () => import('./pages/admin/cache-status.astro.mjs');
@@ -19,11 +19,13 @@ const _page12 = () => import('./pages/api/admin/refresh-feeds.astro.mjs');
 const _page13 = () => import('./pages/api/admin/schedule-fetch.astro.mjs');
 const _page14 = () => import('./pages/api/admin/test-feed.astro.mjs');
 const _page15 = () => import('./pages/api/admin/test-feed-fetcher.astro.mjs');
-const _page16 = () => import('./pages/ideas.astro.mjs');
-const _page17 = () => import('./pages/search.astro.mjs');
-const _page18 = () => import('./pages/sources.astro.mjs');
-const _page19 = () => import('./pages/_category_.astro.mjs');
-const _page20 = () => import('./pages/index.astro.mjs');
+const _page16 = () => import('./pages/feeds-export.json.astro.mjs');
+const _page17 = () => import('./pages/feeds-export.opml.astro.mjs');
+const _page18 = () => import('./pages/ideas.astro.mjs');
+const _page19 = () => import('./pages/search.astro.mjs');
+const _page20 = () => import('./pages/sources.astro.mjs');
+const _page21 = () => import('./pages/_category_.astro.mjs');
+const _page22 = () => import('./pages/index.astro.mjs');
 
 const pageMap = new Map([
     ["node_modules/@astrojs/cloudflare/dist/entrypoints/image-endpoint.js", _page0],
@@ -42,11 +44,13 @@ const pageMap = new Map([
     ["src/pages/api/admin/schedule-fetch.ts", _page13],
     ["src/pages/api/admin/test-feed.ts", _page14],
     ["src/pages/api/admin/test-feed-fetcher.ts", _page15],
-    ["src/pages/ideas.astro", _page16],
-    ["src/pages/search.astro", _page17],
-    ["src/pages/sources.astro", _page18],
-    ["src/pages/[category].astro", _page19],
-    ["src/pages/index.astro", _page20]
+    ["src/pages/feeds-export.json.ts", _page16],
+    ["src/pages/feeds-export.opml.ts", _page17],
+    ["src/pages/ideas.astro", _page18],
+    ["src/pages/search.astro", _page19],
+    ["src/pages/sources.astro", _page20],
+    ["src/pages/[category].astro", _page21],
+    ["src/pages/index.astro", _page22]
 ]);
 const serverIslandMap = new Map();
 const _manifest = Object.assign(manifest, {

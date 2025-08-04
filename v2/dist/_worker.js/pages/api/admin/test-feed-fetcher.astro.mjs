@@ -1,5 +1,5 @@
 globalThis.process ??= {}; globalThis.process.env ??= {};
-import { f as feedFetcher } from '../../../chunks/feed-fetcher_CAAq_HPv.mjs';
+import { f as feedFetcher } from '../../../chunks/feed-fetcher_R7hQxynI.mjs';
 export { renderers } from '../../../renderers.mjs';
 
 const POST = async ({ request }) => {

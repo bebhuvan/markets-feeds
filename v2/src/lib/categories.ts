@@ -15,6 +15,7 @@ export const CATEGORIES = {
   'central-banking': 'Central Banking', // Fed, ECB, monetary policy
   'commodities': 'Commodities', // Oil, gold, agricultural products
   'regulation': 'Regulation', // Financial rules, compliance
+  'filings': 'Filings', // Corporate announcements, NSE/BSE filings
   
   // Media types
   'videos': 'Videos',

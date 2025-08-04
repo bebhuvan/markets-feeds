@@ -41,7 +41,7 @@ const feedsByCategory = feedsConfig.feeds.reduce((acc, feed) => {
 }, {});
 
 // Sort categories and feeds
-const categoryOrder = ['markets', 'macro', 'technology', 'research', 'policy', 'other'];
+const categoryOrder = ['markets', 'macro', 'technology', 'research', 'policy', 'filings', 'eclectic', 'videos', 'other'];
 const sortedCategories = categoryOrder.filter(cat => feedsByCategory[cat]);
 
 function getSourceDescription(name: string, sourceId: string): string {
@@ -84,6 +84,13 @@ function getSourceDescription(name: string, sourceId: string): string {
     'rbi-press': 'Reserve Bank of India policy and regulatory updates',
     'imf-news': 'International Monetary Fund research and policy updates',
     'sec-press-releases': 'Securities and Exchange Commission regulatory updates',
+    'nse-online-announcements': 'Real-time corporate announcements from National Stock Exchange',
+    'nse-annual-reports': 'Annual reports and financial statements from NSE listed companies',
+    'nse-corporate-actions': 'Corporate actions including dividends, splits, and bonus issues',
+    'nse-financial-results': 'Quarterly and annual financial results from NSE companies',
+    'nse-offer-documents': 'IPO prospectuses and offer documents from NSE',
+    'nse-circulars': 'Regulatory circulars and notifications from National Stock Exchange',
+    'bse-notices': 'Official notices and announcements from Bombay Stock Exchange',
     'sebi-news': 'Indian securities market regulation and policy updates',
     'oil-price': 'Energy markets and commodity price analysis',
     'fortune': 'Corporate strategy and business leadership insights',
@@ -91,7 +98,113 @@ function getSourceDescription(name: string, sourceId: string): string {
     'techmeme': 'Technology industry news aggregation and analysis',
     'scmp-business': 'Asian business news and market coverage',
     'foreign-affairs': 'Global economic policy and international business',
-    'pew-research': 'Economic and social research data and analysis'
+    'pew-research': 'Economic and social research data and analysis',
+    'soic-finance-youtube': 'Financial education and investment analysis videos',
+    'cnbc-tv18-youtube': 'Indian business news and market analysis videos',
+    'ndtv-profit-youtube': 'Indian business and market news videos',
+    'bloomberg-business-youtube': 'Global business and financial news videos',
+    'aswath-damodaran-youtube': 'Valuation and corporate finance educational content',
+    'ppfas-mf-youtube': 'Investment philosophy and mutual fund insights',
+    'dwarkesh-patel-youtube': 'Long-form interviews with business leaders',
+    'trendlyne-youtube': 'Indian stock market analysis and insights',
+    'novara-media-youtube': 'Economic and political analysis videos',
+    'wsj-youtube': 'Wall Street Journal video content and documentaries',
+    'norges-bank-youtube': 'Sovereign wealth fund insights and economic analysis',
+    'harvard-hbs-youtube': 'Business education and case study discussions',
+    'cfa-society-india-youtube': 'Professional finance education and insights',
+    'wocomo-docs-youtube': 'Documentary content on business and economics',
+    'invest-marcellus-youtube': 'Indian equity research and investment insights',
+    'microcap-club-youtube': 'Small-cap and micro-cap investment strategies',
+    'business-standard-home': 'Home page news from Business Standard India',
+    'business-standard-latest': 'Latest business and market news from Business Standard',
+    'ndtv-profit-rss': 'Business and market news from NDTV Profit India',
+    'marketwatch-realtime': 'Real-time market headlines and breaking financial news',
+    'cfa-institute-blog': 'Professional investment analysis and finance education content',
+    'moneycontrol-news': 'Comprehensive Indian financial and business news',
+    // Eclectic feeds
+    'gaby-delvalle': 'Independent journalism and cultural commentary by Gaby Del Valle',
+    'way-of-work': 'Workplace culture and future of work insights',
+    'benthams': 'Philosophy, politics, and social commentary newsletter',
+    'leading-edge': 'Technology and innovation analysis for forward-thinking readers',
+    'astral-codex-ten': 'Rationalist analysis and commentary by Scott Alexander',
+    'freddie-deboer': 'Educational policy and political commentary',
+    'res-obscura': 'Historical and cultural deep dives into obscure topics',
+    'nicholas-decker': 'Personal essays and cultural analysis',
+    'max-read': 'Internet culture and media criticism',
+    'henrik-karlsson': 'Education, learning, and human potential essays',
+    'visa-kanv': 'Personal development and productivity insights',
+    'simon-sarris': 'Craftsmanship, aesthetics, and traditional skills',
+    'ai-log-blog': 'Artificial intelligence research and development updates',
+    'unhappy-man': 'Philosophy and cultural criticism from a contrarian perspective',
+    'experimental-history': 'Data-driven insights into human behavior and history',
+    'age-of-invention': 'History of innovation and technological progress',
+    'not-boring': 'Business strategy and technology analysis with optimistic outlook',
+    'roots-of-progress': 'History and philosophy of human progress and innovation',
+    'nate-silver': 'Statistical analysis and political forecasting',
+    'public-policy-substack': 'Public policy analysis and government affairs',
+    'branko-milanovic': 'Global inequality and economic development analysis',
+    'aeon-magazine': 'Essays on philosophy, science, and human experience',
+    'psyche-magazine': 'Psychology and mental health insights for daily life',
+    'common-reader': 'Literary essays and book recommendations',
+    'summer-of-protocols': 'Decentralized systems and protocol design',
+    'gary-marcus': 'AI research critique and cognitive science insights',
+    'nautilus-magazine': 'Science and philosophy magazine exploring big ideas',
+    'noema-magazine': 'Philosophy, governance, and climate in the 21st century',
+    'n-plus-one': 'Literary magazine with cultural and political criticism',
+    'quanta-magazine': 'Mathematics, physics, and computer science discoveries',
+    'programmable-mutter': 'Technology, programming, and digital culture',
+    'back-of-mind': 'Psychology and neuroscience research insights',
+    'dave-karpf': 'Digital politics and technology policy analysis',
+    'woman-of-letters': 'Literary criticism and feminist cultural analysis',
+    'school-unconformed': 'Alternative education and learning methodologies',
+    'honest-broker': 'Music industry analysis and cultural commentary',
+    'works-in-progress': 'Innovation, progress studies, and institutional analysis',
+    'construction-physics': 'Engineering, construction, and infrastructure analysis',
+    'rotten-and-good': 'Cultural criticism and media analysis',
+    'over-the-field': 'Sports analytics and performance optimization',
+    'nils-gilman': 'Geopolitics and global governance analysis',
+    'pens-and-poison': 'Historical analysis and political commentary',
+    'philosophy-garden': 'Philosophy made accessible for general readers',
+    'brad-delong': 'Economic history and policy analysis from UC Berkeley economist',
+    'jacobin-magazine': 'Socialist politics and economic justice analysis',
+    'new-left-review': 'International political and cultural analysis',
+    'small-potatoes': 'Psychology and human behavior insights by Paul Bloom',
+    'shruti-rajagopalan': 'Development economics and Indian policy analysis',
+    'rohan-venkat': 'Technology and business strategy insights',
+    'adam-tooze': 'Economic history and contemporary political economy',
+    'africanist-perspective': 'African politics, economics, and development',
+    'sustainability-by-numbers': 'Environmental data and climate change analysis',
+    'afraw': 'African futures research and continental development insights',
+    'join-reboot': 'Technology policy and digital rights advocacy',
+    'urban-proxima': 'Urban planning and sustainable city development',
+    'changing-lanes': 'Transportation policy and urban mobility analysis',
+    'matt-clancy': 'Innovation economics and research productivity',
+    'ggd-world': 'Global governance and international development',
+    'existential-crunch': 'Philosophy and meaning in modern life',
+    'doomsday-machines': 'Risk analysis and existential threats',
+    'climate-brink': 'Climate science and environmental policy analysis',
+    'understanding-ai': 'Artificial intelligence research and policy implications',
+    'uncharted-territories': 'Geopolitics and demographic analysis by Tomas Pueyo',
+    'hypertextual': 'Technology and digital culture commentary',
+    'derek-thompson': 'Economics, technology, and cultural trends analysis',
+    'high-capacity': 'Urban planning and infrastructure development',
+    'statecraft': 'Foreign policy and international relations analysis',
+    'infinite-scroll': 'Technology, culture, and digital media commentary',
+    'one-useful-thing': 'AI, education, and practical technology insights by Ethan Mollick',
+    'paul-goldsmith-pinkham': 'Applied economics and econometrics research insights',
+    'parachute-earth': 'Environmental journalism and climate change reporting',
+    'global-developments': 'International development and global health analysis',
+    'progress-and-poverty': 'Economic inequality and Georgist economic analysis',
+    'eric-topol': 'Medical research, digital health, and healthcare innovation',
+    'semianalysis': 'Semiconductor industry and technology hardware analysis',
+    'volts': 'Clean energy, climate policy, and sustainable technology',
+    'economic-forces': 'Economic theory and market analysis',
+    'ai-futures': 'Artificial intelligence safety and future technology impacts',
+    'writing-ruxandra': 'Biology, science communication, and research insights',
+    'asimov-press': 'Science and technology magazine with deep technical analysis',
+    'conspicuous-cognition': 'Psychology, cognitive science, and human behavior',
+    'everything-is-bullshit': 'Critical analysis and skeptical commentary',
+    'optimally-irrational': 'Behavioral economics and decision-making psychology'
   };
   
   return descriptions[sourceId] || `Financial news and analysis from ${name}`;
@@ -104,6 +217,9 @@ function getCategoryLabel(category: string): string {
     'technology': 'Technology & Innovation',
     'research': 'Research & Analysis',
     'policy': 'Policy & Regulation',
+    'filings': 'Corporate Filings & Announcements',
+    'eclectic': 'Eclectic & Commentary',
+    'videos': 'Video Content',
     'other': 'Other Sources'
   };
   return labels[category] || category.charAt(0).toUpperCase() + category.slice(1);
@@ -116,6 +232,9 @@ function getCategoryIcon(category: string): string {
     'technology': '💻',
     'research': '📊',
     'policy': '⚖️',
+    'filings': '📋',
+    'eclectic': '📚',
+    'videos': '📺',
     'other': '📰'
   };
   return icons[category] || '📰';
@@ -131,13 +250,39 @@ function getCategoryIcon(category: string): string {
       <!-- Page Header -->
       <header class="page-header">
         <h1 class="page-title">
-          <span class="page-icon">🔗</span>
+          <span class="page-icon">📡</span>
           Source Directory
         </h1>
         <p class="page-description">
           Our carefully curated collection of {feedsConfig.feeds.filter(f => f.active).length} premium financial news sources, 
           delivering {allItems.length.toLocaleString()} articles of market intelligence.
         </p>
+        
+        <!-- Export Options -->
+        <div class="export-options">
+          <h3>Export Feed List:</h3>
+          <div class="export-buttons">
+            <a href="/feeds-export.json" class="export-btn json-btn" download="markets-feeds-sources.json">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14,2 14,8 20,8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+                <polyline points="10,9 9,9 8,9"/>
+              </svg>
+              JSON
+            </a>
+            <a href="/feeds-export.opml" class="export-btn opml-btn" download="markets-feeds-sources.opml">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+              OPML
+            </a>
+          </div>
+          <p class="export-description">
+            Import into your RSS reader (Feedly, Inoreader, etc.) or use programmatically
+          </p>
+        </div>
       </header>
 
       <!-- Sources Grid -->
@@ -275,6 +420,69 @@ function getCategoryIcon(category: string): string {
     color: #6b7280;
     line-height: 1.5;
     max-width: 500px;
+    margin-bottom: 24px;
+  }
+
+  /* Export Options */
+  .export-options {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 16px;
+  }
+
+  .export-options h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 12px;
+  }
+
+  .export-buttons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .export-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.15s ease;
+    border: 1px solid transparent;
+  }
+
+  .json-btn {
+    background: #3b82f6;
+    color: white;
+  }
+
+  .json-btn:hover {
+    background: #2563eb;
+    transform: translateY(-1px);
+  }
+
+  .opml-btn {
+    background: #10b981;
+    color: white;
+  }
+
+  .opml-btn:hover {
+    background: #059669;
+    transform: translateY(-1px);
+  }
+
+  .export-description {
+    font-size: 12px;
+    color: #6b7280;
+    margin: 0;
+    font-style: italic;
   }
 
   /* Category Sections */

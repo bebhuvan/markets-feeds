@@ -54,17 +54,47 @@ export class FeedFetcher {
       console.log(`🔄 Fetching feed: ${config.name} (${config.url})`);
       
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
+      const timeoutId = setTimeout(() => controller.abort(), 45000); // 45 second timeout for NSE feeds
+      
+      // Special headers for different feed types to avoid blocking
+      const isNSEFeed = config.sourceId.startsWith('nse-');
+      const isYouTubeFeed = config.sourceId.includes('youtube');
+      const isEclecticFeed = config.category === 'eclectic';
+      const isSubstackFeed = config.url.includes('substack.com');
+      const headers: Record<string, string> = {
+        'Accept': 'application/rss+xml, application/xml, text/xml, application/atom+xml',
+        'Accept-Encoding': 'gzip, deflate',
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache'
+      };
+      
+      if (isNSEFeed) {
+        // Use more browser-like headers for NSE
+        headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
+        headers['Accept-Language'] = 'en-US,en;q=0.9';
+        headers['Connection'] = 'keep-alive';
+        headers['Upgrade-Insecure-Requests'] = '1';
+      } else if (isYouTubeFeed) {
+        // Use browser-like headers for YouTube to avoid blocking
+        headers['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+        headers['Accept-Language'] = 'en-US,en;q=0.9';
+        headers['Referer'] = 'https://www.youtube.com/';
+        headers['DNT'] = '1';
+      } else if (isEclecticFeed || isSubstackFeed) {
+        // Use personal RSS reader-like headers for Substack and eclectic feeds
+        headers['User-Agent'] = 'Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)';
+        headers['Accept-Language'] = 'en-US,en;q=0.8';
+        headers['Connection'] = 'keep-alive';
+        if (isSubstackFeed) {
+          headers['Referer'] = 'https://substack.com/';
+        }
+      } else {
+        headers['User-Agent'] = 'Markets-Feeds-Bot/2.0 (+https://markets-feeds.com)';
+      }
       
       const response = await fetch(config.url, {
         signal: controller.signal,
-        headers: {
-          'User-Agent': 'Markets-Feeds-Bot/2.0 (+https://markets-feeds.com)',
-          'Accept': 'application/rss+xml, application/xml, text/xml, application/atom+xml',
-          'Accept-Encoding': 'gzip, deflate',
-          'Cache-Control': 'no-cache',
-          'Pragma': 'no-cache'
-        }
+        headers
       });
       
       clearTimeout(timeoutId);
@@ -109,30 +139,129 @@ export class FeedFetcher {
   }
 
   /**
-   * Fetch multiple feeds concurrently
+   * Fetch multiple feeds with rate limiting for NSE feeds
    */
   async fetchMultipleFeeds(configs: FeedConfig[]): Promise<FeedFetchResult[]> {
     const activeConfigs = configs.filter(c => c.active);
     console.log(`🚀 Fetching ${activeConfigs.length} active feeds...`);
     
-    const promises = activeConfigs.map(config => this.fetchFeed(config));
-    const results = await Promise.allSettled(promises);
+    // Separate feeds by type for different handling
+    const nseFeeds = activeConfigs.filter(c => c.sourceId.startsWith('nse-'));
+    const youtubeFeeds = activeConfigs.filter(c => c.sourceId.includes('youtube'));
+    const eclecticFeeds = activeConfigs.filter(c => c.category === 'eclectic');
+    const otherFeeds = activeConfigs.filter(c => 
+      !c.sourceId.startsWith('nse-') && 
+      !c.sourceId.includes('youtube') && 
+      c.category !== 'eclectic'
+    );
     
-    return results.map((result, index) => {
-      if (result.status === 'fulfilled') {
-        return result.value;
-      } else {
-        return {
-          success: false,
-          sourceId: activeConfigs[index].sourceId,
-          items: [],
-          error: result.reason?.message || 'Promise rejected',
-          responseTime: 0,
-          lastFetched: new Date().toISOString(),
-          itemCount: 0
-        };
+    const results: FeedFetchResult[] = [];
+    
+    // Fetch regular feeds concurrently
+    if (otherFeeds.length > 0) {
+      console.log(`🔄 Fetching ${otherFeeds.length} regular feeds concurrently...`);
+      const promises = otherFeeds.map(config => this.fetchFeed(config));
+      const otherResults = await Promise.allSettled(promises);
+      
+      results.push(...otherResults.map((result, index) => {
+        if (result.status === 'fulfilled') {
+          return result.value;
+        } else {
+          return {
+            success: false,
+            sourceId: otherFeeds[index].sourceId,
+            items: [],
+            error: result.reason?.message || 'Promise rejected',
+            responseTime: 0,
+            lastFetched: new Date().toISOString(),
+            itemCount: 0
+          };
+        }
+      }));
+    }
+    
+    // Fetch YouTube feeds with delays (they rate limit aggressively)
+    if (youtubeFeeds.length > 0) {
+      console.log(`📺 Fetching ${youtubeFeeds.length} YouTube feeds with delays...`);
+      for (const config of youtubeFeeds) {
+        try {
+          const result = await this.fetchFeed(config);
+          results.push(result);
+          
+          // Add delay between YouTube requests (3 seconds)
+          if (youtubeFeeds.indexOf(config) < youtubeFeeds.length - 1) {
+            console.log('⏳ Waiting 3 seconds before next YouTube feed...');
+            await new Promise(resolve => setTimeout(resolve, 3000));
+          }
+        } catch (error) {
+          results.push({
+            success: false,
+            sourceId: config.sourceId,
+            items: [],
+            error: error instanceof Error ? error.message : 'Unknown error',
+            responseTime: 0,
+            lastFetched: new Date().toISOString(),
+            itemCount: 0
+          });
+        }
       }
-    });
+    }
+    
+    // Fetch eclectic feeds (Substack, blogs) with delays like personal RSS apps
+    if (eclecticFeeds.length > 0) {
+      console.log(`📚 Fetching ${eclecticFeeds.length} eclectic feeds with delays...`);
+      for (const config of eclecticFeeds) {
+        try {
+          const result = await this.fetchFeed(config);
+          results.push(result);
+          
+          // Add delay between eclectic requests (5 seconds - slower than personal RSS)
+          if (eclecticFeeds.indexOf(config) < eclecticFeeds.length - 1) {
+            console.log('⏳ Waiting 5 seconds before next eclectic feed...');
+            await new Promise(resolve => setTimeout(resolve, 5000));
+          }
+        } catch (error) {
+          results.push({
+            success: false,
+            sourceId: config.sourceId,
+            items: [],
+            error: error instanceof Error ? error.message : 'Unknown error',
+            responseTime: 0,
+            lastFetched: new Date().toISOString(),
+            itemCount: 0
+          });
+        }
+      }
+    }
+    
+    // Fetch NSE feeds sequentially with delays
+    if (nseFeeds.length > 0) {
+      console.log(`🐌 Fetching ${nseFeeds.length} NSE feeds with delays...`);
+      for (const config of nseFeeds) {
+        try {
+          const result = await this.fetchFeed(config);
+          results.push(result);
+          
+          // Add delay between NSE requests (15 seconds to avoid rate limits)
+          if (nseFeeds.indexOf(config) < nseFeeds.length - 1) {
+            console.log('⏳ Waiting 15 seconds before next NSE feed...');
+            await new Promise(resolve => setTimeout(resolve, 15000));
+          }
+        } catch (error) {
+          results.push({
+            success: false,
+            sourceId: config.sourceId,
+            items: [],
+            error: error instanceof Error ? error.message : 'Unknown error',
+            responseTime: 0,
+            lastFetched: new Date().toISOString(),
+            itemCount: 0
+          });
+        }
+      }
+    }
+    
+    return results;
   }
 
   /**
