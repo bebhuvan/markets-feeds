@@ -1,5 +1,668 @@
 [
   {
+    "id": "economist-business-355a53c6ee30ac12",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "Move over, Tim Cook. Jensen Huang is America Inc’s new China envoy",
+    "url": "https://www.economist.com/business/2025/07/17/move-over-tim-cook-jensen-huang-is-america-incs-new-china-envoy",
+    "summary": "Nvidia’s boss is proving to be a canny diplomat",
+    "publishedAt": "2025-07-17T12:48:23+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.202110+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "355a53c6ee30ac12"
+  },
+  {
+    "id": "economist-business-307857c39464cc8a",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "Kraft Heinz is not the only food giant in trouble",
+    "url": "https://www.economist.com/business/2025/07/17/kraft-heinz-is-not-the-only-food-giant-in-trouble",
+    "summary": "The industry is grappling with slowing demand, rising competition and new regulations",
+    "publishedAt": "2025-07-17T12:48:23+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.202299+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "307857c39464cc8a"
+  },
+  {
+    "id": "economist-business-98109ed2dc428570",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "America throws big money at a small rare-earths mine",
+    "url": "https://www.economist.com/business/2025/07/17/america-throws-big-money-at-a-small-rare-earths-mine",
+    "summary": "Challenging China’s dominance will be a tall order",
+    "publishedAt": "2025-07-17T12:48:23+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.202466+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "98109ed2dc428570"
+  },
+  {
+    "id": "economist-business-e5b1de621970dd8e",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "The spectacular folly of Donald Trump’s copper tariffs",
+    "url": "https://www.economist.com/business/2025/07/17/the-spectacular-folly-of-donald-trumps-copper-tariffs",
+    "summary": "Duties on the red metal will undermine the president’s wider economic agenda",
+    "publishedAt": "2025-07-17T12:48:23+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.202653+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e5b1de621970dd8e"
+  },
+  {
+    "id": "economist-business-3bd582f",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "",
+    "url": "https://www.economist.com/business/2025/07/17/are-superstars-as-good-when-they-move-jobs",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T12:48:23.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3bd582f"
+  },
+  {
+    "id": "economist-business-7bd631a",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "",
+    "url": "https://www.economist.com/business/2025/07/17/move-over-tim-cook-jensen-huang-is-america-incs-new-china-envoy",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T12:48:23.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7bd631a"
+  },
+  {
+    "id": "economist-business-2ef6c8a",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "",
+    "url": "https://www.economist.com/business/2025/07/17/kraft-heinz-is-not-the-only-food-giant-in-trouble",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T12:48:23.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2ef6c8a"
+  },
+  {
+    "id": "economist-business-17e3ce33",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "",
+    "url": "https://www.economist.com/business/2025/07/17/america-throws-big-money-at-a-small-rare-earths-mine",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T12:48:23.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "17e3ce33"
+  },
+  {
+    "id": "economist-business-2f8ea661",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "",
+    "url": "https://www.economist.com/business/2025/07/17/the-spectacular-folly-of-donald-trumps-copper-tariffs",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T12:48:23.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2f8ea661"
+  },
+  {
+    "id": "not-boring-f2628167627abd6b",
+    "sourceId": "not-boring",
+    "sourceName": "Not Boring",
+    "title": "How to Flounder Mode with Brie Wolfson",
+    "url": "https://www.notboring.co/p/how-to-flounder-mode-with-brie-wolfson",
+    "summary": "Hyperlegible 013: On Brie's good day together with Kevin Kelly",
+    "publishedAt": "2025-07-17T12:39:17+00:00",
+    "fetchedAt": "2025-07-28T06:33:12.253460+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "f2628167627abd6b"
+  },
+  {
+    "id": "not-boring-659c13d0",
+    "sourceId": "not-boring",
+    "sourceName": "Not Boring",
+    "title": "",
+    "url": "https://www.notboring.co/p/how-to-flounder-mode-with-brie-wolfson",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T12:39:17.000Z",
+    "fetchedAt": "2025-08-04T10:01:30.636Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "659c13d0"
+  },
+  {
+    "id": "urban-proxima-4efb551c",
+    "sourceId": "urban-proxima",
+    "sourceName": "Urban Proxima",
+    "title": "",
+    "url": "https://www.urbanproxima.com/p/progress-in-chinese-urbanism",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T12:02:35.000Z",
+    "fetchedAt": "2025-08-04T10:04:46.786Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "4efb551c"
+  },
+  {
+    "id": "bis-papers-41c4dbeb3b940d98",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Lessons on supervisory effectiveness - a literature review",
+    "url": "https://www.bis.org/bcbs/publ/wp45.htm",
+    "summary": "This literature review aims to support the work of the Basel Committee on Banking Supervision by providing insights from academic and policy work (including policy notes and speeches). It also draws on lessons from observed bank failures and supervisory practices.",
+    "publishedAt": "2025-07-17T12:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.427192+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "41c4dbeb3b940d98"
+  },
+  {
+    "id": "moontower-meta-73a3d2708de20cd3",
+    "sourceId": "moontower-meta",
+    "sourceName": "Moontower Meta",
+    "title": "calendar spreads through the eyes of a vol trader",
+    "url": "https://moontower.substack.com/p/calendar-spreads-through-the-eyes",
+    "summary": "Friends,",
+    "publishedAt": "2025-07-17T11:35:19+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.670393+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "73a3d2708de20cd3"
+  },
+  {
+    "id": "adam-tooze-196bc97550dd59bf",
+    "sourceId": "adam-tooze",
+    "sourceName": "Adam Tooze",
+    "title": "Top Links 802 Investing in coercion. Liechtenstein hit by zombies. China's slowdown vocabulary.",
+    "url": "https://adamtooze.substack.com/p/top-links-802-investing-in-coercion",
+    "summary": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
+    "publishedAt": "2025-07-17T10:58:14+00:00",
+    "fetchedAt": "2025-07-28T06:22:15.314408+00:00",
+    "category": "non-money",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "196bc97550dd59bf"
+  },
+  {
+    "id": "ecfr-587a190e19374ca6",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "The European pillar of security",
+    "url": "https://ecfr.eu/podcasts/episode/the-european-pillar-of-security/",
+    "summary": "Leo Litra and Lesia Ogryzko are joined by Élie Tenenbaum and Oleksandr Sushko to discuss June’s NATO summit—and what Europe’s security step up means for Ukraine",
+    "publishedAt": "2025-07-17T10:44:24+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.186637+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "587a190e19374ca6"
+  },
+  {
+    "id": "china-talk-8173bd3e5c89d2cc",
+    "sourceId": "china-talk",
+    "sourceName": "ChinaTalk",
+    "title": "best books of the year",
+    "url": "https://www.chinatalk.media/p/books-h1-2025",
+    "summary": "Eastern Front, Flying Nuns, Samizdat, the Rebbe, 1920s, Florida",
+    "publishedAt": "2025-07-17T10:30:54+00:00",
+    "fetchedAt": "2025-07-28T06:22:16.954926+00:00",
+    "category": "blogs",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "8173bd3e5c89d2cc"
+  },
+  {
+    "id": "paul-krugman-0c727c7c09032bbe",
+    "sourceId": "paul-krugman",
+    "sourceName": "Paul Krugman",
+    "title": "The Road to MechaHitler",
+    "url": "https://paulkrugman.substack.com/p/the-road-to-mechahitler",
+    "summary": "Reality still has a well-known liberal bias",
+    "publishedAt": "2025-07-17T10:30:30+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.746201+00:00",
+    "category": "non-money",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "0c727c7c09032bbe"
+  },
+  {
+    "id": "economist-business-ee122a24489aaf76",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "The hottest new travel destination for hotel brands: India",
+    "url": "https://www.economist.com/business/2025/07/17/the-hottest-new-travel-destination-for-hotel-brands-india",
+    "summary": "It has a China-size population with a UAE-size room supply",
+    "publishedAt": "2025-07-17T10:26:14+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.202816+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ee122a24489aaf76"
+  },
+  {
+    "id": "economist-business-68cef629",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "",
+    "url": "https://www.economist.com/business/2025/07/17/the-hottest-new-travel-destination-for-hotel-brands-india",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T10:26:14.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "68cef629"
+  },
+  {
+    "id": "infinite-scroll-25b5e69d",
+    "sourceId": "infinite-scroll",
+    "sourceName": "Infinite Scroll",
+    "title": "",
+    "url": "https://www.infinitescroll.us/p/things-were-better-when-things-were-ead",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T10:04:15.000Z",
+    "fetchedAt": "2025-08-04T10:05:54.138Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "25b5e69d"
+  },
+  {
+    "id": "aeon-magazine-9880c578d1413b7c",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon",
+    "title": "The Tibetan girl",
+    "url": "https://aeon.co/videos/moving-from-tibet-to-beijing-drolma-reconciles-big-dreams-with-harsh-realities?utm_source=rss-feed",
+    "summary": "Can a Tibetan singer make the leap from the slow pace of life on the Tibetan plateau to the fast rhythms of urban Beijing? - by Aeon Video Watch at Aeon",
+    "publishedAt": "2025-07-17T10:01:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:10.645896+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "9880c578d1413b7c"
+  },
+  {
+    "id": "aeon-magazine-5ea1c801",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon Magazine",
+    "title": "",
+    "url": "https://aeon.co/videos/moving-from-tibet-to-beijing-drolma-reconciles-big-dreams-with-harsh-realities?utm_source=rss-feed",
+    "summary": "Can a Tibetan singer make the leap fr",
+    "fullContent": "Can a Tibetan singer make the leap from the slow pace of life on the Tibetan plateau to the fast rhythms of urban Beijing? - by Aeon Video Watch at Aeon]]",
+    "publishedAt": "2025-07-17T10:01:00.000Z",
+    "fetchedAt": "2025-08-04T10:01:56.350Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "5ea1c801"
+  },
+  {
+    "id": "rmi-energy-e24210b8e1c00cea",
+    "sourceId": "rmi-energy",
+    "sourceName": "RMI",
+    "title": "Fast, Flexible Solutions for Data Centers",
+    "url": "https://rmi.org/fast-flexible-solutions-for-data-centers/",
+    "summary": "Key Insights Data center operators are ready to invest in efficient, flexible, and low-cost energy sources that can mitigate stranded asset risks for utilities and keep ratepayer costs in check. Data centers use just 2 percent of global electricity today — and may account for approximately 10 percent of projected electricity demand growth between 2024 […] The post Fast, Flexible Solutions for Data Centers appeared first on RMI.",
+    "publishedAt": "2025-07-17T10:00:30+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.888944+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "e24210b8e1c00cea"
+  },
+  {
+    "id": "rmi-energy-b190229cb860d012",
+    "sourceId": "rmi-energy",
+    "sourceName": "RMI",
+    "title": "Fast, Flexible Solutions for Data Centers",
+    "url": "https://rmi.org/fast-flexible-solutions-for-data-centers/",
+    "summary": "Key Insights Data center operators are ready to invest in efficient, flexible, and low-cost energy sources that can mitigate stranded asset risks for utilities and keep ratepayer costs in check. Data centers use just 2% of global electricity today. Electricity demand growth from data centers is projected to be less than industrial operations, electric vehicles, […] The post Fast, Flexible Solutions for Data Centers appeared first on RMI.",
+    "fullContent": "Key Insights Data center operators are ready to invest in efficient, flexible, and low-cost energy sources that can mitigate stranded asset risks for utilities and keep ratepayer costs in check. Data centers use just 2% of global electricity today. Electricity demand growth from data centers is projected to be less than industrial operations, electric vehicles, household appliances, and space cooling over the next 5 years. Many utilities, specifically in the United States, have a track record of over-forecasting demand, spending billions of dollars building power plants for load that did not materialize. This risk is more salient today given the unpredictability of data center load growth. A range of energy solutions for data centers —  including energy efficiency, flexibility technologies, and fast, modular, and low-cost energy sources — can temper the risks of over-building and high ratepayer costs. These solutions are already the most attractive options for data center operators tod",
+    "publishedAt": "2025-07-17T10:00:30+00:00",
+    "fetchedAt": "2025-07-31T15:48:36.100791+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "high",
+    "contentHash": "b190229cb860d012"
+  },
+  {
+    "id": "rest-of-world-fa23cc7764e4bf02",
+    "sourceId": "rest-of-world",
+    "sourceName": "Rest of World",
+    "title": "Ride-hailing giants’ electric promises are stalling worldwide",
+    "url": "https://restofworld.org/2025/ride-hailing-giants-electric-promises-are-stalling-worldwide/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "summary": "EV adoption by major platforms is at low single digits as infrastructure gaps and costs derail climate goals.",
+    "publishedAt": "2025-07-17T10:00:11+00:00",
+    "fetchedAt": "2025-07-28T08:52:45.736122+00:00",
+    "category": "news",
+    "tags": [
+      "News",
+      "ESG"
+    ],
+    "priority": "normal",
+    "contentHash": "fa23cc7764e4bf02"
+  },
+  {
+    "id": "aeon-magazine-a00aa3ecf8f9031b",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon",
+    "title": "Kind of confusing",
+    "url": "https://aeon.co/essays/how-jazz-and-dolphins-can-help-explain-consciousness?utm_source=rss-feed",
+    "summary": "Is consciousness like jazz, something hard to pin down? Or is it more like the biology of dolphins, odd but natural? - by Tim Bayne Read at Aeon",
+    "publishedAt": "2025-07-17T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:10.646210+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "a00aa3ecf8f9031b"
+  },
+  {
+    "id": "psyche-magazine-c94948e35f4ba136",
+    "sourceId": "psyche-magazine",
+    "sourceName": "Psyche",
+    "title": "What if animals find beauty in the world, just like we do?",
+    "url": "https://psyche.co/ideas/what-if-animals-find-beauty-in-the-world-just-like-we-do?utm_source=rss-feed",
+    "summary": "Chimpanzees favour the colour red. Junglefowl prefer symmetry. Our shared capacity for aesthetic pleasure is cause for wonder- by Brandon KeimRead on Psyche",
+    "publishedAt": "2025-07-17T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:10.759633+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "c94948e35f4ba136"
+  },
+  {
+    "id": "psyche-magazine-21f61513dc67bc9d",
+    "sourceId": "psyche-magazine",
+    "sourceName": "Psyche",
+    "title": "A little Japanese trick for saying ‘no’",
+    "url": "https://psyche.co/notes-to-self/the-japanese-art-of-saying-no-without-causing-offence?utm_source=rss-feed",
+    "summary": "If an outright refusal feels rude but you don’t want to have to explain, here’s how to say ‘no’ the Japanese way- by Richard FisherRead on Psyche",
+    "publishedAt": "2025-07-17T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:10.759963+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "21f61513dc67bc9d"
+  },
+  {
+    "id": "aeon-magazine-3b4b2a5",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon Magazine",
+    "title": "",
+    "url": "https://aeon.co/essays/how-jazz-and-dolphins-can-help-explain-consciousness?utm_source=rss-feed",
+    "summary": "Is consciousness like jazz, something hard to pin down? Or is it more l",
+    "fullContent": "Is consciousness like jazz, something hard to pin down? Or is it more like the biology of dolphins, odd but natural? - by Tim Bayne Read at Aeon]]",
+    "publishedAt": "2025-07-17T10:00:00.000Z",
+    "fetchedAt": "2025-08-04T10:01:56.350Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "3b4b2a5"
+  },
+  {
+    "id": "psyche-magazine-6be19cda",
+    "sourceId": "psyche-magazine",
+    "sourceName": "Psyche Magazine",
+    "title": "",
+    "url": "https://psyche.co/notes-to-self/the-japanese-art-of-saying-no-without-causing-offence?utm_source=rss-feed",
+    "summary": "img src=\"https://images.aeonmedia.co/images/3551a236-852d-42ac-811c-7648c6e9df76/k048nd.jpg?top=1143&left=0&cropWidth=3440&cropHeight=1935&width=1200&quality=75&format=auto\" alt=\"People in a small, well-lit Japanese restaurant or bar, with a menu on the wall and beverages on the counter",
+    "fullContent": "If an outright refusal feels rude but you don’t want to have to explain, here’s how to say ‘no’ the Japanese way- by Richard FisherRead on Psyche]]",
+    "publishedAt": "2025-07-17T10:00:00.000Z",
+    "fetchedAt": "2025-08-04T10:02:01.530Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "6be19cda"
+  },
+  {
+    "id": "psyche-magazine-4d5aa98",
+    "sourceId": "psyche-magazine",
+    "sourceName": "Psyche Magazine",
+    "title": "",
+    "url": "https://psyche.co/ideas/what-if-animals-find-beauty-in-the-world-just-like-we-do?utm_source=rss-feed",
+    "summary": "/",
+    "fullContent": "Chimpanzees favour the colour red. Junglefowl prefer symmetry. Our shared capacity for aesthetic pleasure is cause for wonder- by Brandon KeimRead on Psyche]]",
+    "publishedAt": "2025-07-17T10:00:00.000Z",
+    "fetchedAt": "2025-08-04T10:02:01.530Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "4d5aa98"
+  },
+  {
+    "id": "yale-e360-b744a6ee6767349e",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "Clearcutting Can Lead to Severe Floods, But It Doesn’t Have To",
+    "url": "https://e360.yale.edu/digest/clearcutting-forest-floods",
+    "summary": "It has long been understood that clearcutting forests leads to more runoff, worsening flooding. But a new study finds that logging can reshape watersheds in surprising ways, leading to dramatically more flooding in some forests, while having little effect on others.Read more on E360 →",
+    "publishedAt": "2025-07-17T09:55:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.435415+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "normal",
+    "contentHash": "b744a6ee6767349e"
+  },
+  {
+    "id": "economist-finance-f2f83b4f923953dc",
+    "sourceId": "economist-finance",
+    "sourceName": "The Economist",
+    "title": "Why is AI so slow to spread? Economics can explain",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/17/why-is-ai-so-slow-to-spread-economics-can-explain",
+    "summary": "Businesses are ignoring the street of hundred-dollar bills",
+    "publishedAt": "2025-07-17T09:33:38+00:00",
+    "fetchedAt": "2025-07-28T03:50:55.555974+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Currency",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "f2f83b4f923953dc"
+  },
+  {
+    "id": "economist-finance-35b88ee3",
+    "sourceId": "economist-finance",
+    "sourceName": "Economist Finance",
+    "title": "",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/17/why-is-ai-so-slow-to-spread-economics-can-explain",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T09:33:38.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.178Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "35b88ee3"
+  },
+  {
+    "id": "economist-finance-c9ab966c28646545",
+    "sourceId": "economist-finance",
+    "sourceName": "The Economist",
+    "title": "Trump’s real threat: industry-specific tariffs",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/17/trumps-real-threat-industry-specific-tariffs",
+    "summary": "Which countries would be hit hardest by levies on electronics and pharmaceuticals?",
+    "publishedAt": "2025-07-17T09:33:18+00:00",
+    "fetchedAt": "2025-07-28T03:50:55.556171+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "c9ab966c28646545"
+  },
+  {
+    "id": "economist-finance-4aa89569",
+    "sourceId": "economist-finance",
+    "sourceName": "Economist Finance",
+    "title": "",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/17/trumps-real-threat-industry-specific-tariffs",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T09:33:18.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.178Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "4aa89569"
+  },
+  {
+    "id": "economist-finance-0ce3a12cb8650166",
+    "sourceId": "economist-finance",
+    "sourceName": "The Economist",
+    "title": "Americans can still get a 2% mortgage",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/17/americans-can-still-get-a-2-mortgage",
+    "summary": "At a time of high interest rates, there are bargains to be found",
+    "publishedAt": "2025-07-17T09:33:09+00:00",
+    "fetchedAt": "2025-07-28T03:50:55.556364+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "0ce3a12cb8650166"
+  },
+  {
+    "id": "economist-finance-9097085",
+    "sourceId": "economist-finance",
+    "sourceName": "Economist Finance",
+    "title": "",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/17/americans-can-still-get-a-2-mortgage",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-17T09:33:09.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.178Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "9097085"
+  },
+  {
+    "id": "wsj-markets-main-5f14d6a11716e302",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Big Banks Are Spinning Market Chaos Into Gold",
+    "url": "https://www.wsj.com/finance/banking/big-banks-are-spinning-market-chaos-into-gold-4f11ca29?mod=rss_markets_main",
+    "summary": "Jittery markets are swelling trading revenue and profit, prompting banks to put more money to work on Wall Street.",
+    "fullContent": "Jittery markets are swelling trading revenue and profit, prompting banks to put more money to work on Wall Street.",
+    "publishedAt": "2025-07-17T09:30:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.196294+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "5f14d6a11716e302"
+  },
+  {
     "id": "wsj-markets-main-34fb79c4",
     "sourceId": "wsj-markets-main",
     "sourceName": "WSJ Markets",
@@ -999,667 +1662,5 @@
     ],
     "priority": "high",
     "contentHash": "81746f53c948653d"
-  },
-  {
-    "id": "cfa-society-india-youtube-213c318f",
-    "sourceId": "cfa-society-india-youtube",
-    "sourceName": "CFA Society India YouTube",
-    "title": "CFA Program Careers: Performance Measurement Analyst (part 2)",
-    "url": "https://www.youtube.com/watch?v=MjPeWD-SPss",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T13:53:38.000Z",
-    "fetchedAt": "2025-08-04T09:59:59.535Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "213c318f"
-  },
-  {
-    "id": "cnbc-economy-b18afe36862a7cbd",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "Wholesale inflation measure was unchanged in June",
-    "url": "https://www.cnbc.com/2025/07/16/ppi-inflation-report-june-2025.html",
-    "summary": "The producer price index for June was expected to increase 0.2%, according to the Dow Jones consensus estimate.",
-    "publishedAt": "2025-07-16T13:40:02+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.633329+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "b18afe36862a7cbd"
-  },
-  {
-    "id": "cnbc-economy-1123e806",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "Wholesale inflation measure was unchanged in June",
-    "url": "https://www.cnbc.com/2025/07/16/ppi-inflation-report-june-2025.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T13:40:02.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.393Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "1123e806"
-  },
-  {
-    "id": "bonddad-7505ffc7008df08a",
-    "sourceId": "bonddad",
-    "sourceName": "The Bonddad Blog",
-    "title": "Producer prices, consumer prices, and tariffs",
-    "url": "https://bonddad.blogspot.com/2025/07/producer-prices-consumer-prices-and.html",
-    "summary": "- by New Deal democratMuch of the commentary on yesterday’s CPI report suggested that the tariff impacts were apparent. My own analysis was more cautious. That’s simply because we don’t know for sure which items were affected by tariffs, and at this point referring to, e.g., appliances that showed relatively large monthly increases in prices is speculative - not wrong, mind you, simply speculative. The closest to rigorous analysis I read was that goods inflation was more than services inflation, which would make sense because few “services” can be imported.That issue continued into this morning’s report on June producer prices.Headline PPI was reported this morning to have been unchanged for June, while that for raw commodities increased 0.6%. Still, as shown by the below, the YoY trend in each is hardly that of accelerating inflation. Final demand PPI was up 2.4% YoY, continuing its cooling trend, while that for commodities was up 1.7%, in line with its trend for the past 12 months:Wh",
-    "publishedAt": "2025-07-16T13:32:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.823133+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "7505ffc7008df08a"
-  },
-  {
-    "id": "stratechery-05739f500acf8dcd",
-    "sourceId": "stratechery",
-    "sourceName": "Stratechery",
-    "title": "Cloudflare’s Content Independence Day, Google’s Advantage, Monetizing AI",
-    "url": "https://stratechery.com/2025/cloudflares-content-independence-day-googles-advantage-monetizing-ai/",
-    "summary": "Cloudflare is unilaterally blocking AI crawlers unless they are willing to pay",
-    "publishedAt": "2025-07-16T13:31:13+00:00",
-    "fetchedAt": "2025-07-28T04:04:08.064797+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "05739f500acf8dcd"
-  },
-  {
-    "id": "stratechery-55f6f98f",
-    "sourceId": "stratechery",
-    "sourceName": "Stratechery",
-    "title": "Cloudflare&#8217;s Content Independence Day, Google&#8217;s Advantage, Monetizing AI",
-    "url": "https://stratechery.com/2025/cloudflares-content-independence-day-googles-advantage-monetizing-ai/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T13:31:13.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.015Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "55f6f98f"
-  },
-  {
-    "id": "works-in-progress-c7f09da29285060a",
-    "sourceId": "works-in-progress",
-    "sourceName": "Works in Progress",
-    "title": "Predicting earthquakes",
-    "url": "https://www.worksinprogress.news/p/a-50-million-foundation-model-to",
-    "summary": "Achieving a 10-minute warning would save thousands of lives",
-    "publishedAt": "2025-07-16T13:31:02+00:00",
-    "fetchedAt": "2025-07-28T06:33:17.654799+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "c7f09da29285060a"
-  },
-  {
-    "id": "works-in-progress-129ff96e",
-    "sourceId": "works-in-progress",
-    "sourceName": "Works in Progress",
-    "title": "",
-    "url": "https://www.worksinprogress.news/p/a-50-million-foundation-model-to",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T13:31:02.000Z",
-    "fetchedAt": "2025-08-04T10:03:14.355Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "129ff96e"
-  },
-  {
-    "id": "fed-working-papers-a3eaf8166bd6b424",
-    "sourceId": "fed-working-papers",
-    "sourceName": "Federal Reserve Working Papers",
-    "title": "IFDP Paper: Breaking Up: Fragmentation in Foreign Direct Investment",
-    "url": "https://www.federalreserve.gov/econres/ifdp/breaking-up-fragmentation-in-foreign-direct-investment.htm",
-    "summary": "Cody KallenRising geopolitical tensions and supply chain vulnerabilities have driven recent fragmentation of foreign direct investment (FDI). This paper provides systematic evidence of FDI fragmentation along ideological and geographic lines across five dimensions: shifting away from ideologically distant countries (ideological sorting), prioritizing politically aligned countries (friendshoring), reducing exposure to specific high-risk countries (derisking), moving production closer to the home country (nearshoring), and returning investment to the home country (reshoring). Measures of FDI based on financial transactions reveal evidence of ideological sorting and nearshoring. The capital expenditures of multinational enterprises and their affiliates display ideological sorting, derisking, nearshoring, and reshoring. Cross-border M&A deals reflect patterns of derisking, while horizontal (but not vertical) M&A exhibits broader ideological realignment. At the industry level, derisking and",
-    "publishedAt": "2025-07-16T13:19:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:10.660821+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "breaking",
-    "contentHash": "a3eaf8166bd6b424"
-  },
-  {
-    "id": "bbc-technology-55f8f2f77dcfa23d",
-    "sourceId": "bbc-technology",
-    "sourceName": "BBC Technology",
-    "title": "Co-op boss confirms all 6.5m members had data stolen",
-    "url": "https://www.bbc.com/news/articles/cql0ple066po?at_medium=RSS&at_campaign=rss",
-    "summary": "In her first interview since the attack, Co-op's chief executive said she was \"incredibly sorry\" to customers.",
-    "fullContent": "In her first interview since the attack, Co-op's chief executive said she was \"incredibly sorry\" to customers.",
-    "publishedAt": "2025-07-16T13:10:12+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.568666+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "55f8f2f77dcfa23d"
-  },
-  {
-    "id": "yale-e360-2c17ca7ff52f1fb2",
-    "sourceId": "yale-e360",
-    "sourceName": "Yale E360",
-    "title": "Ice Recovered from European Alps Holds 12,000-Year Record of History",
-    "url": "https://e360.yale.edu/digest/french-alps-oldest-ice-core",
-    "summary": "Glacial ice offers a detailed record of the atmosphere, preserved in discrete layers, providing researchers with a valuable tool for studying planetary history. A sample taken from a glacier in the European Alps dates back at least 12,000 years, making it the oldest ice yet recovered from the region.Read more on E360 →",
-    "publishedAt": "2025-07-16T13:06:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:11.435692+00:00",
-    "category": "culture",
-    "tags": [
-      "Culture"
-    ],
-    "priority": "normal",
-    "contentHash": "2c17ca7ff52f1fb2"
-  },
-  {
-    "id": "doomsday-machines-4e8c92f4",
-    "sourceId": "doomsday-machines",
-    "sourceName": "Doomsday Machines",
-    "title": "",
-    "url": "https://doomsdaymachines.net/p/trinity-goes-to-hollywood",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T12:29:19.000Z",
-    "fetchedAt": "2025-08-04T10:05:12.372Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "4e8c92f4"
-  },
-  {
-    "id": "moontower-meta-c9bbb8ae9c76313c",
-    "sourceId": "moontower-meta",
-    "sourceName": "Moontower Meta",
-    "title": "using elementary school geometry to explain gamma",
-    "url": "https://moontower.substack.com/p/using-elementary-school-geometry",
-    "summary": "Moontower Munchies #115",
-    "publishedAt": "2025-07-16T12:24:12+00:00",
-    "fetchedAt": "2025-07-28T06:22:17.670580+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "c9bbb8ae9c76313c"
-  },
-  {
-    "id": "freddie-deboer-6deeca31d18f195e",
-    "sourceId": "freddie-deboer",
-    "sourceName": "Freddie deBoer",
-    "title": "I Guess I Don't Care Very Much About Jeffrey Epstein Because I Know How Child Sexual Abuse Usually Works",
-    "url": "https://freddiedeboer.substack.com/p/i-guess-i-dont-care-very-much-about",
-    "summary": "no conspiracies, no spy agencies, no mysterious billionaires, no private islands, no predatory celebrities, no blackmail - just ordinary human devastation",
-    "publishedAt": "2025-07-16T12:02:04+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.871372+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "6deeca31d18f195e"
-  },
-  {
-    "id": "cnbc-markets-2188ca6237dc588d",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Why defensive names and bitcoin could be solid plays over the next six months",
-    "url": "https://www.cnbc.com/2025/07/16/bitcoin-vs-big-tech-vs-defensive-plays-for-markets-second-half.html",
-    "summary": "Unlimited Funds CEO Bob Elliott and Strategas Securities' Todd Sohn deliver their investment ideas as earnings season gets underway.",
-    "publishedAt": "2025-07-16T11:30:01+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.269256+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "2188ca6237dc588d"
-  },
-  {
-    "id": "cnbc-economy-ee492bf7f771da31",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "Inflation picks up again in June, rising at 2.7% annual rate",
-    "url": "https://www.cnbc.com/2025/07/15/cpi-inflation-report-june-2025.html",
-    "summary": "The consumer price index in June was expected to increase 2.7% from a year ago, according to the Dow Jones consensus estimate.",
-    "publishedAt": "2025-07-16T11:17:01+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.633683+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "ee492bf7f771da31"
-  },
-  {
-    "id": "cnbc-economy-5efc9fb3",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "Inflation picks up again in June, rising at 2.7% annual rate",
-    "url": "https://www.cnbc.com/2025/07/15/cpi-inflation-report-june-2025.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T11:17:01.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.393Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "5efc9fb3"
-  },
-  {
-    "id": "adam-tooze-4960260b94a2fd4a",
-    "sourceId": "adam-tooze",
-    "sourceName": "Adam Tooze",
-    "title": "Chartbook 396 Strangelove in the Middle East - or how the markets learned to stop worrying and love Israel's rampage.",
-    "url": "https://adamtooze.substack.com/p/chartbook-396-strangelove-in-the",
-    "summary": "Here’s a shocking fact:",
-    "publishedAt": "2025-07-16T11:13:06+00:00",
-    "fetchedAt": "2025-07-28T06:22:15.314599+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "4960260b94a2fd4a"
-  },
-  {
-    "id": "adam-tooze-0df23e36a2975826",
-    "sourceId": "adam-tooze",
-    "sourceName": "Adam Tooze",
-    "title": "Top Links 801 Is a decade of American exceptionalism coming to an end? The stages of China's real estate grief. Saving Rococo from Trump & the \"Age of Hard Trying.",
-    "url": "https://adamtooze.substack.com/p/top-links-801-is-a-decade-of-american",
-    "summary": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
-    "publishedAt": "2025-07-16T10:57:21+00:00",
-    "fetchedAt": "2025-07-28T06:22:15.314795+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "0df23e36a2975826"
-  },
-  {
-    "id": "paul-krugman-b2c0744aec2b8907",
-    "sourceId": "paul-krugman",
-    "sourceName": "Paul Krugman",
-    "title": "Hawks, Doves and Lapdogs",
-    "url": "https://paulkrugman.substack.com/p/hawks-doves-and-lapdogs",
-    "summary": "The next Fed chair will be an obedient partisan",
-    "publishedAt": "2025-07-16T10:31:26+00:00",
-    "fetchedAt": "2025-07-28T06:22:17.746356+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "b2c0744aec2b8907"
-  },
-  {
-    "id": "brad-delong-aa4e430cae4a957e",
-    "sourceId": "brad-delong",
-    "sourceName": "Brad DeLong",
-    "title": "Is Zohran Mamdani the Second Coming of Vladimir Lenin?",
-    "url": "https://braddelong.substack.com/p/is-zohran-mamdani-the-second-coming",
-    "summary": "No.",
-    "publishedAt": "2025-07-16T10:02:34+00:00",
-    "fetchedAt": "2025-07-28T06:22:16.623168+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "aa4e430cae4a957e"
-  },
-  {
-    "id": "aeon-magazine-dc49e66822c7d830",
-    "sourceId": "aeon-magazine",
-    "sourceName": "Aeon",
-    "title": "The myth of the golden ratio",
-    "url": "https://aeon.co/videos/spiral-into-the-golden-ratio-and-separate-the-myths-from-the-maths?utm_source=rss-feed",
-    "summary": "What’s so golden about the golden ratio? A myth-busting investigation tells the story of a misunderstood mathematical idea - by Aeon Video Watch at Aeon",
-    "publishedAt": "2025-07-16T10:01:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:10.646515+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "dc49e66822c7d830"
-  },
-  {
-    "id": "psyche-magazine-527732de75e43bb7",
-    "sourceId": "psyche-magazine",
-    "sourceName": "Psyche",
-    "title": "The final chapter",
-    "url": "https://psyche.co/videos/froydis-faces-an-impossible-problem-how-to-grieve-a-father-she-hated-and-loved?utm_source=rss-feed",
-    "summary": "A Norwegian filmmaker turns the lens on herself to reflect on the complications of grieving her estranged, abusive father- Directed by Frøydis Fossli MoeWatch on Psyche",
-    "publishedAt": "2025-07-16T10:01:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:10.760286+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "527732de75e43bb7"
-  },
-  {
-    "id": "aeon-magazine-48ac4205",
-    "sourceId": "aeon-magazine",
-    "sourceName": "Aeon Magazine",
-    "title": "",
-    "url": "https://aeon.co/videos/spiral-into-the-golden-ratio-and-separate-the-myths-from-the-maths?utm_source=rss-feed",
-    "summary": "img src=\"https://images.aeonmedia.co/images/34bfee4b-040b-47da-a056-fd93cb80e342/the-myth-of-the-golden-ratio-landscape-1.jpg?width=1200&quality=75&format=auto\" alt=\"Illustration of an ancient Greek temple with the golden ratio spiral overlay, featuring bright colours and clear skies.\"/",
-    "fullContent": "What’s so golden about the golden ratio? A myth-busting investigation tells the story of a misunderstood mathematical idea - by Aeon Video Watch at Aeon]]",
-    "publishedAt": "2025-07-16T10:01:00.000Z",
-    "fetchedAt": "2025-08-04T10:01:56.350Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "48ac4205"
-  },
-  {
-    "id": "psyche-magazine-19fb9497",
-    "sourceId": "psyche-magazine",
-    "sourceName": "Psyche Magazine",
-    "title": "",
-    "url": "https://psyche.co/videos/froydis-faces-an-impossible-problem-how-to-grieve-a-father-she-hated-and-loved?utm_source=rss-feed",
-    "summary": "img src=\"https://images.aeonmedia.co/images/b91a54fb-df4f-4b34-99c6-a9c79afc578d/the-final-chapter-landscape-1.jpg?top=0&left=0&cropWidth=2560&cropHeight=1440&width=1200&quality=75&format=auto\" alt=\"Two people lying on a snowy road in winter clothing with a forested landscape in the bac",
-    "fullContent": "A Norwegian filmmaker turns the lens on herself to reflect on the complications of grieving her estranged, abusive father- Directed by Frøydis Fossli MoeWatch on Psyche]]",
-    "publishedAt": "2025-07-16T10:01:00.000Z",
-    "fetchedAt": "2025-08-04T10:02:01.530Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "19fb9497"
-  },
-  {
-    "id": "rest-of-world-0fbbb243ed5dd775",
-    "sourceId": "rest-of-world",
-    "sourceName": "Rest of World",
-    "title": "Tesla finally enters India after a decade of false starts",
-    "url": "https://restofworld.org/2025/tesla-ev-india-mumbai-showroom/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "summary": "Tesla opened its first India showroom at the Bandra Kurla Complex in Mumbai on Tuesday, July 15, 2025.",
-    "publishedAt": "2025-07-16T10:00:00+00:00",
-    "fetchedAt": "2025-07-28T08:52:45.736311+00:00",
-    "category": "news",
-    "tags": [
-      "News"
-    ],
-    "priority": "normal",
-    "contentHash": "0fbbb243ed5dd775"
-  },
-  {
-    "id": "doomberg-cbff91a1eb7311c2",
-    "sourceId": "doomberg",
-    "sourceName": "Doomberg",
-    "title": "How It’s Done",
-    "url": "https://newsletter.doomberg.com/p/how-its-done",
-    "summary": "The US finally gets serious about rare earth metals.",
-    "publishedAt": "2025-07-16T09:02:07+00:00",
-    "fetchedAt": "2025-07-28T04:04:08.642815+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "cbff91a1eb7311c2"
-  },
-  {
-    "id": "bbc-business-46022e02",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "",
-    "url": "https://www.bbc.co.uk/sounds/play/w3ct74q4?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T08:56:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.137Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "46022e02"
-  },
-  {
-    "id": "ecb-press-7fb8cd7798f4ceee",
-    "sourceId": "ecb-press",
-    "sourceName": "European Central Bank",
-    "title": "ECB publishes third progress report on the digital euro preparation phase",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250716~463e72bbcb.en.html",
-    "summary": "",
-    "publishedAt": "2025-07-16T08:30:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.750784+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy",
-      "Currency"
-    ],
-    "priority": "high",
-    "contentHash": "7fb8cd7798f4ceee"
-  },
-  {
-    "id": "ecb-press-60daf986",
-    "sourceId": "ecb-press",
-    "sourceName": "ECB Press",
-    "title": "ECB publishes third progress report on the digital euro preparation phase",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250716~463e72bbcb.en.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T08:30:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.826Z",
-    "category": "central-banking",
-    "tags": [
-      "central-banking"
-    ],
-    "priority": "normal",
-    "contentHash": "60daf986"
-  },
-  {
-    "id": "noahpinion-19b6874a13f7648c",
-    "sourceId": "noahpinion",
-    "sourceName": "Noah Smith",
-    "title": "Trump is enabling Chinese power",
-    "url": "https://www.noahpinion.blog/p/trump-is-enabling-chinese-power",
-    "summary": "An incompetent, selfish, inwardly focused administration is making America less of an obstacle to China's rise.",
-    "publishedAt": "2025-07-16T08:18:39+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.483843+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "19b6874a13f7648c"
-  },
-  {
-    "id": "noahpinion-657a1ea1",
-    "sourceId": "noahpinion",
-    "sourceName": "Noahpinion",
-    "title": "",
-    "url": "https://www.noahpinion.blog/p/trump-is-enabling-chinese-power",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T08:18:39.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.564Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "657a1ea1"
-  },
-  {
-    "id": "bbc-technology-70d69518b5dc4db8",
-    "sourceId": "bbc-technology",
-    "sourceName": "BBC Technology",
-    "title": "How will age verification for porn work and what about privacy?",
-    "url": "https://www.bbc.com/news/articles/ceq7ye3q2zwo?at_medium=RSS&at_campaign=rss",
-    "summary": "Anyone in the UK wanting to access online porn will soon have to undergo more rigorous age checks.",
-    "fullContent": "Anyone in the UK wanting to access online porn will soon have to undergo more rigorous age checks.",
-    "publishedAt": "2025-07-16T08:04:09+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.569016+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "70d69518b5dc4db8"
-  },
-  {
-    "id": "cnbc-economy-0e36f3dbb73045f5",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "UK inflation hits hotter-than-expected 3.6% in June",
-    "url": "https://www.cnbc.com/2025/07/16/uk-inflation-data-for-june.html",
-    "summary": "Economists polled by Reuters had anticipated inflation would reach 3.4% in the twelve months to June.",
-    "publishedAt": "2025-07-16T06:47:45+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.633492+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "0e36f3dbb73045f5"
-  },
-  {
-    "id": "cnbc-economy-7a711f1f",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "UK inflation hits hotter-than-expected 3.6% in June",
-    "url": "https://www.cnbc.com/2025/07/16/uk-inflation-data-for-june.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-16T06:47:45.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.393Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "7a711f1f"
-  },
-  {
-    "id": "cnbc-markets-12a38e6a47043bda",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Jensen Huang lauds China's AI models as Nvidia gears up to resume chip exports",
-    "url": "https://www.cnbc.com/2025/07/16/jensen-huang-china-ai-models-nvidia-gears-up-to-resume-chip-exports-.html",
-    "summary": "Huang also praised Chinese companies for taking an open-source approach to AI.",
-    "publishedAt": "2025-07-16T04:58:50+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.269601+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "12a38e6a47043bda"
-  },
-  {
-    "id": "foreign-affairs-4082770deeedbdd6",
-    "sourceId": "foreign-affairs",
-    "sourceName": "Foreign Affairs",
-    "title": "The Limits of Putin’s Balancing Act",
-    "url": "https://www.foreignaffairs.com/russia/limits-vladimir-putin-balancing-act-ukraine-kimmage-lipman",
-    "summary": "What the Kremlin will sacrifice in pursuit of victory in Ukraine.",
-    "publishedAt": "2025-07-16T04:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:49:27.488201+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "normal",
-    "contentHash": "4082770deeedbdd6"
-  },
-  {
-    "id": "foreign-affairs-de96cc0b0065a327",
-    "sourceId": "foreign-affairs",
-    "sourceName": "Foreign Affairs",
-    "title": "How India Can Placate America",
-    "url": "https://www.foreignaffairs.com/south-asia/how-india-can-placate-america",
-    "summary": "In a reversal, it’s time for New Delhi to be generous with Washington.",
-    "publishedAt": "2025-07-16T04:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:49:27.488372+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "normal",
-    "contentHash": "de96cc0b0065a327"
-  },
-  {
-    "id": "platformer-2942ddace0ae3bdd",
-    "sourceId": "platformer",
-    "sourceName": "Platformer",
-    "title": "Grok's new porn companion is rated for kids 12+ in the App Store",
-    "url": "https://www.platformer.news/grok-ani-app-store-rating-nsfw-avatar-apple/",
-    "summary": "AI companions are arriving faster than platforms can build guardrails around them. Parents need to pay attention",
-    "publishedAt": "2025-07-16T00:21:39+00:00",
-    "fetchedAt": "2025-07-28T06:22:15.629780+00:00",
-    "category": "research",
-    "tags": [
-      "AI",
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "2942ddace0ae3bdd"
-  },
-  {
-    "id": "cepr-discussion-papers-0dc71c8b1c88daa9",
-    "sourceId": "cepr-discussion-papers",
-    "sourceName": "CEPR Discussion Papers",
-    "title": "DP20462 Macroeconomic Expectations in a War",
-    "url": "https://cepr.org/publications/dp20462",
-    "summary": "Using a short- and long-term macroeconomic forecasts, we estimate the cost of the Russian full-scale invasion of Ukraine for countries in Eastern Europe, Caucasus, and Central Asia. Shortly after the Russian attack, the projected cost (cumulative over six years) stood at $2.44 trillion for the region. Professional forecasters predicted a dramatic increase in macroeconomic uncertainty, significant spillover effects, some hysteresis effects as well as a changing nature of business cycles. We also use the war shock to study how professional forecasters acquire and process information. Our results point to state dependence as well as an important role of forward information in shaping macroeconomic outlook of professional forecasters.",
-    "publishedAt": "2025-07-15T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.836368+00:00",
-    "category": "research",
-    "tags": [
-      "Earnings",
-      "Research"
-    ],
-    "priority": "low",
-    "contentHash": "0dc71c8b1c88daa9"
   }
 ]

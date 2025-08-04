@@ -1,5 +1,694 @@
 [
   {
+    "id": "yahoo-finance-c8bf7f6ce45907b5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Microsoft Sees Cloud Growth Accelerate",
+    "url": "https://finance.yahoo.com/news/microsoft-sees-cloud-growth-accelerate-205434719.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:54:34+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.998384+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "c8bf7f6ce45907b5"
+  },
+  {
+    "id": "google-bloomberg-66dd692fbf7a277f",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Tech Gains Buoy Stocks After Volatile Fed Session: Markets Wrap - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUVN4RUV2ODFDcFJ1UnFJb3BKLVA5UjdWVkFyRDNDZzVMaWZabFB0M0NtRExrd21DaC1DX2VramJJQ1ptVVlNY2xMRXlfUzRNWlgtRmk3Q09zd0ZWUzBCVWFEZG04VHlQSzdMblBDXzlnbEF2OHdEZ1R2VUEyZE1FZ3NwbjBMbFRPeGVGSWx5Q201NnZY?oc=5",
+    "summary": "Tech Gains Buoy Stocks After Volatile Fed Session: Markets Wrap  Bloomberg",
+    "fullContent": "Tech Gains Buoy Stocks After Volatile Fed Session: Markets Wrap  Bloomberg",
+    "publishedAt": "2025-07-30T20:54:33+00:00",
+    "fetchedAt": "2025-07-31T01:31:53.421052+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "high",
+    "contentHash": "66dd692fbf7a277f"
+  },
+  {
+    "id": "google-bloomberg-6cc9131fc2dbf8f3",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Tech Gains Buoy Stocks After Volatile Fed Session: Markets Wrap - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUVN4RUV2ODFDcFJ1UnFJb3BKLVA5UjdWVkFyRDNDZzVMaWZabFB0M0NtRExrd21DaC1DX2VramJJQ1ptVVlNY2xMRXlfUzRNWlgtRmk3Q09zd0ZWUzBCVWFEZG04VHlQSzdMblBDXzlnbEF2OHdEZ1R2VUEyZE1FZ3NwbjBMbFRPeGVGSWx5Q201NnZY?oc=5",
+    "summary": "Tech Gains Buoy Stocks After Volatile Fed Session: Markets Wrap  Bloomberg.com",
+    "fullContent": "Tech Gains Buoy Stocks After Volatile Fed Session: Markets Wrap  Bloomberg.com",
+    "publishedAt": "2025-07-30T20:54:33+00:00",
+    "fetchedAt": "2025-07-31T02:37:40.879595+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "high",
+    "contentHash": "6cc9131fc2dbf8f3"
+  },
+  {
+    "id": "yahoo-finance-b1a2c9f490bb816f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Will interest rates continue dropping this year?",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/interest-rates-dropping-205321059.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:53:21+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996766+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "b1a2c9f490bb816f"
+  },
+  {
+    "id": "bloomberg-markets-b96acae01b4358bb",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Meta Gives Strong Forecast Supporting AI Spending",
+    "url": "https://www.bloomberg.com/news/videos/2025-07-30/meta-gives-strong-forecast-supporting-ai-spending-video",
+    "summary": "Meta Platforms topped projections for second-quarter sales and gave a stronger-than-expected forecast for the current period. Dave Lee has more on “Bloomberg The Close.” Meta lifted the low end of its forecast for 2025 capital expenditures as it continues to invest heavily in the talent, infrastructure and data centers. Lee’s opinions are his own.",
+    "fullContent": "Meta Platforms topped projections for second-quarter sales and gave a stronger-than-expected forecast for the current period. Dave Lee has more on “Bloomberg The Close.” Meta lifted the low end of its forecast for 2025 capital expenditures as it continues to invest heavily in the talent, infrastructure and data centers. Lee’s opinions are his own.",
+    "publishedAt": "2025-07-30T20:52:17+00:00",
+    "fetchedAt": "2025-07-31T01:31:30.187549+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "AI",
+      "Earnings"
+    ],
+    "priority": "low",
+    "contentHash": "b96acae01b4358bb"
+  },
+  {
+    "id": "yahoo-finance-ceb339d8b79fd499",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "How Rubrik, IBD Stock Of The Day, Is Building Cloud Data Management Platform From Security Roots",
+    "url": "https://www.investors.com/research/ibd-stock-of-the-day/rubrik-stock-security-ransomware-cloud-data-management/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:50:50+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.996968+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ceb339d8b79fd499"
+  },
+  {
+    "id": "yahoo-finance-493380909215ac63",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "What is a credit card retention offer — and how do you ask for one?",
+    "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/credit-card-retention-offer-205041318.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:50:41+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997067+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "493380909215ac63"
+  },
+  {
+    "id": "google-bloomberg-7f28c0b06cadc511",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump Nears Moment of Truth on Trade Deal Deadline - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeVZ2MU55T1FDakVhamRHb2FpRS1LQ0ZIalFFNWhQMWhwUmcwUVBWYjE5WTI3dDVMR1R2QWdyc3htWURUS1BhcWpKbnYzbDU4VGR6Q3lneFg1SnVWemY5SWU0NE53dU4xSV9IcGRSWmg5OUR4anBFYmFXbVI3VG5CU3o3VTRDTmgzN3FIWnZyeFBYY1N4Smx5YlZKWlNkZEF2M1A3ZEZ1TF9tTTlTZ2h4WWhLNDI1WUN2b0I5MlhXMHdiNmpv?oc=5",
+    "summary": "Trump Nears Moment of Truth on Trade Deal Deadline  Bloomberg",
+    "fullContent": "Trump Nears Moment of Truth on Trade Deal Deadline  Bloomberg",
+    "publishedAt": "2025-07-30T20:50:31+00:00",
+    "fetchedAt": "2025-07-31T01:31:53.425209+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "7f28c0b06cadc511"
+  },
+  {
+    "id": "google-bloomberg-7d3bc065e092420c",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump Nears Moment of Truth on Trade Deal Deadline - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeVZ2MU55T1FDakVhamRHb2FpRS1LQ0ZIalFFNWhQMWhwUmcwUVBWYjE5WTI3dDVMR1R2QWdyc3htWURUS1BhcWpKbnYzbDU4VGR6Q3lneFg1SnVWemY5SWU0NE53dU4xSV9IcGRSWmg5OUR4anBFYmFXbVI3VG5CU3o3VTRDTmgzN3FIWnZyeFBYY1N4Smx5YlZKWlNkZEF2M1A3ZEZ1TF9tTTlTZ2h4WWhLNDI1WUN2b0I5MlhXMHdiNmpv?oc=5",
+    "summary": "Trump Nears Moment of Truth on Trade Deal Deadline  Bloomberg.com",
+    "fullContent": "Trump Nears Moment of Truth on Trade Deal Deadline  Bloomberg.com",
+    "publishedAt": "2025-07-30T20:50:31+00:00",
+    "fetchedAt": "2025-07-31T02:37:40.883204+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "7d3bc065e092420c"
+  },
+  {
+    "id": "google-bloomberg-f638548e7c68f7cb",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump Nears Moment of Truth on Trade Deal Deadline - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONUExVl9GX1FUYUpIMlk5VXd5QXRFX2FyU3NZVE1fcG1aSzdoVlVWbjZSQ1hQaFZlUklHNnc5RjhsZHBzWmhWWGhoY0FOVHZLWlppQXRoQVplMUt5cTJPNGJFa1FsSVVrT0xDa25mUWd0M3NhUUR3YjZaejd4S1ZDR2UtYVNvemVaWEt5d19XUGtTdGlHaDhXTndVV29YYmlBVVF5Q29Haw?oc=5",
+    "summary": "Trump Nears Moment of Truth on Trade Deal Deadline  Bloomberg",
+    "fullContent": "Trump Nears Moment of Truth on Trade Deal Deadline  Bloomberg",
+    "publishedAt": "2025-07-30T20:50:31+00:00",
+    "fetchedAt": "2025-07-31T04:52:57.379706+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "f638548e7c68f7cb"
+  },
+  {
+    "id": "google-bloomberg-cae921113620eaf3",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump Nears Moment of Truth on Trade Deal Deadline - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONUExVl9GX1FUYUpIMlk5VXd5QXRFX2FyU3NZVE1fcG1aSzdoVlVWbjZSQ1hQaFZlUklHNnc5RjhsZHBzWmhWWGhoY0FOVHZLWlppQXRoQVplMUt5cTJPNGJFa1FsSVVrT0xDa25mUWd0M3NhUUR3YjZaejd4S1ZDR2UtYVNvemVaWEt5d19XUGtTdGlHaDhXTndVV29YYmlBVVF5Q29Haw?oc=5",
+    "summary": "Trump Nears Moment of Truth on Trade Deal Deadline  Bloomberg.com",
+    "fullContent": "Trump Nears Moment of Truth on Trade Deal Deadline  Bloomberg.com",
+    "publishedAt": "2025-07-30T20:50:31+00:00",
+    "fetchedAt": "2025-07-31T15:48:36.166075+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "cae921113620eaf3"
+  },
+  {
+    "id": "yahoo-finance-5b28af4c8aba3c0a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Heard on the Street Recap: Steady, With Dissent",
+    "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-07-30-2025/card/heard-on-the-street-recap-steady-with-dissent-7IESTJtP7gsF8m6UA8FZ?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:49:21+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997154+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5b28af4c8aba3c0a"
+  },
+  {
+    "id": "yahoo-finance-7440deed0f684dcd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Oil shipments from Brazil to US to resume after tariff exemption, says lobby group",
+    "url": "https://finance.yahoo.com/news/oil-shipments-brazil-us-resume-204712948.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T20:47:12+00:00",
+    "fetchedAt": "2025-08-01T08:39:22.997510+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7440deed0f684dcd"
+  },
+  {
+    "id": "business-insider-719df11bc1e0a672",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "A cardiologist explains how to tell if your heart is aging too fast, and 4 tips to keep it young",
+    "url": "https://www.businessinsider.com/cardiologist-how-fast-your-heart-is-aging-tips-to-prevent-2025-7",
+    "summary": "Most people are aging faster than they think, a new heart age calculator shows. A cardiologist shares simple habits you can use to slow aging.",
+    "fullContent": "Regular exercise can help improve metrics of heart health linked to slower aging.Sergey Mironov/Getty ImagesA healthy heart age is key to longevity, and most Americans are aging faster than expected.A cardiologist said understanding your heart age can help you reduce the risk of heart disease and stroke.Try a free online calculator to find your heart age. Improve it with simple habits like daily walking.Your heart could be older than you think, limiting your potential lifespan by up to a decade. But a cardiologist says a few simple lifestyle changes could help.New research from Northwestern University School of Medicine shows the average American's heart health makes them four to seven years older than their calendar age.That's because of risk factors like high cholesterol, high blood pressure, and sedentary routines, driving up their risk of heart disease, the leading cause of death in the US.You can check your own heart age for free online using a test developed by Northwestern resea",
+    "publishedAt": "2025-07-30T20:46:10+00:00",
+    "fetchedAt": "2025-07-31T01:31:35.450948+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "719df11bc1e0a672"
+  },
+  {
+    "id": "nautilus-magazine-34a96f26",
+    "sourceId": "nautilus-magazine",
+    "sourceName": "Nautilus Magazine",
+    "title": "People Really Want to Be Good",
+    "url": "https://nautil.us/people-really-want-to-be-good-1227879/",
+    "summary": "Good motivations for altruistic acts are cross-culturally pervasive The post People Really Want to Be Good appeared first on Nautilus. ]]",
+    "fullContent": "Good motivations for altruistic acts are cross-culturally pervasive The post People Really Want to Be Good appeared first on Nautilus. ]]",
+    "publishedAt": "2025-07-30T20:44:07.000Z",
+    "fetchedAt": "2025-08-04T10:02:21.851Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "34a96f26"
+  },
+  {
+    "id": "wsj-markets-main-2e9ee51b",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Stocks Fall After Powell Remarks on Potential Rate Cut Dim Investor Hopes",
+    "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-30-2025-8845196e?mod=rss_markets_main",
+    "summary": "The Federal Reserve chair said no decision had been made yet on a potential interest-rate cut in September, defying expectations&#x2014;and the White House.",
+    "fullContent": "The Federal Reserve chair said no decision had been made yet on a potential interest-rate cut in September, defying expectations&#x2014;and the White House.",
+    "publishedAt": "2025-07-30T20:42:00.000Z",
+    "fetchedAt": "2025-08-04T09:59:18.468Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2e9ee51b"
+  },
+  {
+    "id": "wsj-world-news-2322bdd2",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "U.S. Raises Brazil Tariffs and Sanctions Judge, Citing Trump Ally Bolsonaro",
+    "url": "https://www.wsj.com/world/americas/u-s-sanctions-brazilian-judge-overseeing-case-against-trump-ally-bolsonaro-0d731a37",
+    "summary": "The Trump administration escalated its pressure campaign against Brazil, raising tariffs on the country to 50% and freezing U.S. assets belonging to a judge overseeing criminal proceedings against former leader Jair Bolsonaro.",
+    "fullContent": "The Trump administration escalated its pressure campaign against Brazil, raising tariffs on the country to 50% and freezing U.S. assets belonging to a judge overseeing criminal proceedings against former leader Jair Bolsonaro.",
+    "publishedAt": "2025-07-30T20:33:00.000Z",
+    "fetchedAt": "2025-08-04T09:59:18.965Z",
+    "category": "news",
+    "tags": [
+      "news"
+    ],
+    "priority": "normal",
+    "contentHash": "2322bdd2"
+  },
+  {
+    "id": "wsj-opinion-5f4dc44b",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Democrats Try Resisting Each Other",
+    "url": "https://www.wsj.com/opinion/democrats-try-resisting-each-other-75f85e08",
+    "summary": "Spartacus roars again on the Senate floor.",
+    "fullContent": "Spartacus roars again on the Senate floor.",
+    "publishedAt": "2025-07-30T19:45:00.000Z",
+    "fetchedAt": "2025-08-04T09:59:18.960Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "5f4dc44b"
+  },
+  {
+    "id": "nyt-economy-282248f3",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "See How Often Two Fed Governors Have Dissented on a Rate Change Vote",
+    "url": "https://www.nytimes.com/2025/07/30/business/economy/fed-rate-dissent-powell.html",
+    "summary": "Two top Fed officials voted against the central bank’s decision to leave rates unchanged, the first dual dissent in more than 30 years.",
+    "fullContent": "Two top Fed officials voted against the central bank’s decision to leave rates unchanged, the first dual dissent in more than 30 years.",
+    "publishedAt": "2025-07-30T19:34:56.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.874Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "282248f3"
+  },
+  {
+    "id": "nautilus-magazine-aba64b4",
+    "sourceId": "nautilus-magazine",
+    "sourceName": "Nautilus Magazine",
+    "title": "From Whence Lightning",
+    "url": "https://nautil.us/from-whence-lightning-1227743/",
+    "summary": "Researchers may have elucidated the long-mysterious chain of events that gives us bolts from the heavens The post From Whence Lightning appeared first on Nautilus. ]]",
+    "fullContent": "Researchers may have elucidated the long-mysterious chain of events that gives us bolts from the heavens The post From Whence Lightning appeared first on Nautilus. ]]",
+    "publishedAt": "2025-07-30T19:16:29.000Z",
+    "fetchedAt": "2025-08-04T10:02:21.851Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "aba64b4"
+  },
+  {
+    "id": "nautilus-magazine-69955567",
+    "sourceId": "nautilus-magazine",
+    "sourceName": "Nautilus Magazine",
+    "title": "The First Lunar Road Trip",
+    "url": "https://nautil.us/the-first-lunar-road-trip-1227738/",
+    "summary": "In 1971, NASA made history with the first moon cruise—and the relic remains The post The First Lunar Road Trip appeared first on Nautilus. ]]",
+    "fullContent": "In 1971, NASA made history with the first moon cruise—and the relic remains The post The First Lunar Road Trip appeared first on Nautilus. ]]",
+    "publishedAt": "2025-07-30T19:16:25.000Z",
+    "fetchedAt": "2025-08-04T10:02:21.851Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "69955567"
+  },
+  {
+    "id": "nautilus-magazine-327b9f8c",
+    "sourceId": "nautilus-magazine",
+    "sourceName": "Nautilus Magazine",
+    "title": "What Poseidon Is Telling Us",
+    "url": "https://nautil.us/what-poseidon-is-telling-us-1227766/",
+    "summary": "Weather is what humans experience over our short lives. Climate is a matter for the gods. The post What Poseidon Is Telling Us appeared first on Nautilus. ]]",
+    "fullContent": "Weather is what humans experience over our short lives. Climate is a matter for the gods. The post What Poseidon Is Telling Us appeared first on Nautilus. ]]",
+    "publishedAt": "2025-07-30T18:41:27.000Z",
+    "fetchedAt": "2025-08-04T10:02:21.851Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "327b9f8c"
+  },
+  {
+    "id": "nautilus-magazine-610d26e2",
+    "sourceId": "nautilus-magazine",
+    "sourceName": "Nautilus Magazine",
+    "title": "You Have Never Felt Climate Change Like This",
+    "url": "https://nautil.us/you-have-never-felt-climate-change-like-this-1227750/",
+    "summary": "Earth scientist Kate Marvel gets personal about climate science The post You Have Never Felt Climate Change Like This appeared first on Nautilus. ]]",
+    "fullContent": "Earth scientist Kate Marvel gets personal about climate science The post You Have Never Felt Climate Change Like This appeared first on Nautilus. ]]",
+    "publishedAt": "2025-07-30T18:41:25.000Z",
+    "fetchedAt": "2025-08-04T10:02:21.851Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "610d26e2"
+  },
+  {
+    "id": "matt-levine-12250f90",
+    "sourceId": "matt-levine",
+    "sourceName": "Matt Levine",
+    "title": "",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-30/the-bots-will-work-together",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T18:10:08.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.026Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "12250f90"
+  },
+  {
+    "id": "wsj-world-news-a4b1322",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Tsunami Waves Reach U.S. After Powerful Russia Quake Forces Pacific Evacuations",
+    "url": "https://www.wsj.com/world/tsunami-watch-warning-japan-us-west-coast-bd815b56",
+    "summary": "The 8.8-magnitude earthquake triggered tsunami warnings in Hawaii and California, though the initial waves to reach U.S. territory weren&#x2019;t significant.",
+    "fullContent": "The 8.8-magnitude earthquake triggered tsunami warnings in Hawaii and California, though the initial waves to reach U.S. territory weren&#x2019;t significant.",
+    "publishedAt": "2025-07-30T17:43:00.000Z",
+    "fetchedAt": "2025-08-04T09:59:18.966Z",
+    "category": "news",
+    "tags": [
+      "news"
+    ],
+    "priority": "normal",
+    "contentHash": "a4b1322"
+  },
+  {
+    "id": "cnbc-business-4f704891",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Wall Street sees Starbucks comeback taking hold, even after another lackluster quarter",
+    "url": "https://www.cnbc.com/2025/07/30/starbucks-earnings-brian-niccol-turnaround-taking-hold.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T17:20:06.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4f704891"
+  },
+  {
+    "id": "cnbc-business-144c145a",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Apartment rents drop in July as vacancies move to multiyear high",
+    "url": "https://www.cnbc.com/2025/07/30/apartment-rents-drop-in-july-as-vacancies-move-to-multi-year-high.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T16:52:01.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "144c145a"
+  },
+  {
+    "id": "jacobin-magazine-29e502b7",
+    "sourceId": "jacobin-magazine",
+    "sourceName": "Jacobin Magazine",
+    "title": "DC Voted to Raise Wages. The Restaurant Lobby Said No.",
+    "url": "https://jacobin.com/2025/07/restaurant-industry-tipped-subminimum-wages/",
+    "summary": "Across the country, a movement to abolish the subminimum tipped wage has gained ground. As of 2025, seven states — Alaska, California, Minnesota, Montana, Nevada, Oregon, and Washington — have enacted what advocates call “One Fair Wage,” guaranteeing tipped workers the same minimum wage as",
+    "fullContent": "Across the country, a movement to abolish the subminimum tipped wage has gained ground. As of 2025, seven states — Alaska, California, Minnesota, Montana, Nevada, Oregon, and Washington — have enacted what advocates call “One Fair Wage,” guaranteeing tipped workers the same minimum wage as everyone else, with tips on top — a rejection of [&hellip;]",
+    "publishedAt": "2025-07-30T16:46:42.000Z",
+    "fetchedAt": "2025-08-04T10:03:55.209Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "29e502b7"
+  },
+  {
+    "id": "dwarkesh-patel-youtube-2e451e13",
+    "sourceId": "dwarkesh-patel-youtube",
+    "sourceName": "Dwarkesh Patel YouTube",
+    "title": "Russia Could've Dominated Asia (And Why It Didn't)",
+    "url": "https://www.youtube.com/watch?v=pJ63ouwF-pc",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T16:44:46.000Z",
+    "fetchedAt": "2025-08-04T09:59:41.056Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "2e451e13"
+  },
+  {
+    "id": "jacobin-magazine-34739977",
+    "sourceId": "jacobin-magazine",
+    "sourceName": "Jacobin Magazine",
+    "title": "A Society Governed by Whiny Rich People Throwing Tantrums",
+    "url": "https://jacobin.com/2025/07/ultrarich-oligarchy-capital-flight-mamdani/",
+    "summary": "In the days and weeks after democratic socialist Zohran Mamdani clinched the Democratic Party nomination in the New York City mayoral race, apocalyptic rumors began to swirl of the wealthy running for the hills. Jim Bianco, president of the financial analysis firm Bianco Research, warned th",
+    "fullContent": "In the days and weeks after democratic socialist Zohran Mamdani clinched the Democratic Party nomination in the New York City mayoral race, apocalyptic rumors began to swirl of the wealthy running for the hills. Jim Bianco, president of the financial analysis firm Bianco Research, warned that New York City was committing “suicide by mayor.” Billionaire [&hellip;]",
+    "publishedAt": "2025-07-30T16:41:56.000Z",
+    "fetchedAt": "2025-08-04T10:03:55.209Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "34739977"
+  },
+  {
+    "id": "cnbc-economy-71232e57",
+    "sourceId": "cnbc-economy",
+    "sourceName": "CNBC Economy",
+    "title": "The Fed is unlikely to cut rates Wednesday, but this meeting is packed with intrigue",
+    "url": "https://www.cnbc.com/2025/07/29/the-fed-is-unlikely-to-cut-rates-but-this-weeks-meeting-is-packed-with-intrigue.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T16:34:53.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.393Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "71232e57"
+  },
+  {
+    "id": "yahoo-finance-6ef3f4f9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Trade deal aside, Mercedes and Porsche see more tariff pain on the way",
+    "url": "https://finance.yahoo.com/news/trade-deal-aside-mercedes-and-porsche-see-more-tariff-pain-on-the-way-162251235.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T16:22:51.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6ef3f4f9"
+  },
+  {
+    "id": "cnbc-economy-2e7be11b",
+    "sourceId": "cnbc-economy",
+    "sourceName": "CNBC Economy",
+    "title": "Private company hiring bounced back with a 104,000 increase in July, ADP says",
+    "url": "https://www.cnbc.com/2025/07/30/private-company-hiring-bounced-back-with-a-104000-increase-in-july-adp-says-.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T16:15:58.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.393Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "2e7be11b"
+  },
+  {
+    "id": "summer-of-protocols-463ccfa",
+    "sourceId": "summer-of-protocols",
+    "sourceName": "Summer of Protocols",
+    "title": "",
+    "url": "https://protocolized.summerofprotocols.com/p/lessons-from-the-librarians",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T16:05:14.000Z",
+    "fetchedAt": "2025-08-04T10:02:11.789Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "463ccfa"
+  },
+  {
+    "id": "volts-4d5a665c",
+    "sourceId": "volts",
+    "sourceName": "Volts",
+    "title": "",
+    "url": "https://www.volts.wtf/p/us-transit-costs-and-how-to-tame",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T16:04:48.000Z",
+    "fetchedAt": "2025-08-04T10:06:34.902Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "4d5a665c"
+  },
+  {
+    "id": "cnbc-business-28b6803a",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "DOJ drops charges against Fat Brands, chair Andy Wiederhorn",
+    "url": "https://www.cnbc.com/2025/07/30/doj-drops-charges-against-fat-brands-andy-wiederhorn.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T16:01:20.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "28b6803a"
+  },
+  {
+    "id": "nyt-technology-5bf447bc",
+    "sourceId": "nyt-technology",
+    "sourceName": "NYT Technology",
+    "title": "NISAR, a NASA-India Collaboration, Will Study Earth With Radar. Here’s How to Watch the Launch.",
+    "url": "https://www.nytimes.com/2025/07/29/science/nisar-nasa-india.html",
+    "summary": "NISAR, a new Earth-observing satellite, is a collaboration between NASA and India’s space agency.",
+    "fullContent": "NISAR, a new Earth-observing satellite, is a collaboration between NASA and India’s space agency.",
+    "publishedAt": "2025-07-30T15:55:13.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.204Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "5bf447bc"
+  },
+  {
+    "id": "project-syndicate-5d849973",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "Populism Comes to Japan",
+    "url": "https://www.project-syndicate.org/commentary/why-japanese-populist-sanseito-party-won-seats-in-upper-house-by-ian-buruma-2025-07",
+    "summary": "The populist Sanseitō party was one of the biggest winners in Japan’s recent upper house election. While the party harped on many of the key themes that animate far-right ideology, the increasing number of foreigners in Japan – immigrants, workers, and tourists – ultimately fueled its ga",
+    "fullContent": "The populist Sanseitō party was one of the biggest winners in Japan’s recent upper house election. While the party harped on many of the key themes that animate far-right ideology, the increasing number of foreigners in Japan – immigrants, workers, and tourists – ultimately fueled its gains.]]>",
+    "publishedAt": "2025-07-30T15:29:38.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.009Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "5d849973"
+  },
+  {
+    "id": "common-reader-1a53c55c",
+    "sourceId": "common-reader",
+    "sourceName": "The Common Reader",
+    "title": "",
+    "url": "https://www.commonreader.co.uk/p/what-is-spite",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T15:16:29.000Z",
+    "fetchedAt": "2025-08-04T10:02:06.700Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "1a53c55c"
+  },
+  {
+    "id": "cnbc-economy-ffa0e55",
+    "sourceId": "cnbc-economy",
+    "sourceName": "CNBC Economy",
+    "title": "U.S. economy grew at a 3% rate in Q2, a better-than-expected pace even as Trump's tariffs hit",
+    "url": "https://www.cnbc.com/2025/07/30/gdp-q2-2025-.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-30T15:10:54.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.393Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "ffa0e55"
+  },
+  {
     "id": "cnbc-business-4252a2b3",
     "sourceId": "cnbc-business",
     "sourceName": "CNBC Business",
@@ -1025,687 +1714,5 @@
     ],
     "priority": "normal",
     "contentHash": "7c51517c22431939"
-  },
-  {
-    "id": "bloomberg-markets-10c9a4490298d63c",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Goldman Pitches Wealthy Asian Heirs on Leveraging Family Art",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/goldman-taps-art-advisory-in-asia-as-wealthy-plan-for-heirs",
-    "summary": "Goldman Sachs Group Inc. is building up its art advisory services in Asia, as wealthy families catch up with those in the US and Europe on collections.",
-    "publishedAt": "2025-07-29T23:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:47.891165+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "10c9a4490298d63c"
-  },
-  {
-    "id": "bloomberg-economics-f8343a9e6391ea5c",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Fed to Avoid Clear Signal on Rate-Cut Timing",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/fed-to-avoid-clear-signal-on-rate-cut-timing-decision-day-guide",
-    "summary": "Investors parsing Jerome Powell’s remarks Wednesday for any hint that the Federal Reserve is moving closer to an interest-rate cut might be left wanting.",
-    "publishedAt": "2025-07-29T23:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.547544+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "f8343a9e6391ea5c"
-  },
-  {
-    "id": "google-bloomberg-5718641285bbafdf",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Goldman Taps Art Advisory in Asia as Wealthy Plan for Heirs - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOV9xeklNSjNmcHNuXzdxbWhwVnQtWTZ4dTQxRFp5YWViY211UVdyc3dOaE53QVlUaTU1eFFLMjhGY1BrUm9ZRVppeGZjS0tMQl9VZ2Uya1N4OXlQWktqZ2V3eWxoQWpRbURqbXlWX0RZcFVsU292Y3ZMcmJJeUw2Nmd3SVNHWkRNbG1JUXV6OWhXdFhRN1FPanpCOXNmcGlMV2JRb1BkazFYaDZCanNN?oc=5",
-    "summary": "Goldman Taps Art Advisory in Asia as Wealthy Plan for Heirs  Bloomberg.com",
-    "publishedAt": "2025-07-29T23:00:00+00:00",
-    "fetchedAt": "2025-07-30T10:17:46.754388+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5718641285bbafdf"
-  },
-  {
-    "id": "google-bloomberg-c0e17251c83e34ed",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Goldman Taps Art Advisory in Asia as Wealthy Plan for Heirs - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOV9xeklNSjNmcHNuXzdxbWhwVnQtWTZ4dTQxRFp5YWViY211UVdyc3dOaE53QVlUaTU1eFFLMjhGY1BrUm9ZRVppeGZjS0tMQl9VZ2Uya1N4OXlQWktqZ2V3eWxoQWpRbURqbXlWX0RZcFVsU292Y3ZMcmJJeUw2Nmd3SVNHWkRNbG1JUXV6OWhXdFhRN1FPanpCOXNmcGlMV2JRb1BkazFYaDZCanNN?oc=5",
-    "summary": "Goldman Taps Art Advisory in Asia as Wealthy Plan for Heirs  Bloomberg",
-    "fullContent": "Goldman Taps Art Advisory in Asia as Wealthy Plan for Heirs  Bloomberg",
-    "publishedAt": "2025-07-29T23:00:00+00:00",
-    "fetchedAt": "2025-07-30T10:32:08.814923+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c0e17251c83e34ed"
-  },
-  {
-    "id": "business-insider-60d227383cbb9a49",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Starbucks CEO Brian Niccol says price changes are a last resort in coffee chain turnaround",
-    "url": "https://www.businessinsider.com/starbucks-q3-earnings-report-analyst-expectations-2025-7",
-    "summary": "CEO Brian Niccol said price changes are his last resort for improving Starbucks' slumping sales — but they're \"absolutely\" on the horizon.",
-    "publishedAt": "2025-07-29T22:48:05+00:00",
-    "fetchedAt": "2025-07-30T08:08:52.618831+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "60d227383cbb9a49"
-  },
-  {
-    "id": "yahoo-finance-2c824b96ae026537",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "VXUS Tops $100B as ETF Investors Embrace International Stocks",
-    "url": "https://finance.yahoo.com/news/vxus-tops-100b-etf-investors-224500639.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:45:00+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.330467+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2c824b96ae026537"
-  },
-  {
-    "id": "yahoo-finance-7db79ffcab04c532",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Electronic Arts Beats First-Quarter Bookings Forecasts Ahead of Big Game Launches",
-    "url": "https://www.barrons.com/articles/electronic-arts-earnings-ea-stock-price-news-3cd71c8e?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:44:00+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.330322+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "7db79ffcab04c532"
-  },
-  {
-    "id": "yahoo-finance-a67e3798ddb9b52d",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Algoma Steel Swings to a Loss, Suspends Quarterly Dividend",
-    "url": "https://www.wsj.com/business/earnings/algoma-steel-swings-to-a-loss-suspends-quarterly-dividend-d5b12047?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:32:00+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.330241+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a67e3798ddb9b52d"
-  },
-  {
-    "id": "marketwatch-d799614fd20161a8",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "My salary is not keeping up with inflation. How can I convince my manager to give me a raise?",
-    "url": "https://www.marketwatch.com/story/i-keep-getting-the-same-song-and-dance-my-salary-has-not-kept-up-with-inflation-is-my-company-cheating-me-ebcbfc53?mod=mw_rss_topstories",
-    "summary": "“If my salary had kept pace with inflation, I would be earning an additional $17,000 a year.”",
-    "publishedAt": "2025-07-29T22:30:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:53.065901+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "d799614fd20161a8"
-  },
-  {
-    "id": "yahoo-finance-d1bdbb40f9c0aaff",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "DIA Gains $359M in Assets as US  EU Strike Trade Deal",
-    "url": "https://finance.yahoo.com/news/dia-gains-359m-assets-us-223000359.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:30:00+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.330123+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "d1bdbb40f9c0aaff"
-  },
-  {
-    "id": "yahoo-finance-8afcacede4ed2922",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Soybeans Fall Despite Bean Oil Strength",
-    "url": "https://finance.yahoo.com/news/soybeans-fall-despite-bean-oil-222817960.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:28:17+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.329985+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "8afcacede4ed2922"
-  },
-  {
-    "id": "yahoo-finance-8edf709ccfdd6d31",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Starbucks Abandons Mobile Order, Pickup-Only Stores",
-    "url": "https://www.wsj.com/business/earnings/starbucks-earnings-q3-sbux-stock-382db7ae?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:22:00+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.329740+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "8edf709ccfdd6d31"
-  },
-  {
-    "id": "google-bloomberg-99dab2caa4cdcdc7",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "US, China to Continue Talks About Maintaining Tariff Truce: Evening Briefing - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMzhaYkFQZGdwUlk4aThpOVY3SEdyRXJ5aVplQ3lZWWdIWTJCaWViNnZvdDJSQlRjUWRuQXVDQ1BnakhpcTN0R21yX2tlWVBZRlFmUlF3Yy14N3AzNlluUVNLNlVHdl9NTnFsTWJNX1owdVlQWW5oWEhqN0Fac3N6MkhnMzAwazBZNzh4dTc5STZpQlJfMnloMG5jWHNIZGJvR0RRQ3RfY3BSdHBrbXRHaTBJblNhRkFYSFA2NkpoVlFMMFpvcS00?oc=5",
-    "summary": "US, China to Continue Talks About Maintaining Tariff Truce: Evening Briefing  Bloomberg.com",
-    "publishedAt": "2025-07-29T22:21:41+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.594006+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "99dab2caa4cdcdc7"
-  },
-  {
-    "id": "google-bloomberg-be345f52b3853b9b",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "US, China to Continue Talks About Maintaining Tariff Truce: Evening Briefing - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMzhaYkFQZGdwUlk4aThpOVY3SEdyRXJ5aVplQ3lZWWdIWTJCaWViNnZvdDJSQlRjUWRuQXVDQ1BnakhpcTN0R21yX2tlWVBZRlFmUlF3Yy14N3AzNlluUVNLNlVHdl9NTnFsTWJNX1owdVlQWW5oWEhqN0Fac3N6MkhnMzAwazBZNzh4dTc5STZpQlJfMnloMG5jWHNIZGJvR0RRQ3RfY3BSdHBrbXRHaTBJblNhRkFYSFA2NkpoVlFMMFpvcS00?oc=5",
-    "summary": "US, China to Continue Talks About Maintaining Tariff Truce: Evening Briefing  Bloomberg",
-    "publishedAt": "2025-07-29T22:21:41+00:00",
-    "fetchedAt": "2025-07-30T09:09:19.591787+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "be345f52b3853b9b"
-  },
-  {
-    "id": "google-bloomberg-670bec6c6331fde2",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "SoFi Shares Tumble in Wake of $1.5 Billion Stock Offering - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOTE0VlZ3YXBndkJsaWF1NEI4TUlvYm85eElKb3dwTzJoSk9UTFdMWDk3Wjg0T2lTOFQ1R05sRHZ0c0lWOU1qcHBya3RqZDRlZmhvdlpTUHh4c3FJREFpcGVaZC1nN1QxR28wcWRoNlJtZ1I2bUFZcF9GMFBOUTAzMm9tME1UWGVFa1dNeGJBeEZaTUdxYUFYdm5mQ0xTT2xZWnUtMUkwSy04Q2s?oc=5",
-    "summary": "SoFi Shares Tumble in Wake of $1.5 Billion Stock Offering  Bloomberg.com",
-    "publishedAt": "2025-07-29T22:20:49+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.590580+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "670bec6c6331fde2"
-  },
-  {
-    "id": "google-bloomberg-8534ad5a4ff70457",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "SoFi Shares Tumble in Wake of $1.5 Billion Stock Offering - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOTE0VlZ3YXBndkJsaWF1NEI4TUlvYm85eElKb3dwTzJoSk9UTFdMWDk3Wjg0T2lTOFQ1R05sRHZ0c0lWOU1qcHBya3RqZDRlZmhvdlpTUHh4c3FJREFpcGVaZC1nN1QxR28wcWRoNlJtZ1I2bUFZcF9GMFBOUTAzMm9tME1UWGVFa1dNeGJBeEZaTUdxYUFYdm5mQ0xTT2xZWnUtMUkwSy04Q2s?oc=5",
-    "summary": "SoFi Shares Tumble in Wake of $1.5 Billion Stock Offering  Bloomberg",
-    "publishedAt": "2025-07-29T22:20:49+00:00",
-    "fetchedAt": "2025-07-30T09:09:19.587810+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "8534ad5a4ff70457"
-  },
-  {
-    "id": "yahoo-finance-006e9e17f8658e7e",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Woman, 63, hasn’t worked in years and has now burned through her savings — here’s The Ramsey Show’s advice",
-    "url": "https://finance.yahoo.com/news/woman-63-hasn-t-worked-221700412.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:17:00+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.329662+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "006e9e17f8658e7e"
-  },
-  {
-    "id": "yahoo-finance-f2b39a4fb1f7a9dc",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "US workers to pay the biggest price in trade war",
-    "url": "https://finance.yahoo.com/news/us-workers-pay-biggest-price-221700175.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:17:00+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.331503+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f2b39a4fb1f7a9dc"
-  },
-  {
-    "id": "bloomberg-markets-1ac09ea67c07bdca",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Stocks Struggle Before Fed Amid Deluge of Earnings: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/stock-market-today-dow-s-p-live-updates",
-    "summary": "Stocks struggled in the hours before Wednesday’s Federal Reserve interest-rate decision as traders tackled a heavy load of major company earnings.",
-    "publishedAt": "2025-07-29T22:16:46+00:00",
-    "fetchedAt": "2025-07-30T08:08:47.891527+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "1ac09ea67c07bdca"
-  },
-  {
-    "id": "bloomberg-markets-89e43e84f538114c",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Bonds Fall and Stocks Hold Steady After GDP Data: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/stock-market-today-dow-s-p-live-updates",
-    "summary": "Wall Street traders gearing up for the Federal Reserve decision drove bonds lower as stocks remained steady after data showed the world’s largest economy is holding up.",
-    "fullContent": "The logo for Hong Kong Exchanges and Clearing Ltd. (HKEx) displayed on a screen at the Exchange Square complex in Hong Kong, China, on Wednesday, Feb. 26, 2025. Hong Kong's stock exchange reported its highest quarterly profit in nearly four years after China's stimulus measures boosted trading and listing volume.",
-    "publishedAt": "2025-07-29T22:16:46+00:00",
-    "fetchedAt": "2025-07-30T13:01:22.746386+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "IPO",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "89e43e84f538114c"
-  },
-  {
-    "id": "bloomberg-markets-eb54a0e2f499106e",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Bonds Fall in Fed Run-Up Amid Strong Economic Data: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/stock-market-today-dow-s-p-live-updates",
-    "summary": "Wall Street traders gearing up for the Federal Reserve decision drove bonds lower as stocks remained steady after data showed the world’s largest economy is holding up. The dollar advanced for a fifth straight day.",
-    "fullContent": "The logo for Hong Kong Exchanges and Clearing Ltd. (HKEx) displayed on a screen at the Exchange Square complex in Hong Kong, China, on Wednesday, Feb. 26, 2025. Hong Kong's stock exchange reported its highest quarterly profit in nearly four years after China's stimulus measures boosted trading and listing volume.",
-    "publishedAt": "2025-07-29T22:16:46+00:00",
-    "fetchedAt": "2025-07-30T13:11:45.461113+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings",
-      "IPO"
-    ],
-    "priority": "high",
-    "contentHash": "eb54a0e2f499106e"
-  },
-  {
-    "id": "bloomberg-markets-37bd4fcf09fb7802",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Stocks Rise, Bonds Fall on Strong Data Before Fed: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/stock-market-today-dow-s-p-live-updates",
-    "summary": "Wall Street traders gearing up for the Federal Reserve decision drove bonds lower as stocks hovered near record highs as data showed the world’s largest economy is holding up. The dollar climbed for a fifth straight day.",
-    "fullContent": "The logo for Hong Kong Exchanges and Clearing Ltd. (HKEx) displayed on a screen at the Exchange Square complex in Hong Kong, China, on Wednesday, Feb. 26, 2025. Hong Kong's stock exchange reported its highest quarterly profit in nearly four years after China's stimulus measures boosted trading and listing volume.",
-    "publishedAt": "2025-07-29T22:16:46+00:00",
-    "fetchedAt": "2025-07-30T14:53:03.514858+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings",
-      "IPO"
-    ],
-    "priority": "high",
-    "contentHash": "37bd4fcf09fb7802"
-  },
-  {
-    "id": "bloomberg-markets-91f9d9adb6631bb8",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Treasuries Fall on Strong Economic Data Before Fed: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/stock-market-today-dow-s-p-live-updates",
-    "summary": "Wall Street traders gearing up for the Federal Reserve decision drove bonds lower as stocks hovered near record highs as data showed the world’s largest economy is holding up. The dollar rose for a fifth straight day, set for its longest winning streak since February.",
-    "fullContent": "The logo for Hong Kong Exchanges and Clearing Ltd. (HKEx) displayed on a screen at the Exchange Square complex in Hong Kong, China, on Wednesday, Feb. 26, 2025. Hong Kong's stock exchange reported its highest quarterly profit in nearly four years after China's stimulus measures boosted trading and listing volume.",
-    "publishedAt": "2025-07-29T22:16:46+00:00",
-    "fetchedAt": "2025-07-30T15:15:01.674996+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets",
-      "IPO"
-    ],
-    "priority": "high",
-    "contentHash": "91f9d9adb6631bb8"
-  },
-  {
-    "id": "bloomberg-markets-ad0b5b3c9391e5ec",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Tech Gains Buoy Stocks After Volatile Fed Session: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/stock-market-today-dow-s-p-live-updates",
-    "summary": "Disappointment the Federal Reserve steered clear of signaling imminent rate cuts unnerved bond traders, sending 10-year yields to the biggest runup in two weeks. Smaller declines in stocks were quickly reversed in late hours as Microsoft Corp. and Meta Platforms Inc. reported solid earnings.",
-    "fullContent": "The logo for Hong Kong Exchanges and Clearing Ltd. (HKEx) displayed on a screen at the Exchange Square complex in Hong Kong, China, on Wednesday, Feb. 26, 2025. Hong Kong's stock exchange reported its highest quarterly profit in nearly four years after China's stimulus measures boosted trading and listing volume.",
-    "publishedAt": "2025-07-29T22:16:46+00:00",
-    "fetchedAt": "2025-07-31T01:31:30.187282+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "IPO",
-      "Tech",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "ad0b5b3c9391e5ec"
-  },
-  {
-    "id": "google-bloomberg-43277ffef7ee1f76",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "CFPB Tells Judge It Plans to Redo Consumer Data Rights Rule - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWHhMUE4tcTFUOVQ3T3dKdVhQbGV0dmU1ckhXWlBrdEMweWtrbG9ndENsay1fVGNVS19JbDYyOGxPQ3dGTXRfbmR5d3lCU2dvbnNlZW85ZFMzQ3V6VExxeVRxQjliWVp5cGpuYmctWTdzZzU1cHg1WFEtV1paVEc3QVRCQ2t1aXphUzFrQXpKZnoycUh4R1JCc3pJWG01V3pmUnBnOWFKalBkS1Z3LVVzQ21n?oc=5",
-    "summary": "CFPB Tells Judge It Plans to Redo Consumer Data Rights Rule  Bloomberg.com",
-    "publishedAt": "2025-07-29T22:10:13+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.593782+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "43277ffef7ee1f76"
-  },
-  {
-    "id": "google-bloomberg-655e24079dccd07e",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "CFPB Tells Judge It Plans to Redo Consumer Data Rights Rule - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWHhMUE4tcTFUOVQ3T3dKdVhQbGV0dmU1ckhXWlBrdEMweWtrbG9ndENsay1fVGNVS19JbDYyOGxPQ3dGTXRfbmR5d3lCU2dvbnNlZW85ZFMzQ3V6VExxeVRxQjliWVp5cGpuYmctWTdzZzU1cHg1WFEtV1paVEc3QVRCQ2t1aXphUzFrQXpKZnoycUh4R1JCc3pJWG01V3pmUnBnOWFKalBkS1Z3LVVzQ21n?oc=5",
-    "summary": "CFPB Tells Judge It Plans to Redo Consumer Data Rights Rule  Bloomberg",
-    "publishedAt": "2025-07-29T22:10:13+00:00",
-    "fetchedAt": "2025-07-30T09:09:19.591521+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "655e24079dccd07e"
-  },
-  {
-    "id": "yahoo-finance-c883f4b88346e3aa",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why Eli Lilly Stock Was Looking Sickly Today",
-    "url": "https://finance.yahoo.com/news/why-eli-lilly-stock-looking-220655393.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:06:55+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.331124+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c883f4b88346e3aa"
-  },
-  {
-    "id": "business-insider-e05c1f08b2a3e3d4",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "My 17-year-old isn't excited about being able to drive. I get his hesitation.",
-    "url": "https://www.businessinsider.com/teen-doesnt-want-need-drivers-license-2025-7",
-    "summary": "Services like Uber make having a driver's license as a teen less of a necessity. My son doesn't have the same desire to drive that I did in the 90s.",
-    "publishedAt": "2025-07-29T22:06:01+00:00",
-    "fetchedAt": "2025-07-30T08:08:52.619023+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "e05c1f08b2a3e3d4"
-  },
-  {
-    "id": "yahoo-finance-3c303e9bb56b007c",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Nvidia AI chip challenger Groq said to be nearing new fundraising at $6B valuation",
-    "url": "https://finance.yahoo.com/news/nvidia-ai-chip-challenger-groq-220251746.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:02:51+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.330763+00:00",
-    "category": "markets",
-    "tags": [
-      "AI",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3c303e9bb56b007c"
-  },
-  {
-    "id": "yahoo-finance-cbf4b87e28c6fa85",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why Globe Life Stock Rocketed Almost 7% Higher Today",
-    "url": "https://finance.yahoo.com/news/why-globe-life-stock-rocketed-220244121.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:02:44+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.330395+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "cbf4b87e28c6fa85"
-  },
-  {
-    "id": "marketwatch-07c060f0ede44eb7",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "Social Security wants to make a change that would cause 3.4 million more people to have to visit its field offices",
-    "url": "https://www.marketwatch.com/story/social-security-wants-to-make-a-change-that-would-cause-3-4-million-more-people-to-have-to-visit-its-field-offices-fcc697a8?mod=mw_rss_topstories",
-    "summary": "Proposed new rules would cause ‘a significant new burden,’ critics say",
-    "publishedAt": "2025-07-29T22:02:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:53.066093+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "07c060f0ede44eb7"
-  },
-  {
-    "id": "yahoo-finance-ddea0fc78443f075",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "I’m a Financial Expert: 4 Reasons I’m in Favor of ‘No Buy July’",
-    "url": "https://finance.yahoo.com/news/m-financial-expert-4-reasons-220009314.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T22:00:09+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.329857+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ddea0fc78443f075"
-  },
-  {
-    "id": "marketwatch-d40dd0280eb0f119",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "Are Americans squandering their retirement savings on eating out?",
-    "url": "https://www.marketwatch.com/story/are-americans-squandering-their-retirement-savings-on-eating-out-55de7d0e?mod=mw_rss_topstories",
-    "summary": "Americans spend almost as much dining in restaurants every year as they owe in student debt.",
-    "publishedAt": "2025-07-29T22:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:08:53.066269+00:00",
-    "category": "markets",
-    "tags": [
-      "Debt",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "d40dd0280eb0f119"
-  },
-  {
-    "id": "bloomberg-economics-f62cb508665b3db5",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Chile Central Bank Cuts Interest Rate to 4.75% and Keeps Guidance for More Reductions",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/chile-central-bank-cuts-interest-rate-to-4-75",
-    "summary": "Chile’s central bank cut its interest rate for the first time this year and kept guidance for more monetary easing in coming quarters as a weak labor market crimps activity and inflation slows down.",
-    "publishedAt": "2025-07-29T21:59:19+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.546837+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "f62cb508665b3db5"
-  },
-  {
-    "id": "yahoo-finance-51dd9133a63b66f8",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Temu Joins International Trademark Association",
-    "url": "https://finance.yahoo.com/news/temu-joins-international-trademark-association-215807284.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T21:58:07+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.329467+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "51dd9133a63b66f8"
-  },
-  {
-    "id": "wsj-world-news-541bd50b5482a13e",
-    "sourceId": "wsj-world-news",
-    "sourceName": "WSJ World News",
-    "title": "Opinion | Keir Starmer Has Conditions for Israel",
-    "url": "https://www.wsj.com/opinion/keir-starmer-palestinian-state-israel-hamas-labour-party-u-k-b842a601",
-    "summary": "Or else the U.K. will appease Hamas and its ex-Labour supporters.",
-    "fullContent": "Or else the U.K. will appease Hamas and its ex-Labour supporters.",
-    "publishedAt": "2025-07-29T21:48:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.070427+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "low",
-    "contentHash": "541bd50b5482a13e"
-  },
-  {
-    "id": "wsj-opinion-f5889707f5652f0b",
-    "sourceId": "wsj-opinion",
-    "sourceName": "WSJ Opinion",
-    "title": "Opinion | On Sarepta, a Welcome FDA Reversal",
-    "url": "https://www.wsj.com/opinion/fda-reversal-elevydis-sarepta-duchenne-gene-therapy-marty-makary-b6072d1f?mod=rss_Technology",
-    "summary": "After our editorial, the agency relents to allow a Duchenne treatment.",
-    "fullContent": "After our editorial, the agency relents to allow a Duchenne treatment.",
-    "publishedAt": "2025-07-29T21:48:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.113650+00:00",
-    "category": "blogs",
-    "tags": [
-      "Blogs"
-    ],
-    "priority": "low",
-    "contentHash": "f5889707f5652f0b"
-  },
-  {
-    "id": "cnbc-business-5a65bf0c",
-    "sourceId": "cnbc-business",
-    "sourceName": "CNBC Business",
-    "title": "Starbucks same-store sales fall again, but CEO Niccol says turnaround is ahead of schedule",
-    "url": "https://www.cnbc.com/2025/07/29/starbucks-sbux-q3-2025-earnings.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T21:46:28.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5a65bf0c"
-  },
-  {
-    "id": "yahoo-finance-28aba25e866af1e8",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Heard on the Street Recap: Big Swings",
-    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-29-2025/card/heard-on-the-street-big-swings-AQ4rOLJkIlGSohNRzsrd?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T21:45:03+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.329292+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "28aba25e866af1e8"
-  },
-  {
-    "id": "yahoo-finance-33689f5b7c88eb61",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "SEC Postpones Decision on Truth Social Bitcoin ETF",
-    "url": "https://finance.yahoo.com/news/sec-postpones-decision-truth-social-214500588.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T21:45:00+00:00",
-    "fetchedAt": "2025-07-31T09:45:19.329095+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "33689f5b7c88eb61"
   }
 ]

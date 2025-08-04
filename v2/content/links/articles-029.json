@@ -1,5 +1,658 @@
 [
   {
+    "id": "scmp-business-1c197a0811afacb8",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Sea search launched after Hong Kong man in rented kayak goes missing",
+    "url": "https://www.scmp.com/news/hong-kong/society/article/3319770/sea-search-launched-after-hong-kong-man-rented-kayak-goes-missing?utm_source=rss_feed",
+    "summary": "Hong Kong rescue teams have been searching the waters around Sai Kung after a man failed to return a rented kayak on the weekend. Authorities received a report from a kayak rental company in Pak Lap, Sai Kung, at about 5pm on Sunday, saying a male customer in his forties had not returned after heading out earlier in the day. The man reportedly aimed to paddle to the remote and scenic Po Pin Chau, with plans to return the kayak by 4.30pm. Concerned for his safety, company staff alerted...",
+    "publishedAt": "2025-07-27T16:26:50+00:00",
+    "fetchedAt": "2025-07-28T06:37:10.255126+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "breaking",
+    "contentHash": "1c197a0811afacb8"
+  },
+  {
+    "id": "business-insider-ea07ff50accccf2f",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "The dark side of the Shroom Boom",
+    "url": "https://www.businessinsider.com/the-dark-side-of-the-shroom-boom-psychedelic-medicine-abuse-2025-6",
+    "summary": "Psychedelic medicine is booming. Will it heal trauma, or create even more?",
+    "publishedAt": "2025-07-27T16:24:46+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.892597+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ea07ff50accccf2f"
+  },
+  {
+    "id": "ft-economics-216de9c524d96969",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "White House presses Fed for ‘dramatically lower’ rates as meeting looms",
+    "url": "https://www.ft.com/content/76f13fc1-bceb-4d2f-a326-bd1bf256fc04",
+    "summary": "Jay Powell expected to widen rift with Trump by keeping monetary policy unchanged at Wednesday’s meeting",
+    "publishedAt": "2025-07-27T16:21:06+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.914813+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "216de9c524d96969"
+  },
+  {
+    "id": "doomberg-6b1c348c97bd88d2",
+    "sourceId": "doomberg",
+    "sourceName": "Doomberg",
+    "title": "Tip of the Iceberg",
+    "url": "https://newsletter.doomberg.com/p/tip-of-the-iceberg",
+    "summary": "Pro Tier: July 2025 Doom Zoom",
+    "publishedAt": "2025-07-27T16:20:33+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.642042+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "6b1c348c97bd88d2"
+  },
+  {
+    "id": "techmeme-118eef0d73bcacc7",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Records show China's Starlink rivals have only ~120 satellites in orbit, less than 1% of their goal, vs. SpaceX's ~8,000, underscoring how far behind they are (New York Times)",
+    "url": "http://www.techmeme.com/250727/p15#a250727p15",
+    "summary": "New York Times: Records show China's Starlink rivals have only ~120 satellites in orbit, less than 1% of their goal, vs. SpaceX's ~8,000, underscoring how far behind they are  —  It's looking unlikely.  Here's why.  —  There are over 11,000 satellites in low Earth orbit, providing internet, surveillance and navigation services.",
+    "publishedAt": "2025-07-27T16:20:00+00:00",
+    "fetchedAt": "2025-07-28T06:12:26.071010+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "118eef0d73bcacc7"
+  },
+  {
+    "id": "techmeme-df971a399aed9a77",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Records: China's Starlink rivals have only ~120 satellites in orbit, less than 1% of their goal and below SpaceX's ~8,000, underscoring how far behind they are (New York Times)",
+    "url": "http://www.techmeme.com/250727/p15#a250727p15",
+    "summary": "New York Times: Records: China's Starlink rivals have only ~120 satellites in orbit, less than 1% of their goal and below SpaceX's ~8,000, underscoring how far behind they are  —  It's looking unlikely.  Here's why.  —  There are over 11,000 satellites in low Earth orbit, providing internet, surveillance and navigation services.",
+    "publishedAt": "2025-07-27T16:20:00+00:00",
+    "fetchedAt": "2025-07-28T08:46:17.302710+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "high",
+    "contentHash": "df971a399aed9a77"
+  },
+  {
+    "id": "zerohedge-c8a1c0584614fd3c",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "11 Stabbed In Attack At Michigan Walmart",
+    "url": "https://www.zerohedge.com/medical/11-stabbed-attack-michigan-walmart",
+    "summary": "11 Stabbed In Attack At Michigan Walmart A stabbing incident at a Walmart in Traverse City, Michigan, left at least 11 people injured, according to authorities. The local sheriff’s office is investigating the attack and details are limited, but Michigan State Police confirmed that a suspect was in custody. Meanwhile, T.J.Muscaro reports for The Epoch Times that Munson Healthcare posted on social media that 11 people were being treated at a hospital in northern Michigan, and a spokeswoman further said that all 11 were stabbing victims. Spokesperson Megan Brown said late Saturday that six were in critical condition and five were in serious condition. The Grand Traverse County Sheriff’s Office later said in a statement on social media that the suspect was a 42-year-old man who entered the store around 4:45 p.m. A sheriff’s deputy arrived within minutes of the suspect drawing his knife. He was taken into custody, and people in the store also helped apprehend the suspect and treat victims, ",
+    "publishedAt": "2025-07-27T16:15:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.545247+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c8a1c0584614fd3c"
+  },
+  {
+    "id": "advisor-perspectives-44602f1e9695edcd",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "A New AI Playbook for America",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/27/new-ai-playbook-america?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "This week, the White House released America’s AI Action Plan. This plan is the clearest signal yet that Washington now views AI as launching the next industrial super-cycle.",
+    "publishedAt": "2025-07-27T16:05:52+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.662821+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "44602f1e9695edcd"
+  },
+  {
+    "id": "fortune-95ab4419d30ebd96",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "‘US exceptionalism roars back’ as markets defy doomsayers and draw record foreign inflows after panic over Trump tariffs",
+    "url": "https://fortune.com/2025/07/27/us-markets-american-exceptionalism-foreign-investors-stocks-treasury-bonds/",
+    "summary": "\"The hurdle for the US to experience genuine capital flight is high and certainly wasn’t breached in April.\"",
+    "publishedAt": "2025-07-27T16:05:48+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.631126+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "95ab4419d30ebd96"
+  },
+  {
+    "id": "scmp-business-e70ceabb48b30995",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "CK Hutchison seeks mainland strategic investor for US$23 billion ports deal",
+    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3319768/talks-deadline-ck-hutchison-us23-billion-panama-ports-deal-passes-sunday?utm_source=rss_feed",
+    "summary": "Hong Kong tycoon Li Ka-shing’s CK Hutchison Holdings has said it plans to invite a major strategic investor from mainland China to join as a “significant member” of a consortium seeking to buy its global port stakes, after a deadline for exclusive talks on the US$23 billion sale deal expired on Sunday. The controversial transaction involved CK Hutchison selling stakes in 43 ports, including two at either end of the Panama Canal, to the consortium led by Terminal Investment Limited, an affiliate...",
+    "publishedAt": "2025-07-27T16:01:14+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.592063+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "high",
+    "contentHash": "e70ceabb48b30995"
+  },
+  {
+    "id": "scmp-business-11feee0374dee474",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "CK Hutchison seeks mainland strategic investor for US$23 billion ports deal",
+    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3319768/talks-deadline-ck-hutchison-us23-billion-panama-ports-deal-passes-sunday?utm_source=rss_feed",
+    "summary": "Hong Kong tycoon Li Ka-shing’s CK Hutchison Holdings has said it plans to invite a major strategic investor from mainland China to join as a “significant member” of a consortium seeking to buy its global port stakes, after a deadline for exclusive talks on the US$23 billion deal expired on Sunday. The controversial transaction involved CK Hutchison selling stakes in 43 ports, including two at either end of the Panama Canal, to the consortium led by Terminal Investment Limited, an affiliate of...",
+    "publishedAt": "2025-07-27T16:01:14+00:00",
+    "fetchedAt": "2025-07-28T04:44:18.879368+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "11feee0374dee474"
+  },
+  {
+    "id": "scmp-business-d93a0143919416e7",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "CK Hutchison seeks mainland Chinese investor for US$23 billion ports deal",
+    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3319768/talks-deadline-ck-hutchison-us23-billion-panama-ports-deal-passes-sunday?utm_source=rss_feed",
+    "summary": "Hong Kong tycoon Li Ka-shing’s CK Hutchison Holdings has said it plans to invite a major strategic investor from mainland China to join as a “significant member” of a consortium seeking to buy its global port stakes, after a deadline for exclusive talks on the US$23 billion deal expired on Sunday. The controversial deal involved CK Hutchison selling stakes in 43 ports, including two at either end of the Panama Canal, to the consortium led by Terminal Investment Limited, an affiliate of the...",
+    "publishedAt": "2025-07-27T16:01:14+00:00",
+    "fetchedAt": "2025-07-28T05:55:49.061404+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "high",
+    "contentHash": "d93a0143919416e7"
+  },
+  {
+    "id": "scmp-business-8d4205708cb29108",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "CK Hutchison seeks mainland Chinese investor for US$23 billion ports deal",
+    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3319768/talks-deadline-ck-hutchison-us23-billion-panama-ports-deal-passes-sunday?utm_source=rss_feed",
+    "summary": "Hong Kong tycoon Li Ka-shing’s CK Hutchison Holdings has said it plans to invite a major strategic investor from mainland China to join as a “significant member” of a consortium seeking to buy its global port stakes, after a deadline for exclusive talks on the US$23 billion deal expired at the weekend. Hours after the announcement of CK Hutchison on Monday, Chinese Ministry of Foreign Affairs spokesman Guo Jiakun said the central government would regulate in accordance with the law and safeguard...",
+    "publishedAt": "2025-07-27T16:01:14+00:00",
+    "fetchedAt": "2025-07-28T09:46:55.061678+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "8d4205708cb29108"
+  },
+  {
+    "id": "marginal-revolution-a6854bb6a3f8453e",
+    "sourceId": "marginal-revolution",
+    "sourceName": "Marginal Revolution",
+    "title": "Sunday assorted links",
+    "url": "https://marginalrevolution.com/marginalrevolution/2025/07/sunday-assorted-links-526.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-526",
+    "summary": "1. Those old service sector jobs. 2. Does aging accelerate at age fifty? 3. India travel dispatch. 4. Queen Anne statue still regulating betting in DC. 5. Defending social media. 6. What Dan read, NYT coverage here. 7. Bunch of complicated prediction market results about central bank independence. The post Sunday assorted links appeared first on Marginal REVOLUTION.",
+    "publishedAt": "2025-07-27T15:51:25+00:00",
+    "fetchedAt": "2025-07-28T04:04:07.242340+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "a6854bb6a3f8453e"
+  },
+  {
+    "id": "benthams-5088acb4bf9f4eca",
+    "sourceId": "benthams",
+    "sourceName": "Benthams",
+    "title": "The \"Freethinkers\" Who Aren't",
+    "url": "https://benthams.substack.com/p/the-freethinkers-who-arent",
+    "summary": "How the “heterodox” became what they hated",
+    "publishedAt": "2025-07-27T15:46:15+00:00",
+    "fetchedAt": "2025-07-28T06:33:12.502932+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "5088acb4bf9f4eca"
+  },
+  {
+    "id": "zerohedge-7b4c7da8192f8568",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "Bongino Declares He's \"Shocked To The Core\" By FBI Deep State Investigations",
+    "url": "https://www.zerohedge.com/political/bongino-declares-hes-shocked-core-fbi-deep-state-investigations",
+    "summary": "Bongino Declares He's \"Shocked To The Core\" By FBI Deep State Investigations Authored by Steve Watson via Modernity.news, Deputy FBI Director Dan Bongino has claimed that investigations into Deep State weaponisation of law enforcement and intelligence operations are underway behind the scenes and that what he has already discovered has profoundly “shocked” him. “During my tenure here as the Deputy Director of the FBI, I have repeatedly relayed to you that things are happening that might not be immediately visible, but they are happening,” Bongino states in an X post. He adds, “The Director and I are committed to stamping out public corruption and the political weaponization of both law enforcement and intelligence operations. It is a priority for us.” During my tenure here as the Deputy Director of the FBI, I have repeatedly relayed to you that things are happening that might not be immediately visible, but they are happening. The Director and I are committed to stamping out public cor",
+    "publishedAt": "2025-07-27T15:40:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.546738+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7b4c7da8192f8568"
+  },
+  {
+    "id": "handelsblatt-711d65a7de7bb028",
+    "sourceId": "handelsblatt",
+    "sourceName": "Handelsblatt",
+    "title": "Handelskrieg: USA und China verlängern voraussichtlich Frist im Zollstreit",
+    "url": "https://www.handelsblatt.com/politik/international/handelskrieg-usa-und-china-verlaengern-voraussichtlich-frist-im-zollstreit/100144404.html",
+    "summary": "Die USA und China verhandeln in Stockholm über Strafzölle. Jetzt haben sich die beiden Mächte wohl auf eine vorübergehende Aussetzung der Zölle geeinigt.",
+    "publishedAt": "2025-07-27T15:37:18+00:00",
+    "fetchedAt": "2025-07-28T08:47:58.275602+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "711d65a7de7bb028"
+  },
+  {
+    "id": "zerohedge-4f1bcd18b2808b63",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "China, US Extend Tariff Pause Another 90 Days",
+    "url": "https://www.zerohedge.com/geopolitical/china-us-extend-tariff-pause-another-90-days",
+    "summary": "China, US Extend Tariff Pause Another 90 Days Ahead of trade talks in Stockholm that are set to begin tomorrow, The South China Morning Post reports that, according to sources close to the matter on both sides, the US and China are set to extend their tariff truced by another three months. China and the United States agreed in May to remove most of the heavy tariffs levied on each other's goods for 90 days while continuing trade negotiations. That suspension is set to expire on August 12. SCMP reports that one source said that, during the expected 90-day extension, the two nations will commit to not impose additional tariffs on each other, nor escalate the trade war by other means. People's Daily, the mouthpiece of China's ruling Communist Party, said in an editorial on Sunday that Beijing was willing to work with Washington to make \"substantive progress\" in resolving issues during the coming trade talks in the Swedish capital. \"China has always maintained a constructive position and i",
+    "publishedAt": "2025-07-27T15:37:11+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.548387+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4f1bcd18b2808b63"
+  },
+  {
+    "id": "techmeme-23189924abbfa655",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "April, which provides tax tools that embed directly into financial apps, raised a $38M Series B led by QED Investors, bringing its total funding to $78M (Ryan Lawler/Axios)",
+    "url": "http://www.techmeme.com/250727/p14#a250727p14",
+    "summary": "Ryan Lawler / Axios: April, which provides tax tools that embed directly into financial apps, raised a $38M Series B led by QED Investors, bringing its total funding to $78M",
+    "publishedAt": "2025-07-27T15:30:00+00:00",
+    "fetchedAt": "2025-07-28T06:12:26.071477+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "23189924abbfa655"
+  },
+  {
+    "id": "bloomberg-economics-4c02766e2899058b",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "US and China Are Expected to Extend Trade Truce by 90 Days, SCMP Says",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-and-china-are-expected-to-extend-trade-truce-by-90-days-scmp-says",
+    "summary": "US and China are expected to extend their tariff truce by another three months, the South China Morning Post reported, citing unnamed sources.",
+    "publishedAt": "2025-07-27T15:29:29+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.979144+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "4c02766e2899058b"
+  },
+  {
+    "id": "wealth-common-sense-1faf2082b072673d",
+    "sourceId": "wealth-common-sense",
+    "sourceName": "A Wealth of Common Sense",
+    "title": "Housing Market Nobility",
+    "url": "https://awealthofcommonsense.com/2025/07/housing-market-nobility/",
+    "summary": "Housing haves and have-nots. The post Housing Market Nobility appeared first on A Wealth of Common Sense. ...",
+    "publishedAt": "2025-07-27T15:25:27+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.219911+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1faf2082b072673d"
+  },
+  {
+    "id": "fortune-c9e9a4ddbe3537ec",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "US-EU trade deal with 15% tariff is on the table but needs sign-off from Trump, diplomat says",
+    "url": "https://fortune.com/2025/07/27/us-eu-trade-deal-15-perent-tariff-trump-talks-lng-carveouts/",
+    "summary": "Under the proposal described to AFP, the EU would commit to ramp up purchases of US liquefied natural gas, along with other investment pledges.",
+    "publishedAt": "2025-07-27T15:20:20+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.631326+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "c9e9a4ddbe3537ec"
+  },
+  {
+    "id": "econbrowser-b1da16f4a2abd11b",
+    "sourceId": "econbrowser",
+    "sourceName": "Econbrowser",
+    "title": "Betting on 2.5%",
+    "url": "https://econbrowser.com/archives/2025/07/betting-on-2-5",
+    "summary": "Kalshi today. 2.4% from GDPNow and the Bloomberg consensus. Figure 1: GDP as reported (bold black), GDPNow (blue open square), NY Fed (light blue triangle) WSJ July survey mean (tan), Kalshi bet, 7/28 (pink circle), Bloomberg consensus as of 7/28 (light green circle), all in bn.Ch.2017$, SAAR. All predictions as of 7/25 unless otherwise indicated. […]",
+    "publishedAt": "2025-07-27T15:19:08+00:00",
+    "fetchedAt": "2025-07-28T04:04:07.824694+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "ESG"
+    ],
+    "priority": "high",
+    "contentHash": "b1da16f4a2abd11b"
+  },
+  {
+    "id": "techmeme-21c6cdb4132877a4",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "New York City-based cybersecurity company Axonius acquires Cynerio, which offers healthcare IoT cybersecurity and asset management services, for $180M (Golan Hazani/CTech)",
+    "url": "http://www.techmeme.com/250727/p13#a250727p13",
+    "summary": "Golan Hazani / CTech: New York City-based cybersecurity company Axonius acquires Cynerio, which offers healthcare IoT cybersecurity and asset management services, for $180M  —  Move expands company's offerings amid growing threats to connected medical devices.  —  Cynerio  —  Axonius  —  Cybersecurity  —  Acquisition",
+    "publishedAt": "2025-07-27T15:10:01+00:00",
+    "fetchedAt": "2025-07-28T06:12:26.072131+00:00",
+    "category": "technology",
+    "tags": [
+      "M&A",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "21c6cdb4132877a4"
+  },
+  {
+    "id": "zerohedge-454b21c75648b5f7",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "Trump: Macron's Two-State Talk \"Doesn't Matter\" & \"Carries No Weight\"",
+    "url": "https://www.zerohedge.com/political/trump-macrons-two-state-talk-doesnt-matter-carries-no-weight",
+    "summary": "Trump: Macron's Two-State Talk \"Doesn't Matter\" & \"Carries No Weight\" France this week became the largest European nation, and the first G7 country, to recognize a Palestinian state, a move strongly condemned by Israel - and which has also angered Washington President Donald Trump in Friday comments to the press dismissed French President Emmanuel Macron’s announcement that he would recognize a Palestinian state, saying it would have no ultimate or real impact. \"The good news is, what he says doesn’t matter. It won’t change anything,\" Trump told reporters on the White House lawn. \"He’s a good guy. I like him, but that statement carries no weight.\" Via AFP Trump went on to describe Macron as \"a different kind of guy\" but still \"a team player.\" Macron signaled that he plans to make the recognition official at the United Nations General Assembly in September. France's decision was announced in a letter sent to Palestinian President Mahmoud Abbas by Macron. \"True to its historic commitment",
+    "publishedAt": "2025-07-27T15:05:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.549578+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "454b21c75648b5f7"
+  },
+  {
+    "id": "join-reboot-2eef44f0",
+    "sourceId": "join-reboot",
+    "sourceName": "Join Reboot",
+    "title": "",
+    "url": "https://joinreboot.org/p/by-and-for-technologists",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-27T15:01:27.000Z",
+    "fetchedAt": "2025-08-04T10:04:41.635Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "2eef44f0"
+  },
+  {
+    "id": "scmp-business-9411ca03b9625b8f",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "China, US to extend tariff pause at Sweden talks by another 90 days: sources",
+    "url": "https://www.scmp.com/economy/china-economy/article/3319604/china-us-extend-tariff-pause-sweden-talks-another-90-days-sources?utm_source=rss_feed",
+    "summary": "Beijing and Washington are expected to extend their tariff truce by another three months at trade talks in Stockholm beginning on Monday, according to sources close to the matter on both sides. China and the United States agreed in May to remove most of the heavy tariffs levied on each other’s goods for 90 days while continuing trade negotiations. That suspension is set to expire on August 12. During the third round of trade negotiations between the world’s two biggest economies, both will...",
+    "publishedAt": "2025-07-27T15:00:09+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.592325+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9411ca03b9625b8f"
+  },
+  {
+    "id": "ft-markets-78591ab28f706b8d",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "The coming crypto crisis",
+    "url": "https://www.ft.com/content/efc848c0-0990-4623-98ed-1176e97f04cb",
+    "summary": "Bipartisan backing of stablecoins will hurt America’s economy and its politics",
+    "publishedAt": "2025-07-27T15:00:01+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.543631+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "breaking",
+    "contentHash": "78591ab28f706b8d"
+  },
+  {
+    "id": "bloomberg-markets-2394502fa34a6236",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Traders Hedging Stocks at Record Highs Dabble in Exotic Options",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/traders-hedging-stocks-at-record-highs-dabble-in-exotic-options",
+    "summary": "Investors looking to protect against a pullback with stocks at peaks are venturing beyond plain-vanilla options.",
+    "publishedAt": "2025-07-27T15:00:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.969724+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2394502fa34a6236"
+  },
+  {
+    "id": "oil-price-0fc68fb3e4c717b9",
+    "sourceId": "oil-price",
+    "sourceName": "OilPrice.com",
+    "title": "How Trump Is Stalling Solar and Wind Projects",
+    "url": "https://oilprice.com/Energy/Energy-General/How-Trump-Is-Stalling-Solar-and-Wind-Projects.html",
+    "summary": "United States President Donald Trump announced plans in July to tighten federal permitting to restrict solar and wind energy development. This follows the passing on Trump’s One Big Beautiful Bill Act, which seeks to expand the fossil fuel and nuclear power sectors while also halting renewable energy progress in the U.S. These moves could lead energy companies to pause investments in renewable energy projects due to the uncertain outlook for the industry, as developers face more red tape and fewer financial incentives in establishing new…",
+    "publishedAt": "2025-07-27T15:00:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.903858+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "0fc68fb3e4c717b9"
+  },
+  {
+    "id": "ft-technology-fa2b3a2e2cdcd225",
+    "sourceId": "ft-technology",
+    "sourceName": "FT Technology",
+    "title": "French defence firm Naval Group investigates cyber leak",
+    "url": "https://www.ft.com/content/ccbafbbf-6693-476d-8949-6dbf68b37ddb",
+    "summary": "Company assessing hackers’ claim that they have accessed sensitive data on submarines and frigates",
+    "publishedAt": "2025-07-27T14:55:45+00:00",
+    "fetchedAt": "2025-07-28T08:47:56.306244+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "fa2b3a2e2cdcd225"
+  },
+  {
+    "id": "fortune-0a0215677597f9e7",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Tesla engineering VP Moravy says company in ‘big swing moment’",
+    "url": "https://fortune.com/2025/07/27/tesla-engineering-vp-lars-moravy-big-swing-moment-musk-robotaxi-optimus-semi/",
+    "summary": "Moravy said he’s personally most excited about Semi truck — built at the company’s factory near Reno, Nevada — and called it key to the company’s mission.",
+    "publishedAt": "2025-07-27T14:46:24+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.631530+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0a0215677597f9e7"
+  },
+  {
+    "id": "techmeme-49e8ab8e694aec4b",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "NYC-based Courtyard, which sells \"mystery packs\" of collectible cards and comic books that customers can resell on its marketplace, raised a $30M Series A (Jason Del Rey/Fortune)",
+    "url": "http://www.techmeme.com/250727/p12#a250727p12",
+    "summary": "Jason Del Rey / Fortune: NYC-based Courtyard, which sells “mystery packs” of collectible cards and comic books that customers can resell on its marketplace, raised a $30M Series A  —  COURTYARD  —  I admit it, I have a soft spot for sports cards.  Over the past year, an embarrassingly steady stream …",
+    "publishedAt": "2025-07-27T14:45:00+00:00",
+    "fetchedAt": "2025-07-28T06:12:26.072679+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "49e8ab8e694aec4b"
+  },
+  {
+    "id": "zerohedge-eb85e8d4049e0be6",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "Retailers Accused Of \"Racism\" As They Flee Black Neighborhoods In Milwaukee",
+    "url": "https://www.zerohedge.com/political/retailers-accused-racism-they-flee-black-neighborhoods-milwaukee",
+    "summary": "Retailers Accused Of \"Racism\" As They Flee Black Neighborhoods In Milwaukee Milwaukee is the latest in a long list of US cities facing a rapid retail exodus in minority neighborhoods and once again the blame is being placed on the companies in question rather than the behavior of the residents as they protests the rising tide of \"food deserts\". At the beginning of July, city officials mounted a public outcry after Cincinnati-based Kroger Co. announced the decision to close at least five Pick 'n Save supermarket locations, including one in Milwaukee's Metcalfe Park neighborhood. The city was also notified by Walgreens that they will be closing at least seven locations over the next two years and CVS will be closing some locations as well.  Activists argue that the closures center around \"black and brown neighborhoods\" and that these areas \"deserve access\" to nearby grocery outlets. Kroger's decision was discussed at a July 2 meeting of the Common Council's Community and Economic Develop",
+    "publishedAt": "2025-07-27T14:44:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.550452+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "eb85e8d4049e0be6"
+  },
+  {
+    "id": "fortune-a2d853f38b70e47b",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Citi charges $595 for ‘Strata Elite’ credit card to rival Amex, Chase",
+    "url": "https://fortune.com/2025/07/27/citi-strata-elite-credit-card-rewards-travel-amex-chase/",
+    "summary": "It offers the largest points rewards for hotels, car rentals and attractions booked on Citigroup’s travel platform, as well as restaurant dining at peak weekend times.",
+    "publishedAt": "2025-07-27T14:35:36+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.631739+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a2d853f38b70e47b"
+  },
+  {
+    "id": "ft-technology-1577ae8a494bed4e",
+    "sourceId": "ft-technology",
+    "sourceName": "FT Technology",
+    "title": "VPN use surges in UK as new online safety rules kick in",
+    "url": "https://www.ft.com/content/356674b0-9f1d-4f95-b1d5-f27570379a9b",
+    "summary": "Jump in apps disguising internet users’ location threatens to undermine government efforts to protect children",
+    "publishedAt": "2025-07-27T14:32:37+00:00",
+    "fetchedAt": "2025-07-28T08:47:56.306464+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "1577ae8a494bed4e"
+  },
+  {
+    "id": "zerohedge-685326f68dac7091",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "Is The Epstein Affair A Watershed Moment?",
+    "url": "https://www.zerohedge.com/political/epstein-affair-watershed-moment",
+    "summary": "Is The Epstein Affair A Watershed Moment? Authored by Charles Hugh Smith via OfTwoMinds blog, Perhaps when we look back on the Epstein Affair, we'll understand that it broke the back of Americans' faith in their political and law enforcement institutions. We're being told the Epstein Affair is old news, nothing to see here, move along--but I'm not so sure. It could be the opposite of old news, a watershed moment in American history. Watershed moments can be sudden, dramatic events that we all experience as \"nothing is the same after this,\" or long-brewing crises that we only discern were watersheds when looking back. The Epstein Affair may be the second type of watershed, only recognized in the rear view mirror. In his post Jeff Epstein, MAGA, and Monopolies, Matt Stoller made two noteworthy observations: 1. The MAGA movement--which includes many factions--attached great importance to the Epstein case as the most egregious manifestation of elite abuse of power. To have the files buried",
+    "publishedAt": "2025-07-27T14:30:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.552169+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "685326f68dac7091"
+  },
+  {
+    "id": "techmeme-b8963bd69a358178",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Indian software services provider Tata Consultancy Services plans to cut 2% of its global workforce, or about 12,000 employees, by March 31, 2026 (Moneycontrol)",
+    "url": "http://www.techmeme.com/250727/p11#a250727p11",
+    "summary": "Moneycontrol: Indian software services provider Tata Consultancy Services plans to cut 2% of its global workforce, or about 12,000 employees, by March 31, 2026  —  In an interview with Moneycontrol, TCS CEO K Krithivasan described the decision as one of the toughest he has faced, calling it a necessary step to build a stronger, future-ready company.",
+    "publishedAt": "2025-07-27T14:25:03+00:00",
+    "fetchedAt": "2025-07-28T06:12:26.073150+00:00",
+    "category": "technology",
+    "tags": [
+      "Tech",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "b8963bd69a358178"
+  },
+  {
+    "id": "thehindubusinessline-d6f51d8bff538262",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "India’s farm commodities may not gain much from FTA as UK is not a major buyer of raw produce",
+    "url": "https://www.thehindubusinessline.com/economy/agri-business/indias-farm-commodities-may-not-gain-much-from-fta-as-uk-is-not-a-major-buyer-of-raw-produce/article69861866.ece",
+    "summary": "With the UK preferring processed over raw farm products and lacking significant agri exports, India’s farm sector sees minimal impact from the proposed trade deal",
+    "publishedAt": "2025-07-27T14:12:58+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.358654+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "d6f51d8bff538262"
+  },
+  {
+    "id": "freddie-deboer-b78be5c2e4ea5bcf",
+    "sourceId": "freddie-deboer",
+    "sourceName": "Freddie deBoer",
+    "title": "Preseason Sunday: I'm Afraid That Justin Fields is Not a Very Good Quarterback",
+    "url": "https://freddiedeboer.substack.com/p/preseason-sunday-im-afraid-that-justin",
+    "summary": "I’m in Persuasion talking about the irrationality of stranger danger fears, and I was in The Times of London this past week writing about Zohran Mamdani. Please check them both out.",
+    "publishedAt": "2025-07-27T14:01:49+00:00",
+    "fetchedAt": "2025-07-28T06:33:11.869710+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "b78be5c2e4ea5bcf"
+  },
+  {
     "id": "the-verge-17458ae81ccd56c5",
     "sourceId": "the-verge",
     "sourceName": "The Verge",
@@ -978,662 +1631,5 @@
     ],
     "priority": "normal",
     "contentHash": "0aec5a1be8f1be95"
-  },
-  {
-    "id": "yahoo-finance-f6015e5c63b0ef75",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Boston Scientific Corporation (BSX) Is One Of The Most Reliable Companies, Says Jim Cramer",
-    "url": "https://finance.yahoo.com/news/boston-scientific-corporation-bsx-one-231037194.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T23:10:37+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.386791+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f6015e5c63b0ef75"
-  },
-  {
-    "id": "yahoo-finance-11d1e72e29730d88",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Intuitive Surgical, Inc. (ISRG): “I Really Like” It, Says Jim Cramer",
-    "url": "https://finance.yahoo.com/news/intuitive-surgical-inc-isrg-really-231011738.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T23:10:11+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.386747+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "11d1e72e29730d88"
-  },
-  {
-    "id": "bbc-business-f7996c1f22781b1f",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Why I'm not paying into a pension",
-    "url": "https://www.bbc.com/news/articles/c05631v11ndo",
-    "summary": "Almost half of UK adults do not pay into a private or workplace pension - some of them tell us why.",
-    "publishedAt": "2025-07-26T23:06:21+00:00",
-    "fetchedAt": "2025-07-28T08:47:55.135239+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f7996c1f22781b1f"
-  },
-  {
-    "id": "oil-price-5f66ba628bbb3b3d",
-    "sourceId": "oil-price",
-    "sourceName": "OilPrice.com",
-    "title": "Too Big to Merge? Exxon and Chevron Might Think So",
-    "url": "https://oilprice.com/Energy/Energy-General/Too-Big-to-Merge-Exxon-and-Chevron-Might-Think-So.html",
-    "summary": "Earlier this week, Chevron completed its acquisition of Hess Corp. It was one of the largest deals in the oil and gas space in recent history, after Exxon’s takeover of Pioneer Natural Resources, finalized in 2024. With that out of the way, the question begs to be asked: could the two U.S. giants strike a deal to create a single, much bigger giant? Some argue it might only be a matter of time. Reuters’ Ron Bousso, for instance, wrote in a recent article that Exxon and Chevron are already partners in a number of projects around the world…",
-    "publishedAt": "2025-07-26T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.904115+00:00",
-    "category": "markets",
-    "tags": [
-      "Commodities",
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "5f66ba628bbb3b3d"
-  },
-  {
-    "id": "cepr-discussion-papers-ad5c57bcd02a61d4",
-    "sourceId": "cepr-discussion-papers",
-    "sourceName": "CEPR Discussion Papers",
-    "title": "DP20494 Job Search Assistance for Older Unemployed in the Digital Era: Evidence from a Large Scale RCT",
-    "url": "https://cepr.org/publications/dp20494",
-    "summary": "Digital hiring tools challenge older workers accustomed to traditional job search methods. Using a large-scale RCT, we evaluate a job search training program for high-skilled older unemployed individuals focused on the use of online platforms and social networks. The program increased earnings and job stability for men, especially in jobs requiring complex matching, suggesting improved match quality, but had no positive impact on women's earnings and reduced their employment. Gender differences cannot be explained by observable characteristics or differential compliance but appear to derive from treated women's increased reservation wages and lower returns to online search tools.",
-    "publishedAt": "2025-07-26T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.826124+00:00",
-    "category": "research",
-    "tags": [
-      "Earnings",
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "ad5c57bcd02a61d4"
-  },
-  {
-    "id": "yahoo-finance-019b029723454ab2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "The Smartest Fintech Stocks to Buy With $500 Right Now",
-    "url": "https://finance.yahoo.com/news/smartest-fintech-stocks-buy-500-224100791.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T22:41:00+00:00",
-    "fetchedAt": "2025-07-28T09:03:33.766656+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "019b029723454ab2"
-  },
-  {
-    "id": "yahoo-finance-9dae2eb7ad74a0cc",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "The Best Ultra-High-Yield Bank Stock to Invest $10,000 in Right Now",
-    "url": "https://finance.yahoo.com/news/best-ultra-high-yield-bank-223200667.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T22:32:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.075972+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Debt"
-    ],
-    "priority": "normal",
-    "contentHash": "9dae2eb7ad74a0cc"
-  },
-  {
-    "id": "yahoo-finance-617160ce377d8bd2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Could Buying Joby Aviation Stock Today Set You Up for Life?",
-    "url": "https://finance.yahoo.com/news/could-buying-joby-aviation-stock-222300415.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T22:23:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.075760+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "617160ce377d8bd2"
-  },
-  {
-    "id": "yahoo-finance-d6bada8aa676a8fa",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "If I Could Buy Only 1 Nvidia-Backed Data Center Stock, This Would Be It (Hint: It's Not Nebius)",
-    "url": "https://finance.yahoo.com/news/could-buy-only-1-nvidia-222000530.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T22:20:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.075650+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "d6bada8aa676a8fa"
-  },
-  {
-    "id": "yahoo-finance-e6b2663b867502e6",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Is Energy Transfer the Smartest Investment You Can Make Today?",
-    "url": "https://finance.yahoo.com/news/energy-transfer-smartest-investment-today-221400067.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T22:14:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.075423+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "e6b2663b867502e6"
-  },
-  {
-    "id": "yahoo-finance-6d81e76a8e5406de",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "The Median Retirement Savings for American Households Is $87,000. Here Are 3 Incredible Stocks to Buy Now and Hold for Decades.",
-    "url": "https://finance.yahoo.com/news/median-retirement-savings-american-households-221400677.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T22:14:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.075536+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6d81e76a8e5406de"
-  },
-  {
-    "id": "yahoo-finance-5fe2808739291080",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "AGNC Investment: After Another Tough Quarter, Can the Stock Maintain Its Dividend?",
-    "url": "https://finance.yahoo.com/news/agnc-investment-another-tough-quarter-221000161.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T22:10:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.075318+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "5fe2808739291080"
-  },
-  {
-    "id": "yahoo-finance-033cdb407cb99785",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "3 Monster Stocks to Hold for the Next 10 Years",
-    "url": "https://finance.yahoo.com/news/3-monster-stocks-hold-next-220500595.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T22:05:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.075210+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "033cdb407cb99785"
-  },
-  {
-    "id": "yahoo-finance-e75ed6a12a90407d",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Crypto Still Seen as 'Risky' Among U.S. Investors Despite Ownership Surging 8x Since 2018: Survey",
-    "url": "https://finance.yahoo.com/news/crypto-still-seen-risky-among-220000855.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T22:00:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.074997+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Crypto"
-    ],
-    "priority": "normal",
-    "contentHash": "e75ed6a12a90407d"
-  },
-  {
-    "id": "yahoo-finance-e2313b508559ba2f",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "You’ll Never Guess What the 1% Invest In — Hint, It’s Not Just Stocks",
-    "url": "https://finance.yahoo.com/news/ll-never-guess-1-investing-160101632.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T21:59:09+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.074870+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "e2313b508559ba2f"
-  },
-  {
-    "id": "yahoo-finance-c37b3c2bb8bc3c1f",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Wolfe Research Initiates Coverage on Harmonic Inc. (HLIT) with ‘Underperform’ Rating",
-    "url": "https://finance.yahoo.com/news/wolfe-research-initiates-coverage-harmonic-210029739.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T21:00:29+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.386393+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c37b3c2bb8bc3c1f"
-  },
-  {
-    "id": "yahoo-finance-4e02824c89ba627b",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "A Japanese AI Firm Plans to Buy 3,000 Bitcoin Over Next 12 Months",
-    "url": "https://finance.yahoo.com/news/japanese-ai-firm-plans-buy-210012174.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T21:00:12+00:00",
-    "fetchedAt": "2025-07-28T08:46:13.075105+00:00",
-    "category": "markets",
-    "tags": [
-      "AI",
-      "Markets",
-      "Crypto"
-    ],
-    "priority": "normal",
-    "contentHash": "4e02824c89ba627b"
-  },
-  {
-    "id": "yahoo-finance-878efac66f2800bd",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "DA Davidson Maintains ‘Buy’ Rating on Alight, Inc. (ALIT), Sets PT at $10",
-    "url": "https://finance.yahoo.com/news/da-davidson-maintains-buy-rating-210011232.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T21:00:11+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.386341+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "878efac66f2800bd"
-  },
-  {
-    "id": "yahoo-finance-b100db4e106d00fe",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Sabre Corporation (SABR) and Christopherson Business Travel Collaborate to Modernize Client Value",
-    "url": "https://finance.yahoo.com/news/sabre-corporation-sabr-christopherson-business-205913371.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:59:13+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.386249+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "b100db4e106d00fe"
-  },
-  {
-    "id": "yahoo-finance-40c38217f4fc76a7",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Xerox Holdings Corporation (XRX) Announces Updates to Xerox PrimeLink B9100 Production Press Series and Xerox FreeFlow Workflow Software",
-    "url": "https://finance.yahoo.com/news/xerox-holdings-corporation-xrx-announces-205850071.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:58:50+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.386207+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Tech"
-    ],
-    "priority": "normal",
-    "contentHash": "40c38217f4fc76a7"
-  },
-  {
-    "id": "yahoo-finance-18813ba3f37695cf",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Nokia Oyj (NOK) Reports Lower Q2 Revenue and EPS",
-    "url": "https://finance.yahoo.com/news/nokia-oyj-nok-reports-lower-205808611.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:58:08+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.386157+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "18813ba3f37695cf"
-  },
-  {
-    "id": "yahoo-finance-a259aeed1085bab5",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Analysts Positive on Wipro Limited (WIT) Following Strong Q1 Earnings",
-    "url": "https://finance.yahoo.com/news/analysts-positive-wipro-limited-wit-205743389.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:57:43+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.386122+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a259aeed1085bab5"
-  },
-  {
-    "id": "yahoo-finance-e18e1ce8e27d924b",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "TTEC Holdings, Inc. (TTEC) Experiences Strong Momentum Following First Quarter",
-    "url": "https://finance.yahoo.com/news/ttec-holdings-inc-ttec-experiences-205708335.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:57:08+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.386029+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "e18e1ce8e27d924b"
-  },
-  {
-    "id": "yahoo-finance-643524da417ab96a",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Yext, Inc. (YEXT) Launches New Search Initiative, Yext Research",
-    "url": "https://finance.yahoo.com/news/yext-inc-yext-launches-search-205637951.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:56:37+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.385988+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "643524da417ab96a"
-  },
-  {
-    "id": "yahoo-finance-9e9ebeb07e94e0ff",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Wells Fargo Raises PT on Health Catalyst, Inc. (HCAT); Maintains ‘Buy’ Rating",
-    "url": "https://finance.yahoo.com/news/wells-fargo-raises-pt-health-205544096.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:55:44+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.385949+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "9e9ebeb07e94e0ff"
-  },
-  {
-    "id": "yahoo-finance-0b604c6518fea26f",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "BigCommerce Holdings, Inc. (BIGC) Launches ‘Branch of the Future’ for UK Building Materials Sector",
-    "url": "https://finance.yahoo.com/news/bigcommerce-holdings-inc-bigc-launches-205507735.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:55:07+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.385904+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "0b604c6518fea26f"
-  },
-  {
-    "id": "yahoo-finance-2fe5e06955e6b11a",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Barclays Reduces PT on Jamf Holding Corp. (JAMF); Maintains ‘Equal Weight’ Rating",
-    "url": "https://finance.yahoo.com/news/barclays-reduces-pt-jamf-holding-205438909.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:54:38+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.385818+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2fe5e06955e6b11a"
-  },
-  {
-    "id": "wsj-world-news-632847a939fec476",
-    "sourceId": "wsj-world-news",
-    "sourceName": "WSJ World News",
-    "title": "Trump Sought Escape on His Summer Golf Vacation. Some Scots Thought Otherwise.",
-    "url": "https://www.wsj.com/world/uk/trump-sought-escape-on-his-summer-golf-vacation-some-scots-thought-otherwise-7a917ecf",
-    "summary": "A small group of protesters greeted the president at his golf course on Scotland’s west coast.",
-    "fullContent": "A small group of protesters greeted the president at his golf course on Scotland’s west coast.",
-    "publishedAt": "2025-07-26T20:54:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.066724+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "normal",
-    "contentHash": "632847a939fec476"
-  },
-  {
-    "id": "wsj-world-news-2d2f820a",
-    "sourceId": "wsj-world-news",
-    "sourceName": "WSJ World News",
-    "title": "Trump Sought Escape on His Summer Golf Vacation. Some Scots Thought Otherwise.",
-    "url": "https://www.wsj.com/world/uk/trump-sought-escape-on-his-summer-golf-vacation-some-scots-thought-otherwise-7a917ecf",
-    "summary": "A small group of protesters greeted the president at his golf course on Scotland&#x2019;s west coast.",
-    "fullContent": "A small group of protesters greeted the president at his golf course on Scotland&#x2019;s west coast.",
-    "publishedAt": "2025-07-26T20:54:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.965Z",
-    "category": "news",
-    "tags": [
-      "news"
-    ],
-    "priority": "normal",
-    "contentHash": "2d2f820a"
-  },
-  {
-    "id": "yahoo-finance-df181e4e367b48ee",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Here’s how the Federal Reserve funds itself, including renovations, without taxpayer dollars",
-    "url": "https://finance.yahoo.com/news/federal-funds-itself-including-renovations-203308285.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:33:08+00:00",
-    "fetchedAt": "2025-07-28T06:22:14.916445+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "df181e4e367b48ee"
-  },
-  {
-    "id": "branko-milanovic-54440f9d13a9003a",
-    "sourceId": "branko-milanovic",
-    "sourceName": "Branko Milanovic",
-    "title": "New Capitalism II: Compositional vs income inequality",
-    "url": "https://branko2f7.substack.com/p/new-capitalism-ii-compositional-vs",
-    "summary": "Are all class-based societies unequal?",
-    "publishedAt": "2025-07-26T20:30:23+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.360279+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "54440f9d13a9003a"
-  },
-  {
-    "id": "yahoo-finance-206b477b4ad9f5c0",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Chipotle Shares Slide on Weak Same-Store Sales. Time to Buy the Dip or Run for the Hills?",
-    "url": "https://finance.yahoo.com/news/chipotle-shares-slide-weak-same-202300948.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:23:00+00:00",
-    "fetchedAt": "2025-07-28T05:55:48.849197+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "206b477b4ad9f5c0"
-  },
-  {
-    "id": "yahoo-finance-9bcd870b0f8d356b",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "2 High-Flying Artificial Intelligence (AI) Stocks to Sell Before They Plummet 74% and 30%, According to Select Wall Street Analysts",
-    "url": "https://finance.yahoo.com/news/2-high-flying-artificial-intelligence-201500744.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:15:00+00:00",
-    "fetchedAt": "2025-07-28T05:55:48.849099+00:00",
-    "category": "markets",
-    "tags": [
-      "AI",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "9bcd870b0f8d356b"
-  },
-  {
-    "id": "economist-business-4114336e576dd986",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "Can Bernard Arnault steer LVMH out of crisis?",
-    "url": "https://www.economist.com/business/2025/07/26/can-bernard-arnault-steer-lvmh-out-of-crisis",
-    "summary": "Investors are starting to call for the luxury conglomerate to break itself apart",
-    "publishedAt": "2025-07-26T20:03:36+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.200427+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "breaking",
-    "contentHash": "4114336e576dd986"
-  },
-  {
-    "id": "economist-business-76b348a9",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "",
-    "url": "https://www.economist.com/business/2025/07/26/can-bernard-arnault-steer-lvmh-out-of-crisis",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-26T20:03:36.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.967Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "76b348a9"
-  },
-  {
-    "id": "bloomberg-markets-148f30f6f10632dc",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Pressure Mounts on Fed Chief Powell in Tee Up to GDP, Jobs Data",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-26/pressure-mounts-on-fed-chief-powell-in-tee-up-to-gdp-jobs-data",
-    "summary": "Federal Reserve Chair Jerome Powell and his colleagues will step into the central bank’s board room on Tuesday to deliberate on interest rates at a time of immense political pressure, evolving trade policy, and economic cross-currents.",
-    "publishedAt": "2025-07-26T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.599876+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "148f30f6f10632dc"
-  },
-  {
-    "id": "yahoo-finance-c3f01acaf33eccf4",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Could a Quantum Computing Bubble Be About to Pop? History Offers a Clear Answer",
-    "url": "https://finance.yahoo.com/news/could-quantum-computing-bubble-pop-200000977.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T05:55:48.849003+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c3f01acaf33eccf4"
-  },
-  {
-    "id": "yahoo-finance-00db01870eb6d427",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "This Warren Buffett Stock Is Reportedly Contemplating a Huge Move",
-    "url": "https://finance.yahoo.com/news/warren-buffett-stock-reportedly-contemplating-193300807.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T19:33:00+00:00",
-    "fetchedAt": "2025-07-28T05:55:48.848917+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "00db01870eb6d427"
-  },
-  {
-    "id": "yahoo-finance-5beb73720705016a",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Cathie Wood reveals strategy to outsmart Wall Street",
-    "url": "https://finance.yahoo.com/news/cathie-wood-reveals-strategy-outsmart-192858054.html",
-    "summary": "",
-    "publishedAt": "2025-07-26T19:28:58+00:00",
-    "fetchedAt": "2025-07-28T05:55:48.848829+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "5beb73720705016a"
-  },
-  {
-    "id": "nyt-science-fa34b7d5408a1e3b",
-    "sourceId": "nyt-science",
-    "sourceName": "NYT Science",
-    "title": "Infection From Brain-Eating Amoeba Kills Boy in South Carolina",
-    "url": "https://www.nytimes.com/2025/07/26/health/south-carolina-child-dead-brain-eating-amoeba.html",
-    "summary": "A lawyer for the family of 12-year-old Jaysen Carr said he died on July 18 after contracting a deadly infectious amoeba while swimming in a reservoir.",
-    "fullContent": "A lawyer for the family of 12-year-old Jaysen Carr said he died on July 18 after contracting a deadly infectious amoeba while swimming in a reservoir.",
-    "publishedAt": "2025-07-26T19:27:40+00:00",
-    "fetchedAt": "2025-07-31T06:18:03.223516+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "fa34b7d5408a1e3b"
   }
 ]

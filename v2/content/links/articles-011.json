@@ -1,5 +1,685 @@
 [
   {
+    "id": "wsj-youtube-285b9487",
+    "sourceId": "wsj-youtube",
+    "sourceName": "WSJ YouTube",
+    "title": "Watch: Fed Chair Jerome Powell Speaks to Reporters After Rate Decision | WSJ",
+    "url": "https://www.youtube.com/watch?v=hYNvuU8RHJk",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T03:34:59.000Z",
+    "fetchedAt": "2025-08-04T09:59:50.266Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "285b9487"
+  },
+  {
+    "id": "scmp-business-2cd6ab5b",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "HKEX to slash minimum spread of 300 stocks from Monday",
+    "url": "https://www.scmp.com/business/banking-finance/article/3320447/hkex-reduce-minimum-spread-300-stocks-monday-cut-cost-boost-trading?utm_source=rss_feed",
+    "summary": "Hong Kong Exchanges and Clearing (HKEX), which operates Asia’s third-largest stock market, will reduce the minimum trading spread for about 300 stocks starting Monday, a move aimed at lowering transaction costs and increasing turnover. “The minimum spread is the minimum price change for a stock trad",
+    "fullContent": "Hong Kong Exchanges and Clearing (HKEX), which operates Asia’s third-largest stock market, will reduce the minimum trading spread for about 300 stocks starting Monday, a move aimed at lowering transaction costs and increasing turnover. “The minimum spread is the minimum price change for a stock traded on an exchange and determines the tightest bid-ask spread allowed,” the HKEX said in the conclusion of its consultation on the spread reform. “A reduction of minimum spreads could therefore...",
+    "publishedAt": "2025-08-03T03:30:09.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.461Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2cd6ab5b"
+  },
+  {
+    "id": "scmp-business-6b7a817b",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Hong Kong Observatory issues 2 amber rainstorm signals on Sunday",
+    "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3320570/hong-kong-could-be-hit-more-heavy-showers-sunday-after-earlier-deluge-forecaster?utm_source=rss_feed",
+    "summary": "This story has been made freely available as a public service to our readers. Please consider supporting SCMP’s journalism by subscribing. New users who download our updated app get a seven-day free trial. Hong Kong’s forecaster issued two amber rainstorm warnings on Sunday morning and warned reside",
+    "fullContent": "This story has been made freely available as a public service to our readers. Please consider supporting SCMP’s journalism by subscribing. New users who download our updated app get a seven-day free trial. Hong Kong’s forecaster issued two amber rainstorm warnings on Sunday morning and warned residents of possible flooding as a monsoon continued to bring heavy showers to the region. “An active southwest monsoon is bringing showers and thunderstorms to the coast of Guangdong and the northern part...",
+    "publishedAt": "2025-08-03T03:03:23.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.461Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6b7a817b"
+  },
+  {
+    "id": "the-verge-5c5436c3",
+    "sourceId": "the-verge",
+    "sourceName": "The Verge",
+    "title": "",
+    "url": "https://www.theverge.com/gadgets/712844/today-im-toying-with",
+    "summary": "<![CDATA[The simple joy of gadgets — that&#8217;s what &#8220;Today I&#8217;m Toying With&#8221; is all about. It&#8217;s our video series where we try to encapsulate that joy of playing with technology, sharing what it&#8217;s like to experience gadgets that not all of us get to touch! Like a 3D pr",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T02:19:57.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.589Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "5c5436c3"
+  },
+  {
+    "id": "noahpinion-1702548a",
+    "sourceId": "noahpinion",
+    "sourceName": "Noahpinion",
+    "title": "",
+    "url": "https://www.noahpinion.blog/p/will-data-centers-crash-the-economy",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T02:07:44.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.564Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "1702548a"
+  },
+  {
+    "id": "ft-markets-51aa593a",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/3e95d3f7-1880-449a-b968-dce06456e1e0",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T02:00:09.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "51aa593a"
+  },
+  {
+    "id": "yahoo-finance-61f0b656",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "The AI Boom’s Hidden Risk to the Economy",
+    "url": "https://www.wsj.com/economy/the-ai-booms-hidden-risk-to-the-economy-731b00d6?siteid=yhoof2&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T02:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "61f0b656"
+  },
+  {
+    "id": "dwarkesh-patel-youtube-7578d878",
+    "sourceId": "dwarkesh-patel-youtube",
+    "sourceName": "Dwarkesh Patel YouTube",
+    "title": "Why Japan Reformed and Russia Failed To – Sarah Paine",
+    "url": "https://www.youtube.com/watch?v=F9RqD3AoH6k",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T01:53:56.000Z",
+    "fetchedAt": "2025-08-04T09:59:41.056Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "7578d878"
+  },
+  {
+    "id": "trendlyne-youtube-38abf2cc",
+    "sourceId": "trendlyne-youtube",
+    "sourceName": "Trendlyne YouTube",
+    "title": "Tata Power Company Earnings Call for Q1FY26",
+    "url": "https://www.youtube.com/watch?v=fw7OCf2oKOE",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T01:17:33.000Z",
+    "fetchedAt": "2025-08-04T09:59:44.157Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "38abf2cc"
+  },
+  {
+    "id": "scmp-business-726fae30",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Should Hong Kong’s baby bonus scheme include talent to boost birth rate?",
+    "url": "https://www.scmp.com/news/hong-kong/society/article/3320558/should-hong-kongs-baby-bonus-scheme-include-talent-boost-birth-rate?utm_source=rss_feed",
+    "summary": "Questions have been raised about the effectiveness of potentially extending a baby bonus scheme to talent admitted to Hong Kong to boost the birth rate, despite some professionals complaining about being left out. Experts and lawmakers said that other incentives and measures were needed to encourage",
+    "fullContent": "Questions have been raised about the effectiveness of potentially extending a baby bonus scheme to talent admitted to Hong Kong to boost the birth rate, despite some professionals complaining about being left out. Experts and lawmakers said that other incentives and measures were needed to encourage childbearing and boost the birth rate. Last month, Secretary for Labour and Welfare Chris Sun Yuk-han said the Newborn Baby Bonus Scheme was under review, with authorities to consider suggestions,...",
+    "publishedAt": "2025-08-03T01:00:14.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.461Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "726fae30"
+  },
+  {
+    "id": "yahoo-finance-25a02f68",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Unemployed Americans Endure Longer Job Searches in a Cooling Market",
+    "url": "https://www.wsj.com/economy/jobs/unemployed-americans-endure-longer-job-searches-in-a-cooling-market-4ab9fce3?siteid=yhoof2&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T01:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "25a02f68"
+  },
+  {
+    "id": "trendlyne-youtube-4d213e8e",
+    "sourceId": "trendlyne-youtube",
+    "sourceName": "Trendlyne YouTube",
+    "title": "Mankind Pharma Earnings Call for Q1FY26",
+    "url": "https://www.youtube.com/watch?v=g1y48GZAfEE",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T00:36:12.000Z",
+    "fetchedAt": "2025-08-04T09:59:44.157Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "4d213e8e"
+  },
+  {
+    "id": "cnbc-markets-59e601da",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Ethereum turns 10: From scrappy experiment to Wall Street’s invisible backbone",
+    "url": "https://www.cnbc.com/2025/08/02/ethereum-turns-10-from-scrappy-experiment-to-wall-streets-invisible-backbone.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T00:03:44.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.495Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "59e601da"
+  },
+  {
+    "id": "yahoo-finance-59bd43e6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "The Impact Of 'Grey Divorce': 40% Of Americans Say Later-In-Life Splits Derailed Their Retirement Plans",
+    "url": "https://finance.yahoo.com/news/impact-grey-divorce-40-americans-000230209.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T00:02:30.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "59bd43e6"
+  },
+  {
+    "id": "climate-brink-595eb045",
+    "sourceId": "climate-brink",
+    "sourceName": "The Climate Brink",
+    "title": "",
+    "url": "https://www.theclimatebrink.com/p/how-the-doe-and-epa-used-and-misused",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-03T00:00:55.000Z",
+    "fetchedAt": "2025-08-04T10:05:17.486Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "595eb045"
+  },
+  {
+    "id": "wsj-markets-main-1f688a19",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Millennials Are Richer Now. So Why Can&#x2019;t They Stop Worrying?",
+    "url": "https://www.wsj.com/personal-finance/millennial-wealth-financial-anxiety-39fd215b?mod=rss_markets_main",
+    "summary": "A generation that came of age during the 2007-09 recession&#x2014;and then lived through the Covid-19 pandemic&#x2014;remains anxious.",
+    "fullContent": "A generation that came of age during the 2007-09 recession&#x2014;and then lived through the Covid-19 pandemic&#x2014;remains anxious.",
+    "publishedAt": "2025-08-03T00:00:00.000Z",
+    "fetchedAt": "2025-08-04T09:59:18.468Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1f688a19"
+  },
+  {
+    "id": "trendlyne-youtube-457ba644",
+    "sourceId": "trendlyne-youtube",
+    "sourceName": "Trendlyne YouTube",
+    "title": "R R Kabel Earnings Call for Q1FY26",
+    "url": "https://www.youtube.com/watch?v=srmG6fn63bM",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T23:54:27.000Z",
+    "fetchedAt": "2025-08-04T09:59:44.157Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "457ba644"
+  },
+  {
+    "id": "yahoo-finance-723de2f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Buying A Home Is Double The Cost Of Renting For The First Time In 20 Years",
+    "url": "https://finance.yahoo.com/news/buying-home-double-cost-renting-231232384.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T23:12:32.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "723de2f"
+  },
+  {
+    "id": "yahoo-finance-556bfa8f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "15 Side Gigs That Can Make You Richer Than a Full-Time Job",
+    "url": "https://finance.yahoo.com/news/22-side-gigs-richer-full-143157964.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T23:08:07.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "556bfa8f"
+  },
+  {
+    "id": "yahoo-finance-799e7ba8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why did stocks tumble this week?",
+    "url": "https://finance.yahoo.com/news/why-did-stocks-tumble-week-230027119.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T23:00:27.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "799e7ba8"
+  },
+  {
+    "id": "oil-price-699c2115",
+    "sourceId": "oil-price",
+    "sourceName": "OilPrice.com",
+    "title": "Europe&#039;s Energy Future Hinges on Global Powers",
+    "url": "https://oilprice.com/Energy/Energy-General/Europes-Energy-Future-Hinges-on-Global-Powers.html",
+    "summary": "The European Union’s drive to replace Russian energy imports within two years, boost renewable energy rollout, and meet net-zero goals has put it in a position to become even more dependent on the two antagonistic global powers, the United States and China. The EU trade deal with the U.S. and the",
+    "fullContent": "The European Union’s drive to replace Russian energy imports within two years, boost renewable energy rollout, and meet net-zero goals has put it in a position to become even more dependent on the two antagonistic global powers, the United States and China. The EU trade deal with the U.S. and the EU&#039;s reliance on China-made solar PV panels, wafers, and critical battery metals are likely to keep shaping the pace of energy transition in the European Union, which remains firmly committed to decarbonizing economies and becoming a…",
+    "publishedAt": "2025-08-02T23:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.703Z",
+    "category": "commodities",
+    "tags": [
+      "commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "699c2115"
+  },
+  {
+    "id": "aswath-damodaran-youtube-40937d66",
+    "sourceId": "aswath-damodaran-youtube",
+    "sourceName": "Aswath Damodaran YouTube",
+    "title": "Country Risk 2025: The Story behind the Numbers!",
+    "url": "https://www.youtube.com/watch?v=LTDZCLjCa-E",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T22:30:16.000Z",
+    "fetchedAt": "2025-08-04T09:59:34.811Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "40937d66"
+  },
+  {
+    "id": "yahoo-finance-18f2a60e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "If You'd Invested $1,000 in Solana 5 Years Ago, Here's How Much You'd Have Today",
+    "url": "https://finance.yahoo.com/news/youd-invested-1-000-solana-221400727.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T22:14:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "18f2a60e"
+  },
+  {
+    "id": "yahoo-finance-2e0f3589",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "3 Millionaire-Maker Technology Stocks",
+    "url": "https://finance.yahoo.com/news/3-millionaire-maker-technology-stocks-220500296.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T22:05:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2e0f3589"
+  },
+  {
+    "id": "bbc-business-62430c3d",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "",
+    "url": "https://www.bbc.com/news/articles/cqxgrn2z95xo?at_medium=RSS&amp;at_campaign=rss",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T22:03:58.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.136Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "62430c3d"
+  },
+  {
+    "id": "yahoo-finance-3575032f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Warren Buffett's Berkshire Hathaway sold another $3 billion of stocks as investor enters home stretch as CEO",
+    "url": "https://finance.yahoo.com/news/warren-buffetts-berkshire-hathaway-sold-213102246.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T21:31:02.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3575032f"
+  },
+  {
+    "id": "yahoo-finance-48963fb1",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Got $1,000 to Invest in August? These High-Yielding Dividend Stocks Could Turn It Into Nearly $60 of Annual Passive Income.",
+    "url": "https://finance.yahoo.com/news/got-1-000-invest-august-211100086.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T21:11:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "48963fb1"
+  },
+  {
+    "id": "yahoo-finance-5e147e5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "The Ocean Floor Could Power EVs. Will This Company Reap the Rewards?",
+    "url": "https://finance.yahoo.com/news/ocean-floor-could-power-evs-201800473.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T20:18:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5e147e5"
+  },
+  {
+    "id": "yahoo-finance-72e76a53",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Nvidia CEO Jensen Huang Just Gave Meta Investors Great News -- or Did He?",
+    "url": "https://finance.yahoo.com/news/nvidia-ceo-jensen-huang-just-201400814.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T20:14:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "72e76a53"
+  },
+  {
+    "id": "bloomberg-economics-73ee3e03",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-02/boe-is-probably-about-to-cut-rates-despite-a-spike-in-inflation",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T20:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.342Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "73ee3e03"
+  },
+  {
+    "id": "oil-price-38df5105",
+    "sourceId": "oil-price",
+    "sourceName": "OilPrice.com",
+    "title": "Trump’s Seabed Mining Plan Sparks Backlash",
+    "url": "https://oilprice.com/Energy/Energy-General/Trumps-Seabed-Mining-Plan-Sparks-Backlash.html",
+    "summary": "United States President Donald Trump aims to develop the country’s seabed mining industry to access a supply of critical minerals, which are vitally needed across several industries, to reduce reliance on China. However, as seabed mining is an international issue, with strong regulations and norms o",
+    "fullContent": "United States President Donald Trump aims to develop the country’s seabed mining industry to access a supply of critical minerals, which are vitally needed across several industries, to reduce reliance on China. However, as seabed mining is an international issue, with strong regulations and norms on operations, Trump’s plan has attracted widespread criticism from international organisations and environmentalists worldwide. The International Seabed Authority (ISA) is an autonomous organisation that was established in 1982 under…",
+    "publishedAt": "2025-08-02T20:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.703Z",
+    "category": "commodities",
+    "tags": [
+      "commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "38df5105"
+  },
+  {
+    "id": "yahoo-finance-1bff1dba",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Elon Musk Warns of Losing Tesla Control, Denies Personal Loans Tied To Shares",
+    "url": "https://finance.yahoo.com/news/elon-musk-warns-losing-tesla-194631637.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T19:46:31.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1bff1dba"
+  },
+  {
+    "id": "yahoo-finance-126140f0",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "There's Only One US City Where Starter Homes Are Cheaper Than Rent—'Homeowners Are Enjoying The Return On Their Investment In A Home'",
+    "url": "https://finance.yahoo.com/news/theres-only-one-us-city-193107695.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T19:31:07.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "126140f0"
+  },
+  {
+    "id": "yahoo-finance-7d972b7b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Trump and the dollar are doing something we saw just before the October 1987 stock market crash",
+    "url": "https://finance.yahoo.com/news/trump-dollar-doing-something-saw-233800979.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T19:26:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7d972b7b"
+  },
+  {
+    "id": "yahoo-finance-5d4bc88",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Graco Inc. (GGG): A Bull Case Theory",
+    "url": "https://finance.yahoo.com/news/graco-inc-ggg-bull-case-192524550.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T19:25:24.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5d4bc88"
+  },
+  {
+    "id": "yahoo-finance-3f5e4cb6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Markel Group Inc. (MKL): A Bull Case Theory",
+    "url": "https://finance.yahoo.com/news/markel-group-inc-mkl-bull-192458668.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T19:24:58.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3f5e4cb6"
+  },
+  {
+    "id": "yahoo-finance-3840dfd6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Talos Energy Inc. (TALO): A Bull Case Theory",
+    "url": "https://finance.yahoo.com/news/talos-energy-inc-talo-bull-192444342.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T19:24:44.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3840dfd6"
+  },
+  {
+    "id": "yahoo-finance-64ed5208",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Teradyne, Inc. (TER): A Bull Case Theory",
+    "url": "https://finance.yahoo.com/news/teradyne-inc-ter-bull-case-192426115.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T19:24:26.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "64ed5208"
+  },
+  {
+    "id": "yahoo-finance-317f727b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Target Corporation (TGT): A Bull Case Theory",
+    "url": "https://finance.yahoo.com/news/target-corporation-tgt-bull-case-192224196.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T19:22:24.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "317f727b"
+  },
+  {
+    "id": "yahoo-finance-20f534e7",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "TransMedics Group, Inc. (TMDX): A Bull Case Theory",
+    "url": "https://finance.yahoo.com/news/transmedics-group-inc-tmdx-bull-192159731.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T19:21:59.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "20f534e7"
+  },
+  {
     "id": "yahoo-finance-42e5bb13",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -1018,685 +1698,5 @@
     ],
     "priority": "normal",
     "contentHash": "61e87f48"
-  },
-  {
-    "id": "yahoo-finance-4120e460",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Mortgage and refinance interest rates today, August 2, 2025: Fixed rates waver",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-saturday-august-2-2025-100048671.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T10:00:48.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.154Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4120e460"
-  },
-  {
-    "id": "yahoo-finance-2aa0840e",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Best money market account rates today, August 2, 2025 (best account provides 4.41% APY)",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-saturday-august-2-2025-100048764.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T10:00:48.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.154Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2aa0840e"
-  },
-  {
-    "id": "yahoo-finance-2050d1cd",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "HELOC rates today, August 2, 2025: Home equity lines of credit rising in popularity",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-rates-today-saturday-august-2-2025-100035571.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T10:00:35.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.154Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2050d1cd"
-  },
-  {
-    "id": "scmp-business-236f74fc",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Hongkongers with lung cancer risk urged to test after actor Will Or’s diagnosis",
-    "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3320538/hongkongers-lung-cancer-risk-urged-get-tested-after-actor-will-ors-diagnosis?utm_source=rss_feed",
-    "summary": "Hongkongers at a high risk of developing a common form of cancer should proactively get themselves screened as lung adenocarcinoma is often discovered at late stages, medical experts have warned, following a high-profile diagnosis of a local actor. On Wednesday, actor Will Or Wai-lam revealed in his",
-    "fullContent": "Hongkongers at a high risk of developing a common form of cancer should proactively get themselves screened as lung adenocarcinoma is often discovered at late stages, medical experts have warned, following a high-profile diagnosis of a local actor. On Wednesday, actor Will Or Wai-lam revealed in his social media post that he had been diagnosed with stage-four lung adenocarcinoma in May, which forced him to pull out of what was set to be his first theatre production. The actor’s confirmation of...",
-    "publishedAt": "2025-08-02T09:47:10.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.462Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "236f74fc"
-  },
-  {
-    "id": "the-verge-6379016b",
-    "sourceId": "the-verge",
-    "sourceName": "The Verge",
-    "title": "",
-    "url": "https://www.theverge.com/internet-censorship/717548/brendan-carr-paramount-merger-free-speech",
-    "summary": "<![CDATA[On Monday, the Freedom of the Press Foundation filed a complaint against Federal Communications Commission Chairman Brendan Carr. The filing, sent to the Office of Disciplinary Counsel at the DC Court of Appeals, alleges that Carr had repeatedly broken basic principles of conduct as a licen",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T09:46:30.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.589Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "6379016b"
-  },
-  {
-    "id": "wired-28aa9662",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Gear News of the Week: Insta360 Debuts a Drone Company, and DJI Surprises With an 8K 360 Camera",
-    "url": "https://www.wired.com/story/gear-news-of-the-week-insta360-debuts-a-drone-company-and-dji-surprises-with-an-8k-360-camera/",
-    "summary": "Plus: Netgear has an affordable Wi-Fi 7 mesh system, Samsung’s latest Galaxy Z Fold series is a hit, and Google’s Pixel 10 leaks heat up.",
-    "fullContent": "Plus: Netgear has an affordable Wi-Fi 7 mesh system, Samsung’s latest Galaxy Z Fold series is a hit, and Google’s Pixel 10 leaks heat up.",
-    "publishedAt": "2025-08-02T09:30:00.000Z",
-    "fetchedAt": "2025-08-04T06:58:46.586Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "28aa9662"
-  },
-  {
-    "id": "wsj-world-news-741e7c4c",
-    "sourceId": "wsj-world-news",
-    "sourceName": "WSJ World News",
-    "title": "Trump&#x2019;s Warm Embrace of India Turns Cold",
-    "url": "https://www.wsj.com/world/india/trumps-warm-embrace-of-india-turns-cold-f8d0bbee",
-    "summary": "Trade disputes and ties with Russia rankle the president, threatening to sink the U.S.-India relationship.",
-    "fullContent": "Trade disputes and ties with Russia rankle the president, threatening to sink the U.S.-India relationship.",
-    "publishedAt": "2025-08-02T09:30:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.964Z",
-    "category": "news",
-    "tags": [
-      "news"
-    ],
-    "priority": "normal",
-    "contentHash": "741e7c4c"
-  },
-  {
-    "id": "nyt-business-2312d558",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "After a Lag, Consumers Begin to Feel the Pinch of Tariffs",
-    "url": "https://www.nytimes.com/2025/08/02/business/trump-tariffs-consumer-prices.html",
-    "summary": "There are growing signs that President Trump’s levies are filtering through to consumer prices, as companies exhaust options for keeping them stable.",
-    "fullContent": "There are growing signs that President Trump’s levies are filtering through to consumer prices, as companies exhaust options for keeping them stable.",
-    "publishedAt": "2025-08-02T09:01:56.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.268Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2312d558"
-  },
-  {
-    "id": "nyt-business-1b2a3274",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Will Trump’s Tariffs Close Income Gaps and Bring Factory Jobs Back to the U.S.? Probably Not.",
-    "url": "https://www.nytimes.com/2025/08/02/business/economy/trump-tariffs-income-inequality.html",
-    "summary": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
-    "fullContent": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
-    "publishedAt": "2025-08-02T09:01:48.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.268Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1b2a3274"
-  },
-  {
-    "id": "nyt-economy-1b2a3274",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "Will Trump’s Tariffs Close Income Gaps and Bring Factory Jobs Back to the U.S.? Probably Not.",
-    "url": "https://www.nytimes.com/2025/08/02/business/economy/trump-tariffs-income-inequality.html",
-    "summary": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
-    "fullContent": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
-    "publishedAt": "2025-08-02T09:01:48.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.874Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "1b2a3274"
-  },
-  {
-    "id": "nyt-business-6f0f5336",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Triangles, Crescents, Slivers: Can Odd-Shaped Lots Help Ease the Housing Crisis?",
-    "url": "https://www.nytimes.com/2025/08/02/business/housing-crisis-odd-lots.html",
-    "summary": "As needs escalate, more U.S. cities and states are making it easier to build on irregular and long-overlooked lots.",
-    "fullContent": "As needs escalate, more U.S. cities and states are making it easier to build on irregular and long-overlooked lots.",
-    "publishedAt": "2025-08-02T09:00:09.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6f0f5336"
-  },
-  {
-    "id": "bloomberg-economics-f903ca8",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-02/world-economy-latest-us-job-market-wavers-in-cue-for-fed",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T09:00:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.342Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "f903ca8"
-  },
-  {
-    "id": "jacobin-magazine-3dc39cc3",
-    "sourceId": "jacobin-magazine",
-    "sourceName": "Jacobin Magazine",
-    "title": "Immigrant Workers in Italy Strike for a 40-Hour Week",
-    "url": "https://jacobin.com/2025/08/italy-immigrant-workers-strike-wave/",
-    "summary": "Since early April, immigrant workers in the Tuscan city of Prato have staged a wave of strikes demanding their right to a forty-hour work week, or “8&#215;5.” Organized by the union SUDD Cobas, these walkouts, dubbed “Strike Days,” have directly involved seventy textile and garment fact",
-    "fullContent": "Since early April, immigrant workers in the Tuscan city of Prato have staged a wave of strikes demanding their right to a forty-hour work week, or “8&#215;5.” Organized by the union SUDD Cobas, these walkouts, dubbed “Strike Days,” have directly involved seventy textile and garment factories in Europe’s biggest textile manufacturing hub. Highly successful, these simultaneous [&hellip;]",
-    "publishedAt": "2025-08-02T08:58:22.000Z",
-    "fetchedAt": "2025-08-04T10:03:55.209Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "3dc39cc3"
-  },
-  {
-    "id": "fortune-1c7a15d3",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Top economist Brad DeLong to recent college grads: Don&#8217;t blame AI for job struggles—blame the sputtering economy",
-    "url": "https://fortune.com/2025/08/02/dont-blame-ai-college-graduates-cant-find-jobs-blame-economy/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T08:08:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.610Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1c7a15d3"
-  },
-  {
-    "id": "trendlyne-youtube-4f8fff8d",
-    "sourceId": "trendlyne-youtube",
-    "sourceName": "Trendlyne YouTube",
-    "title": "GHCL Ltd. Earnings Call for Q1FY26",
-    "url": "https://www.youtube.com/watch?v=FFXRKswQTxM",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T08:05:23.000Z",
-    "fetchedAt": "2025-08-04T09:59:44.157Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "4f8fff8d"
-  },
-  {
-    "id": "scmp-business-4744f47d",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "First chikungunya fever case in 6 years raises transmission risk in Hong Kong",
-    "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3320533/hong-kong-confirms-first-imported-case-chikungunya-fever-2019?utm_source=rss_feed",
-    "summary": "Health authorities in Hong Kong have not ruled out the possibility of local chikungunya fever transmissions after the city recorded its first imported case of the mosquito-borne disease since 2019, involving a boy who returned from outbreak-hit Foshan in mainland China. The Centre for Health Protect",
-    "fullContent": "Health authorities in Hong Kong have not ruled out the possibility of local chikungunya fever transmissions after the city recorded its first imported case of the mosquito-borne disease since 2019, involving a boy who returned from outbreak-hit Foshan in mainland China. The Centre for Health Protection confirmed the case on Saturday, weeks after a surge in infections was recorded in neighbouring Guangdong province. Albert Au Ka-wing, head of the centre’s communicable disease branch, said the...",
-    "publishedAt": "2025-08-02T08:03:37.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.462Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4744f47d"
-  },
-  {
-    "id": "scmp-business-30d6d8f5",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Working in Hong Kong, living in Shenzhen: why people are moving to mainland city",
-    "url": "https://www.scmp.com/economy/china-economy/article/3320393/working-hong-kong-living-shenzhen-why-people-are-making-move-mainland-city?utm_source=rss_feed",
-    "summary": "At 8.30am on Monday, 24-year-old Lisa Sun leaves her flat in Shenzhen and begins her long commute to work. It starts with an e-bike ride through her neighbourhood, followed by a packed Metro journey, a border crossing intermission, and a similarly packed MTR trip. Ninety minutes later, she steps out",
-    "fullContent": "At 8.30am on Monday, 24-year-old Lisa Sun leaves her flat in Shenzhen and begins her long commute to work. It starts with an e-bike ride through her neighbourhood, followed by a packed Metro journey, a border crossing intermission, and a similarly packed MTR trip. Ninety minutes later, she steps out into the bustle of Causeway Bay in Hong Kong – ready to start her day at the office. She repeats the same journey in reverse after work, finally getting home close to 9pm. Sun, born in the...",
-    "publishedAt": "2025-08-02T08:00:10.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.462Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "30d6d8f5"
-  },
-  {
-    "id": "scmp-business-4a199c25",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Hong Kong will make National Games ‘unforgettable experience’, city’s leader says",
-    "url": "https://www.scmp.com/news/hong-kong/society/article/3320532/hong-kong-ready-co-host-national-games-john-lee-says-100-days-launch?utm_source=rss_feed",
-    "summary": "Hong Kong joined its National Games co-hosts in starting the event’s 100-day countdown on Saturday, with the city’s leader saying the focus will be on creating “an unforgettable experience” for anyone attending. Chief Executive John Lee Ka-chiu led the local ceremony at the Velodrome in Tseung Kwan",
-    "fullContent": "Hong Kong joined its National Games co-hosts in starting the event’s 100-day countdown on Saturday, with the city’s leader saying the focus will be on creating “an unforgettable experience” for anyone attending. Chief Executive John Lee Ka-chiu led the local ceremony at the Velodrome in Tseung Kwan O, which went ahead despite the city getting its second black rainstorm warning in a week. Lee later headed across the border to take part in an event in Shenzhen, which followed earlier activities in...",
-    "publishedAt": "2025-08-02T07:59:09.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.462Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4a199c25"
-  },
-  {
-    "id": "norges-bank-youtube-1cb7d135",
-    "sourceId": "norges-bank-youtube",
-    "sourceName": "Norges Bank Investment YouTube",
-    "title": "Morten T. Hansen | Investment Conference 2025 | Norges Bank Investment Management",
-    "url": "https://www.youtube.com/watch?v=JR7djfB-t-U",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T07:53:16.000Z",
-    "fetchedAt": "2025-08-04T09:59:53.357Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "1cb7d135"
-  },
-  {
-    "id": "marginal-revolution-b09e135",
-    "sourceId": "marginal-revolution",
-    "sourceName": "Marginal Revolution",
-    "title": "*Taking Religion Seriously*",
-    "url": "https://marginalrevolution.com/marginalrevolution/2025/08/taking-religion-seriously.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=taking-religion-seriously",
-    "summary": "By Charles Murray, now forthcoming, I expect it will be very interesting. Due out October 14. The post *Taking Religion Seriously* appeared first on <a href=\"https://marginalrev",
-    "fullContent": "By Charles Murray, now forthcoming, I expect it will be very interesting. Due out October 14. The post *Taking Religion Seriously* appeared first on Marginal REVOLUTION. ]]>",
-    "publishedAt": "2025-08-02T07:32:06.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.270Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "b09e135"
-  },
-  {
-    "id": "aswath-damodaran-youtube-205f9d7a",
-    "sourceId": "aswath-damodaran-youtube",
-    "sourceName": "Aswath Damodaran YouTube",
-    "title": "Session 25: Valuation - The Final Frontier!",
-    "url": "https://www.youtube.com/watch?v=CERMihGaLlA",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T07:15:47.000Z",
-    "fetchedAt": "2025-08-04T09:59:34.811Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "205f9d7a"
-  },
-  {
-    "id": "scmp-business-6a9bab6",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Hong Kong’s policy change for children of non-local talent ‘to ensure fairness’",
-    "url": "https://www.scmp.com/news/hong-kong/education/article/3320529/hong-kongs-policy-change-children-non-local-talent-ensure-fairness?utm_source=rss_feed",
-    "summary": "Hong Kong’s plans to impose a required residency period for children of non-local talent before they can apply for subsidised tertiary education is part of efforts to ensure fairness and the reasonable use of public funds, a minister has said. Secretary for Education Christine Choi Yuk-lin on Saturd",
-    "fullContent": "Hong Kong’s plans to impose a required residency period for children of non-local talent before they can apply for subsidised tertiary education is part of efforts to ensure fairness and the reasonable use of public funds, a minister has said. Secretary for Education Christine Choi Yuk-lin on Saturday defended the coming policy change, noting the number of relevant applications had increased fivefold between 2022 and last year. In a bid to provide a transition period, the policy will initially...",
-    "publishedAt": "2025-08-02T06:13:32.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.462Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6a9bab6"
-  },
-  {
-    "id": "bloomberg-economics-67e7d0ef",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-02/new-zealand-to-charge-foreign-visitors-at-popular-tourist-sites",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T05:47:24.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.342Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "67e7d0ef"
-  },
-  {
-    "id": "wsj-youtube-58be4bb2",
-    "sourceId": "wsj-youtube",
-    "sourceName": "WSJ YouTube",
-    "title": "India Vows to Protect National Interests Despite Trump’s Tariff Threats | WSJ News",
-    "url": "https://www.youtube.com/watch?v=W7-W62e5TIw",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T05:41:26.000Z",
-    "fetchedAt": "2025-08-04T09:59:50.266Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "58be4bb2"
-  },
-  {
-    "id": "scmp-business-47567fe3",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Hong Kong earns HK$189 million from revived hotel tax in first quarter",
-    "url": "https://www.scmp.com/news/hong-kong/society/article/3320527/hong-kong-earns-hk189-million-revived-hotel-tax-first-quarter?utm_source=rss_feed",
-    "summary": "Hong Kong collected HK$189 million (US$24.1 million) from a hotel tax on guests for the first quarter following its reintroduction, with industry leaders raising concerns as to whether a HK$1.1 billion annual income target can be met. Industry veterans also called for more government support, saying",
-    "fullContent": "Hong Kong collected HK$189 million (US$24.1 million) from a hotel tax on guests for the first quarter following its reintroduction, with industry leaders raising concerns as to whether a HK$1.1 billion annual income target can be met. Industry veterans also called for more government support, saying the tax figures reflected that hotels were struggling and had been forced to reduce room rates to attract tourists. The 3 per cent hotel accommodation tax, which applies to all patrons, was...",
-    "publishedAt": "2025-08-02T05:00:40.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.462Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "47567fe3"
-  },
-  {
-    "id": "marginal-revolution-5f61404e",
-    "sourceId": "marginal-revolution",
-    "sourceName": "Marginal Revolution",
-    "title": "The economics of the U.S. auto industry, a brief history",
-    "url": "https://marginalrevolution.com/marginalrevolution/2025/08/the-economics-of-the-u-s-auto-industry-a-brief-history.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-economics-of-the-u-s-auto-industry-a-brief-history",
-    "summary": "From Adam Ozimek: The economic value of the cars being made has climbed substantially through the years. As a result, real value added and industrial production — two different ways of measuring actual output — are now at all-time highs. And this: What about jobs? The auto industry today",
-    "fullContent": "From Adam Ozimek: The economic value of the cars being made has climbed substantially through the years. As a result, real value added and industrial production — two different ways of measuring actual output — are now at all-time highs. And this: What about jobs? The auto industry today employs 1 million workers. Between 1950 and [&#8230;] The post The economics of the U.S. auto industry, a brief history appeared first on Marginal REVOLUTION. ]]>",
-    "publishedAt": "2025-08-02T04:56:47.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.270Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "5f61404e"
-  },
-  {
-    "id": "cfa-society-india-youtube-7521f547",
-    "sourceId": "cfa-society-india-youtube",
-    "sourceName": "CFA Society India YouTube",
-    "title": "Mark Anson, CFA: Rethinking Portfolio Construction in a Globalized, Uncertain World",
-    "url": "https://www.youtube.com/watch?v=Cjf_2d0nExk",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T04:34:51.000Z",
-    "fetchedAt": "2025-08-04T09:59:59.535Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "7521f547"
-  },
-  {
-    "id": "wsj-world-news-2b378870",
-    "sourceId": "wsj-world-news",
-    "sourceName": "WSJ World News",
-    "title": "Why Isn&#x2019;t Enough Food Getting Into Gaza?",
-    "url": "https://www.wsj.com/world/middle-east/gaza-food-aid-hunger-crisis-843a9c2a",
-    "summary": "A breakdown in law and order means aid is getting looted before it can reach the people who need it most.",
-    "fullContent": "A breakdown in law and order means aid is getting looted before it can reach the people who need it most.",
-    "publishedAt": "2025-08-02T04:05:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.964Z",
-    "category": "news",
-    "tags": [
-      "news"
-    ],
-    "priority": "normal",
-    "contentHash": "2b378870"
-  },
-  {
-    "id": "ft-markets-3bbed5c4",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/c33280e6-752d-47ca-b856-493554551093",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T04:00:36.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3bbed5c4"
-  },
-  {
-    "id": "ft-markets-5d6bf045",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/3464c5d5-f0dc-4127-aa2f-396d9b659c38",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T04:00:36.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5d6bf045"
-  },
-  {
-    "id": "ft-economics-3be8be6e",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/efe7ee2c-6e64-4568-9ce3-b5524e0a2d60",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T04:00:36.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "3be8be6e"
-  },
-  {
-    "id": "ft-economics-5d6bf045",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/3464c5d5-f0dc-4127-aa2f-396d9b659c38",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T04:00:36.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "5d6bf045"
-  },
-  {
-    "id": "ft-technology-1024ef9a",
-    "sourceId": "ft-technology",
-    "sourceName": "FT Technology",
-    "title": "",
-    "url": "https://www.ft.com/content/7ce8a0c4-f806-44e4-96f5-8cae8772c97c",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T04:00:17.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.846Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "1024ef9a"
-  },
-  {
-    "id": "ft-markets-3eb19204",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/e0b7f437-0e3d-4e68-a2cd-d03affb72400",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T04:00:07.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3eb19204"
-  },
-  {
-    "id": "wsj-youtube-66d4d2ea",
-    "sourceId": "wsj-youtube",
-    "sourceName": "WSJ YouTube",
-    "title": "Trump on Gaza Ahead of Witkoff Visit: ‘Terrible What's Occurring’ | WSJ News",
-    "url": "https://www.youtube.com/watch?v=glme2iyH6Gk",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T02:46:34.000Z",
-    "fetchedAt": "2025-08-04T09:59:50.266Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "66d4d2ea"
-  },
-  {
-    "id": "nyt-business-65e6419",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Trump Fires BLS Commissioner, Claiming Weak Jobs Numbers Were ‘Rigged’",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-bls-firing-jobs-report.html",
-    "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
-    "fullContent": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
-    "publishedAt": "2025-08-02T02:22:21.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "65e6419"
-  },
-  {
-    "id": "nyt-economy-65e6419",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "Trump Fires BLS Commissioner, Claiming Weak Jobs Numbers Were ‘Rigged’",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-bls-firing-jobs-report.html",
-    "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
-    "fullContent": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
-    "publishedAt": "2025-08-02T02:22:21.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.874Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "65e6419"
-  },
-  {
-    "id": "dwarkesh-patel-youtube-4da24bb0",
-    "sourceId": "dwarkesh-patel-youtube",
-    "sourceName": "Dwarkesh Patel YouTube",
-    "title": "Sarah Paine's Framework for a Good Historical Argument",
-    "url": "https://www.youtube.com/watch?v=teAL1Qo_6BY",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-02T02:16:57.000Z",
-    "fetchedAt": "2025-08-04T09:59:41.056Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "4da24bb0"
-  },
-  {
-    "id": "nyt-business-2965f61b",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Stocks Drop as Trump’s New Tariffs Weigh on Markets",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-tariffs-stock-markets-trade.html",
-    "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-    "fullContent": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-    "publishedAt": "2025-08-02T02:11:07.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2965f61b"
-  },
-  {
-    "id": "nyt-economy-2965f61b",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "Stocks Drop as Trump’s New Tariffs Weigh on Markets",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-tariffs-stock-markets-trade.html",
-    "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-    "fullContent": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-    "publishedAt": "2025-08-02T02:11:07.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.874Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "2965f61b"
   }
 ]

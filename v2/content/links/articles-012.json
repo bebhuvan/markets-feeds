@@ -1,5 +1,685 @@
 [
   {
+    "id": "yahoo-finance-4120e460",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Mortgage and refinance interest rates today, August 2, 2025: Fixed rates waver",
+    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-saturday-august-2-2025-100048671.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T10:00:48.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4120e460"
+  },
+  {
+    "id": "yahoo-finance-2aa0840e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Best money market account rates today, August 2, 2025 (best account provides 4.41% APY)",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-saturday-august-2-2025-100048764.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T10:00:48.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2aa0840e"
+  },
+  {
+    "id": "yahoo-finance-2050d1cd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "HELOC rates today, August 2, 2025: Home equity lines of credit rising in popularity",
+    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-rates-today-saturday-august-2-2025-100035571.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T10:00:35.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2050d1cd"
+  },
+  {
+    "id": "scmp-business-236f74fc",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Hongkongers with lung cancer risk urged to test after actor Will Or’s diagnosis",
+    "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3320538/hongkongers-lung-cancer-risk-urged-get-tested-after-actor-will-ors-diagnosis?utm_source=rss_feed",
+    "summary": "Hongkongers at a high risk of developing a common form of cancer should proactively get themselves screened as lung adenocarcinoma is often discovered at late stages, medical experts have warned, following a high-profile diagnosis of a local actor. On Wednesday, actor Will Or Wai-lam revealed in his",
+    "fullContent": "Hongkongers at a high risk of developing a common form of cancer should proactively get themselves screened as lung adenocarcinoma is often discovered at late stages, medical experts have warned, following a high-profile diagnosis of a local actor. On Wednesday, actor Will Or Wai-lam revealed in his social media post that he had been diagnosed with stage-four lung adenocarcinoma in May, which forced him to pull out of what was set to be his first theatre production. The actor’s confirmation of...",
+    "publishedAt": "2025-08-02T09:47:10.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.462Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "236f74fc"
+  },
+  {
+    "id": "the-verge-6379016b",
+    "sourceId": "the-verge",
+    "sourceName": "The Verge",
+    "title": "",
+    "url": "https://www.theverge.com/internet-censorship/717548/brendan-carr-paramount-merger-free-speech",
+    "summary": "<![CDATA[On Monday, the Freedom of the Press Foundation filed a complaint against Federal Communications Commission Chairman Brendan Carr. The filing, sent to the Office of Disciplinary Counsel at the DC Court of Appeals, alleges that Carr had repeatedly broken basic principles of conduct as a licen",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T09:46:30.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.589Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "6379016b"
+  },
+  {
+    "id": "wired-28aa9662",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "Gear News of the Week: Insta360 Debuts a Drone Company, and DJI Surprises With an 8K 360 Camera",
+    "url": "https://www.wired.com/story/gear-news-of-the-week-insta360-debuts-a-drone-company-and-dji-surprises-with-an-8k-360-camera/",
+    "summary": "Plus: Netgear has an affordable Wi-Fi 7 mesh system, Samsung’s latest Galaxy Z Fold series is a hit, and Google’s Pixel 10 leaks heat up.",
+    "fullContent": "Plus: Netgear has an affordable Wi-Fi 7 mesh system, Samsung’s latest Galaxy Z Fold series is a hit, and Google’s Pixel 10 leaks heat up.",
+    "publishedAt": "2025-08-02T09:30:00.000Z",
+    "fetchedAt": "2025-08-04T06:58:46.586Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "28aa9662"
+  },
+  {
+    "id": "wsj-world-news-741e7c4c",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Trump&#x2019;s Warm Embrace of India Turns Cold",
+    "url": "https://www.wsj.com/world/india/trumps-warm-embrace-of-india-turns-cold-f8d0bbee",
+    "summary": "Trade disputes and ties with Russia rankle the president, threatening to sink the U.S.-India relationship.",
+    "fullContent": "Trade disputes and ties with Russia rankle the president, threatening to sink the U.S.-India relationship.",
+    "publishedAt": "2025-08-02T09:30:00.000Z",
+    "fetchedAt": "2025-08-04T09:59:18.964Z",
+    "category": "news",
+    "tags": [
+      "news"
+    ],
+    "priority": "normal",
+    "contentHash": "741e7c4c"
+  },
+  {
+    "id": "nyt-business-2312d558",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "After a Lag, Consumers Begin to Feel the Pinch of Tariffs",
+    "url": "https://www.nytimes.com/2025/08/02/business/trump-tariffs-consumer-prices.html",
+    "summary": "There are growing signs that President Trump’s levies are filtering through to consumer prices, as companies exhaust options for keeping them stable.",
+    "fullContent": "There are growing signs that President Trump’s levies are filtering through to consumer prices, as companies exhaust options for keeping them stable.",
+    "publishedAt": "2025-08-02T09:01:56.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.268Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2312d558"
+  },
+  {
+    "id": "nyt-business-1b2a3274",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Will Trump’s Tariffs Close Income Gaps and Bring Factory Jobs Back to the U.S.? Probably Not.",
+    "url": "https://www.nytimes.com/2025/08/02/business/economy/trump-tariffs-income-inequality.html",
+    "summary": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
+    "fullContent": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
+    "publishedAt": "2025-08-02T09:01:48.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.268Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1b2a3274"
+  },
+  {
+    "id": "nyt-economy-1b2a3274",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Will Trump’s Tariffs Close Income Gaps and Bring Factory Jobs Back to the U.S.? Probably Not.",
+    "url": "https://www.nytimes.com/2025/08/02/business/economy/trump-tariffs-income-inequality.html",
+    "summary": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
+    "fullContent": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
+    "publishedAt": "2025-08-02T09:01:48.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.874Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "1b2a3274"
+  },
+  {
+    "id": "nyt-business-6f0f5336",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Triangles, Crescents, Slivers: Can Odd-Shaped Lots Help Ease the Housing Crisis?",
+    "url": "https://www.nytimes.com/2025/08/02/business/housing-crisis-odd-lots.html",
+    "summary": "As needs escalate, more U.S. cities and states are making it easier to build on irregular and long-overlooked lots.",
+    "fullContent": "As needs escalate, more U.S. cities and states are making it easier to build on irregular and long-overlooked lots.",
+    "publishedAt": "2025-08-02T09:00:09.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6f0f5336"
+  },
+  {
+    "id": "bloomberg-economics-f903ca8",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-02/world-economy-latest-us-job-market-wavers-in-cue-for-fed",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T09:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.342Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "f903ca8"
+  },
+  {
+    "id": "jacobin-magazine-3dc39cc3",
+    "sourceId": "jacobin-magazine",
+    "sourceName": "Jacobin Magazine",
+    "title": "Immigrant Workers in Italy Strike for a 40-Hour Week",
+    "url": "https://jacobin.com/2025/08/italy-immigrant-workers-strike-wave/",
+    "summary": "Since early April, immigrant workers in the Tuscan city of Prato have staged a wave of strikes demanding their right to a forty-hour work week, or “8&#215;5.” Organized by the union SUDD Cobas, these walkouts, dubbed “Strike Days,” have directly involved seventy textile and garment fact",
+    "fullContent": "Since early April, immigrant workers in the Tuscan city of Prato have staged a wave of strikes demanding their right to a forty-hour work week, or “8&#215;5.” Organized by the union SUDD Cobas, these walkouts, dubbed “Strike Days,” have directly involved seventy textile and garment factories in Europe’s biggest textile manufacturing hub. Highly successful, these simultaneous [&hellip;]",
+    "publishedAt": "2025-08-02T08:58:22.000Z",
+    "fetchedAt": "2025-08-04T10:03:55.209Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "3dc39cc3"
+  },
+  {
+    "id": "fortune-1c7a15d3",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Top economist Brad DeLong to recent college grads: Don&#8217;t blame AI for job struggles—blame the sputtering economy",
+    "url": "https://fortune.com/2025/08/02/dont-blame-ai-college-graduates-cant-find-jobs-blame-economy/",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T08:08:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.610Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1c7a15d3"
+  },
+  {
+    "id": "trendlyne-youtube-4f8fff8d",
+    "sourceId": "trendlyne-youtube",
+    "sourceName": "Trendlyne YouTube",
+    "title": "GHCL Ltd. Earnings Call for Q1FY26",
+    "url": "https://www.youtube.com/watch?v=FFXRKswQTxM",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T08:05:23.000Z",
+    "fetchedAt": "2025-08-04T09:59:44.157Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "4f8fff8d"
+  },
+  {
+    "id": "scmp-business-4744f47d",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "First chikungunya fever case in 6 years raises transmission risk in Hong Kong",
+    "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3320533/hong-kong-confirms-first-imported-case-chikungunya-fever-2019?utm_source=rss_feed",
+    "summary": "Health authorities in Hong Kong have not ruled out the possibility of local chikungunya fever transmissions after the city recorded its first imported case of the mosquito-borne disease since 2019, involving a boy who returned from outbreak-hit Foshan in mainland China. The Centre for Health Protect",
+    "fullContent": "Health authorities in Hong Kong have not ruled out the possibility of local chikungunya fever transmissions after the city recorded its first imported case of the mosquito-borne disease since 2019, involving a boy who returned from outbreak-hit Foshan in mainland China. The Centre for Health Protection confirmed the case on Saturday, weeks after a surge in infections was recorded in neighbouring Guangdong province. Albert Au Ka-wing, head of the centre’s communicable disease branch, said the...",
+    "publishedAt": "2025-08-02T08:03:37.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.462Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4744f47d"
+  },
+  {
+    "id": "scmp-business-30d6d8f5",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Working in Hong Kong, living in Shenzhen: why people are moving to mainland city",
+    "url": "https://www.scmp.com/economy/china-economy/article/3320393/working-hong-kong-living-shenzhen-why-people-are-making-move-mainland-city?utm_source=rss_feed",
+    "summary": "At 8.30am on Monday, 24-year-old Lisa Sun leaves her flat in Shenzhen and begins her long commute to work. It starts with an e-bike ride through her neighbourhood, followed by a packed Metro journey, a border crossing intermission, and a similarly packed MTR trip. Ninety minutes later, she steps out",
+    "fullContent": "At 8.30am on Monday, 24-year-old Lisa Sun leaves her flat in Shenzhen and begins her long commute to work. It starts with an e-bike ride through her neighbourhood, followed by a packed Metro journey, a border crossing intermission, and a similarly packed MTR trip. Ninety minutes later, she steps out into the bustle of Causeway Bay in Hong Kong – ready to start her day at the office. She repeats the same journey in reverse after work, finally getting home close to 9pm. Sun, born in the...",
+    "publishedAt": "2025-08-02T08:00:10.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.462Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "30d6d8f5"
+  },
+  {
+    "id": "scmp-business-4a199c25",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Hong Kong will make National Games ‘unforgettable experience’, city’s leader says",
+    "url": "https://www.scmp.com/news/hong-kong/society/article/3320532/hong-kong-ready-co-host-national-games-john-lee-says-100-days-launch?utm_source=rss_feed",
+    "summary": "Hong Kong joined its National Games co-hosts in starting the event’s 100-day countdown on Saturday, with the city’s leader saying the focus will be on creating “an unforgettable experience” for anyone attending. Chief Executive John Lee Ka-chiu led the local ceremony at the Velodrome in Tseung Kwan",
+    "fullContent": "Hong Kong joined its National Games co-hosts in starting the event’s 100-day countdown on Saturday, with the city’s leader saying the focus will be on creating “an unforgettable experience” for anyone attending. Chief Executive John Lee Ka-chiu led the local ceremony at the Velodrome in Tseung Kwan O, which went ahead despite the city getting its second black rainstorm warning in a week. Lee later headed across the border to take part in an event in Shenzhen, which followed earlier activities in...",
+    "publishedAt": "2025-08-02T07:59:09.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.462Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4a199c25"
+  },
+  {
+    "id": "norges-bank-youtube-1cb7d135",
+    "sourceId": "norges-bank-youtube",
+    "sourceName": "Norges Bank Investment YouTube",
+    "title": "Morten T. Hansen | Investment Conference 2025 | Norges Bank Investment Management",
+    "url": "https://www.youtube.com/watch?v=JR7djfB-t-U",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T07:53:16.000Z",
+    "fetchedAt": "2025-08-04T09:59:53.357Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "1cb7d135"
+  },
+  {
+    "id": "marginal-revolution-b09e135",
+    "sourceId": "marginal-revolution",
+    "sourceName": "Marginal Revolution",
+    "title": "*Taking Religion Seriously*",
+    "url": "https://marginalrevolution.com/marginalrevolution/2025/08/taking-religion-seriously.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=taking-religion-seriously",
+    "summary": "By Charles Murray, now forthcoming, I expect it will be very interesting. Due out October 14. The post *Taking Religion Seriously* appeared first on <a href=\"https://marginalrev",
+    "fullContent": "By Charles Murray, now forthcoming, I expect it will be very interesting. Due out October 14. The post *Taking Religion Seriously* appeared first on Marginal REVOLUTION. ]]>",
+    "publishedAt": "2025-08-02T07:32:06.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.270Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "b09e135"
+  },
+  {
+    "id": "aswath-damodaran-youtube-205f9d7a",
+    "sourceId": "aswath-damodaran-youtube",
+    "sourceName": "Aswath Damodaran YouTube",
+    "title": "Session 25: Valuation - The Final Frontier!",
+    "url": "https://www.youtube.com/watch?v=CERMihGaLlA",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T07:15:47.000Z",
+    "fetchedAt": "2025-08-04T09:59:34.811Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "205f9d7a"
+  },
+  {
+    "id": "scmp-business-6a9bab6",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Hong Kong’s policy change for children of non-local talent ‘to ensure fairness’",
+    "url": "https://www.scmp.com/news/hong-kong/education/article/3320529/hong-kongs-policy-change-children-non-local-talent-ensure-fairness?utm_source=rss_feed",
+    "summary": "Hong Kong’s plans to impose a required residency period for children of non-local talent before they can apply for subsidised tertiary education is part of efforts to ensure fairness and the reasonable use of public funds, a minister has said. Secretary for Education Christine Choi Yuk-lin on Saturd",
+    "fullContent": "Hong Kong’s plans to impose a required residency period for children of non-local talent before they can apply for subsidised tertiary education is part of efforts to ensure fairness and the reasonable use of public funds, a minister has said. Secretary for Education Christine Choi Yuk-lin on Saturday defended the coming policy change, noting the number of relevant applications had increased fivefold between 2022 and last year. In a bid to provide a transition period, the policy will initially...",
+    "publishedAt": "2025-08-02T06:13:32.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.462Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6a9bab6"
+  },
+  {
+    "id": "bloomberg-economics-67e7d0ef",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-02/new-zealand-to-charge-foreign-visitors-at-popular-tourist-sites",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T05:47:24.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.342Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "67e7d0ef"
+  },
+  {
+    "id": "wsj-youtube-58be4bb2",
+    "sourceId": "wsj-youtube",
+    "sourceName": "WSJ YouTube",
+    "title": "India Vows to Protect National Interests Despite Trump’s Tariff Threats | WSJ News",
+    "url": "https://www.youtube.com/watch?v=W7-W62e5TIw",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T05:41:26.000Z",
+    "fetchedAt": "2025-08-04T09:59:50.266Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "58be4bb2"
+  },
+  {
+    "id": "scmp-business-47567fe3",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Hong Kong earns HK$189 million from revived hotel tax in first quarter",
+    "url": "https://www.scmp.com/news/hong-kong/society/article/3320527/hong-kong-earns-hk189-million-revived-hotel-tax-first-quarter?utm_source=rss_feed",
+    "summary": "Hong Kong collected HK$189 million (US$24.1 million) from a hotel tax on guests for the first quarter following its reintroduction, with industry leaders raising concerns as to whether a HK$1.1 billion annual income target can be met. Industry veterans also called for more government support, saying",
+    "fullContent": "Hong Kong collected HK$189 million (US$24.1 million) from a hotel tax on guests for the first quarter following its reintroduction, with industry leaders raising concerns as to whether a HK$1.1 billion annual income target can be met. Industry veterans also called for more government support, saying the tax figures reflected that hotels were struggling and had been forced to reduce room rates to attract tourists. The 3 per cent hotel accommodation tax, which applies to all patrons, was...",
+    "publishedAt": "2025-08-02T05:00:40.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.462Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "47567fe3"
+  },
+  {
+    "id": "marginal-revolution-5f61404e",
+    "sourceId": "marginal-revolution",
+    "sourceName": "Marginal Revolution",
+    "title": "The economics of the U.S. auto industry, a brief history",
+    "url": "https://marginalrevolution.com/marginalrevolution/2025/08/the-economics-of-the-u-s-auto-industry-a-brief-history.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-economics-of-the-u-s-auto-industry-a-brief-history",
+    "summary": "From Adam Ozimek: The economic value of the cars being made has climbed substantially through the years. As a result, real value added and industrial production — two different ways of measuring actual output — are now at all-time highs. And this: What about jobs? The auto industry today",
+    "fullContent": "From Adam Ozimek: The economic value of the cars being made has climbed substantially through the years. As a result, real value added and industrial production — two different ways of measuring actual output — are now at all-time highs. And this: What about jobs? The auto industry today employs 1 million workers. Between 1950 and [&#8230;] The post The economics of the U.S. auto industry, a brief history appeared first on Marginal REVOLUTION. ]]>",
+    "publishedAt": "2025-08-02T04:56:47.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.270Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "5f61404e"
+  },
+  {
+    "id": "cfa-society-india-youtube-7521f547",
+    "sourceId": "cfa-society-india-youtube",
+    "sourceName": "CFA Society India YouTube",
+    "title": "Mark Anson, CFA: Rethinking Portfolio Construction in a Globalized, Uncertain World",
+    "url": "https://www.youtube.com/watch?v=Cjf_2d0nExk",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T04:34:51.000Z",
+    "fetchedAt": "2025-08-04T09:59:59.535Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "7521f547"
+  },
+  {
+    "id": "wsj-world-news-2b378870",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Why Isn&#x2019;t Enough Food Getting Into Gaza?",
+    "url": "https://www.wsj.com/world/middle-east/gaza-food-aid-hunger-crisis-843a9c2a",
+    "summary": "A breakdown in law and order means aid is getting looted before it can reach the people who need it most.",
+    "fullContent": "A breakdown in law and order means aid is getting looted before it can reach the people who need it most.",
+    "publishedAt": "2025-08-02T04:05:00.000Z",
+    "fetchedAt": "2025-08-04T09:59:18.964Z",
+    "category": "news",
+    "tags": [
+      "news"
+    ],
+    "priority": "normal",
+    "contentHash": "2b378870"
+  },
+  {
+    "id": "ft-markets-3bbed5c4",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/c33280e6-752d-47ca-b856-493554551093",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T04:00:36.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3bbed5c4"
+  },
+  {
+    "id": "ft-markets-5d6bf045",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/3464c5d5-f0dc-4127-aa2f-396d9b659c38",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T04:00:36.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5d6bf045"
+  },
+  {
+    "id": "ft-economics-3be8be6e",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "",
+    "url": "https://www.ft.com/content/efe7ee2c-6e64-4568-9ce3-b5524e0a2d60",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T04:00:36.000Z",
+    "fetchedAt": "2025-08-04T06:57:30.192Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "3be8be6e"
+  },
+  {
+    "id": "ft-economics-5d6bf045",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "",
+    "url": "https://www.ft.com/content/3464c5d5-f0dc-4127-aa2f-396d9b659c38",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T04:00:36.000Z",
+    "fetchedAt": "2025-08-04T06:57:30.192Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "5d6bf045"
+  },
+  {
+    "id": "ft-technology-1024ef9a",
+    "sourceId": "ft-technology",
+    "sourceName": "FT Technology",
+    "title": "",
+    "url": "https://www.ft.com/content/7ce8a0c4-f806-44e4-96f5-8cae8772c97c",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T04:00:17.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.846Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "1024ef9a"
+  },
+  {
+    "id": "ft-markets-3eb19204",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/e0b7f437-0e3d-4e68-a2cd-d03affb72400",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T04:00:07.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3eb19204"
+  },
+  {
+    "id": "wsj-youtube-66d4d2ea",
+    "sourceId": "wsj-youtube",
+    "sourceName": "WSJ YouTube",
+    "title": "Trump on Gaza Ahead of Witkoff Visit: ‘Terrible What's Occurring’ | WSJ News",
+    "url": "https://www.youtube.com/watch?v=glme2iyH6Gk",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T02:46:34.000Z",
+    "fetchedAt": "2025-08-04T09:59:50.266Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "66d4d2ea"
+  },
+  {
+    "id": "nyt-business-65e6419",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Trump Fires BLS Commissioner, Claiming Weak Jobs Numbers Were ‘Rigged’",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-bls-firing-jobs-report.html",
+    "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
+    "fullContent": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
+    "publishedAt": "2025-08-02T02:22:21.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "65e6419"
+  },
+  {
+    "id": "nyt-economy-65e6419",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Trump Fires BLS Commissioner, Claiming Weak Jobs Numbers Were ‘Rigged’",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-bls-firing-jobs-report.html",
+    "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
+    "fullContent": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
+    "publishedAt": "2025-08-02T02:22:21.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.874Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "65e6419"
+  },
+  {
+    "id": "dwarkesh-patel-youtube-4da24bb0",
+    "sourceId": "dwarkesh-patel-youtube",
+    "sourceName": "Dwarkesh Patel YouTube",
+    "title": "Sarah Paine's Framework for a Good Historical Argument",
+    "url": "https://www.youtube.com/watch?v=teAL1Qo_6BY",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-02T02:16:57.000Z",
+    "fetchedAt": "2025-08-04T09:59:41.056Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "4da24bb0"
+  },
+  {
+    "id": "nyt-business-2965f61b",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Stocks Drop as Trump’s New Tariffs Weigh on Markets",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-tariffs-stock-markets-trade.html",
+    "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+    "fullContent": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+    "publishedAt": "2025-08-02T02:11:07.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2965f61b"
+  },
+  {
+    "id": "nyt-economy-2965f61b",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Stocks Drop as Trump’s New Tariffs Weigh on Markets",
+    "url": "https://www.nytimes.com/2025/08/01/business/economy/trump-tariffs-stock-markets-trade.html",
+    "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+    "fullContent": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+    "publishedAt": "2025-08-02T02:11:07.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.874Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "2965f61b"
+  },
+  {
     "id": "microcap-club-youtube-72e13fe3",
     "sourceId": "microcap-club-youtube",
     "sourceName": "MicroCap Club YouTube",
@@ -1018,685 +1698,5 @@
     ],
     "priority": "normal",
     "contentHash": "7a07031a"
-  },
-  {
-    "id": "wsj-markets-main-4dad037f",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Figma Had a Dazzling IPO. It Could Have Been $3 Billion Better.",
-    "url": "https://www.wsj.com/finance/stocks/figma-ipo-fig-stock-pricing-e0f151d6?mod=rss_markets_main",
-    "summary": "Investors and bankers are wondering why the software company didn&#x2019;t price its shares higher to capitalize on fervent demand.",
-    "fullContent": "Investors and bankers are wondering why the software company didn&#x2019;t price its shares higher to capitalize on fervent demand.",
-    "publishedAt": "2025-08-01T18:59:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.468Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4dad037f"
-  },
-  {
-    "id": "wsj-youtube-ce1a555",
-    "sourceId": "wsj-youtube",
-    "sourceName": "WSJ YouTube",
-    "title": "WSJ Chief Economics Correspondent Explains the Fed’s Rare Rate Dissents | WSJ News",
-    "url": "https://www.youtube.com/watch?v=UD7xlgDNqtU",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T18:53:42.000Z",
-    "fetchedAt": "2025-08-04T09:59:50.266Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "ce1a555"
-  },
-  {
-    "id": "wsj-world-news-70d52bf2",
-    "sourceId": "wsj-world-news",
-    "sourceName": "WSJ World News",
-    "title": "Trump Positions Nuclear Submarines Following Threats From Former Russian Leader",
-    "url": "https://www.wsj.com/world/russia/trump-positions-nuclear-submarines-following-criticism-from-former-russian-leader-79f8006c",
-    "summary": "The U.S. president criticized former Russian President Dmitry Medvedev, saying words &#x2018;can often lead to unintended consequences.&#x2019;",
-    "fullContent": "The U.S. president criticized former Russian President Dmitry Medvedev, saying words &#x2018;can often lead to unintended consequences.&#x2019;",
-    "publishedAt": "2025-08-01T18:50:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.965Z",
-    "category": "news",
-    "tags": [
-      "news"
-    ],
-    "priority": "normal",
-    "contentHash": "70d52bf2"
-  },
-  {
-    "id": "nyt-business-3ad47b69",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "It’s Time for That Often-Dreaded Task: Buying Back-to-School Supplies",
-    "url": "https://www.nytimes.com/2025/08/01/your-money/back-to-school-supplies-parents.html",
-    "summary": "Parents of children in kindergarten through high school are spending an average of $144, and that’s coming as families are feeling financial stress.",
-    "fullContent": "Parents of children in kindergarten through high school are spending an average of $144, and that’s coming as families are feeling financial stress.",
-    "publishedAt": "2025-08-01T18:32:14.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3ad47b69"
-  },
-  {
-    "id": "oil-price-65f7235c",
-    "sourceId": "oil-price",
-    "sourceName": "OilPrice.com",
-    "title": "Oil Majors Beat Back $4.2 Billion Fine in Kazakhstan",
-    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Majors-Beat-Back-42-Billion-Fine-in-Kazakhstan.html",
-    "summary": "A Kazakh appellate court has sided with the international oil majors operating the Kashagan oilfield, overturning a massive $4.2 billion environmental fine over sulfur storage practices. The North Caspian Operating Company (NCOC)—a consortium that includes Eni, Shell, ExxonMobil, and TotalEnergies—h",
-    "fullContent": "A Kazakh appellate court has sided with the international oil majors operating the Kashagan oilfield, overturning a massive $4.2 billion environmental fine over sulfur storage practices. The North Caspian Operating Company (NCOC)—a consortium that includes Eni, Shell, ExxonMobil, and TotalEnergies—hailed the decision as confirmation that their sulfur handling meets both Kazakh legal requirements and global industry standards. The dispute stemmed from Kazakhstan’s claim that NCOC had improperly stored sulfur byproducts at the $55…",
-    "publishedAt": "2025-08-01T18:30:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.703Z",
-    "category": "commodities",
-    "tags": [
-      "commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "65f7235c"
-  },
-  {
-    "id": "nyt-business-414638d2",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Exxon Chief Says Demand for Oil Remains ‘Very, Very Strong’",
-    "url": "https://www.nytimes.com/2025/08/01/business/energy-environment/exxon-profit-oil-price.html",
-    "summary": "The largest U.S. energy companies reported their lowest second-quarter profits in years, as tariffs have weighed on oil prices.",
-    "fullContent": "The largest U.S. energy companies reported their lowest second-quarter profits in years, as tariffs have weighed on oil prices.",
-    "publishedAt": "2025-08-01T18:28:33.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "414638d2"
-  },
-  {
-    "id": "nyt-business-32719f0b",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Cambodia Agrees to a Reduced Tariff and Breathes a Sigh of Relief",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/cambodia-tariffs-trump.html",
-    "summary": "Initially 49%, it was lowered to 19%, easing worries of a damaging hit to the country’s garment and footwear production industries.",
-    "fullContent": "Initially 49%, it was lowered to 19%, easing worries of a damaging hit to the country’s garment and footwear production industries.",
-    "publishedAt": "2025-08-01T18:25:06.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "32719f0b"
-  },
-  {
-    "id": "nyt-economy-32719f0b",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "Cambodia Agrees to a Reduced Tariff and Breathes a Sigh of Relief",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/cambodia-tariffs-trump.html",
-    "summary": "Initially 49%, it was lowered to 19%, easing worries of a damaging hit to the country’s garment and footwear production industries.",
-    "fullContent": "Initially 49%, it was lowered to 19%, easing worries of a damaging hit to the country’s garment and footwear production industries.",
-    "publishedAt": "2025-08-01T18:25:06.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.874Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "32719f0b"
-  },
-  {
-    "id": "bloomberg-politics-434205e",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-01/trump-says-he-ll-fire-labor-statistics-head-after-weak-jobs-data",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T18:16:37.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.570Z",
-    "category": "policy",
-    "tags": [
-      "policy"
-    ],
-    "priority": "normal",
-    "contentHash": "434205e"
-  },
-  {
-    "id": "sec-press-releases-6762b46b",
-    "sourceId": "sec-press-releases",
-    "sourceName": "SEC Press Releases",
-    "title": "SEC Creates Task Force to Tap Artificial Intelligence for Enhanced Innovation and Efficiency Across the Agency",
-    "url": "https://www.sec.gov/newsroom/press-releases/2025-103-sec-creates-task-force-tap-artificial-intelligence-enhanced-innovation-efficiency-across-agency",
-    "summary": "The Securities and Exchange Commission today announced the launch of a task force on artificial intelligence (AI) that will spearhead the agency’s efforts to enhance innovation and efficiency in its operations through the responsible use of AI. Valerie…",
-    "fullContent": "The Securities and Exchange Commission today announced the launch of a task force on artificial intelligence (AI) that will spearhead the agency’s efforts to enhance innovation and efficiency in its operations through the responsible use of AI. Valerie…",
-    "publishedAt": "2025-08-01T18:11:27.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.520Z",
-    "category": "regulation",
-    "tags": [
-      "regulation"
-    ],
-    "priority": "normal",
-    "contentHash": "6762b46b"
-  },
-  {
-    "id": "nyt-business-57b59f68",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "India Reels From the Shock of Trump’s Onslaught",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/india-reels-from-the-shock-of-trumps-onslaught.html",
-    "summary": "Russian oil poses just one problem. Business groups are flummoxed by the variety and vagueness of the American president’s complaints.",
-    "fullContent": "Russian oil poses just one problem. Business groups are flummoxed by the variety and vagueness of the American president’s complaints.",
-    "publishedAt": "2025-08-01T18:10:58.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "57b59f68"
-  },
-  {
-    "id": "nyt-economy-57b59f68",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "India Reels From the Shock of Trump’s Onslaught",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/india-reels-from-the-shock-of-trumps-onslaught.html",
-    "summary": "Russian oil poses just one problem. Business groups are flummoxed by the variety and vagueness of the American president’s complaints.",
-    "fullContent": "Russian oil poses just one problem. Business groups are flummoxed by the variety and vagueness of the American president’s complaints.",
-    "publishedAt": "2025-08-01T18:10:58.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.874Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "57b59f68"
-  },
-  {
-    "id": "ft-markets-81c5a63",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/70841d98-75cd-4ccc-a1eb-6f3b5751c296",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T18:10:12.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "81c5a63"
-  },
-  {
-    "id": "cnbc-markets-38b62695",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "‘The eye of the hurricane’: Why the U.S. job market has soured, economists say",
-    "url": "https://www.cnbc.com/2025/08/01/us-job-market-jobs-report-july-2025.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T18:07:09.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.495Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "38b62695"
-  },
-  {
-    "id": "cnbc-markets-18730d55",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Trump says he moved two nuclear submarines after Russia's Medvedev warns U.S.",
-    "url": "https://www.cnbc.com/2025/08/01/trump-russia-nuclear-submarines.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T18:03:54.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.495Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "18730d55"
-  },
-  {
-    "id": "nyt-business-27f032a7",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Recent global trade deals with the U.S. were secured with murky investments.",
-    "url": "https://www.nytimes.com/live/2025/07/31/business/tariffs-trump-trade/recent-global-trade-deals-with-the-us-were-secured-with-murky-investments",
-    "summary": "were secured with huge, often vaguely defined investment pledges from partners like Japan.",
-    "fullContent": "were secured with huge, often vaguely defined investment pledges from partners like Japan.",
-    "publishedAt": "2025-08-01T17:58:14.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "27f032a7"
-  },
-  {
-    "id": "nyt-economy-27f032a7",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "Recent global trade deals with the U.S. were secured with murky investments.",
-    "url": "https://www.nytimes.com/live/2025/07/31/business/tariffs-trump-trade/recent-global-trade-deals-with-the-us-were-secured-with-murky-investments",
-    "summary": "were secured with huge, often vaguely defined investment pledges from partners like Japan.",
-    "fullContent": "were secured with huge, often vaguely defined investment pledges from partners like Japan.",
-    "publishedAt": "2025-08-01T17:58:14.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.874Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "27f032a7"
-  },
-  {
-    "id": "ft-economics-6e624431",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/4a669ae7-7ffc-46f0-87eb-6baf78339804",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:48:06.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "6e624431"
-  },
-  {
-    "id": "ft-economics-609ca48f",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/852647d1-f3ef-47fe-b405-088eec4e8677",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:44:35.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "609ca48f"
-  },
-  {
-    "id": "ft-economics-1d25280c",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/654a54d1-10d3-4f75-bf11-891f104fd516",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:42:17.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "1d25280c"
-  },
-  {
-    "id": "bbc-business-6cb241bd",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "",
-    "url": "https://www.bbc.com/news/articles/cj9w0dj0yjyo?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:40:51.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.136Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6cb241bd"
-  },
-  {
-    "id": "cnbc-markets-38eb2623",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "U.S. added just 73,000 jobs in July and numbers for prior months were revised much lower",
-    "url": "https://www.cnbc.com/2025/08/01/jobs-report-july-2025.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:37:39.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.495Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "38eb2623"
-  },
-  {
-    "id": "cnbc-economy-38eb2623",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "U.S. added just 73,000 jobs in July and numbers for prior months were revised much lower",
-    "url": "https://www.cnbc.com/2025/08/01/jobs-report-july-2025.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:37:39.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.393Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "38eb2623"
-  },
-  {
-    "id": "marginal-revolution-3ad9dfce",
-    "sourceId": "marginal-revolution",
-    "sourceName": "Marginal Revolution",
-    "title": "UK (Google) fact of the day",
-    "url": "https://marginalrevolution.com/marginalrevolution/2025/08/uk-google-fact-of-the-day.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=uk-google-fact-of-the-day",
-    "summary": "Google now spends more on physical capital like datacentres ($85 billion / year) than the entire UK defence budget ($79 billion / year). Here is the source. The post UK (Google) fact",
-    "fullContent": "Google now spends more on physical capital like datacentres ($85 billion / year) than the entire UK defence budget ($79 billion / year). Here is the source. The post UK (Google) fact of the day appeared first on Marginal REVOLUTION. ]]>",
-    "publishedAt": "2025-08-01T17:20:58.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.270Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "3ad9dfce"
-  },
-  {
-    "id": "wsj-youtube-78990d3f",
-    "sourceId": "wsj-youtube",
-    "sourceName": "WSJ YouTube",
-    "title": "Gaza's Hunger Crisis: Why Isn't Aid Getting Through? | WSJ News",
-    "url": "https://www.youtube.com/watch?v=C7NjmJT9-x0",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:19:38.000Z",
-    "fetchedAt": "2025-08-04T09:59:50.266Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "78990d3f"
-  },
-  {
-    "id": "nyt-business-a0ea53e",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/tariffs-agriculture-costs-farmers-consumers.html",
-    "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
-    "fullContent": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
-    "publishedAt": "2025-08-01T17:17:14.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a0ea53e"
-  },
-  {
-    "id": "nyt-economy-a0ea53e",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/tariffs-agriculture-costs-farmers-consumers.html",
-    "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
-    "fullContent": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
-    "publishedAt": "2025-08-01T17:17:14.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.874Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "a0ea53e"
-  },
-  {
-    "id": "bloomberg-economics-6ac2fa76",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-01/swiss-push-for-tariff-deal-hits-roadblock-in-heated-trump-call",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:16:13.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.342Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "6ac2fa76"
-  },
-  {
-    "id": "bloomberg-politics-6ac2fa76",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-01/swiss-push-for-tariff-deal-hits-roadblock-in-heated-trump-call",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:16:13.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.570Z",
-    "category": "policy",
-    "tags": [
-      "policy"
-    ],
-    "priority": "normal",
-    "contentHash": "6ac2fa76"
-  },
-  {
-    "id": "wired-229a3e11",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "WIRED Roundup: ChatGPT Goes Full Demon Mode",
-    "url": "https://www.wired.com/story/uncanny-valley-podcast-chatgpt-goes-full-demon-mode/",
-    "summary": "On today’s episode of Uncanny Valley, our senior business editor joins us to talk Meta, brain aging, and ChatGPT’s recent dark turn.",
-    "fullContent": "On today’s episode of Uncanny Valley, our senior business editor joins us to talk Meta, brain aging, and ChatGPT’s recent dark turn.",
-    "publishedAt": "2025-08-01T17:02:05.000Z",
-    "fetchedAt": "2025-08-04T06:58:46.586Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "229a3e11"
-  },
-  {
-    "id": "ft-markets-62b2275",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/2d5b608c-bad7-4c79-b408-2e71839bc855",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:00:02.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "62b2275"
-  },
-  {
-    "id": "ft-markets-42e1763d",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/6bb7a7ef-2a07-4869-935c-89575200b1fa",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T17:00:02.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "42e1763d"
-  },
-  {
-    "id": "scmp-business-1986ecb7",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Purr-fect day for Hong Kong pet owners as cat expo opens",
-    "url": "https://www.scmp.com/news/hong-kong/society/article/3320504/purr-fect-day-hong-kong-pet-owners-cat-expo-opens?utm_source=rss_feed",
-    "summary": "Pet owners splurged on their furry friends as a cat expo opened in Hong Kong on Friday, spending thousands of dollars on products ranging from food to DNA tests for hereditary diseases and jewellery items made with feline hair. The three-day Hong Kong Cat Expo, which has been held annually since 202",
-    "fullContent": "Pet owners splurged on their furry friends as a cat expo opened in Hong Kong on Friday, spending thousands of dollars on products ranging from food to DNA tests for hereditary diseases and jewellery items made with feline hair. The three-day Hong Kong Cat Expo, which has been held annually since 2023, features more than 180 exhibitors and 380 booths at the Convention and Exhibition Centre in Wan Chai, with some reporting brisk business. Among them was Hero DNA, which said that in the first five...",
-    "publishedAt": "2025-08-01T16:58:12.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.462Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1986ecb7"
-  },
-  {
-    "id": "ft-economics-4f1460de",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/e64f4ef0-0f98-4a8b-8840-459fd6f2dc28",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T16:55:50.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "4f1460de"
-  },
-  {
-    "id": "ft-economics-53cd6227",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/ce57d7a6-ca1d-4b38-a324-2153bff4297a",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T16:50:39.000Z",
-    "fetchedAt": "2025-08-04T06:57:30.192Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "53cd6227"
-  },
-  {
-    "id": "nyt-business-68f0456f",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Federal Government Shed 12,000 Jobs in July",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/federal-jobs-report-july.html",
-    "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
-    "fullContent": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
-    "publishedAt": "2025-08-01T16:33:21.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "68f0456f"
-  },
-  {
-    "id": "nyt-economy-68f0456f",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "Federal Government Shed 12,000 Jobs in July",
-    "url": "https://www.nytimes.com/2025/08/01/business/economy/federal-jobs-report-july.html",
-    "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
-    "fullContent": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
-    "publishedAt": "2025-08-01T16:33:21.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.874Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "68f0456f"
-  },
-  {
-    "id": "ft-technology-1dd2309c",
-    "sourceId": "ft-technology",
-    "sourceName": "FT Technology",
-    "title": "",
-    "url": "https://www.ft.com/content/76dd6aed-f60e-487b-be1b-e3ec92168c11",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T16:30:10.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.846Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "1dd2309c"
-  },
-  {
-    "id": "wired-3f435bc8",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Itch.io Is Restoring NSFW Games—as Long as They’re Free",
-    "url": "https://www.wired.com/story/itchio-restoring-free-nsfw-games/",
-    "summary": "Facing pressure from payment processors, the indie game platform delisted many adult titles this week. Itch.io began offering free NSFW content again on Thursday as it looks for new payment options.",
-    "fullContent": "Facing pressure from payment processors, the indie game platform delisted many adult titles this week. Itch.io began offering free NSFW content again on Thursday as it looks for new payment options.",
-    "publishedAt": "2025-08-01T16:24:16.000Z",
-    "fetchedAt": "2025-08-04T06:58:46.586Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "3f435bc8"
-  },
-  {
-    "id": "derek-thompson-54da0638",
-    "sourceId": "derek-thompson",
-    "sourceName": "Derek Thompson",
-    "title": "",
-    "url": "https://www.derekthompson.org/p/whats-the-matter-with-dallas",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-01T16:21:04.000Z",
-    "fetchedAt": "2025-08-04T10:05:38.646Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "54da0638"
   }
 ]

@@ -1,5 +1,673 @@
 [
   {
+    "id": "nyt-technology-57306081",
+    "sourceId": "nyt-technology",
+    "sourceName": "NYT Technology",
+    "title": "Citizen Scientists Are Accelerating Ecology Research With iNaturalist",
+    "url": "https://www.nytimes.com/2025/07/28/science/citizen-science-ecology-inaturalist.html",
+    "summary": "Thousands of scientific papers have used data collected by users of the platform iNaturalist, according to new research.",
+    "fullContent": "Thousands of scientific papers have used data collected by users of the platform iNaturalist, according to new research.",
+    "publishedAt": "2025-07-28T13:00:08.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.204Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "57306081"
+  },
+  {
+    "id": "fred-blog-10d8a74afcd9e235",
+    "sourceId": "fred-blog",
+    "sourceName": "FRED Blog",
+    "title": "The US balance of payments : A closer look at the various components",
+    "url": "https://fredblog.stlouisfed.org/2025/07/the-us-balance-of-payments/",
+    "summary": "Data in FRED can help us understand the scope and specifics of international economic relationships. There’s the flow of goods, of course. But there are also flows of services, primary income (mostly investments and transfers), capital, and other financial transactions. … Continue reading →",
+    "publishedAt": "2025-07-28T13:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.795110+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "10d8a74afcd9e235"
+  },
+  {
+    "id": "cnbc-business-db9cdbbef06a9f14",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Stocks making big premarket moves: Cheniere Energy, Nike, Kratos, ASML and more",
+    "url": "https://www.cnbc.com/2025/07/28/stocks-making-the-biggest-premarket-moves.html",
+    "summary": "These are some of the stocks posting the largest moves in early trading Monday.",
+    "fullContent": "These are some of the stocks posting the largest moves in early trading Monday.",
+    "publishedAt": "2025-07-28T12:59:46+00:00",
+    "fetchedAt": "2025-07-31T06:18:02.277675+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "db9cdbbef06a9f14"
+  },
+  {
+    "id": "advisor-perspectives-3d892bb57718e26b",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Is Private Equity A Wolf In Sheep’s Clothing?",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/is-private-equity-wolf-sheeps-clothing?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "Wall Street has a long history of selling the newest shiny object to Main Street just as the trade begins to sour. If the music stops at this private equity party, you don’t want to be the last one still dancing.",
+    "publishedAt": "2025-07-28T12:55:47+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.659977+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3d892bb57718e26b"
+  },
+  {
+    "id": "cfa-institute-blog-6c30593d",
+    "sourceId": "cfa-institute-blog",
+    "sourceName": "CFA Institute Enterprising Investor",
+    "title": "No Asset Is Safe—But Some Lose Less",
+    "url": "https://blogs.cfainstitute.org/investor/2025/07/28/no-asset-is-safe-but-some-lose-less/",
+    "summary": "No asset is truly safe. But diversifying into steady, low-volatility stocks can help investors lose less—and stay invested for the long run. The post No Asset Is Safe—But Some Lose Le",
+    "fullContent": "No asset is truly safe. But diversifying into steady, low-volatility stocks can help investors lose less—and stay invested for the long run. The post No Asset Is Safe—But Some Lose Less appeared first on CFA Institute Enterprising Investor. ]]",
+    "publishedAt": "2025-07-28T12:53:46.000Z",
+    "fetchedAt": "2025-08-04T09:59:20.543Z",
+    "category": "research",
+    "tags": [
+      "research"
+    ],
+    "priority": "normal",
+    "contentHash": "6c30593d"
+  },
+  {
+    "id": "advisor-perspectives-1000bb4107772d36",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Elevance Health, Inc: A Deeply Undervalued Long-Term Opportunity",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/elevance-health-inc-deeply-long-term-opportunity?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "In this video, Chuck Carnevale, co-founder of FAST Graphs, aka Mr. Valuation revisits Elevance Health (formerly Anthem), an undervalued long-term opportunity, a major U.S. for-profit health insurer.",
+    "publishedAt": "2025-07-28T12:19:03+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.660214+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "1000bb4107772d36"
+  },
+  {
+    "id": "stratechery-7db7e4c9",
+    "sourceId": "stratechery",
+    "sourceName": "Stratechery",
+    "title": "TSMC Earnings; A16 and TSMC&#8217;s Approach to Backside Power; Intel Earnings, Architecture, and AI",
+    "url": "https://stratechery.com/2025/tsmc-earnings-a16-and-tsmcs-approach-to-backside-power-intel-earnings-architecture-and-ai/",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T12:17:10.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.015Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "7db7e4c9"
+  },
+  {
+    "id": "calculated-risk-a0d28d9ea6ea4ba0",
+    "sourceId": "calculated-risk",
+    "sourceName": "Calculated Risk",
+    "title": "Housing July 28th Weekly Update: Inventory up 0.4% Week-over-week; Down 10% from 2019 Levels",
+    "url": "http://www.calculatedriskblog.com/2025/07/housing-july-28th-weekly-update.html",
+    "summary": "Altos reports that active single-family inventory was up 0.4% week-over-week.Inventory is now up 37.8% from the seasonal bottom in January.   Usually, inventory is up about 22% from the seasonal low by this week in the year.   So, 2025 is seeing a larger than normal increase in inventory. The first graph shows the seasonal pattern for active single-family inventory since 2015. Click on graph for larger image.The red line is for 2025.  The black line is for 2019.  Inventory was up 27.0% compared to the same week in 2024 (last week it was up 28.2%), and down 10.3% compared to the same week in 2019 (last week it was down 10.8%). It now appears inventory will be close to 2019 levels towards the end of 2025. This second inventory graph is courtesy of Altos Research. As of July 25th, inventory was at 860 thousand (7-day average), compared to 857 thousand the prior week. Mike Simonsen discusses this data and much more regularly on Youtube",
+    "publishedAt": "2025-07-28T12:11:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:56.641994+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "a0d28d9ea6ea4ba0"
+  },
+  {
+    "id": "advisor-perspectives-26846a713d876790",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "How to Build a Bond Portfolio",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/how-build-bond-portfolio?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "Despite some wide swings over the last few years, most bond yields still remain elevated.",
+    "publishedAt": "2025-07-28T12:09:55+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.660425+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "26846a713d876790"
+  },
+  {
+    "id": "advisor-perspectives-acaabf3ce8221fc7",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Embracing Sustainability May Benefit Business",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/sustainability-benefit-business?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "Green life, sustainable mutual funds, buying local, the “buy nothing” movement, plastic-free living, eco-fashion, electric vehicles.",
+    "publishedAt": "2025-07-28T12:01:24+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.660670+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "ESG"
+    ],
+    "priority": "normal",
+    "contentHash": "acaabf3ce8221fc7"
+  },
+  {
+    "id": "cnbc-markets-516797177be3d07a",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "China's latest AI model claims to be even cheaper to use than DeepSeek",
+    "url": "https://www.cnbc.com/2025/07/28/chinas-latest-ai-model-claims-to-be-even-cheaper-to-use-than-deepseek.html",
+    "summary": "Startup Z.ai, formerly known as Zhipu, announced Monday a new, low-cost AI model as Chinese companies race to stay at the frontlines of the tech.",
+    "publishedAt": "2025-07-28T12:00:37+00:00",
+    "fetchedAt": "2025-07-30T08:08:47.047205+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "516797177be3d07a"
+  },
+  {
+    "id": "rmi-energy-d64eb262cf577881",
+    "sourceId": "rmi-energy",
+    "sourceName": "RMI",
+    "title": "Financial Institutions Need Smarter Transition Intelligence — Here’s How",
+    "url": "https://rmi.org/financial-institutions-need-smarter-transition-intelligence-heres-how/",
+    "summary": "Corporate transition assessments can be transformed into tools for delivering transition intelligence with three key innovations. The post Financial Institutions Need Smarter Transition Intelligence — Here’s How appeared first on RMI.",
+    "publishedAt": "2025-07-28T12:00:32+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.887672+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "d64eb262cf577881"
+  },
+  {
+    "id": "advisor-perspectives-e5c6d54d6d352599",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Options 101 for Investors",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/options-for-investors?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "Understanding How Options Work, Why They Matter, and How Investors Can Use Options",
+    "publishedAt": "2025-07-28T11:58:01+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.660880+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e5c6d54d6d352599"
+  },
+  {
+    "id": "nyt-business-1037317259d41ca9",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Europe, Worried by Other Global Crises, Agrees to Trump’s Trade Deal",
+    "url": "https://www.nytimes.com/2025/07/28/world/europe/europe-trade-deal-trump.html",
+    "summary": "The framework agreement will likely not do much for economic growth on either side. But it avoids new fissures on other foreign policy issues, particularly the war in Ukraine.",
+    "publishedAt": "2025-07-28T11:56:36+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.793073+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Equities"
+    ],
+    "priority": "high",
+    "contentHash": "1037317259d41ca9"
+  },
+  {
+    "id": "advisor-perspectives-b3bfb9999501f0f8",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "False Choices, Real Costs: Structural Flaws in the Growth–Value Duality",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/false-choices-real-costs-flaws-growth-value-duality?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "Standard value and growth style indexes categorize stocks based on a composite signal that combines valuation (cheap vs. expensive) and growth (fast vs. slow) metrics.",
+    "publishedAt": "2025-07-28T11:51:03+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.661118+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b3bfb9999501f0f8"
+  },
+  {
+    "id": "advisor-perspectives-602c6251daf94e00",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Uncertainty Squared",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/squared-uncertainty?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "Today I’ll continue talking about uncertainty. I want to highlight the complexity we face and also describe the jarring surprise some of us feel when our most trusted sources say things we didn’t expect… and the importance of listening to them anyway.",
+    "publishedAt": "2025-07-28T11:50:56+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.661442+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "602c6251daf94e00"
+  },
+  {
+    "id": "yahoo-finance-f1750bc0b27ecfe9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Gold price today, Wednesday, July 30, 2025: Gold strengthens ahead of Fed meeting",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-july-30-2025-gold-strengthens-ahead-of-fed-meeting-115011083.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T11:50:11+00:00",
+    "fetchedAt": "2025-07-30T13:01:28.106165+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "high",
+    "contentHash": "f1750bc0b27ecfe9"
+  },
+  {
+    "id": "yahoo-finance-1f39cbc8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Gold price today, Friday, August 1, 2025: Gold opens stronger after sweeping tariff updates",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-august-1-2025-gold-opens-stronger-after-sweeping-tariff-updates-115011524.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T11:50:11.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.154Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1f39cbc8"
+  },
+  {
+    "id": "cfa-society-india-youtube-4ff43ce8",
+    "sourceId": "cfa-society-india-youtube",
+    "sourceName": "CFA Society India YouTube",
+    "title": "Inside Acuity Knowledge Partners: CFA charterholders building the future of finance",
+    "url": "https://www.youtube.com/watch?v=N65pvOXvfT0",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T11:44:51.000Z",
+    "fetchedAt": "2025-08-04T09:59:59.535Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "4ff43ce8"
+  },
+  {
+    "id": "one-useful-thing-3c82358",
+    "sourceId": "one-useful-thing",
+    "sourceName": "One Useful Thing",
+    "title": "",
+    "url": "https://www.oneusefulthing.org/p/the-bitter-lesson-versus-the-garbage",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T11:30:43.000Z",
+    "fetchedAt": "2025-08-04T10:05:59.372Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "3c82358"
+  },
+  {
+    "id": "allison-schrager-928db20c8cec3b67",
+    "sourceId": "allison-schrager",
+    "sourceName": "Known Unknowns",
+    "title": "Pension Geeks fight back",
+    "url": "https://allisonschrager.substack.com/p/pension-geeks-fight-back",
+    "summary": "Even a very weird market doesn't excuse a 3% return",
+    "publishedAt": "2025-07-28T11:30:42+00:00",
+    "fetchedAt": "2025-07-30T08:46:05.886578+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "928db20c8cec3b67"
+  },
+  {
+    "id": "wealth-common-sense-9babfbeda364010e",
+    "sourceId": "wealth-common-sense",
+    "sourceName": "A Wealth of Common Sense",
+    "title": "Talk Your Book: How to Hold the Biggest Winners",
+    "url": "https://awealthofcommonsense.com/2025/07/talk-your-book-how-to-hold-the-biggest-winners/",
+    "summary": "On today's Animal Spirits Talk Your Book we speak with Bill Mann from Motley Fool Asset Management about buy & hold investing, owning 10-bagger stocks, the Motley Fool 100, managing investor behavior and much more. The post Talk Your Book: How to Hold the Biggest Winners appeared first on A Wealth of Common Sense. ...",
+    "publishedAt": "2025-07-28T11:15:58+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.219649+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9babfbeda364010e"
+  },
+  {
+    "id": "marginal-revolution-4e0c88926a7b1719",
+    "sourceId": "marginal-revolution",
+    "sourceName": "Marginal Revolution",
+    "title": "The Rising Cost of Child and Pet Day Care",
+    "url": "https://marginalrevolution.com/marginalrevolution/2025/07/the-rising-cost-of-child-and-pet-day-care.html?utm_source=rss&utm_medium=rss&utm_campaign=the-rising-cost-of-child-and-pet-day-care",
+    "summary": "Everyone talks about the soaring cost of child care (e.g. here, here and here), but have you looked at the soaring cost of pet care? On a recent trip, it cost me about $82 per day to board my dog (a bit less with multi-day discounts). And no, that is not high for northern VA and that price […] The post The Rising Cost of Child and Pet Day Care appeared first on Marginal REVOLUTION.",
+    "publishedAt": "2025-07-28T11:13:03+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.643558+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "4e0c88926a7b1719"
+  },
+  {
+    "id": "pens-and-poison-18461f17",
+    "sourceId": "pens-and-poison",
+    "sourceName": "Pens and Poison",
+    "title": "",
+    "url": "https://www.pensandpoison.org/p/no-cartman-wokeness-isnt-dead",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T11:10:25.000Z",
+    "fetchedAt": "2025-08-04T10:03:39.831Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "18461f17"
+  },
+  {
+    "id": "advisor-perspectives-25f1016c8e306064",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Unsteady Ground, Unshaken Optimism: 2Q25 Quarterly Commentary",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/unshaken-optimism-2q25-commentary?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "The second quarter of 2025 started with a bang and ended with a whimper.",
+    "publishedAt": "2025-07-28T11:01:05+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.661671+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "25f1016c8e306064"
+  },
+  {
+    "id": "advisor-perspectives-8d01461d377d4d88",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Silicon Valley’s $4 Billion Gamble on Defense Manufacturing",
+    "url": "https://www.advisorperspectives.com/articles/2025/07/28/silicon-valleys-4-billion-gamble-defense-manufacturing?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "Every month Neros Inc. makes hundreds of drones designed to drop warheads on adversaries.",
+    "publishedAt": "2025-07-28T10:58:57+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.661891+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "8d01461d377d4d88"
+  },
+  {
+    "id": "advisor-perspectives-2741a4de8c0530b4",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Janus Henderson Lists New Asset-Backed Securities ETF",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/asset-backed-securities-etf-janus?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "On Wednesday, Janus Henderson expanded its ETF lineup with the launch of the Janus Henderson Asset-Backed Securities ETF (JABS).",
+    "publishedAt": "2025-07-28T10:58:38+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.662112+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2741a4de8c0530b4"
+  },
+  {
+    "id": "yale-e360-6d03da6552faa720",
+    "sourceId": "yale-e360",
+    "sourceName": "Yale E360",
+    "title": "‘Sponge City’: How Copenhagen Is Adapting to a Wetter Future",
+    "url": "https://e360.yale.edu/features/copenhagen-sponge-cities",
+    "summary": "Climate change is bringing ever more precipitation and rising seas to low-lying Denmark. In response to troubling predictions, Copenhagen is enacting an ambitious plan to build hundreds of nature-based and engineered projects to soak up, store, and redistribute future floods.Read more on E360 →",
+    "publishedAt": "2025-07-28T10:45:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:11.433536+00:00",
+    "category": "culture",
+    "tags": [
+      "ESG",
+      "Culture"
+    ],
+    "priority": "normal",
+    "contentHash": "6d03da6552faa720"
+  },
+  {
+    "id": "advisor-perspectives-7c4dce0a72991991",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Gold and Silver Soar Amid Dollar Selloff",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/gold-silver-soar-amid-dollar-selloff?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "All the pieces are falling into place for silver’s bull market to accelerate, with a breakout into the $40s now looking increasingly likely in the near term.",
+    "publishedAt": "2025-07-28T10:31:17+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.662339+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Currency",
+      "Commodities"
+    ],
+    "priority": "high",
+    "contentHash": "7c4dce0a72991991"
+  },
+  {
+    "id": "paul-krugman-14fa194b",
+    "sourceId": "paul-krugman",
+    "sourceName": "Paul Krugman",
+    "title": "",
+    "url": "https://paulkrugman.substack.com/p/the-limits-of-sprawl",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T10:31:02.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.940Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "14fa194b"
+  },
+  {
+    "id": "big-picture-6db37675a9531cd5",
+    "sourceId": "big-picture",
+    "sourceName": "The Big Picture",
+    "title": "10 Monday AM Reads",
+    "url": "https://ritholtz.com/2025/07/10-monday-am-reads-439/",
+    "summary": "My back-to-work morning train WFH reads: • Want to Be a 401(k) Millionaire? Start With These Fixes. The stock market gains about 10% a year, but your savings may be falling behind. Here’s how to make the most of your 401(k). (Barron’s) • Investors Are Flocking to the Stock Market’s Discount Rack: Pricey tech heavyweights… Read More The post 10 Monday AM Reads appeared first on The Big Picture.",
+    "publishedAt": "2025-07-28T10:30:53+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.561155+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "6db37675a9531cd5"
+  },
+  {
+    "id": "project-syndicate-1166c83a27ca64e1",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "Brazil’s Brave Stand Against Trump",
+    "url": "https://www.project-syndicate.org/commentary/brazil-president-lula-standing-up-to-trump-by-joseph-e-stiglitz-2025-07",
+    "summary": "Under President Luiz Inácio Lula da Silva’s leadership, Brazil has chosen to reaffirm its commitment to the rule of law, even as America seems to be renouncing its own Constitution. It must be hoped that other political leaders will demonstrate similar bravery in the face of bullying by the world’s most powerful country.",
+    "publishedAt": "2025-07-28T10:27:41+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.036420+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "1166c83a27ca64e1"
+  },
+  {
+    "id": "wsj-youtube-73bd6a939a786278",
+    "sourceId": "wsj-youtube",
+    "sourceName": "Wall Street Journal",
+    "title": "Israel Allows Aid Airdrops in Gaza | WSJ News",
+    "url": "https://www.youtube.com/watch?v=m-SinKRcVwQ",
+    "summary": "Israel says it is pausing military activities in parts of Gaza as aid is airdropped into the enclave amid a deepening humanitarian crisis. Photo: Omar Ashtawy/Zuma Press",
+    "fullContent": "Israel says it is pausing military activities in parts of Gaza as aid is airdropped into the enclave amid a deepening humanitarian crisis. Photo: Omar Ashtawy/Zuma Press",
+    "publishedAt": "2025-07-28T10:22:55+00:00",
+    "fetchedAt": "2025-07-30T15:00:43.122907+00:00",
+    "category": "videos",
+    "tags": [
+      "Videos"
+    ],
+    "priority": "breaking",
+    "contentHash": "73bd6a939a786278"
+  },
+  {
+    "id": "wocomo-docs-youtube-6dfa969f",
+    "sourceId": "wocomo-docs-youtube",
+    "sourceName": "Wocomo Docs YouTube",
+    "title": "Hiking the Border Panorama Trail - Where Austria Meets Slovenia | Hike the Line (1/3)",
+    "url": "https://www.youtube.com/watch?v=7eh_trSM-5g",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T10:16:39.000Z",
+    "fetchedAt": "2025-08-04T10:00:02.635Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "6dfa969f"
+  },
+  {
+    "id": "uncharted-territories-390ff20",
+    "sourceId": "uncharted-territories",
+    "sourceName": "Uncharted Territories",
+    "title": "",
+    "url": "https://unchartedterritories.tomaspueyo.com/p/how-bread-vs-rice-molded-history",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T10:12:08.000Z",
+    "fetchedAt": "2025-08-04T10:05:27.992Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "390ff20"
+  },
+  {
+    "id": "aeon-1acfc2e043fd91a2",
+    "sourceId": "aeon",
+    "sourceName": "Aeon Magazine",
+    "title": "The physics of dissonance",
+    "url": "https://aeon.co/videos/a-riveting-audiovisual-dive-into-what-makes-sounds-harmonious-or-not?utm_source=rss-feed",
+    "summary": "Dissonance and harmony might seem straightforward, but a deep dive into the physics reveals their delightful complexity - by Aeon Video Watch at Aeon",
+    "publishedAt": "2025-07-28T10:01:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:46.541965+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "normal",
+    "contentHash": "1acfc2e043fd91a2"
+  },
+  {
+    "id": "aeon-magazine-2cf9feb5",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon Magazine",
+    "title": "",
+    "url": "https://aeon.co/videos/a-riveting-audiovisual-dive-into-what-makes-sounds-harmonious-or-not?utm_source=rss-feed",
+    "summary": "Dissonance and harmony might seem stra",
+    "fullContent": "Dissonance and harmony might seem straightforward, but a deep dive into the physics reveals their delightful complexity - by Aeon Video Watch at Aeon]]",
+    "publishedAt": "2025-07-28T10:01:00.000Z",
+    "fetchedAt": "2025-08-04T10:01:56.350Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "2cf9feb5"
+  },
+  {
+    "id": "rest-of-world-6f351dbcd4b3393b",
+    "sourceId": "rest-of-world",
+    "sourceName": "Rest of World",
+    "title": "The surprise winner in the U.S.-China tech war? Vietnam’s chip industry",
+    "url": "https://restofworld.org/2025/vietnam-chip-industry-us-china-trade-war/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "summary": "Vietnamese chip component suppliers are responding to growing market demands for products with no Chinese link.",
+    "publishedAt": "2025-07-28T10:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.081568+00:00",
+    "category": "technology",
+    "tags": [
+      "Tech",
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "6f351dbcd4b3393b"
+  },
+  {
+    "id": "aeon-59d35146bee115c2",
+    "sourceId": "aeon",
+    "sourceName": "Aeon Magazine",
+    "title": "Spider divination",
+    "url": "https://aeon.co/essays/in-cameroon-truth-telling-spiders-untangle-the-future?utm_source=rss-feed",
+    "summary": "Life is complicated. In Cameroon, initiated diviners read the messages of spiders to untangle possible futures - by David Zeitlyn Read at Aeon",
+    "publishedAt": "2025-07-28T10:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:46.542225+00:00",
+    "category": "culture",
+    "tags": [
+      "Culture"
+    ],
+    "priority": "normal",
+    "contentHash": "59d35146bee115c2"
+  },
+  {
+    "id": "advisor-perspectives-c8a979e9bcdc4eee",
+    "sourceId": "advisor-perspectives",
+    "sourceName": "Advisor Perspectives",
+    "title": "Momentum ETFs Climb Higher in 2025",
+    "url": "https://www.advisorperspectives.com/commentaries/2025/07/28/momentum-etfs-climb-higher-2025?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
+    "summary": "In the one-year period ended June 2025, the S&P 500 Momentum Index rose 30%, essentially double the gain of the S&P 500.",
+    "publishedAt": "2025-07-28T10:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.662572+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c8a979e9bcdc4eee"
+  },
+  {
     "id": "apollo-academy-caddd6ea2b1253ac",
     "sourceId": "apollo-academy",
     "sourceName": "Apollo Academy",
@@ -1000,673 +1668,5 @@
     ],
     "priority": "normal",
     "contentHash": "87afc37af6d69cc8"
-  },
-  {
-    "id": "bloomberg-markets-f1a9c9dccf35c58c",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "European Stocks Rise as US Deal Eases Tariff Fears: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
-    "summary": "European stocks and US equity futures climbed after the European Union reached a trade deal with President Donald Trump, further easing fears of a damaging trade war.",
-    "publishedAt": "2025-07-27T22:25:35+00:00",
-    "fetchedAt": "2025-07-28T08:46:15.640546+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "f1a9c9dccf35c58c"
-  },
-  {
-    "id": "bloomberg-markets-576845da45e9c4a3",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "S&amp;P Futures Rise as EU-US Trade Deal Brings Relief: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
-    "summary": "US equity futures climbed along with the dollar after the European Union reached a trade deal with President Donald Trump, further easing fears of a damaging trade war.",
-    "publishedAt": "2025-07-27T22:25:35+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.017191+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Currency",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "576845da45e9c4a3"
-  },
-  {
-    "id": "fortune-6bc8265046ebf7fc",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Dow futures rise on US-EU trade pact as investors brace for fast and furious week of earnings, China talks, Fed, GDP, jobs report, tariff deadline",
-    "url": "https://fortune.com/2025/07/27/stock-market-today-dow-futures-us-eu-trade-deal-earnings-fed-meeting-china-talks/",
-    "summary": "Investors will not be able to look away over the coming week as every single day could produce significant market-moving news.",
-    "publishedAt": "2025-07-27T22:21:31+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.629947+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "6bc8265046ebf7fc"
-  },
-  {
-    "id": "business-insider-e7bcef0175989059",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Ryan Reynolds' ad agency, Maximum Effort, was behind the Gwyneth Paltrow Astronomer ad",
-    "url": "https://www.businessinsider.com/ryan-reynolds-maximum-effort-gwyneth-paltrow-astronomer-ad-2025-7",
-    "summary": "Astronomer, the tech company that went viral for the wrong reasons, worked with Ryan Reynolds' Maximum Effort and Gwyneth Paltrow to rehabilitate its image.",
-    "publishedAt": "2025-07-27T22:11:36+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.892073+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Tech"
-    ],
-    "priority": "normal",
-    "contentHash": "e7bcef0175989059"
-  },
-  {
-    "id": "fortune-8d09bb7a753e4c07",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Boeing expects more than 3,200 fighter-jet workers to strike after they reject contract offer despite union leaders calling for yes vote",
-    "url": "https://fortune.com/2025/07/27/boeing-strike-st-louis-contract-wage-hike-fighter-jet-plant-f18-super-hornet/",
-    "summary": "The proposed contract that was rejected included a 20% wage increase over four years.",
-    "publishedAt": "2025-07-27T22:09:08+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.630260+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "8d09bb7a753e4c07"
-  },
-  {
-    "id": "zerohedge-a10fcc4d5c0907be",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "\"China Did Not Start The War\": Another Fiery Showdown At The UN Over Beijing-Moscow Relations",
-    "url": "https://www.zerohedge.com/geopolitical/china-did-not-start-war-another-fiery-showdown-un-over-beijing-moscow-relations",
-    "summary": "\"China Did Not Start The War\": Another Fiery Showdown At The UN Over Beijing-Moscow Relations The United States and China once again clashed at the United Nations during a Security Council meeting, which occurred Friday. This has been a more frequent and growing trend over the last year of grinding conflict, into the Trump administration. Acting US Ambassador Dorothy Shea accused Beijing of covertly aiding Moscow's military machine, and urged China to \"stop fueling Russia’s aggression\" in Ukraine. Washington has long suspected Beijing of intentionally shipping dual civilian-military goods in order to prop up Russia's defense industrial sector. \"Beijing’s claim to have implemented strong export controls on dual-use goods falls apart in the face of daily recovery of Chinese-produced components in the drones, weapons, and vehicles that Russia uses against Ukraine,\" Ambassador Shea said. Beijing firmly rejected the allegations, saying it enforces legal and strict controls over its exports,",
-    "publishedAt": "2025-07-27T22:05:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.531210+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a10fcc4d5c0907be"
-  },
-  {
-    "id": "bloomberg-markets-7e20564f8e81e251",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Hedging by Australia’s Pension Funds Set to Boost Local Dollar",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/hedging-by-australia-s-pension-funds-set-to-boost-local-dollar",
-    "summary": "The Australian dollar is set for further gains as the nation’s biggest pension funds have reason to boost hedging of their US assets to shield them from policy uncertainties.",
-    "publishedAt": "2025-07-27T22:01:55+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.598109+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Currency"
-    ],
-    "priority": "high",
-    "contentHash": "7e20564f8e81e251"
-  },
-  {
-    "id": "scmp-business-6e71e48847bfd7d2",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Yuen Yuen Ang on how China can turn ‘polycrisis’ into ‘polytunity’",
-    "url": "https://www.scmp.com/economy/china-economy/article/3319375/yuen-yuen-ang-how-china-can-turn-polycrisis-polytunity?utm_source=rss_feed",
-    "summary": "Yuen Yuen Ang is the Alfred Chandler Chair Professor of political economy at Johns Hopkins University. She is an influential scholar, writing extensively on China’s political and economic trajectory, its international relations and its adaptive development in a fragmented, unpredictable world. Originally from Singapore, her award-winning work includes the books How China Escaped the Poverty Trap and China’s Gilded Age. This interview first appeared in SCMP Plus. For other interviews in the Open...",
-    "publishedAt": "2025-07-27T22:00:11+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.591229+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "breaking",
-    "contentHash": "6e71e48847bfd7d2"
-  },
-  {
-    "id": "weekend-reads-6b1b605535d1ce1b",
-    "sourceId": "weekend-reads",
-    "sourceName": "Weekend Reads",
-    "title": "Weekend Reads #429",
-    "url": "https://weekendreads.substack.com/p/weekend-reads-429",
-    "summary": "A collection of cross-disciplinary thoughts, perspectives, and opinions",
-    "publishedAt": "2025-07-27T21:53:29+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.268458+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "low",
-    "contentHash": "6b1b605535d1ce1b"
-  },
-  {
-    "id": "ft-economics-bb0e1bec2061e590",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "FirstFT: The US and EU reach a trade deal",
-    "url": "https://www.ft.com/content/d4605098-0961-4ef7-b91f-2a5f8a5fe8d8",
-    "summary": "Also in today’s newsletter, Taiwanese voters reject attempt to recall KMT lawmakers, and China proposes global body to govern AI",
-    "publishedAt": "2025-07-27T21:40:43+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.914251+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "AI",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "bb0e1bec2061e590"
-  },
-  {
-    "id": "wsj-youtube-a8a695fb5a6bd299",
-    "sourceId": "wsj-youtube",
-    "sourceName": "Wall Street Journal",
-    "title": "Officials Seek Terrorism Charge After Suspect Attacks People Inside Walmart | WSJ News",
-    "url": "https://www.youtube.com/watch?v=tIaleS57nPc",
-    "summary": "Officials took a suspect into custody after at least 11 people were stabbed and injured in a Michigan Walmart store. The motive remains under investigation, police said. Photo: Ryan Sun/AP #WSJ #attack #walmart",
-    "fullContent": "Officials took a suspect into custody after at least 11 people were stabbed and injured in a Michigan Walmart store. The motive remains under investigation, police said. Photo: Ryan Sun/AP #WSJ #attack #walmart",
-    "publishedAt": "2025-07-27T21:37:44+00:00",
-    "fetchedAt": "2025-07-30T15:00:43.123220+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "normal",
-    "contentHash": "a8a695fb5a6bd299"
-  },
-  {
-    "id": "marketwatch-3054a2a7204c30e7",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "Trump announces deal with E.U. imposing 15% tariffs, averting trade war",
-    "url": "https://www.marketwatch.com/story/trump-announces-deal-with-e-u-imposing-15-tariffs-averting-trade-war-819e8e87?mod=mw_rss_topstories",
-    "summary": "The U.S. and the European Union have agreed to a trade framework that will result in 15% tariffs on most imported European goods, President Donald Trump announced Sunday. The deal comes a week before Trump’s Aug. 1 deadline, averting an all-out trade war between the two economic giants.",
-    "publishedAt": "2025-07-27T21:36:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:25.146944+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "3054a2a7204c30e7"
-  },
-  {
-    "id": "scmp-business-930c847bd1b7e98a",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "When travellers think sustainability, make them think Greater Bay Area",
-    "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3319224/when-travellers-think-sustainability-make-them-think-greater-bay-area?utm_source=rss_feed",
-    "summary": "Earlier this year, Hong Kong launched its first fully electric ferry. In June, jurisdictions within the Greater Bay Area development zone marked a national event for the environment. Against this backdrop, a quiet but important shift is under way. Policymakers in the Greater Bay Area are no longer just thinking about sustainability; they are setting it in motion. With the development zone becoming a hub for experimentation in smart infrastructure and climate innovation, the time is ripe to...",
-    "publishedAt": "2025-07-27T21:30:08+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.591470+00:00",
-    "category": "markets",
-    "tags": [
-      "ESG",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "930c847bd1b7e98a"
-  },
-  {
-    "id": "zerohedge-667a76b40c63fd76",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Judge Maintains Nationwide Block On Trump's Birthright Citizenship Order",
-    "url": "https://www.zerohedge.com/political/judge-maintains-nationwide-block-trumps-birthright-citizenship-order",
-    "summary": "Judge Maintains Nationwide Block On Trump's Birthright Citizenship Order Authored by Sam Dorman via The Epoch Times, A federal judge in Massachusetts has maintained his nationwide block on President Donald Trump’s policy restricting birthright citizenship, saying that a narrower injunction would be impractical and create too many problems for states that sued the administration. “The record does not support a finding that any narrower option would feasibly and adequately protect the plaintiffs from the injuries they have shown they are likely to suffer if the unlawful policy announced in [Trump’s] Executive Order takes effect during the pendency of this lawsuit,” U.S. District Judge Leo Sorokin said in an opinion on July 25. Sorokin’s opinion came nearly a month after the Supreme Court’s decision in Trump v. CASA, in which a majority of justices said nationwide injunctions likely exceeded the authority granted to courts by Congress. Justice Amy Coney Barrett’s majority opinion left ope",
-    "publishedAt": "2025-07-27T21:30:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.532351+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "667a76b40c63fd76"
-  },
-  {
-    "id": "honest-broker-34b74b57ac8be3db",
-    "sourceId": "honest-broker",
-    "sourceName": "The Honest Broker",
-    "title": "As AI Gets Smarter, It Acts More Evil",
-    "url": "https://www.honest-broker.com/p/as-ai-gets-smarter-it-acts-more-evil",
-    "summary": "I share disturbing evidence, a hypothesis, and a prediction—tell me what you think",
-    "publishedAt": "2025-07-27T21:26:51+00:00",
-    "fetchedAt": "2025-07-28T06:33:13.418264+00:00",
-    "category": "non-money",
-    "tags": [
-      "AI",
-      "Non-Money"
-    ],
-    "priority": "high",
-    "contentHash": "34b74b57ac8be3db"
-  },
-  {
-    "id": "honest-broker-4f192524",
-    "sourceId": "honest-broker",
-    "sourceName": "The Honest Broker",
-    "title": "",
-    "url": "https://www.honest-broker.com/p/as-ai-gets-smarter-it-acts-more-evil",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-27T21:26:51.000Z",
-    "fetchedAt": "2025-08-04T10:03:08.930Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "4f192524"
-  },
-  {
-    "id": "nyt-business-32f576ca843d7619",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "11 People Injured in Stabbing at a Michigan Walmart, Officials Say",
-    "url": "https://www.nytimes.com/2025/07/26/us/stabbing-traverse-city-walmart.html",
-    "summary": "One person was in custody after what the authorities said was a random attack at a store near Traverse City, Mich.",
-    "publishedAt": "2025-07-27T21:23:46+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.795583+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "32f576ca843d7619"
-  },
-  {
-    "id": "nate-silver-50d71a73c9c369d8",
-    "sourceId": "nate-silver",
-    "sourceName": "Nate Silver",
-    "title": "How popular is Donald Trump?",
-    "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
-    "summary": "Silver Bulletin approval ratings for President Trump — and all presidents since Truman.",
-    "publishedAt": "2025-07-27T21:03:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:15.293940+00:00",
-    "category": "non-money",
-    "tags": [
-      "Commodities",
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "50d71a73c9c369d8"
-  },
-  {
-    "id": "handelsblatt-023e10f98adc77a4",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "+++ Nahost +++: FT: Starmer ruft Kabinett wegen Gaza aus Sommerpause zurück",
-    "url": "https://www.handelsblatt.com/politik/international/nahost-ft-starmer-ruft-kabinett-wegen-gaza-aus-sommerpause-zurueck/100136895.html",
-    "summary": "UN-Palästinenserhilfswerk fordert Öffnung aller Gaza-Grenzübergänge +++ Kritik in Netanjahus Regierung an Gaza-Hilfslieferungen +++ Der Newsblog.",
-    "publishedAt": "2025-07-27T21:02:00+00:00",
-    "fetchedAt": "2025-07-28T08:47:58.274395+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "023e10f98adc77a4"
-  },
-  {
-    "id": "bloomberg-markets-d2df101faee6c185",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Trump’s Tariffs Are Already Stunting World Growth While Markets Shrug",
-    "url": "https://www.bloomberg.com/news/features/2025-07-27/how-trump-s-tariffs-are-already-stunting-world-economic-growth",
-    "summary": "With the president’s new trade deals, US protectionism is slowing investment and rewiring supply chains at the expense of the global economy",
-    "publishedAt": "2025-07-27T21:00:07+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.598289+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "d2df101faee6c185"
-  },
-  {
-    "id": "bloomberg-markets-438ea2082495f547",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "CK Hutchison to Invite China Investor to Join Port Deal",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/investors-revive-interest-in-ck-hutchison-despite-deal-delay",
-    "summary": "CK Hutchison Holdings Ltd. said it may invite a “major strategic investor” from China to join a group seeking to buy its global ports, as the Hong Kong-based company works toward a solution that pleases all in the geopolitically-sensitive deal.",
-    "publishedAt": "2025-07-27T21:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.594966+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "438ea2082495f547"
-  },
-  {
-    "id": "nate-silver-96fbb6f483797dbc",
-    "sourceId": "nate-silver",
-    "sourceName": "Nate Silver",
-    "title": "How popular is Elon Musk?",
-    "url": "https://www.natesilver.net/p/elon-musk-polls-popularity-nate-silver-bulletin",
-    "summary": "Silver Bulletin favorability ratings for the world's richest man.",
-    "publishedAt": "2025-07-27T21:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:15.294202+00:00",
-    "category": "non-money",
-    "tags": [
-      "Commodities",
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "96fbb6f483797dbc"
-  },
-  {
-    "id": "zerohedge-9297cc58cf0f72ca",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Bezos Dumps $5.7 Billion In Amazon Stock. Now CNBC Buyout Rumors Swirl",
-    "url": "https://www.zerohedge.com/markets/bezos-dumps-57-billion-amazon-stock-now-cnbc-buyout-rumors-swirl",
-    "summary": "Bezos Dumps $5.7 Billion In Amazon Stock. Now CNBC Buyout Rumors Swirl Jeff Bezos has generated billions of dollars in Amazon stock sales since late June under a 10b5-1 plan. The divestitures coincide with a new report suggesting he's mulling over a potential acquisition of CNBC. According to Bloomberg data, Bezos has been on a selling spree since late June, capitalizing on Amazon's stock rebound from its April lows. So far, the sales have generated $5.7 billion for the billionaire. Here's more from the Bloomberg report: The sales, which began when Bezos unloaded $737 million around his weekend nuptials in Venice, were part of a trading plan for up to 25 million shares that he adopted earlier this year. He sold the last of the 25 million on Wednesday and Thursday, divesting about 4.2 million shares for $954 million, according to a Securities and Exchange Commission filing on Friday. Amid Bezos' dumping of stock under the 10b5-1 plan, a new report emerged last week from The New York Pos",
-    "publishedAt": "2025-07-27T20:55:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.533390+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "9297cc58cf0f72ca"
-  },
-  {
-    "id": "econbrowser-f9dace4918a400c5",
-    "sourceId": "econbrowser",
-    "sourceName": "Econbrowser",
-    "title": "Wegovy ™  for Me, but Not for Thee (cont’d)",
-    "url": "https://econbrowser.com/archives/2025/07/wegovy-for-me-but-not-for-thee-contd",
-    "summary": "The just-announced trade “deal” (what’s the enforcement mechanism?) apparently covers pharmaceuticals. Where do we get most of our pharma (by value)? From Joey Politano, the answer: Source: Politano.  I don’t think there’s anything on paper (and even if there were, would it mean much?). So, not the 50% I pondered back in May, but still […]",
-    "publishedAt": "2025-07-27T20:45:41+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.823967+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "f9dace4918a400c5"
-  },
-  {
-    "id": "punchbowl-dc-1a9b700f5d94359a",
-    "sourceId": "punchbowl-dc",
-    "sourceName": "Punchbowl DC",
-    "title": "Subcribers of 7/27/25 🏦 The Vault Sunday Lookahead",
-    "url": "https://punchbowl.news/archive/72725-road-tripping-with-jason-smith-2/",
-    "summary": "The post Subcribers of 7/27/25 🏦 The Vault Sunday Lookahead appeared first on Punchbowl News.",
-    "publishedAt": "2025-07-27T20:31:00+00:00",
-    "fetchedAt": "2025-07-28T04:04:06.852288+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "normal",
-    "contentHash": "1a9b700f5d94359a"
-  },
-  {
-    "id": "punchbowl-dc-12e62b4439df8027",
-    "sourceId": "punchbowl-dc",
-    "sourceName": "Punchbowl DC",
-    "title": "SUBSCRIBERS of 7/27/25 💻 Tech Sunday Lookahead",
-    "url": "https://punchbowl.news/archive/72725-ai-plans-under-the-radar-proposals/",
-    "summary": "The post SUBSCRIBERS of 7/27/25 💻 Tech Sunday Lookahead appeared first on Punchbowl News.",
-    "publishedAt": "2025-07-27T20:30:00+00:00",
-    "fetchedAt": "2025-07-28T04:04:06.852519+00:00",
-    "category": "policy",
-    "tags": [
-      "Tech",
-      "Policy"
-    ],
-    "priority": "normal",
-    "contentHash": "12e62b4439df8027"
-  },
-  {
-    "id": "wsj-opinion-3e6f90ddb4420fb3",
-    "sourceId": "wsj-opinion",
-    "sourceName": "WSJ Opinion",
-    "title": "Opinion | Vinay Prasad Is a Bernie Sanders Acolyte in MAHA Drag",
-    "url": "https://www.wsj.com/opinion/vinay-prasad-is-a-bernie-sanders-acolyte-in-maha-drag-healthcare-bfc3be57?mod=rss_Technology",
-    "summary": "A top FDA appointee who doesn’t think patients can be trusted to make their own healthcare decisions.",
-    "fullContent": "A top FDA appointee who doesn’t think patients can be trusted to make their own healthcare decisions.",
-    "publishedAt": "2025-07-27T20:24:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.114453+00:00",
-    "category": "blogs",
-    "tags": [
-      "Blogs"
-    ],
-    "priority": "low",
-    "contentHash": "3e6f90ddb4420fb3"
-  },
-  {
-    "id": "zerohedge-1144271f66c1b851",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "China's $167 Billion Tibetan Dam Alarms Scientists, Neighbors",
-    "url": "https://www.zerohedge.com/energy/chinas-167-billion-tibetan-dam-alarms-scientists-neighbors",
-    "summary": "China's $167 Billion Tibetan Dam Alarms Scientists, Neighbors Authored by Olivia Li via The Epoch Times (emphasis ours), China has officially begun construction on a massive hydroelectric dam on the Yarlung Tsangpo River in Tibet, despite strong warnings from scientists about the region’s fragile ecosystem and complex geological conditions. A Chinese hydrology expert has described the project as outright illegal, pointing out that it violates multiple international agreements and China’s environmental laws. The estimated $167 billion project, formally known as the Motuo Hydropower Station, is situated on the eastern edge of the Tibetan Plateau. It is set to become the world’s largest hydroelectric dam, with a projected annual output of 300 billion kilowatt-hours. On July 19, Chinese Premier Li Qiang attended the groundbreaking ceremony, referring to it as the “project of the century,” according to Chinese state media. The Yarlung Tsangpo River, also known as the Brahmaputra in India an",
-    "publishedAt": "2025-07-27T20:20:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.535150+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "breaking",
-    "contentHash": "1144271f66c1b851"
-  },
-  {
-    "id": "seeking-alpha-abeecf05e74c2bba",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Simon Property Group: A Great REIT At The Wrong Price",
-    "url": "https://seekingalpha.com/article/4804951-simon-property-group-great-reit-at-wrong-price?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T20:18:43+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252214+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "abeecf05e74c2bba"
-  },
-  {
-    "id": "fortune-89b68954818c4858",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Trump scores another big trade deal after securing promise of massive investment, but China will be less willing to cave, analyst says",
-    "url": "https://fortune.com/2025/07/27/trump-tariff-deal-us-china-trade-war-talks-bessent-investments/",
-    "summary": "\"The biggest piece in the trade deal puzzle still remains, and the Chinese are unlikely to be as willing to fold.\"",
-    "publishedAt": "2025-07-27T20:18:18+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.630721+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "89b68954818c4858"
-  },
-  {
-    "id": "bloomberg-markets-d82d616fd60aa914",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "European Stock Futures Climb After EU Clinches US Trade Deal",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/stock-investors-expect-rally-as-europe-clinches-us-trade-deal",
-    "summary": "European stock futures rallied after the US and European Union agreed to a trade deal.",
-    "publishedAt": "2025-07-27T20:14:39+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.597549+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "d82d616fd60aa914"
-  },
-  {
-    "id": "bloomberg-markets-c3299ce2633987f7",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "European Stock Futures Climb After EU Clinches US Tariff Deal",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/stock-investors-expect-rally-as-europe-clinches-us-trade-deal",
-    "summary": "European stock futures rallied as the US and the European Union agreed to a tariff deal, easing fears about a prolonged trade war.",
-    "publishedAt": "2025-07-27T20:14:39+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.099612+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "c3299ce2633987f7"
-  },
-  {
-    "id": "bloomberg-markets-8de1304ecc2973a2",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "European Stocks Rally as EU Reaches Tariff Agreement With US",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/stock-investors-expect-rally-as-europe-clinches-us-trade-deal",
-    "summary": "European stocks gained as the US and the European Union agreed to a tariff deal, easing fears about a prolonged trade war.",
-    "publishedAt": "2025-07-27T20:14:39+00:00",
-    "fetchedAt": "2025-07-28T08:46:15.644410+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "8de1304ecc2973a2"
-  },
-  {
-    "id": "techmeme-601551e4afb9b648",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "AIUC, which offers enterprises insurance policies and audits for AI agents, emerges from stealth with a $15M seed led by Nat Friedman at NFDG (Sharon Goldman/Fortune)",
-    "url": "http://www.techmeme.com/250727/p20#a250727p20",
-    "summary": "Sharon Goldman / Fortune: AIUC, which offers enterprises insurance policies and audits for AI agents, emerges from stealth with a $15M seed led by Nat Friedman at NFDG  —  Today, the Artificial Intelligence Underwriting Company (AIUC) is emerging from stealth with a $15 million seed round led by Nat Friedman at NFDG …",
-    "publishedAt": "2025-07-27T20:10:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:26.068592+00:00",
-    "category": "technology",
-    "tags": [
-      "AI",
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "601551e4afb9b648"
-  },
-  {
-    "id": "ft-economics-dad650102ec91097",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "How the EU succumbed to Trump’s tariff steamroller",
-    "url": "https://www.ft.com/content/85d57e0e-0c6f-4392-a68c-81866e1519c3",
-    "summary": "Relief at avoiding trade war is tinged with regret at not taking firmer stand from the start",
-    "publishedAt": "2025-07-27T20:02:02+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.914429+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "dad650102ec91097"
-  },
-  {
-    "id": "bloomberg-markets-211beca902da4539",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Landing a $35 Billion Tech Deal in the Middle of Trade Turbulence",
-    "url": "https://www.bloomberg.com/news/newsletters/2025-07-27/synopsys-ansys-snps-land-35-billion-tech-deal-amid-trump-china-trade-war",
-    "summary": "Synopsys CFO Shelagh Glaser recounts some last-minute drama around the deal for Ansys. Plus, a one-on-one with the finance chief of Colombia’s biggest lender.",
-    "publishedAt": "2025-07-27T20:00:12+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.598469+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A",
-      "Tech"
-    ],
-    "priority": "normal",
-    "contentHash": "211beca902da4539"
-  },
-  {
-    "id": "bloomberg-markets-d876d8abade381e5",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Oil Prices Caught Between a $70 Summer and Growing Surplus Fears",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/oil-prices-caught-between-a-70-summer-and-growing-surplus-fears",
-    "summary": "Oil traders are grappling with a tension — there’s a growing chorus of warnings about the market weakening later this year and into 2026, but for now prices are holding strong near $70 a barrel.",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.598674+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "d876d8abade381e5"
-  },
-  {
-    "id": "seeking-alpha-d8aaf7484856d23f",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "General Mills: The Turnaround Story Wall Street Is Ignoring",
-    "url": "https://seekingalpha.com/article/4804923-general-mills-turnaround-story-wall-street-is-ignoring?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252243+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "d8aaf7484856d23f"
-  },
-  {
-    "id": "seeking-alpha-ef4681d0cbc995c6",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "S&P 500: This Chart Calls A Crash; Ignore It (Technical Analysis)",
-    "url": "https://seekingalpha.com/article/4804926-sp500-this-chart-calls-crash-ignore-it-technical-analysis?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252274+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "low",
-    "contentHash": "ef4681d0cbc995c6"
-  },
-  {
-    "id": "seeking-alpha-9d31da99f7ad4bd1",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Franklin Mutual Global Discovery Fund Q2 2025 Commentary",
-    "url": "https://seekingalpha.com/article/4804948-franklin-mutual-global-discovery-fund-q2-2025-commentary?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252301+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "9d31da99f7ad4bd1"
   }
 ]

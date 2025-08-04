@@ -1,5 +1,670 @@
 [
   {
+    "id": "bbc-technology-a639355148cccacb",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Artificial food colours are out, so what's next?",
+    "url": "https://www.bbc.com/news/articles/c4g83dpeendo?at_medium=RSS&at_campaign=rss",
+    "summary": "Big food firms are phasing out artificial colours, so tech firms are rushing to fill the gap.",
+    "fullContent": "Big food firms are phasing out artificial colours, so tech firms are rushing to fill the gap.",
+    "publishedAt": "2025-07-24T23:01:09+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.578461+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "a639355148cccacb"
+  },
+  {
+    "id": "bbc-business-3e2be271",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "",
+    "url": "https://www.bbc.com/news/articles/c4g83dpeendo?at_medium=RSS&amp;at_campaign=rss",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-24T23:01:09.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.136Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3e2be271"
+  },
+  {
+    "id": "wired-673f11ba1be618ea",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "Steam and Itch.io Are Pulling ‘Porn’ Games. Critics Say It’s a Slippery Slope to More Censorship",
+    "url": "https://www.wired.com/story/steam-itchio-are-pulling-porn-games-censorship/",
+    "summary": "A conservative group is targeting payment processors as “a weapon” to get adult games deindexed in storefronts. Even games that have nothing to do with sex or abuse have been caught in the dragnet.",
+    "publishedAt": "2025-07-24T22:52:42+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.129568+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "673f11ba1be618ea"
+  },
+  {
+    "id": "nyt-economy-d850ecd2fdf5852f",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Trump Visits Federal Reserve as Campaign Against Powell Intensifies",
+    "url": "https://www.nytimes.com/2025/07/24/us/politics/trump-bank-federal-reserve.html",
+    "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
+    "publishedAt": "2025-07-24T22:29:41+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.471980+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "d850ecd2fdf5852f"
+  },
+  {
+    "id": "ft-technology-244c5ec583df55d2",
+    "sourceId": "ft-technology",
+    "sourceName": "FT Technology",
+    "title": "Intel abandons European manufacturing sites as part of turnaround plan",
+    "url": "https://www.ft.com/content/1d4eeada-8d49-4827-bdfa-d93d3dd0dd95",
+    "summary": "US chipmaker posts positive revenue and forecast as it cuts jobs",
+    "publishedAt": "2025-07-24T22:18:52+00:00",
+    "fetchedAt": "2025-07-28T08:47:56.309568+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "244c5ec583df55d2"
+  },
+  {
+    "id": "bbc-business-b24be886d52f9326",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Female exec captured in viral Coldplay concert clip resigns",
+    "url": "https://www.bbc.com/news/articles/cp3l3ldd0j1o",
+    "summary": "The clip showed a man and woman swaying to the music before quickly ducking and hiding from the camera.",
+    "publishedAt": "2025-07-24T22:11:31+00:00",
+    "fetchedAt": "2025-07-28T08:47:55.137435+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b24be886d52f9326"
+  },
+  {
+    "id": "punchbowl-dc-9e51d4037a5d9e31",
+    "sourceId": "punchbowl-dc",
+    "sourceName": "Punchbowl DC",
+    "title": "7/24/25 🌙 PM:",
+    "url": "https://punchbowl.news/archive/72425-pm/",
+    "summary": "The post 7/24/25 🌙 PM: appeared first on Punchbowl News.",
+    "publishedAt": "2025-07-24T21:57:16+00:00",
+    "fetchedAt": "2025-07-28T04:04:06.853657+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "9e51d4037a5d9e31"
+  },
+  {
+    "id": "wsj-world-news-7b542f560a61ce2f",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Trump Administration Greenlights Chevron to Resume Pumping Oil in Venezuela",
+    "url": "https://www.wsj.com/world/americas/trump-administration-greenlights-chevron-to-resume-pumping-oil-in-venezuela-0353262b",
+    "summary": "The decision marks a softening in the White House’s approach to the South American country.",
+    "fullContent": "The decision marks a softening in the White House’s approach to the South American country.",
+    "publishedAt": "2025-07-24T21:57:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.071746+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "7b542f560a61ce2f"
+  },
+  {
+    "id": "imf-news-2a7c1bf6ae81decb",
+    "sourceId": "imf-news",
+    "sourceName": "IMF",
+    "title": "IMF Reaches Staff-Level Agreement on the First Review under Argentina’s Extended Fund Facility Arrangement",
+    "url": "https://www.imf.org/en/News/Articles/2025/07/24/pr25266-argentina-imf-reaches-sla-on-the-1st-review-under-argentinas-eff-arrangement",
+    "summary": "",
+    "publishedAt": "2025-07-24T21:43:27+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.036326+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "2a7c1bf6ae81decb"
+  },
+  {
+    "id": "cnbc-business-dd34ec0870b67baf",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Stocks making the biggest moves after hours: Intel, Deckers, Boston Beer and more",
+    "url": "https://www.cnbc.com/2025/07/24/stocks-making-the-biggest-moves-after-hours-intc-deck-sam.html",
+    "summary": "These are the stocks posting the largest moves in extended trading.",
+    "fullContent": "These are the stocks posting the largest moves in extended trading.",
+    "publishedAt": "2025-07-24T21:07:40+00:00",
+    "fetchedAt": "2025-07-31T06:18:02.281103+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "dd34ec0870b67baf"
+  },
+  {
+    "id": "imf-news-500526a898403ddf",
+    "sourceId": "imf-news",
+    "sourceName": "IMF",
+    "title": "IMF Executive Board Concludes Eighth Reviews under Cameroon’s Extended Credit Facility and Extended Fund Facility Arrangements and Third Review under Resilience and Sustainability Facility Arrangement",
+    "url": "https://www.imf.org/en/News/Articles/2025/07/24/pr-25265-cameroon-imf-concludes-8th-rev-under-ecf-and-eff-and-3rd-rev-under-rsf",
+    "summary": "",
+    "publishedAt": "2025-07-24T21:00:41+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.036380+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "500526a898403ddf"
+  },
+  {
+    "id": "imf-news-f1be721f1013fe6f",
+    "sourceId": "imf-news",
+    "sourceName": "IMF",
+    "title": "Press Briefing Transcript: Julie Kozack, Director, Communications Department, July 24, 2025",
+    "url": "https://www.imf.org/en/News/Articles/2025/07/24/tr-07242025-press-briefing-transcript-julie-kozack-director-communications-dept-july-24-2025",
+    "summary": "",
+    "publishedAt": "2025-07-24T20:47:19+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.036423+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "f1be721f1013fe6f"
+  },
+  {
+    "id": "bbc-business-70db659f66bfd037",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "EE and BT network outage resolved, firm says",
+    "url": "https://www.bbc.com/news/articles/cnvmvqrnq7go",
+    "summary": "The government says \"EE and BT digital voice calls to 999 have now been restored.\"",
+    "publishedAt": "2025-07-24T20:40:14+00:00",
+    "fetchedAt": "2025-07-28T08:47:55.138361+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "70db659f66bfd037"
+  },
+  {
+    "id": "calculated-risk-e7a0cec3f74b4ef8",
+    "sourceId": "calculated-risk",
+    "sourceName": "Calculated Risk",
+    "title": "July Vehicle Forecast: Sales \"Rebound\"",
+    "url": "http://www.calculatedriskblog.com/2025/07/july-vehicle-forecast-sales-rebound.html",
+    "summary": "From J.D. Power: New-Vehicle Retail Sales Up 4.1% for July and Consumer Spending Sets Record for Month with $49.8 Billion Spent on New Vehicles Brief excerpt:The seasonally adjusted annualized rate (SAAR) for total new-vehicle sales is expected to be 16.4 million units, up 0.8 million units from July 2024. emphasis addedFrom Haig Stoddard at Omdia: US Light Vehicle Sales Headed for Rebound in July (pay content).  Brief excerpt:July US light-vehicle sales will improve on June's results, as the expected negative impacts from automotive tariffs are yet to fully kick in.Click on graph for larger image. This graph shows actual sales from the BEA (Blue), and J.D. Power's forecast for July (Red). On a seasonally adjusted annual rate basis, the J.D. Power forecast of 16.4 million SAAR would be down 6.9% from last month, and up 3.6% from a year ago.",
+    "publishedAt": "2025-07-24T20:21:00+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.185428+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "e7a0cec3f74b4ef8"
+  },
+  {
+    "id": "nyt-science-cae039e8f8e9b357",
+    "sourceId": "nyt-science",
+    "sourceName": "NYT Science",
+    "title": "What Happens When Your Therapist Falls Ill or Dies Unexpectedly?",
+    "url": "https://www.nytimes.com/2025/07/24/health/therapist-sick-death.html",
+    "summary": "Therapists are cautious about sharing personal information. When they fall ill or die unexpectedly, the shock can be shattering.",
+    "fullContent": "Therapists are cautious about sharing personal information. When they fall ill or die unexpectedly, the shock can be shattering.",
+    "publishedAt": "2025-07-24T20:20:12+00:00",
+    "fetchedAt": "2025-07-31T06:18:03.225173+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "cae039e8f8e9b357"
+  },
+  {
+    "id": "meb-faber-efbba9f700bb5961",
+    "sourceId": "meb-faber",
+    "sourceName": "Meb Faber Research",
+    "title": "#7 – “REITs and Gold Have Outperformed US Stocks This Century”",
+    "url": "https://mebfaber.com/2025/07/24/7-reits-and-gold-have-outperformed-us-stocks-this-century/",
+    "summary": "Let’s rewind to Y2K. Britney was topping the charts, people were hoarding water in prep for the digital apocalypse, and U.S. stocks had just finished a blistering 1990s bull market. The S&P 500 was invincible. Or so it seemed. But then reality hit. Tech bubble. 9/11. Two recessions. A housing collapse. Then out of the […] The post #7 – “REITs and Gold Have Outperformed US Stocks This Century” appeared first on Meb Faber Research - Stock Market and Investing Blog.",
+    "publishedAt": "2025-07-24T20:20:07+00:00",
+    "fetchedAt": "2025-07-30T08:46:00.446862+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "efbba9f700bb5961"
+  },
+  {
+    "id": "pens-and-poison-15276870e1541f31",
+    "sourceId": "pens-and-poison",
+    "sourceName": "Pens and Poison",
+    "title": "Announcing The Poetry Vault",
+    "url": "https://www.pensandpoison.org/p/announcing-the-poetry-vault",
+    "summary": "Liza Libes Poems Make Their Substack Debut",
+    "publishedAt": "2025-07-24T20:12:31+00:00",
+    "fetchedAt": "2025-07-28T06:33:15.947758+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "15276870e1541f31"
+  },
+  {
+    "id": "pens-and-poison-4d433037",
+    "sourceId": "pens-and-poison",
+    "sourceName": "Pens and Poison",
+    "title": "",
+    "url": "https://www.pensandpoison.org/p/announcing-the-poetry-vault",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-24T20:12:31.000Z",
+    "fetchedAt": "2025-08-04T10:03:39.831Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "4d433037"
+  },
+  {
+    "id": "dwarkesh-patel-youtube-126a1253efe1506f",
+    "sourceId": "dwarkesh-patel-youtube",
+    "sourceName": "Dwarkesh Patel",
+    "title": "When China Divorced the USSR – Stephen Kotkin",
+    "url": "https://www.youtube.com/watch?v=6BcChANa378",
+    "summary": "Kotkin is arguably the world’s foremost expert on Joseph Stalin and has written a massive 2-volume biography of Stalin (with a 3rd volume in the works). Full Episode: https://youtu.be/YMfd3EoHfPI Me on Twitter: https://x.com/dwarkesh_sp",
+    "fullContent": "Kotkin is arguably the world’s foremost expert on Joseph Stalin and has written a massive 2-volume biography of Stalin (with a 3rd volume in the works). Full Episode: https://youtu.be/YMfd3EoHfPI Me on Twitter: https://x.com/dwarkesh_sp",
+    "publishedAt": "2025-07-24T20:00:46+00:00",
+    "fetchedAt": "2025-07-30T15:00:42.739491+00:00",
+    "category": "videos",
+    "tags": [
+      "Videos"
+    ],
+    "priority": "normal",
+    "contentHash": "126a1253efe1506f"
+  },
+  {
+    "id": "punchbowl-dc-ddeaf9e99b55bd8d",
+    "sourceId": "punchbowl-dc",
+    "sourceName": "Punchbowl DC",
+    "title": "7/24/25 🔵 The Portal REGULAR",
+    "url": "https://punchbowl.news/archive/72425-the-portal-regular/",
+    "summary": "The post 7/24/25 🔵 The Portal REGULAR appeared first on Punchbowl News.",
+    "publishedAt": "2025-07-24T20:00:00+00:00",
+    "fetchedAt": "2025-07-28T04:04:06.853869+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "ddeaf9e99b55bd8d"
+  },
+  {
+    "id": "china-talk-1ae4edebe45b1f8d",
+    "sourceId": "china-talk",
+    "sourceName": "ChinaTalk",
+    "title": "So you want to be a yenching scholar",
+    "url": "https://www.chinatalk.media/p/so-you-want-to-be-a-yenching-scholar",
+    "summary": "Yenching Academy and the Schwarzman Scholars program comprise China’s attempt to set up a Rhodes/Marshall-style master’s degree.",
+    "publishedAt": "2025-07-24T19:45:15+00:00",
+    "fetchedAt": "2025-07-28T06:22:16.953851+00:00",
+    "category": "blogs",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "1ae4edebe45b1f8d"
+  },
+  {
+    "id": "honest-broker-6c79e6ca75a40144",
+    "sourceId": "honest-broker",
+    "sourceName": "The Honest Broker",
+    "title": "What Is Happening to Music Criticism?",
+    "url": "https://www.honest-broker.com/p/what-is-happening-to-music-criticism",
+    "summary": "And the sad decline of the New York Times",
+    "publishedAt": "2025-07-24T19:40:36+00:00",
+    "fetchedAt": "2025-07-28T06:33:13.418736+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "6c79e6ca75a40144"
+  },
+  {
+    "id": "honest-broker-447b7d1f",
+    "sourceId": "honest-broker",
+    "sourceName": "The Honest Broker",
+    "title": "",
+    "url": "https://www.honest-broker.com/p/what-is-happening-to-music-criticism",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-24T19:40:36.000Z",
+    "fetchedAt": "2025-08-04T10:03:08.930Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "447b7d1f"
+  },
+  {
+    "id": "n-plus-one-2e1b4602247f2cf3",
+    "sourceId": "n-plus-one",
+    "sourceName": "n+1",
+    "title": "Among the Blasphemers",
+    "url": "https://www.nplusonemag.com/online-only/online-only/among-the-blasphemers/",
+    "summary": "For at least a year, the mail room in Penguin’s New York headquarters utilized a bomb-sniffing dog—named, for some unknown reason, Yalta—to screen packages. On one especially unnerving Saturday the few employees in Penguin’s 23rd Street office that day looked out their windows to see thousands of New York–area Muslims who’d arrived to protest the publication of The Satanic Verses bowing to Mecca in unison. The management of the company behaved with disgraceful cowardice.",
+    "publishedAt": "2025-07-24T19:39:07+00:00",
+    "fetchedAt": "2025-07-28T06:33:17.916224+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "2e1b4602247f2cf3"
+  },
+  {
+    "id": "n-plus-one-caeb2be",
+    "sourceId": "n-plus-one",
+    "sourceName": "n+1 Magazine",
+    "title": "Among the Blasphemers",
+    "url": "https://www.nplusonemag.com/online-only/online-only/among-the-blasphemers/",
+    "summary": "]]![CDATA[For at least a year, the mail room in Penguin’s New York headquarters utilized a bomb-sniffing dog—named, for some unknown reason, Yalta—to screen packa",
+    "fullContent": "]]",
+    "publishedAt": "2025-07-24T19:39:07.000Z",
+    "fetchedAt": "2025-08-04T10:02:32.793Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "caeb2be"
+  },
+  {
+    "id": "bbc-business-2166540afccb1941",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "King meets Modi after India-UK trade deal signed",
+    "url": "https://www.bbc.com/news/articles/c307ggj492vo",
+    "summary": "The free trade deal is expected to cut tariffs on goods and increase market access for both countries.",
+    "publishedAt": "2025-07-24T19:08:13+00:00",
+    "fetchedAt": "2025-07-28T08:47:55.138133+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "2166540afccb1941"
+  },
+  {
+    "id": "wired-d7a4167c5b3437da",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "The 40 Best Movies on Hulu This Week (August 2025)",
+    "url": "https://www.wired.com/story/best-movies-hulu-right-now/",
+    "summary": "Presence, 28 Weeks Later, and Barbara Walters: Tell Me Everything are just a few of the movies you need to watch on Hulu right now.",
+    "publishedAt": "2025-07-24T19:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.129811+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "d7a4167c5b3437da"
+  },
+  {
+    "id": "wired-38166df5baa91d76",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "The Very Real Case for Brain-Computer Implants",
+    "url": "https://www.wired.com/story/uncanny-valley-podcast-the-very-real-case-for-brain-computer-implants/",
+    "summary": "On this episode of Uncanny Valley, we dive into the heated race between two companies to build a commercial brain-computer interface.",
+    "publishedAt": "2025-07-24T18:38:16+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.130015+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "38166df5baa91d76"
+  },
+  {
+    "id": "bbc-business-acf2a9ec0b183691",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Trade deal on US tariffs within reach, says EU",
+    "url": "https://www.bbc.com/news/articles/c0565zdjq6vo",
+    "summary": "The EU says its negotiators are working \"might and main\" on a deal, but the decision rests with US President Trump.",
+    "publishedAt": "2025-07-24T18:35:32+00:00",
+    "fetchedAt": "2025-07-28T08:47:55.137657+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "acf2a9ec0b183691"
+  },
+  {
+    "id": "nyt-science-ac2ca239f13ee0a4",
+    "sourceId": "nyt-science",
+    "sourceName": "NYT Science",
+    "title": "Science Retracts ‘Arsenic Life’ Paper 15 Years After Publication",
+    "url": "https://www.nytimes.com/2025/07/24/science/arseniclife-retraction-science.html",
+    "summary": "Science, a top research journal, said there was no evidence of misconduct by researchers whose finding attracted heavy attention and scrutiny in social media’s early days.",
+    "fullContent": "Above from left, Felisa Wolfe-Simon, with Mary Voytek, Steven Benner and Pamela Conrad in 2010.",
+    "publishedAt": "2025-07-24T18:26:47+00:00",
+    "fetchedAt": "2025-07-31T06:18:03.219543+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "ac2ca239f13ee0a4"
+  },
+  {
+    "id": "climate-brink-3898f60c",
+    "sourceId": "climate-brink",
+    "sourceName": "The Climate Brink",
+    "title": "",
+    "url": "https://www.theclimatebrink.com/p/have-renewables-decreased-electricity-da4",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-24T18:19:52.000Z",
+    "fetchedAt": "2025-08-04T10:05:17.486Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "3898f60c"
+  },
+  {
+    "id": "marginal-revolution-facbd534a9e3171b",
+    "sourceId": "marginal-revolution",
+    "sourceName": "Marginal Revolution",
+    "title": "What should I ask George Selgin?",
+    "url": "https://marginalrevolution.com/marginalrevolution/2025/07/what-should-i-ask-george-selgin.html?utm_source=rss&utm_medium=rss&utm_campaign=what-should-i-ask-george-selgin",
+    "summary": "Yes, I will be having a Conversation with him, live at the Cato Institute on September 26th, here is some basic information: Website: https://www.cato.org/events/false-dawn-new-deal-promise-recovery-1933-1947 Registration: https://register.cato.org/false-dawn-new-deal-promise-recovery-1933-1947/register We will start with George’s new and excellent book False Dawn: The New Deal and the Promise of Recovery 1933-1947.  But of course George has a long and distinguished record in […] The post What should I ask George Selgin? appeared first on Marginal REVOLUTION.",
+    "publishedAt": "2025-07-24T18:18:16+00:00",
+    "fetchedAt": "2025-07-28T04:04:07.246655+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "facbd534a9e3171b"
+  },
+  {
+    "id": "calculated-risk-ff0c4a31693b1805",
+    "sourceId": "calculated-risk",
+    "sourceName": "Calculated Risk",
+    "title": "ICE First Look at June Mortgage Performance: \"Delinquencies Trend Slightly Higher in June\"",
+    "url": "http://www.calculatedriskblog.com/2025/07/ice-first-look-at-june-mortgage.html",
+    "summary": "From Intercontinental Exchange: ICE First Look at Mortgage Performance: Delinquencies Trend Slightly Higher in June as Foreclosure Activity Continues to Rise off Pandemic-Era Lows Intercontinental Exchange, Inc. (NYSE:ICE) ... today released its June 2025 ICE First Look, which shows that while overall mortgage payment performance remains strong, delinquencies rose on a monthly basis while foreclosures trended notably higher year over year (YoY). Key takeaways from the ICE First Look, which reports on month-end delinquency, foreclosure and prepayment statistics sourced from ICE’s loan-level database, include: • The national delinquency rate rose by 15 basis points (bps) from May to 3.35% driven by early-stage delinquencies. FHA delinquencies, which tend to experience more seasonality, rose by 41 bps in the month, hitting their highest June level since 2013, excluding the 2020-2021 pandemic-era impact. • Serious delinquencies (SDQs) – loans 90+ days past due but not in foreclosure – held",
+    "publishedAt": "2025-07-24T18:12:00+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.186187+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "ff0c4a31693b1805"
+  },
+  {
+    "id": "krebs-security-15464247d9e40cfb",
+    "sourceId": "krebs-security",
+    "sourceName": "Krebs on Security",
+    "title": "Phishers Target Aviation Execs to Scam Customers",
+    "url": "https://krebsonsecurity.com/2025/07/phishers-target-aviation-execs-to-scam-customers/",
+    "summary": "KrebsOnSecurity recently heard from a reader whose boss's email account got phished and was used to trick one of the company's customers into sending a large payment to scammers. An investigation into the attacker's infrastructure points to a long-running Nigerian cybercrime group that is actively targeting established companies in the transportation and aviation industries.",
+    "fullContent": "KrebsOnSecurity recently heard from a reader whose boss’s email account got phished and was used to trick one of the company’s customers into sending a large payment to scammers. An investigation into the attacker’s infrastructure points to a long-running Nigerian cybercrime ring that is actively targeting established companies in the transportation and aviation industries. Image: Shutterstock, Mr. Teerapon Tiuekhom. A reader who works in the transportation industry sent a tip about a recent successful phishing campaign that tricked an executive at the company into entering their credentials at a fake Microsoft 365 login page. From there, the attackers quickly mined the executive’s inbox for past communications about invoices, copying and modifying some of those messages with new invoice demands that were sent to some of the company’s customers and partners. Speaking on condition of anonymity, the reader said the resulting phishing emails to customers came from a newly registered domai",
+    "publishedAt": "2025-07-24T17:57:06+00:00",
+    "fetchedAt": "2025-07-31T06:18:28.886218+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "15464247d9e40cfb"
+  },
+  {
+    "id": "matt-levine-b3f0a25f7242801e",
+    "sourceId": "matt-levine",
+    "sourceName": "Matt Levine Money Stuff",
+    "title": "Strategy Does a Stretch",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-24/strategy-does-a-stretch",
+    "summary": "Also Tesla and xAI, alpha capture and an NFT treasury company.",
+    "publishedAt": "2025-07-24T17:29:37+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.130870+00:00",
+    "category": "blogs",
+    "tags": [
+      "Research",
+      "Debt"
+    ],
+    "priority": "high",
+    "contentHash": "b3f0a25f7242801e"
+  },
+  {
+    "id": "matt-levine-7440f680",
+    "sourceId": "matt-levine",
+    "sourceName": "Matt Levine",
+    "title": "",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-24/strategy-does-a-stretch",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-24T17:29:37.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.026Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "7440f680"
+  },
+  {
+    "id": "ft-technology-935d2384b0093b3d",
+    "sourceId": "ft-technology",
+    "sourceName": "FT Technology",
+    "title": "Google’s AI fight is moving to new ground",
+    "url": "https://www.ft.com/content/2bb07757-6039-46cc-8f1a-73d0a83584a7",
+    "summary": "The company has defended search but its dominant position in online advertising may still be up for grabs",
+    "publishedAt": "2025-07-24T17:26:18+00:00",
+    "fetchedAt": "2025-07-28T08:47:56.309775+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "935d2384b0093b3d"
+  },
+  {
+    "id": "punchbowl-dc-59fa6717524afba2",
+    "sourceId": "punchbowl-dc",
+    "sourceName": "Punchbowl DC",
+    "title": "7/24/25 🕛 Midday:",
+    "url": "https://punchbowl.news/archive/72425-midday/",
+    "summary": "The post 7/24/25 🕛 Midday: appeared first on Punchbowl News.",
+    "publishedAt": "2025-07-24T17:23:14+00:00",
+    "fetchedAt": "2025-07-28T04:04:06.854231+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "59fa6717524afba2"
+  },
+  {
+    "id": "common-reader-f428df3c8fc44746",
+    "sourceId": "common-reader",
+    "sourceName": "Common Reader",
+    "title": "Shakespeare's Characters and the Wheel of Fire",
+    "url": "https://www.commonreader.co.uk/p/shakespeares-characters-and-the-wheel",
+    "summary": "Two Approaches to Shakespeare in 20th-Century Criticism",
+    "publishedAt": "2025-07-24T17:10:28+00:00",
+    "fetchedAt": "2025-07-28T06:33:13.546513+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "f428df3c8fc44746"
+  },
+  {
+    "id": "common-reader-13b91c4e",
+    "sourceId": "common-reader",
+    "sourceName": "The Common Reader",
+    "title": "",
+    "url": "https://www.commonreader.co.uk/p/shakespeares-characters-and-the-wheel",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-24T17:10:28.000Z",
+    "fetchedAt": "2025-08-04T10:02:06.700Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "13b91c4e"
+  },
+  {
     "id": "wocomo-docs-youtube-d1957e243ec7d361",
     "sourceId": "wocomo-docs-youtube",
     "sourceName": "Wocomo Docs",
@@ -992,664 +1657,5 @@
     ],
     "priority": "normal",
     "contentHash": "7c75d688aa0fecfe"
-  },
-  {
-    "id": "programmable-mutter-e4cca22a857589bf",
-    "sourceId": "programmable-mutter",
-    "sourceName": "Programmable Mutter",
-    "title": "This Simple Chart Explains Why Columbia Caved To Trump",
-    "url": "https://www.programmablemutter.com/p/this-simple-chart-explains-why-columbia",
-    "summary": "Which Muppets Actually Run the University",
-    "publishedAt": "2025-07-24T12:42:51+00:00",
-    "fetchedAt": "2025-07-28T06:33:17.331155+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "e4cca22a857589bf"
-  },
-  {
-    "id": "programmable-mutter-5f1813e6",
-    "sourceId": "programmable-mutter",
-    "sourceName": "Programmable Mutter",
-    "title": "",
-    "url": "https://www.programmablemutter.com/p/this-simple-chart-explains-why-columbia",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-24T12:42:51.000Z",
-    "fetchedAt": "2025-08-04T10:02:43.564Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "5f1813e6"
-  },
-  {
-    "id": "big-picture-752b772644ba6ec0",
-    "sourceId": "big-picture",
-    "sourceName": "The Big Picture",
-    "title": "3 Questions for All Investors",
-    "url": "https://ritholtz.com/2025/07/3-questions-investors/",
-    "summary": "The book tour is starting to wind down, but I continue to have fun conversations with people about the ideas and concepts that are useful to investors. One recent interesting discussion was with Beth Pinsker of Marketwatch. She pens the “Fix My Portfolio” letter. What made this discussion so interesting is that she flipped the… Read More The post 3 Questions for All Investors appeared first on The Big Picture.",
-    "publishedAt": "2025-07-24T12:30:37+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.563153+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "752b772644ba6ec0"
-  },
-  {
-    "id": "calculated-risk-3a14e62327d9fdea",
-    "sourceId": "calculated-risk",
-    "sourceName": "Calculated Risk",
-    "title": "Weekly Initial Unemployment Claims Decrease to 217,000",
-    "url": "http://www.calculatedriskblog.com/2025/07/weekly-initial-unemployment-claims_24.html",
-    "summary": "The DOL reported: In the week ending July 19, the advance figure for seasonally adjusted initial claims was 217,000, a decrease of 4,000 from the previous week's unrevised level of 221,000. The 4-week moving average was 224,500, a decrease of 5,000 from the previous week's unrevised average of 229,500. emphasis addedThe following graph shows the 4-week moving average of weekly claims since 1971. Click on graph for larger image. The dashed line on the graph is the current 4-week average. The four-week average of weekly unemployment claims decreased to 224,500. The previous week was unrevised. Weekly claims were lower than the consensus forecast.",
-    "publishedAt": "2025-07-24T12:30:00+00:00",
-    "fetchedAt": "2025-07-28T04:04:08.188043+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "3a14e62327d9fdea"
-  },
-  {
-    "id": "wired-8804f239e06a5cbc",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "SteelSeries Rival 3 Gen 2 Review: Good Budget Gaming Mice",
-    "url": "https://www.wired.com/review/steelseries-rival-3-gen-2/",
-    "summary": "SteelSeries’ latest wireless and wired Rival 3 Gen 3 are the budget gaming mice to beat.",
-    "publishedAt": "2025-07-24T12:30:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.131823+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "8804f239e06a5cbc"
-  },
-  {
-    "id": "moontower-meta-c4d7b09273f38aae",
-    "sourceId": "moontower-meta",
-    "sourceName": "Moontower Meta",
-    "title": "Option Webinar/Happy Hour today",
-    "url": "https://moontower.substack.com/p/option-webinarhappy-hour-today",
-    "summary": "Friends,",
-    "publishedAt": "2025-07-24T12:16:47+00:00",
-    "fetchedAt": "2025-07-28T06:22:17.669647+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "c4d7b09273f38aae"
-  },
-  {
-    "id": "ecb-press-ac8d17180a7219e8",
-    "sourceId": "ecb-press",
-    "sourceName": "European Central Bank",
-    "title": "Monetary policy decisions",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.mp250724~50bc70e13f.en.html",
-    "summary": "",
-    "publishedAt": "2025-07-24T12:15:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.750668+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "high",
-    "contentHash": "ac8d17180a7219e8"
-  },
-  {
-    "id": "ecb-press-331fc218",
-    "sourceId": "ecb-press",
-    "sourceName": "ECB Press",
-    "title": "Monetary policy decisions",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.mp250724~50bc70e13f.en.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-24T12:15:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.826Z",
-    "category": "central-banking",
-    "tags": [
-      "central-banking"
-    ],
-    "priority": "normal",
-    "contentHash": "331fc218"
-  },
-  {
-    "id": "construction-physics-5eec92850495aa3a",
-    "sourceId": "construction-physics",
-    "sourceName": "Construction Physics",
-    "title": "Where are Vacation Homes Located in the US?",
-    "url": "https://www.construction-physics.com/p/where-are-vacation-homes-located",
-    "summary": "As of 2023, the US has around 142.3 million housing units: roughly one home for every 2.4 people in the country.",
-    "publishedAt": "2025-07-24T12:02:43+00:00",
-    "fetchedAt": "2025-07-28T04:04:06.660887+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "5eec92850495aa3a"
-  },
-  {
-    "id": "construction-physics-21c7827f",
-    "sourceId": "construction-physics",
-    "sourceName": "Construction Physics",
-    "title": "",
-    "url": "https://www.construction-physics.com/p/where-are-vacation-homes-located",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-24T12:02:43.000Z",
-    "fetchedAt": "2025-08-04T10:03:19.471Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "21c7827f"
-  },
-  {
-    "id": "esg-today-ae43f1d6f6f04ad2",
-    "sourceId": "esg-today",
-    "sourceName": "ESG Today",
-    "title": "EU Plans to Simplify Regulations on Industrial Emissions, Circular Economy, Waste Management",
-    "url": "https://www.esgtoday.com/eu-plans-to-ease-regulations-on-industrial-emissions-circular-economy-waste-management/?utm_source=rss&utm_medium=rss&utm_campaign=eu-plans-to-ease-regulations-on-industrial-emissions-circular-economy-waste-management",
-    "summary": "The European Commission announced the release of a new Call for Evidence, seeking input on […]",
-    "publishedAt": "2025-07-24T12:00:51+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.803473+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "ae43f1d6f6f04ad2"
-  },
-  {
-    "id": "nyt-science-f788c8dad5a54f51",
-    "sourceId": "nyt-science",
-    "sourceName": "NYT Science",
-    "title": "For 1st Time, Fires Are Biggest Threat to Forests’ Climate-Fighting Superpower",
-    "url": "https://www.nytimes.com/2025/07/24/climate/wildfires-forest-carbon-sequestration.html",
-    "summary": "Forests play a major role pulling planet-warming carbon dioxide out of the atmosphere. As the world heats up, some forests are becoming emitters in their own right.",
-    "fullContent": "A wildfire in an area of National Forest Brasília in Brazil last September.",
-    "publishedAt": "2025-07-24T12:00:05+00:00",
-    "fetchedAt": "2025-07-31T06:18:03.224795+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology",
-      "ESG"
-    ],
-    "priority": "normal",
-    "contentHash": "f788c8dad5a54f51"
-  },
-  {
-    "id": "wired-074436f6af729e5c",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Dynabook Portégé Z40L-N Review: Replaceable Batteries, High Price",
-    "url": "https://www.wired.com/review/dynabook-portege-z40l-n/",
-    "summary": "This corporate laptop brings back the replaceable battery.",
-    "publishedAt": "2025-07-24T12:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.132004+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "074436f6af729e5c"
-  },
-  {
-    "id": "jacobin-c3704ba32d322ce9",
-    "sourceId": "jacobin",
-    "sourceName": "Jacobin",
-    "title": "The Homelessness Crisis Is a Crisis of Democracy",
-    "url": "https://jacobin.com/2025/07/homelessness-crisis-democracy-olympia-dehumanization/",
-    "summary": "For the past several months, a homeless man named Joshua has taken up residence in a dank crawl space beneath a crumbling building, situated at the end of an old train tunnel. The ceiling is low, making it impossible to stand, and there are rats crawling everywhere. “I hate them,” Joshua complains. “I try to […]",
-    "publishedAt": "2025-07-24T11:39:03+00:00",
-    "fetchedAt": "2025-07-28T06:33:17.777971+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "breaking",
-    "contentHash": "c3704ba32d322ce9"
-  },
-  {
-    "id": "wired-1ee30b30118a7282",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "4 Best Folding Phones (2025), Tested and Reviewed",
-    "url": "https://www.wired.com/gallery/best-folding-phones/",
-    "summary": "Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.",
-    "publishedAt": "2025-07-24T11:33:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.132192+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "1ee30b30118a7282"
-  },
-  {
-    "id": "project-syndicate-ad8b3203d9b044cf",
-    "sourceId": "project-syndicate",
-    "sourceName": "Project Syndicate",
-    "title": "Has Trump Killed Green Finance?",
-    "url": "https://www.project-syndicate.org/commentary/trump-trying-to-end-green-finance-by-howard-davies-2025-07",
-    "summary": "Just four years ago, the world's banks, insurers, and asset managers were pledging to align their operations with the goal of achieving net-zero emissions, in order to mitigate the risks to financial stability posed by climate change. Now, however, those pledges have been sharply curtailed, owing to US pressure since January.",
-    "publishedAt": "2025-07-24T11:30:09+00:00",
-    "fetchedAt": "2025-07-30T08:21:43.037931+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "ESG"
-    ],
-    "priority": "normal",
-    "contentHash": "ad8b3203d9b044cf"
-  },
-  {
-    "id": "norges-bank-youtube-21f0f47d",
-    "sourceId": "norges-bank-youtube",
-    "sourceName": "Norges Bank Investment YouTube",
-    "title": "Sir Christopher Hohn | Investment Conference 2025 | Norges Bank Investment Management",
-    "url": "https://www.youtube.com/watch?v=cwfzwB6aDGY",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-24T11:26:34.000Z",
-    "fetchedAt": "2025-08-04T09:59:53.357Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "21f0f47d"
-  },
-  {
-    "id": "bis-papers-652ab43510d2123b",
-    "sourceId": "bis-papers",
-    "sourceName": "BIS Papers",
-    "title": "Andriy Pyshnyy: National Bank of Ukraine press briefing - monetary policy decisions",
-    "url": "https://www.bis.org/review/r250728a.htm",
-    "summary": "Speech by Mr Andriy Pyshnyy, Governor of the National Bank of Ukraine, at a press briefing on monetary policy decisions, Kyiv, 24 July 2025.",
-    "publishedAt": "2025-07-24T11:18:00+00:00",
-    "fetchedAt": "2025-07-30T08:45:44.879654+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "652ab43510d2123b"
-  },
-  {
-    "id": "wired-43f13023a548bb32",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Samsung Galaxy Z Fold7 and Galaxy Z Flip7 Review: A Promising Update",
-    "url": "https://www.wired.com/review/samsung-galaxy-z-fold7-and-galaxy-z-flip7/",
-    "summary": "Samsung makes the right improvements with its latest folding phones, but it could still go further.",
-    "publishedAt": "2025-07-24T11:03:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.132378+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "43f13023a548bb32"
-  },
-  {
-    "id": "esg-today-fdb67f4381c7050a",
-    "sourceId": "esg-today",
-    "sourceName": "ESG Today",
-    "title": "ICJ Opinion Opens the Door for Climate Change Lawsuits Against Developed Nations",
-    "url": "https://www.esgtoday.com/icj-opinion-opens-the-door-for-climate-change-lawsuits-against-developed-nations/?utm_source=rss&utm_medium=rss&utm_campaign=icj-opinion-opens-the-door-for-climate-change-lawsuits-against-developed-nations",
-    "summary": "The International Court of Justice (ICJ), the UN’s principal judicial body, announced the release of […]",
-    "publishedAt": "2025-07-24T11:01:50+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.803756+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "ESG"
-    ],
-    "priority": "low",
-    "contentHash": "fdb67f4381c7050a"
-  },
-  {
-    "id": "adam-tooze-623df03817d93cd2",
-    "sourceId": "adam-tooze",
-    "sourceName": "Adam Tooze",
-    "title": "Top Links 809 About that dam in Tibet. Supermarketisation. The history of political arithmetic & China's \"Five Major Homes\".",
-    "url": "https://adamtooze.substack.com/p/top-links-809-about-that-dam-in-tibet",
-    "summary": "Great links, images, and reading from Chartbook Newsletter by Adam Tooze",
-    "publishedAt": "2025-07-24T10:55:28+00:00",
-    "fetchedAt": "2025-07-28T06:22:15.312513+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "623df03817d93cd2"
-  },
-  {
-    "id": "cfa-enterprising-investor-160e5f80bb457b18",
-    "sourceId": "cfa-enterprising-investor",
-    "sourceName": "CFA Enterprising Investor",
-    "title": "Private Markets, Public Promise: Africa’s Investment Inflection Point",
-    "url": "https://blogs.cfainstitute.org/investor/2025/07/24/private-markets-public-promise-africas-investment-inflection-point/",
-    "summary": "For global investors, the signal is clear: Africa’s moment is here. The only question is, will you be part of building it? The post Private Markets, Public Promise: Africa’s Investment Inflection Point appeared first on CFA Institute Enterprising Investor.",
-    "publishedAt": "2025-07-24T10:54:38+00:00",
-    "fetchedAt": "2025-07-28T08:46:10.401151+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "160e5f80bb457b18"
-  },
-  {
-    "id": "cfa-institute-blog-7cf41bfd",
-    "sourceId": "cfa-institute-blog",
-    "sourceName": "CFA Institute Enterprising Investor",
-    "title": "Private Markets, Public Promise: Africa’s Investment Inflection Point",
-    "url": "https://blogs.cfainstitute.org/investor/2025/07/24/private-markets-public-promise-africas-investment-inflection-point/",
-    "summary": "For global investors, the signal is clear: Africa’s moment is here. The only question is, will you be part of building it? The post Private Markets, Pub",
-    "fullContent": "For global investors, the signal is clear: Africa’s moment is here. The only question is, will you be part of building it? The post Private Markets, Public Promise: Africa’s Investment Inflection Point appeared first on CFA Institute Enterprising Investor. ]]",
-    "publishedAt": "2025-07-24T10:54:38.000Z",
-    "fetchedAt": "2025-08-04T09:59:20.543Z",
-    "category": "research",
-    "tags": [
-      "research"
-    ],
-    "priority": "normal",
-    "contentHash": "7cf41bfd"
-  },
-  {
-    "id": "stratechery-11b8dbb830ad11b5",
-    "sourceId": "stratechery",
-    "sourceName": "Stratechery",
-    "title": "Google Earnings, Google Flips the Switch on Cloud, Search Notes",
-    "url": "https://stratechery.com/2025/google-earnings-google-flips-the-switch-on-cloud-search-notes/",
-    "summary": "Google doubles down on AI in the cloud",
-    "publishedAt": "2025-07-24T10:43:40+00:00",
-    "fetchedAt": "2025-07-28T04:04:08.064027+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "AI",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "11b8dbb830ad11b5"
-  },
-  {
-    "id": "stratechery-1403a996",
-    "sourceId": "stratechery",
-    "sourceName": "Stratechery",
-    "title": "Google Earnings, Google Flips the Switch on Cloud, Search Notes",
-    "url": "https://stratechery.com/2025/google-earnings-google-flips-the-switch-on-cloud-search-notes/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-24T10:43:40.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.015Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "1403a996"
-  },
-  {
-    "id": "wsj-opinion-26c0f949fdd1255b",
-    "sourceId": "wsj-opinion",
-    "sourceName": "WSJ Opinion",
-    "title": "Nvidia, AMD CEOs Rally Behind President Trump’s AI ‘Action Plan’",
-    "url": "https://www.wsj.com/articles/nvidia-amd-ceos-rally-behind-president-trumps-ai-action-plan-08a94a74?mod=rss_Technology",
-    "summary": "The leaders of America’s chip giants cheered the president’s artificial intelligence orders, which could help boost the domestic semiconductor industry.",
-    "fullContent": "The leaders of America’s chip giants cheered the president’s artificial intelligence orders, which could help boost the domestic semiconductor industry.",
-    "publishedAt": "2025-07-24T10:41:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.109091+00:00",
-    "category": "blogs",
-    "tags": [
-      "Blogs",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "26c0f949fdd1255b"
-  },
-  {
-    "id": "jacobin-818dd9c526bfbeb4",
-    "sourceId": "jacobin",
-    "sourceName": "Jacobin",
-    "title": "The Feds Keep Changing Their Story About the Epstein Files",
-    "url": "https://jacobin.com/2025/07/epstein-trump-files-justice-department/",
-    "summary": "President Donald Trump’s attorney general, Pamela Bondi, recently announced that the Justice Department will not release documents about the politically connected sex offender Jeffrey Epstein, citing privacy concerns around child pornography allegedly included in the files. But the department’s recent memo contradicts the agency’s prior legal rationale in a concurrent court case seeking the release […]",
-    "publishedAt": "2025-07-24T10:36:48+00:00",
-    "fetchedAt": "2025-07-28T06:33:17.778260+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "high",
-    "contentHash": "818dd9c526bfbeb4"
-  },
-  {
-    "id": "bbc-business-190399b13108a115",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Four things you need to know about UK-India trade deal",
-    "url": "https://www.bbc.com/news/articles/c99p2mlyep5o",
-    "summary": "Here's a quick guide to what's been agreed and what it could mean for you.",
-    "publishedAt": "2025-07-24T10:36:12+00:00",
-    "fetchedAt": "2025-07-28T08:47:55.138678+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "190399b13108a115"
-  },
-  {
-    "id": "wired-4bb7b020755f1ea6",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "7 Best Coffee Makers (2025): Drip Is Drippin'",
-    "url": "https://www.wired.com/gallery/best-coffee-makers/",
-    "summary": "The old-fashioned drip coffee maker has come a long way. Our favorite machines here can turn your barista into a stranger.",
-    "publishedAt": "2025-07-24T10:34:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.132584+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "4bb7b020755f1ea6"
-  },
-  {
-    "id": "paul-krugman-625d4bf21588cf90",
-    "sourceId": "paul-krugman",
-    "sourceName": "Paul Krugman",
-    "title": "The General Theory of Enshittification",
-    "url": "https://paulkrugman.substack.com/p/the-general-theory-of-enshittification",
-    "summary": "It isn’t a new phenomenon, but it seems to matter more",
-    "publishedAt": "2025-07-24T10:30:38+00:00",
-    "fetchedAt": "2025-07-28T06:22:17.744877+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "625d4bf21588cf90"
-  },
-  {
-    "id": "paul-krugman-32db9b62",
-    "sourceId": "paul-krugman",
-    "sourceName": "Paul Krugman",
-    "title": "",
-    "url": "https://paulkrugman.substack.com/p/the-general-theory-of-enshittification",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-24T10:30:38.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.940Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "32db9b62"
-  },
-  {
-    "id": "big-picture-08f5399f986987e2",
-    "sourceId": "big-picture",
-    "sourceName": "The Big Picture",
-    "title": "10 Thursday AM Reads",
-    "url": "https://ritholtz.com/2025/07/10-thursday-am-reads-464/",
-    "summary": "My morning train WFH reads: • Why Are Stocks Up? Nobody Knows: A torrent of bad news hasn’t been enough to sink the market. (Wall Street Journal) • How to Spot Bad Investing Advice and Build a Resilient Portfolio: Our investment success depends on how we respond to challenges and opportunities in the market, and… Read More The post 10 Thursday AM Reads appeared first on The Big Picture.",
-    "publishedAt": "2025-07-24T10:30:35+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.563485+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "08f5399f986987e2"
-  },
-  {
-    "id": "wired-233c06c66b30ee73",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Florida Is Now a Haven for Unproven Stem-Cell Treatments",
-    "url": "https://www.wired.com/story/florida-is-now-a-haven-for-unproven-stem-cell-treatments/",
-    "summary": "In a measure that flouts the FDA, Florida says doctors can give unapproved stem-cell therapies for wound care, pain management, or orthopedic purposes.",
-    "publishedAt": "2025-07-24T10:30:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.132783+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "233c06c66b30ee73"
-  },
-  {
-    "id": "noahpinion-5c613c43d0248d86",
-    "sourceId": "noahpinion",
-    "sourceName": "Noah Smith",
-    "title": "Should Democrats go back to neoliberalism?",
-    "url": "https://www.noahpinion.blog/p/should-democrats-go-back-to-neoliberalism",
-    "summary": "To some degree, yes. But what they really need is a development state.",
-    "publishedAt": "2025-07-24T10:28:39+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.483086+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "5c613c43d0248d86"
-  },
-  {
-    "id": "noahpinion-41a26218",
-    "sourceId": "noahpinion",
-    "sourceName": "Noahpinion",
-    "title": "",
-    "url": "https://www.noahpinion.blog/p/should-democrats-go-back-to-neoliberalism",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-24T10:28:39.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.564Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "41a26218"
-  },
-  {
-    "id": "jacobin-b3b4e7f79ef34fc4",
-    "sourceId": "jacobin",
-    "sourceName": "Jacobin",
-    "title": "The Working-Class Trump Voters Who Can Still Be Won",
-    "url": "https://jacobin.com/2025/07/working-class-trump-voters-cwcp/",
-    "summary": "How has Donald Trump won the support of so many working-class people? Can Democrats ever win back their support? For the last decade now, American electoral politics has revolved around these questions. Opinions on the answers abound. Some argue support for Trump derives from workers who have been left behind by a changing economy. Others […]",
-    "publishedAt": "2025-07-24T10:13:06+00:00",
-    "fetchedAt": "2025-07-28T06:33:17.778549+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "low",
-    "contentHash": "b3b4e7f79ef34fc4"
-  },
-  {
-    "id": "aeon-magazine-5e056d00188a5ab9",
-    "sourceId": "aeon-magazine",
-    "sourceName": "Aeon",
-    "title": "Camp Widow",
-    "url": "https://aeon.co/videos/grief-healing-and-laughter-coexist-at-a-unique-retreat-for-widows-and-widowers?utm_source=rss-feed",
-    "summary": "People who’ve lost an intimate partner often feel completely alone in their experience – Camp Widow helps them connect - by Aeon Video Watch at Aeon",
-    "publishedAt": "2025-07-24T10:01:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:10.643548+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "5e056d00188a5ab9"
-  },
-  {
-    "id": "aeon-magazine-1026a2cc",
-    "sourceId": "aeon-magazine",
-    "sourceName": "Aeon Magazine",
-    "title": "",
-    "url": "https://aeon.co/videos/grief-healing-and-laughter-coexist-at-a-unique-retreat-for-widows-and-widowers?utm_source=rss-feed",
-    "summary": "People who’ve lost an intimate partner often feel complet",
-    "fullContent": "People who’ve lost an intimate partner often feel completely alone in their experience – Camp Widow helps them connect - by Aeon Video Watch at Aeon]]",
-    "publishedAt": "2025-07-24T10:01:00.000Z",
-    "fetchedAt": "2025-08-04T10:01:56.350Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "1026a2cc"
-  },
-  {
-    "id": "aeon-magazine-59c67d0fdf31d552",
-    "sourceId": "aeon-magazine",
-    "sourceName": "Aeon",
-    "title": "Rivers of galaxies",
-    "url": "https://aeon.co/essays/how-to-see-the-cosmic-web-here-on-earth?utm_source=rss-feed",
-    "summary": "What are the largest shapes in the Universe? The answer might be found in the most unassuming places here on Earth - by Mark Neyrinck Read at Aeon",
-    "publishedAt": "2025-07-24T10:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:10.643840+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "59c67d0fdf31d552"
-  },
-  {
-    "id": "rest-of-world-28aa6bfb8a8254c0",
-    "sourceId": "rest-of-world",
-    "sourceName": "Rest of World",
-    "title": "Unleashing the AI jobs revolution in Africa",
-    "url": "https://restofworld.org/2025/ai-africa-professional-jobs/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-    "summary": "People look at a stock chart during the launch of Ethiopian Securities Exchange in Addis Ababa, Ethiopia, on January 10, 2025.",
-    "publishedAt": "2025-07-24T10:00:00+00:00",
-    "fetchedAt": "2025-07-28T08:52:45.734620+00:00",
-    "category": "news",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "28aa6bfb8a8254c0"
   }
 ]

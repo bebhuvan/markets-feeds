@@ -1,5 +1,705 @@
 [
   {
+    "id": "bloomberg-markets-17dfddfa524d1190",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Microsoft, Meta Power AI Market to Record Highs | The Close 7/31/2025",
+    "url": "https://www.bloomberg.com/news/videos/2025-07-31/the-close-7-31-2025-video",
+    "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Kestra Investment Management’s Kara Murphy, Redpoint Managing’s Erica Brescia, Citizens’ Devin Ryan, Alger’s Dan Chung, Goldman Sachs’ Lizzie Dove, Morgan Stanley’s Sherry Paul, Jefferies’ Brent Thill, Kearney’s Katherine Black, Neuberger Berman Group’s Daniel Flax, AI Fund’s Andrew Ng. (Source: Bloomberg)",
+    "fullContent": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Kestra Investment Management’s Kara Murphy, Redpoint Managing’s Erica Brescia, Citizens’ Devin Ryan, Alger’s Dan Chung, Goldman Sachs’ Lizzie Dove, Morgan Stanley’s Sherry Paul, Jefferies’ Brent Thill, Kearney’s Katherine Black, Neuberger Berman Group’s Daniel Flax, AI Fund’s Andrew Ng. (Source: Bloomberg)",
+    "publishedAt": "2025-07-31T23:25:56+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.905883+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "low",
+    "contentHash": "17dfddfa524d1190"
+  },
+  {
+    "id": "bloomberg-economics-9eab3b6369e2bbdd",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Trump Issues Tariff Orders From Taiwan to Switzerland",
+    "url": "https://www.bloomberg.com/news/live-blog/2025-07-31/us-tariff-deadline",
+    "summary": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
+    "fullContent": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
+    "publishedAt": "2025-07-31T23:19:07+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.848909+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "9eab3b6369e2bbdd"
+  },
+  {
+    "id": "bloomberg-politics-d642dd2b2b43305b",
+    "sourceId": "bloomberg-politics",
+    "sourceName": "Bloomberg Politics",
+    "title": "Trump Unveils New Tariff Regime to Reshape Trade Order",
+    "url": "https://www.bloomberg.com/news/live-blog/2025-07-31/us-tariff-deadline",
+    "summary": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
+    "fullContent": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
+    "publishedAt": "2025-07-31T23:19:07+00:00",
+    "fetchedAt": "2025-08-01T04:05:30.246197+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d642dd2b2b43305b"
+  },
+  {
+    "id": "cnbc-markets-3f4f4a295b8fa7fd",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Friday’s big stock stories: What’s likely to move the market in the next trading session",
+    "url": "https://www.cnbc.com/2025/07/31/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+    "summary": "The S&P 500 posted a third straight losing day as gains from Meta Platforms and Microsoft failed to lift the market Thursday. What CNBC is watching Friday.",
+    "fullContent": "The S&P 500 posted a third straight losing day as gains from Meta Platforms and Microsoft failed to lift the market Thursday. What CNBC is watching Friday.",
+    "publishedAt": "2025-07-31T23:18:16+00:00",
+    "fetchedAt": "2025-08-01T02:45:58.521597+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3f4f4a295b8fa7fd"
+  },
+  {
+    "id": "techmeme-b6f68a7264b7a0b7",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Cloudflare reports Q2 revenue up 28% YoY to $512.3M, vs. $501.21M est., and forecasts Q3 revenue of $543.5M to $544.5M, vs. $538.6M est. (Duncan Riley/SiliconANGLE)",
+    "url": "http://www.techmeme.com/250731/p52#a250731p52",
+    "summary": "Duncan Riley / SiliconANGLE: Cloudflare reports Q2 revenue up 28% YoY to $512.3M, vs. $501.21M est., and forecasts Q3 revenue of $543.5M to $544.5M, vs. $538.6M est.  —  Shares in Cloudflare Inc. rose more than 5% in late trading today after the content delivery network company impressed investors with earnings …",
+    "fullContent": "Duncan Riley / SiliconANGLE: Cloudflare reports Q2 revenue up 28% YoY to $512.3M, vs. $501.21M est., and forecasts Q3 revenue of $543.5M to $544.5M, vs. $538.6M est.  —  Shares in Cloudflare Inc. rose more than 5% in late trading today after the content delivery network company impressed investors with earnings …",
+    "publishedAt": "2025-07-31T23:15:01+00:00",
+    "fetchedAt": "2025-08-01T02:46:06.139628+00:00",
+    "category": "technology",
+    "tags": [
+      "Earnings",
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "b6f68a7264b7a0b7"
+  },
+  {
+    "id": "bloomberg-economics-427c468a434e6297",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-raises-tariffs-on-canada-to-35-but-keeps-usmca-exemption",
+    "summary": "President Donald Trump said the US will put a 35% tariff on some imports from Canada after trade negotiations between the two countries broke down.",
+    "fullContent": "Shipping containers at the Port of Montreal in Quebec, Canada. Photographer: Andrej Ivanov/Bloomberg",
+    "publishedAt": "2025-07-31T23:13:53+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.847672+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "427c468a434e6297"
+  },
+  {
+    "id": "google-bloomberg-fcaaaaa1b8346ddc",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNE1zN3VUVWMwNHlXcHBXYkZiWmh5ZktrQzZacm9rOHhOaEhsaDlrcE1QVmc0amJlU2pzcVY5ZTNNSUxHdVcxRUdnU3JwQWY1c2xHVWhvV3dZNmtlYUF5RGprNXF4YS1qYUZBVkx0angzUHR1U3JTNGhHeEk1UjE0WER2OG42REZYdGd3NlpJdURqRjlrMjk4NS1WV1JpaTdWQzRTNkhPZTBiRHlMT1Q2NzE1dw?oc=5",
+    "summary": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption  Bloomberg.com",
+    "fullContent": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption  Bloomberg.com",
+    "publishedAt": "2025-07-31T23:13:53+00:00",
+    "fetchedAt": "2025-08-01T02:46:09.359387+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "fcaaaaa1b8346ddc"
+  },
+  {
+    "id": "bloomberg-economics-5e6d0a2f9e3ecd8b",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-raises-tariffs-on-canada-to-35-but-keeps-usmca-exemption",
+    "summary": "President Donald Trump said the US will put a 35% tariff on some imports from Canada, escalating the tensions between two countries that have impaired one of the world’s largest trading relationships.",
+    "fullContent": "Shipping containers at the Port of Montreal in Quebec, Canada. Photographer: Andrej Ivanov/Bloomberg",
+    "publishedAt": "2025-07-31T23:13:53+00:00",
+    "fetchedAt": "2025-08-01T02:59:39.739767+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "5e6d0a2f9e3ecd8b"
+  },
+  {
+    "id": "google-bloomberg-ca2b14d3272c9ccd",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNE1zN3VUVWMwNHlXcHBXYkZiWmh5ZktrQzZacm9rOHhOaEhsaDlrcE1QVmc0amJlU2pzcVY5ZTNNSUxHdVcxRUdnU3JwQWY1c2xHVWhvV3dZNmtlYUF5RGprNXF4YS1qYUZBVkx0angzUHR1U3JTNGhHeEk1UjE0WER2OG42REZYdGd3NlpJdURqRjlrMjk4NS1WV1JpaTdWQzRTNkhPZTBiRHlMT1Q2NzE1dw?oc=5",
+    "summary": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption  Bloomberg",
+    "fullContent": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption  Bloomberg",
+    "publishedAt": "2025-07-31T23:13:53+00:00",
+    "fetchedAt": "2025-08-01T05:00:51.588310+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ca2b14d3272c9ccd"
+  },
+  {
+    "id": "bloomberg-markets-3a08f796bd643b41",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Redpoint Ventures' Brescia on Figma's Blowout IPO",
+    "url": "https://www.bloomberg.com/news/videos/2025-07-31/early-figma-investor-on-software-company-s-blowout-ipo-video",
+    "summary": "Redpoint Ventures Managing Director Erica Brescia discusses Figma's IPO trading under the ticker \"FIG\". She tells Romaine Bostick and Katie Greifeld the numbers have exceeded her expectations. (Headline changed due to misinformation) (Source: Bloomberg)",
+    "fullContent": "Redpoint Ventures Managing Director Erica Brescia discusses Figma's IPO trading under the ticker \"FIG\". She tells Romaine Bostick and Katie Greifeld the numbers have exceeded her expectations. (Headline changed due to misinformation) (Source: Bloomberg)",
+    "publishedAt": "2025-07-31T23:13:18+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.902054+00:00",
+    "category": "markets",
+    "tags": [
+      "IPO",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3a08f796bd643b41"
+  },
+  {
+    "id": "bloomberg-economics-82cc9fbf213c0982",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Trump Imposes Sweeping Global Tariffs With Minimum Rate of 10%",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-sets-tariffs-ahead-of-deadline-with-10-baseline-rate",
+    "summary": "President Donald Trump announced a slew of new tariffs, including a 10% global minimum and 15% or higher duties for countries with trade surpluses with the US, forging ahead with his turbulent effort to reshape international commerce.",
+    "fullContent": "Donald Trump. Photographer: Eric Lee/Bloomberg",
+    "publishedAt": "2025-07-31T23:12:50+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.845609+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "82cc9fbf213c0982"
+  },
+  {
+    "id": "bloomberg-economics-05b68551abb0f8e2",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Trump Boosts Tariffs Across World, Reshaping Global Commerce",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-sets-tariffs-ahead-of-deadline-with-10-baseline-rate",
+    "summary": "President Donald Trump unveiled a slew of new tariffs that boosted the average US rate on goods from across the world, forging ahead with his turbulent effort to reshape international commerce.",
+    "fullContent": "Donald Trump. Photographer: Eric Lee/Bloomberg",
+    "publishedAt": "2025-07-31T23:12:50+00:00",
+    "fetchedAt": "2025-08-01T05:00:36.125367+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "05b68551abb0f8e2"
+  },
+  {
+    "id": "bloomberg-business-youtube-7a750d31bbd0bb3b",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business",
+    "title": "Texas Republicans propose map for Trump-backed redistricting#shorts #texas #redistricting #trump",
+    "url": "https://www.youtube.com/shorts/kUzixaAnktg",
+    "summary": "\"I'm grateful for anything that increases the chances\" of the GOP, says Sen. Ted Cruz. Texas Republicans unveiled their first proposal for a revamped congressional map after President Donald Trump called on state lawmakers to deliver as many as five new GOP seats ahead of the 2026 midterm elections https://bloom.bg/3UDAhiv",
+    "fullContent": "\"I'm grateful for anything that increases the chances\" of the GOP, says Sen. Ted Cruz. Texas Republicans unveiled their first proposal for a revamped congressional map after President Donald Trump called on state lawmakers to deliver as many as five new GOP seats ahead of the 2026 midterm elections https://bloom.bg/3UDAhiv",
+    "publishedAt": "2025-07-31T23:09:07+00:00",
+    "fetchedAt": "2025-08-01T02:46:16.702716+00:00",
+    "category": "videos",
+    "tags": [
+      "Videos"
+    ],
+    "priority": "high",
+    "contentHash": "7a750d31bbd0bb3b"
+  },
+  {
+    "id": "google-bloomberg-81d36a1204afd35e",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Apple Growth Rebounds on Strength of iPhone 16 Line, China - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQk01N2lkcmRieWctWnc0d0p2eXYtX2hUR0JlTG0tT3ZrdlRPNzlLR1ZtZ1g2a1JJdHJZUmVSWDF0Qi1GUTMyREp0cHNVS1kzSHRsUGZoWkNoYTNvSDNEd2ZaNms5NGhxLUVfOTRUTjBCMGZ1QWxWNlVRX2M0RDFLRENaNFdfVi1vaW81Wl9vM3ZyQnRwU3Z3bHhsSE1ZM0czd1pqVlQxUFBRdW5vR013MGgxWHk?oc=5",
+    "summary": "Apple Growth Rebounds on Strength of iPhone 16 Line, China  Bloomberg.com",
+    "fullContent": "Apple Growth Rebounds on Strength of iPhone 16 Line, China  Bloomberg.com",
+    "publishedAt": "2025-07-31T23:09:02+00:00",
+    "fetchedAt": "2025-08-01T02:46:09.350259+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "81d36a1204afd35e"
+  },
+  {
+    "id": "google-bloomberg-645345684b49f10b",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Apple Growth Rebounds on Strength of iPhone 16 Line, China - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQk01N2lkcmRieWctWnc0d0p2eXYtX2hUR0JlTG0tT3ZrdlRPNzlLR1ZtZ1g2a1JJdHJZUmVSWDF0Qi1GUTMyREp0cHNVS1kzSHRsUGZoWkNoYTNvSDNEd2ZaNms5NGhxLUVfOTRUTjBCMGZ1QWxWNlVRX2M0RDFLRENaNFdfVi1vaW81Wl9vM3ZyQnRwU3Z3bHhsSE1ZM0czd1pqVlQxUFBRdW5vR013MGgxWHk?oc=5",
+    "summary": "Apple Growth Rebounds on Strength of iPhone 16 Line, China  Bloomberg",
+    "fullContent": "Apple Growth Rebounds on Strength of iPhone 16 Line, China  Bloomberg",
+    "publishedAt": "2025-07-31T23:09:02+00:00",
+    "fetchedAt": "2025-08-01T05:00:51.578946+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "645345684b49f10b"
+  },
+  {
+    "id": "cnbc-markets-0704ab987dac3542",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Tariff turmoil: How global CEOs are shifting gears",
+    "url": "https://www.cnbc.com/2025/08/01/tariff-turmoil-how-global-ceos-are-shifting-gears.html",
+    "summary": "From chocolate to aluminum to AI infrastructure, executives are redrawing global strategies to cope with rising trade friction and unpredictable policy risk.",
+    "fullContent": "From chocolate to aluminum to AI infrastructure, executives are redrawing global strategies to cope with rising trade friction and unpredictable policy risk.",
+    "publishedAt": "2025-07-31T23:05:06+00:00",
+    "fetchedAt": "2025-08-01T02:45:58.523929+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "0704ab987dac3542"
+  },
+  {
+    "id": "bbc-business-5a3d5602ea0743b5",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Do you feel lucky plank? Meet the new 'bulletproof' wood",
+    "url": "https://www.bbc.com/news/articles/c0rvzdd1drpo?at_medium=RSS&at_campaign=rss",
+    "summary": "New ways are being found to make wood even stronger and more versatile in construction.",
+    "fullContent": "New ways are being found to make wood even stronger and more versatile in construction.",
+    "publishedAt": "2025-07-31T23:03:52+00:00",
+    "fetchedAt": "2025-08-01T02:46:00.938009+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5a3d5602ea0743b5"
+  },
+  {
+    "id": "bbc-business-7d4368e5",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "",
+    "url": "https://www.bbc.com/news/articles/c0rvzdd1drpo?at_medium=RSS&amp;at_campaign=rss",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-31T23:03:52.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.136Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7d4368e5"
+  },
+  {
+    "id": "bbc-business-2db46176795b10d2",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Trump's global tariffs 'victory' may well come at a high price",
+    "url": "https://www.bbc.com/news/articles/c0l6g13rlwko?at_medium=RSS&at_campaign=rss",
+    "summary": "The US president considers it a win - but if this all triggers a foundational realignment, the results may not break in his favour",
+    "fullContent": "The US president considers it a win - but if this all triggers a foundational realignment, the results may not break in his favour",
+    "publishedAt": "2025-07-31T23:01:04+00:00",
+    "fetchedAt": "2025-08-01T06:55:11.206407+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2db46176795b10d2"
+  },
+  {
+    "id": "bbc-business-7a1ced58",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "",
+    "url": "https://www.bbc.com/news/articles/c0l6g13rlwko?at_medium=RSS&amp;at_campaign=rss",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-31T23:01:04.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.136Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7a1ced58"
+  },
+  {
+    "id": "bloomberg-economics-c7bca9e553617ac3",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "UK CEOs Are More Downbeat About the Economy Than During Lockdown",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/uk-ceos-are-more-downbeat-about-the-economy-than-during-lockdown",
+    "summary": "British executives are less confident in the UK’s economic prospects than when the country shut down during the pandemic, a new survey showed, suggesting that the government has lost the support of the business community.",
+    "fullContent": "Commuters pass the Bank of England in the City of London, UK. Photographer: Chris Ratcliffe/Bloomberg",
+    "publishedAt": "2025-07-31T23:01:00+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.849331+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "c7bca9e553617ac3"
+  },
+  {
+    "id": "wsj-opinion-2804f8035839cd29",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Amazon Shares Fall Because Cloud Unit’s Growth Wasn’t Enough for Wall Street",
+    "url": "https://www.wsj.com/tech/amazon-earnings-q2-2025-amzn-stock-cb60512a?mod=rss_Technology",
+    "summary": "The e-commerce giant’s quarterly sales results beat expectations, but shares dropped 7% because its cloud computing arm’s growth wasn’t as strong as rivals’.",
+    "fullContent": "The e-commerce giant’s quarterly sales results beat expectations, but shares dropped 7% because its cloud computing arm’s growth wasn’t as strong as rivals’.",
+    "publishedAt": "2025-07-31T23:01:00+00:00",
+    "fetchedAt": "2025-08-01T02:46:00.881779+00:00",
+    "category": "blogs",
+    "tags": [
+      "Earnings",
+      "Blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "2804f8035839cd29"
+  },
+  {
+    "id": "bbc-business-8fb2ae8076fd1119",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Car finance compensation landmark ruling due",
+    "url": "https://www.bbc.com/news/articles/c8j1jkyjl1xo?at_medium=RSS&at_campaign=rss",
+    "summary": "The Supreme Court's decision due later could pave the way for millions of drivers to claim payouts.",
+    "fullContent": "The Supreme Court's decision due later could pave the way for millions of drivers to claim payouts.",
+    "publishedAt": "2025-07-31T23:00:49+00:00",
+    "fetchedAt": "2025-08-01T02:46:00.936425+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8fb2ae8076fd1119"
+  },
+  {
+    "id": "business-insider-26d4c4e928235d2a",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Reddit says it's doubling down on native search as it reports its 'most profitable quarter yet'",
+    "url": "https://www.businessinsider.com/reddit-q2-earnings-most-profitable-quarter-yet-search-strategy-2025-7",
+    "summary": "Google might be near synonymous with online search, but Reddit believes it can take a piece of that internet traffic pie.",
+    "fullContent": "Reddit said Q2 was its \"most profitable quarter yet\" during a conference call on Thursday.Illustration by Mateusz Slodkowski/SOPA Images/LightRocket via Getty ImagesReddit said Q2 was its \"most profitable quarter yet\" on Thursday.CEO Steve Huffman wants to integrate its core search product with Reddit Answers.Reddit said its core search product has 70 million weekly users.Reddit wants to be your go-to search engine.Google might be near synonymous with online search, but Reddit believes it can take a piece of that internet traffic pie.\"Reddit is one of the few platforms positioned to become a true search destination. We offer something special: a breadth of conversations and knowledge you can't find anywhere else,\" Reddit said in its Q2 report on Thursday. \"Every week, hundreds of millions of people come to Reddit looking for advice, and we're turning more of that intent into active users of Reddit's native search.\"Reddit said its core search product has 70 million weekly users, while R",
+    "publishedAt": "2025-07-31T23:00:37+00:00",
+    "fetchedAt": "2025-08-01T02:46:03.073583+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "26d4c4e928235d2a"
+  },
+  {
+    "id": "bloomberg-politics-2c14b823c95f1fbd",
+    "sourceId": "bloomberg-politics",
+    "sourceName": "Bloomberg Politics",
+    "title": "Weekend Warriors Are Prepping for a Chinese Invasion of Taiwan",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/china-invasion-fear-has-taiwan-defense-volunteers-training-with-airsoft-guns",
+    "summary": "Faced with the persistent threat of attack, civil defense volunteers are training for combat with replica rifles that fire plastic pellets.",
+    "fullContent": "Employees inspect rifles at a factory for airsoft gun manufacturer Vega Force Company.",
+    "publishedAt": "2025-07-31T23:00:26+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.874609+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2c14b823c95f1fbd"
+  },
+  {
+    "id": "ndtv-profit-youtube-50048f7a88e8fa21",
+    "sourceId": "ndtv-profit-youtube",
+    "sourceName": "NDTV Profit India",
+    "title": "Trump Tariff | Tariff Vs Trade Deal: Impact And What Gets Costlier, Tariffying Times?",
+    "url": "https://www.youtube.com/watch?v=zS7svzIs_a0",
+    "summary": "What is likely to get costlier and how will Trump's tariffs Or a trade deal impact consumers and trade. NDTV's Sakshi Bajaj explains. #TrumpTariff #TrumpTariffIndia #Trump25%TariffIndia #US #PMModi #NDTVWorld #NDTVDigitalOriginals NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most. The world has viewed India through a narrow, Western-focused lens for far too long. The time has come to disrupt these US and Eurocentric narratives. NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most—geopolitics, migration, diaspora experiences, education, and global news Links NDTV World ndtv.com/world X x.com/NDTVWORLD Instagram instagram.com/ndtvworld Linkedin linkedin.com/company/ndtv-world",
+    "fullContent": "What is likely to get costlier and how will Trump's tariffs Or a trade deal impact consumers and trade. NDTV's Sakshi Bajaj explains. #TrumpTariff #TrumpTariffIndia #Trump25%TariffIndia #US #PMModi #NDTVWorld #NDTVDigitalOriginals NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most. The world has viewed India through a narrow, Western-focused lens for far too long. The time has come to disrupt these US and Eurocentric narratives. NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most—geopolitics, migration, diaspora experiences, education, and global news Links NDTV World ndtv.com/world X x.com/NDTVWORLD Instagram instagram.com/ndtvworld Linkedin linkedin.com/company/ndtv-world",
+    "publishedAt": "2025-07-31T23:00:06+00:00",
+    "fetchedAt": "2025-08-01T02:46:16.787681+00:00",
+    "category": "videos",
+    "tags": [
+      "M&A",
+      "Videos"
+    ],
+    "priority": "low",
+    "contentHash": "50048f7a88e8fa21"
+  },
+  {
+    "id": "techmeme-278b1d0458c5ecf5",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Apple incurred ~$800M in tariff-related costs in Q3, $100M less than expected, and expects a jump to $1.1B in Q4 if current rates and policies remain in place (William Gallagher/AppleInsider)",
+    "url": "http://www.techmeme.com/250731/p51#a250731p51",
+    "summary": "William Gallagher / AppleInsider: Apple incurred ~$800M in tariff-related costs in Q3, $100M less than expected, and expects a jump to $1.1B in Q4 if current rates and policies remain in place  —  Trump's tariffs are increasingly costing Apple more per quarter  —  Apple's bill for Trump's tariffs in the third quarter …",
+    "fullContent": "William Gallagher / AppleInsider: Apple incurred ~$800M in tariff-related costs in Q3, $100M less than expected, and expects a jump to $1.1B in Q4 if current rates and policies remain in place  —  Trump's tariffs are increasingly costing Apple more per quarter  —  Apple's bill for Trump's tariffs in the third quarter …",
+    "publishedAt": "2025-07-31T22:55:01+00:00",
+    "fetchedAt": "2025-08-01T02:46:06.140525+00:00",
+    "category": "technology",
+    "tags": [
+      "Earnings",
+      "Technology"
+    ],
+    "priority": "high",
+    "contentHash": "278b1d0458c5ecf5"
+  },
+  {
+    "id": "bloomberg-economics-637d2e591f8de2db",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "IMF Approves $2 Billion Argentina Disbursement as Peso Falls",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/imf-approves-2-billion-disbursement-to-argentina-as-peso-slides",
+    "summary": "The International Monetary Fund’s executive board approved a $2 billion disbursement to Argentina Thursday, a key vote of confidence even as the government of Javier Milei missed a key target while the peso posted its worst month in more than a year.",
+    "fullContent": "The International Monetary Fund’s executive board approved a $2 billion disbursement to Argentina Thursday, a key vote of confidence even as the government of Javier Milei missed a key target while the peso posted its worst month in more than a year.",
+    "publishedAt": "2025-07-31T22:52:06+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.848107+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "637d2e591f8de2db"
+  },
+  {
+    "id": "google-bloomberg-07ef190d8c4f7822",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeVRNWjZMemFYd2tWcEdNMVUzeFdTRVJveHRJY3BBMnVsWHlxVlV2QmVzVktkNE5FalRkMDFDcHp5Q3hfNkZTcjNSTjdzSEZHV1d4cXRudC1ORXlkSl84dzBjRDBzMVF2dUtCa20tUWFjQXJ0LUJ3QW9HMVRxSEFTMFZ5U2RpdUpOMC1fcThGMXJ0MVNaallKOXFvZkk5bmFCR1FYTkhHZWR1Y1VWZFd2RW9LSVc?oc=5",
+    "summary": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides  Bloomberg.com",
+    "fullContent": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides  Bloomberg.com",
+    "publishedAt": "2025-07-31T22:52:06+00:00",
+    "fetchedAt": "2025-08-01T02:46:09.351409+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "07ef190d8c4f7822"
+  },
+  {
+    "id": "google-bloomberg-c1f033cabbf6e980",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeVRNWjZMemFYd2tWcEdNMVUzeFdTRVJveHRJY3BBMnVsWHlxVlV2QmVzVktkNE5FalRkMDFDcHp5Q3hfNkZTcjNSTjdzSEZHV1d4cXRudC1ORXlkSl84dzBjRDBzMVF2dUtCa20tUWFjQXJ0LUJ3QW9HMVRxSEFTMFZ5U2RpdUpOMC1fcThGMXJ0MVNaallKOXFvZkk5bmFCR1FYTkhHZWR1Y1VWZFd2RW9LSVc?oc=5",
+    "summary": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides  Bloomberg",
+    "fullContent": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides  Bloomberg",
+    "publishedAt": "2025-07-31T22:52:06+00:00",
+    "fetchedAt": "2025-08-01T05:00:51.579469+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c1f033cabbf6e980"
+  },
+  {
+    "id": "cnbc-markets-3bbe622fa546c2a9",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Amazon's gloomy earnings forecast overshadows better-than-expected results",
+    "url": "https://www.cnbc.com/2025/07/31/amazon-amzn-q2-earnings-report-2025.html",
+    "summary": "The guidance spooked investors who are eager to see Amazon’s hefty investments in artificial intelligence pay off.",
+    "fullContent": "The guidance spooked investors who are eager to see Amazon’s hefty investments in artificial intelligence pay off.",
+    "publishedAt": "2025-07-31T22:46:35+00:00",
+    "fetchedAt": "2025-08-01T02:45:58.519388+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3bbe622fa546c2a9"
+  },
+  {
+    "id": "cnbc-markets-0fe9831ac572a0a3",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Apple reports biggest revenue growth since December 2021",
+    "url": "https://www.cnbc.com/2025/07/31/apple-aapl-q3-earnings-report-2025.html",
+    "summary": "Apple CEO Tim Cook said Apple would \"significantly grow\" its AI investments, adding that the company is \"open to M&A that accelerates our roadmap.\"",
+    "fullContent": "Apple CEO Tim Cook said Apple would \"significantly grow\" its AI investments, adding that the company is \"open to M&A that accelerates our roadmap.\"",
+    "publishedAt": "2025-07-31T22:42:34+00:00",
+    "fetchedAt": "2025-08-01T02:45:58.520217+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "AI",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "0fe9831ac572a0a3"
+  },
+  {
+    "id": "imf-news-07859cf4010b4d83",
+    "sourceId": "imf-news",
+    "sourceName": "IMF News",
+    "title": "IMF Executive Board Completes the First Review Under the Extended Credit Facility Arrangement and Concludes 2025 Article IV Consultation with São Tomé and Príncipe",
+    "url": "https://www.imf.org/en/News/Articles/2025/07/31/pr-24273-sao-tome-and-principe-imf-completes-1st-rev-under-ecf-arrang-2025-article-iv-consult",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-31T22:41:54+00:00",
+    "fetchedAt": "2025-08-01T02:46:03.469603+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "07859cf4010b4d83"
+  },
+  {
+    "id": "imf-news-7513e302",
+    "sourceId": "imf-news",
+    "sourceName": "IMF News",
+    "title": "IMF Executive Board Completes the First Review Under the Extended Credit Facility Arrangement and Concludes 2025 Article IV Consultation with São Tomé and Príncipe",
+    "url": "https://www.imf.org/en/News/Articles/2025/07/31/pr-24273-sao-tome-and-principe-imf-completes-1st-rev-under-ecf-arrang-2025-article-iv-consult",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-31T22:41:54.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.457Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "7513e302"
+  },
+  {
+    "id": "cnbc-markets-51b23802aeb2550c",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Amazon's cloud business records 18% growth in second quarter",
+    "url": "https://www.cnbc.com/2025/07/31/aws-q2-2025-earnings-report-amazon-cloud.html",
+    "summary": "Amazon announced new business from the likes of PepsiCo during the second quarter, as revenue topped $30 billion.",
+    "fullContent": "Amazon announced new business from the likes of PepsiCo during the second quarter, as revenue topped $30 billion.",
+    "publishedAt": "2025-07-31T22:39:35+00:00",
+    "fetchedAt": "2025-08-01T02:45:58.524466+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "51b23802aeb2550c"
+  },
+  {
+    "id": "business-insider-c9d7994f9faeae3a",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Azure vs AWS: The first time we get to truly compare these cloud giants",
+    "url": "https://www.businessinsider.com/microsoft-amazon-aws-azure-compare-cloud-giants-2025-7",
+    "summary": "Microsoft finally reveals a pure revenue number for its Azure cloud computing business. Here's how that compares with AWS.",
+    "fullContent": "Microsoft CEO Satya Nadella and Amazon CEO Andy JassyGetty ImagesMicrosoft reveals a pure Azure revenue number for the first time.This lets us properly compare Azure with AWS, the top 2 cloud providers.Here are the big takeaways from this important new disclosure.This week, Microsoft reported a pure revenue number for its most important business for the first time ever.It's wild to write that. Azure is Microsoft's cloud unit, which rents computing capacity over the internet. It's been the key for Microsoft investors for years, and yet the company has smooshed Azure sales together with other services when reporting results, muddying the financial waters.On Wednesday, though, CEO Satya Nadella changed things up by disclosing that, during Microsoft's recent fiscal year, \"Azure surpassed $75 billion in revenue, up 34 percent.\"It's a great number, and Microsoft shares jumped afterwards, sending the company's valuation to $4 trillion for the first time.The most fascinating part of this is th",
+    "publishedAt": "2025-07-31T22:39:32+00:00",
+    "fetchedAt": "2025-08-01T02:46:03.074888+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c9d7994f9faeae3a"
+  },
+  {
+    "id": "dwarkesh-patel-youtube-27d0ddf",
+    "sourceId": "dwarkesh-patel-youtube",
+    "sourceName": "Dwarkesh Patel YouTube",
+    "title": "Port Arthur: The Original Pearl Harbor",
+    "url": "https://www.youtube.com/watch?v=CiO9BwD97Wg",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-31T22:38:23.000Z",
+    "fetchedAt": "2025-08-04T09:59:41.056Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "27d0ddf"
+  },
+  {
+    "id": "bloomberg-markets-3132e46f59fcf9dc",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "MGM's Lion Roars For The First Time | On This Day",
+    "url": "https://www.bloomberg.com/news/videos/2025-07-31/mgm-s-lion-roars-for-the-first-time-on-this-day",
+    "summary": "On July 31, 1928, MGM’s Leo the Lion roared for the first time. The iconic mascot dates back to 1924, born from a merger of Metro Pictures, Goldwyn Pictures and Louis B. Mayer Productions. Ninety-four years later, Jeff Bezos bought MGM Studios for $8.5 billion. Romaine Bostick explains why Amazon faced mounting pressure to expand Prime Video from a booming streaming war. (Source: Bloomberg)",
+    "fullContent": "On July 31, 1928, MGM’s Leo the Lion roared for the first time. The iconic mascot dates back to 1924, born from a merger of Metro Pictures, Goldwyn Pictures and Louis B. Mayer Productions. Ninety-four years later, Jeff Bezos bought MGM Studios for $8.5 billion. Romaine Bostick explains why Amazon faced mounting pressure to expand Prime Video from a booming streaming war. (Source: Bloomberg)",
+    "publishedAt": "2025-07-31T22:37:32+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.907087+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3132e46f59fcf9dc"
+  },
+  {
+    "id": "bloomberg-business-youtube-89853bfc95f89d8b",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business",
+    "title": "MGM's Lion Roars For The First Time | On This Day",
+    "url": "https://www.youtube.com/watch?v=bvoGobqauAM",
+    "summary": "On July 31, 1928, MGM’s Leo the Lion roared for the first time. The iconic mascot dates back to 1924, born from a merger of Metro Pictures, Goldwyn Pictures and Louis B. Mayer Productions. Ninety-four years later, Jeff Bezos bought MGM Studios for $8.5 billion. Romaine Bostick explains why Amazon faced mounting pressure to expand Prime Video from a booming streaming war. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: h",
+    "fullContent": "On July 31, 1928, MGM’s Leo the Lion roared for the first time. The iconic mascot dates back to 1924, born from a merger of Metro Pictures, Goldwyn Pictures and Louis B. Mayer Productions. Ninety-four years later, Jeff Bezos bought MGM Studios for $8.5 billion. Romaine Bostick explains why Amazon faced mounting pressure to expand Prime Video from a booming streaming war. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: h",
+    "publishedAt": "2025-07-31T22:36:51+00:00",
+    "fetchedAt": "2025-08-01T02:46:16.703498+00:00",
+    "category": "videos",
+    "tags": [
+      "M&A",
+      "Videos"
+    ],
+    "priority": "low",
+    "contentHash": "89853bfc95f89d8b"
+  },
+  {
+    "id": "bloomberg-markets-77c3af61e76c5a10",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Figma’s 250% IPO Pop Gives It Edge in Creative AI Software Fight",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-31/figma-s-250-ipo-pop-gives-it-edge-in-creative-ai-software-fight",
+    "summary": "Figma Inc.’s 250% surge in its debut session is the kind of coming-out party every startup dreams of when it goes public.",
+    "fullContent": "Figma Inc.’s 250% surge in its debut session is the kind of coming-out party every startup dreams of when it goes public.",
+    "publishedAt": "2025-07-31T22:36:41+00:00",
+    "fetchedAt": "2025-08-01T02:45:55.907378+00:00",
+    "category": "markets",
+    "tags": [
+      "Tech",
+      "IPO",
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "77c3af61e76c5a10"
+  },
+  {
     "id": "business-insider-e4a986624ad3d4d0",
     "sourceId": "business-insider",
     "sourceName": "Business Insider",
@@ -1039,711 +1739,5 @@
     ],
     "priority": "normal",
     "contentHash": "10a413e2de467bba"
-  },
-  {
-    "id": "bloomberg-economics-38ab32875deb94c3",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Trade Woes, Rich Valuations Put Spotlight on Australian Earnings",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trade-woes-rich-valuations-put-spotlight-on-australian-earnings",
-    "summary": "A murky global trade outlook and elevated valuations are intensifying earnings pressure in Australia this reporting season.",
-    "fullContent": "Gantry cranes at the Port of Brisbane in Brisbane, Australia, on Wednesday, Oct. 26, 2022. Australia’s trade surplus swelled in September on a jump in exports, driven by higher prices for iron ore, metals and energy.",
-    "publishedAt": "2025-07-31T21:10:00+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.850219+00:00",
-    "category": "macro",
-    "tags": [
-      "Earnings",
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "38ab32875deb94c3"
-  },
-  {
-    "id": "bloomberg-business-youtube-1d8e5635f87e204b",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business",
-    "title": "Apple Shares Attractive After Sales Beat: Neuberger's Flax",
-    "url": "https://www.youtube.com/watch?v=wjyluWmKdQM",
-    "summary": "Daniel Flax, Neuberger Berman senior research analyst and managing director, reacts to Apple's third-quarter earnings on \"Bloomberg The Close.\" Apple's revenue rose 9.6% to $94 billion in the period. Analysts estimated $89.3 billion on average, according to data compiled by Bloomberg. Sign up for the Tech Daily newsletter to get exclusive reporting and analysis on tech and AI: https://bloom.bg/4bUP7rF -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com",
-    "fullContent": "Daniel Flax, Neuberger Berman senior research analyst and managing director, reacts to Apple's third-quarter earnings on \"Bloomberg The Close.\" Apple's revenue rose 9.6% to $94 billion in the period. Analysts estimated $89.3 billion on average, according to data compiled by Bloomberg. Sign up for the Tech Daily newsletter to get exclusive reporting and analysis on tech and AI: https://bloom.bg/4bUP7rF -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com",
-    "publishedAt": "2025-07-31T21:09:39+00:00",
-    "fetchedAt": "2025-08-01T02:46:16.704536+00:00",
-    "category": "videos",
-    "tags": [
-      "Earnings",
-      "AI",
-      "Videos",
-      "Tech"
-    ],
-    "priority": "low",
-    "contentHash": "1d8e5635f87e204b"
-  },
-  {
-    "id": "ft-markets-2db1c18ddbefd52f",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times",
-    "title": "Microsoft hits $4tn market value as tech stocks rise to new highs",
-    "url": "https://www.ft.com/content/884cb7a1-7bf6-4726-a91b-c0a14fcc1edf",
-    "summary": "Meta shares jump 11% on back of blockbuster earnings",
-    "fullContent": "Meta shares jump 11% on back of blockbuster earnings",
-    "publishedAt": "2025-07-31T21:05:57+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.985320+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Tech",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2db1c18ddbefd52f"
-  },
-  {
-    "id": "ft-technology-10e958e9",
-    "sourceId": "ft-technology",
-    "sourceName": "FT Technology",
-    "title": "",
-    "url": "https://www.ft.com/content/884cb7a1-7bf6-4726-a91b-c0a14fcc1edf",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-31T21:05:57.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.846Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "10e958e9"
-  },
-  {
-    "id": "bloomberg-business-youtube-f5f5e889319e0b92",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business",
-    "title": "Robinhood CEO on company’s expansion",
-    "url": "https://www.youtube.com/shorts/MBHWvn5yb2s",
-    "summary": "Robinhood posted second-quarter revenue that beat Wall Street estimates, boosted by strength in cryptocurrency trading. Total net revenue climbed 45% from a year earlier to $989 million. Here's what CEO Vlad Tenev had to say about a possible company expansion https://bloom.bg/3U7Rtww",
-    "fullContent": "Robinhood posted second-quarter revenue that beat Wall Street estimates, boosted by strength in cryptocurrency trading. Total net revenue climbed 45% from a year earlier to $989 million. Here's what CEO Vlad Tenev had to say about a possible company expansion https://bloom.bg/3U7Rtww",
-    "publishedAt": "2025-07-31T21:03:14+00:00",
-    "fetchedAt": "2025-08-01T02:46:16.704977+00:00",
-    "category": "videos",
-    "tags": [
-      "Earnings",
-      "Videos"
-    ],
-    "priority": "normal",
-    "contentHash": "f5f5e889319e0b92"
-  },
-  {
-    "id": "bloomberg-economics-a567a246ada8089e",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "How Trump Let $1 Trillion Worth of Imports Escape His Tariff Hammer",
-    "url": "https://www.bloomberg.com/news/features/2025-07-31/trump-tariff-exclusions-how-1-trillion-of-imports-got-off-the-hook",
-    "summary": "Exclusions reflect conflicting goals: to rip up the rules of global trade while cushioning US consumers. But the process isn’t transparent, and not everybody wins.",
-    "fullContent": "Apple iPhone 16 Plus phones during the first day of in-store sales at Apple's Fifth Avenue store in New York, US, on Friday, Sept. 20, 2024. Apple Inc. introduced the latest version of its flagship device, the iPhone 16, betting it can entice consumers with modest hardware upgrades and AI technology that's still on the horizon.",
-    "publishedAt": "2025-07-31T21:00:27+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.850693+00:00",
-    "category": "macro",
-    "tags": [
-      "AI",
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "a567a246ada8089e"
-  },
-  {
-    "id": "big-picture-38779dfa23599c16",
-    "sourceId": "big-picture",
-    "sourceName": "The Big Picture",
-    "title": "Might Tariffs Get “Overturned”?",
-    "url": "https://ritholtz.com/2025/07/tariffs-overturned/",
-    "summary": "Somebody’s paying the tariffs. Looks like it’s you.     Source: OptimistiCallie     You probably missed V.O.S. Selections, Inc. v. Trump, a little-noticed case that is working its way through the courts. Most investors are not paying attention to this. Maybe they should. The underlying thesis? Congress, not the President, is the only entity empowered… Read More The post Might Tariffs Get “Overturned”? appeared first on The Big Picture.",
-    "fullContent": "Somebody’s paying the tariffs. Looks like it’s you.     Source: OptimistiCallie You probably missed V.O.S. Selections, Inc. v. Trump, a little-noticed case that is working its way through the courts. Most investors are not paying attention to this. Maybe they should. The underlying thesis? Congress, not the President, is the only entity empowered to implement tariffs. As per the U.S. Constitution,  Article I, Section 8, Clause 1: “The Congress shall have Power To lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and general Welfare of the United States; but all Duties, Imposts and Excises shall be uniform throughout the United States…” Recall the April 2nd White House announcement threatening global reciprocal tariffs of 100%. That shocked the equity, fixed income, and currency markets. It also surprised numerous legal scholars, who were confident in their beliefs that the right to tax and spend — and that includes tariffs — lay sol",
-    "publishedAt": "2025-07-31T21:00:14+00:00",
-    "fetchedAt": "2025-08-01T02:46:11.700027+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "38779dfa23599c16"
-  },
-  {
-    "id": "big-picture-7d124890",
-    "sourceId": "big-picture",
-    "sourceName": "The Big Picture",
-    "title": "Might Tariffs Get &#8220;Overturned&#8221;?",
-    "url": "https://ritholtz.com/2025/07/tariffs-overturned/",
-    "summary": "Somebody’s paying the tariffs. Looks like it’s you. Source: OptimistiCallie &#160; &#160; You probably missed V.O.S. Selections, Inc. v. Trump, a little-noticed case that is working its way through the courts. Most investors are not paying attention to this. Maybe they should. The un",
-    "fullContent": "Somebody’s paying the tariffs. Looks like it’s you. Source: OptimistiCallie &#160; &#160; You probably missed V.O.S. Selections, Inc. v. Trump, a little-noticed case that is working its way through the courts. Most investors are not paying attention to this. Maybe they should. The underlying thesis? Congress, not the President, is the only entity empowered&#8230; Read More The post Might Tariffs Get &#8220;Overturned&#8221;? appeared first on The Big Picture. ]]>",
-    "publishedAt": "2025-07-31T21:00:14.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.566Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "7d124890"
-  },
-  {
-    "id": "calculated-risk-d67b36a8b98d59b4",
-    "sourceId": "calculated-risk",
-    "sourceName": "Calculated Risk",
-    "title": "July Employment Preview",
-    "url": "http://www.calculatedriskblog.com/2025/07/july-employment-preview.html",
-    "summary": "On Friday at 8:30 AM ET, the BLS will release the employment report for July. The consensus is for 118,000 jobs added, and for the unemployment rate to increase to 4.2%. There were 147,000 jobs added in June, and the unemployment rate was at 4.1%. Important: As I noted earlier, the large increase in seasonally adjusted education hiring in June was probably a seasonal adjustment issue. There will likely be payback in the July report, and it is possible we will see a seasonally adjusted decline in state and local education of 50 thousand or more for July. From Goldman Sachs: We forecast a 100k increase in payrolls in July. Big data indicators point to a rebound in private sector job growth, though to a still soft pace. ... We expect the unemployment rate to rebound to 4.2% based on the signal from other measures of labor market slack such as continuing jobless claims.emphasis addedFrom BofA: July NFP are likely to rise by 60k. State & local gov’t jobs should drop after spiking in June. M",
-    "fullContent": "On Friday at 8:30 AM ET, the BLS will release the employment report for July. The consensus is for 118,000 jobs added, and for the unemployment rate to increase to 4.2%. There were 147,000 jobs added in June, and the unemployment rate was at 4.1%. Important: As I noted earlier, the large increase in seasonally adjusted education hiring in June was probably a seasonal adjustment issue. There will likely be payback in the July report, and it is possible we will see a seasonally adjusted decline in state and local education of 50 thousand or more for July. From Goldman Sachs: We forecast a 100k increase in payrolls in July. Big data indicators point to a rebound in private sector job growth, though to a still soft pace. ... We expect the unemployment rate to rebound to 4.2% based on the signal from other measures of labor market slack such as continuing jobless claims.emphasis addedFrom BofA: July NFP are likely to rise by 60k. State & local gov’t jobs should drop after spiking in June. M",
-    "publishedAt": "2025-07-31T21:00:00+00:00",
-    "fetchedAt": "2025-08-01T02:46:03.517592+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "d67b36a8b98d59b4"
-  },
-  {
-    "id": "nyt-business-63b1e77a62785a30",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Figma’s $20 Billion Sale Died. It Came Back to Go Public.",
-    "url": "https://www.nytimes.com/2025/07/31/technology/figma-ipo.html",
-    "summary": "Figma, which makes a design platform, was on the verge of a big payday before regulators quashed the sale. On Thursday, it went public, with its stock ending the day up 250 percent.",
-    "fullContent": "Figma’s co-founder and chief executive, Dylan Field, with a hand on his right shoulder, before ringing the bell at the New York Stock Exchange on Thursday.",
-    "publishedAt": "2025-07-31T20:58:50+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.126372+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "63b1e77a62785a30"
-  },
-  {
-    "id": "nyt-business-3437be1d",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Figma’s $20 Billion Sale Died. It Came Back to Go Public.",
-    "url": "https://www.nytimes.com/2025/07/31/technology/figma-ipo.html",
-    "summary": "Figma, which makes a design platform, was on the verge of a big payday before regulators quashed the sale. On Thursday, it went public, with its stock ending the day up 250 percent.",
-    "fullContent": "Figma, which makes a design platform, was on the verge of a big payday before regulators quashed the sale. On Thursday, it went public, with its stock ending the day up 250 percent.",
-    "publishedAt": "2025-07-31T20:58:50.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3437be1d"
-  },
-  {
-    "id": "nyt-technology-3437be1d",
-    "sourceId": "nyt-technology",
-    "sourceName": "NYT Technology",
-    "title": "Figma’s $20 Billion Sale Died. It Came Back to Go Public.",
-    "url": "https://www.nytimes.com/2025/07/31/technology/figma-ipo.html",
-    "summary": "Figma, which makes a design platform, was on the verge of a big payday before regulators quashed the sale. On Thursday, it went public, with its stock ending the day up 250 percent.",
-    "fullContent": "Figma, which makes a design platform, was on the verge of a big payday before regulators quashed the sale. On Thursday, it went public, with its stock ending the day up 250 percent.",
-    "publishedAt": "2025-07-31T20:58:50.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.204Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "3437be1d"
-  },
-  {
-    "id": "cnbc-markets-c33b75d62f6b9d9a",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Trump says he asked 17 drugmakers to take steps to cut U.S. prices within 60 days",
-    "url": "https://www.cnbc.com/2025/07/31/trump-drug-prices-eli-lilly.html",
-    "summary": "Trump posted individual letters he sent 17 drugmakers, including Eli Lilly, GSK, Pfizer, Regeneron, Merck, Pfizer and Novo Nordisk.",
-    "fullContent": "Trump posted individual letters he sent 17 drugmakers, including Eli Lilly, GSK, Pfizer, Regeneron, Merck, Pfizer and Novo Nordisk.",
-    "publishedAt": "2025-07-31T20:58:30+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.527796+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c33b75d62f6b9d9a"
-  },
-  {
-    "id": "cnbc-business-1972be57",
-    "sourceId": "cnbc-business",
-    "sourceName": "CNBC Business",
-    "title": "Trump says he asked 17 drugmakers to take steps to cut U.S. prices within 60 days",
-    "url": "https://www.cnbc.com/2025/07/31/trump-drug-prices-eli-lilly.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-31T20:58:30.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.269Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1972be57"
-  },
-  {
-    "id": "google-bloomberg-79c41d15a7578ad0",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Stocks Pare Gains on Jobs Eve as Mexico Peso Jumps: Markets Wrap - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMFlKeHAyeFVGZzkydEoxaVFUdjc2Q01NVkFIRHJNNGdJTjJLRzBxaHJSd1M0QXRHai1US3MxbVNRNmNLYXFFYzRudUxDUFg3R3FjYnFFY2tSRURnMFJMRGo3SXQwd3pUdkp4b2FqLU12T2xjeF9fUWJuRmNONFlxZV9PVWhFRE5iX0htdUxWZjFUeXN3?oc=5",
-    "summary": "Stocks Pare Gains on Jobs Eve as Mexico Peso Jumps: Markets Wrap  Bloomberg.com",
-    "fullContent": "Stocks Pare Gains on Jobs Eve as Mexico Peso Jumps: Markets Wrap  Bloomberg.com",
-    "publishedAt": "2025-07-31T20:58:04+00:00",
-    "fetchedAt": "2025-08-01T02:46:09.356379+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "79c41d15a7578ad0"
-  },
-  {
-    "id": "google-bloomberg-ed7ff26377c5d251",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Stocks Pare Gains on Jobs Eve as Mexico Peso Jumps: Markets Wrap - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMFlKeHAyeFVGZzkydEoxaVFUdjc2Q01NVkFIRHJNNGdJTjJLRzBxaHJSd1M0QXRHai1US3MxbVNRNmNLYXFFYzRudUxDUFg3R3FjYnFFY2tSRURnMFJMRGo3SXQwd3pUdkp4b2FqLU12T2xjeF9fUWJuRmNONFlxZV9PVWhFRE5iX0htdUxWZjFUeXN3?oc=5",
-    "summary": "Stocks Pare Gains on Jobs Eve as Mexico Peso Jumps: Markets Wrap  Bloomberg",
-    "fullContent": "Stocks Pare Gains on Jobs Eve as Mexico Peso Jumps: Markets Wrap  Bloomberg",
-    "publishedAt": "2025-07-31T20:58:04+00:00",
-    "fetchedAt": "2025-08-01T05:00:51.585812+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ed7ff26377c5d251"
-  },
-  {
-    "id": "cnbc-markets-7fb6b4c8cdb9d34f",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Figma more than triples in NYSE debut after selling shares at $33",
-    "url": "https://www.cnbc.com/2025/07/31/figma-fig-starts-trading-on-nyse-after-ipo.html",
-    "summary": "Fast-growing Figma's internet software has more than 13 million users, and the customer list includes Google, Microsoft and Netflix.",
-    "fullContent": "Fast-growing Figma's internet software has more than 13 million users, and the customer list includes Google, Microsoft and Netflix.",
-    "publishedAt": "2025-07-31T20:57:20+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.523533+00:00",
-    "category": "markets",
-    "tags": [
-      "Tech",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7fb6b4c8cdb9d34f"
-  },
-  {
-    "id": "wsj-markets-main-40aee9479b402577",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Coinbase’s Profit Jumps on Crypto Investment Gains",
-    "url": "https://www.wsj.com/business/earnings/coinbase-coin-q2-earnings-report-2025-074cfb1e?mod=rss_markets_main",
-    "summary": "The largest U.S. crypto exchange’s revenue fell short of Wall Street expectations.",
-    "fullContent": "The largest U.S. crypto exchange’s revenue fell short of Wall Street expectations.",
-    "publishedAt": "2025-07-31T20:57:00+00:00",
-    "fetchedAt": "2025-08-01T02:46:00.800911+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "40aee9479b402577"
-  },
-  {
-    "id": "wsj-markets-main-355fe870",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Coinbase&#x2019;s Profit Jumps on Crypto Investment Gains",
-    "url": "https://www.wsj.com/business/earnings/coinbase-coin-q2-earnings-report-2025-074cfb1e?mod=rss_markets_main",
-    "summary": "The largest U.S. crypto exchange&#x2019;s revenue fell short of Wall Street expectations.",
-    "fullContent": "The largest U.S. crypto exchange&#x2019;s revenue fell short of Wall Street expectations.",
-    "publishedAt": "2025-07-31T20:57:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.468Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "355fe870"
-  },
-  {
-    "id": "techmeme-a31f08f2027611e2",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Roku reports Q2 revenue up 15% YoY to $1.11B, vs. $1.07B est., a net profit of $10.5M, and Platform segment sales up 18% to $976M (Todd Spangler/Variety)",
-    "url": "http://www.techmeme.com/250731/p48#a250731p48",
-    "summary": "Todd Spangler / Variety: Roku reports Q2 revenue up 15% YoY to $1.11B, vs. $1.07B est., a net profit of $10.5M, and Platform segment sales up 18% to $976M  —  Roku exceeded expectations for the second quarter of 2025, with the streaming platform company turning in better-than-expected 15% top-line growth — and a quarterly profit.",
-    "fullContent": "Todd Spangler / Variety: Roku reports Q2 revenue up 15% YoY to $1.11B, vs. $1.07B est., a net profit of $10.5M, and Platform segment sales up 18% to $976M  —  Roku exceeded expectations for the second quarter of 2025, with the streaming platform company turning in better-than-expected 15% top-line growth — and a quarterly profit.",
-    "publishedAt": "2025-07-31T20:55:01+00:00",
-    "fetchedAt": "2025-08-01T02:46:06.143329+00:00",
-    "category": "technology",
-    "tags": [
-      "Earnings",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "a31f08f2027611e2"
-  },
-  {
-    "id": "bloomberg-business-youtube-7c586de537cd5d33",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business",
-    "title": "Amazon Earnings Are 'Mediocre,' Jefferies' Thill Says",
-    "url": "https://www.youtube.com/watch?v=AtEG_1yW97A",
-    "summary": "Brent Thill, Jefferies tech sector leader, internet and software research, breaks down Amazon's earnings and forecast. Amazon said operating profit will be $15.5 billion to $20.5 billion in the period ending in September, compared with an average estimate of $19.4 billion. Sign up for the Tech Daily newsletter to get exclusive reporting and analysis on tech and AI: https://bloom.bg/4bUP7rF -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbu",
-    "fullContent": "Brent Thill, Jefferies tech sector leader, internet and software research, breaks down Amazon's earnings and forecast. Amazon said operating profit will be $15.5 billion to $20.5 billion in the period ending in September, compared with an average estimate of $19.4 billion. Sign up for the Tech Daily newsletter to get exclusive reporting and analysis on tech and AI: https://bloom.bg/4bUP7rF -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbu",
-    "publishedAt": "2025-07-31T20:53:33+00:00",
-    "fetchedAt": "2025-08-01T02:46:16.705549+00:00",
-    "category": "videos",
-    "tags": [
-      "Earnings",
-      "AI",
-      "Videos",
-      "Tech"
-    ],
-    "priority": "low",
-    "contentHash": "7c586de537cd5d33"
-  },
-  {
-    "id": "wsj-markets-main-64361bb085fc9d39",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Tariffs, Economic Concerns Drag Down Stocks",
-    "url": "https://www.wsj.com/finance/stocks/tariffs-economic-concerns-drag-down-stocks-c28871dc?mod=rss_markets_main",
-    "summary": "The S&P 500 fell for the third straight session despite strong earnings from Meta and Microsoft.",
-    "fullContent": "The S&P 500 fell for the third straight session despite strong earnings from Meta and Microsoft.",
-    "publishedAt": "2025-07-31T20:51:00+00:00",
-    "fetchedAt": "2025-08-01T02:46:00.801359+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "64361bb085fc9d39"
-  },
-  {
-    "id": "wsj-markets-main-cb2ce5b",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Tariffs, Economic Concerns Drag Down Stocks",
-    "url": "https://www.wsj.com/finance/stocks/tariffs-economic-concerns-drag-down-stocks-c28871dc?mod=rss_markets_main",
-    "summary": "The S&P 500 fell for the third straight session despite strong earnings from Meta and Microsoft.",
-    "fullContent": "The S&P 500 fell for the third straight session despite strong earnings from Meta and Microsoft.",
-    "publishedAt": "2025-07-31T20:51:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.468Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "cb2ce5b"
-  },
-  {
-    "id": "wsj-markets-main-1ff15e8474b0ce14",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Ray Dalio Sells Last Stake in Bridgewater, the Hedge Fund That Made Him a Billionaire",
-    "url": "https://www.wsj.com/finance/investing/ray-dalio-sells-last-of-his-stake-in-bridgewater-52376c4d?mod=rss_markets_main",
-    "summary": "The hedge-fund founder’s move ends a tumultuous transition at the firm. Also, Brunei’s sovereign-wealth fund now owns almost 20% of the hedge fund.",
-    "fullContent": "The hedge-fund founder’s move ends a tumultuous transition at the firm. Also, Brunei’s sovereign-wealth fund now owns almost 20% of the hedge fund.",
-    "publishedAt": "2025-07-31T20:50:00+00:00",
-    "fetchedAt": "2025-08-01T02:46:00.801790+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1ff15e8474b0ce14"
-  },
-  {
-    "id": "techmeme-e75c0592eace22f1",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Apple reports Q3 revenue from Services, which includes the App Store, Apple TV+, and Apple Music, up 13.3% YoY to $27.42B, vs. $26.8B est. (Todd Spangler/Variety)",
-    "url": "http://www.techmeme.com/250731/p47#a250731p47",
-    "summary": "Todd Spangler / Variety: Apple reports Q3 revenue from Services, which includes the App Store, Apple TV+, and Apple Music, up 13.3% YoY to $27.42B, vs. $26.8B est.  —  Apple continued to drive double-digit growth in its Services business, which increased revenue 13.3% to $27.42 billion for the June 2025 quarter — a new quarterly record.",
-    "fullContent": "Todd Spangler / Variety: Apple reports Q3 revenue from Services, which includes the App Store, Apple TV+, and Apple Music, up 13.3% YoY to $27.42B, vs. $26.8B est.  —  Apple continued to drive double-digit growth in its Services business, which increased revenue 13.3% to $27.42 billion for the June 2025 quarter — a new quarterly record.",
-    "publishedAt": "2025-07-31T20:50:00+00:00",
-    "fetchedAt": "2025-08-01T02:46:06.144209+00:00",
-    "category": "technology",
-    "tags": [
-      "Earnings",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "e75c0592eace22f1"
-  },
-  {
-    "id": "wsj-markets-main-6eb42ab9",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Ray Dalio Sells Last Stake in Bridgewater, the Hedge Fund That Made Him a Billionaire",
-    "url": "https://www.wsj.com/finance/investing/ray-dalio-sells-last-of-his-stake-in-bridgewater-52376c4d?mod=rss_markets_main",
-    "summary": "The hedge-fund founder&#x2019;s move ends a tumultuous transition at the firm. Also, Brunei&#x2019;s sovereign-wealth fund now owns almost 20% of the hedge fund.",
-    "fullContent": "The hedge-fund founder&#x2019;s move ends a tumultuous transition at the firm. Also, Brunei&#x2019;s sovereign-wealth fund now owns almost 20% of the hedge fund.",
-    "publishedAt": "2025-07-31T20:50:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.467Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6eb42ab9"
-  },
-  {
-    "id": "bloomberg-business-youtube-134af62f2bce0c73",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business",
-    "title": "S&P 500 Wipes Out 1% Gain on Looming Tariff Deadline | Closing Bell",
-    "url": "https://www.youtube.com/watch?v=9w8WPiC1wbU",
-    "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katherine Greifeld, Carol Massar and Tim Stenovec. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: https://www.instagram.com/bloombergbusiness/ TikTok: https://www.tiktok.com/@bloombergbusiness?lang=en Reddit: https://www.reddit.com/r/bloomberg/ LinkedIn: https://www.linkedin.com/com",
-    "fullContent": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katherine Greifeld, Carol Massar and Tim Stenovec. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: https://www.instagram.com/bloombergbusiness/ TikTok: https://www.tiktok.com/@bloombergbusiness?lang=en Reddit: https://www.reddit.com/r/bloomberg/ LinkedIn: https://www.linkedin.com/com",
-    "publishedAt": "2025-07-31T20:49:16+00:00",
-    "fetchedAt": "2025-08-01T02:46:16.706127+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "low",
-    "contentHash": "134af62f2bce0c73"
-  },
-  {
-    "id": "techmeme-db4f88f0817546a9",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Apple reports Q3 revenue up 10% YoY to $94.04B, vs. $89.53B est., its largest quarterly growth since December 2021, and China net sales up 4% to $15.37B (Kif Leswing/CNBC)",
-    "url": "http://www.techmeme.com/250731/p46#a250731p46",
-    "summary": "Kif Leswing / CNBC: Apple reports Q3 revenue up 10% YoY to $94.04B, vs. $89.53B est., its largest quarterly growth since December 2021, and China net sales up 4% to $15.37B  —  Apple Apple reported third-quarter earnings on Thursday that topped Wall Street expectations for profit and revenue.",
-    "fullContent": "Kif Leswing / CNBC: Apple reports Q3 revenue up 10% YoY to $94.04B, vs. $89.53B est., its largest quarterly growth since December 2021, and China net sales up 4% to $15.37B  —  Apple Apple reported third-quarter earnings on Thursday that topped Wall Street expectations for profit and revenue.",
-    "publishedAt": "2025-07-31T20:45:08+00:00",
-    "fetchedAt": "2025-08-01T02:46:06.145069+00:00",
-    "category": "technology",
-    "tags": [
-      "Earnings",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "db4f88f0817546a9"
-  },
-  {
-    "id": "bloomberg-politics-e51597ecbe92c189",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "Trump Team Outlines Push for Rare Earths in Meeting With Executives",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/white-house-outlines-rare-earth-push-in-meeting-with-executives",
-    "summary": "The White House met last week with top technology and recycling companies to discuss ways to quickly ramp up production of permanent magnets using rare earth elements, which have emerged as a key point of leverage in the trade war with China.",
-    "fullContent": "A wheel loader moves raw ore inside the pit at the Mountain Pass mine, operated by MP Materials, in Mountain Pass, California, U.S., on Friday, June 7, 2019. America's only rare earths producer, MP Materials, has been shipping all its output from the Mountain Pass mine in California to China because there is currently no refining capacity available to handle its production anywhere else in the world, its biggest shareholder said last month.",
-    "publishedAt": "2025-07-31T20:43:53+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.877654+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "e51597ecbe92c189"
-  },
-  {
-    "id": "bloomberg-markets-9261f33b2b7ff330",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Coinbase Falls After Revenue Misses Estimates on Low Volume",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/coinbase-falls-after-2nd-qtr-revenue-is-less-than-forecast",
-    "summary": "Shares of Coinbase Global Inc. fell after the largest US crypto exchange reported lower-than-estimated second-quarter revenue amid a drop in digital-asset market volatility.",
-    "fullContent": "Monitors display Coinbase signage during the company's initial public offering (IPO) at the Nasdaq MarketSite in New York, U.S., on Wednesday, April 14, 2021. Coinbase Global Inc., the largest U.S. cryptocurrency exchange, is set to debut on Wednesday through a direct listing, an alternative to a traditional initial public offering that has only been deployed a handful of times. Photographer: Michael Nagle/Bloomberg",
-    "publishedAt": "2025-07-31T20:40:18+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.909513+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "IPO",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "9261f33b2b7ff330"
-  },
-  {
-    "id": "bloomberg-politics-4bf830852e0f4bb4",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "Epstein’s Work for Leon Black Should Face IRS Probe, Wyden Says",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/epstein-s-work-for-leon-black-should-face-irs-probe-wyden-says",
-    "summary": "A key Senate Democrat broadened his attack on the Trump administration’s handling of records about the financing of Jeffrey Epstein’s sex trafficking network, urging the Internal Revenue Service to investigate his tax and estate planning work for private equity titan Leon Black.",
-    "fullContent": "People walk past the Internal Revenue Service (IRS) headquarters in Washington, D.C., U.S., on Tuesday, April 27, 2021. President Biden and House Democrats are clashing over how much to prioritize an extension of an expanded tax credit for parents.",
-    "publishedAt": "2025-07-31T20:33:08+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.878218+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4bf830852e0f4bb4"
-  },
-  {
-    "id": "techmeme-e5fb50869e01036e",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Apple Q3: iPhone up 13% YoY to $44.58B, vs. $40.22B est., Mac up 15% to $8.05B, iPad down 8% to $6.58B, and Wearables, Home, and Accessories down 9% to $7.4B (Apple)",
-    "url": "http://www.techmeme.com/250731/p45#a250731p45",
-    "summary": "Apple: Apple Q3: iPhone up 13% YoY to $44.58B, vs. $40.22B est., Mac up 15% to $8.05B, iPad down 8% to $6.58B, and Wearables, Home, and Accessories down 9% to $7.4B  —  June quarter records for total company revenue, iPhone revenue and EPS  —  Services revenue reaches new all-time high",
-    "fullContent": "Apple: Apple Q3: iPhone up 13% YoY to $44.58B, vs. $40.22B est., Mac up 15% to $8.05B, iPad down 8% to $6.58B, and Wearables, Home, and Accessories down 9% to $7.4B  —  June quarter records for total company revenue, iPhone revenue and EPS  —  Services revenue reaches new all-time high",
-    "publishedAt": "2025-07-31T20:32:40+00:00",
-    "fetchedAt": "2025-08-01T02:46:06.146025+00:00",
-    "category": "technology",
-    "tags": [
-      "Earnings",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "e5fb50869e01036e"
-  },
-  {
-    "id": "cnbc-markets-04be8d1ed9ab15b2",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Southwest announced a start date for assigned seating, but these credit cards still let you choose",
-    "url": "https://www.cnbc.com/select/credit-cards-to-avoid-southwest-seating-rules/",
-    "summary": "Southwest Airlines' open seating policy officially ends January 2026, but here's the workaround.",
-    "fullContent": "Southwest Airlines' open seating policy officially ends January 2026, but here's the workaround.",
-    "publishedAt": "2025-07-31T20:32:30+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.525305+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "04be8d1ed9ab15b2"
-  },
-  {
-    "id": "techmeme-a54ccffa51502a08",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Coinbase says its new \"everything exchange\" will include tokenized assets, stocks, derivatives, prediction markets, and more, for US users in the coming months (Tanaya Macheel/CNBC)",
-    "url": "http://www.techmeme.com/250731/p44#a250731p44",
-    "summary": "Tanaya Macheel / CNBC: Coinbase says its new “everything exchange” will include tokenized assets, stocks, derivatives, prediction markets, and more, for US users in the coming months  —  Coinbase is planning to expand its core trading app beyond crypto, the company said Thursday.",
-    "fullContent": "Tanaya Macheel / CNBC: Coinbase says its new “everything exchange” will include tokenized assets, stocks, derivatives, prediction markets, and more, for US users in the coming months  —  Coinbase is planning to expand its core trading app beyond crypto, the company said Thursday.",
-    "publishedAt": "2025-07-31T20:31:04+00:00",
-    "fetchedAt": "2025-08-01T02:46:06.146905+00:00",
-    "category": "technology",
-    "tags": [
-      "Crypto",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "a54ccffa51502a08"
-  },
-  {
-    "id": "bloomberg-politics-aa53256e0b8db777",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "Importers Left Waiting for Details on Trump’s Tariff Rollout",
-    "url": "https://www.bloomberg.com/news/newsletters/2025-07-31/trump-s-tariff-rollout-leaves-importers-waiting-on-details",
-    "summary": "This is Washington Edition, the newsletter about money, power and politics in the nation’s capital. Today, US economy editor Laura Curtis looks at the downstream effects of the president’s tariff rollout. Sign up here and follow us at @bpolitics. Email our editors here.",
-    "fullContent": "This is Washington Edition, the newsletter about money, power and politics in the nation’s capital. Today, US economy editor Laura Curtis looks at the downstream effects of the president’s tariff rollout. Sign up here and follow us at @bpolitics. Email our editors here.",
-    "publishedAt": "2025-07-31T20:30:53+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.878519+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "aa53256e0b8db777"
-  },
-  {
-    "id": "ndtv-profit-youtube-3db193d1ff569a70",
-    "sourceId": "ndtv-profit-youtube",
-    "sourceName": "NDTV Profit India",
-    "title": "Ukraine’s Worst Month in a Year? Russia Gains Ground Fast",
-    "url": "https://www.youtube.com/watch?v=wmtMdKeyqcA",
-    "summary": "With drone saturation, manpower shifts, and targeted assaults, Moscow is changing the battlefield geometry. We break down Russia’s July campaign….and what Ukraine’s options really are as Western deadlines close in. #Drones #UkraineRussiaWar #Ukraine #RussiaNews NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most. The world has viewed India through a narrow, Western-focused lens for far too long. The time has come to disrupt these US and Eurocentric narratives. NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most—geopolitics, migration, diaspora experiences, education, and global news Links NDTV World ndtv.com/world X x.com/NDTVWORLD Instagram instagram.com/ndtvworld Linkedin linkedin.com/company/ndtv-world",
-    "fullContent": "With drone saturation, manpower shifts, and targeted assaults, Moscow is changing the battlefield geometry. We break down Russia’s July campaign….and what Ukraine’s options really are as Western deadlines close in. #Drones #UkraineRussiaWar #Ukraine #RussiaNews NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most. The world has viewed India through a narrow, Western-focused lens for far too long. The time has come to disrupt these US and Eurocentric narratives. NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most—geopolitics, migration, diaspora experiences, education, and global news Links NDTV World ndtv.com/world X x.com/NDTVWORLD Instagram instagram.com/ndtvworld Linkedin linkedin.com/company/ndtv-world",
-    "publishedAt": "2025-07-31T20:30:06+00:00",
-    "fetchedAt": "2025-08-01T02:46:16.789905+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "low",
-    "contentHash": "3db193d1ff569a70"
-  },
-  {
-    "id": "techmeme-7daddd3ef6fe97c9",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Amazon reports Q2 AWS revenue up 17.5% YoY to $30.9B, vs. $30.8B est., and AWS operating income up 8.8% YoY to $10.2B (Jordan Novet/CNBC)",
-    "url": "http://www.techmeme.com/250731/p43#a250731p43",
-    "summary": "Jordan Novet / CNBC: Amazon reports Q2 AWS revenue up 17.5% YoY to $30.9B, vs. $30.8B est., and AWS operating income up 8.8% YoY to $10.2B  —  Amazon's cloud group grew recorded revenue growth of 18% in the second quarter, slightly ahead of analysts' estimates.  —  Amazon Web Services continues to lead …",
-    "fullContent": "Jordan Novet / CNBC: Amazon reports Q2 AWS revenue up 17.5% YoY to $30.9B, vs. $30.8B est., and AWS operating income up 8.8% YoY to $10.2B  —  Amazon's cloud group grew recorded revenue growth of 18% in the second quarter, slightly ahead of analysts' estimates.  —  Amazon Web Services continues to lead …",
-    "publishedAt": "2025-07-31T20:30:00+00:00",
-    "fetchedAt": "2025-08-01T02:46:06.147781+00:00",
-    "category": "technology",
-    "tags": [
-      "Earnings",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "7daddd3ef6fe97c9"
-  },
-  {
-    "id": "wsj-markets-main-e87e43a48db1ab5f",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Opinion | A Few Questions for Aspiring Federal Reserve Chiefs",
-    "url": "https://www.wsj.com/opinion/a-few-questions-for-aspiring-federal-reserve-chiefs-0b8b969a?mod=rss_markets_main",
-    "summary": "For starters, should the Fed modify its 2% inflation interpretation of its ‘price stability’ mandate?",
-    "fullContent": "For starters, should the Fed modify its 2% inflation interpretation of its ‘price stability’ mandate?",
-    "publishedAt": "2025-07-31T20:28:00+00:00",
-    "fetchedAt": "2025-08-01T02:46:00.809800+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "e87e43a48db1ab5f"
-  },
-  {
-    "id": "wsj-markets-main-6005df6e",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Opinion | A Few Questions for Aspiring Federal Reserve Chiefs",
-    "url": "https://www.wsj.com/opinion/a-few-questions-for-aspiring-federal-reserve-chiefs-0b8b969a?mod=rss_markets_main",
-    "summary": "For starters, should the Fed modify its 2% inflation interpretation of its &#x2018;price stability&#x2019; mandate?",
-    "fullContent": "For starters, should the Fed modify its 2% inflation interpretation of its &#x2018;price stability&#x2019; mandate?",
-    "publishedAt": "2025-07-31T20:28:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.468Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6005df6e"
-  },
-  {
-    "id": "cnbc-markets-c97a40614de7e54f",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "S&P 500 posts third straight losing day as Meta, Microsoft fail to lift market: Live updates",
-    "url": "https://www.cnbc.com/2025/07/30/stock-market-today-live-updates.html",
-    "summary": "Solid earnings reports from tech giants Microsoft and Meta Platforms failed to boost the S&P 500.",
-    "fullContent": "Solid earnings reports from tech giants Microsoft and Meta Platforms failed to boost the S&P 500.",
-    "publishedAt": "2025-07-31T20:26:27+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.527391+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Tech",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c97a40614de7e54f"
   }
 ]

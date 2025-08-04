@@ -1,5 +1,704 @@
 [
   {
+    "id": "bbc-business-c88d154b3165dabb",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Trump raises Canada trade tariff to 35%",
+    "url": "https://www.bbc.com/news/articles/c8deqejdrmro?at_medium=RSS&at_campaign=rss",
+    "summary": "The president also announced sweeping tariffs on dozens of countries, as he continued his drive to remake how global trade operates.",
+    "fullContent": "The president also announced sweeping tariffs on dozens of countries, as he continued his drive to remake how global trade operates.",
+    "publishedAt": "2025-08-01T05:10:34+00:00",
+    "fetchedAt": "2025-08-01T08:39:23.342407+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "c88d154b3165dabb"
+  },
+  {
+    "id": "bloomberg-economics-5c26e086d97ecb00",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Trump’s 40% Penalty for Tariff Dodging Still Missing Key Details",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-01/trump-s-40-penalty-for-tariff-dodging-still-missing-key-details",
+    "summary": "President Donald Trump has threatened to pile an additional 40% tariff on any product that Washington determines to be “transshipped” through another country, a punishment aimed at stopping goods mainly from China dodging US duties.",
+    "fullContent": "Donald Trump",
+    "publishedAt": "2025-08-01T05:09:06+00:00",
+    "fetchedAt": "2025-08-01T06:55:05.643642+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "5c26e086d97ecb00"
+  },
+  {
+    "id": "cnbc-markets-918ae4953f26aff4",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Investing in Space: You're in or you're out",
+    "url": "https://www.cnbc.com/2025/08/01/investing-in-space-youre-in-or-youre-out.html",
+    "summary": "Moon ventures are increasingly becoming a \"stepping stone\" as the space industry's enthusiasm rallies around Mars.",
+    "fullContent": "Moon ventures are increasingly becoming a \"stepping stone\" as the space industry's enthusiasm rallies around Mars.",
+    "publishedAt": "2025-08-01T05:08:33+00:00",
+    "fetchedAt": "2025-08-01T06:55:08.050400+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "918ae4953f26aff4"
+  },
+  {
+    "id": "cnbc-markets-0bf1d4987184a5be",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Top UK court to rule on car finance mega-scandal — with billions at stake",
+    "url": "https://www.cnbc.com/2025/08/01/autos-uk-supreme-court-to-deliver-judgement-on-motor-finance-scandal.html",
+    "summary": "Analysts at RBC Capital Markets recently slashed their estimates for how much the scandal could end up costing lenders.",
+    "fullContent": "Analysts at RBC Capital Markets recently slashed their estimates for how much the scandal could end up costing lenders.",
+    "publishedAt": "2025-08-01T05:07:52+00:00",
+    "fetchedAt": "2025-08-01T06:55:08.048883+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0bf1d4987184a5be"
+  },
+  {
+    "id": "bloomberg-markets-48e12daf0f2a9c13",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "China Deploys Cannibal Mosquitoes to Battle Chikungunya Surge",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-01/giant-cannibal-mosquitoes-deployed-to-battle-china-s-chikungunya-surge",
+    "summary": "Scientists battling China’s largest chikungunya epidemic are releasing swarms of giant cannibal mosquitoes whose larvae devour the smaller insects spreading the debilitating disease.",
+    "fullContent": "The virus causes fever and severe joint pain, and other symptoms can include headaches, muscle pain, vomiting and fatigue.",
+    "publishedAt": "2025-08-01T05:03:41+00:00",
+    "fetchedAt": "2025-08-01T06:55:05.583148+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "48e12daf0f2a9c13"
+  },
+  {
+    "id": "google-bloomberg-c2cb41c0dd1c53eb",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump Unveils New Tariff Regime to Reshape Trade Order - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByNFFkTTVQdjNOSTFPZEo5bDUtZzBwOXZNTnA5Ni13NG1JdUZvSHpYTDRGR3JhNm12eFA0dXVOSXBQclpja0lJSEhEUzlKNEdnT1NuQndkT2d0Y2V5Z3l3akljWmMxSno5TU9uZ1pQaW8yNVVuNWt5S0pR?oc=5",
+    "summary": "Trump Unveils New Tariff Regime to Reshape Trade Order  Bloomberg",
+    "fullContent": "Trump Unveils New Tariff Regime to Reshape Trade Order  Bloomberg",
+    "publishedAt": "2025-08-01T05:03:26+00:00",
+    "fetchedAt": "2025-08-01T06:55:20.817176+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c2cb41c0dd1c53eb"
+  },
+  {
+    "id": "bloomberg-markets-48d40fe9fbafd221",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "BloombergNEF on Asia's Energy Transition (Correct)",
+    "url": "https://www.bloomberg.com/news/videos/2025-08-01/bloombergnef-on-asia-s-energy-transition",
+    "summary": "Fauziah Marzuki, Strategic Lead, BloombergNEF examines how global trends such as geopolitical tensions and growing data center power demand are shaping Asia's energy transition outlook at the 2025 Bloomberg Sustainable Business Summit in Singapore. (Corrects headline of video which mislabeled the speaker.) (Source: Bloomberg)",
+    "fullContent": "Fauziah Marzuki, Strategic Lead, BloombergNEF examines how global trends such as geopolitical tensions and growing data center power demand are shaping Asia's energy transition outlook at the 2025 Bloomberg Sustainable Business Summit in Singapore. (Corrects headline of video which mislabeled the speaker.) (Source: Bloomberg)",
+    "publishedAt": "2025-08-01T05:03:22+00:00",
+    "fetchedAt": "2025-08-01T06:55:05.582284+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "ESG"
+    ],
+    "priority": "high",
+    "contentHash": "48d40fe9fbafd221"
+  },
+  {
+    "id": "bloomberg-markets-09650e5da4bf4b36",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Macau’s Gaming Revenue Boom Roars On With Another Estimate Beat",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-01/macau-s-gaming-revenue-boom-roars-on-with-another-estimate-beat",
+    "summary": "Macau’s gaming revenue rose 19% in July, exceeding analyst expectation for the fourth consecutive month as big bettors’ increasing appetite in spending injects new momentum for recovery in the world’s biggest gambling hub.",
+    "fullContent": "Casino resorts including the Londoner, Venetian and Parisian, operated by Sands China Ltd., along the Cotai strip in Macau. Photographer: Eduardo Leal/Bloomberg",
+    "publishedAt": "2025-08-01T05:03:03+00:00",
+    "fetchedAt": "2025-08-01T06:55:05.583597+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "09650e5da4bf4b36"
+  },
+  {
+    "id": "bloomberg-markets-cb22da48d357fc05",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Macau’s Gaming Revenue Boom Heightens With Another Estimate Beat",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-01/macau-s-gaming-revenue-boom-roars-on-with-another-estimate-beat",
+    "summary": "Macau’s gaming revenue rose 19% in July, exceeding analyst expectation for the fourth consecutive month as big bettors’ increasing appetite in spending injects new momentum for recovery in the world’s biggest gambling hub.",
+    "fullContent": "Casino resorts including the Londoner, Venetian and Parisian, operated by Sands China Ltd., along the Cotai strip in Macau. Photographer: Eduardo Leal/Bloomberg",
+    "publishedAt": "2025-08-01T05:03:03+00:00",
+    "fetchedAt": "2025-08-01T08:39:12.262358+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "cb22da48d357fc05"
+  },
+  {
+    "id": "thehindubusinessline-88b1825c579187ec",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Crude oil prices rise despite US tariffs on trading partners",
+    "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-prices-rise-despite-us-tariffs-on-trading-partners/article69881487.ece",
+    "summary": "Market reports noted that Trump’s threats to impose 100% secondary tariffs on Russian crude buyers could impact supplies to the world market",
+    "fullContent": "Market reports noted that Trump’s threats to impose 100% secondary tariffs on Russian crude buyers could impact supplies to the world market",
+    "publishedAt": "2025-08-01T05:02:33+00:00",
+    "fetchedAt": "2025-08-01T06:55:13.626152+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "88b1825c579187ec"
+  },
+  {
+    "id": "business-insider-12c69a73d70fe198",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "NBA star Luka Dončić's offseason diet involves intermittent fasting and 250 grams of protein daily",
+    "url": "https://www.businessinsider.com/luka-doncic-intermittent-fasting-protein-heavy-diet-workout-nba-2025-8",
+    "summary": "Luka Dončić's nutritionist, Lucia Almendros, says that 250 grams is \"the minimum\" amount of protein the player needs to eat in a day.",
+    "fullContent": "Luka DončićKatelyn Mulcahy/Getty ImagesNBA star Luka Dončić is working out twice daily and practicing intermittent fasting this offseason.His nutritionist says he follows a gluten-free diet and eats at least 250 grams of protein daily.This plan is adjusted to accommodate Dončić's schedule during the NBA season.NBA star Luka Dončić, 26, is doubling down on fitness this offseason.In an interview with Men's Health, the team responsible for Dončić's fitness and nutrition spoke about his strict regimen this summer to stay in peak form.It all starts with his diet and a strict intermittent fasting schedule, Dončić's physiotherapist, Javier Barrio, told Men's Health.Every day except on Sundays, the Lakers player fasts from 8:30 p.m. to noon the following day. At the end of his fast, Dončić heads straight into the first of his two daily workouts.\"It's not so easy to learn,\" Barrio said, adding that the goal of fasting is to reduce any post-workout inflammation that Dončić experiences.To ensure ",
+    "publishedAt": "2025-08-01T05:02:26+00:00",
+    "fetchedAt": "2025-08-01T06:55:13.488105+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "12c69a73d70fe198"
+  },
+  {
+    "id": "nikkei-asia-81baa1c70c912b9d",
+    "sourceId": "nikkei-asia",
+    "sourceName": "Nikkei Asia",
+    "title": "South Korean stocks plunge nearly 4% following US trade deal",
+    "url": "https://asia.nikkei.com/Business/Markets/Equities/South-Korean-stocks-plunge-nearly-4-following-US-trade-deal",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-01T05:00:52.348322+00:00",
+    "fetchedAt": "2025-08-01T05:00:52.348405+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "81baa1c70c912b9d"
+  },
+  {
+    "id": "nikkei-asia-bf5362988c2f9bab",
+    "sourceId": "nikkei-asia",
+    "sourceName": "Nikkei Asia",
+    "title": "Taiwan says US tariff deal not final, calls 20% hit 'temporary'",
+    "url": "https://asia.nikkei.com/Economy/Trade-war/Trump-tariffs/Taiwan-says-US-tariff-deal-not-final-calls-20-hit-temporary",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-01T05:00:52.348208+00:00",
+    "fetchedAt": "2025-08-01T05:00:52.348310+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "bf5362988c2f9bab"
+  },
+  {
+    "id": "bloomberg-business-youtube-580a19f576e6927a",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business",
+    "title": "US Mideast Envoy Witkoff to Brief Trump After Gaza Visit",
+    "url": "https://www.youtube.com/watch?v=Y4FtUorBz84",
+    "summary": "US Special Envoy to the Middle East Steve Witkoff and US Ambassador to Israel Mike Huckabee will travel into Gaza and brief President Donald Trump on their findings after their visit, White House Press Secretary Karoline Leavitt said. Bloomberg's Dan Williams reports. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: https://www.instagram.com/bloombergbusiness/ TikTok: https://www.tiktok.com/@bloombergbusiness?lang=en Red",
+    "fullContent": "US Special Envoy to the Middle East Steve Witkoff and US Ambassador to Israel Mike Huckabee will travel into Gaza and brief President Donald Trump on their findings after their visit, White House Press Secretary Karoline Leavitt said. Bloomberg's Dan Williams reports. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: https://www.instagram.com/bloombergbusiness/ TikTok: https://www.tiktok.com/@bloombergbusiness?lang=en Red",
+    "publishedAt": "2025-08-01T05:00:43+00:00",
+    "fetchedAt": "2025-08-01T06:55:28.547178+00:00",
+    "category": "videos",
+    "tags": [
+      "Videos"
+    ],
+    "priority": "low",
+    "contentHash": "580a19f576e6927a"
+  },
+  {
+    "id": "rbi-press-ef6c7442999b6a9e",
+    "sourceId": "rbi-press",
+    "sourceName": "RBI Press Releases",
+    "title": "Result of Underwriting Auction conducted on August 01, 2025",
+    "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=60937",
+    "summary": "In the underwriting auction conducted on August 01, 2025, for Additional Competitive Underwriting (ACU) of the undernoted Government securities, the Reserve Bank of India has set the cut-off rates for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU Commission Cut-off rate (Paise per ₹100) 6.68% GS 2040 16,000 8,001 7,999 16,000 0.23 6.90% GS 2065 16,000 8,001 7,999 16,000 0.28 Auction for the sale of securities will be held on August 01, 2025. Ajit Prasad Deputy General Manager (Communications)     Press Release: 2025-2026/821",
+    "fullContent": "In the underwriting auction conducted on August 01, 2025, for Additional Competitive Underwriting (ACU) of the undernoted Government securities, the Reserve Bank of India has set the cut-off rates for underwriting commission payable to Primary Dealers as given below: Nomenclature of the Security Notified Amount (₹ crore) Minimum Underwriting Commitment (MUC) Amount (₹ crore) Additional Competitive Underwriting Amount Accepted (₹ crore) Total Amount underwritten (₹ crore) ACU Commission Cut-off rate (Paise per ₹100) 6.68% GS 2040 16,000 8,001 7,999 16,000 0.23 6.90% GS 2065 16,000 8,001 7,999 16,000 0.28 Auction for the sale of securities will be held on August 01, 2025. Ajit Prasad Deputy General Manager (Communications)     Press Release: 2025-2026/821",
+    "publishedAt": "2025-08-01T05:00:39.595301+00:00",
+    "fetchedAt": "2025-08-01T05:00:39.597782+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "high",
+    "contentHash": "ef6c7442999b6a9e"
+  },
+  {
+    "id": "rbi-press-94b786145bf3206a",
+    "sourceId": "rbi-press",
+    "sourceName": "RBI Press Releases",
+    "title": "Result of the 7-day Variable Rate Reverse Repo (VRRR) auction held on August 01, 2025",
+    "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=60938",
+    "summary": "Tenor 7-day Notified Amount (in ₹ crore) 2,00,000 Total amount of offers received (in ₹ crore) 1,71,795 Amount accepted (in ₹ crore) 1,71,795 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications)     Press Release: 2025-2026/822",
+    "fullContent": "Tenor 7-day Notified Amount (in ₹ crore) 2,00,000 Total amount of offers received (in ₹ crore) 1,71,795 Amount accepted (in ₹ crore) 1,71,795 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications)     Press Release: 2025-2026/822",
+    "publishedAt": "2025-08-01T05:00:39.592850+00:00",
+    "fetchedAt": "2025-08-01T05:00:39.595276+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "high",
+    "contentHash": "94b786145bf3206a"
+  },
+  {
+    "id": "ft-markets-71ded5cfda622ad5",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "FTAV Q&A: Gregory Peters",
+    "url": "https://www.ft.com/content/bd8c1dd5-1c61-4904-9713-2e8b85d6692e",
+    "summary": "On why bonds are boss, OG fixed-income analyst Marty Leibowitz and how memorising cocktail recipes is a waste of time",
+    "fullContent": "On why bonds are boss, OG fixed-income analyst Marty Leibowitz and how memorising cocktail recipes is a waste of time",
+    "publishedAt": "2025-08-01T05:00:09+00:00",
+    "fetchedAt": "2025-08-01T05:00:36.510466+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "71ded5cfda622ad5"
+  },
+  {
+    "id": "ecfr-dc72dd38a3c65ce8",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "The new politics with Ivan Krastev",
+    "url": "https://ecfr.eu/podcasts/episode/the-new-politics-with-ivan-krastev/",
+    "summary": "The re-election of President Donald Trump and the recent successes of right-wing parties across the world are posing a challenge to the established political order. With overwhelming evidence that we are living through a political Zeitenwende, this summer ECFR is taking a deep dive into the “post-liberal revolution”—starting with a new podcast series on the […]",
+    "fullContent": "The re-election of President Donald Trump and the recent successes of right-wing parties across the world are posing a challenge to the established political order. With overwhelming evidence that we are living through a political Zeitenwende, this summer ECFR is taking a deep dive into the “post-liberal revolution”—starting with a new podcast series on the so-called “New Right”. In the first episode, Mark Leonard is joined by Ivan Krastev, founding board member of ECFR, chair of the Centre for Liberal Strategies in Sofia and permanent fellow at the Institute for Human Sciences at IWM Vienna. Mark and Ivan discuss the emergence of the New Right and its implications for liberalism and European politics. After all, only by understanding how the New Right develops and frames its ideas can mainstream parties and institutions survive the transition to a potential new era of global politics. Does liberalism have a future? What is the nature of the main political challenges to the old order? ",
+    "publishedAt": "2025-08-01T05:00:00+00:00",
+    "fetchedAt": "2025-08-01T05:01:01.760678+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "high",
+    "contentHash": "dc72dd38a3c65ce8"
+  },
+  {
+    "id": "ecfr-037d9d0b05491c00",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "New politics with Ivan Krastev",
+    "url": "https://ecfr.eu/podcasts/episode/the-new-politics-with-ivan-krastev/",
+    "summary": "The re-election of President Donald Trump and the recent successes of right-wing parties across the world are posing a challenge to the established political order. With overwhelming evidence that we are living through a political Zeitenwende, this summer ECFR is taking a deep dive into the “post-liberal revolution”—starting with a new podcast series on the […]",
+    "fullContent": "The re-election of President Donald Trump and the recent successes of right-wing parties across the world are posing a challenge to the established political order. With overwhelming evidence that we are living through a political Zeitenwende, this summer ECFR is taking a deep dive into the “post-liberal revolution”—starting with a new podcast series on the so-called “New Right”. In the first episode, Mark Leonard is joined by Ivan Krastev, founding board member of ECFR, chair of the Centre for Liberal Strategies in Sofia and permanent fellow at the Institute for Human Sciences at IWM Vienna. Mark and Ivan discuss the emergence of the New Right and its implications for liberalism and European politics. After all, only by understanding how the New Right develops and frames its ideas can mainstream parties and institutions survive the transition to a potential new era of global politics. Does liberalism have a future? What is the nature of the main political challenges to the old order? ",
+    "publishedAt": "2025-08-01T05:00:00+00:00",
+    "fetchedAt": "2025-08-01T07:40:51.881094+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "high",
+    "contentHash": "037d9d0b05491c00"
+  },
+  {
+    "id": "wired-663c6dd2",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "Surfshark Promo Codes: 87% Off | August 2025",
+    "url": "https://www.wired.com/story/surfshark-coupon/",
+    "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more August 2025 discounts from WIRED.",
+    "fullContent": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more August 2025 discounts from WIRED.",
+    "publishedAt": "2025-08-01T05:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:58:46.586Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "663c6dd2"
+  },
+  {
+    "id": "wired-2e31d914",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "Samsung Promo Codes: 30% Off | August 2025",
+    "url": "https://www.wired.com/story/samsung-promo-codes/",
+    "summary": "Save 30% with Samsung coupon codes, up to $2,100 on appliances, plus more discounts on the Galaxy Z Fold7, Flip7, and S25.",
+    "fullContent": "Save 30% with Samsung coupon codes, up to $2,100 on appliances, plus more discounts on the Galaxy Z Fold7, Flip7, and S25.",
+    "publishedAt": "2025-08-01T05:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:58:46.586Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "2e31d914"
+  },
+  {
+    "id": "thehindubusinessline-6eee63f6eb8f4a48",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Eicher Motors stock up 4% following 9% rise in Q1 profit, leads gainers of Nifty 50",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/eicher-motors-stock-up-4-following-9-rise-in-q1-profit-leads-gainers-of-nifty-50/article69881499.ece",
+    "summary": "The automaker reported a net profit of ₹1,205.22 crore during the first quarter of FY26 as against ₹1,101.46 crore in the corresponding quarter last year",
+    "fullContent": "The automaker reported a net profit of ₹1,205.22 crore during the first quarter of FY26 as against ₹1,101.46 crore in the corresponding quarter last year",
+    "publishedAt": "2025-08-01T04:57:36+00:00",
+    "fetchedAt": "2025-08-01T05:00:45.020818+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "6eee63f6eb8f4a48"
+  },
+  {
+    "id": "techmeme-bfecd1e39afad04b",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Source: Anthropic is nearing $5B in annualized revenue, up from $4B reported on July 1, as it nears a deal to raise $5B led by Iconiq at a $170B valuation (Sri Muppidi/The Information)",
+    "url": "http://www.techmeme.com/250801/p4#a250801p4",
+    "summary": "Sri Muppidi / The Information: Source: Anthropic is nearing $5B in annualized revenue, up from $4B reported on July 1, as it nears a deal to raise $5B led by Iconiq at a $170B valuation  —  This year's torrid deal-making pace is definitely not taking a pause for summer.  On Wednesday, I reported that OpenAI is months ahead …",
+    "fullContent": "Sri Muppidi / The Information: Source: Anthropic is nearing $5B in annualized revenue, up from $4B reported on July 1, as it nears a deal to raise $5B led by Iconiq at a $170B valuation  —  This year's torrid deal-making pace is definitely not taking a pause for summer.  On Wednesday, I reported that OpenAI is months ahead …",
+    "publishedAt": "2025-08-01T04:55:02+00:00",
+    "fetchedAt": "2025-08-01T05:00:47.433145+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Earnings",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "bfecd1e39afad04b"
+  },
+  {
+    "id": "cnbc-markets-510b3395eba13e7b",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Nvidia denies its China-bound H20 AI chips have 'backdooors' after Beijing's security concerns",
+    "url": "https://www.cnbc.com/2025/07/31/china-probes-nvidia-h20-chips-for-tracking-risks.html",
+    "summary": "Nvidia met with Beijing officials on Thursday regarding potential national security risks posed by the resumption of its H20 chip exports to the country.",
+    "fullContent": "Nvidia met with Beijing officials on Thursday regarding potential national security risks posed by the resumption of its H20 chip exports to the country.",
+    "publishedAt": "2025-08-01T04:55:00+00:00",
+    "fetchedAt": "2025-08-01T05:00:38.898056+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "510b3395eba13e7b"
+  },
+  {
+    "id": "et-markets-e5bd1a75207fab5a",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times",
+    "title": "PNB Housing Finance shares crash 17% after resignation of MD &amp; CEO, Girish Kousgi",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/pnb-housing-finance-shares-tank-16-after-resignation-of-md-ceo-girish-kousgi/articleshow/123035002.cms",
+    "summary": "PNB Housing Finance's share price plummeted after Girish Kousgi, the MD & CEO, resigned to pursue other opportunities, effective October 28, 2025. The company affirmed its commitment to growth and stability, initiating a search for a new leader. While shares dropped significantly intraday, they have shown positive growth over the past year and five years.",
+    "fullContent": "PNB Housing Finance's share price plummeted after Girish Kousgi, the MD & CEO, resigned to pursue other opportunities, effective October 28, 2025. The company affirmed its commitment to growth and stability, initiating a search for a new leader. While shares dropped significantly intraday, they have shown positive growth over the past year and five years.",
+    "publishedAt": "2025-08-01T04:54:28+00:00",
+    "fetchedAt": "2025-08-01T06:55:13.581582+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e5bd1a75207fab5a"
+  },
+  {
+    "id": "bloomberg-economics-6e84357b79b43397",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Trump Reserves Harshest Tariff Rates for Laos, Myanmar and Syria",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-01/trump-reserves-harshest-tariff-rates-for-laos-myanmar-and-syria",
+    "summary": "US President Donald Trump’s revised global tariff plan unveiled Thursday hit Laos and Myanmar hard with a 40% import duty — the second-highest rate in the world behind only Syria at 41%.",
+    "fullContent": "Cranes and containers at the Myanmar Industrial Port along the Yangon River in Yangon, Myanmar.",
+    "publishedAt": "2025-08-01T04:49:35+00:00",
+    "fetchedAt": "2025-08-01T06:55:05.644445+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "6e84357b79b43397"
+  },
+  {
+    "id": "thehindubusinessline-6e9ceafa01a88815",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Rupee rises 40 paise to 87.25 against US dollar in early trade",
+    "url": "https://www.thehindubusinessline.com/markets/forex/rupee-rises-40-paise-to-8725-against-us-dollar-in-early-trade/article69881497.ece",
+    "summary": "At the interbank foreign exchange market, the rupee opened at 87.60 and touched an early high of 87.25 against the greenback, registering a gain of 40 paise from its previous close",
+    "fullContent": "At the interbank foreign exchange market, the rupee opened at 87.60 and touched an early high of 87.25 against the greenback, registering a gain of 40 paise from its previous close",
+    "publishedAt": "2025-08-01T04:47:39+00:00",
+    "fetchedAt": "2025-08-01T05:00:45.021297+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Currency"
+    ],
+    "priority": "normal",
+    "contentHash": "6e9ceafa01a88815"
+  },
+  {
+    "id": "bloomberg-markets-cbd01a55a478603a",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "CapitaLand Investment’s Paul Tham on Growth Strategies",
+    "url": "https://www.bloomberg.com/news/videos/2025-08-01/capitaland-investment-s-paul-tham-on-growth-strategies-video",
+    "summary": "Paul Tham, Group Chief Financial Officer, CapitaLand Investment discusses the role of sustainability in growth strategies and risk management with Bloomberg's Nina Trentmann at the 2025 Bloomberg Sustainable Business Summit in Singapore. (Source: Bloomberg)",
+    "fullContent": "Paul Tham, Group Chief Financial Officer, CapitaLand Investment discusses the role of sustainability in growth strategies and risk management with Bloomberg's Nina Trentmann at the 2025 Bloomberg Sustainable Business Summit in Singapore. (Source: Bloomberg)",
+    "publishedAt": "2025-08-01T04:45:53+00:00",
+    "fetchedAt": "2025-08-01T05:00:36.149445+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "ESG"
+    ],
+    "priority": "high",
+    "contentHash": "cbd01a55a478603a"
+  },
+  {
+    "id": "bloomberg-business-youtube-608dfc4ee32f6ee3",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business",
+    "title": "Who Are Winners and Losers After Trump's Tariff Deadline?",
+    "url": "https://www.youtube.com/watch?v=HeGsaQ38ayI",
+    "summary": "US President Donald Trump has announced new tariffs, including a 10% global minimum and 15% or higher duties for countries with trade surpluses with the US. Bloomberg TV's Avril Hong breaks down some of the winners and losers are in Asia and across the world. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: https://www.instagram.com/bloombergbusiness/ TikTok: https://www.tiktok.com/@bloombergbusiness?lang=en Reddit: http",
+    "fullContent": "US President Donald Trump has announced new tariffs, including a 10% global minimum and 15% or higher duties for countries with trade surpluses with the US. Bloomberg TV's Avril Hong breaks down some of the winners and losers are in Asia and across the world. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: https://www.instagram.com/bloombergbusiness/ TikTok: https://www.tiktok.com/@bloombergbusiness?lang=en Reddit: http",
+    "publishedAt": "2025-08-01T04:45:52+00:00",
+    "fetchedAt": "2025-08-01T05:01:00.129967+00:00",
+    "category": "videos",
+    "tags": [
+      "Videos"
+    ],
+    "priority": "low",
+    "contentHash": "608dfc4ee32f6ee3"
+  },
+  {
+    "id": "et-markets-81b66709c469e2d8",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times",
+    "title": "Jonathan Schiessl sees limited impact on India from US tariff moves",
+    "url": "https://economictimes.indiatimes.com/markets/expert-view/jonathan-schiessl-sees-limited-impact-on-india-from-us-tariff-moves/articleshow/123035035.cms",
+    "summary": "Despite ongoing uncertainty in U.S. trade negotiations, the market remains optimistic, dismissing much of the rhetoric as bargaining tactics. While a headline deal between the U.S. and India is possible, the details may take time to finalize. India's strong domestic economy gives it leverage in negotiations, making it less vulnerable than other economies.",
+    "fullContent": "Despite ongoing uncertainty in U.S. trade negotiations, the market remains optimistic, dismissing much of the rhetoric as bargaining tactics. While a headline deal between the U.S. and India is possible, the details may take time to finalize. India's strong domestic economy gives it leverage in negotiations, making it less vulnerable than other economies.",
+    "publishedAt": "2025-08-01T04:45:20+00:00",
+    "fetchedAt": "2025-08-01T05:00:44.604842+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "81b66709c469e2d8"
+  },
+  {
+    "id": "techmeme-8612e22453a5c1a5",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Wallarm, which builds a platform for API and AI security, raised a $55M Series C led by Toba Capital after an $8M Series A in 2018, taking total raised to ~$66M (Michael Novinson/BankInfoSecurity.com)",
+    "url": "http://www.techmeme.com/250801/p3#a250801p3",
+    "summary": "Michael Novinson / BankInfoSecurity.com: Wallarm, which builds a platform for API and AI security, raised a $55M Series C led by Toba Capital after an $8M Series A in 2018, taking total raised to ~$66M  —  Series C Funding Supports Evolution to Protecting API-Powered Business Revenue  —  A San Francisco-based startup raised $55 million …",
+    "fullContent": "Michael Novinson / BankInfoSecurity.com: Wallarm, which builds a platform for API and AI security, raised a $55M Series C led by Toba Capital after an $8M Series A in 2018, taking total raised to ~$66M  —  Series C Funding Supports Evolution to Protecting API-Powered Business Revenue  —  A San Francisco-based startup raised $55 million …",
+    "publishedAt": "2025-08-01T04:45:01+00:00",
+    "fetchedAt": "2025-08-01T05:00:47.434084+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech",
+      "Earnings",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "8612e22453a5c1a5"
+  },
+  {
+    "id": "business-insider-d9e311a27ef66d0a",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Russia's rumored jet-powered versions of the Iranian Shahed are appearing in Ukraine's air defense reports",
+    "url": "https://www.businessinsider.com/russias-rumored-jet-powered-geran-iranian-shaheds-appearing-ukraine-2025-8",
+    "summary": "The 'Geran-3' is said to fly nearly thrice as fast as today's Shaheds, posing a massive problem for Ukraine's emerging interceptor drones.",
+    "fullContent": "The Shahed is an Iranian-designed drone that Russia now produces in large quantities at home.AP Photo/Efrem LukatskyUkrainian reports are starting to document the use of Russia's new jet-propelled Shahed drones.One version, unofficially dubbed the Geran-3, is said to fly up to 500 miles per hour.Such speeds would pose key problems for Ukraine's air defenses if jet drones are launched en masse.More signs are emerging that Russia is launching a new exploding drone said to fly much faster than its current Shaheds.Ukraine's Air Force Command reported on Wednesday that it had encountered jet-powered attack drones while defending its airspace the night before.\"A notable feature of the night attack was the use of up to eight jet-powered UAVs in the northern direction,\" it wrote in a regular update.The announcement marks one of the first official reports of Ukraine's forces encountering the new loitering munition in combat.In total, the Air Force Command counted 78 Shahed attack drones launche",
+    "publishedAt": "2025-08-01T04:42:52+00:00",
+    "fetchedAt": "2025-08-01T05:00:44.302496+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d9e311a27ef66d0a"
+  },
+  {
+    "id": "business-insider-311b4cee30550ca3",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Russia's rumored jet-powered versions of the Iranian Shahed are appearing in Ukraine's air defense reports",
+    "url": "https://www.businessinsider.com/russias-rumored-jet-powered-geran-iranian-shaheds-appearing-ukraine-2025-8",
+    "summary": "Jet-propelled drones like the Geran-3 are said to fly nearly thrice as fast as today's Shaheds, a key problem for Ukraine's new interceptor drones.",
+    "fullContent": "The Shahed is an Iranian-designed drone that Russia now produces in large quantities at home.AP Photo/Efrem LukatskyUkrainian reports are starting to document the use of Russia's new jet-propelled Shahed drones.One version, unofficially dubbed the Geran-3, is said to fly up to 500 miles per hour.Such speeds would pose key problems for Ukraine's air defenses if jet drones are launched en masse.More signs are emerging that Russia is launching a new exploding drone said to fly much faster than its current Shaheds.Ukraine's Air Force Command reported on Wednesday that it had encountered jet-powered attack drones while defending its airspace the night before.\"A notable feature of the night attack was the use of up to eight jet-powered UAVs in the northern direction,\" it wrote in a regular update.The announcement marks one of the first official reports of Ukraine's forces encountering the new loitering munition in combat.In total, the Air Force Command counted 78 Shahed attack drones launche",
+    "publishedAt": "2025-08-01T04:42:52+00:00",
+    "fetchedAt": "2025-08-01T06:55:13.489662+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "311b4cee30550ca3"
+  },
+  {
+    "id": "thehindubusinessline-7442455843a1c714",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Markets open lower as Trump tariff threats weigh on sentiment",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/markets-open-lower-as-trump-tariff-threats-weigh-on-sentiment/article69881457.ece",
+    "summary": "The benchmark indices reflected the cautious sentiment indicated by GIFT Nifty, which signalled a significant downtick of around 128 points",
+    "fullContent": "The benchmark indices reflected the cautious sentiment indicated by GIFT Nifty, which signalled a significant downtick of around 128 points",
+    "publishedAt": "2025-08-01T04:41:48+00:00",
+    "fetchedAt": "2025-08-01T05:00:45.021730+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7442455843a1c714"
+  },
+  {
+    "id": "bloomberg-markets-dd9415b90a5cc6c3",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Yuan’s Worst Week in Six Months Casts Spotlight on PBOC Fixing",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-01/yuan-s-worst-week-in-six-months-casts-spotlight-on-pboc-fixing",
+    "summary": "The yuan is closing in on its biggest weekly drop in over six months as the dollar rebounds, sharpening the focus on the Chinese central bank’s policy signals.",
+    "fullContent": "The yuan is closing in on its biggest weekly drop in over six months as the dollar rebounds, sharpening the focus on the Chinese central bank’s policy signals.",
+    "publishedAt": "2025-08-01T04:40:26+00:00",
+    "fetchedAt": "2025-08-01T06:55:05.584475+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Currency"
+    ],
+    "priority": "high",
+    "contentHash": "dd9415b90a5cc6c3"
+  },
+  {
+    "id": "et-markets-aeccf3846ef27892",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times",
+    "title": "HUL shares rally 8% as brokerages raise target prices after Q1 results. Should you buy, sell or hold?",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/hul-shares-rally-8-as-brokerages-raise-target-prices-after-q1-results-should-you-buy-sell-or-hold/articleshow/123034895.cms",
+    "summary": "Hindustan Unilever's shares surged following a seven-quarter high revenue growth of 5% in Q1 FY26, prompting brokerages to raise target prices. The company's net profit rose 7.6% YoY, with analysts citing improved macro conditions and strategic interventions by the new CEO as drivers for future growth and margin recovery. Brokerages largely recommend holding or accumulating the stock.",
+    "fullContent": "Hindustan Unilever's shares surged following a seven-quarter high revenue growth of 5% in Q1 FY26, prompting brokerages to raise target prices. The company's net profit rose 7.6% YoY, with analysts citing improved macro conditions and strategic interventions by the new CEO as drivers for future growth and margin recovery. Brokerages largely recommend holding or accumulating the stock.",
+    "publishedAt": "2025-08-01T04:38:18+00:00",
+    "fetchedAt": "2025-08-01T05:00:44.605338+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "aeccf3846ef27892"
+  },
+  {
+    "id": "thehindubusinessline-6d819979bc3a49fc",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Hindustan Unilever shares jump 4% on gradual earnings recovery hopes",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/hindustan-unilever-shares-jump-4-on-gradual-earnings-recovery-hopes/article69881456.ece",
+    "summary": "Hindustan Unilever stock closed 3.44% higher on Thursday after it announced its results",
+    "fullContent": "Hindustan Unilever stock closed 3.44% higher on Thursday after it announced its results",
+    "publishedAt": "2025-08-01T04:32:29+00:00",
+    "fetchedAt": "2025-08-01T05:00:45.022156+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "6d819979bc3a49fc"
+  },
+  {
+    "id": "business-insider-0c464c711565e35b",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Standard Chartered CEO says this is the reason he won't make staff return to the office",
+    "url": "https://www.businessinsider.com/standard-chartered-ceo-will-not-make-staff-return-to-office-2025-8",
+    "summary": "The bank's CEO, Bill Winters, says he practices hybrid working and tries to be in the office four days a week.",
+    "fullContent": "\"We work with adults, and the adults can have an adult conversation with other adults and decide how they're going to best manage their team,\" Bill Winters, the CEO of Standard Chartered, said of remote working.Halil Sagirkaya/Anadolu via Getty ImagesStandard Chartered CEO Bill Winters says he lets his teams set their own in-office schedules.\"It's working for us,\" Winters said.Wall Street remains split on hybrid working. JPMorgan CEO Jamie Dimon has long opposed the practice.Standard Chartered CEO Bill Winters says he will let his staff decide whether to return to the office.\"We work with adults, and the adults can have an adult conversation with other adults and decide how they're going to best manage their team,\" Winters said in an interview with Bloomberg on Thursday.\"It's working for us,\" Winters said. \"How other companies make that work? Everybody's got their own recipe.\"Winters told Bloomberg that he practices hybrid working and tries to be in the office four days a week.\"Our MDs",
+    "publishedAt": "2025-08-01T04:30:42+00:00",
+    "fetchedAt": "2025-08-01T05:00:44.303720+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0c464c711565e35b"
+  },
+  {
+    "id": "bloomberg-economics-ed82b73dd5395d82",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Hot Czech Housing Market Poses an Inflation Problem",
+    "url": "https://www.bloomberg.com/news/newsletters/2025-08-01/eastern-europe-newsletter-the-hot-czech-housing-market",
+    "summary": "Hi, this is Peter Laca in Prague. Welcome to our weekly newsletter on what’s shaping economics and investments from the Baltic Sea to the Balkans. You can subscribe here.",
+    "fullContent": "Residential apartment blocks in Prague.",
+    "publishedAt": "2025-08-01T04:30:26+00:00",
+    "fetchedAt": "2025-08-01T05:00:36.125798+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "ed82b73dd5395d82"
+  },
+  {
+    "id": "bbc-business-e043c9429f96163c",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Six things that may cost Americans more after Trump's tariffs",
+    "url": "https://www.bbc.com/news/articles/cvgpvq20qmdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Economists say the president's import taxes could result in higher prices for a range of products in the US.",
+    "fullContent": "Economists say the president's import taxes could result in higher prices for a range of products in the US.",
+    "publishedAt": "2025-08-01T04:26:44+00:00",
+    "fetchedAt": "2025-08-01T07:40:32.798132+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e043c9429f96163c"
+  },
+  {
     "id": "bbc-business-12130fcd",
     "sourceId": "bbc-business",
     "sourceName": "BBC Business",
@@ -1039,705 +1738,5 @@
     ],
     "priority": "normal",
     "contentHash": "257b1f6c"
-  },
-  {
-    "id": "bloomberg-markets-17dfddfa524d1190",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Microsoft, Meta Power AI Market to Record Highs | The Close 7/31/2025",
-    "url": "https://www.bloomberg.com/news/videos/2025-07-31/the-close-7-31-2025-video",
-    "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Kestra Investment Management’s Kara Murphy, Redpoint Managing’s Erica Brescia, Citizens’ Devin Ryan, Alger’s Dan Chung, Goldman Sachs’ Lizzie Dove, Morgan Stanley’s Sherry Paul, Jefferies’ Brent Thill, Kearney’s Katherine Black, Neuberger Berman Group’s Daniel Flax, AI Fund’s Andrew Ng. (Source: Bloomberg)",
-    "fullContent": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Kestra Investment Management’s Kara Murphy, Redpoint Managing’s Erica Brescia, Citizens’ Devin Ryan, Alger’s Dan Chung, Goldman Sachs’ Lizzie Dove, Morgan Stanley’s Sherry Paul, Jefferies’ Brent Thill, Kearney’s Katherine Black, Neuberger Berman Group’s Daniel Flax, AI Fund’s Andrew Ng. (Source: Bloomberg)",
-    "publishedAt": "2025-07-31T23:25:56+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.905883+00:00",
-    "category": "markets",
-    "tags": [
-      "AI",
-      "Markets"
-    ],
-    "priority": "low",
-    "contentHash": "17dfddfa524d1190"
-  },
-  {
-    "id": "bloomberg-economics-9eab3b6369e2bbdd",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Trump Issues Tariff Orders From Taiwan to Switzerland",
-    "url": "https://www.bloomberg.com/news/live-blog/2025-07-31/us-tariff-deadline",
-    "summary": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
-    "fullContent": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
-    "publishedAt": "2025-07-31T23:19:07+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.848909+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "9eab3b6369e2bbdd"
-  },
-  {
-    "id": "bloomberg-politics-d642dd2b2b43305b",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "Trump Unveils New Tariff Regime to Reshape Trade Order",
-    "url": "https://www.bloomberg.com/news/live-blog/2025-07-31/us-tariff-deadline",
-    "summary": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
-    "fullContent": "Container ships at the Port of Los Angeles. Photographer: Tim Rue/Bloomberg",
-    "publishedAt": "2025-07-31T23:19:07+00:00",
-    "fetchedAt": "2025-08-01T04:05:30.246197+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "d642dd2b2b43305b"
-  },
-  {
-    "id": "cnbc-markets-3f4f4a295b8fa7fd",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Friday’s big stock stories: What’s likely to move the market in the next trading session",
-    "url": "https://www.cnbc.com/2025/07/31/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
-    "summary": "The S&P 500 posted a third straight losing day as gains from Meta Platforms and Microsoft failed to lift the market Thursday. What CNBC is watching Friday.",
-    "fullContent": "The S&P 500 posted a third straight losing day as gains from Meta Platforms and Microsoft failed to lift the market Thursday. What CNBC is watching Friday.",
-    "publishedAt": "2025-07-31T23:18:16+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.521597+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3f4f4a295b8fa7fd"
-  },
-  {
-    "id": "techmeme-b6f68a7264b7a0b7",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Cloudflare reports Q2 revenue up 28% YoY to $512.3M, vs. $501.21M est., and forecasts Q3 revenue of $543.5M to $544.5M, vs. $538.6M est. (Duncan Riley/SiliconANGLE)",
-    "url": "http://www.techmeme.com/250731/p52#a250731p52",
-    "summary": "Duncan Riley / SiliconANGLE: Cloudflare reports Q2 revenue up 28% YoY to $512.3M, vs. $501.21M est., and forecasts Q3 revenue of $543.5M to $544.5M, vs. $538.6M est.  —  Shares in Cloudflare Inc. rose more than 5% in late trading today after the content delivery network company impressed investors with earnings …",
-    "fullContent": "Duncan Riley / SiliconANGLE: Cloudflare reports Q2 revenue up 28% YoY to $512.3M, vs. $501.21M est., and forecasts Q3 revenue of $543.5M to $544.5M, vs. $538.6M est.  —  Shares in Cloudflare Inc. rose more than 5% in late trading today after the content delivery network company impressed investors with earnings …",
-    "publishedAt": "2025-07-31T23:15:01+00:00",
-    "fetchedAt": "2025-08-01T02:46:06.139628+00:00",
-    "category": "technology",
-    "tags": [
-      "Earnings",
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "b6f68a7264b7a0b7"
-  },
-  {
-    "id": "bloomberg-economics-427c468a434e6297",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-raises-tariffs-on-canada-to-35-but-keeps-usmca-exemption",
-    "summary": "President Donald Trump said the US will put a 35% tariff on some imports from Canada after trade negotiations between the two countries broke down.",
-    "fullContent": "Shipping containers at the Port of Montreal in Quebec, Canada. Photographer: Andrej Ivanov/Bloomberg",
-    "publishedAt": "2025-07-31T23:13:53+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.847672+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "427c468a434e6297"
-  },
-  {
-    "id": "google-bloomberg-fcaaaaa1b8346ddc",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNE1zN3VUVWMwNHlXcHBXYkZiWmh5ZktrQzZacm9rOHhOaEhsaDlrcE1QVmc0amJlU2pzcVY5ZTNNSUxHdVcxRUdnU3JwQWY1c2xHVWhvV3dZNmtlYUF5RGprNXF4YS1qYUZBVkx0angzUHR1U3JTNGhHeEk1UjE0WER2OG42REZYdGd3NlpJdURqRjlrMjk4NS1WV1JpaTdWQzRTNkhPZTBiRHlMT1Q2NzE1dw?oc=5",
-    "summary": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption  Bloomberg.com",
-    "fullContent": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption  Bloomberg.com",
-    "publishedAt": "2025-07-31T23:13:53+00:00",
-    "fetchedAt": "2025-08-01T02:46:09.359387+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "fcaaaaa1b8346ddc"
-  },
-  {
-    "id": "bloomberg-economics-5e6d0a2f9e3ecd8b",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-raises-tariffs-on-canada-to-35-but-keeps-usmca-exemption",
-    "summary": "President Donald Trump said the US will put a 35% tariff on some imports from Canada, escalating the tensions between two countries that have impaired one of the world’s largest trading relationships.",
-    "fullContent": "Shipping containers at the Port of Montreal in Quebec, Canada. Photographer: Andrej Ivanov/Bloomberg",
-    "publishedAt": "2025-07-31T23:13:53+00:00",
-    "fetchedAt": "2025-08-01T02:59:39.739767+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "5e6d0a2f9e3ecd8b"
-  },
-  {
-    "id": "google-bloomberg-ca2b14d3272c9ccd",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNE1zN3VUVWMwNHlXcHBXYkZiWmh5ZktrQzZacm9rOHhOaEhsaDlrcE1QVmc0amJlU2pzcVY5ZTNNSUxHdVcxRUdnU3JwQWY1c2xHVWhvV3dZNmtlYUF5RGprNXF4YS1qYUZBVkx0angzUHR1U3JTNGhHeEk1UjE0WER2OG42REZYdGd3NlpJdURqRjlrMjk4NS1WV1JpaTdWQzRTNkhPZTBiRHlMT1Q2NzE1dw?oc=5",
-    "summary": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption  Bloomberg",
-    "fullContent": "Trump Raises Tariffs on Canada to 35%, Keeps USMCA Exemption  Bloomberg",
-    "publishedAt": "2025-07-31T23:13:53+00:00",
-    "fetchedAt": "2025-08-01T05:00:51.588310+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ca2b14d3272c9ccd"
-  },
-  {
-    "id": "bloomberg-markets-3a08f796bd643b41",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Redpoint Ventures' Brescia on Figma's Blowout IPO",
-    "url": "https://www.bloomberg.com/news/videos/2025-07-31/early-figma-investor-on-software-company-s-blowout-ipo-video",
-    "summary": "Redpoint Ventures Managing Director Erica Brescia discusses Figma's IPO trading under the ticker \"FIG\". She tells Romaine Bostick and Katie Greifeld the numbers have exceeded her expectations. (Headline changed due to misinformation) (Source: Bloomberg)",
-    "fullContent": "Redpoint Ventures Managing Director Erica Brescia discusses Figma's IPO trading under the ticker \"FIG\". She tells Romaine Bostick and Katie Greifeld the numbers have exceeded her expectations. (Headline changed due to misinformation) (Source: Bloomberg)",
-    "publishedAt": "2025-07-31T23:13:18+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.902054+00:00",
-    "category": "markets",
-    "tags": [
-      "IPO",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3a08f796bd643b41"
-  },
-  {
-    "id": "bloomberg-economics-82cc9fbf213c0982",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Trump Imposes Sweeping Global Tariffs With Minimum Rate of 10%",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-sets-tariffs-ahead-of-deadline-with-10-baseline-rate",
-    "summary": "President Donald Trump announced a slew of new tariffs, including a 10% global minimum and 15% or higher duties for countries with trade surpluses with the US, forging ahead with his turbulent effort to reshape international commerce.",
-    "fullContent": "Donald Trump. Photographer: Eric Lee/Bloomberg",
-    "publishedAt": "2025-07-31T23:12:50+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.845609+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "82cc9fbf213c0982"
-  },
-  {
-    "id": "bloomberg-economics-05b68551abb0f8e2",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Trump Boosts Tariffs Across World, Reshaping Global Commerce",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/trump-sets-tariffs-ahead-of-deadline-with-10-baseline-rate",
-    "summary": "President Donald Trump unveiled a slew of new tariffs that boosted the average US rate on goods from across the world, forging ahead with his turbulent effort to reshape international commerce.",
-    "fullContent": "Donald Trump. Photographer: Eric Lee/Bloomberg",
-    "publishedAt": "2025-07-31T23:12:50+00:00",
-    "fetchedAt": "2025-08-01T05:00:36.125367+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "05b68551abb0f8e2"
-  },
-  {
-    "id": "bloomberg-business-youtube-7a750d31bbd0bb3b",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business",
-    "title": "Texas Republicans propose map for Trump-backed redistricting#shorts #texas #redistricting #trump",
-    "url": "https://www.youtube.com/shorts/kUzixaAnktg",
-    "summary": "\"I'm grateful for anything that increases the chances\" of the GOP, says Sen. Ted Cruz. Texas Republicans unveiled their first proposal for a revamped congressional map after President Donald Trump called on state lawmakers to deliver as many as five new GOP seats ahead of the 2026 midterm elections https://bloom.bg/3UDAhiv",
-    "fullContent": "\"I'm grateful for anything that increases the chances\" of the GOP, says Sen. Ted Cruz. Texas Republicans unveiled their first proposal for a revamped congressional map after President Donald Trump called on state lawmakers to deliver as many as five new GOP seats ahead of the 2026 midterm elections https://bloom.bg/3UDAhiv",
-    "publishedAt": "2025-07-31T23:09:07+00:00",
-    "fetchedAt": "2025-08-01T02:46:16.702716+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "high",
-    "contentHash": "7a750d31bbd0bb3b"
-  },
-  {
-    "id": "google-bloomberg-81d36a1204afd35e",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Apple Growth Rebounds on Strength of iPhone 16 Line, China - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQk01N2lkcmRieWctWnc0d0p2eXYtX2hUR0JlTG0tT3ZrdlRPNzlLR1ZtZ1g2a1JJdHJZUmVSWDF0Qi1GUTMyREp0cHNVS1kzSHRsUGZoWkNoYTNvSDNEd2ZaNms5NGhxLUVfOTRUTjBCMGZ1QWxWNlVRX2M0RDFLRENaNFdfVi1vaW81Wl9vM3ZyQnRwU3Z3bHhsSE1ZM0czd1pqVlQxUFBRdW5vR013MGgxWHk?oc=5",
-    "summary": "Apple Growth Rebounds on Strength of iPhone 16 Line, China  Bloomberg.com",
-    "fullContent": "Apple Growth Rebounds on Strength of iPhone 16 Line, China  Bloomberg.com",
-    "publishedAt": "2025-07-31T23:09:02+00:00",
-    "fetchedAt": "2025-08-01T02:46:09.350259+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "81d36a1204afd35e"
-  },
-  {
-    "id": "google-bloomberg-645345684b49f10b",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Apple Growth Rebounds on Strength of iPhone 16 Line, China - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQk01N2lkcmRieWctWnc0d0p2eXYtX2hUR0JlTG0tT3ZrdlRPNzlLR1ZtZ1g2a1JJdHJZUmVSWDF0Qi1GUTMyREp0cHNVS1kzSHRsUGZoWkNoYTNvSDNEd2ZaNms5NGhxLUVfOTRUTjBCMGZ1QWxWNlVRX2M0RDFLRENaNFdfVi1vaW81Wl9vM3ZyQnRwU3Z3bHhsSE1ZM0czd1pqVlQxUFBRdW5vR013MGgxWHk?oc=5",
-    "summary": "Apple Growth Rebounds on Strength of iPhone 16 Line, China  Bloomberg",
-    "fullContent": "Apple Growth Rebounds on Strength of iPhone 16 Line, China  Bloomberg",
-    "publishedAt": "2025-07-31T23:09:02+00:00",
-    "fetchedAt": "2025-08-01T05:00:51.578946+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "645345684b49f10b"
-  },
-  {
-    "id": "cnbc-markets-0704ab987dac3542",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Tariff turmoil: How global CEOs are shifting gears",
-    "url": "https://www.cnbc.com/2025/08/01/tariff-turmoil-how-global-ceos-are-shifting-gears.html",
-    "summary": "From chocolate to aluminum to AI infrastructure, executives are redrawing global strategies to cope with rising trade friction and unpredictable policy risk.",
-    "fullContent": "From chocolate to aluminum to AI infrastructure, executives are redrawing global strategies to cope with rising trade friction and unpredictable policy risk.",
-    "publishedAt": "2025-07-31T23:05:06+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.523929+00:00",
-    "category": "markets",
-    "tags": [
-      "AI",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "0704ab987dac3542"
-  },
-  {
-    "id": "bbc-business-5a3d5602ea0743b5",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Do you feel lucky plank? Meet the new 'bulletproof' wood",
-    "url": "https://www.bbc.com/news/articles/c0rvzdd1drpo?at_medium=RSS&at_campaign=rss",
-    "summary": "New ways are being found to make wood even stronger and more versatile in construction.",
-    "fullContent": "New ways are being found to make wood even stronger and more versatile in construction.",
-    "publishedAt": "2025-07-31T23:03:52+00:00",
-    "fetchedAt": "2025-08-01T02:46:00.938009+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5a3d5602ea0743b5"
-  },
-  {
-    "id": "bbc-business-7d4368e5",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "",
-    "url": "https://www.bbc.com/news/articles/c0rvzdd1drpo?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-31T23:03:52.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.136Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7d4368e5"
-  },
-  {
-    "id": "bbc-business-2db46176795b10d2",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Trump's global tariffs 'victory' may well come at a high price",
-    "url": "https://www.bbc.com/news/articles/c0l6g13rlwko?at_medium=RSS&at_campaign=rss",
-    "summary": "The US president considers it a win - but if this all triggers a foundational realignment, the results may not break in his favour",
-    "fullContent": "The US president considers it a win - but if this all triggers a foundational realignment, the results may not break in his favour",
-    "publishedAt": "2025-07-31T23:01:04+00:00",
-    "fetchedAt": "2025-08-01T06:55:11.206407+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2db46176795b10d2"
-  },
-  {
-    "id": "bbc-business-7a1ced58",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "",
-    "url": "https://www.bbc.com/news/articles/c0l6g13rlwko?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-31T23:01:04.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.136Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7a1ced58"
-  },
-  {
-    "id": "bloomberg-economics-c7bca9e553617ac3",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "UK CEOs Are More Downbeat About the Economy Than During Lockdown",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/uk-ceos-are-more-downbeat-about-the-economy-than-during-lockdown",
-    "summary": "British executives are less confident in the UK’s economic prospects than when the country shut down during the pandemic, a new survey showed, suggesting that the government has lost the support of the business community.",
-    "fullContent": "Commuters pass the Bank of England in the City of London, UK. Photographer: Chris Ratcliffe/Bloomberg",
-    "publishedAt": "2025-07-31T23:01:00+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.849331+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "c7bca9e553617ac3"
-  },
-  {
-    "id": "wsj-opinion-2804f8035839cd29",
-    "sourceId": "wsj-opinion",
-    "sourceName": "WSJ Opinion",
-    "title": "Amazon Shares Fall Because Cloud Unit’s Growth Wasn’t Enough for Wall Street",
-    "url": "https://www.wsj.com/tech/amazon-earnings-q2-2025-amzn-stock-cb60512a?mod=rss_Technology",
-    "summary": "The e-commerce giant’s quarterly sales results beat expectations, but shares dropped 7% because its cloud computing arm’s growth wasn’t as strong as rivals’.",
-    "fullContent": "The e-commerce giant’s quarterly sales results beat expectations, but shares dropped 7% because its cloud computing arm’s growth wasn’t as strong as rivals’.",
-    "publishedAt": "2025-07-31T23:01:00+00:00",
-    "fetchedAt": "2025-08-01T02:46:00.881779+00:00",
-    "category": "blogs",
-    "tags": [
-      "Earnings",
-      "Blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "2804f8035839cd29"
-  },
-  {
-    "id": "bbc-business-8fb2ae8076fd1119",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Car finance compensation landmark ruling due",
-    "url": "https://www.bbc.com/news/articles/c8j1jkyjl1xo?at_medium=RSS&at_campaign=rss",
-    "summary": "The Supreme Court's decision due later could pave the way for millions of drivers to claim payouts.",
-    "fullContent": "The Supreme Court's decision due later could pave the way for millions of drivers to claim payouts.",
-    "publishedAt": "2025-07-31T23:00:49+00:00",
-    "fetchedAt": "2025-08-01T02:46:00.936425+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "8fb2ae8076fd1119"
-  },
-  {
-    "id": "business-insider-26d4c4e928235d2a",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Reddit says it's doubling down on native search as it reports its 'most profitable quarter yet'",
-    "url": "https://www.businessinsider.com/reddit-q2-earnings-most-profitable-quarter-yet-search-strategy-2025-7",
-    "summary": "Google might be near synonymous with online search, but Reddit believes it can take a piece of that internet traffic pie.",
-    "fullContent": "Reddit said Q2 was its \"most profitable quarter yet\" during a conference call on Thursday.Illustration by Mateusz Slodkowski/SOPA Images/LightRocket via Getty ImagesReddit said Q2 was its \"most profitable quarter yet\" on Thursday.CEO Steve Huffman wants to integrate its core search product with Reddit Answers.Reddit said its core search product has 70 million weekly users.Reddit wants to be your go-to search engine.Google might be near synonymous with online search, but Reddit believes it can take a piece of that internet traffic pie.\"Reddit is one of the few platforms positioned to become a true search destination. We offer something special: a breadth of conversations and knowledge you can't find anywhere else,\" Reddit said in its Q2 report on Thursday. \"Every week, hundreds of millions of people come to Reddit looking for advice, and we're turning more of that intent into active users of Reddit's native search.\"Reddit said its core search product has 70 million weekly users, while R",
-    "publishedAt": "2025-07-31T23:00:37+00:00",
-    "fetchedAt": "2025-08-01T02:46:03.073583+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "26d4c4e928235d2a"
-  },
-  {
-    "id": "bloomberg-politics-2c14b823c95f1fbd",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "Weekend Warriors Are Prepping for a Chinese Invasion of Taiwan",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/china-invasion-fear-has-taiwan-defense-volunteers-training-with-airsoft-guns",
-    "summary": "Faced with the persistent threat of attack, civil defense volunteers are training for combat with replica rifles that fire plastic pellets.",
-    "fullContent": "Employees inspect rifles at a factory for airsoft gun manufacturer Vega Force Company.",
-    "publishedAt": "2025-07-31T23:00:26+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.874609+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2c14b823c95f1fbd"
-  },
-  {
-    "id": "ndtv-profit-youtube-50048f7a88e8fa21",
-    "sourceId": "ndtv-profit-youtube",
-    "sourceName": "NDTV Profit India",
-    "title": "Trump Tariff | Tariff Vs Trade Deal: Impact And What Gets Costlier, Tariffying Times?",
-    "url": "https://www.youtube.com/watch?v=zS7svzIs_a0",
-    "summary": "What is likely to get costlier and how will Trump's tariffs Or a trade deal impact consumers and trade. NDTV's Sakshi Bajaj explains. #TrumpTariff #TrumpTariffIndia #Trump25%TariffIndia #US #PMModi #NDTVWorld #NDTVDigitalOriginals NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most. The world has viewed India through a narrow, Western-focused lens for far too long. The time has come to disrupt these US and Eurocentric narratives. NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most—geopolitics, migration, diaspora experiences, education, and global news Links NDTV World ndtv.com/world X x.com/NDTVWORLD Instagram instagram.com/ndtvworld Linkedin linkedin.com/company/ndtv-world",
-    "fullContent": "What is likely to get costlier and how will Trump's tariffs Or a trade deal impact consumers and trade. NDTV's Sakshi Bajaj explains. #TrumpTariff #TrumpTariffIndia #Trump25%TariffIndia #US #PMModi #NDTVWorld #NDTVDigitalOriginals NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most. The world has viewed India through a narrow, Western-focused lens for far too long. The time has come to disrupt these US and Eurocentric narratives. NDTV World delivers a fresh, balanced, and inclusive outlook on the issues that matter most—geopolitics, migration, diaspora experiences, education, and global news Links NDTV World ndtv.com/world X x.com/NDTVWORLD Instagram instagram.com/ndtvworld Linkedin linkedin.com/company/ndtv-world",
-    "publishedAt": "2025-07-31T23:00:06+00:00",
-    "fetchedAt": "2025-08-01T02:46:16.787681+00:00",
-    "category": "videos",
-    "tags": [
-      "M&A",
-      "Videos"
-    ],
-    "priority": "low",
-    "contentHash": "50048f7a88e8fa21"
-  },
-  {
-    "id": "techmeme-278b1d0458c5ecf5",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Apple incurred ~$800M in tariff-related costs in Q3, $100M less than expected, and expects a jump to $1.1B in Q4 if current rates and policies remain in place (William Gallagher/AppleInsider)",
-    "url": "http://www.techmeme.com/250731/p51#a250731p51",
-    "summary": "William Gallagher / AppleInsider: Apple incurred ~$800M in tariff-related costs in Q3, $100M less than expected, and expects a jump to $1.1B in Q4 if current rates and policies remain in place  —  Trump's tariffs are increasingly costing Apple more per quarter  —  Apple's bill for Trump's tariffs in the third quarter …",
-    "fullContent": "William Gallagher / AppleInsider: Apple incurred ~$800M in tariff-related costs in Q3, $100M less than expected, and expects a jump to $1.1B in Q4 if current rates and policies remain in place  —  Trump's tariffs are increasingly costing Apple more per quarter  —  Apple's bill for Trump's tariffs in the third quarter …",
-    "publishedAt": "2025-07-31T22:55:01+00:00",
-    "fetchedAt": "2025-08-01T02:46:06.140525+00:00",
-    "category": "technology",
-    "tags": [
-      "Earnings",
-      "Technology"
-    ],
-    "priority": "high",
-    "contentHash": "278b1d0458c5ecf5"
-  },
-  {
-    "id": "bloomberg-economics-637d2e591f8de2db",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "IMF Approves $2 Billion Argentina Disbursement as Peso Falls",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/imf-approves-2-billion-disbursement-to-argentina-as-peso-slides",
-    "summary": "The International Monetary Fund’s executive board approved a $2 billion disbursement to Argentina Thursday, a key vote of confidence even as the government of Javier Milei missed a key target while the peso posted its worst month in more than a year.",
-    "fullContent": "The International Monetary Fund’s executive board approved a $2 billion disbursement to Argentina Thursday, a key vote of confidence even as the government of Javier Milei missed a key target while the peso posted its worst month in more than a year.",
-    "publishedAt": "2025-07-31T22:52:06+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.848107+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "637d2e591f8de2db"
-  },
-  {
-    "id": "google-bloomberg-07ef190d8c4f7822",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeVRNWjZMemFYd2tWcEdNMVUzeFdTRVJveHRJY3BBMnVsWHlxVlV2QmVzVktkNE5FalRkMDFDcHp5Q3hfNkZTcjNSTjdzSEZHV1d4cXRudC1ORXlkSl84dzBjRDBzMVF2dUtCa20tUWFjQXJ0LUJ3QW9HMVRxSEFTMFZ5U2RpdUpOMC1fcThGMXJ0MVNaallKOXFvZkk5bmFCR1FYTkhHZWR1Y1VWZFd2RW9LSVc?oc=5",
-    "summary": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides  Bloomberg.com",
-    "fullContent": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides  Bloomberg.com",
-    "publishedAt": "2025-07-31T22:52:06+00:00",
-    "fetchedAt": "2025-08-01T02:46:09.351409+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "07ef190d8c4f7822"
-  },
-  {
-    "id": "google-bloomberg-c1f033cabbf6e980",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeVRNWjZMemFYd2tWcEdNMVUzeFdTRVJveHRJY3BBMnVsWHlxVlV2QmVzVktkNE5FalRkMDFDcHp5Q3hfNkZTcjNSTjdzSEZHV1d4cXRudC1ORXlkSl84dzBjRDBzMVF2dUtCa20tUWFjQXJ0LUJ3QW9HMVRxSEFTMFZ5U2RpdUpOMC1fcThGMXJ0MVNaallKOXFvZkk5bmFCR1FYTkhHZWR1Y1VWZFd2RW9LSVc?oc=5",
-    "summary": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides  Bloomberg",
-    "fullContent": "IMF Approves $2 Billion Disbursement to Argentina as Peso Slides  Bloomberg",
-    "publishedAt": "2025-07-31T22:52:06+00:00",
-    "fetchedAt": "2025-08-01T05:00:51.579469+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c1f033cabbf6e980"
-  },
-  {
-    "id": "cnbc-markets-3bbe622fa546c2a9",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Amazon's gloomy earnings forecast overshadows better-than-expected results",
-    "url": "https://www.cnbc.com/2025/07/31/amazon-amzn-q2-earnings-report-2025.html",
-    "summary": "The guidance spooked investors who are eager to see Amazon’s hefty investments in artificial intelligence pay off.",
-    "fullContent": "The guidance spooked investors who are eager to see Amazon’s hefty investments in artificial intelligence pay off.",
-    "publishedAt": "2025-07-31T22:46:35+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.519388+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "AI",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3bbe622fa546c2a9"
-  },
-  {
-    "id": "cnbc-markets-0fe9831ac572a0a3",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Apple reports biggest revenue growth since December 2021",
-    "url": "https://www.cnbc.com/2025/07/31/apple-aapl-q3-earnings-report-2025.html",
-    "summary": "Apple CEO Tim Cook said Apple would \"significantly grow\" its AI investments, adding that the company is \"open to M&A that accelerates our roadmap.\"",
-    "fullContent": "Apple CEO Tim Cook said Apple would \"significantly grow\" its AI investments, adding that the company is \"open to M&A that accelerates our roadmap.\"",
-    "publishedAt": "2025-07-31T22:42:34+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.520217+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "AI",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "0fe9831ac572a0a3"
-  },
-  {
-    "id": "imf-news-07859cf4010b4d83",
-    "sourceId": "imf-news",
-    "sourceName": "IMF News",
-    "title": "IMF Executive Board Completes the First Review Under the Extended Credit Facility Arrangement and Concludes 2025 Article IV Consultation with São Tomé and Príncipe",
-    "url": "https://www.imf.org/en/News/Articles/2025/07/31/pr-24273-sao-tome-and-principe-imf-completes-1st-rev-under-ecf-arrang-2025-article-iv-consult",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-31T22:41:54+00:00",
-    "fetchedAt": "2025-08-01T02:46:03.469603+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "normal",
-    "contentHash": "07859cf4010b4d83"
-  },
-  {
-    "id": "imf-news-7513e302",
-    "sourceId": "imf-news",
-    "sourceName": "IMF News",
-    "title": "IMF Executive Board Completes the First Review Under the Extended Credit Facility Arrangement and Concludes 2025 Article IV Consultation with São Tomé and Príncipe",
-    "url": "https://www.imf.org/en/News/Articles/2025/07/31/pr-24273-sao-tome-and-principe-imf-completes-1st-rev-under-ecf-arrang-2025-article-iv-consult",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-31T22:41:54.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.457Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "7513e302"
-  },
-  {
-    "id": "cnbc-markets-51b23802aeb2550c",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Amazon's cloud business records 18% growth in second quarter",
-    "url": "https://www.cnbc.com/2025/07/31/aws-q2-2025-earnings-report-amazon-cloud.html",
-    "summary": "Amazon announced new business from the likes of PepsiCo during the second quarter, as revenue topped $30 billion.",
-    "fullContent": "Amazon announced new business from the likes of PepsiCo during the second quarter, as revenue topped $30 billion.",
-    "publishedAt": "2025-07-31T22:39:35+00:00",
-    "fetchedAt": "2025-08-01T02:45:58.524466+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "51b23802aeb2550c"
-  },
-  {
-    "id": "business-insider-c9d7994f9faeae3a",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Azure vs AWS: The first time we get to truly compare these cloud giants",
-    "url": "https://www.businessinsider.com/microsoft-amazon-aws-azure-compare-cloud-giants-2025-7",
-    "summary": "Microsoft finally reveals a pure revenue number for its Azure cloud computing business. Here's how that compares with AWS.",
-    "fullContent": "Microsoft CEO Satya Nadella and Amazon CEO Andy JassyGetty ImagesMicrosoft reveals a pure Azure revenue number for the first time.This lets us properly compare Azure with AWS, the top 2 cloud providers.Here are the big takeaways from this important new disclosure.This week, Microsoft reported a pure revenue number for its most important business for the first time ever.It's wild to write that. Azure is Microsoft's cloud unit, which rents computing capacity over the internet. It's been the key for Microsoft investors for years, and yet the company has smooshed Azure sales together with other services when reporting results, muddying the financial waters.On Wednesday, though, CEO Satya Nadella changed things up by disclosing that, during Microsoft's recent fiscal year, \"Azure surpassed $75 billion in revenue, up 34 percent.\"It's a great number, and Microsoft shares jumped afterwards, sending the company's valuation to $4 trillion for the first time.The most fascinating part of this is th",
-    "publishedAt": "2025-07-31T22:39:32+00:00",
-    "fetchedAt": "2025-08-01T02:46:03.074888+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c9d7994f9faeae3a"
-  },
-  {
-    "id": "dwarkesh-patel-youtube-27d0ddf",
-    "sourceId": "dwarkesh-patel-youtube",
-    "sourceName": "Dwarkesh Patel YouTube",
-    "title": "Port Arthur: The Original Pearl Harbor",
-    "url": "https://www.youtube.com/watch?v=CiO9BwD97Wg",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-31T22:38:23.000Z",
-    "fetchedAt": "2025-08-04T09:59:41.056Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "27d0ddf"
-  },
-  {
-    "id": "bloomberg-markets-3132e46f59fcf9dc",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "MGM's Lion Roars For The First Time | On This Day",
-    "url": "https://www.bloomberg.com/news/videos/2025-07-31/mgm-s-lion-roars-for-the-first-time-on-this-day",
-    "summary": "On July 31, 1928, MGM’s Leo the Lion roared for the first time. The iconic mascot dates back to 1924, born from a merger of Metro Pictures, Goldwyn Pictures and Louis B. Mayer Productions. Ninety-four years later, Jeff Bezos bought MGM Studios for $8.5 billion. Romaine Bostick explains why Amazon faced mounting pressure to expand Prime Video from a booming streaming war. (Source: Bloomberg)",
-    "fullContent": "On July 31, 1928, MGM’s Leo the Lion roared for the first time. The iconic mascot dates back to 1924, born from a merger of Metro Pictures, Goldwyn Pictures and Louis B. Mayer Productions. Ninety-four years later, Jeff Bezos bought MGM Studios for $8.5 billion. Romaine Bostick explains why Amazon faced mounting pressure to expand Prime Video from a booming streaming war. (Source: Bloomberg)",
-    "publishedAt": "2025-07-31T22:37:32+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.907087+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3132e46f59fcf9dc"
-  },
-  {
-    "id": "bloomberg-business-youtube-89853bfc95f89d8b",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business",
-    "title": "MGM's Lion Roars For The First Time | On This Day",
-    "url": "https://www.youtube.com/watch?v=bvoGobqauAM",
-    "summary": "On July 31, 1928, MGM’s Leo the Lion roared for the first time. The iconic mascot dates back to 1924, born from a merger of Metro Pictures, Goldwyn Pictures and Louis B. Mayer Productions. Ninety-four years later, Jeff Bezos bought MGM Studios for $8.5 billion. Romaine Bostick explains why Amazon faced mounting pressure to expand Prime Video from a booming streaming war. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: h",
-    "fullContent": "On July 31, 1928, MGM’s Leo the Lion roared for the first time. The iconic mascot dates back to 1924, born from a merger of Metro Pictures, Goldwyn Pictures and Louis B. Mayer Productions. Ninety-four years later, Jeff Bezos bought MGM Studios for $8.5 billion. Romaine Bostick explains why Amazon faced mounting pressure to expand Prime Video from a booming streaming war. -------- More on Bloomberg Television and Markets Like this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9 Visit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more. Connect with Bloomberg Television on: X: https://twitter.com/BloombergTV Facebook: https://www.facebook.com/BloombergTelevision Instagram: https://www.instagram.com/bloombergtv/ Connect with Bloomberg Business on: X: https://twitter.com/business Facebook: https://www.facebook.com/bloombergbusiness Instagram: h",
-    "publishedAt": "2025-07-31T22:36:51+00:00",
-    "fetchedAt": "2025-08-01T02:46:16.703498+00:00",
-    "category": "videos",
-    "tags": [
-      "M&A",
-      "Videos"
-    ],
-    "priority": "low",
-    "contentHash": "89853bfc95f89d8b"
-  },
-  {
-    "id": "bloomberg-markets-77c3af61e76c5a10",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Figma’s 250% IPO Pop Gives It Edge in Creative AI Software Fight",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-31/figma-s-250-ipo-pop-gives-it-edge-in-creative-ai-software-fight",
-    "summary": "Figma Inc.’s 250% surge in its debut session is the kind of coming-out party every startup dreams of when it goes public.",
-    "fullContent": "Figma Inc.’s 250% surge in its debut session is the kind of coming-out party every startup dreams of when it goes public.",
-    "publishedAt": "2025-07-31T22:36:41+00:00",
-    "fetchedAt": "2025-08-01T02:45:55.907378+00:00",
-    "category": "markets",
-    "tags": [
-      "Tech",
-      "IPO",
-      "AI",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "77c3af61e76c5a10"
   }
 ]
