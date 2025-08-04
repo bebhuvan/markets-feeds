@@ -351,7 +351,7 @@ export class FeedFetcher {
       const item: FeedItem = {
         id,
         sourceId: config.sourceId,
-        sourceName: config.name,
+        sourceName: config.name, // Always use configured name for consistency
         title: this.cleanText(title),
         url: link.trim(),
         summary: this.cleanText(description?.slice(0, 300) || ''),
@@ -396,7 +396,7 @@ export class FeedFetcher {
       const item: FeedItem = {
         id: itemId,
         sourceId: config.sourceId,
-        sourceName: config.name,
+        sourceName: config.name, // Always use configured name for consistency
         title: this.cleanText(title),
         url: link.trim(),
         summary: this.cleanText(summary?.slice(0, 300) || ''),
@@ -431,14 +431,32 @@ export class FeedFetcher {
    */
   private cleanText(text: string): string {
     return text
-      .replace(/<[^>]*>/g, '') // Remove HTML tags
+      // First decode HTML entities to proper characters
       .replace(/&lt;/g, '<')
       .replace(/&gt;/g, '>')
       .replace(/&amp;/g, '&')
       .replace(/&quot;/g, '"')
       .replace(/&#x27;/g, "'")
+      .replace(/&#39;/g, "'")
       .replace(/&apos;/g, "'")
-      .replace(/\s+/g, ' ') // Normalize whitespace
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&mdash;/g, '—')
+      .replace(/&ndash;/g, '–')
+      .replace(/&rsquo;/g, "'")
+      .replace(/&lsquo;/g, "'")
+      .replace(/&rdquo;/g, '"')
+      .replace(/&ldquo;/g, '"')
+      // Remove all HTML tags (including self-closing and malformed)
+      .replace(/<[^>]*>/g, '') 
+      // Remove any remaining HTML-like patterns that might be malformed
+      .replace(/HREF="[^"]*"/gi, '')
+      .replace(/TITLE="[^"]*"/gi, '')
+      .replace(/TARGET="[^"]*"/gi, '')
+      // Clean up any stray < or > characters
+      .replace(/</g, '')
+      .replace(/>/g, '')
+      // Normalize whitespace
+      .replace(/\s+/g, ' ')
       .trim();
   }
 
