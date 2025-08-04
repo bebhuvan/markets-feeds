@@ -9,7 +9,7 @@ export interface Props {
 const { currentCategory, categoryCounts } = Astro.props;
 
 // Strategic categories - main ones plus extracted distinct types
-const mainCategories = ['markets', 'earnings', 'ma', 'crypto', 'macro', 'technology'];
+const mainCategories = ['markets', 'earnings', 'ma', 'crypto', 'macro', 'technology', 'eclectic'];
 const otherCategories = Object.keys(CATEGORIES).filter(cat => !mainCategories.includes(cat));
 ---
 

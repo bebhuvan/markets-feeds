@@ -21,14 +21,19 @@ export const CATEGORIES = {
   'videos': 'Videos',
   'blogs': 'Analysis', 
   'news': 'News',
-  'podcasts': 'Podcasts'
+  'podcasts': 'Podcasts',
+  
+  // Commentary and intellectual content
+  'eclectic': 'Eclectic'
 } as const;
 
 // Source categories for sidebar
 export const SOURCE_CATEGORIES = {
-  'Financial News': ['bloomberg', 'financial-times', 'wsj', 'reuters', 'economist'],
-  'Regional Business': ['et-markets', 'business-standard', 'hindu-business'],
-  'Research': ['nber', 'harvard-business', 'journal-economics'],
-  'Specialty': ['the-diff', 'abnormal-returns', 'techmeme'],
+  'Indian Markets': ['et-markets', 'thehindubusinessline', 'moneycontrol-news', 'ndtv-profit'],
+  'Indian Regulation': ['rbi-press', 'sebi-news', 'bse-notices'],
+  'Global Financial': ['bloomberg', 'financial-times', 'reuters', 'economist'],
+  'Research': ['nber', 'harvard-business', 'journal-economics', 'cfa-institute'],
+  'Commentary': ['eclectic', 'blogs', 'analysis'],
+  'Technology': ['techmeme', 'the-verge', 'wired'],
   'Other': ['podcasts', 'newsletters', 'aggregators']
 };
