@@ -1,0 +1,540 @@
+---
+export const prerender = false;
+
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Navigation from '../components/Navigation.astro';
+import { dataLoader } from '../lib/data-loader';
+import feedsConfig from '../../feeds.config.json';
+import '../styles/global.css';
+
+// Load data for header
+const allItems = await dataLoader.loadData();
+const categoryCounts = await dataLoader.getCategoryCounts();
+const sourceCounts = await dataLoader.getSourceCounts();
+
+// Get last update time
+const lastUpdate = allItems.length > 0 
+  ? new Date(Math.max(...allItems.map(item => new Date(item.fetchedAt || item.publishedAt).getTime())))
+  : new Date();
+
+// Group feeds by category for better organization
+const feedsByCategory = feedsConfig.feeds.reduce((acc, feed) => {
+  if (!feed.active) return acc;
+  
+  const category = feed.category || 'other';
+  if (!acc[category]) {
+    acc[category] = [];
+  }
+  
+  // Add article count from sourceCounts
+  const articleCount = sourceCounts[feed.sourceId] || 0;
+  
+  acc[category].push({
+    ...feed,
+    articleCount,
+    domain: new URL(feed.url).hostname.replace('www.', ''),
+    description: getSourceDescription(feed.name, feed.sourceId)
+  });
+  
+  return acc;
+}, {});
+
+// Sort categories and feeds
+const categoryOrder = ['markets', 'macro', 'technology', 'research', 'policy', 'other'];
+const sortedCategories = categoryOrder.filter(cat => feedsByCategory[cat]);
+
+function getSourceDescription(name: string, sourceId: string): string {
+  const descriptions = {
+    'yahoo-finance': 'Comprehensive financial news and market data from Yahoo Finance',
+    'bloomberg-markets': 'Breaking market news and analysis from Bloomberg',
+    'bloomberg-economics': 'Economic data, policy analysis, and central bank coverage',
+    'bloomberg-politics': 'Political news affecting markets and economic policy',
+    'et-markets': 'Indian market news and stock analysis from Economic Times',
+    'cnbc-markets': 'Real-time market updates and financial news from CNBC',
+    'bbc-business': 'Global business news and economic analysis from BBC',
+    'wsj-markets-main': 'Premium market analysis and financial journalism from WSJ',
+    'ft-markets': 'International markets coverage from Financial Times',
+    'ft-economics': 'Economic analysis and policy coverage from FT',
+    'ft-technology': 'Technology and fintech news from Financial Times',
+    'reuters-business': 'Global business news and market updates from Reuters',
+    'business-insider': 'Business news, analysis, and market insights',
+    'nikkei-asia': 'Asian markets and economic news from Nikkei',
+    'thehindubusinessline': 'Indian business news and market analysis',
+    'marketwatch': 'Stock market news, analysis, and personal finance advice',
+    'nyt-business': 'Business journalism and market analysis from NYT',
+    'nyt-economy': 'Economic policy and analysis from New York Times',
+    'nyt-technology': 'Technology industry coverage from NYT',
+    'economist-finance': 'Global financial analysis from The Economist',
+    'economist-business': 'Business strategy and corporate analysis',
+    'cnbc-business': 'Corporate news and business analysis from CNBC',
+    'cnbc-economy': 'Economic data and policy analysis from CNBC',
+    'zerohedge': 'Alternative financial analysis and market commentary',
+    'seeking-alpha': 'Investment research and stock analysis platform',
+    'calculated-risk': 'Economic analysis and housing market data',
+    'big-picture': 'Market philosophy and investment strategy insights',
+    'marginal-revolution': 'Economic theory and policy analysis blog',
+    'project-syndicate': 'Global economic policy and analysis',
+    'paul-krugman': 'Economic commentary from Nobel laureate Paul Krugman',
+    'noahpinion': 'Economic analysis and policy commentary',
+    'matt-levine': 'Financial markets humor and analysis from Bloomberg',
+    'stratechery': 'Technology strategy and business model analysis',
+    'fed-news': 'Federal Reserve press releases and monetary policy updates',
+    'ecb-press': 'European Central Bank news and policy announcements',
+    'rbi-press': 'Reserve Bank of India policy and regulatory updates',
+    'imf-news': 'International Monetary Fund research and policy updates',
+    'sec-press-releases': 'Securities and Exchange Commission regulatory updates',
+    'sebi-news': 'Indian securities market regulation and policy updates',
+    'oil-price': 'Energy markets and commodity price analysis',
+    'fortune': 'Corporate strategy and business leadership insights',
+    'the-verge': 'Technology news with business and market implications',
+    'techmeme': 'Technology industry news aggregation and analysis',
+    'scmp-business': 'Asian business news and market coverage',
+    'foreign-affairs': 'Global economic policy and international business',
+    'pew-research': 'Economic and social research data and analysis'
+  };
+  
+  return descriptions[sourceId] || `Financial news and analysis from ${name}`;
+}
+
+function getCategoryLabel(category: string): string {
+  const labels = {
+    'markets': 'Markets & Trading',
+    'macro': 'Economics & Policy', 
+    'technology': 'Technology & Innovation',
+    'research': 'Research & Analysis',
+    'policy': 'Policy & Regulation',
+    'other': 'Other Sources'
+  };
+  return labels[category] || category.charAt(0).toUpperCase() + category.slice(1);
+}
+
+function getCategoryIcon(category: string): string {
+  const icons = {
+    'markets': '📈',
+    'macro': '🏛️',
+    'technology': '💻',
+    'research': '📊',
+    'policy': '⚖️',
+    'other': '📰'
+  };
+  return icons[category] || '📰';
+}
+---
+
+<Layout title="Sources - Markets Feeds">
+  <Header lastUpdate={lastUpdate} totalArticles={allItems.length} />
+  <Navigation categoryCounts={categoryCounts} />
+  
+  <div class="container">
+    <div class="sources-page">
+      <!-- Page Header -->
+      <header class="page-header">
+        <h1 class="page-title">
+          <span class="page-icon">🔗</span>
+          Source Directory
+        </h1>
+        <p class="page-description">
+          Our carefully curated collection of {feedsConfig.feeds.filter(f => f.active).length} premium financial news sources, 
+          delivering {allItems.length.toLocaleString()} articles of market intelligence.
+        </p>
+      </header>
+
+      <!-- Sources Grid -->
+      <div class="sources-grid">
+        {sortedCategories.map(categoryKey => {
+          const category = feedsByCategory[categoryKey];
+          const categoryLabel = getCategoryLabel(categoryKey);
+          const categoryIcon = getCategoryIcon(categoryKey);
+          
+          return (
+            <section class="category-section">
+              <header class="category-header">
+                <h2 class="category-title">
+                  <span class="category-icon">{categoryIcon}</span>
+                  {categoryLabel}
+                  <span class="category-count">{category.length} sources</span>
+                </h2>
+              </header>
+              
+              <div class="sources-list">
+                {category
+                  .sort((a, b) => b.articleCount - a.articleCount)
+                  .map(source => (
+                  <article class="source-card">
+                    <div class="source-header">
+                      <div class="source-info">
+                        <h3 class="source-name">
+                          <a href={source.url} target="_blank" rel="noopener noreferrer">
+                            {source.name}
+                          </a>
+                        </h3>
+                        <div class="source-meta">
+                          <span class="source-domain">{source.domain}</span>
+                          <span class="source-separator">•</span>
+                          <span class="source-articles">{source.articleCount.toLocaleString()} articles</span>
+                          <span class="source-separator">•</span>
+                          <span class="source-interval">Updates every {source.fetchInterval}min</span>
+                        </div>
+                      </div>
+                      <div class="source-actions">
+                        <a 
+                          href={source.url} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          class="source-link"
+                          title="Visit source"
+                        >
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15,3 21,3 21,9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <p class="source-description">{source.description}</p>
+                    
+                    <div class="source-footer">
+                      <div class="source-tags">
+                        <span class="source-tag category-tag">{getCategoryLabel(source.category)}</span>
+                        <span class={`source-tag status-tag ${source.active ? 'active' : 'inactive'}`}>
+                          {source.active ? 'Active' : 'Inactive'}
+                        </span>
+                      </div>
+                      <div class="feed-health">
+                        <div class="health-indicator" title="Feed Status">
+                          <div class="health-dot active"></div>
+                          <span class="health-text">Live</span>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          );
+        })}
+      </div>
+
+      <!-- Footer Stats -->
+      <footer class="sources-footer">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value">{feedsConfig.feeds.filter(f => f.active).length}</div>
+            <div class="stat-label">Active Sources</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">{allItems.length.toLocaleString()}</div>
+            <div class="stat-label">Total Articles</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">{sortedCategories.length}</div>
+            <div class="stat-label">Categories</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">{Math.round(allItems.length / feedsConfig.feeds.filter(f => f.active).length)}</div>
+            <div class="stat-label">Avg per Source</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .sources-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 20px;
+  }
+
+  /* Page Header */
+  .page-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .page-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+  }
+
+  .page-icon {
+    font-size: 36px;
+  }
+
+  .page-description {
+    font-size: 18px;
+    color: #6b7280;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Category Sections */
+  .category-section {
+    margin-bottom: 48px;
+  }
+
+  .category-header {
+    margin-bottom: 24px;
+  }
+
+  .category-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+  }
+
+  .category-icon {
+    font-size: 28px;
+  }
+
+  .category-count {
+    font-size: 14px;
+    color: #9ca3af;
+    font-weight: 400;
+    margin-left: auto;
+  }
+
+  /* Sources Grid */
+  .sources-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+  }
+
+  /* Source Cards */
+  .source-card {
+    background: #ffffff;
+    border: 1px solid #e8ebed;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.2s ease;
+  }
+
+  .source-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-color: #d1d5db;
+  }
+
+  .source-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+
+  .source-info {
+    flex: 1;
+  }
+
+  .source-name a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .source-name a:hover {
+    color: #2563eb;
+  }
+
+  .source-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #6b7280;
+  }
+
+  .source-domain {
+    font-weight: 500;
+    color: #4b5563;
+  }
+
+  .source-separator {
+    color: #d1d5db;
+  }
+
+  .source-actions {
+    display: flex;
+    gap: 8px;
+  }
+
+  .source-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #f8fafc;
+    border: 1px solid #e8ebed;
+    border-radius: 6px;
+    color: #6b7280;
+    text-decoration: none;
+    transition: all 0.15s ease;
+  }
+
+  .source-link:hover {
+    background: #e8ebed;
+    color: #2563eb;
+    border-color: #d1d5db;
+  }
+
+  .source-description {
+    font-size: 14px;
+    color: #4b5563;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .source-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .source-tags {
+    display: flex;
+    gap: 8px;
+  }
+
+  .source-tag {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .category-tag {
+    background: #eff6ff;
+    color: #2563eb;
+  }
+
+  .status-tag.active {
+    background: #d1fae5;
+    color: #059669;
+  }
+
+  .status-tag.inactive {
+    background: #fee2e2;
+    color: #dc2626;
+  }
+
+  .feed-health {
+    display: flex;
+    align-items: center;
+  }
+
+  .health-indicator {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .health-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    animation: pulse 2s infinite;
+  }
+
+  .health-text {
+    font-size: 12px;
+    color: #059669;
+    font-weight: 500;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  /* Footer Stats */
+  .sources-footer {
+    margin-top: 64px;
+    padding-top: 32px;
+    border-top: 1px solid #e8ebed;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .stat-card {
+    text-align: center;
+    padding: 24px;
+    background: #f8fafc;
+    border-radius: 8px;
+  }
+
+  .stat-value {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+  }
+
+  .stat-label {
+    font-size: 13px;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .sources-page {
+      padding: 24px 16px;
+    }
+
+    .page-title {
+      font-size: 28px;
+    }
+
+    .sources-list {
+      grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .source-meta {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .source-header {
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .source-actions {
+      align-self: flex-start;
+    }
+  }
+</style>
