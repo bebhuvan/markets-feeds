@@ -1,5 +1,891 @@
 [
   {
+    "id": "google-bloomberg-43277ffef7ee1f76",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "CFPB Tells Judge It Plans to Redo Consumer Data Rights Rule - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWHhMUE4tcTFUOVQ3T3dKdVhQbGV0dmU1ckhXWlBrdEMweWtrbG9ndENsay1fVGNVS19JbDYyOGxPQ3dGTXRfbmR5d3lCU2dvbnNlZW85ZFMzQ3V6VExxeVRxQjliWVp5cGpuYmctWTdzZzU1cHg1WFEtV1paVEc3QVRCQ2t1aXphUzFrQXpKZnoycUh4R1JCc3pJWG01V3pmUnBnOWFKalBkS1Z3LVVzQ21n?oc=5",
+    "summary": "CFPB Tells Judge It Plans to Redo Consumer Data Rights Rule  Bloomberg.com",
+    "publishedAt": "2025-07-29T22:10:13+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.593782+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "43277ffef7ee1f76"
+  },
+  {
+    "id": "google-bloomberg-655e24079dccd07e",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "CFPB Tells Judge It Plans to Redo Consumer Data Rights Rule - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWHhMUE4tcTFUOVQ3T3dKdVhQbGV0dmU1ckhXWlBrdEMweWtrbG9ndENsay1fVGNVS19JbDYyOGxPQ3dGTXRfbmR5d3lCU2dvbnNlZW85ZFMzQ3V6VExxeVRxQjliWVp5cGpuYmctWTdzZzU1cHg1WFEtV1paVEc3QVRCQ2t1aXphUzFrQXpKZnoycUh4R1JCc3pJWG01V3pmUnBnOWFKalBkS1Z3LVVzQ21n?oc=5",
+    "summary": "CFPB Tells Judge It Plans to Redo Consumer Data Rights Rule  Bloomberg",
+    "publishedAt": "2025-07-29T22:10:13+00:00",
+    "fetchedAt": "2025-07-30T09:09:19.591521+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "655e24079dccd07e"
+  },
+  {
+    "id": "yahoo-finance-c883f4b88346e3aa",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Eli Lilly Stock Was Looking Sickly Today",
+    "url": "https://finance.yahoo.com/news/why-eli-lilly-stock-looking-220655393.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T22:06:55+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.331124+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c883f4b88346e3aa"
+  },
+  {
+    "id": "business-insider-e05c1f08b2a3e3d4",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "My 17-year-old isn't excited about being able to drive. I get his hesitation.",
+    "url": "https://www.businessinsider.com/teen-doesnt-want-need-drivers-license-2025-7",
+    "summary": "Services like Uber make having a driver's license as a teen less of a necessity. My son doesn't have the same desire to drive that I did in the 90s.",
+    "publishedAt": "2025-07-29T22:06:01+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.619023+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e05c1f08b2a3e3d4"
+  },
+  {
+    "id": "yahoo-finance-3c303e9bb56b007c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Nvidia AI chip challenger Groq said to be nearing new fundraising at $6B valuation",
+    "url": "https://finance.yahoo.com/news/nvidia-ai-chip-challenger-groq-220251746.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T22:02:51+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.330763+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3c303e9bb56b007c"
+  },
+  {
+    "id": "yahoo-finance-cbf4b87e28c6fa85",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Globe Life Stock Rocketed Almost 7% Higher Today",
+    "url": "https://finance.yahoo.com/news/why-globe-life-stock-rocketed-220244121.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T22:02:44+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.330395+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "cbf4b87e28c6fa85"
+  },
+  {
+    "id": "marketwatch-07c060f0ede44eb7",
+    "sourceId": "marketwatch",
+    "sourceName": "MarketWatch",
+    "title": "Social Security wants to make a change that would cause 3.4 million more people to have to visit its field offices",
+    "url": "https://www.marketwatch.com/story/social-security-wants-to-make-a-change-that-would-cause-3-4-million-more-people-to-have-to-visit-its-field-offices-fcc697a8?mod=mw_rss_topstories",
+    "summary": "Proposed new rules would cause ‘a significant new burden,’ critics say",
+    "publishedAt": "2025-07-29T22:02:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:53.066093+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "07c060f0ede44eb7"
+  },
+  {
+    "id": "yahoo-finance-ddea0fc78443f075",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "I’m a Financial Expert: 4 Reasons I’m in Favor of ‘No Buy July’",
+    "url": "https://finance.yahoo.com/news/m-financial-expert-4-reasons-220009314.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T22:00:09+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.329857+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ddea0fc78443f075"
+  },
+  {
+    "id": "marketwatch-d40dd0280eb0f119",
+    "sourceId": "marketwatch",
+    "sourceName": "MarketWatch",
+    "title": "Are Americans squandering their retirement savings on eating out?",
+    "url": "https://www.marketwatch.com/story/are-americans-squandering-their-retirement-savings-on-eating-out-55de7d0e?mod=mw_rss_topstories",
+    "summary": "Americans spend almost as much dining in restaurants every year as they owe in student debt.",
+    "publishedAt": "2025-07-29T22:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:53.066269+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d40dd0280eb0f119"
+  },
+  {
+    "id": "bloomberg-economics-f62cb508665b3db5",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Chile Central Bank Cuts Interest Rate to 4.75% and Keeps Guidance for More Reductions",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-29/chile-central-bank-cuts-interest-rate-to-4-75",
+    "summary": "Chile’s central bank cut its interest rate for the first time this year and kept guidance for more monetary easing in coming quarters as a weak labor market crimps activity and inflation slows down.",
+    "publishedAt": "2025-07-29T21:59:19+00:00",
+    "fetchedAt": "2025-07-30T08:08:49.546837+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "f62cb508665b3db5"
+  },
+  {
+    "id": "yahoo-finance-51dd9133a63b66f8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Temu Joins International Trademark Association",
+    "url": "https://finance.yahoo.com/news/temu-joins-international-trademark-association-215807284.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T21:58:07+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.329467+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "51dd9133a63b66f8"
+  },
+  {
+    "id": "wsj-world-news-541bd50b5482a13e",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Opinion | Keir Starmer Has Conditions for Israel",
+    "url": "https://www.wsj.com/opinion/keir-starmer-palestinian-state-israel-hamas-labour-party-u-k-b842a601",
+    "summary": "Or else the U.K. will appease Hamas and its ex-Labour supporters.",
+    "fullContent": "Or else the U.K. will appease Hamas and its ex-Labour supporters.",
+    "publishedAt": "2025-07-29T21:48:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.070427+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "low",
+    "contentHash": "541bd50b5482a13e"
+  },
+  {
+    "id": "wsj-opinion-f5889707f5652f0b",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Opinion | On Sarepta, a Welcome FDA Reversal",
+    "url": "https://www.wsj.com/opinion/fda-reversal-elevydis-sarepta-duchenne-gene-therapy-marty-makary-b6072d1f?mod=rss_Technology",
+    "summary": "After our editorial, the agency relents to allow a Duchenne treatment.",
+    "fullContent": "After our editorial, the agency relents to allow a Duchenne treatment.",
+    "publishedAt": "2025-07-29T21:48:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.113650+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs"
+    ],
+    "priority": "low",
+    "contentHash": "f5889707f5652f0b"
+  },
+  {
+    "id": "cnbc-business-5a65bf0c",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Starbucks same-store sales fall again, but CEO Niccol says turnaround is ahead of schedule",
+    "url": "https://www.cnbc.com/2025/07/29/starbucks-sbux-q3-2025-earnings.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T21:46:28.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5a65bf0c"
+  },
+  {
+    "id": "yahoo-finance-28aba25e866af1e8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Heard on the Street Recap: Big Swings",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-29-2025/card/heard-on-the-street-big-swings-AQ4rOLJkIlGSohNRzsrd?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T21:45:03+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.329292+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "28aba25e866af1e8"
+  },
+  {
+    "id": "yahoo-finance-33689f5b7c88eb61",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "SEC Postpones Decision on Truth Social Bitcoin ETF",
+    "url": "https://finance.yahoo.com/news/sec-postpones-decision-truth-social-214500588.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T21:45:00+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.329095+00:00",
+    "category": "markets",
+    "tags": [
+      "Crypto",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "33689f5b7c88eb61"
+  },
+  {
+    "id": "yahoo-finance-794ff552bbddd710",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Top Justice Department Antitrust Officials Fired Amid Internal Feud",
+    "url": "https://www.wsj.com/us-news/law/top-justice-department-antitrust-officials-fired-amid-internal-feud-0c98d57c?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T21:45:00+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.329208+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "794ff552bbddd710"
+  },
+  {
+    "id": "yahoo-finance-e6ae2570b5c04b77",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "I Asked ChatGPT How To Move From Middle Class to Upper Class: Here’s What It Said",
+    "url": "https://finance.yahoo.com/news/asked-chatgpt-move-middle-class-214407731.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T21:44:07+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.329021+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e6ae2570b5c04b77"
+  },
+  {
+    "id": "wsj-world-news-8928716be6e32103",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Opinion | Can Syria’s President Control His Troops?",
+    "url": "https://www.wsj.com/opinion/can-syrias-president-control-his-troops-sharaa-middle-east-5d3ceb4b",
+    "summary": "After two massacres by government forces, the U.S. should turn up the heat.",
+    "fullContent": "After two massacres by government forces, the U.S. should turn up the heat.",
+    "publishedAt": "2025-07-29T21:42:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.070807+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "low",
+    "contentHash": "8928716be6e32103"
+  },
+  {
+    "id": "yahoo-finance-c841ee0f37ddd1f6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Bond Investors Are Watching Closely as the Bessent Treasury Plans $1 Trillion in New Borrowing",
+    "url": "https://www.barrons.com/articles/bond-investors-are-watching-closely-as-the-bessent-treasury-plans-1-trillion-in-new-borrowing-fbe18589?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T21:39:00+00:00",
+    "fetchedAt": "2025-07-31T09:45:19.328929+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "c841ee0f37ddd1f6"
+  },
+  {
+    "id": "business-insider-8b14887daba624a6",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Corporate America is on edge and hiring armed guards after the NYC office shooting",
+    "url": "https://www.businessinsider.com/nyc-shooting-companies-executives-hire-security-guards-blackstone-goldman-citi-2025-7",
+    "summary": "Corporate America is racing to boost security and reassure employees after a shooting left a top Blackstone exec dead, along with four others.",
+    "publishedAt": "2025-07-29T21:37:57+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.619210+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "8b14887daba624a6"
+  },
+  {
+    "id": "google-bloomberg-3074c8ad7bf0f114",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump to Get Last Word on China Truce Extension, Bessent Says - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmVNSnFhOWk4Y1VYQWpFWHJuVFIteUFZTVZkNWliOHdac25FZlpITV8zeXdaZkZRRy1NZlpRU1lEMkJ3QzVRLWpUQ3JYZFRTck9UcTd1cTZaOERmYTZ6bVBDV0NtbmppRWE3M2wxSTYwWWdaSWdma2MyRjVQUWx1cTY5SzBpOVFEelZacWV1UVprUzJsaExEZEFRWV9BbHRrYnNIT1JRamtwWVplbXlseDZWUVc?oc=5",
+    "summary": "Trump to Get Last Word on China Truce Extension, Bessent Says  Bloomberg.com",
+    "publishedAt": "2025-07-29T21:35:31+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.594686+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3074c8ad7bf0f114"
+  },
+  {
+    "id": "google-bloomberg-1cb2e2bca2b89bc7",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Trump to Get Last Word on China Truce Extension, Bessent Says - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmVNSnFhOWk4Y1VYQWpFWHJuVFIteUFZTVZkNWliOHdac25FZlpITV8zeXdaZkZRRy1NZlpRU1lEMkJ3QzVRLWpUQ3JYZFRTck9UcTd1cTZaOERmYTZ6bVBDV0NtbmppRWE3M2wxSTYwWWdaSWdma2MyRjVQUWx1cTY5SzBpOVFEelZacWV1UVprUzJsaExEZEFRWV9BbHRrYnNIT1JRamtwWVplbXlseDZWUVc?oc=5",
+    "summary": "Trump to Get Last Word on China Truce Extension, Bessent Says  Bloomberg",
+    "publishedAt": "2025-07-29T21:35:31+00:00",
+    "fetchedAt": "2025-07-30T09:09:19.592560+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "1cb2e2bca2b89bc7"
+  },
+  {
+    "id": "cnbc-business-f6e01b0265320acd",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Stocks making the biggest moves after hours: Starbucks, Visa, Teladoc, LendingClub and more",
+    "url": "https://www.cnbc.com/2025/07/29/stocks-making-the-biggest-moves-after-hours-sbux-v-tdoc-lc.html",
+    "summary": "These are the stocks posting the largest moves in extended trading.",
+    "fullContent": "These are the stocks posting the largest moves in extended trading.",
+    "publishedAt": "2025-07-29T21:33:26+00:00",
+    "fetchedAt": "2025-07-31T06:18:02.274170+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f6e01b0265320acd"
+  },
+  {
+    "id": "business-insider-9123254488f89888",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Musk v. Altman judge dings both sides for 'gamesmanship' as AI clash drags on",
+    "url": "https://www.businessinsider.com/musk-v-altman-judge-dings-both-gamesmanship-in-ai-clash-2025-7",
+    "summary": "The judge for Musk's racketeering lawsuit against Altman granted the Tesla CEO a legal victory, but dinged both tech titans for excessive litigation.",
+    "publishedAt": "2025-07-29T21:21:55+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.619394+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "9123254488f89888"
+  },
+  {
+    "id": "wsj-opinion-89113f1df788938f",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "AI Is Wrecking an Already Fragile Job Market for College Graduates",
+    "url": "https://www.wsj.com/lifestyle/careers/ai-entry-level-jobs-graduates-b224d624?mod=rss_Technology",
+    "summary": "Companies have long leaned on entry-level workers to do grunt work that doubles as on-the-job training. Now ChatGPT and other bots can do many of those chores.",
+    "fullContent": "Companies have long leaned on entry-level workers to do grunt work that doubles as on-the-job training. Now ChatGPT and other bots can do many of those chores.",
+    "publishedAt": "2025-07-29T21:17:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.117794+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "89113f1df788938f"
+  },
+  {
+    "id": "google-bloomberg-273916680fb40577",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Maybe Joe Rogan Oversold the Texas Dream - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmlsSnpGeV9fWldGVmNrWmhaem1pLThMdjhWQ1cwZDlKRVY3TGFudXBpREhVRTBkd2ZFcWZLOXBEZFJ2UVJmLVpUQ0Znc3lXMUZkVy1NcEczZXgzR25QM1ppdkNjNDNlZVE5S2tRMjBBZEF3TjNSWTRnYmhjRGtuaXpZbDNHUE9LdTJnbEdhck1hOTdaY3I1Ym00YTlZTmJpTUtIUjlKMXZkV094bXc?oc=5",
+    "summary": "Maybe Joe Rogan Oversold the Texas Dream  Bloomberg.com",
+    "publishedAt": "2025-07-29T21:12:44+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.595859+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "273916680fb40577"
+  },
+  {
+    "id": "google-bloomberg-b683f057d79f7c94",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Maybe Joe Rogan Oversold the Texas Dream - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmlsSnpGeV9fWldGVmNrWmhaem1pLThMdjhWQ1cwZDlKRVY3TGFudXBpREhVRTBkd2ZFcWZLOXBEZFJ2UVJmLVpUQ0Znc3lXMUZkVy1NcEczZXgzR25QM1ppdkNjNDNlZVE5S2tRMjBBZEF3TjNSWTRnYmhjRGtuaXpZbDNHUE9LdTJnbEdhck1hOTdaY3I1Ym00YTlZTmJpTUtIUjlKMXZkV094bXc?oc=5",
+    "summary": "Maybe Joe Rogan Oversold the Texas Dream  Bloomberg",
+    "publishedAt": "2025-07-29T21:12:44+00:00",
+    "fetchedAt": "2025-07-30T09:09:19.594307+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "b683f057d79f7c94"
+  },
+  {
+    "id": "ft-markets-a95bf6a4c2811ac7",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "Wall Street gears up for ‘pivotal’ three days for US markets",
+    "url": "https://www.ft.com/content/afcafdf5-5d86-4530-bce2-98e2a77dc1b1",
+    "summary": "Economic data, corporate earnings and tariff news could set the tone for the remainder of the year",
+    "publishedAt": "2025-07-29T21:01:33+00:00",
+    "fetchedAt": "2025-07-30T08:08:48.402759+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "a95bf6a4c2811ac7"
+  },
+  {
+    "id": "bloomberg-economics-5ca4dc6fdc4b8383",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "BOJ to Hold Rate Steady With Likely Upgrade to Price View",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-29/boj-to-hold-rate-steady-with-likely-upgrade-to-price-view-guide",
+    "summary": "The Bank of Japan is expected to keep its benchmark interest rate steady and boost its inflation outlook Thursday, as investors look for hints of another rate hike this year after a US-Japan trade deal reduced some uncertainty.",
+    "publishedAt": "2025-07-29T21:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:49.547751+00:00",
+    "category": "macro",
+    "tags": [
+      "M&A",
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "5ca4dc6fdc4b8383"
+  },
+  {
+    "id": "business-insider-b98dc9fbdbe3b7ad",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Park Avenue shooting leaves 4 dead, including NYPD officer and Blackstone executive",
+    "url": "https://www.businessinsider.com/park-avenue-shooting-new-york-video-2025-7",
+    "summary": "Authorities say the shooter left a note claiming he had CTE, a brain disease linked to repeated head trauma.",
+    "publishedAt": "2025-07-29T20:56:24+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.619582+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b98dc9fbdbe3b7ad"
+  },
+  {
+    "id": "wsj-markets-main-121607e0cd414c61",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "S&P 500 Breaks Winning Streak After U.S.-China Meeting Ends Without a Deal",
+    "url": "https://www.wsj.com/finance/stocks/s-p-500-breaks-winning-streak-after-u-s-china-meeting-ends-without-a-deal-2b46423c?mod=rss_markets_main",
+    "summary": "Earnings reports showed signs of tariff-induced stress.",
+    "fullContent": "Earnings reports showed signs of tariff-induced stress.",
+    "publishedAt": "2025-07-29T20:46:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.198928+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "121607e0cd414c61"
+  },
+  {
+    "id": "cnbc-business-43403fd7",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Nike loses head of North America women's business to Athleta",
+    "url": "https://www.cnbc.com/2025/07/29/nike-loses-head-of-north-america-womens-business-to-athleta.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-29T20:44:53.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.269Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "43403fd7"
+  },
+  {
+    "id": "econbrowser-new-0a99b0d13f01d46c",
+    "sourceId": "econbrowser-new",
+    "sourceName": "Econbrowser",
+    "title": "Forecasts: CEA >> IMF > WSJ",
+    "url": "https://econbrowser.com/archives/2025/07/forecasts-cea-imf-wsj",
+    "summary": "From IMF’s July World Economic Outlook, released today: Figure 1: GDP (bold black), CBO current law projection of January (tan), implied CEA forecast using CBO current law (red squares), mean forecast from July WSJ survey (light blue line, x), July WEO (light green triangle), all in bn.Ch.2017$ SAAR. Source: BEA 2025Q1 3rd release, CBO January […]",
+    "publishedAt": "2025-07-29T20:42:21+00:00",
+    "fetchedAt": "2025-07-30T08:46:06.826948+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "ESG"
+    ],
+    "priority": "high",
+    "contentHash": "0a99b0d13f01d46c"
+  },
+  {
+    "id": "conversable-economist-d3243599af87b15e",
+    "sourceId": "conversable-economist",
+    "sourceName": "Conversable Economist",
+    "title": "Global Trade Imbalances: An IMF Perspective",
+    "url": "https://conversableeconomist.com/2025/07/29/global-trade-imbalances-an-imf-perspective/",
+    "summary": "Global trade imbalances got bigger in 2024, driven by the big economies. Here’s a figure from the External Sector Report: Global Imbalances in a Shifting World, from the IMF (July 2025). The horizontal axis shows trade balances in 2023. Looking at the horizontal axis, the US has by far the largest trade deficit in 2023, … Continue reading Global Trade Imbalances: An IMF Perspective The post Global Trade Imbalances: An IMF Perspective first appeared on Conversable Economist.",
+    "publishedAt": "2025-07-29T20:41:28+00:00",
+    "fetchedAt": "2025-07-30T08:46:06.047373+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "d3243599af87b15e"
+  },
+  {
+    "id": "google-bloomberg-adf3830863b442a8",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "The US Economy Chugs Along But With an Undercurrent of Unease - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc3NNalVWSmhzN2lpWkF4VTE5eGFUZXoydHRscnVTZUthblpqUnVuOV9ES2JKcVhaS3VnMVFSd2Uxdjk0cXJlZlVCcEVkTmNINlo0TVZtNUt2dWhmZDVxOFRjMnJva1VpWElTUjFpd2RmeXg2b1FLaXpKRVA0Y2NmRzlOWjZZTTR1Vk1pZTFGZUlQZjlvX1NpV0hTaGg5X3p3Qk5WMVZjcHJnN1ZaWENKU1Y0cm1YQQ?oc=5",
+    "summary": "The US Economy Chugs Along But With an Undercurrent of Unease  Bloomberg.com",
+    "publishedAt": "2025-07-29T20:41:04+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.594904+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "adf3830863b442a8"
+  },
+  {
+    "id": "google-bloomberg-8427322fc3b9c99a",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "The US Economy Chugs Along But With an Undercurrent of Unease - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc3NNalVWSmhzN2lpWkF4VTE5eGFUZXoydHRscnVTZUthblpqUnVuOV9ES2JKcVhaS3VnMVFSd2Uxdjk0cXJlZlVCcEVkTmNINlo0TVZtNUt2dWhmZDVxOFRjMnJva1VpWElTUjFpd2RmeXg2b1FLaXpKRVA0Y2NmRzlOWjZZTTR1Vk1pZTFGZUlQZjlvX1NpV0hTaGg5X3p3Qk5WMVZjcHJnN1ZaWENKU1Y0cm1YQQ?oc=5",
+    "summary": "The US Economy Chugs Along But With an Undercurrent of Unease  Bloomberg",
+    "publishedAt": "2025-07-29T20:41:04+00:00",
+    "fetchedAt": "2025-07-30T09:09:19.592822+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "8427322fc3b9c99a"
+  },
+  {
+    "id": "business-insider-681a3c835ad9694d",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "'A new normal': Office life goes on after mass shooting rattles New York City",
+    "url": "https://www.businessinsider.com/nyc-office-shooting-workers-crisis-experts-rto-2025-7",
+    "summary": "The Park Avenue office building where Monday's shooting occurred remains closed, as Midtown workers expressed anxieties about recent violence.",
+    "publishedAt": "2025-07-29T20:40:35+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.619779+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "681a3c835ad9694d"
+  },
+  {
+    "id": "business-insider-9dd1a7969dbf383f",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Tea app hit with 2 class-action lawsuits after a data breach exposed private messages and 72K images",
+    "url": "https://www.businessinsider.com/tea-dating-app-two-class-action-lawsuits-following-data-breach-2025-7",
+    "summary": "Two class-action lawsuits were filed on Monday against Tea, the app where women can leave anonymous dating advice.",
+    "publishedAt": "2025-07-29T20:34:37+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.619959+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9dd1a7969dbf383f"
+  },
+  {
+    "id": "business-insider-5216631e16760d43",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Treasury Secretary Bessent says it's 'not the end of the world' if Trump's snapback tariffs go into effect on Friday",
+    "url": "https://www.businessinsider.com/trump-tariff-deadline-august-1-trade-talks-2025-7",
+    "summary": "Time is running out for countries to reach an agreement to avoid Donald Trump's delayed tariffs.",
+    "publishedAt": "2025-07-29T20:30:36+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.620134+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5216631e16760d43"
+  },
+  {
+    "id": "google-bloomberg-0a851ba9d30fac8f",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Long-Dated Treasuries Jump as Investors Eye Debt Refunding - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNHZXSVVYQTRvZ2p4Wktzb0ZDa2xtZ2ptMndFYWVXSEdyZWpRdHpsZ255WGpxdmdjbGRtWkRZYnlhb1lCSzZ3VkdSVXFNZDViVG9TbFZ0MEpSMUhxb0tkMFVlMmU5WjItaUFsWVJ5Q094VmJveVdSTFdpSGFCY3FlNEZVaDBWcm4xeW03aFV3UlZib1dUWkNGbk56OVV0blBqRFdtWkhlVTY0c1h1YlE?oc=5",
+    "summary": "Long-Dated Treasuries Jump as Investors Eye Debt Refunding  Bloomberg.com",
+    "publishedAt": "2025-07-29T20:30:02+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.593561+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "0a851ba9d30fac8f"
+  },
+  {
+    "id": "google-bloomberg-9456eca541e38dfb",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Long-Dated Treasuries Jump as Investors Eye Debt Refunding - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNHZXSVVYQTRvZ2p4Wktzb0ZDa2xtZ2ptMndFYWVXSEdyZWpRdHpsZ255WGpxdmdjbGRtWkRZYnlhb1lCSzZ3VkdSVXFNZDViVG9TbFZ0MEpSMUhxb0tkMFVlMmU5WjItaUFsWVJ5Q094VmJveVdSTFdpSGFCY3FlNEZVaDBWcm4xeW03aFV3UlZib1dUWkNGbk56OVV0blBqRFdtWkhlVTY0c1h1YlE?oc=5",
+    "summary": "Long-Dated Treasuries Jump as Investors Eye Debt Refunding  Bloomberg",
+    "publishedAt": "2025-07-29T20:30:02+00:00",
+    "fetchedAt": "2025-07-30T09:09:19.591262+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "9456eca541e38dfb"
+  },
+  {
+    "id": "google-bloomberg-3eb44bde1d1a87c6",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "S&P 500 Snaps Six-Day Winning Run as Bonds Climb: Markets Wrap - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUVEbU16cnd0dkZkUkUwM3kyYldwN1dKTE0tTWlDTEx3YVBIZmlOaDdFcEdRdDFLQkFMOVVfalFCakpfSi1MOGJQVWRuWDU4Vlc5V3lFSTEtOFJOMG1WUkxHdmE4azQzcDBENlpvanJ4RmRYMUcyWDhybHRKa21MMHJyUEg2OW5oQkUyVWhGTzlvRTRH?oc=5",
+    "summary": "S&P 500 Snaps Six-Day Winning Run as Bonds Climb: Markets Wrap  Bloomberg.com",
+    "publishedAt": "2025-07-29T20:27:51+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.589470+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3eb44bde1d1a87c6"
+  },
+  {
+    "id": "google-bloomberg-8971068d55d01a86",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "S&P 500 Snaps Six-Day Winning Run as Bonds Climb: Markets Wrap - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUVEbU16cnd0dkZkUkUwM3kyYldwN1dKTE0tTWlDTEx3YVBIZmlOaDdFcEdRdDFLQkFMOVVfalFCakpfSi1MOGJQVWRuWDU4Vlc5V3lFSTEtOFJOMG1WUkxHdmE4azQzcDBENlpvanJ4RmRYMUcyWDhybHRKa21MMHJyUEg2OW5oQkUyVWhGTzlvRTRH?oc=5",
+    "summary": "S&P 500 Snaps Six-Day Winning Run as Bonds Climb: Markets Wrap  Bloomberg",
+    "publishedAt": "2025-07-29T20:27:51+00:00",
+    "fetchedAt": "2025-07-30T09:09:19.586700+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "8971068d55d01a86"
+  },
+  {
+    "id": "business-insider-cf7efb5529e3e3bb",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Resilient Growth: Navigating Procurement Complexity",
+    "url": "https://www.businessinsider.com/events-resilient-growth",
+    "summary": "Discover how procurement drives growth via real-time insights, AI savings, and strategic operations—moving from cost-cutting to innovation. Watch Now.",
+    "publishedAt": "2025-07-29T20:17:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.620316+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "cf7efb5529e3e3bb"
+  },
+  {
+    "id": "google-bloomberg-372f42263f728d61",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Guinea’s Simandou Construction Linked With Water, Soil Pollution - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONjQ0WnItenYzWXVNa3VXVFpyOTN0dlY5WFE3T3FRemE0MTJrVGRXNDA3RXV5bm9OSTdudERSTmJZZ19WUlNjX2xDOUtfTGlrRUtPVjdESEd1b3BLSEM3bmNsbmYzcklUU0QtTWhIaDJ2eDVEaTk5eFVWbGp6RE5ZQUpsQ1dpWmg3V2JyUU5meFdPLUltQ1pYMXFQSThYYUFCQzRHVzNjd3NySFk1ZGZlT0hSOHU?oc=5",
+    "summary": "Guinea’s Simandou Construction Linked With Water, Soil Pollution  Bloomberg.com",
+    "fullContent": "Guinea’s Simandou Construction Linked With Water, Soil Pollution  Bloomberg.com",
+    "publishedAt": "2025-07-29T20:16:34+00:00",
+    "fetchedAt": "2025-07-30T13:01:48.695025+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "372f42263f728d61"
+  },
+  {
+    "id": "google-bloomberg-8ff65a8c8c49519c",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Guinea’s Simandou Construction Linked With Water, Soil Pollution - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONjQ0WnItenYzWXVNa3VXVFpyOTN0dlY5WFE3T3FRemE0MTJrVGRXNDA3RXV5bm9OSTdudERSTmJZZ19WUlNjX2xDOUtfTGlrRUtPVjdESEd1b3BLSEM3bmNsbmYzcklUU0QtTWhIaDJ2eDVEaTk5eFVWbGp6RE5ZQUpsQ1dpWmg3V2JyUU5meFdPLUltQ1pYMXFQSThYYUFCQzRHVzNjd3NySFk1ZGZlT0hSOHU?oc=5",
+    "summary": "Guinea’s Simandou Construction Linked With Water, Soil Pollution  Bloomberg",
+    "fullContent": "Guinea’s Simandou Construction Linked With Water, Soil Pollution  Bloomberg",
+    "publishedAt": "2025-07-29T20:16:34+00:00",
+    "fetchedAt": "2025-07-30T14:53:16.645342+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8ff65a8c8c49519c"
+  },
+  {
+    "id": "google-bloomberg-36cccf642ae293b8",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Nasdaq Nordic Cancels Some Trades Following Technical Glitch - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNktSbVhsckZzR19HZmJTUGhYdng1SzY1NXVqLXYtLUJvZXdWcjViSy16ekx0N1NIS3JYN2tOaURudTA3S1hQR1FkS1RfTHJ5T1JZRkFFYU1zQVMxaGxOS3dLb19DUldsVE9zOTJkaWxCTHpZR0YtaGlTNktOeThWbjJJd2RXR0JxTEpoTHNCRC1rMHNLVFBtOXBxUThoR1RxdFlCbG0wellyaG0wamZYTg?oc=5",
+    "summary": "Nasdaq Nordic Cancels Some Trades Following Technical Glitch  Bloomberg.com",
+    "publishedAt": "2025-07-29T20:15:17+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.597120+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "36cccf642ae293b8"
+  },
+  {
+    "id": "google-bloomberg-f1ea579bb217d08f",
+    "sourceId": "google-bloomberg",
+    "sourceName": "Google News (Bloomberg)",
+    "title": "Nasdaq Nordic Cancels Some Trades Following Technical Glitch - Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNktSbVhsckZzR19HZmJTUGhYdng1SzY1NXVqLXYtLUJvZXdWcjViSy16ekx0N1NIS3JYN2tOaURudTA3S1hQR1FkS1RfTHJ5T1JZRkFFYU1zQVMxaGxOS3dLb19DUldsVE9zOTJkaWxCTHpZR0YtaGlTNktOeThWbjJJd2RXR0JxTEpoTHNCRC1rMHNLVFBtOXBxUThoR1RxdFlCbG0wellyaG0wamZYTg?oc=5",
+    "summary": "Nasdaq Nordic Cancels Some Trades Following Technical Glitch  Bloomberg",
+    "publishedAt": "2025-07-29T20:15:17+00:00",
+    "fetchedAt": "2025-07-30T09:09:19.595845+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "f1ea579bb217d08f"
+  },
+  {
+    "id": "nyt-business-d5e26b9b1cb20b35",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Morton Mintz, Muckraking Crusader for Consumers, Dies at 103",
+    "url": "https://www.nytimes.com/2025/07/29/books/morton-mintz-dead.html",
+    "summary": "As a longtime Washington Post reporter and an author of 10 books, he held corporate America accountable for safe pharmaceuticals and cars.",
+    "publishedAt": "2025-07-29T20:14:23+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.787792+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "high",
+    "contentHash": "d5e26b9b1cb20b35"
+  },
+  {
+    "id": "business-insider-86e5fa101d37eb33",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Don't believe the hype about tariff rebate checks just yet",
+    "url": "https://www.businessinsider.com/trump-hawley-tariff-rebate-checks-2025-7",
+    "summary": "GOP senators dismissed the idea of sending tariff revenue checks to Americans, with one saying it's \"the dumbest idea I've ever heard.\"",
+    "publishedAt": "2025-07-29T20:10:13+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.620501+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "86e5fa101d37eb33"
+  },
+  {
+    "id": "business-insider-6f96d17afcffa484",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Photos show 'Golf Force One,' the Secret Service golf cart that accompanied Trump around his Scotland resort",
+    "url": "https://www.businessinsider.com/donald-trump-secret-service-golf-cart-golf-force-one-photos-2025-7",
+    "summary": "Nicknamed \"Golf Force One,\" the Secret Service golf cart appeared armored. It's one of many vehicles used to protect the commander in chief.",
+    "publishedAt": "2025-07-29T20:10:02+00:00",
+    "fetchedAt": "2025-07-30T08:08:52.620690+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6f96d17afcffa484"
+  },
+  {
+    "id": "wsj-world-news-1193a10e6227ff4d",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "U.K. Gives Israel Ultimatum on Palestinian State Recognition",
+    "url": "https://www.wsj.com/world/middle-east/u-k-gives-israel-ultimatum-on-palestinian-state-recognition-c2418bcc",
+    "summary": "British Prime Minister Keir Starmer said Israel must take “substantive steps” to improve the situation in Gaza before September.",
+    "fullContent": "British Prime Minister Keir Starmer said Israel must take “substantive steps” to improve the situation in Gaza before September.",
+    "publishedAt": "2025-07-29T20:07:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.062845+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "1193a10e6227ff4d"
+  },
+  {
     "id": "yahoo-finance-800ed7293405dd5c",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
@@ -822,923 +1708,5 @@
     ],
     "priority": "normal",
     "contentHash": "39a01941"
-  },
-  {
-    "id": "yahoo-finance-d8c50ceb52bae67a",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Can Platinum Become Rich Person’s Gold Again?",
-    "url": "https://finance.yahoo.com/news/platinum-become-rich-person-gold-190002474.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T19:00:02+00:00",
-    "fetchedAt": "2025-07-31T06:20:50.321814+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "d8c50ceb52bae67a"
-  },
-  {
-    "id": "yahoo-finance-1394cd489f50dfe2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Dollar’s Gains Could Be Short-Lived",
-    "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-trade-deal-hopes-may-support-5d2a2a1d?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T19:00:00+00:00",
-    "fetchedAt": "2025-07-31T06:20:50.321699+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Currency"
-    ],
-    "priority": "normal",
-    "contentHash": "1394cd489f50dfe2"
-  },
-  {
-    "id": "yahoo-finance-d91b2b8727e111f7",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "CEA Industries Launches BNB Treasury",
-    "url": "https://finance.yahoo.com/video/cea-industries-launches-bnb-treasury-185940129.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:59:40+00:00",
-    "fetchedAt": "2025-07-31T06:47:58.592281+00:00",
-    "category": "markets",
-    "tags": [
-      "Debt",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "d91b2b8727e111f7"
-  },
-  {
-    "id": "yahoo-finance-0b9720bd1c64d897",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Anthropic reportedly nears $170B valuation with potential $5B round",
-    "url": "https://finance.yahoo.com/news/anthropic-reportedly-nears-170b-valuation-185936964.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:59:36+00:00",
-    "fetchedAt": "2025-07-31T06:20:50.322757+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "0b9720bd1c64d897"
-  },
-  {
-    "id": "yahoo-finance-a4e87229586c2521",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "SoFi Appeals to 'Overachievers,' CEO Says",
-    "url": "https://finance.yahoo.com/video/sofi-appeals-overachievers-ceo-says-185915734.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:59:15+00:00",
-    "fetchedAt": "2025-07-31T06:20:50.322522+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a4e87229586c2521"
-  },
-  {
-    "id": "yahoo-finance-31c9e28053a7a6f2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "How to compare pet insurance quotes",
-    "url": "https://finance.yahoo.com/personal-finance/insurance/article/how-to-compare-pet-insurance-quotes-185726523.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:57:26+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.623845+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "31c9e28053a7a6f2"
-  },
-  {
-    "id": "bloomberg-economics-f287bba517415756",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Bank of Canada Seen Holding Rates as Trade Clouds Linger",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/bank-of-canada-rate-decision-boc-to-hold-as-trade-clouds-won-t-go-away",
-    "summary": "The Bank of Canada is nearly certain to hold interest rates steady on Wednesday as officials weigh inflation pressures against the economic damage created by US tariffs.",
-    "publishedAt": "2025-07-29T18:55:26+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.547938+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "f287bba517415756"
-  },
-  {
-    "id": "yahoo-finance-c3e4d350bc52089b",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "PayPal Earnings Beat. But Branded Business Trends Rattle Investors.",
-    "url": "https://www.investors.com/news/technology/paypal-stock-paypal-earnings-q22025/?src=A00220&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:55:26+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622170+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c3e4d350bc52089b"
-  },
-  {
-    "id": "yahoo-finance-9bcf70411c2fceaa",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Polaris Stock Jumps on Brighter Tariff Outlook",
-    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-29-2025/card/polaris-stock-jumps-on-brighter-tariff-outlook-y4r5hkltvYveYwqiKevS?siteid=yhoof2&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:53:17+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.621668+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "low",
-    "contentHash": "9bcf70411c2fceaa"
-  },
-  {
-    "id": "yahoo-finance-0d81732d7ba8c78e",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why TMC The Metals Company Stock Is Plummeting Today",
-    "url": "https://finance.yahoo.com/news/why-tmc-metals-company-stock-185234510.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:52:34+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622523+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "0d81732d7ba8c78e"
-  },
-  {
-    "id": "yahoo-finance-0e910cd0ce9db6df",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "PayPal Stock Drops as Profit, Branded Checkout Volumes Growth Come Up Short",
-    "url": "https://finance.yahoo.com/news/paypal-stock-drops-profit-branded-185226496.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:52:26+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622066+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "0e910cd0ce9db6df"
-  },
-  {
-    "id": "nyt-business-e461dddeacc289a3",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "UnitedHealth’s Profits Fall as Medical Care Costs Continue to Rise",
-    "url": "https://www.nytimes.com/2025/07/29/health/unitedhealth-earnings-profits.html",
-    "summary": "In the latest quarter, higher costs were felt across the company’s vast health operations.",
-    "publishedAt": "2025-07-29T18:52:11+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.788839+00:00",
-    "category": "markets",
-    "tags": [
-      "Earnings",
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "e461dddeacc289a3"
-  },
-  {
-    "id": "nyt-business-ad30cba36fc07c2d",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "The First Soda in Space: When NASA Got Caught Up in the Cola Wars",
-    "url": "https://www.nytimes.com/2025/07/29/science/coke-pepsi-nasa-space-shuttle.html",
-    "summary": "In the summer of 1985, NASA, the Reagan White House and seven talented astronauts were wrangled into an orbital battle over soft-drink supremacy.",
-    "publishedAt": "2025-07-29T18:45:43+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.790214+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "high",
-    "contentHash": "ad30cba36fc07c2d"
-  },
-  {
-    "id": "cnbc-markets-f91a79586834d4b9",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Tom Lee’s Granny Shots ETF rakes in $2 billion in AUM just 9 months after inception",
-    "url": "https://www.cnbc.com/2025/07/29/tom-lees-granny-shots-etf-rakes-in-2-billion-in-aum-just-9-months-after-inception.html",
-    "summary": "GRNY, an actively managed ETF, invests in around 35 high-quality stocks in the S&P 500.",
-    "publishedAt": "2025-07-29T18:44:56+00:00",
-    "fetchedAt": "2025-07-30T08:08:47.046423+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f91a79586834d4b9"
-  },
-  {
-    "id": "yahoo-finance-4c676dc48fbfbadb",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Dow Jones Health Care Giant J&J, Three Others In Or Near Buy Zones",
-    "url": "https://www.investors.com/stock-lists/stocks-near-a-buy-zone/dow-jones-johnson-johnson-stock-jnj/?src=A00220&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:44:51+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.621906+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4c676dc48fbfbadb"
-  },
-  {
-    "id": "google-bloomberg-2c80fca1ddca5a8b",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Clearly, Pointed Players Are Not Going to Burning Man - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTnFwUW1fanFmSUVxTThkRHdLN1V0cXNJRTJlMHo0dVFlRUc0LV9CNGV2OXdIbzBFbjk3UzdTOGhQZ3dXSTl6ajJ6WFJycXlsYldtM01SRm95ZjFKSGJ6YkhjYzM0LWxMcEdfMmxxSkVLUmdLMTZOR19BaThZZzdpX1pTWmktN0wteWU4UEx2c01HTDBRM2dBX1lSa3RDU2hrWXBELVczd1JnMWZYQXI3Skpn?oc=5",
-    "summary": "Clearly, Pointed Players Are Not Going to Burning Man  Bloomberg.com",
-    "publishedAt": "2025-07-29T18:43:46+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.591829+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2c80fca1ddca5a8b"
-  },
-  {
-    "id": "google-bloomberg-a251cc9f0ed9ceec",
-    "sourceId": "google-bloomberg",
-    "sourceName": "Google News (Bloomberg)",
-    "title": "Clearly, Pointed Players Are Not Going to Burning Man - Bloomberg",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTnFwUW1fanFmSUVxTThkRHdLN1V0cXNJRTJlMHo0dVFlRUc0LV9CNGV2OXdIbzBFbjk3UzdTOGhQZ3dXSTl6ajJ6WFJycXlsYldtM01SRm95ZjFKSGJ6YkhjYzM0LWxMcEdfMmxxSkVLUmdLMTZOR19BaThZZzdpX1pTWmktN0wteWU4UEx2c01HTDBRM2dBX1lSa3RDU2hrWXBELVczd1JnMWZYQXI3Skpn?oc=5",
-    "summary": "Clearly, Pointed Players Are Not Going to Burning Man  Bloomberg",
-    "publishedAt": "2025-07-29T18:43:46+00:00",
-    "fetchedAt": "2025-07-30T09:09:19.589499+00:00",
-    "category": "markets",
-    "tags": [
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "a251cc9f0ed9ceec"
-  },
-  {
-    "id": "yahoo-finance-50cdb152fb8fcc56",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Will mortgage rates go up to 7%? Signs to watch for.",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/will-mortgage-rates-go-up-to-7-184023225.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:40:23+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622668+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "50cdb152fb8fcc56"
-  },
-  {
-    "id": "yahoo-finance-c822b3066c9539c3",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Mallers Piles Into Bitcoin Ahead of Public Listing",
-    "url": "https://finance.yahoo.com/video/mallers-piles-bitcoin-ahead-public-183912105.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:39:12+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.624102+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Markets",
-      "IPO"
-    ],
-    "priority": "normal",
-    "contentHash": "c822b3066c9539c3"
-  },
-  {
-    "id": "yahoo-finance-67e6666604ae2dd4",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Chevron (CVX): A Top Crude Oil Stock to Invest in",
-    "url": "https://finance.yahoo.com/news/chevron-cvx-top-crude-oil-183852551.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:38:52+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622595+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "67e6666604ae2dd4"
-  },
-  {
-    "id": "yahoo-finance-9b339a5402dfb1fa",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "It's not just Big Tech. Industrial stocks are on fire.",
-    "url": "https://finance.yahoo.com/news/its-not-just-big-tech-industrial-stocks-are-on-fire-183841489.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:38:41+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622452+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Tech"
-    ],
-    "priority": "normal",
-    "contentHash": "9b339a5402dfb1fa"
-  },
-  {
-    "id": "yahoo-finance-d80fa2f03eca5359",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "ConocoPhillips (COP): A Top Crude Oil Stock to Buy Now",
-    "url": "https://finance.yahoo.com/news/conocophillips-cop-top-crude-oil-183829291.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:38:29+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622378+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "d80fa2f03eca5359"
-  },
-  {
-    "id": "yahoo-finance-9d687a1fee1c23f0",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why Hedge Funds are Piling into Schlumberger (SLB)",
-    "url": "https://finance.yahoo.com/news/why-hedge-funds-piling-schlumberger-183815580.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:38:15+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622274+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "9d687a1fee1c23f0"
-  },
-  {
-    "id": "yahoo-finance-67db58c6d9f521b2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why Palo Alto Networks Stock Is Sinking Today",
-    "url": "https://finance.yahoo.com/news/why-palo-alto-networks-stock-183732772.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:37:32+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.623471+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "67db58c6d9f521b2"
-  },
-  {
-    "id": "yahoo-finance-58d7c0662efc8c7a",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Here is Why Exxon Mobil (XOM) is a Favorite Among Hedge Fund Investors",
-    "url": "https://finance.yahoo.com/news/why-exxon-mobil-xom-favorite-183713190.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:37:13+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622827+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "58d7c0662efc8c7a"
-  },
-  {
-    "id": "yahoo-finance-418f5fce1c38b30e",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "TD Bank Has Shut Down Dozens of Branches in 2025 So Far: Is Yours Next?",
-    "url": "https://finance.yahoo.com/news/td-bank-shut-down-dozens-183707270.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:37:07+00:00",
-    "fetchedAt": "2025-07-31T06:35:24.913717+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "418f5fce1c38b30e"
-  },
-  {
-    "id": "yahoo-finance-ee8dbb6e5139cd6f",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Motor finance verdict could rewrite UK finance, or be erased by Parliament",
-    "url": "https://finance.yahoo.com/news/motor-finance-verdict-could-rewrite-183636242.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:36:36+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.624519+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ee8dbb6e5139cd6f"
-  },
-  {
-    "id": "wsj-youtube-c6f51cc0f551bd9f",
-    "sourceId": "wsj-youtube",
-    "sourceName": "Wall Street Journal",
-    "title": "U.S.-China Trade Officials Discuss Tariff Truce Extension | WSJ News",
-    "url": "https://www.youtube.com/watch?v=LdNob_QhNUo",
-    "summary": "U.S. Treasury Secretary Scott Bessent said two-day trade talks with China were very constructive, and that the final decision on the extension lies with President Trump. Photo: Magnus Lejhall/AFP/Getty Images",
-    "fullContent": "U.S. Treasury Secretary Scott Bessent said two-day trade talks with China were very constructive, and that the final decision on the extension lies with President Trump. Photo: Magnus Lejhall/AFP/Getty Images",
-    "publishedAt": "2025-07-29T18:36:27+00:00",
-    "fetchedAt": "2025-07-30T15:00:43.120280+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos",
-      "Debt"
-    ],
-    "priority": "normal",
-    "contentHash": "c6f51cc0f551bd9f"
-  },
-  {
-    "id": "yahoo-finance-16d95fa74d84a8ef",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "EOG Resources (EOG): A Top Crude Oil Stock for Passive Income",
-    "url": "https://finance.yahoo.com/news/eog-resources-eog-top-crude-183609068.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:36:09+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.623728+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "16d95fa74d84a8ef"
-  },
-  {
-    "id": "yahoo-finance-8156e2fc5abc4e7e",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why Occidental Petroleum (OXY) is a Top Choice for Investment in Crude Oil",
-    "url": "https://finance.yahoo.com/news/why-occidental-petroleum-oxy-top-183524869.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:35:24+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.623201+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "8156e2fc5abc4e7e"
-  },
-  {
-    "id": "yahoo-finance-e9147421d5b506d0",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Devon Energy (DVN): A Top Crude Oil Stock Among Hedge Fund Investors",
-    "url": "https://finance.yahoo.com/news/devon-energy-dvn-top-crude-183456665.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:34:56+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.623986+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "e9147421d5b506d0"
-  },
-  {
-    "id": "yahoo-finance-a568995bf81df3d7",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Marathon Petroleum (MPC): One of the Best Crude Oil Stocks According to Hedge Funds",
-    "url": "https://finance.yahoo.com/news/marathon-petroleum-mpc-one-best-183433700.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:34:33+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.623602+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "a568995bf81df3d7"
-  },
-  {
-    "id": "yahoo-finance-143f3c0e55b503da",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Kinder Morgan (KMI): A Top Energy Stock for Passive Income Investors",
-    "url": "https://finance.yahoo.com/news/kinder-morgan-kmi-top-energy-183417996.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:34:17+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.623043+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "143f3c0e55b503da"
-  },
-  {
-    "id": "bloomberg-markets-501c1e71cafd07b1",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Trump Gives Russia 10 Days to Reach Peace Agreement",
-    "url": "https://www.bloomberg.com/news/videos/2025-07-29/trump-gives-russia-10-days-to-reach-peace-agreement-video",
-    "summary": "US President Donald Trump said he would give Russia 10 more days to reach a truce with Ukraine. Mara Rudman, professor at the University of Virginia's Miller Center and former US diplomat, says Trump's actions can make a difference in Putin's next move. (Source: Bloomberg)",
-    "fullContent": "US President Donald Trump said he would give Russia 10 more days to reach a truce with Ukraine. Mara Rudman, professor at the University of Virginia's Miller Center and former US diplomat, says Trump's actions can make a difference in Putin's next move. (Source: Bloomberg)",
-    "publishedAt": "2025-07-29T18:34:07+00:00",
-    "fetchedAt": "2025-07-30T14:53:03.515608+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "501c1e71cafd07b1"
-  },
-  {
-    "id": "yahoo-finance-faf4185c05a3fa10",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why UnitedHealth Stock Is Sinking Today",
-    "url": "https://finance.yahoo.com/news/why-unitedhealth-stock-sinking-today-183325354.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:33:25+00:00",
-    "fetchedAt": "2025-07-31T06:35:24.913407+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "faf4185c05a3fa10"
-  },
-  {
-    "id": "yahoo-finance-ae335456b6e15c13",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Permian Resources (PR): Among the Best Crude Oil Stocks to Buy Now",
-    "url": "https://finance.yahoo.com/news/permian-resources-pr-among-best-183323338.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:33:23+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.623344+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "ae335456b6e15c13"
-  },
-  {
-    "id": "yahoo-finance-5ef12a48db4a78de",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Is Shell plc (SHEL) a Good Option for Investors Looking to Invest in Crude Oil Stocks?",
-    "url": "https://finance.yahoo.com/news/shell-plc-shel-good-option-183306191.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:33:06+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.624443+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "5ef12a48db4a78de"
-  },
-  {
-    "id": "yahoo-finance-10674ac97c71df07",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Valero Energy (VLO) Remains a Top Choice for Hedge Fund Investors",
-    "url": "https://finance.yahoo.com/news/valero-energy-vlo-remains-top-183241984.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:32:41+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.624268+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "10674ac97c71df07"
-  },
-  {
-    "id": "yahoo-finance-acd75b300d0dad9b",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Palo Alto Eyes CyberArk In $20 Billion Deal That Would Shake Up Cybersecurity Market",
-    "url": "https://www.investors.com/news/technology/palo-alto-eyes-cyberark-in-20-billion-deal-that-would-shake-up-cybersecurity-market/?src=A00220&yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:32:12+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.624360+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "acd75b300d0dad9b"
-  },
-  {
-    "id": "yahoo-finance-ea147a74f7e1dd9d",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Warren Buffett’s Berkshire Hathaway Now Earns $138 Every Second From Dividends",
-    "url": "https://finance.yahoo.com/news/warren-buffett-berkshire-hathaway-now-183209750.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:32:09+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.624193+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ea147a74f7e1dd9d"
-  },
-  {
-    "id": "yahoo-finance-dd6a3c70f68aecba",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "JPMorgan Reaffirms NVIDIA (NVDA) as a Top AI Networking Play",
-    "url": "https://finance.yahoo.com/news/jpmorgan-reaffirms-nvidia-nvda-top-183138843.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:31:38+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.624592+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "dd6a3c70f68aecba"
-  },
-  {
-    "id": "yahoo-finance-5044fb7681cc2b9a",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Take Note XRP Traders: This Leveraged ETF Is 'Designed To Be Traded Each Day'",
-    "url": "https://finance.yahoo.com/news/note-xrp-traders-leveraged-etf-183104087.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:31:04+00:00",
-    "fetchedAt": "2025-07-31T06:35:24.913137+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5044fb7681cc2b9a"
-  },
-  {
-    "id": "yahoo-finance-6b516ffb988d8ff1",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why NovoCure Stock Is Cratering Today",
-    "url": "https://finance.yahoo.com/news/why-novocure-stock-cratering-today-182906613.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:29:06+00:00",
-    "fetchedAt": "2025-07-31T06:20:50.322978+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "6b516ffb988d8ff1"
-  },
-  {
-    "id": "bloomberg-economics-87329e2f7ce48ca5",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Chicago Mayor Floats Reviving Tax on Corporations to Raise Cash",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-29/chicago-mayor-floats-revived-tax-on-corporations-to-raise-cash",
-    "summary": "Chicago Mayor Brandon Johnson is considering reviving a tax on corporations to help raise revenue and balance the city’s budget.",
-    "publishedAt": "2025-07-29T18:28:55+00:00",
-    "fetchedAt": "2025-07-30T08:08:49.548127+00:00",
-    "category": "macro",
-    "tags": [
-      "Earnings",
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "87329e2f7ce48ca5"
-  },
-  {
-    "id": "yahoo-finance-943630127b4a2098",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Alphabet’s (GOOGL) AI Strategy Drives Growth — But Analysts Still See Breakup Potential",
-    "url": "https://finance.yahoo.com/news/alphabet-googl-ai-strategy-drives-182830787.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:28:30+00:00",
-    "fetchedAt": "2025-07-31T06:20:50.321967+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI"
-    ],
-    "priority": "high",
-    "contentHash": "943630127b4a2098"
-  },
-  {
-    "id": "yahoo-finance-9e93a4b7a023c7a3",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Soaring Crude Oil Prices Support Gains in Sugar",
-    "url": "https://finance.yahoo.com/news/soaring-crude-oil-prices-support-182820641.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:28:20+00:00",
-    "fetchedAt": "2025-07-31T06:20:50.322036+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "9e93a4b7a023c7a3"
-  },
-  {
-    "id": "yahoo-finance-da3eb46ab14665bd",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "1 Analyst Thinks This Former Pandemic Winner Could Surge 500% This Year",
-    "url": "https://finance.yahoo.com/news/1-analyst-thinks-former-pandemic-182754457.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:27:54+00:00",
-    "fetchedAt": "2025-07-31T06:20:50.321888+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "da3eb46ab14665bd"
-  },
-  {
-    "id": "yahoo-finance-ee13a9b316f6bce6",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why Lucid Group Stock Is Sinking Today",
-    "url": "https://finance.yahoo.com/news/why-lucid-group-stock-sinking-182647865.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:26:47+00:00",
-    "fetchedAt": "2025-07-31T06:20:50.322261+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ee13a9b316f6bce6"
-  },
-  {
-    "id": "nyt-business-78fb05d10303869a",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Trump Urges the U.K. to Drill More Oil, Criticizing Its Energy Policy",
-    "url": "https://www.nytimes.com/2025/07/29/business/energy-environment/trump-oil-drilling-uk-north-sea.html",
-    "summary": "President Trump said the North Sea was a “treasure chest,” but its high taxes were driving away oil producers.",
-    "publishedAt": "2025-07-29T18:25:51+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.787604+00:00",
-    "category": "markets",
-    "tags": [
-      "Commodities",
-      "Equities"
-    ],
-    "priority": "high",
-    "contentHash": "78fb05d10303869a"
-  },
-  {
-    "id": "yahoo-finance-e4dd8423b0a7f5de",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Microsoft’s (MSFT) AI Revolution Could Spark a Trillion-Dollar Surge, Says Wedbush",
-    "url": "https://finance.yahoo.com/news/microsoft-msft-ai-revolution-could-182428925.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:24:28+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622751+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Currency",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "e4dd8423b0a7f5de"
-  },
-  {
-    "id": "yahoo-finance-a63e746129f68bc3",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Why Tapestry Stock Is Cooling Off Despite Coach's Hot Streak",
-    "url": "https://finance.yahoo.com/news/why-tapestry-stock-cooling-off-182153077.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:21:53+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.622903+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a63e746129f68bc3"
-  },
-  {
-    "id": "yahoo-finance-9ba22a711bd89551",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Amazon (AMZN) Price Target Raised to $271 — Here’s What’s Driving It",
-    "url": "https://finance.yahoo.com/news/amazon-amzn-price-target-raised-182123888.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-29T18:21:23+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.621987+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "9ba22a711bd89551"
-  },
-  {
-    "id": "advisor-perspectives-6f562fa9a35efb42",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "How to Rescue Your Sales Conversations & Build Real Trust",
-    "url": "https://www.advisorperspectives.com/articles/2025/07/29/how-rescue-sales-conversations-build-trust?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "Most sales conversations fail because they’re built on outdated tactics that create pressure instead of connection.",
-    "publishedAt": "2025-07-29T18:20:08+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.651590+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6f562fa9a35efb42"
   }
 ]

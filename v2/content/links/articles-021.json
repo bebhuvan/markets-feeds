@@ -1,5 +1,887 @@
 [
   {
+    "id": "bbc-business-25026b11",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "",
+    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo?at_medium=RSS&amp;at_campaign=rss",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-27T23:46:06.000Z",
+    "fetchedAt": "2025-08-04T06:57:29.136Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "25026b11"
+  },
+  {
+    "id": "calculated-risk-c425b6c546d7b894",
+    "sourceId": "calculated-risk",
+    "sourceName": "Calculated Risk",
+    "title": "Sunday Night Futures",
+    "url": "http://www.calculatedriskblog.com/2025/07/sunday-night-futures_27.html",
+    "summary": "Weekend: • Schedule for Week of July 20, 2025 Monday: • At 10:00 AM ET, the Q2 2025 Housing Vacancies and Homeownership from the Census Bureau. • At 10:30 AM, Dallas Fed Survey of Manufacturing Activity for July. From CNBC: Pre-Market Data and Bloomberg futures S&P 500 are up 28 and DOW futures are up 168 (fair value). Oil prices were down over the last week with WTI futures at $65.16 per barrel and Brent at $68.44 per barrel. A year ago, WTI was at $79, and Brent was at $81 - so WTI oil prices are down about 20% year-over-year. Here is a graph from Gasbuddy.com for nationwide gasoline prices. Nationally prices are at $3.12 per gallon. A year ago, prices were at $3.49 per gallon, so gasoline prices are down $0.37 year-over-year.",
+    "publishedAt": "2025-07-27T23:46:00+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.176183+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "Commodities"
+    ],
+    "priority": "high",
+    "contentHash": "c425b6c546d7b894"
+  },
+  {
+    "id": "gary-marcus-a3befcf5df958771",
+    "sourceId": "gary-marcus",
+    "sourceName": "Gary Marcus",
+    "title": "What to Expect When You’re Expecting … GPT-5",
+    "url": "https://garymarcus.substack.com/p/what-to-expect-when-youre-expecting-62e",
+    "summary": "7 predictions that might sound familiar",
+    "publishedAt": "2025-07-27T23:39:41+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.975811+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "a3befcf5df958771"
+  },
+  {
+    "id": "bbc-business-c3cb02c5db4bccd9",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "EU and US agree trade deal, with 15% tariffs for European exports to America",
+    "url": "https://www.bbc.com/news/articles/cx2xylk3d07o",
+    "summary": "US President Donald Trump and EU chief Ursula von der Leyen shake on it after \"tough negotiations\" in Scotland.",
+    "publishedAt": "2025-07-27T23:39:11+00:00",
+    "fetchedAt": "2025-07-28T08:47:55.134210+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "c3cb02c5db4bccd9"
+  },
+  {
+    "id": "bloomberg-markets-53941ff94f472c65",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Oil Edges Higher as EU Agrees to US Trade Deal Ahead of Deadline",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/latest-oil-market-news-and-analysis-for-july-28",
+    "summary": "Oil rose after the US and European Union agreed on a trade deal ahead of President Donald Trump’s tariff deadline of Aug. 1.",
+    "publishedAt": "2025-07-27T23:39:05+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.595191+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "53941ff94f472c65"
+  },
+  {
+    "id": "bloomberg-markets-1dcf41ef0f577ec0",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Oil Rises as EU Deal With US Allays Fears of Harmful Trade War",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/latest-oil-market-news-and-analysis-for-july-28",
+    "summary": "Oil rose after the US and European Union reached a trade deal ahead of President Donald Trump’s Aug. 1. deadline, avoiding a tariff war that could have hurt the global economy.",
+    "publishedAt": "2025-07-27T23:39:05+00:00",
+    "fetchedAt": "2025-07-28T09:46:47.017490+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1dcf41ef0f577ec0"
+  },
+  {
+    "id": "bloomberg-markets-6a6d733dc77b50e3",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Macau Casino Bulls See Stock Rally Extending as Revenue Grows",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/macau-casino-bulls-see-stock-rally-extending-as-revenue-grows",
+    "summary": "Macau casino stocks are poised to continue their recent outperformance as special events and luxury hotel offerings help drive a recovery in gross gaming revenue, sell-side analysts say.",
+    "publishedAt": "2025-07-27T23:30:00+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.596594+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "6a6d733dc77b50e3"
+  },
+  {
+    "id": "marketwatch-84f813adc8e76436",
+    "sourceId": "marketwatch",
+    "sourceName": "MarketWatch",
+    "title": "‘I’m considering giving up my U.S. citizenship’: I’m 39 and moving to the U.K. How should I invest my $30K savings?",
+    "url": "https://www.marketwatch.com/story/im-considering-giving-up-my-u-s-citizenship-im-moving-to-the-u-k-what-should-i-do-with-30-000-cash-34913ce9?mod=mw_rss_topstories",
+    "summary": "“My credit cards are paid off monthly, but I finally paid off my student loans earlier this year.”",
+    "publishedAt": "2025-07-27T23:27:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:25.145918+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "84f813adc8e76436"
+  },
+  {
+    "id": "business-insider-bdac0e9249f4cbde",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Marvel's new 'Fantastic Four' blasts off with $218 million in box office debut",
+    "url": "https://www.businessinsider.com/fantastic-four-first-steps-box-office-numbers-marvel-superhero-movies-2025-7",
+    "summary": "\"The Fantastic Four: First Steps,\" based on the 1961 comic book, stars Pedro Pascal, Vanessa Kirby, Joseph Quinn, and Ebon Moss-Bachrach.",
+    "publishedAt": "2025-07-27T23:22:12+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.891879+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "bdac0e9249f4cbde"
+  },
+  {
+    "id": "ft-economics-28f65634a12e8a91",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "US and EU reach tariff agreement to avert trade war",
+    "url": "https://www.ft.com/content/c1737bd3-9a1f-471d-9ae3-b102d6e25625",
+    "summary": "Deal follows Scotland talks between Donald Trump and European Commission head Ursula von der Leyen",
+    "publishedAt": "2025-07-27T23:19:25+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.914053+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "28f65634a12e8a91"
+  },
+  {
+    "id": "bbc-technology-20ef142bf185e15d",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Google failed to warn 10 million of Turkey earthquake severity",
+    "url": "https://www.bbc.com/news/articles/c77v2kx304go?at_medium=RSS&at_campaign=rss",
+    "summary": "The tech giant said only 469 serious warnings were sent out ahead of the 7.8 magnitude quake.",
+    "fullContent": "The tech giant said only 469 serious warnings were sent out ahead of the 7.8 magnitude quake.",
+    "publishedAt": "2025-07-27T23:16:50+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.565664+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "20ef142bf185e15d"
+  },
+  {
+    "id": "marketwatch-1a9c576462a58799",
+    "sourceId": "marketwatch",
+    "sourceName": "MarketWatch",
+    "title": "‘The selling agent is long dead’: My $250,000 term life-insurance policy costs $2,000 a month. I’m 80. Is it time to ditch it?",
+    "url": "https://www.marketwatch.com/story/the-selling-agent-is-long-dead-my-250-000-term-life-insurance-policy-costs-2-000-a-month-im-80-is-it-time-to-ditch-it-681e4df6?mod=mw_rss_topstories",
+    "summary": "“I took out a $250,000 policy for a 10-year term. At the time, the payments were $200 per month.”",
+    "publishedAt": "2025-07-27T23:15:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:25.146123+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "1a9c576462a58799"
+  },
+  {
+    "id": "zerohedge-0015560863120b72",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "US Sanctions Maduro-Linked Venezuelan 'Cartel Of The Suns' As Terrorist Entity",
+    "url": "https://www.zerohedge.com/geopolitical/us-sanctions-maduro-linked-venezuelan-cartel-suns-terrorist-entity",
+    "summary": "US Sanctions Maduro-Linked Venezuelan 'Cartel Of The Suns' As Terrorist Entity The Treasury Department on Friday designated Venezuela’s Cartel de los Soles - known in English as the Cartel of the Suns - as a Specially Designated Global Terrorist (SDGT) entity, accusing President Nicolas Maduro and senior members of his regime of leading the group and supporting major drug cartels whose activities threaten U.S. national security. The designation, issued by the Treasury’s Office of Foreign Assets Control (OFAC) on July 25 under counterterrorism authorities, blocks all property and interests of the group within U.S. jurisdiction, and generally prohibits Americans from engaging in transactions with it. “Today’s action further exposes the illegitimate Maduro regime’s facilitation of narco-terrorism through terrorist groups like Cartel de los Soles,” Treasury Secretary Scott Bessent said in a statement. “The Treasury Department will continue to execute on President [Donald] Trump’s pledge to",
+    "publishedAt": "2025-07-27T23:15:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.528613+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0015560863120b72"
+  },
+  {
+    "id": "rzepczynski-e202e4b6e6e72969",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Choose your modeling technique wisely",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/choose-your-modeling-technique-wisely.html",
+    "summary": "One of the key challenges for any quantitative modeler is selecting the appropriate modeling technique. This involves not selecting the features or predictors to be included in the model, but rather the statistical techniques that will generate the best predictions. Not all modeling approaches are the same, so knowing when to use the best techniques is an important skill. The paper \"From OLS to neural nets: Comparing regression models in systematic trading\" is not the final word on this question. Still, it does a good job of making comparisons across techniques. It does not address all the machine learning techniques, yet it does compare many of the simple techniques that most researchers may employ. The tables from the paper are nice to have handy for anyone starting out when thinking about modeling.",
+    "publishedAt": "2025-07-27T23:11:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.907655+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "AI"
+    ],
+    "priority": "high",
+    "contentHash": "e202e4b6e6e72969"
+  },
+  {
+    "id": "marketwatch-f462502b8c693c22",
+    "sourceId": "marketwatch",
+    "sourceName": "MarketWatch",
+    "title": "Is now a good time to invest in the S&P 500? I’m 66, retired and have $200K to invest.",
+    "url": "https://www.marketwatch.com/story/i-have-no-debts-is-this-a-good-time-to-invest-in-the-s-p-500-im-66-retired-and-have-700k-3439a13e?mod=mw_rss_topstories",
+    "summary": "On Friday, the S&P 500 achieved its fifth consecutive record finish, its longest streak of record closing highs since July 10, 2024.",
+    "publishedAt": "2025-07-27T23:05:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:25.146321+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f462502b8c693c22"
+  },
+  {
+    "id": "venkatesh-rao-69f92d6d640aed74",
+    "sourceId": "venkatesh-rao",
+    "sourceName": "Venkatesh Rao",
+    "title": "Texts as Toys",
+    "url": "https://contraptions.venkateshrao.com/p/texts-as-toys",
+    "summary": "Writing is now toy-making, reading is now playing with toys",
+    "publishedAt": "2025-07-27T23:02:12+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.817517+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "69f92d6d640aed74"
+  },
+  {
+    "id": "scmp-business-f35aa31a61c2fb9e",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Back to basics: Keenon Robotics takes pragmatic approach with humanoids",
+    "url": "https://www.scmp.com/tech/tech-trends/article/3319728/back-basics-softbank-backed-keenon-robotics-takes-pragmatic-approach-humanoids?utm_source=rss_feed",
+    "summary": "Deploying humanoid robots in the real world will be a gradual process, beginning with simple and repetitive tasks, while truly versatile humanoid robots remain a distant goal, according to Shanghai-based Keenon Robotics. Founded in 2010, Keenon has emerged as the world’s leading commercial service robot manufacturer, boasting a global shipment market share of nearly 23 per cent last year, according to the research firm IDC. The company said it had sold more than 100,000 robot units worldwide so...",
+    "publishedAt": "2025-07-27T23:00:11+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.590977+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f35aa31a61c2fb9e"
+  },
+  {
+    "id": "techmeme-cd8fe3c095727ae8",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "AI tools like ChatGPT are helping neurodivergent individuals navigate social encounters with real-time guidance, though some experts warn of overreliance (Hani Richter/Reuters)",
+    "url": "http://www.techmeme.com/250727/p21#a250727p21",
+    "summary": "Hani Richter / Reuters: AI tools like ChatGPT are helping neurodivergent individuals navigate social encounters with real-time guidance, though some experts warn of overreliance  —  AI tools like ChatGPT are helping neurodivergent users communicate more clearly and confidently — though some experts warn that overreliance could come at a cost.",
+    "publishedAt": "2025-07-27T23:00:01+00:00",
+    "fetchedAt": "2025-07-28T06:12:26.068149+00:00",
+    "category": "technology",
+    "tags": [
+      "AI",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "cd8fe3c095727ae8"
+  },
+  {
+    "id": "techmeme-effb867218f3f9aa",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "ChatGPT and other AI tools are helping neurodivergent people navigate social encounters with real-time guidance, though some experts warn of an overreliance (Hani Richter/Reuters)",
+    "url": "http://www.techmeme.com/250727/p21#a250727p21",
+    "summary": "Hani Richter / Reuters: ChatGPT and other AI tools are helping neurodivergent people navigate social encounters with real-time guidance, though some experts warn of an overreliance  —  AI tools like ChatGPT are helping neurodivergent users communicate more clearly and confidently — though some experts warn that overreliance could come at a cost.",
+    "publishedAt": "2025-07-27T23:00:01+00:00",
+    "fetchedAt": "2025-07-28T08:46:17.300624+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "effb867218f3f9aa"
+  },
+  {
+    "id": "bloomberg-economics-94749016585ccd61",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "US, China Officials to Meet in Sweden to Extend Trade Truce",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-china-negotiators-meet-in-stockholm-to-extend-trade-truce",
+    "summary": "US and Chinese officials are meeting Monday to extend their tariff detente beyond a mid-August deadline, and haggle over other ways to further defuse trade tensions.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.978069+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "94749016585ccd61"
+  },
+  {
+    "id": "oil-price-40a9fbdfd1ae87d2",
+    "sourceId": "oil-price",
+    "sourceName": "OilPrice.com",
+    "title": "China Ditches U.S. LNG as Russian Pipelines and Domestic Output Surge",
+    "url": "https://oilprice.com/Energy/Natural-Gas/China-Ditches-US-LNG-as-Russian-Pipelines-and-Domestic-Output-Surge.html",
+    "summary": "Over the past couple of years, China has become the world’s largest importer of Liquefied Natural Gas (LNG), surpassing Japan as the top buyer of super-chilled gas since 2021. China’s surging LNG imports have been shaping Asian energy flows, with the country accounting for more than 40% of the continent's total LNG import growth. However, China’s dominance in LNG markets now appears in jeopardy, and we are seeing a prolonged decline in imports. According to ship-tracking data by Kpler via Bloomberg, China’s LNG imports are…",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.902600+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "40a9fbdfd1ae87d2"
+  },
+  {
+    "id": "cepr-discussion-papers-8e0baeee09b4893c",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20496 Financial Advisors and Investors’ Bias",
+    "url": "https://cepr.org/publications/dp20496",
+    "summary": "We study an intervention by a brokerage firm providing advisory services to high-net- worth investors. In 2018, the firm changed the information displayed on its internal platform, so that financial advisors could no longer observe which clients’ holdings were in paper gain or loss. Using data on portfolio stock transactions between 2016 and 2021, we show that, while all investors exhibit a significant disposition effect before 2018, i.e., a greater propensity to realize gains than losses, highly-advised investors see their bias significantly reduced afterward. Our paper shows that by appropriately manipulating advisors’ information, financial firms can successfully reduce their clients’ biases.",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T08:46:12.896763+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "8e0baeee09b4893c"
+  },
+  {
+    "id": "cepr-discussion-papers-b4b485b5fa6ffc20",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20495 Regulating Entrepreneurship: The Case of Capital Requirements",
+    "url": "https://cepr.org/publications/dp20495",
+    "summary": "Governments have a long history of regulating entrepreneurs’ use of limited liability by mandating a minimum amount of paid-in equity. While opponents argue that these requirements pose an unnecessary barrier to entrepreneurship, proponents maintain that they protect stakeholders, in part by screening out low-quality entrepreneurship. We exploit a 2012 Norwegian reform that lowered the capital requirement from $17,000 to $5,000 to study this quantity-quality trade-off. Our setting includes detailed data on both firms and the underlying entrepreneurs, providing comprehensive proxies for entrepreneurial quality. We first show that incorporation rates double after the reform and remain elevated over time. Post-reform entrants are considerably smaller in terms of assets and revenues but do not differ in terms of growth, survival rates, profitability, productivity, or leverage. Furthermore, post-reform entrants have similar past income levels, age, and educational attainment as pre-reform e",
+    "publishedAt": "2025-07-27T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T08:46:12.897193+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "b4b485b5fa6ffc20"
+  },
+  {
+    "id": "marketwatch-c63b9165c65fecd7",
+    "sourceId": "marketwatch",
+    "sourceName": "MarketWatch",
+    "title": "‘I have a degree in economics’: I’m 70, earn $250K a year and have $3.7 million in investments. Is it time to retire?",
+    "url": "https://www.marketwatch.com/story/i-have-a-degree-in-economics-im-70-earn-250k-a-year-and-have-3-7-million-in-investments-is-it-time-to-retire-4cf10c13?mod=mw_rss_topstories",
+    "summary": "“I have a home worth $1.3 million with $900,000 in equity. I have not paid it off as I have a 3% interest rate.”",
+    "publishedAt": "2025-07-27T22:59:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:25.146519+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "c63b9165c65fecd7"
+  },
+  {
+    "id": "marketwatch-2e8bf21c150fdb2b",
+    "sourceId": "marketwatch",
+    "sourceName": "MarketWatch",
+    "title": "‘I have felt invisible, disrespected and heartbroken’: My firstborn son wants nothing to do with me. Do I cut him off?",
+    "url": "https://www.marketwatch.com/story/i-have-felt-invisible-disrespected-and-heartbroken-my-firstborn-son-wants-nothing-to-do-with-me-do-i-cut-him-off-a17bb951?mod=mw_rss_topstories",
+    "summary": "“My second wife and I agreed that 25% of our total estate would go to my older son, and the remainder to our younger son.”",
+    "publishedAt": "2025-07-27T22:56:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:25.146732+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2e8bf21c150fdb2b"
+  },
+  {
+    "id": "nate-silver-102ca5a4e7f7202f",
+    "sourceId": "nate-silver",
+    "sourceName": "Nate Silver",
+    "title": "Who has the brightest future in the NBA?",
+    "url": "https://www.natesilver.net/p/brightest-future-in-the-nba",
+    "summary": "Part II of our Future of the Franchise rankings.",
+    "publishedAt": "2025-07-27T22:49:54+00:00",
+    "fetchedAt": "2025-07-28T06:33:15.293615+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "102ca5a4e7f7202f"
+  },
+  {
+    "id": "fortune-216239650f10a518",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Russia starts direct flights to North Korea with initial service just once a month and tickets priced at $570",
+    "url": "https://fortune.com/2025/07/27/russia-direct-flights-north-korea-nordwind-airlines-moscow-pyongyang/",
+    "summary": "\"For the first time in more than 70 years of diplomatic relations, we are launching direct flights between the capitals of our countries.\"",
+    "publishedAt": "2025-07-27T22:48:04+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.629540+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "216239650f10a518"
+  },
+  {
+    "id": "thehindubusinessline-ccc32a814f5b912d",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Markets brace for crucial week: Fed, jobs data, and big tech in focus",
+    "url": "https://www.thehindubusinessline.com/markets/markets-brace-for-crucial-week-fed-jobs-data-and-big-tech-in-focus/article69863160.ece",
+    "summary": "While rate cuts aren’t expected, investors are looking for forward guidance amid inflation and trade uncertainties.",
+    "publishedAt": "2025-07-27T22:43:32+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.358430+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "high",
+    "contentHash": "ccc32a814f5b912d"
+  },
+  {
+    "id": "zerohedge-a899b209130651d3",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "This Scene Perfectly Defines The Fake Legacy Media...",
+    "url": "https://www.zerohedge.com/political/scene-perfectly-defines-fake-legacy-media",
+    "summary": "This Scene Perfectly Defines The Fake Legacy Media... Authored by Steve Watson via Modernity.news, John Brennan, the Obama CIA Deep Stater currently up to his neck in the oversight majority staff report that details how he and others under Obama cooked up the entire Russia collusion hoax, appeared on MSNBC and provided a snapshot that perfectly encapsulates the legacy media. Brennan openly accused DNI Tulsi Gabbard of lying even though the documents are declassified for all to read. And he did this with Jen Psaki, the former Biden Press Secretary. On Wednesday John Brennan went on with Jen Psaki to lash out at Tulsi Gabbard, accusing her of lying. Two Obama admin liars lying about lying, running cover for a hoax. Legacy media, defined. pic.twitter.com/i1fISs0Zc1 — Western Lensman (@WesternLensman) July 25, 2025 Actual journalist Matt Taibbi added this succinct observation. Perfect snapshot of modern “news”: a former White House flack masquerading as an anchor, interviewing an ex-CIA ch",
+    "publishedAt": "2025-07-27T22:40:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.530115+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a899b209130651d3"
+  },
+  {
+    "id": "bloomberg-markets-653c00d8e966bf8e",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Stock Futures Rise as Trump, EU Reach Tariff Deal: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
+    "summary": "Stock-index futures climbed after the European Union struck a deal with President Donald Trump that subjects most of the bloc’s exports to 15% tariffs, easing fears of a damaging trade war.",
+    "publishedAt": "2025-07-27T22:25:35+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.594151+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "653c00d8e966bf8e"
+  },
+  {
+    "id": "bloomberg-markets-87afc37af6d69cc8",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Stock Rally to Extend as Futures Rise on EU Deal: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
+    "summary": "The record rally in US stocks looks set for more gains after the European Union reached a trade deal with President Donald Trump, further easing fears of a damaging trade war.",
+    "publishedAt": "2025-07-27T22:25:35+00:00",
+    "fetchedAt": "2025-07-28T04:44:19.363818+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "87afc37af6d69cc8"
+  },
+  {
+    "id": "bloomberg-markets-f1a9c9dccf35c58c",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "European Stocks Rise as US Deal Eases Tariff Fears: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
+    "summary": "European stocks and US equity futures climbed after the European Union reached a trade deal with President Donald Trump, further easing fears of a damaging trade war.",
+    "publishedAt": "2025-07-27T22:25:35+00:00",
+    "fetchedAt": "2025-07-28T08:46:15.640546+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "f1a9c9dccf35c58c"
+  },
+  {
+    "id": "bloomberg-markets-576845da45e9c4a3",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "S&amp;P Futures Rise as EU-US Trade Deal Brings Relief: Markets Wrap",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
+    "summary": "US equity futures climbed along with the dollar after the European Union reached a trade deal with President Donald Trump, further easing fears of a damaging trade war.",
+    "publishedAt": "2025-07-27T22:25:35+00:00",
+    "fetchedAt": "2025-07-28T09:46:47.017191+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Currency",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "576845da45e9c4a3"
+  },
+  {
+    "id": "fortune-6bc8265046ebf7fc",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Dow futures rise on US-EU trade pact as investors brace for fast and furious week of earnings, China talks, Fed, GDP, jobs report, tariff deadline",
+    "url": "https://fortune.com/2025/07/27/stock-market-today-dow-futures-us-eu-trade-deal-earnings-fed-meeting-china-talks/",
+    "summary": "Investors will not be able to look away over the coming week as every single day could produce significant market-moving news.",
+    "publishedAt": "2025-07-27T22:21:31+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.629947+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "6bc8265046ebf7fc"
+  },
+  {
+    "id": "business-insider-e7bcef0175989059",
+    "sourceId": "business-insider",
+    "sourceName": "Business Insider",
+    "title": "Ryan Reynolds' ad agency, Maximum Effort, was behind the Gwyneth Paltrow Astronomer ad",
+    "url": "https://www.businessinsider.com/ryan-reynolds-maximum-effort-gwyneth-paltrow-astronomer-ad-2025-7",
+    "summary": "Astronomer, the tech company that went viral for the wrong reasons, worked with Ryan Reynolds' Maximum Effort and Gwyneth Paltrow to rehabilitate its image.",
+    "publishedAt": "2025-07-27T22:11:36+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.892073+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "e7bcef0175989059"
+  },
+  {
+    "id": "fortune-8d09bb7a753e4c07",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Boeing expects more than 3,200 fighter-jet workers to strike after they reject contract offer despite union leaders calling for yes vote",
+    "url": "https://fortune.com/2025/07/27/boeing-strike-st-louis-contract-wage-hike-fighter-jet-plant-f18-super-hornet/",
+    "summary": "The proposed contract that was rejected included a 20% wage increase over four years.",
+    "publishedAt": "2025-07-27T22:09:08+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.630260+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8d09bb7a753e4c07"
+  },
+  {
+    "id": "zerohedge-a10fcc4d5c0907be",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "\"China Did Not Start The War\": Another Fiery Showdown At The UN Over Beijing-Moscow Relations",
+    "url": "https://www.zerohedge.com/geopolitical/china-did-not-start-war-another-fiery-showdown-un-over-beijing-moscow-relations",
+    "summary": "\"China Did Not Start The War\": Another Fiery Showdown At The UN Over Beijing-Moscow Relations The United States and China once again clashed at the United Nations during a Security Council meeting, which occurred Friday. This has been a more frequent and growing trend over the last year of grinding conflict, into the Trump administration. Acting US Ambassador Dorothy Shea accused Beijing of covertly aiding Moscow's military machine, and urged China to \"stop fueling Russia’s aggression\" in Ukraine. Washington has long suspected Beijing of intentionally shipping dual civilian-military goods in order to prop up Russia's defense industrial sector. \"Beijing’s claim to have implemented strong export controls on dual-use goods falls apart in the face of daily recovery of Chinese-produced components in the drones, weapons, and vehicles that Russia uses against Ukraine,\" Ambassador Shea said. Beijing firmly rejected the allegations, saying it enforces legal and strict controls over its exports,",
+    "publishedAt": "2025-07-27T22:05:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.531210+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a10fcc4d5c0907be"
+  },
+  {
+    "id": "bloomberg-markets-7e20564f8e81e251",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Hedging by Australia’s Pension Funds Set to Boost Local Dollar",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/hedging-by-australia-s-pension-funds-set-to-boost-local-dollar",
+    "summary": "The Australian dollar is set for further gains as the nation’s biggest pension funds have reason to boost hedging of their US assets to shield them from policy uncertainties.",
+    "publishedAt": "2025-07-27T22:01:55+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.598109+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Currency"
+    ],
+    "priority": "high",
+    "contentHash": "7e20564f8e81e251"
+  },
+  {
+    "id": "scmp-business-6e71e48847bfd7d2",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Yuen Yuen Ang on how China can turn ‘polycrisis’ into ‘polytunity’",
+    "url": "https://www.scmp.com/economy/china-economy/article/3319375/yuen-yuen-ang-how-china-can-turn-polycrisis-polytunity?utm_source=rss_feed",
+    "summary": "Yuen Yuen Ang is the Alfred Chandler Chair Professor of political economy at Johns Hopkins University. She is an influential scholar, writing extensively on China’s political and economic trajectory, its international relations and its adaptive development in a fragmented, unpredictable world. Originally from Singapore, her award-winning work includes the books How China Escaped the Poverty Trap and China’s Gilded Age. This interview first appeared in SCMP Plus. For other interviews in the Open...",
+    "publishedAt": "2025-07-27T22:00:11+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.591229+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "breaking",
+    "contentHash": "6e71e48847bfd7d2"
+  },
+  {
+    "id": "weekend-reads-6b1b605535d1ce1b",
+    "sourceId": "weekend-reads",
+    "sourceName": "Weekend Reads",
+    "title": "Weekend Reads #429",
+    "url": "https://weekendreads.substack.com/p/weekend-reads-429",
+    "summary": "A collection of cross-disciplinary thoughts, perspectives, and opinions",
+    "publishedAt": "2025-07-27T21:53:29+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.268458+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "low",
+    "contentHash": "6b1b605535d1ce1b"
+  },
+  {
+    "id": "ft-economics-bb0e1bec2061e590",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "FirstFT: The US and EU reach a trade deal",
+    "url": "https://www.ft.com/content/d4605098-0961-4ef7-b91f-2a5f8a5fe8d8",
+    "summary": "Also in today’s newsletter, Taiwanese voters reject attempt to recall KMT lawmakers, and China proposes global body to govern AI",
+    "publishedAt": "2025-07-27T21:40:43+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.914251+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "AI",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "bb0e1bec2061e590"
+  },
+  {
+    "id": "wsj-youtube-a8a695fb5a6bd299",
+    "sourceId": "wsj-youtube",
+    "sourceName": "Wall Street Journal",
+    "title": "Officials Seek Terrorism Charge After Suspect Attacks People Inside Walmart | WSJ News",
+    "url": "https://www.youtube.com/watch?v=tIaleS57nPc",
+    "summary": "Officials took a suspect into custody after at least 11 people were stabbed and injured in a Michigan Walmart store. The motive remains under investigation, police said. Photo: Ryan Sun/AP #WSJ #attack #walmart",
+    "fullContent": "Officials took a suspect into custody after at least 11 people were stabbed and injured in a Michigan Walmart store. The motive remains under investigation, police said. Photo: Ryan Sun/AP #WSJ #attack #walmart",
+    "publishedAt": "2025-07-27T21:37:44+00:00",
+    "fetchedAt": "2025-07-30T15:00:43.123220+00:00",
+    "category": "videos",
+    "tags": [
+      "Videos"
+    ],
+    "priority": "normal",
+    "contentHash": "a8a695fb5a6bd299"
+  },
+  {
+    "id": "marketwatch-3054a2a7204c30e7",
+    "sourceId": "marketwatch",
+    "sourceName": "MarketWatch",
+    "title": "Trump announces deal with E.U. imposing 15% tariffs, averting trade war",
+    "url": "https://www.marketwatch.com/story/trump-announces-deal-with-e-u-imposing-15-tariffs-averting-trade-war-819e8e87?mod=mw_rss_topstories",
+    "summary": "The U.S. and the European Union have agreed to a trade framework that will result in 15% tariffs on most imported European goods, President Donald Trump announced Sunday. The deal comes a week before Trump’s Aug. 1 deadline, averting an all-out trade war between the two economic giants.",
+    "publishedAt": "2025-07-27T21:36:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:25.146944+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "3054a2a7204c30e7"
+  },
+  {
+    "id": "scmp-business-930c847bd1b7e98a",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "When travellers think sustainability, make them think Greater Bay Area",
+    "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3319224/when-travellers-think-sustainability-make-them-think-greater-bay-area?utm_source=rss_feed",
+    "summary": "Earlier this year, Hong Kong launched its first fully electric ferry. In June, jurisdictions within the Greater Bay Area development zone marked a national event for the environment. Against this backdrop, a quiet but important shift is under way. Policymakers in the Greater Bay Area are no longer just thinking about sustainability; they are setting it in motion. With the development zone becoming a hub for experimentation in smart infrastructure and climate innovation, the time is ripe to...",
+    "publishedAt": "2025-07-27T21:30:08+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.591470+00:00",
+    "category": "markets",
+    "tags": [
+      "ESG",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "930c847bd1b7e98a"
+  },
+  {
+    "id": "zerohedge-667a76b40c63fd76",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "Judge Maintains Nationwide Block On Trump's Birthright Citizenship Order",
+    "url": "https://www.zerohedge.com/political/judge-maintains-nationwide-block-trumps-birthright-citizenship-order",
+    "summary": "Judge Maintains Nationwide Block On Trump's Birthright Citizenship Order Authored by Sam Dorman via The Epoch Times, A federal judge in Massachusetts has maintained his nationwide block on President Donald Trump’s policy restricting birthright citizenship, saying that a narrower injunction would be impractical and create too many problems for states that sued the administration. “The record does not support a finding that any narrower option would feasibly and adequately protect the plaintiffs from the injuries they have shown they are likely to suffer if the unlawful policy announced in [Trump’s] Executive Order takes effect during the pendency of this lawsuit,” U.S. District Judge Leo Sorokin said in an opinion on July 25. Sorokin’s opinion came nearly a month after the Supreme Court’s decision in Trump v. CASA, in which a majority of justices said nationwide injunctions likely exceeded the authority granted to courts by Congress. Justice Amy Coney Barrett’s majority opinion left ope",
+    "publishedAt": "2025-07-27T21:30:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.532351+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "667a76b40c63fd76"
+  },
+  {
+    "id": "honest-broker-34b74b57ac8be3db",
+    "sourceId": "honest-broker",
+    "sourceName": "The Honest Broker",
+    "title": "As AI Gets Smarter, It Acts More Evil",
+    "url": "https://www.honest-broker.com/p/as-ai-gets-smarter-it-acts-more-evil",
+    "summary": "I share disturbing evidence, a hypothesis, and a prediction—tell me what you think",
+    "publishedAt": "2025-07-27T21:26:51+00:00",
+    "fetchedAt": "2025-07-28T06:33:13.418264+00:00",
+    "category": "non-money",
+    "tags": [
+      "AI",
+      "Non-Money"
+    ],
+    "priority": "high",
+    "contentHash": "34b74b57ac8be3db"
+  },
+  {
+    "id": "nyt-business-32f576ca843d7619",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "11 People Injured in Stabbing at a Michigan Walmart, Officials Say",
+    "url": "https://www.nytimes.com/2025/07/26/us/stabbing-traverse-city-walmart.html",
+    "summary": "One person was in custody after what the authorities said was a random attack at a store near Traverse City, Mich.",
+    "publishedAt": "2025-07-27T21:23:46+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.795583+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "32f576ca843d7619"
+  },
+  {
+    "id": "nate-silver-50d71a73c9c369d8",
+    "sourceId": "nate-silver",
+    "sourceName": "Nate Silver",
+    "title": "How popular is Donald Trump?",
+    "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+    "summary": "Silver Bulletin approval ratings for President Trump — and all presidents since Truman.",
+    "publishedAt": "2025-07-27T21:03:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:15.293940+00:00",
+    "category": "non-money",
+    "tags": [
+      "Commodities",
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "50d71a73c9c369d8"
+  },
+  {
+    "id": "handelsblatt-023e10f98adc77a4",
+    "sourceId": "handelsblatt",
+    "sourceName": "Handelsblatt",
+    "title": "+++ Nahost +++: FT: Starmer ruft Kabinett wegen Gaza aus Sommerpause zurück",
+    "url": "https://www.handelsblatt.com/politik/international/nahost-ft-starmer-ruft-kabinett-wegen-gaza-aus-sommerpause-zurueck/100136895.html",
+    "summary": "UN-Palästinenserhilfswerk fordert Öffnung aller Gaza-Grenzübergänge +++ Kritik in Netanjahus Regierung an Gaza-Hilfslieferungen +++ Der Newsblog.",
+    "publishedAt": "2025-07-27T21:02:00+00:00",
+    "fetchedAt": "2025-07-28T08:47:58.274395+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "023e10f98adc77a4"
+  },
+  {
+    "id": "bloomberg-markets-d2df101faee6c185",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "Trump’s Tariffs Are Already Stunting World Growth While Markets Shrug",
+    "url": "https://www.bloomberg.com/news/features/2025-07-27/how-trump-s-tariffs-are-already-stunting-world-economic-growth",
+    "summary": "With the president’s new trade deals, US protectionism is slowing investment and rewiring supply chains at the expense of the global economy",
+    "publishedAt": "2025-07-27T21:00:07+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.598289+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d2df101faee6c185"
+  },
+  {
+    "id": "bloomberg-markets-438ea2082495f547",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "CK Hutchison to Invite China Investor to Join Port Deal",
+    "url": "https://www.bloomberg.com/news/articles/2025-07-27/investors-revive-interest-in-ck-hutchison-despite-deal-delay",
+    "summary": "CK Hutchison Holdings Ltd. said it may invite a “major strategic investor” from China to join a group seeking to buy its global ports, as the Hong Kong-based company works toward a solution that pleases all in the geopolitically-sensitive deal.",
+    "publishedAt": "2025-07-27T21:00:00+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.594966+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "high",
+    "contentHash": "438ea2082495f547"
+  },
+  {
+    "id": "nate-silver-96fbb6f483797dbc",
+    "sourceId": "nate-silver",
+    "sourceName": "Nate Silver",
+    "title": "How popular is Elon Musk?",
+    "url": "https://www.natesilver.net/p/elon-musk-polls-popularity-nate-silver-bulletin",
+    "summary": "Silver Bulletin favorability ratings for the world's richest man.",
+    "publishedAt": "2025-07-27T21:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:15.294202+00:00",
+    "category": "non-money",
+    "tags": [
+      "Commodities",
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "96fbb6f483797dbc"
+  },
+  {
+    "id": "zerohedge-9297cc58cf0f72ca",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "Bezos Dumps $5.7 Billion In Amazon Stock. Now CNBC Buyout Rumors Swirl",
+    "url": "https://www.zerohedge.com/markets/bezos-dumps-57-billion-amazon-stock-now-cnbc-buyout-rumors-swirl",
+    "summary": "Bezos Dumps $5.7 Billion In Amazon Stock. Now CNBC Buyout Rumors Swirl Jeff Bezos has generated billions of dollars in Amazon stock sales since late June under a 10b5-1 plan. The divestitures coincide with a new report suggesting he's mulling over a potential acquisition of CNBC. According to Bloomberg data, Bezos has been on a selling spree since late June, capitalizing on Amazon's stock rebound from its April lows. So far, the sales have generated $5.7 billion for the billionaire. Here's more from the Bloomberg report: The sales, which began when Bezos unloaded $737 million around his weekend nuptials in Venice, were part of a trading plan for up to 25 million shares that he adopted earlier this year. He sold the last of the 25 million on Wednesday and Thursday, divesting about 4.2 million shares for $954 million, according to a Securities and Exchange Commission filing on Friday. Amid Bezos' dumping of stock under the 10b5-1 plan, a new report emerged last week from The New York Pos",
+    "publishedAt": "2025-07-27T20:55:00+00:00",
+    "fetchedAt": "2025-07-28T04:00:00.533390+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "high",
+    "contentHash": "9297cc58cf0f72ca"
+  },
+  {
     "id": "econbrowser-f9dace4918a400c5",
     "sourceId": "econbrowser",
     "sourceName": "Econbrowser",
@@ -779,875 +1661,5 @@
     ],
     "priority": "normal",
     "contentHash": "389772ec9f1b18e8"
-  },
-  {
-    "id": "seeking-alpha-a684babf3610b552",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "IYJ: Industrials ETF Breaks Out With A Stretched Valuation",
-    "url": "https://seekingalpha.com/article/4804946-iyj-industrials-etf-breaks-out-with-a-stretched-valuation?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T18:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252468+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a684babf3610b552"
-  },
-  {
-    "id": "zerohedge-06e418e2175212ac",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Federal Funds For Local Obedience: Immigration Clause Puts Dems In Bind",
-    "url": "https://www.zerohedge.com/political/federal-funds-local-obedience-immigration-clause-puts-dems-bind",
-    "summary": "Federal Funds For Local Obedience: Immigration Clause Puts Dems In Bind Authored by James Eustis via The RealClearPolitics (emphasis ours), A little-noticed provision in the “Big Beautiful Bill” forces blue states and cities to make a tough choice: Comply with federal immigration law or lose federal money for criminal justice aid. President Trump’s signature piece of legislation allocated $3.3 billion to the DOJ, some of which will go toward the Byrne-JAG Grant Program, a federal initiative created in 2005 which provides support for local law enforcement and criminal justice efforts. To access the new funds, which supplement the $499 million already appropriated for the Byrne-JAG program in 2025, localities must comply with a section of federal immigration law that forbids them from restricting communication between their law enforcement entities and the Department of Homeland Security regarding an individual’s immigration status. This provides an incentive for localities to share thei",
-    "publishedAt": "2025-07-27T18:00:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.541527+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "06e418e2175212ac"
-  },
-  {
-    "id": "abnormal-returns-d302616921ace3f3",
-    "sourceId": "abnormal-returns",
-    "sourceName": "Abnormal Returns",
-    "title": "Sunday links: a new AI strategy",
-    "url": "https://abnormalreturns.com/2025/07/27/sunday-links-a-new-ai-strategy/",
-    "summary": "MarketsThe stock market can outgrow the economy only for so long. (awealthofcommonsense.com)Even the best stocks go through big drawdowns. (humbledollar.com)It's comforting when you own every stock in the index. (contessacapitaladvisors.com)CompaniesBerkshire Hathaway ($BRK.A) stock is down since the annual shareholders meeting. (barrons.com)It's hard not to be impressed with Domino's ($DPZ) track record. (quartr.com)Since June 1, nearly a hundred companies have announced plans to raise money an",
-    "publishedAt": "2025-07-27T17:49:21+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.037176+00:00",
-    "category": "research",
-    "tags": [
-      "AI",
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "d302616921ace3f3"
-  },
-  {
-    "id": "the-verge-d2e50e1cebec6a56",
-    "sourceId": "the-verge",
-    "sourceName": "The Verge",
-    "title": "The Fujifilm X-E5 proves familiar isn’t always a bad thing",
-    "url": "https://www.theverge.com/tech/714141/fujifilm-x-e5-camera-review",
-    "summary": "The X-E5 is Fujifilm's tiny powerhouse. It's part of a line of cameras that has often been described as similar to the X100, except with an interchangeable lens. But the X-E line has evolved this year and is taking on a new shape. It used to be seen as a budget option, but at $1,699, […]",
-    "publishedAt": "2025-07-27T17:47:02+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.093216+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "d2e50e1cebec6a56"
-  },
-  {
-    "id": "wsj-opinion-828bb339f26b2dd1",
-    "sourceId": "wsj-opinion",
-    "sourceName": "WSJ Opinion",
-    "title": "Opinion | The Sarepta Mugging and Drug Innovation",
-    "url": "https://www.wsj.com/opinion/sarepta-elevidys-gene-therapy-duchenne-fda-marty-makary-vinay-prasad-4637cce9?mod=rss_Technology",
-    "summary": "The Trump FDA tries to kill a therapy that has helped boys with a deadly diagnosis.",
-    "fullContent": "The Trump FDA tries to kill a therapy that has helped boys with a deadly diagnosis.",
-    "publishedAt": "2025-07-27T17:37:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.114842+00:00",
-    "category": "blogs",
-    "tags": [
-      "Blogs"
-    ],
-    "priority": "low",
-    "contentHash": "828bb339f26b2dd1"
-  },
-  {
-    "id": "wsj-markets-main-afdd75eb06d1fa31",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Opinion | Don’t Rule Out a Rate Hike",
-    "url": "https://www.wsj.com/opinion/dont-rule-out-a-rate-hike-the-fed-inflation-9e9a36ff?mod=rss_markets_main",
-    "summary": "The Fed might have to raise the target rate to bring down inflation.",
-    "fullContent": "The Fed might have to raise the target rate to bring down inflation.",
-    "publishedAt": "2025-07-27T17:35:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.202304+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "afdd75eb06d1fa31"
-  },
-  {
-    "id": "handelsblatt-709f2d6cb5cd78cc",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "Handelskonflikt: Trump verkündet Einigung im Zollstreit mit der EU – Zölle von 15 Prozent",
-    "url": "https://www.handelsblatt.com/politik/international/handelskonflikt-trump-verkuendet-einigung-im-zollstreit-mit-der-eu/100144058.html",
-    "summary": "Bereits seit Wochen verhandeln die Wirtschaftsmächte über mögliche Zölle auf Produkte aus der EU. Die meisten Güter werden nun mit demselben Zollsatz belegt, einige Ausnahmen wird es geben.",
-    "publishedAt": "2025-07-27T17:32:42+00:00",
-    "fetchedAt": "2025-07-28T08:47:58.275074+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "709f2d6cb5cd78cc"
-  },
-  {
-    "id": "seeking-alpha-408e859602e513fe",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "JEQ: No Longer A Japan Equities CEF After The Vote",
-    "url": "https://seekingalpha.com/article/4804945-jeq-no-longer-a-japan-equities-cef-after-the-vote?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T17:30:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252496+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "408e859602e513fe"
-  },
-  {
-    "id": "econbrowser-2a35d5fa3e2bf8d0",
-    "sourceId": "econbrowser",
-    "sourceName": "Econbrowser",
-    "title": "TACO, Again! (China Edition)",
-    "url": "https://econbrowser.com/archives/2025/07/taco-again-china-edition",
-    "summary": "Not that I’m complaining. From SCMP via Bloomberg: US and China are expected to extend their tariff truce by another three months, the South China Morning Post reported, citing unnamed sources. The two countries will not impose additional tariffs on each other during the extension, one of the sources told the newspaper. The current pause […]",
-    "publishedAt": "2025-07-27T17:27:05+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.824213+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "2a35d5fa3e2bf8d0"
-  },
-  {
-    "id": "techmeme-b0944d351683550f",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Rune Technologies, which is developing AI-enabled software to transform manual processes in military logistics, raised a $24M Series A by Human Capital (Rebecca Bellan/TechCrunch)",
-    "url": "http://www.techmeme.com/250727/p18#a250727p18",
-    "summary": "Rebecca Bellan / TechCrunch: Rune Technologies, which is developing AI-enabled software to transform manual processes in military logistics, raised a $24M Series A by Human Capital  —  Silicon Valley is doubling down on defense as geopolitical tensions rise and appetite for modernizing warfare grows.",
-    "publishedAt": "2025-07-27T17:25:01+00:00",
-    "fetchedAt": "2025-07-28T06:12:26.069478+00:00",
-    "category": "technology",
-    "tags": [
-      "Tech",
-      "AI",
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "b0944d351683550f"
-  },
-  {
-    "id": "zerohedge-8fde5de7aeaa00de",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "UK's Starmer Organizing Renewed Food Air Drops Over Starving Gaza",
-    "url": "https://www.zerohedge.com/geopolitical/uks-starmer-organizing-renewed-food-air-drops-over-gaza",
-    "summary": "UK's Starmer Organizing Renewed Food Air Drops Over Starving Gaza Efforts of Western and some Mideast regional countries like Jordan to alleviate famine in Gaza largely failed during initial airdrops over the Strip which occurred in 2024. Food and medicine air drops proved more dangerous than conventional delivery utilizing trucks crossing land routes, as in some instances large aid crates fell on make-shift homes and tents, crushing and at times injuring or killing people. There were also instances of drowning as aid was dropped into the sea during the 2024 efforts. For example a single day in March of last year saw 18 people die trying to desperately access the aid. But given that at this point scores of people are dying each day from hunger, air drops are increasingly a risk everyone (or Western countries) is willing to take - even as Israel's military is still exercising a tight grip on what aid is allowed into Gaza and who distributes it. British Prime Minister Keir Starmer is amo",
-    "publishedAt": "2025-07-27T17:25:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.542823+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "8fde5de7aeaa00de"
-  },
-  {
-    "id": "bloomberg-economics-de4dff15630271ad",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Boeing Braces for Defense Hub Strike as Workers Reject Offer",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/boeing-defense-workers-reject-contract-in-sign-of-labor-turmoil",
-    "summary": "Boeing Co. is preparing for a strike at its St. Louis defense hub after factory workers rejected a contract offer that would’ve boosted their wages by 20% over four years.",
-    "publishedAt": "2025-07-27T17:23:39+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.978690+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "de4dff15630271ad"
-  },
-  {
-    "id": "ft-economics-70e3919dffe2a409",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "Eleventh-hour US-EU trade talks aim to beat Trump’s tariff deadline",
-    "url": "https://www.ft.com/content/24aee690-89c1-4d78-a6c4-eb6fd37827d0",
-    "summary": "Plus, tensions over Fed interest rate move, Starmer to talk steel with Trump, and earnings season hits a peak",
-    "publishedAt": "2025-07-27T17:15:02+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.914620+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "70e3919dffe2a409"
-  },
-  {
-    "id": "cnbc-markets-11fa75da60e2086e",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "‘This market is pricing in perfection,’ warns Verdence Capital CIO as tariff deadline looms",
-    "url": "https://www.cnbc.com/2025/07/27/tariff-turmoil-market-pricing-in-perfection-warns-verdence-cio.html",
-    "summary": "The market may be trading around record highs, but Verdence Capital's Megan Horneman is worried trouble is lurking.",
-    "publishedAt": "2025-07-27T17:11:32+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.264931+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "11fa75da60e2086e"
-  },
-  {
-    "id": "econbrowser-cd9e65dbc5e8a570",
-    "sourceId": "econbrowser",
-    "sourceName": "Econbrowser",
-    "title": "US Real Exports Flatlining Despite Rising RoW GDP, Depreciated Dollar",
-    "url": "https://econbrowser.com/archives/2025/07/us-real-exports-flatlining-despite-rising-row-gdp-depreciated-dollar",
-    "summary": "What else did you expect? Figure 1: US exports of goods and services (black, left log scale), GDPNow nowcast (light blue square, left log scale), both in bn.Ch.2017$ SAAR; export weighted rest-of-world GDP, 2005=100 (red, right scale). NBER defined peak-to-trough recession dates shaded gray. Source: BEA 2025Q1 3rd release, Atlanta Fed, Dallas Fed, NBER and […]",
-    "publishedAt": "2025-07-27T17:07:01+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.824451+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "Currency"
-    ],
-    "priority": "high",
-    "contentHash": "cd9e65dbc5e8a570"
-  },
-  {
-    "id": "handelsblatt-03712602a663c246",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "Grüne: „Ich bin der Mann an ihrer Seite“: Die Grünen-Chefs stehen vor der ultimativen Zerreißprobe",
-    "url": "https://www.handelsblatt.com/politik/deutschland/gruene-das-fuehrungsduo-steht-vor-der-ultimativen-bewaehrungsprobe/100143113.html",
-    "summary": "Felix Banaszak und Franziska Brantner sind höchst unterschiedlich. Eine Reise durch Baden-Württemberg zeigt: Sie können zusammen. Doch genau dort könnte es sie bald auseinandertreiben.",
-    "publishedAt": "2025-07-27T17:03:21+00:00",
-    "fetchedAt": "2025-07-28T08:47:58.275304+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "03712602a663c246"
-  },
-  {
-    "id": "techmeme-4b448357c0692366",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "An interview with CEO David Baszucki on Roblox's origin story, what's next for the gaming platform whose shares have risen about 200% in the past year, and more (Tim Fernholz/Sherwood News)",
-    "url": "http://www.techmeme.com/250727/p17#a250727p17",
-    "summary": "Tim Fernholz / Sherwood News: An interview with CEO David Baszucki on Roblox's origin story, what's next for the gaming platform whose shares have risen about 200% in the past year, and more  —  Founder and CEO David Baszucki tells us the origin story and what's next for a company that has nearly tripled in stock price …",
-    "publishedAt": "2025-07-27T17:00:14+00:00",
-    "fetchedAt": "2025-07-28T06:12:26.069948+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "4b448357c0692366"
-  },
-  {
-    "id": "wocomo-docs-youtube-9de7979087b8644f",
-    "sourceId": "wocomo-docs-youtube",
-    "sourceName": "Wocomo Docs",
-    "title": "Exploring the Dutch Wilderness by Canoe | Living River (1/2)",
-    "url": "https://www.youtube.com/watch?v=utDqLNaAC9g",
-    "summary": "Watch the second episode here: https://youtu.be/d5Bhmvgd-PU On the way to the Sea. Sail along a large beaver dam, dancing damselflies, fishing black terns, breeding purple herons and hunting white-tailed eagles. Filmmaker and ecologist Ruben Smit observes the brand new river nature in the Netherlands, his home country, from the water in his canoe. A unique, informative and relaxing experience. The enchanting documentary images take you right through the seasons and let you become one with the man in the canoe. On his journey across the Netherlands, from Lobith on the border with Germany to the North Sea. The Rhine, one of the mighty rivers that made and shaped the European delta. A land of water. The rivers that cut through the Netherlands are so much more than just containers of water. The river ecosystem is full of life, with sunsets and sunrises that make your heart skip a beat and with a surprise behind every reed bed. Where human hands have worked hard; river bypasses, floodplains",
-    "fullContent": "Watch the second episode here: https://youtu.be/d5Bhmvgd-PU On the way to the Sea. Sail along a large beaver dam, dancing damselflies, fishing black terns, breeding purple herons and hunting white-tailed eagles. Filmmaker and ecologist Ruben Smit observes the brand new river nature in the Netherlands, his home country, from the water in his canoe. A unique, informative and relaxing experience. The enchanting documentary images take you right through the seasons and let you become one with the man in the canoe. On his journey across the Netherlands, from Lobith on the border with Germany to the North Sea. The Rhine, one of the mighty rivers that made and shaped the European delta. A land of water. The rivers that cut through the Netherlands are so much more than just containers of water. The river ecosystem is full of life, with sunsets and sunrises that make your heart skip a beat and with a surprise behind every reed bed. Where human hands have worked hard; river bypasses, floodplains",
-    "publishedAt": "2025-07-27T17:00:06+00:00",
-    "fetchedAt": "2025-07-30T15:00:43.391563+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "normal",
-    "contentHash": "9de7979087b8644f"
-  },
-  {
-    "id": "yahoo-finance-857ddf3e4d924d5b",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "How ethereum rose to become a mainstream cryptocurrency",
-    "url": "https://finance.yahoo.com/news/how-ethereum-rose-to-become-a-mainstream-cryptocurrency-170001587.html",
-    "summary": "",
-    "publishedAt": "2025-07-27T17:00:01+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.550621+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "857ddf3e4d924d5b"
-  },
-  {
-    "id": "bloomberg-markets-b03f3604cf1c7539",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Fed Is Set for Contentious Debate as Investors Eye Fall Rate Cut",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/fed-is-set-for-contentious-debate-as-investors-eye-fall-rate-cut",
-    "summary": "Federal Reserve officials are determined to hold interest rates steady a little while longer, though an increasingly contentious debate at this week’s policy meeting may bolster expectations for rate cuts in the fall.",
-    "publishedAt": "2025-07-27T17:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.600064+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "b03f3604cf1c7539"
-  },
-  {
-    "id": "seeking-alpha-17617658c7c9c2c0",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Time To Take Profits On Caterpillar",
-    "url": "https://seekingalpha.com/article/4804944-time-to-take-profits-on-caterpillar?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T17:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252521+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "17617658c7c9c2c0"
-  },
-  {
-    "id": "oil-price-7d99e757a40f0399",
-    "sourceId": "oil-price",
-    "sourceName": "OilPrice.com",
-    "title": "Are Small Modular Reactors Worthy of the Hype?",
-    "url": "https://oilprice.com/Energy/Energy-General/Are-Small-Modular-Reactors-Worthy-of-the-Hype.html",
-    "summary": "Nuclear energy is experiencing a political and technical renaissance. Around the world, nuclear fission is gaining traction as a critical piece of the puzzle for maintaining energy security while also slashing greenhouse gas emissions. Much of the renewed excitement over nuclear power comes from advances in nuclear technologies, particularly small modular reactors (SMRs), which are supposed to make nuclear capacity expansion cheaper, safer, and more efficient. SMR is still a broad term, encompassing models with capacities ranging from 1 megawatt…",
-    "publishedAt": "2025-07-27T17:00:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.903531+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7d99e757a40f0399"
-  },
-  {
-    "id": "nyt-business-077214a9c0907a26",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Joan Anderson, Unsung Heroine of Hula Hoop History, Dies at 101",
-    "url": "https://www.nytimes.com/2025/07/27/business/joan-anderson-dead.html",
-    "summary": "Because of a deal made on a handshake in a parking lot, she was long left out of a famous toy’s story. When she was 94, a documentary changed that.",
-    "publishedAt": "2025-07-27T16:59:56+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.793850+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Equities"
-    ],
-    "priority": "normal",
-    "contentHash": "077214a9c0907a26"
-  },
-  {
-    "id": "seeking-alpha-a6d93b7d13040581",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Carter's: Going Against The Market's Narrative As Sales Turn",
-    "url": "https://seekingalpha.com/article/4804943-carters-going-against-markets-narrative-as-sales-turn?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T16:57:29+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252551+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a6d93b7d13040581"
-  },
-  {
-    "id": "zerohedge-47899d9725119803",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Trump Says Supreme Court's Immunity Ruling Likely Helps Obama Following DNI Disclosures",
-    "url": "https://www.zerohedge.com/political/trump-says-supreme-courts-immunity-ruling-likely-helps-obama-following-dni-disclosures",
-    "summary": "Trump Says Supreme Court's Immunity Ruling Likely Helps Obama Following DNI Disclosures Authored by Jack Phillips via The Epoch Times (emphasis ours), President Donald Trump on Friday said that former President Barack Obama likely has immunity following a U.S. Supreme Court ruling in light of a report that was declassified by Director of National Intelligence (DNI) Tulsi Gabbard earlier this month. Gabbard said the documents showed that Obama and his then-Cabinet members “manufactured and politicized intelligence to lay the groundwork for what was essentially a years-long coup against President Trump,” which Obama denied in a statement earlier this week. Gabbard said in a Sunday interview that she referred some Obama-era officials for criminal prosecution to the Department of Justice (DOJ) and the FBI. Trump on Friday was asked by a reporter during a press gaggle at the White House, “How do you think that the Supreme Court’s ruling that benefited you on presidential immunity would appl",
-    "publishedAt": "2025-07-27T16:50:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.544137+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "47899d9725119803"
-  },
-  {
-    "id": "dwarkesh-patel-youtube-885e571377b59fd4",
-    "sourceId": "dwarkesh-patel-youtube",
-    "sourceName": "Dwarkesh Patel",
-    "title": "How Japan Beat Russia with the Meiji Reforms – Sarah Paine",
-    "url": "https://www.youtube.com/watch?v=oNBa10dAe4I",
-    "summary": "Full Episode: https://www.youtube.com/watch?v=KxIeJjEGLdo After my last lecture series with Sarah Paine ended, I still had so many questions. I knew we’d only scratched the surface of Sarah’s scholarship, so I immediately invited her back for another series: she graciously agreed, and we’ll be releasing the results online over the coming weeks and months!",
-    "fullContent": "Full Episode: https://www.youtube.com/watch?v=KxIeJjEGLdo After my last lecture series with Sarah Paine ended, I still had so many questions. I knew we’d only scratched the surface of Sarah’s scholarship, so I immediately invited her back for another series: she graciously agreed, and we’ll be releasing the results online over the coming weeks and months!",
-    "publishedAt": "2025-07-27T16:44:27+00:00",
-    "fetchedAt": "2025-07-30T15:00:42.738251+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "885e571377b59fd4"
-  },
-  {
-    "id": "fortune-842ab05829a6a7e9",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "US and China are expected to extend trade truce by 90 Days, SCMP says",
-    "url": "https://fortune.com/2025/07/27/us-china-trade-truce-extension-90-days-trump-tariffs/",
-    "summary": "The report comes ahead of trade talks between US Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng scheduled to start on Monday in Stockholm.",
-    "publishedAt": "2025-07-27T16:44:03+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.630919+00:00",
-    "category": "markets",
-    "tags": [
-      "Debt",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "842ab05829a6a7e9"
-  },
-  {
-    "id": "business-insider-ed1a023caa6068b4",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "I always thought cruises were fun for adults. Taking my kids on one made me change my mind.",
-    "url": "https://www.businessinsider.com/took-tweens-on-a-cruise-its-the-perfect-family-vacation-2025-7",
-    "summary": "My husband and I had been on plenty of cruises by ourselves. We took our tweens on one this year and they had an absolute blast.",
-    "publishedAt": "2025-07-27T16:34:01+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.892429+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ed1a023caa6068b4"
-  },
-  {
-    "id": "techmeme-36cab54780c2fdd8",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Dubai-based Qlub, which offers contactless payment services to restaurants, raised $30M co-led by Shorooq and Cherry Ventures, taking its total funding to $72M (Nicolas Parasie/Bloomberg)",
-    "url": "http://www.techmeme.com/250727/p16#a250727p16",
-    "summary": "Nicolas Parasie / Bloomberg: Dubai-based Qlub, which offers contactless payment services to restaurants, raised $30M co-led by Shorooq and Cherry Ventures, taking its total funding to $72M  —  Tell us how AI is shaping your news experience.  Share your feedback  —  A Dubai-based restaurant payments platform …",
-    "publishedAt": "2025-07-27T16:30:01+00:00",
-    "fetchedAt": "2025-07-28T06:12:26.070428+00:00",
-    "category": "technology",
-    "tags": [
-      "AI",
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "36cab54780c2fdd8"
-  },
-  {
-    "id": "scmp-business-1c65080ba9c36da5",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Sea search launched after Hong Kong man in rented kayak goes missing",
-    "url": "https://www.scmp.com/news/hong-kong/society/article/3319770/sea-search-launched-after-hong-kong-man-rented-kayak-goes-missing?utm_source=rss_feed",
-    "summary": "Hong Kong rescue teams were searching the waters around Sai Kung after a man failed to return a rented kayak on Sunday afternoon. Authorities received a report from a kayak rental company in Pak Lap, Sai Kung, at about 5pm, saying a male customer in his forties had not returned after heading out earlier in the day. The man reportedly aimed to paddle to the remote and scenic Po Pin Chau, with plans to return the kayak by 4.30pm. Concerned for his safety, company staff alerted authorities. Police...",
-    "publishedAt": "2025-07-27T16:26:50+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.591809+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "breaking",
-    "contentHash": "1c65080ba9c36da5"
-  },
-  {
-    "id": "scmp-business-1c197a0811afacb8",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Sea search launched after Hong Kong man in rented kayak goes missing",
-    "url": "https://www.scmp.com/news/hong-kong/society/article/3319770/sea-search-launched-after-hong-kong-man-rented-kayak-goes-missing?utm_source=rss_feed",
-    "summary": "Hong Kong rescue teams have been searching the waters around Sai Kung after a man failed to return a rented kayak on the weekend. Authorities received a report from a kayak rental company in Pak Lap, Sai Kung, at about 5pm on Sunday, saying a male customer in his forties had not returned after heading out earlier in the day. The man reportedly aimed to paddle to the remote and scenic Po Pin Chau, with plans to return the kayak by 4.30pm. Concerned for his safety, company staff alerted...",
-    "publishedAt": "2025-07-27T16:26:50+00:00",
-    "fetchedAt": "2025-07-28T06:37:10.255126+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "breaking",
-    "contentHash": "1c197a0811afacb8"
-  },
-  {
-    "id": "business-insider-ea07ff50accccf2f",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "The dark side of the Shroom Boom",
-    "url": "https://www.businessinsider.com/the-dark-side-of-the-shroom-boom-psychedelic-medicine-abuse-2025-6",
-    "summary": "Psychedelic medicine is booming. Will it heal trauma, or create even more?",
-    "publishedAt": "2025-07-27T16:24:46+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.892597+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ea07ff50accccf2f"
-  },
-  {
-    "id": "ft-economics-216de9c524d96969",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "White House presses Fed for ‘dramatically lower’ rates as meeting looms",
-    "url": "https://www.ft.com/content/76f13fc1-bceb-4d2f-a326-bd1bf256fc04",
-    "summary": "Jay Powell expected to widen rift with Trump by keeping monetary policy unchanged at Wednesday’s meeting",
-    "publishedAt": "2025-07-27T16:21:06+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.914813+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "216de9c524d96969"
-  },
-  {
-    "id": "doomberg-6b1c348c97bd88d2",
-    "sourceId": "doomberg",
-    "sourceName": "Doomberg",
-    "title": "Tip of the Iceberg",
-    "url": "https://newsletter.doomberg.com/p/tip-of-the-iceberg",
-    "summary": "Pro Tier: July 2025 Doom Zoom",
-    "publishedAt": "2025-07-27T16:20:33+00:00",
-    "fetchedAt": "2025-07-28T04:04:08.642042+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "6b1c348c97bd88d2"
-  },
-  {
-    "id": "techmeme-118eef0d73bcacc7",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Records show China's Starlink rivals have only ~120 satellites in orbit, less than 1% of their goal, vs. SpaceX's ~8,000, underscoring how far behind they are (New York Times)",
-    "url": "http://www.techmeme.com/250727/p15#a250727p15",
-    "summary": "New York Times: Records show China's Starlink rivals have only ~120 satellites in orbit, less than 1% of their goal, vs. SpaceX's ~8,000, underscoring how far behind they are  —  It's looking unlikely.  Here's why.  —  There are over 11,000 satellites in low Earth orbit, providing internet, surveillance and navigation services.",
-    "publishedAt": "2025-07-27T16:20:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:26.071010+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "118eef0d73bcacc7"
-  },
-  {
-    "id": "techmeme-df971a399aed9a77",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Records: China's Starlink rivals have only ~120 satellites in orbit, less than 1% of their goal and below SpaceX's ~8,000, underscoring how far behind they are (New York Times)",
-    "url": "http://www.techmeme.com/250727/p15#a250727p15",
-    "summary": "New York Times: Records: China's Starlink rivals have only ~120 satellites in orbit, less than 1% of their goal and below SpaceX's ~8,000, underscoring how far behind they are  —  It's looking unlikely.  Here's why.  —  There are over 11,000 satellites in low Earth orbit, providing internet, surveillance and navigation services.",
-    "publishedAt": "2025-07-27T16:20:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:17.302710+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology"
-    ],
-    "priority": "high",
-    "contentHash": "df971a399aed9a77"
-  },
-  {
-    "id": "zerohedge-c8a1c0584614fd3c",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "11 Stabbed In Attack At Michigan Walmart",
-    "url": "https://www.zerohedge.com/medical/11-stabbed-attack-michigan-walmart",
-    "summary": "11 Stabbed In Attack At Michigan Walmart A stabbing incident at a Walmart in Traverse City, Michigan, left at least 11 people injured, according to authorities. The local sheriff’s office is investigating the attack and details are limited, but Michigan State Police confirmed that a suspect was in custody. Meanwhile, T.J.Muscaro reports for The Epoch Times that Munson Healthcare posted on social media that 11 people were being treated at a hospital in northern Michigan, and a spokeswoman further said that all 11 were stabbing victims. Spokesperson Megan Brown said late Saturday that six were in critical condition and five were in serious condition. The Grand Traverse County Sheriff’s Office later said in a statement on social media that the suspect was a 42-year-old man who entered the store around 4:45 p.m. A sheriff’s deputy arrived within minutes of the suspect drawing his knife. He was taken into custody, and people in the store also helped apprehend the suspect and treat victims, ",
-    "publishedAt": "2025-07-27T16:15:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.545247+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c8a1c0584614fd3c"
-  },
-  {
-    "id": "advisor-perspectives-44602f1e9695edcd",
-    "sourceId": "advisor-perspectives",
-    "sourceName": "Advisor Perspectives",
-    "title": "A New AI Playbook for America",
-    "url": "https://www.advisorperspectives.com/commentaries/2025/07/27/new-ai-playbook-america?utm_source=content_rss_feed&utm_medium=rss&utm_campaign=item_link",
-    "summary": "This week, the White House released America’s AI Action Plan. This plan is the clearest signal yet that Washington now views AI as launching the next industrial super-cycle.",
-    "publishedAt": "2025-07-27T16:05:52+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.662821+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "44602f1e9695edcd"
-  },
-  {
-    "id": "fortune-95ab4419d30ebd96",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "‘US exceptionalism roars back’ as markets defy doomsayers and draw record foreign inflows after panic over Trump tariffs",
-    "url": "https://fortune.com/2025/07/27/us-markets-american-exceptionalism-foreign-investors-stocks-treasury-bonds/",
-    "summary": "\"The hurdle for the US to experience genuine capital flight is high and certainly wasn’t breached in April.\"",
-    "publishedAt": "2025-07-27T16:05:48+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.631126+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "95ab4419d30ebd96"
-  },
-  {
-    "id": "scmp-business-e70ceabb48b30995",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "CK Hutchison seeks mainland strategic investor for US$23 billion ports deal",
-    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3319768/talks-deadline-ck-hutchison-us23-billion-panama-ports-deal-passes-sunday?utm_source=rss_feed",
-    "summary": "Hong Kong tycoon Li Ka-shing’s CK Hutchison Holdings has said it plans to invite a major strategic investor from mainland China to join as a “significant member” of a consortium seeking to buy its global port stakes, after a deadline for exclusive talks on the US$23 billion sale deal expired on Sunday. The controversial transaction involved CK Hutchison selling stakes in 43 ports, including two at either end of the Panama Canal, to the consortium led by Terminal Investment Limited, an affiliate...",
-    "publishedAt": "2025-07-27T16:01:14+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.592063+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "e70ceabb48b30995"
-  },
-  {
-    "id": "scmp-business-11feee0374dee474",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "CK Hutchison seeks mainland strategic investor for US$23 billion ports deal",
-    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3319768/talks-deadline-ck-hutchison-us23-billion-panama-ports-deal-passes-sunday?utm_source=rss_feed",
-    "summary": "Hong Kong tycoon Li Ka-shing’s CK Hutchison Holdings has said it plans to invite a major strategic investor from mainland China to join as a “significant member” of a consortium seeking to buy its global port stakes, after a deadline for exclusive talks on the US$23 billion deal expired on Sunday. The controversial transaction involved CK Hutchison selling stakes in 43 ports, including two at either end of the Panama Canal, to the consortium led by Terminal Investment Limited, an affiliate of...",
-    "publishedAt": "2025-07-27T16:01:14+00:00",
-    "fetchedAt": "2025-07-28T04:44:18.879368+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "11feee0374dee474"
-  },
-  {
-    "id": "scmp-business-d93a0143919416e7",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "CK Hutchison seeks mainland Chinese investor for US$23 billion ports deal",
-    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3319768/talks-deadline-ck-hutchison-us23-billion-panama-ports-deal-passes-sunday?utm_source=rss_feed",
-    "summary": "Hong Kong tycoon Li Ka-shing’s CK Hutchison Holdings has said it plans to invite a major strategic investor from mainland China to join as a “significant member” of a consortium seeking to buy its global port stakes, after a deadline for exclusive talks on the US$23 billion deal expired on Sunday. The controversial deal involved CK Hutchison selling stakes in 43 ports, including two at either end of the Panama Canal, to the consortium led by Terminal Investment Limited, an affiliate of the...",
-    "publishedAt": "2025-07-27T16:01:14+00:00",
-    "fetchedAt": "2025-07-28T05:55:49.061404+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "d93a0143919416e7"
-  },
-  {
-    "id": "scmp-business-8d4205708cb29108",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "CK Hutchison seeks mainland Chinese investor for US$23 billion ports deal",
-    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3319768/talks-deadline-ck-hutchison-us23-billion-panama-ports-deal-passes-sunday?utm_source=rss_feed",
-    "summary": "Hong Kong tycoon Li Ka-shing’s CK Hutchison Holdings has said it plans to invite a major strategic investor from mainland China to join as a “significant member” of a consortium seeking to buy its global port stakes, after a deadline for exclusive talks on the US$23 billion deal expired at the weekend. Hours after the announcement of CK Hutchison on Monday, Chinese Ministry of Foreign Affairs spokesman Guo Jiakun said the central government would regulate in accordance with the law and safeguard...",
-    "publishedAt": "2025-07-27T16:01:14+00:00",
-    "fetchedAt": "2025-07-28T09:46:55.061678+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "8d4205708cb29108"
-  },
-  {
-    "id": "marginal-revolution-a6854bb6a3f8453e",
-    "sourceId": "marginal-revolution",
-    "sourceName": "Marginal Revolution",
-    "title": "Sunday assorted links",
-    "url": "https://marginalrevolution.com/marginalrevolution/2025/07/sunday-assorted-links-526.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-526",
-    "summary": "1. Those old service sector jobs. 2. Does aging accelerate at age fifty? 3. India travel dispatch. 4. Queen Anne statue still regulating betting in DC. 5. Defending social media. 6. What Dan read, NYT coverage here. 7. Bunch of complicated prediction market results about central bank independence. The post Sunday assorted links appeared first on Marginal REVOLUTION.",
-    "publishedAt": "2025-07-27T15:51:25+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.242340+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "a6854bb6a3f8453e"
-  },
-  {
-    "id": "benthams-5088acb4bf9f4eca",
-    "sourceId": "benthams",
-    "sourceName": "Benthams",
-    "title": "The \"Freethinkers\" Who Aren't",
-    "url": "https://benthams.substack.com/p/the-freethinkers-who-arent",
-    "summary": "How the “heterodox” became what they hated",
-    "publishedAt": "2025-07-27T15:46:15+00:00",
-    "fetchedAt": "2025-07-28T06:33:12.502932+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "5088acb4bf9f4eca"
-  },
-  {
-    "id": "zerohedge-7b4c7da8192f8568",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Bongino Declares He's \"Shocked To The Core\" By FBI Deep State Investigations",
-    "url": "https://www.zerohedge.com/political/bongino-declares-hes-shocked-core-fbi-deep-state-investigations",
-    "summary": "Bongino Declares He's \"Shocked To The Core\" By FBI Deep State Investigations Authored by Steve Watson via Modernity.news, Deputy FBI Director Dan Bongino has claimed that investigations into Deep State weaponisation of law enforcement and intelligence operations are underway behind the scenes and that what he has already discovered has profoundly “shocked” him. “During my tenure here as the Deputy Director of the FBI, I have repeatedly relayed to you that things are happening that might not be immediately visible, but they are happening,” Bongino states in an X post. He adds, “The Director and I are committed to stamping out public corruption and the political weaponization of both law enforcement and intelligence operations. It is a priority for us.” During my tenure here as the Deputy Director of the FBI, I have repeatedly relayed to you that things are happening that might not be immediately visible, but they are happening. The Director and I are committed to stamping out public cor",
-    "publishedAt": "2025-07-27T15:40:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.546738+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7b4c7da8192f8568"
-  },
-  {
-    "id": "handelsblatt-711d65a7de7bb028",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "Handelskrieg: USA und China verlängern voraussichtlich Frist im Zollstreit",
-    "url": "https://www.handelsblatt.com/politik/international/handelskrieg-usa-und-china-verlaengern-voraussichtlich-frist-im-zollstreit/100144404.html",
-    "summary": "Die USA und China verhandeln in Stockholm über Strafzölle. Jetzt haben sich die beiden Mächte wohl auf eine vorübergehende Aussetzung der Zölle geeinigt.",
-    "publishedAt": "2025-07-27T15:37:18+00:00",
-    "fetchedAt": "2025-07-28T08:47:58.275602+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "711d65a7de7bb028"
-  },
-  {
-    "id": "zerohedge-4f1bcd18b2808b63",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "China, US Extend Tariff Pause Another 90 Days",
-    "url": "https://www.zerohedge.com/geopolitical/china-us-extend-tariff-pause-another-90-days",
-    "summary": "China, US Extend Tariff Pause Another 90 Days Ahead of trade talks in Stockholm that are set to begin tomorrow, The South China Morning Post reports that, according to sources close to the matter on both sides, the US and China are set to extend their tariff truced by another three months. China and the United States agreed in May to remove most of the heavy tariffs levied on each other's goods for 90 days while continuing trade negotiations. That suspension is set to expire on August 12. SCMP reports that one source said that, during the expected 90-day extension, the two nations will commit to not impose additional tariffs on each other, nor escalate the trade war by other means. People's Daily, the mouthpiece of China's ruling Communist Party, said in an editorial on Sunday that Beijing was willing to work with Washington to make \"substantive progress\" in resolving issues during the coming trade talks in the Swedish capital. \"China has always maintained a constructive position and i",
-    "publishedAt": "2025-07-27T15:37:11+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.548387+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4f1bcd18b2808b63"
-  },
-  {
-    "id": "techmeme-23189924abbfa655",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "April, which provides tax tools that embed directly into financial apps, raised a $38M Series B led by QED Investors, bringing its total funding to $78M (Ryan Lawler/Axios)",
-    "url": "http://www.techmeme.com/250727/p14#a250727p14",
-    "summary": "Ryan Lawler / Axios: April, which provides tax tools that embed directly into financial apps, raised a $38M Series B led by QED Investors, bringing its total funding to $78M",
-    "publishedAt": "2025-07-27T15:30:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:26.071477+00:00",
-    "category": "technology",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "23189924abbfa655"
-  },
-  {
-    "id": "bloomberg-economics-4c02766e2899058b",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "US and China Are Expected to Extend Trade Truce by 90 Days, SCMP Says",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-and-china-are-expected-to-extend-trade-truce-by-90-days-scmp-says",
-    "summary": "US and China are expected to extend their tariff truce by another three months, the South China Morning Post reported, citing unnamed sources.",
-    "publishedAt": "2025-07-27T15:29:29+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.979144+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "4c02766e2899058b"
-  },
-  {
-    "id": "wealth-common-sense-1faf2082b072673d",
-    "sourceId": "wealth-common-sense",
-    "sourceName": "A Wealth of Common Sense",
-    "title": "Housing Market Nobility",
-    "url": "https://awealthofcommonsense.com/2025/07/housing-market-nobility/",
-    "summary": "Housing haves and have-nots. The post Housing Market Nobility appeared first on A Wealth of Common Sense. ...",
-    "publishedAt": "2025-07-27T15:25:27+00:00",
-    "fetchedAt": "2025-07-30T08:45:59.219911+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1faf2082b072673d"
-  },
-  {
-    "id": "fortune-c9e9a4ddbe3537ec",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "US-EU trade deal with 15% tariff is on the table but needs sign-off from Trump, diplomat says",
-    "url": "https://fortune.com/2025/07/27/us-eu-trade-deal-15-perent-tariff-trump-talks-lng-carveouts/",
-    "summary": "Under the proposal described to AFP, the EU would commit to ramp up purchases of US liquefied natural gas, along with other investment pledges.",
-    "publishedAt": "2025-07-27T15:20:20+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.631326+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "c9e9a4ddbe3537ec"
-  },
-  {
-    "id": "econbrowser-b1da16f4a2abd11b",
-    "sourceId": "econbrowser",
-    "sourceName": "Econbrowser",
-    "title": "Betting on 2.5%",
-    "url": "https://econbrowser.com/archives/2025/07/betting-on-2-5",
-    "summary": "Kalshi today. 2.4% from GDPNow and the Bloomberg consensus. Figure 1: GDP as reported (bold black), GDPNow (blue open square), NY Fed (light blue triangle) WSJ July survey mean (tan), Kalshi bet, 7/28 (pink circle), Bloomberg consensus as of 7/28 (light green circle), all in bn.Ch.2017$, SAAR. All predictions as of 7/25 unless otherwise indicated. […]",
-    "publishedAt": "2025-07-27T15:19:08+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.824694+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "ESG"
-    ],
-    "priority": "high",
-    "contentHash": "b1da16f4a2abd11b"
   }
 ]

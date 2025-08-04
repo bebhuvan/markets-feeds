@@ -68,6 +68,23 @@
     "contentHash": "25c20f6"
   },
   {
+    "id": "et-markets-785263e7",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times Markets",
+    "title": "",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/adani-ports-q1-preview-pat-may-jump-up-to-26-yoy-revenue-to-rise-in-double-digits-on-robust-volumes-check-4-likely-takeaways/articleshow/123088932.cms",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:44:50.000Z",
+    "fetchedAt": "2025-08-04T06:58:44.918Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "785263e7"
+  },
+  {
     "id": "bloomberg-markets-586273b",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
@@ -185,6 +202,23 @@
     ],
     "priority": "normal",
     "contentHash": "53039433"
+  },
+  {
+    "id": "et-markets-47538d47",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times Markets",
+    "title": "",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/boj-watch-food-inflation-and-tariff-relief-set-stage-for-hike/slideshow/123088854.cms",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T06:32:55.000Z",
+    "fetchedAt": "2025-08-04T06:58:44.918Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "47538d47"
   },
   {
     "id": "techmeme-26a20a13",
@@ -1664,39 +1698,5 @@
     ],
     "priority": "normal",
     "contentHash": "23844bf0"
-  },
-  {
-    "id": "nyt-business-2e4d3911",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "What’s It Like to Deal With Brutal U.S. Tariffs? Ask Malaysia.",
-    "url": "https://www.nytimes.com/2025/08/04/business/malaysia-solar-china.html",
-    "summary": "Once a cog in the Malaysian economy, the solar industry profited from Chinese investment. Now it’s becoming a case study of what happens when the United States closes its markets.",
-    "fullContent": "Once a cog in the Malaysian economy, the solar industry profited from Chinese investment. Now it’s becoming a case study of what happens when the United States closes its markets.",
-    "publishedAt": "2025-08-04T04:00:05.000Z",
-    "fetchedAt": "2025-08-04T06:57:23.268Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2e4d3911"
-  },
-  {
-    "id": "ft-markets-6dbefb25",
-    "sourceId": "ft-markets",
-    "sourceName": "Financial Times Markets",
-    "title": "",
-    "url": "https://www.ft.com/content/ccacedd7-737b-4ec5-bee5-c112826b1102",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T04:00:01.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.801Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6dbefb25"
   }
 ]

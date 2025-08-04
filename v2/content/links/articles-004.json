@@ -1,5 +1,39 @@
 [
   {
+    "id": "nyt-business-2e4d3911",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "What’s It Like to Deal With Brutal U.S. Tariffs? Ask Malaysia.",
+    "url": "https://www.nytimes.com/2025/08/04/business/malaysia-solar-china.html",
+    "summary": "Once a cog in the Malaysian economy, the solar industry profited from Chinese investment. Now it’s becoming a case study of what happens when the United States closes its markets.",
+    "fullContent": "Once a cog in the Malaysian economy, the solar industry profited from Chinese investment. Now it’s becoming a case study of what happens when the United States closes its markets.",
+    "publishedAt": "2025-08-04T04:00:05.000Z",
+    "fetchedAt": "2025-08-04T06:57:23.268Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2e4d3911"
+  },
+  {
+    "id": "ft-markets-6dbefb25",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times Markets",
+    "title": "",
+    "url": "https://www.ft.com/content/ccacedd7-737b-4ec5-bee5-c112826b1102",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T04:00:01.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.801Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6dbefb25"
+  },
+  {
     "id": "ft-economics-67e91cdd",
     "sourceId": "ft-economics",
     "sourceName": "FT Economics",
@@ -1664,39 +1698,5 @@
     ],
     "priority": "normal",
     "contentHash": "77d701d5"
-  },
-  {
-    "id": "marginal-revolution-2ff6ff9e",
-    "sourceId": "marginal-revolution",
-    "sourceName": "Marginal Revolution",
-    "title": "The Prime Minister of Sweden asks AI for advice in his job “quite often”",
-    "url": "https://marginalrevolution.com/marginalrevolution/2025/08/the-prime-minister-of-sweden-asks-ai-for-advice-in-his-job-quite-often.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-prime-minister-of-sweden-asks-ai-for-advice-in-his-job-quite-often",
-    "summary": "Here is the Reddit discussion. The post The Prime Minister of Sweden asks AI for advice in his job “quite often” appeared first on <a",
-    "fullContent": "Here is the Reddit discussion. The post The Prime Minister of Sweden asks AI for advice in his job “quite often” appeared first on Marginal REVOLUTION. ]]>",
-    "publishedAt": "2025-08-03T20:22:59.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.270Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "2ff6ff9e"
-  },
-  {
-    "id": "techmeme-71cd2a78",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "A look at why the AI data center building boom could spark a financial crisis akin to 2008, including the rising use of debt financing via private credit funds (Noah Smith/Noahpinion)",
-    "url": "http://www.techmeme.com/250803/p17#a250803p17",
-    "summary": "<IMG WIDTH=11 HEIGHT=12 SRC",
-    "fullContent": "Noah Smith / Noahpinion: A look at why the AI data center building boom could spark a financial crisis akin to 2008, including the rising use of debt financing via private credit funds&nbsp; &mdash;&nbsp; This time let's think about a financial crisis before it happens.&nbsp; &mdash;&nbsp; The U.S. economic data for the last few months is looking decidedly meh. ]]>",
-    "publishedAt": "2025-08-03T20:20:01.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.685Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "71cd2a78"
   }
 ]
