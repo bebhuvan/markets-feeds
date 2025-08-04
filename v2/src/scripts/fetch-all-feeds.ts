@@ -200,6 +200,6 @@ async function generateReport(results: any[], totalArticles: number): Promise<vo
 }
 
 // Run the script
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   main().catch(console.error);
 }

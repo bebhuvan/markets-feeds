@@ -16,14 +16,12 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
     
-    - name: Install Node.js manually
-      run: |
-        # Install Node.js 20 directly without using setup-node action
-        curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-        sudo apt-get install -y nodejs
-        node --version
-        npm --version
-        echo "Node.js installed successfully"
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: 'v2/package-lock.json'
     
     - name: Verify project structure
       run: |
@@ -36,15 +34,15 @@ jobs:
         cat package.json
     
     - name: Install dependencies
+      working-directory: v2
       run: |
-        cd v2
         echo "Installing npm dependencies..."
-        npm install --no-package-lock
+        npm ci
         echo "Dependencies installed"
     
     - name: Run feed fetcher
+      working-directory: v2
       run: |
-        cd v2
         echo "Starting RSS feed fetch..."
         npm run fetch-feeds
         echo "Feed fetch completed"
