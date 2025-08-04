@@ -29,10 +29,10 @@ export const CATEGORIES = {
 
 // Source categories for sidebar
 export const SOURCE_CATEGORIES = {
-  'Indian Markets': ['et-markets', 'thehindubusinessline', 'moneycontrol-news', 'ndtv-profit'],
-  'Indian Regulation': ['rbi-press', 'sebi-news', 'bse-notices'],
-  'Global Financial': ['bloomberg', 'financial-times', 'reuters', 'economist'],
-  'Research': ['nber', 'harvard-business', 'journal-economics', 'cfa-institute'],
+  'Indian Markets': ['et-markets', 'thehindubusinessline', 'moneycontrol-news', 'ndtv-profit-rss'],
+  'Indian Regulation': ['rbi-press', 'sebi-news', 'bse-notices', 'nse-online-announcements'],
+  'Global Financial': ['bloomberg-markets', 'ft-markets', 'reuters-business', 'economist-finance'],
+  'Research': ['nber-papers', 'harvard-hbs-youtube', 'cfa-institute-blog'],
   'Commentary': ['eclectic', 'blogs', 'analysis'],
   'Technology': ['techmeme', 'the-verge', 'wired'],
   'Other': ['podcasts', 'newsletters', 'aggregators']

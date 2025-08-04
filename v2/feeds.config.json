@@ -349,8 +349,7 @@
       "sourceId": "nse-online-announcements",
       "category": "filings",
       "fetchInterval": 360,
-      "active": false,
-      "note": "NSE RSS feeds discontinued - returning 404 errors"
+      "active": true
     },
     {
       "id": "nse_annual_reports",
@@ -379,8 +378,7 @@
       "sourceId": "nse-financial-results",
       "category": "earnings",
       "fetchInterval": 360,
-      "active": false,
-      "note": "NSE RSS feeds discontinued - returning 403 errors"
+      "active": true
     },
     {
       "id": "nse_offer_documents",
@@ -399,8 +397,7 @@
       "sourceId": "nse-circulars",
       "category": "regulation",
       "fetchInterval": 480,
-      "active": false,
-      "note": "NSE RSS feeds discontinued - returning 403 errors"
+      "active": true
     },
     {
       "id": "bse_notices",
@@ -711,7 +708,7 @@
     {
       "id": "ndtv_profit_rss",
       "name": "NDTV Profit RSS",
-      "url": "https://www.ndtvprofit.com/rss-notifications",
+      "url": "https://prod-qt-images.s3.amazonaws.com/production/bloombergquint/feed.xml",
       "sourceId": "ndtv-profit-rss",
       "category": "markets",
       "fetchInterval": 120,
