@@ -24,12 +24,16 @@ const topSources = Object.entries(sourceCounts)
   .sort(([, a], [, b]) => b - a)
   .slice(0, 8);
 
-// Quick filters - implement actual filtering logic
+// Quick filters - comprehensive filtering options
 const quickFilters = [
-  { id: 'breaking', label: '🔥 Breaking News', keywords: ['breaking', 'urgent', 'alert', 'emergency'] },
-  { id: 'earnings', label: '📊 Earnings', keywords: ['earnings', 'quarterly', 'results', 'profit', 'revenue'] },
-  { id: 'fed', label: '🏛️ Fed News', keywords: ['federal reserve', 'fed', 'interest rates', 'monetary policy'] },
-  { id: 'crypto', label: '₿ Crypto', keywords: ['bitcoin', 'crypto', 'cryptocurrency', 'blockchain', 'ethereum'] }
+  { id: 'breaking', label: '🔥 Breaking News', keywords: ['breaking', 'urgent', 'alert', 'emergency', 'crisis'] },
+  { id: 'earnings', label: '📊 Earnings', keywords: ['earnings', 'quarterly', 'results', 'profit', 'revenue', 'guidance'] },
+  { id: 'fed', label: '🏛️ Central Banking', keywords: ['federal reserve', 'fed', 'interest rates', 'monetary policy', 'ecb', 'central bank'] },
+  { id: 'crypto', label: '₿ Crypto', keywords: ['bitcoin', 'crypto', 'cryptocurrency', 'blockchain', 'ethereum', 'defi'] },
+  { id: 'ma', label: '🤝 M&A', keywords: ['merger', 'acquisition', 'buyout', 'takeover', 'deal', 'acquired'] },
+  { id: 'ipos', label: '🚀 IPOs', keywords: ['ipo', 'initial public offering', 'listing', 'debut', 'goes public'] },
+  { id: 'commodities', label: '🛢️ Commodities', keywords: ['oil', 'gold', 'copper', 'commodities', 'energy', 'metals'] },
+  { id: 'tech', label: '💻 Tech', keywords: ['technology', 'ai', 'artificial intelligence', 'software', 'tech', 'startup'] }
 ];
 ---
 
@@ -113,10 +117,32 @@ const quickFilters = [
     border-radius: 8px;
     border: 1px solid #e8ebed;
     overflow: hidden;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    position: sticky;
+    top: 20px;
+  }
+
+  /* Custom scrollbar */
+  .sidebar::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .sidebar::-webkit-scrollbar-track {
+    background: #f8fafc;
+  }
+
+  .sidebar::-webkit-scrollbar-thumb {
+    background: #e8ebed;
+    border-radius: 2px;
+  }
+
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: #d1d5db;
   }
 
   .sidebar-section {
-    padding: 16px;
+    padding: 12px 16px;
     border-bottom: 1px solid #e8ebed;
   }
 
@@ -130,7 +156,7 @@ const quickFilters = [
     color: #9ca3af;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
 
   /* Market Data */
@@ -250,24 +276,25 @@ const quickFilters = [
 
   /* Filter buttons */
   .filter-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
   }
 
   .filter-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 10px;
+    padding: 6px 8px;
     background: #f8fafc;
     border: 1px solid #e8ebed;
-    border-radius: 5px;
-    font-size: 12px;
+    border-radius: 4px;
+    font-size: 11px;
     color: #6b7280;
     text-align: left;
     cursor: pointer;
     transition: all 0.15s ease;
+    min-height: 32px;
   }
 
   .filter-btn:hover {
@@ -283,13 +310,14 @@ const quickFilters = [
   }
 
   .filter-count {
-    font-size: 10px;
+    font-size: 9px;
     color: #9ca3af;
     background: #ffffff;
-    padding: 2px 6px;
-    border-radius: 8px;
-    min-width: 16px;
+    padding: 1px 4px;
+    border-radius: 6px;
+    min-width: 14px;
     text-align: center;
+    font-weight: 500;
   }
 
   /* Source list */
