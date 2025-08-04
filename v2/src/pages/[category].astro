@@ -28,10 +28,15 @@ const categoryLabel = CATEGORIES[category as keyof typeof CATEGORIES];
 
 // Get source counts for sidebar
 const sourceCounts = await dataLoader.getSourceCounts();
+
+// Get last update time
+const lastUpdate = categoryItems.length > 0 
+  ? new Date(Math.max(...categoryItems.map(item => new Date(item.fetchedAt || item.publishedAt).getTime())))
+  : new Date();
 ---
 
 <Layout title={`${categoryLabel} - Markets Feeds`}>
-  <Header />
+  <Header lastUpdate={lastUpdate} totalArticles={categoryItems.length} />
   <Navigation currentCategory={category} categoryCounts={categoryCounts} />
   
   <div class="container">

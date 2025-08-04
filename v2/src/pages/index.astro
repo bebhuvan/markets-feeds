@@ -27,7 +27,7 @@ const sourceCounts = await dataLoader.getSourceCounts();
 ---
 
 <Layout title="Markets Feeds - Financial News Aggregator">
-  <Header lastUpdate={lastUpdate} />
+  <Header lastUpdate={lastUpdate} totalArticles={allItems.length} />
   <Navigation categoryCounts={categoryCounts} />
   
   <div class="container">
