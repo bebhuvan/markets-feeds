@@ -1,422 +1,371 @@
 [
   {
-    "id": "ndtv-profit-rss-b012365",
+    "id": "fortune-6d874124",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "&#8216;Enough is enough&#8217;: Boeing sees 3,200 workers go on strike as period of labor strife continues",
+    "url": "https://fortune.com/2025/08/04/boeing-workers-strike-3200-st-louis-illinois/",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:57:43.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.385Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6d874124"
+  },
+  {
+    "id": "yahoo-finance-6245834a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "B&G Foods offloads Le Sueur brand to McCall Farms",
+    "url": "https://finance.yahoo.com/news/b-g-foods-offloads-le-125721390.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:57:21.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6245834a"
+  },
+  {
+    "id": "yahoo-finance-781106d6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "41 States Where Retirees Are Expected To Run Out of Money in Retirement",
+    "url": "https://finance.yahoo.com/news/41-states-where-retirees-expected-125709157.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:57:09.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "781106d6"
+  },
+  {
+    "id": "yahoo-finance-2ce636a9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Wayfair Stock Jumps As Q2 Beats Expectation Despite Tariff Concerns",
+    "url": "https://www.investors.com/news/technology/wayfair-stock-w-news-q2-2025-earnings/?src=A00220&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:57:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.960Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2ce636a9"
+  },
+  {
+    "id": "wsj-opinion-54900558",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Does Artificial Intelligence Belong In Schools?",
+    "url": "https://www.wsj.com/opinion/does-artificial-intelligence-belong-in-schools-e5590bc8",
+    "summary": "Teachers unions are embracing AI in classrooms. What does that mean for students?",
+    "fullContent": "Teachers unions are embracing AI in classrooms. What does that mean for students?",
+    "publishedAt": "2025-08-04T12:57:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:28.060Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "54900558"
+  },
+  {
+    "id": "trendlyne-youtube-5c2835e9",
+    "sourceId": "trendlyne-youtube",
+    "sourceName": "Trendlyne YouTube",
+    "title": "Aditya Birla Capital Earnings Call for Q1FY26",
+    "url": "https://www.youtube.com/watch?v=-7BMIQeMuM0",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:56:56.000Z",
+    "fetchedAt": "2025-08-04T13:23:51.235Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "5c2835e9"
+  },
+  {
+    "id": "yahoo-finance-3335eb14",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Eli Lilly and Company (LLY) Slid Despite Strong Top-Line Growth",
+    "url": "https://finance.yahoo.com/news/eli-lilly-company-lly-slid-125605748.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:56:05.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.960Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3335eb14"
+  },
+  {
+    "id": "ndtv-profit-rss-1ec59c96",
     "sourceId": "ndtv-profit-rss",
     "sourceName": "NDTV Profit RSS",
-    "title": "Sona BLW Precision Q1 Results: Profit Falls 23%; Order Book Reaches Rs 26,200 Crore",
-    "url": "https://www.ndtvprofit.com/quarterly-earnings/sona-blw-precision-q1-results-profit-falls-order-book-reaches-rs-26200-crore",
-    "summary": "Revenue decreased by 7.6% year-on-year for the three months ended June, reaching Rs 767 crore.",
-    "fullContent": "Revenue decreased by 7.6% year-on-year for the three months ended June, reaching Rs 767 crore.",
-    "publishedAt": "2025-08-04T11:43:49.275Z",
+    "title": "Kansai Nerolac Q1 Results: Profit Down 4%",
+    "url": "https://www.ndtvprofit.com/quarterly-earnings/kansai-nerolac-paints-q1-fy26-results-profit-revenue-ebitda-margin",
+    "summary": "The paint company's revenue was up 1% at Rs 2,162 crore.",
+    "fullContent": "The paint company's revenue was up 1% at Rs 2,162 crore.",
+    "publishedAt": "2025-08-04T12:55:23.658Z",
     "fetchedAt": "2025-08-04T13:23:29.097Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "b012365"
+    "contentHash": "1ec59c96"
   },
   {
-    "id": "fortune-205e94a1",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "The dollar is being punished for the jobs data that revealed how weak the U.S. economy really was",
-    "url": "https://fortune.com/2025/08/04/us-dollar-bls-jobs-data-weak-economy/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:42:48.000Z",
-    "fetchedAt": "2025-08-05T02:40:14.627Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "205e94a1"
-  },
-  {
-    "id": "bloomberg-markets-63c1d7dd",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-04/uk-power-prices-go-negative-as-storm-floris-batters-scotland",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:40:51.000Z",
-    "fetchedAt": "2025-08-04T13:23:27.004Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "63c1d7dd"
-  },
-  {
-    "id": "ft-economics-55a4226f",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "",
-    "url": "https://www.ft.com/content/c6389de3-3f6b-4522-8a0b-e430600a1928",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:38:09.000Z",
-    "fetchedAt": "2025-08-04T13:23:28.500Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "55a4226f"
-  },
-  {
-    "id": "business-insider-3f3ea8c",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Ex-Google exec says AI is coming for your job — even if you're a podcaster, developer, or CEO",
-    "url": "https://www.businessinsider.com/ex-google-exec-predicts-end-of-white-collar-jobs-starting-in-2027-2025-8",
-    "summary": "Former Google X exec Mo Gawdat said AI will replace most white-collar jobs and warned of a looming &#34;short-term dystopia.&#34;",
-    "fullContent": "Former Google X exec Mo Gawdat said AI will replace most white-collar jobs and warned of a looming &#34;short-term dystopia.&#34;",
-    "publishedAt": "2025-08-04T11:36:10.000Z",
-    "fetchedAt": "2025-08-04T13:23:27.652Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3f3ea8c"
-  },
-  {
-    "id": "ndtv-profit-youtube-200c47c9",
-    "sourceId": "ndtv-profit-youtube",
-    "sourceName": "NDTV Profit YouTube",
-    "title": "Trump News | Top Trump Aide Accuses India Of Indirectly Funding Russia's War Against Ukraine",
-    "url": "https://www.youtube.com/watch?v=XRSlmMUdYQA",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:32:26.000Z",
-    "fetchedAt": "2025-08-04T13:23:35.943Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "200c47c9"
-  },
-  {
-    "id": "ndtv-profit-youtube-7dcccb85",
-    "sourceId": "ndtv-profit-youtube",
-    "sourceName": "NDTV Profit YouTube",
-    "title": "India Vs England Test Match | Siraj The Hero As India Clinch Famous Win Vs England; Level Series 2-2",
-    "url": "https://www.youtube.com/watch?v=XR0nFWNvti8",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:30:28.000Z",
-    "fetchedAt": "2025-08-04T13:23:35.943Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "7dcccb85"
-  },
-  {
-    "id": "bloomberg-markets-399bf808",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-04/tyson-foods-raises-2025-outlook-as-chicken-offsets-beef-losses",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:30:03.000Z",
-    "fetchedAt": "2025-08-04T13:23:27.004Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "399bf808"
-  },
-  {
-    "id": "et-markets-2723e00d",
+    "id": "et-markets-c78a155",
     "sourceId": "et-markets",
     "sourceName": "Economic Times Markets",
     "title": "",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/promoters-sell-rs-55000-crore-worth-of-stocks-in-q1-holding-slumps-to-8-year-low/articleshow/123095000.cms",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/antfin-to-likely-sell-entire-5-84-stake-in-paytm-at-rs-3800-crore-via-block-deal-report/articleshow/123096988.cms",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:29:38.000Z",
+    "publishedAt": "2025-08-04T12:55:08.000Z",
     "fetchedAt": "2025-08-04T13:23:27.298Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "2723e00d"
+    "contentHash": "c78a155"
   },
   {
-    "id": "bloomberg-business-youtube-6eeafc72",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business YouTube",
-    "title": "Trump Set to Announce New Fed Governor, BLS Data Head",
-    "url": "https://www.youtube.com/watch?v=tK2i0v0D_CM",
+    "id": "yahoo-finance-cd62334",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Blade, Joby shares rally after companies strike $125 million deal on helicopter ridesharing business",
+    "url": "https://finance.yahoo.com/news/blade-joby-shares-rally-after-companies-strike-125-million-deal-on-helicopter-ridesharing-business-125408531.html",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:28:10.000Z",
-    "fetchedAt": "2025-08-04T13:23:38.952Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "6eeafc72"
-  },
-  {
-    "id": "techmeme-5aa2f77b",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "Silicon Valley has shifted from Web 2.0 to a new \"hard tech\", AI-dominated era with fewer perks and a more serious mood, as startups use San Francisco as a base (Mike Isaac/New York Times)",
-    "url": "http://www.techmeme.com/250804/p17#a250804p17",
-    "summary": "P",
-    "fullContent": "Mike Isaac / New York Times: Silicon Valley has shifted from Web 2.0 to a new \"hard tech\", AI-dominated era with fewer perks and a more serious mood, as startups use San Francisco as a base — In a scene in HBO's \"Silicon Valley\" in 2014, a character who had just sold his idea to a fictional tech company &hellip; ]]",
-    "publishedAt": "2025-08-04T11:25:00.000Z",
-    "fetchedAt": "2025-08-04T13:23:29.323Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "5aa2f77b"
-  },
-  {
-    "id": "bloomberg-business-youtube-63d9564e",
-    "sourceId": "bloomberg-business-youtube",
-    "sourceName": "Bloomberg Business YouTube",
-    "title": "Yardeni: Market May See October Bottom Setting Up Year-End Rally",
-    "url": "https://www.youtube.com/watch?v=BV0y2S9Pt8o",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:23:24.000Z",
-    "fetchedAt": "2025-08-04T13:23:38.952Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "63d9564e"
-  },
-  {
-    "id": "thehindubusinessline-59213a58",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/info-tech/xtelify-subsidiary-of-bharti-airtel-launches-airtel-cloud-to-provide-iaas-paas/article69892874.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:22:09.499Z",
-    "fetchedAt": "2025-08-04T11:22:09.499Z",
+    "publishedAt": "2025-08-04T12:54:08.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.960Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "59213a58"
+    "contentHash": "cd62334"
   },
   {
-    "id": "thehindubusinessline-7df8a7fa",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/news/sports/india-beat-england-by-6-runs-to-secure-2-2-draw-after-warrior-sirajs-heroics/article69893208.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:22:09.498Z",
-    "fetchedAt": "2025-08-04T11:22:09.498Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7df8a7fa"
-  },
-  {
-    "id": "thehindubusinessline-3497d1b9",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/news/national/amit-shah-appeals-people-to-hoist-tricolour-at-homes-ahead-of-independence-day/article69893189.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:22:09.498Z",
-    "fetchedAt": "2025-08-04T11:22:09.498Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3497d1b9"
-  },
-  {
-    "id": "thehindubusinessline-6e5034c8",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/economy/logistics/titagarh-rail-systems-bags-1600-crore-contract-to-supply-108-coaches-to-mumbai-metro/article69893173.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:22:09.498Z",
-    "fetchedAt": "2025-08-04T11:22:09.498Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6e5034c8"
-  },
-  {
-    "id": "ndtv-profit-rss-124c8b3c",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "Stock Market Highlights: Nifty, Sensex End In The Green; Hero Moto, Tata Steel Lead Gains",
-    "url": "https://www.ndtvprofit.com/markets/stock-market-highlights-nifty-sensex-end-in-the-green-hero-moto-tata-steel-lead-gains",
-    "summary": "Shares of Tata Steel marked gains of over 5% and Tata Steel was up over 4% along with Adani Ports, Bharat Electronics and JSW Steel that contributed to the gains of the benchmark index Nifty 50.",
-    "fullContent": "Shares of Tata Steel marked gains of over 5% and Tata Steel was up over 4% along with Adani Ports, Bharat Electronics and JSW Steel that contributed to the gains of the benchmark index Nifty 50.",
-    "publishedAt": "2025-08-04T11:21:44.560Z",
-    "fetchedAt": "2025-08-04T11:22:10.538Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "124c8b3c"
-  },
-  {
-    "id": "cnbc-tv18-youtube-7af74551",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "IND vs ENG Oval Test: भारत की धमाकेदार जीत! इंग्लैंड को 6 रन से हराया, सीरीज़ 2-2 से बराबर| Breaking",
-    "url": "https://www.youtube.com/watch?v=Plbl6Y271bE",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:21:34.000Z",
-    "fetchedAt": "2025-08-04T11:22:15.446Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "7af74551"
-  },
-  {
-    "id": "business-insider-5a77e3f2",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Tesla just announced a new $29 billion pay package for Elon Musk",
-    "url": "https://www.businessinsider.com/tesla-elon-musk-new-29-billion-pay-package-ceo-2025-8",
-    "summary": "It comes as Musk's 2018 pay package, which was worth around $46.8 billion in June, was struck down by a Delaware judge last year.",
-    "fullContent": "It comes as Musk's 2018 pay package, which was worth around $46.8 billion in June, was struck down by a Delaware judge last year.",
-    "publishedAt": "2025-08-04T11:21:01.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.584Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5a77e3f2"
-  },
-  {
-    "id": "cnbc-tv18-youtube-3f5859d4",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "अवैध बांग्लादेशी पर दिल्ली पुलिस के ऐक्शन पर बवाल | #tmc #mamtabanerjee #westbengal #shorts",
-    "url": "https://www.youtube.com/shorts/9dkSJ0MAL10",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:20:13.000Z",
-    "fetchedAt": "2025-08-04T11:22:15.447Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "3f5859d4"
-  },
-  {
-    "id": "zerohedge-c57aab3",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Tesla Board Approves 96 Million Share Stock Award To \"Retain\" Elon Musk",
-    "url": "https://www.zerohedge.com/markets/tesla-board-approves-96-million-share-stock-award-retain-elon-musk",
-    "summary": "Tesla Board Approves 96 Million Share Stock Award To \"Retain\" Elon Musk div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--typ",
-    "fullContent": "Tesla Board Approves 96 Million Share Stock Award To \"Retain\" Elon Musk Tesla's Board approved a special interim equity award for Elon Musk to compensate and retain him for \"extraordinary work\". \"As you know, Elon has not received meaningful compensation for eight years since the 2012 CEO Performance Award was last earned in 2017,\" Robyn Denholm & Kathleen Wilson-Thompson, Members of the Special Committee of the Board of Directors, wrote in a letter to shareholders on Monday morning. The Board continued, \"Despite overwhelming support from you in 2018 and again in 2024, our legal efforts continue in the Delaware courts to reinstate the 2018 CEO Performance Award.\" The equity award of restricted stock, totaling 96 million shares, is equal to about one-third of the compensation he earned under the 2018 CEO Performance Award. The award provides the following conditions: 96 million restricted shares of stock, subject to Elon paying a purchase price upon meeting a two-year vesting term, to be delivered after receipt of antitrust regulatory approval; The purchase price will be equal to the split adjusted exercise price of the stock options awarded to Elon under the 2018 CEO Performance Award ($23.34 per share); A requirement that Elon serve continuously in a senior leadership role at Tesla during the two-year vesting term; • A pledging allowance to cover tax payments or the purchase price; A mandatory holding period of five years from the grant date, except to cover tax payments or the purchase price (with any sales for such purposes to be conducted through an orderly disposition in coordination with Tesla); and If the Delaware courts fully reinstate the 2018 CEO Performance Award, this interim award will be forfeited or returned or a portion of the 2018 CEO Performance Award will be forfeited. To put it simply, there cannot be any \"double dip.\" Elon will not be able to keep this new award in addition to the options he will be awarded under the 2018 CEO Performance Award should the courts rule in our favor. Tesla is at a critical inflection point with slumping sales and Musk pivoting the company to focus on robotaxis, cheaper EV platforms, humanoid robots, and AI. \"While we recognize that Elon's business ventures, interests and other potential demands on his time and attention are extensive and wide-ranging, including his leadership roles at xAI, SpaceX, Neuralink, X Corp., and The Boring Company as well as his other interests, we are confident that this award will incentivize Elon to remain at Tesla and focus his unmatched leadership abilities on further creating shareholder value for Tesla shareholders and attracting and retaining talent at Tesla,\" the Board said. A Letter to Our Shareholders on the 2025 CEO Interim Award Dear Fellow Tesla Shareholders, Today we announce an important first step in compensating Elon Musk for his extraordinary work at Tesla. As you know, Elon has not received meaningful compensation for eight years since… — Tesla (@Tesla) August 4, 2025 . . . Tyler Durden Mon, 08/04/2025 - 07:20",
-    "publishedAt": "2025-08-04T11:20:00.000Z",
-    "fetchedAt": "2025-08-04T13:23:28.187Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c57aab3"
-  },
-  {
-    "id": "marginal-revolution-4a1439ae",
-    "sourceId": "marginal-revolution",
-    "sourceName": "Marginal Revolution",
-    "title": "Genius, Rejected: Emergent Ventures Versus the System",
-    "url": "https://marginalrevolution.com/marginalrevolution/2025/08/genius-rejected-emergent-ventures-versus-the-system.html?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=genius-rejected-emergent-ventures-versus-the-system",
-    "summary": "Quanta Magazine has a good piece on a 17-year-old student who disproved a long-standing conjecture in harmonic analysis: Yet a paper posted on February 10(opens a new tab) left the math world by turns stunned, delighted and ready to welcome a bold new talent into its midst. Its author wa",
-    "fullContent": "Quanta Magazine has a good piece on a 17-year-old student who disproved a long-standing conjecture in harmonic analysis: Yet a paper posted on February 10(opens a new tab) left the math world by turns stunned, delighted and ready to welcome a bold new talent into its midst. Its author was Hannah Cairo(opens a new tab), just 17 at [&#8230;] The post Genius, Rejected: Emergent Ventures Versus the System appeared first on Marginal REVOLUTION. ]]",
-    "publishedAt": "2025-08-04T11:19:16.000Z",
-    "fetchedAt": "2025-08-04T11:22:09.467Z",
+    "id": "project-syndicate-5e4d781e",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "No, Trump Is Not “Transactional”",
+    "url": "https://www.project-syndicate.org/commentary/deals-with-lawless-trump-are-worthless-by-richard-k-sherwin-2025-08",
+    "summary": "Many of America’s trade partners, universities, law firms, and media outlets have cut deals with the US administration in the face of coercive threats, and many more are considering doing so. But without an impartial rule of law to stabilize expectations, these agreements are self-decept",
+    "fullContent": "Many of America’s trade partners, universities, law firms, and media outlets have cut deals with the US administration in the face of coercive threats, and many more are considering doing so. But without an impartial rule of law to stabilize expectations, these agreements are self-deception masquerading as self-interest.]]",
+    "publishedAt": "2025-08-04T12:53:25.000Z",
+    "fetchedAt": "2025-08-05T02:40:13.630Z",
     "category": "blogs",
     "tags": [
       "blogs"
     ],
     "priority": "normal",
-    "contentHash": "4a1439ae"
+    "contentHash": "5e4d781e"
   },
   {
-    "id": "cnbc-tv18-youtube-4ac986c3",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "झारखंड के पूर्व मुख्यमंत्री शिबू सोरेन का निधन | #hemantsoren #shibusoren #pmmodi #shibusorendeath",
-    "url": "https://www.youtube.com/shorts/3PUi_78b-4M",
+    "id": "yahoo-finance-4d7cc127",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Netflix (NFLX) Surged as Multiple Tailwinds Align",
+    "url": "https://finance.yahoo.com/news/netflix-nflx-surged-multiple-tailwinds-125322756.html",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:18:08.000Z",
-    "fetchedAt": "2025-08-04T11:22:15.447Z",
+    "publishedAt": "2025-08-04T12:53:22.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.960Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4d7cc127"
+  },
+  {
+    "id": "wsj-opinion-431a91f0",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Discrimination in Higher Education Hiring",
+    "url": "https://www.wsj.com/opinion/discrimination-in-higher-education-hiring-a35661cb",
+    "summary": "Readers discuss affirmative action at universities.",
+    "fullContent": "Readers discuss affirmative action at universities.",
+    "publishedAt": "2025-08-04T12:53:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:28.060Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "431a91f0"
+  },
+  {
+    "id": "bloomberg-markets-403522bf",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/private-asset-boom-cools-as-hedge-funds-crypto-nab-new-billions",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:52:33.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.004Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "403522bf"
+  },
+  {
+    "id": "fortune-352fe5c1",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Elon Musk, 6 months after $56 billion pay package was struck down, wins a new one worth $29 billion from Tesla",
+    "url": "https://fortune.com/2025/08/04/elon-musk-compensation-29-billion-tesla/",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:52:17.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.385Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "352fe5c1"
+  },
+  {
+    "id": "trendlyne-youtube-514c204a",
+    "sourceId": "trendlyne-youtube",
+    "sourceName": "Trendlyne YouTube",
+    "title": "Multi Commodity Exchange of India Earnings Call for Q1FY26",
+    "url": "https://www.youtube.com/watch?v=8HYjQPkGqL8",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:52:04.000Z",
+    "fetchedAt": "2025-08-04T13:23:51.235Z",
     "category": "videos",
     "tags": [
       "videos"
     ],
     "priority": "normal",
-    "contentHash": "4ac986c3"
+    "contentHash": "514c204a"
   },
   {
-    "id": "et-markets-66e43f50",
+    "id": "wsj-opinion-650e1df4",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "If the Rail Merger Goes Full Steam Ahead, We&#x2019;re at Risk",
+    "url": "https://www.wsj.com/opinion/if-the-rail-merger-goes-full-steam-ahead-were-at-risk-0df9b221",
+    "summary": "A merger between Union Pacific and Norfolk Southern would be a huge concentration of market power, limiting competition.",
+    "fullContent": "A merger between Union Pacific and Norfolk Southern would be a huge concentration of market power, limiting competition.",
+    "publishedAt": "2025-08-04T12:52:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:28.060Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "650e1df4"
+  },
+  {
+    "id": "yahoo-finance-44ffa0fd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Riverpark Large Growth Fund Views NVIDIA (NVDA) as the Most Strategically Important Enabler Of Global AI Transformation",
+    "url": "https://finance.yahoo.com/news/riverpark-large-growth-fund-views-125156367.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:51:56.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.960Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "44ffa0fd"
+  },
+  {
+    "id": "yahoo-finance-787841e4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Wayfair Soars As Shoppers Spend Big And Profits Grow",
+    "url": "https://finance.yahoo.com/news/wayfair-soars-shoppers-spend-big-124947080.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:49:47.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "787841e4"
+  },
+  {
+    "id": "et-markets-31c8d8ac",
     "sourceId": "et-markets",
     "sourceName": "Economic Times Markets",
     "title": "",
-    "url": "https://economictimes.indiatimes.com/markets/web-stories/10-companies-with-high-enterprise-value-to-market-cap/slideshow/123094676.cms",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bharti-airtel-q1-results-preview-brokerages-see-up-to-198-yoy-pat-growth-on-subscriber-gains-stable-arpu-6-things-to-watch-out-for/articleshow/123096869.cms",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:16:15.000Z",
+    "publishedAt": "2025-08-04T12:49:01.000Z",
     "fetchedAt": "2025-08-04T13:23:27.298Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "66e43f50"
+    "contentHash": "31c8d8ac"
   },
   {
-    "id": "cnbc-markets-53afcad1",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
+    "id": "ndtv-profit-rss-5a3f1822",
+    "sourceId": "ndtv-profit-rss",
+    "sourceName": "NDTV Profit RSS",
+    "title": "Godfrey Phillips Announces Bonus Issue, Sets Record Date — Check Details",
+    "url": "https://www.ndtvprofit.com/markets/godfrey-phillips-announces-bonus-issue-sets-record-date-check-details",
+    "summary": "Godfrey Phillips has also fixed the record date for the final dividend declared in fiscal 2025.",
+    "fullContent": "Godfrey Phillips has also fixed the record date for the final dividend declared in fiscal 2025.",
+    "publishedAt": "2025-08-04T12:48:58.950Z",
+    "fetchedAt": "2025-08-04T13:23:29.097Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5a3f1822"
+  },
+  {
+    "id": "cnbc-business-53afcad1",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
     "title": "More than 3,000 Boeing defense workers go on strike after rejecting contract",
     "url": "https://www.cnbc.com/2025/08/04/boeing-defense-workers-go-on-strike-after-rejecting-contract.html",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:16:10.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.494Z",
+    "publishedAt": "2025-08-04T12:47:45.000Z",
+    "fetchedAt": "2025-08-04T13:23:28.144Z",
     "category": "markets",
     "tags": [
       "markets"
@@ -425,1278 +374,1329 @@
     "contentHash": "53afcad1"
   },
   {
-    "id": "cnbc-tv18-youtube-1b9de192",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "UP News : CM Yogi ने टाउनशिप परियोजना का उद्घाटन किया और उद्यमियों को ऋण वितरित किए",
-    "url": "https://www.youtube.com/watch?v=AfYv1XqBaEw",
+    "id": "fortune-66b4c7fc",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Russia&#8217;s space chief visits Washington for first face-to-face talks in over 7 year",
+    "url": "https://fortune.com/2025/08/04/russia-nasa-talks-international-space-station-dmitry-bakanov/",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:15:50.000Z",
-    "fetchedAt": "2025-08-04T11:22:15.447Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "1b9de192"
-  },
-  {
-    "id": "ndtv-profit-rss-e862843",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "Coal India Sets Supply Target Of 900 MT For FY26; Plans Rs 16,000 Crore Capex To Support Growth",
-    "url": "https://www.ndtvprofit.com/business/coal-india-sets-supply-target-of-900-mt-for-fy26-plans-rs-16000-crore-capex-to-support-growth",
-    "summary": "Coal India Ltd (CIL) has set an ambitious supply target of 900.24 million tonnes (MT) for 2025-26, representing over 18 per cent growth from the previous year's achievement, as part of a strategy to meet rising power demand and reduce imports.",
-    "fullContent": "Coal India Ltd (CIL) has set an ambitious supply target of 900.24 million tonnes (MT) for 2025-26, representing over 18 per cent growth from the previous year's achievement, as part of a strategy to meet rising power demand and reduce imports.",
-    "publishedAt": "2025-08-04T11:15:16.930Z",
-    "fetchedAt": "2025-08-04T11:22:10.538Z",
+    "publishedAt": "2025-08-04T12:47:13.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.385Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "e862843"
+    "contentHash": "66b4c7fc"
   },
   {
-    "id": "ndtv-profit-rss-6c64294f",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "Escorts Kubota Q1 Results: Profit Rises 40% To Rs 370 Crore",
-    "url": "https://www.ndtvprofit.com/quarterly-earnings/escorts-kubota-q1-results-profit-rises-40-to-rs-370-crore",
-    "summary": "Consolidated revenue from continuing operations stood at Rs 2,500.1 crore, down 2.9% from Rs 2,573.7 crore in the year-ago period, it added.",
-    "fullContent": "Consolidated revenue from continuing operations stood at Rs 2,500.1 crore, down 2.9% from Rs 2,573.7 crore in the year-ago period, it added.",
-    "publishedAt": "2025-08-04T11:13:43.511Z",
-    "fetchedAt": "2025-08-04T11:22:10.538Z",
+    "id": "marketwatch-6f76bf38",
+    "sourceId": "marketwatch",
+    "sourceName": "MarketWatch",
+    "title": "Wayfair&#x2019;s stock surges as a sales beat points to a recovery in the furniture market",
+    "url": "https://www.marketwatch.com/story/wayfairs-stock-surges-as-a-sales-beat-points-to-a-recovery-in-the-furniture-market-ce101ac3?mod=mw_rss_topstories",
+    "summary": "Shares of Wayfair were climbing toward the highest prices seen in more than year after earnings beat expectations.",
+    "fullContent": "Shares of Wayfair were climbing toward the highest prices seen in more than year after earnings beat expectations.",
+    "publishedAt": "2025-08-04T12:47:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.398Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "6c64294f"
+    "contentHash": "6f76bf38"
   },
   {
-    "id": "yahoo-finance-5676a996",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Giorgio Armani fined $4m for misleading trade practices",
-    "url": "https://finance.yahoo.com/news/giorgio-armani-fined-4m-misleading-111254199.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:12:54.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.378Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5676a996"
-  },
-  {
-    "id": "ndtv-profit-rss-757d7658",
+    "id": "ndtv-profit-rss-5b3e3467",
     "sourceId": "ndtv-profit-rss",
     "sourceName": "NDTV Profit RSS",
-    "title": "Q1 Results Live: DLF Revenue Nearly Doubles; Sona BLW Profit Slips; Marico Profit Up 8%",
-    "url": "https://www.ndtvprofit.com/quarterly-earnings/q1-results-2025-today-dlf-godfrey-phillips-inox-wind-tata-investment-marico-quarterly-earnings-live-blog",
-    "summary": "Marico, Aurobindo Pharma, Kansai Nerolac, DLF, Escorts Kubota are among the top names that will announce their earnings for the first quarter on Monday.",
-    "fullContent": "Marico, Aurobindo Pharma, Kansai Nerolac, DLF, Escorts Kubota are among the top names that will announce their earnings for the first quarter on Monday.",
-    "publishedAt": "2025-08-04T11:12:41.558Z",
-    "fetchedAt": "2025-08-04T11:22:10.538Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "757d7658"
-  },
-  {
-    "id": "ndtv-profit-rss-2a12846b",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "Tamil Nadu Government Signs Over Rs 32,000 Crore MoUs At Rising Investment Conclave",
-    "url": "https://www.ndtvprofit.com/business/tamil-nadu-government-signs-over-rs-32000-crore-mous-at-rising-investment-conclave",
-    "summary": "Tamil Nadu continued to attract transformative investments and on Monday the state signed 41 MoUs for an investment of Rs 32,553.85 crore, the government said.",
-    "fullContent": "Tamil Nadu continued to attract transformative investments and on Monday the state signed 41 MoUs for an investment of Rs 32,553.85 crore, the government said.",
-    "publishedAt": "2025-08-04T11:12:38.647Z",
-    "fetchedAt": "2025-08-04T11:22:10.538Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2a12846b"
-  },
-  {
-    "id": "ndtv-profit-rss-237ce2e8",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "Sona Comstar Ex-Chairperson Rani Kapur Writes To UK Police Seeking Probe Into Son's Death",
+    "title": "Rani Kapur Writes To UK Police Seeking Probe Into Son Sunjay's Death, Alleges Murder",
     "url": "https://www.ndtvprofit.com/business/sona-comstar-row-rani-kapur-writes-to-uk-police-for-deeper-investigation-into-sons-death",
-    "summary": "Rani Kapur has requested for investigation into the alleged questionable circumstances behind son Sanjay Kapur's death.",
-    "fullContent": "Rani Kapur has requested for investigation into the alleged questionable circumstances behind son Sanjay Kapur's death.",
-    "publishedAt": "2025-08-04T11:12:16.315Z",
-    "fetchedAt": "2025-08-04T11:22:10.538Z",
+    "summary": "Rani Kapur has requested for investigation into the alleged questionable circumstances around son Sanjay Kapur's death.",
+    "fullContent": "Rani Kapur has requested for investigation into the alleged questionable circumstances around son Sanjay Kapur's death.",
+    "publishedAt": "2025-08-04T12:46:30.659Z",
+    "fetchedAt": "2025-08-04T13:23:29.097Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "237ce2e8"
+    "contentHash": "5b3e3467"
   },
   {
-    "id": "marketwatch-273ff59f",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "It&#x2019;s not an AI-bubble; it&#x2019;s a longer-term bull market, says this Wall St firm",
-    "url": "https://www.marketwatch.com/story/its-not-an-ai-bubble-its-a-longer-term-bull-market-says-this-wall-st-firm-909b7fe2?mod=mw_rss_topstories",
-    "summary": "Citi think the rally for AI-enablers has room to run before the &#x2018;handoff&#x201d; to AI-adopters",
-    "fullContent": "Citi think the rally for AI-enablers has room to run before the &#x2018;handoff&#x201d; to AI-adopters",
-    "publishedAt": "2025-08-04T11:12:00.000Z",
-    "fetchedAt": "2025-08-04T11:22:10.852Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "273ff59f"
-  },
-  {
-    "id": "cnbc-tv18-youtube-4a5fd0e3",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Goonj With Rubika Liyaquat LIVE: Rahul Gandhi | Supreme Court | Indian Army | Congress | PM Modi",
-    "url": "https://www.youtube.com/watch?v=EEkGLG36Rqw",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:10:49.000Z",
-    "fetchedAt": "2025-08-04T11:22:15.446Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "4a5fd0e3"
-  },
-  {
-    "id": "ndtv-profit-rss-6913fa77",
+    "id": "ndtv-profit-rss-4dd9d395",
     "sourceId": "ndtv-profit-rss",
     "sourceName": "NDTV Profit RSS",
-    "title": "Government Working On Support Measures To Insulate Exporters From Trump Tariff: Official",
-    "url": "https://www.ndtvprofit.com/global-economics/government-working-on-support-measures-to-insulate-exporters-from-trump-tariff-official",
-    "summary": "The government is working on certain support measures for exporters in sectors like textiles and chemicals to insulate them from the impact of the Trump tariff, an official said on Monday.",
-    "fullContent": "The government is working on certain support measures for exporters in sectors like textiles and chemicals to insulate them from the impact of the Trump tariff, an official said on Monday.",
-    "publishedAt": "2025-08-04T11:10:48.056Z",
-    "fetchedAt": "2025-08-04T11:22:10.538Z",
+    "title": "Why Building A Company Is Never Just About What You Do, But Why You Do It",
+    "url": "https://www.ndtvprofit.com/opinion/why-building-a-company-is-never-just-about-what-you-do-but-why-you-do-it",
+    "summary": "Leadership, succession and entrepreneurship all come alive only when we dare to answer the quiet question: what am I really building?",
+    "fullContent": "Leadership, succession and entrepreneurship all come alive only when we dare to answer the quiet question: what am I really building?",
+    "publishedAt": "2025-08-04T12:45:27.515Z",
+    "fetchedAt": "2025-08-04T13:23:29.097Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "6913fa77"
+    "contentHash": "4dd9d395"
   },
   {
-    "id": "techmeme-40b75e85",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "CrowdStrike says it investigated 320+ cases of North Korean operatives gaining remote IT jobs in the US, Europe, and elsewhere in its 2025 Threat Hunting Report (Matt Kapko/CyberScoop)",
-    "url": "http://www.techmeme.com/250804/p16#a250804p16",
-    "summary": "IMG WIDTH=11 HEIGHT=12 SRC=\"http",
-    "fullContent": "Matt Kapko / CyberScoop: CrowdStrike says it investigated 320+ cases of North Korean operatives gaining remote IT jobs in the US, Europe, and elsewhere in its 2025 Threat Hunting Report — Threat hunters saw North Korean operatives almost daily, reflecting a 220% year-over-year increase in activity, CrowdStrike said in a new report. ]]",
-    "publishedAt": "2025-08-04T11:10:01.000Z",
-    "fetchedAt": "2025-08-04T11:22:10.399Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "40b75e85"
-  },
-  {
-    "id": "yahoo-finance-5f540066",
+    "id": "yahoo-finance-2c541d22",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
-    "title": "Tesla to pay $243m in Autopilot lawsuit verdict",
-    "url": "https://finance.yahoo.com/news/tesla-pay-243m-autopilot-lawsuit-110848722.html",
+    "title": "Should You Buy Dogecoin While It's Under $1?",
+    "url": "https://finance.yahoo.com/news/buy-dogecoin-while-under-1-124500691.html",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:08:48.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.379Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5f540066"
-  },
-  {
-    "id": "yahoo-finance-1e068624",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Santos signs natural gas supply deal with Engie",
-    "url": "https://finance.yahoo.com/news/santos-signs-natural-gas-supply-110806064.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:08:06.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.379Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1e068624"
-  },
-  {
-    "id": "ndtv-profit-rss-63ebf071",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "Oval Thriller: India Beat England By Six Runs In 5th Test, Level Series",
-    "url": "https://www.ndtvprofit.com/sports/cricket-india-vs-england-fifth-test-match-anderson-tendulkar-trophy-oval",
-    "summary": "Mohammed Siraj took five wickets and Prasidh Krishna took four.",
-    "fullContent": "Mohammed Siraj took five wickets and Prasidh Krishna took four.",
-    "publishedAt": "2025-08-04T11:07:49.503Z",
-    "fetchedAt": "2025-08-04T11:22:10.538Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "63ebf071"
-  },
-  {
-    "id": "marketwatch-4457f44a",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "Elon Musk to get $29 billion richer as his pay package is approved. Tesla&#x2019;s stock jumps.",
-    "url": "https://www.marketwatch.com/story/elon-musk-to-get-29-billion-richer-as-his-pay-package-is-approved-teslas-stock-jumps-a5c0d979?mod=mw_rss_topstories",
-    "summary": "Tesla&#x2019;s stock was set to climb Monday as CEO Elon Musk&#x2019;s pay package was approved. That could boost his stake in the company to more than 500 million shares.",
-    "fullContent": "Tesla&#x2019;s stock was set to climb Monday as CEO Elon Musk&#x2019;s pay package was approved. That could boost his stake in the company to more than 500 million shares.",
-    "publishedAt": "2025-08-04T11:07:00.000Z",
-    "fetchedAt": "2025-08-04T11:22:10.852Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4457f44a"
-  },
-  {
-    "id": "yahoo-finance-6d430bb9",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Venezuela's oil exports fell in July as partners awaited US authorizations",
-    "url": "https://finance.yahoo.com/news/venezuelas-oil-exports-fell-july-110641765.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:06:41.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.379Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6d430bb9"
-  },
-  {
-    "id": "yahoo-finance-5b2590bc",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Sungrow BESS to power Sunterra RE’s solar parks in Bulgaria",
-    "url": "https://finance.yahoo.com/news/sungrow-bess-power-sunterra-solar-110601143.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:06:01.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.380Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5b2590bc"
-  },
-  {
-    "id": "cnbc-tv18-youtube-2e94858a",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Team India Won Live| भारत की रोमांचक जीत LIVE | India Vs England | IND VS ENG | ENG vs IND 5th Test",
-    "url": "https://www.youtube.com/watch?v=i7aQN8AvAtw",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:03:41.000Z",
-    "fetchedAt": "2025-08-04T11:22:15.446Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "2e94858a"
-  },
-  {
-    "id": "yahoo-finance-4064300b",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Daily Spotlight: August a Challenge for Investors",
-    "url": "https://finance.yahoo.com/research/reports/ARGUS_44287_MarketOutlook_1754305416000?yptr=yahoo&amp;ncid=yahooproperties_plusresear_nm5q6ze1cei",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:03:36.000Z",
-    "fetchedAt": "2025-08-04T13:23:26.960Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4064300b"
-  },
-  {
-    "id": "yahoo-finance-706a66f9",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Morning Bid: Payrolls soft, messenger fired",
-    "url": "https://finance.yahoo.com/news/morning-bid-payrolls-soft-messenger-110303748.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:03:03.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.379Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "706a66f9"
-  },
-  {
-    "id": "yahoo-finance-68cdb857",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Technical Assessment: Bullish in the Intermediate-Term",
-    "url": "https://finance.yahoo.com/research/reports/ARGUS_44286_TechnicalAnalysis_1754305336000?yptr=yahoo&amp;ncid=yahooproperties_plusresear_nm5q6ze1cei",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:02:16.000Z",
-    "fetchedAt": "2025-08-04T13:23:26.960Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "68cdb857"
-  },
-  {
-    "id": "business-insider-7297653f",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Trump's student-loan repayment overhaul could push borrowers out of the federal system. Democratic lawmakers want to know if private lenders are ready.",
-    "url": "https://www.businessinsider.com/trumps-student-loan-repayment-overhaul-boosts-private-lending-dems-2025-8",
-    "summary": "From new caps on student-loan borrowing to higher monthly payments, Sen. Elizabeth Warren said Trump's policies could benefit private lenders.",
-    "fullContent": "From new caps on student-loan borrowing to higher monthly payments, Sen. Elizabeth Warren said Trump's policies could benefit private lenders.",
-    "publishedAt": "2025-08-04T11:02:01.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.584Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7297653f"
-  },
-  {
-    "id": "business-insider-7b9d37d",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "4 Taylor Swift-inspired business tips CEOs can take from the billionaire pop star",
-    "url": "https://www.businessinsider.com/taylor-swift-inspired-business-tips-ceos-take-from-billionaire-star-2025-7",
-    "summary": "Taylor Swift's business savvy is the subject of economist Sinéad O'Sullivan's forthcoming book, &#34;Good Ideas and Power Moves.&#34;",
-    "fullContent": "Taylor Swift's business savvy is the subject of economist Sinéad O'Sullivan's forthcoming book, &#34;Good Ideas and Power Moves.&#34;",
-    "publishedAt": "2025-08-04T11:02:01.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.584Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7b9d37d"
-  },
-  {
-    "id": "wsj-markets-main-5d0723e",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "A Wild Year for Markets Hits Trend-Following Hedge Funds",
-    "url": "https://www.wsj.com/finance/investing/a-wild-year-for-markets-hits-trend-following-hedge-funds-664fa62b?mod=rss_markets_main",
-    "summary": "Fast-moving quantitative funds are meant to flourish in tough markets but, with President Trump&#x2019;s tariff moves convulsing markets, they are under pressure.",
-    "fullContent": "Fast-moving quantitative funds are meant to flourish in tough markets but, with President Trump&#x2019;s tariff moves convulsing markets, they are under pressure.",
-    "publishedAt": "2025-08-04T11:01:00.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.506Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5d0723e"
-  },
-  {
-    "id": "yahoo-finance-20a907c2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Market Digest: TEVA, AMT, HOG, IEX, LMT, SPGI, PWR, XYL, LEA",
-    "url": "https://finance.yahoo.com/research/reports/ARGUS_44284_MarketSummary_1754305253000?yptr=yahoo&amp;ncid=yahooproperties_plusresear_nm5q6ze1cei",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:00:53.000Z",
+    "publishedAt": "2025-08-04T12:45:00.000Z",
     "fetchedAt": "2025-08-04T13:23:26.961Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "20a907c2"
+    "contentHash": "2c541d22"
   },
   {
-    "id": "bloomberg-economics-747502e3",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/newsletters/2025-08-04/trade-war-latest-what-the-data-say-about-us-ecocnomy",
+    "id": "yahoo-finance-69ef73d7",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Baron Real Estate Fund Exited AvalonBay Communities (AVB) Due to Less Favorable Economics",
+    "url": "https://finance.yahoo.com/news/baron-real-estate-fund-exited-124453235.html",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:00:28.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.700Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "747502e3"
-  },
-  {
-    "id": "bloomberg-economics-43a69de1",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/newsletters/2025-08-04/trump-opens-new-front-in-politicization-of-the-us-economy",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T11:00:27.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.700Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "43a69de1"
-  },
-  {
-    "id": "nyt-business-3c854bd8",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Joby Will Buy Blade’s Helicopter Taxi Business for $125 Million",
-    "url": "https://www.nytimes.com/2025/08/04/business/joby-blade-electric-air-taxi.html",
-    "summary": "Joby Aviation, which is developing electric aircraft, will acquire the passenger business of Blade, a New York helicopter operator, for $125 million.",
-    "fullContent": "Joby Aviation, which is developing electric aircraft, will acquire the passenger business of Blade, a New York helicopter operator, for $125 million.",
-    "publishedAt": "2025-08-04T11:00:05.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.816Z",
+    "publishedAt": "2025-08-04T12:44:53.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.960Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "3c854bd8"
+    "contentHash": "69ef73d7"
   },
   {
-    "id": "nyt-technology-3c854bd8",
-    "sourceId": "nyt-technology",
-    "sourceName": "NYT Technology",
-    "title": "Joby Will Buy Blade’s Helicopter Taxi Business for $125 Million",
-    "url": "https://www.nytimes.com/2025/08/04/business/joby-blade-electric-air-taxi.html",
-    "summary": "Joby Aviation, which is developing electric aircraft, will acquire the passenger business of Blade, a New York helicopter operator, for $125 million.",
-    "fullContent": "Joby Aviation, which is developing electric aircraft, will acquire the passenger business of Blade, a New York helicopter operator, for $125 million.",
-    "publishedAt": "2025-08-04T11:00:05.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.827Z",
-    "category": "technology",
+    "id": "yahoo-finance-57892fcc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Prediction: Buying Tesla Stock Today Could Set You Up for Life",
+    "url": "https://finance.yahoo.com/news/prediction-buying-tesla-stock-today-124400805.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:44:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
     "tags": [
-      "technology"
+      "markets"
     ],
     "priority": "normal",
-    "contentHash": "3c854bd8"
+    "contentHash": "57892fcc"
   },
   {
-    "id": "bloomberg-markets-119611cf",
+    "id": "cnbc-tv18-youtube-1bf15f87",
+    "sourceId": "cnbc-tv18-youtube",
+    "sourceName": "CNBC TV18 YouTube",
+    "title": "Team India Won Live| भारत की रोमांचक जीत LIVE | India Vs England | IND VS ENG | ENG vs IND 5th Test",
+    "url": "https://www.youtube.com/watch?v=PyNYWd1gscQ",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:43:35.000Z",
+    "fetchedAt": "2025-08-04T13:23:32.845Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "1bf15f87"
+  },
+  {
+    "id": "ndtv-profit-rss-10111179",
+    "sourceId": "ndtv-profit-rss",
+    "sourceName": "NDTV Profit RSS",
+    "title": "Infinix GT 30 Price In India, Specs, Features — What To Expect On Aug. 8 Launch",
+    "url": "https://www.ndtvprofit.com/technology/infinix-gt-30-price-in-india-specs-features-launch-date",
+    "summary": "The Infinix GT 30 is confirmed to be equipped with the MediaTek Dimensity 7400 4nm chipset.",
+    "fullContent": "The Infinix GT 30 is confirmed to be equipped with the MediaTek Dimensity 7400 4nm chipset.",
+    "publishedAt": "2025-08-04T12:43:03.819Z",
+    "fetchedAt": "2025-08-04T13:23:29.097Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "10111179"
+  },
+  {
+    "id": "yahoo-finance-486af4c1",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock Market Today: Dow Bounces After Market Sell-Off; Tesla Rallies On Musk Pay Package (Live Coverage)",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-market-sell-off-tesla-stock-tsla-musk/?src=A00220&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:42:54.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "486af4c1"
+  },
+  {
+    "id": "bloomberg-markets-34deb71b",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
     "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-04/will-eli-lilly-recover-from-drug-tariff-setbacks-to-hit-1-trillion-valuation",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/switzerland-is-ready-to-make-more-attractive-trade-offer-to-us",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:00:01.000Z",
+    "publishedAt": "2025-08-04T12:42:41.000Z",
     "fetchedAt": "2025-08-04T13:23:27.004Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "119611cf"
+    "contentHash": "34deb71b"
   },
   {
-    "id": "wired-521075d6",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "What’s Inside the Tiny Miracle Food Pouches That Can Save the Lives of Starving Gazans",
-    "url": "https://www.wired.com/story/whats-inside-the-tiny-miracle-food-pouches-that-can-save-the-lives-of-starving-gazans/",
-    "summary": "Packed with calories and protein, the same magic mixture has successfully treated famine for decades—but due to funding cuts it's now in short supply.",
-    "fullContent": "Packed with calories and protein, the same magic mixture has successfully treated famine for decades—but due to funding cuts it's now in short supply.",
-    "publishedAt": "2025-08-04T11:00:00.000Z",
-    "fetchedAt": "2025-08-04T11:22:10.106Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "521075d6"
-  },
-  {
-    "id": "bloomberg-markets-158f22f4",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
+    "id": "bloomberg-economics-34deb71b",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
     "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-04/investors-dismiss-spectre-of-communist-victory-in-chile-election",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/switzerland-is-ready-to-make-more-attractive-trade-offer-to-us",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:00:00.000Z",
-    "fetchedAt": "2025-08-04T13:23:27.004Z",
-    "category": "markets",
+    "publishedAt": "2025-08-04T12:42:41.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.636Z",
+    "category": "macro",
     "tags": [
-      "markets"
+      "macro"
     ],
     "priority": "normal",
-    "contentHash": "158f22f4"
+    "contentHash": "34deb71b"
   },
   {
-    "id": "bloomberg-politics-158f22f4",
+    "id": "bloomberg-politics-34deb71b",
     "sourceId": "bloomberg-politics",
     "sourceName": "Bloomberg Politics",
     "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-04/investors-dismiss-spectre-of-communist-victory-in-chile-election",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/switzerland-is-ready-to-make-more-attractive-trade-offer-to-us",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T11:00:00.000Z",
+    "publishedAt": "2025-08-04T12:42:41.000Z",
     "fetchedAt": "2025-08-04T13:23:27.648Z",
     "category": "policy",
     "tags": [
       "policy"
     ],
     "priority": "normal",
-    "contentHash": "158f22f4"
+    "contentHash": "34deb71b"
   },
   {
-    "id": "oil-price-105edb8b",
-    "sourceId": "oil-price",
-    "sourceName": "OilPrice.com",
-    "title": "Elliott Wants BP to Double Cost Cuts Target to $10 Billion",
-    "url": "https://oilprice.com/Latest-Energy-News/World-News/Elliott-Wants-BP-to-Double-Cost-Cuts-Target-to-10-Billion.html",
-    "summary": "Elliott Management, the activist U.S. hedge fund with 5% in BP, is doubling down on its pressure on the UK supermajor to deliver massive cost reductions after the reset, seeking doubling of the current target of $5 billion by 2027, the Financial Times reports. BP’s stock has been underperforming it",
-    "fullContent": "Elliott Management, the activist U.S. hedge fund with 5% in BP, is doubling down on its pressure on the UK supermajor to deliver massive cost reductions after the reset, seeking doubling of the current target of $5 billion by 2027, the Financial Times reports. BP’s stock has been underperforming its UK-based peer, Shell, and other major international oil firms in recent years. The BP board has been under increased pressure to seek fundamental changes to the business to reward shareholders more. The pressure on BP became…",
-    "publishedAt": "2025-08-04T11:00:00.000Z",
-    "fetchedAt": "2025-08-04T13:23:29.161Z",
-    "category": "commodities",
-    "tags": [
-      "commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "105edb8b"
-  },
-  {
-    "id": "bloomberg-economics-47981997",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-04/south-africa-readies-plan-to-offset-trump-s-tariffs-fallout",
+    "id": "bloomberg-business-youtube-449eca29",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business YouTube",
+    "title": "FCA Car Finance Ruling, Trump to Name New Fed Governor & Jobs Data Head | The Opening Trade 8/4",
+    "url": "https://www.youtube.com/watch?v=6QtH910MeuM",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T10:59:16.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.700Z",
-    "category": "macro",
+    "publishedAt": "2025-08-04T12:42:11.000Z",
+    "fetchedAt": "2025-08-04T13:23:38.952Z",
+    "category": "videos",
     "tags": [
-      "macro"
+      "videos"
     ],
     "priority": "normal",
-    "contentHash": "47981997"
+    "contentHash": "449eca29"
   },
   {
-    "id": "bloomberg-politics-47981997",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-04/south-africa-readies-plan-to-offset-trump-s-tariffs-fallout",
+    "id": "fortune-2c0dd090",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Former Fox News Host Jeanine Pirro confirmed as top prosecutorial cop for Washington DC",
+    "url": "https://fortune.com/2025/08/04/jeanine-pirro-confirmed-senate-federal-prosecutor/",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T10:59:16.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.701Z",
-    "category": "policy",
-    "tags": [
-      "policy"
-    ],
-    "priority": "normal",
-    "contentHash": "47981997"
-  },
-  {
-    "id": "yahoo-finance-7220d41c",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Duplo acquires UK’s Bar Graphic Machinery",
-    "url": "https://finance.yahoo.com/news/duplo-acquires-uk-bar-graphic-105855127.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:58:55.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.380Z",
+    "publishedAt": "2025-08-04T12:41:58.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.385Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "7220d41c"
+    "contentHash": "2c0dd090"
   },
   {
-    "id": "bloomberg-markets-2046a5eb",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-04/us-dollar-seen-at-risk-from-trump-s-moves-to-pick-policymakers",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:58:51.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.434Z",
+    "id": "nyt-business-37dfcbb3",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Inside Elon Musk’s Huge Payday",
+    "url": "https://www.nytimes.com/2025/08/04/business/dealbook/musk-tesla-compensation-billion.html",
+    "summary": "Tesla has awarded its chief executive a “first step payment worth roughly $29 billion to replace a plan blocked by a Delaware judge..",
+    "fullContent": "Tesla has awarded its chief executive a “first step payment worth roughly $29 billion to replace a plan blocked by a Delaware judge..",
+    "publishedAt": "2025-08-04T12:40:42.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.875Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "2046a5eb"
+    "contentHash": "37dfcbb3"
   },
   {
-    "id": "bloomberg-economics-2046a5eb",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-04/us-dollar-seen-at-risk-from-trump-s-moves-to-pick-policymakers",
+    "id": "bloomberg-business-youtube-20132ca9",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business YouTube",
+    "title": "‘Markets Are Open for IPOs,’ NYSE’s Martin Says",
+    "url": "https://www.youtube.com/watch?v=hR7szUgs1eE",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T10:58:51.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.700Z",
-    "category": "macro",
+    "publishedAt": "2025-08-04T12:40:06.000Z",
+    "fetchedAt": "2025-08-04T13:23:38.952Z",
+    "category": "videos",
     "tags": [
-      "macro"
+      "videos"
     ],
     "priority": "normal",
-    "contentHash": "2046a5eb"
+    "contentHash": "20132ca9"
   },
   {
-    "id": "adam-tooze-62f7b0b2",
-    "sourceId": "adam-tooze",
-    "sourceName": "Adam Tooze",
-    "title": "",
-    "url": "https://adamtooze.substack.com/p/top-links-819-overcapacity-in-diamonds",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:56:39.000Z",
-    "fetchedAt": "2025-08-05T09:24:45.069Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "62f7b0b2"
-  },
-  {
-    "id": "techmeme-21f5f9a9",
+    "id": "techmeme-229d0cc2",
     "sourceId": "techmeme",
     "sourceName": "Techmeme",
-    "title": "A profile of Netflix VP Brandon Riegg, who oversees unscripted series, sports, documentary series, and gaming, as the streamer pushes into live shows and sports (Nicole Sperling/New York Times)",
-    "url": "http://www.techmeme.com/250804/p15#a250804p15",
-    "summary": "IMG",
-    "fullContent": "Nicole Sperling / New York Times: A profile of Netflix VP Brandon Riegg, who oversees unscripted series, sports, documentary series, and gaming, as the streamer pushes into live shows and sports — Netflix's head of nonfiction series and sports, Brandon Riegg. Early in his Netflix career he had a memorable flop. ]]",
-    "publishedAt": "2025-08-04T10:55:02.000Z",
-    "fetchedAt": "2025-08-04T11:22:10.399Z",
+    "title": "Spotify says it is updating prices across South Asia, the Middle East, Africa, Europe, Latin America, and the Asia-Pacific; an example email had a €1/month rise (Olivia Solon/Bloomberg)",
+    "url": "http://www.techmeme.com/250804/p21#a250804p21",
+    "summary": "A TITLE=\"Techme",
+    "fullContent": "Olivia Solon / Bloomberg: Spotify says it is updating prices across South Asia, the Middle East, Africa, Europe, Latin America, and the Asia-Pacific; an example email had a &euro;1/month rise — Spotify Technology SA shares gained in premarket trading after the company announced it's raising premium subscription prices across many markets outside the US. ]]",
+    "publishedAt": "2025-08-04T12:40:01.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.323Z",
     "category": "technology",
     "tags": [
       "technology"
     ],
     "priority": "normal",
-    "contentHash": "21f5f9a9"
+    "contentHash": "229d0cc2"
   },
   {
-    "id": "zerohedge-3401b08d",
+    "id": "fortune-4927b72c",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Workers say AI and tech overload is making them less productive",
+    "url": "https://fortune.com/2025/08/04/workers-ai-tech-disjointed-software-productivity-lost-gray-work-quickbase-study/",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:38:43.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.385Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4927b72c"
+  },
+  {
+    "id": "ft-technology-4795cd46",
+    "sourceId": "ft-technology",
+    "sourceName": "FT Technology",
+    "title": "",
+    "url": "https://www.ft.com/content/ae085ae9-3d15-4d68-a28f-39c88e8bf8c8",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:38:32.000Z",
+    "fetchedAt": "2025-08-04T13:23:28.418Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "4795cd46"
+  },
+  {
+    "id": "fortune-6070a57d",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Washington Commenders win approval from DC Council to move back to former home RFK Stadium",
+    "url": "https://fortune.com/2025/08/04/washington-commenders-move-back-to-dc-rfk-stadium/",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:38:23.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.385Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6070a57d"
+  },
+  {
+    "id": "yahoo-finance-2dfb9c67",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Who Would Benefit the Most From a Drop in Mortgage Rates?",
+    "url": "https://finance.yahoo.com/news/benefit-most-drop-mortgage-rates-123708454.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:37:08.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2dfb9c67"
+  },
+  {
+    "id": "yahoo-finance-526a98f8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Loews Corp.'s Q2 Earnings Jump As Investment Income And Insurance Underwriting Shine",
+    "url": "https://finance.yahoo.com/news/loewss-q2-earnings-jump-investment-123639949.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:36:31.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "526a98f8"
+  },
+  {
+    "id": "yahoo-finance-2191cfba",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "ON Semiconductor Results Show Stabilizing End Markets",
+    "url": "https://www.wsj.com/business/earnings/on-semiconductor-results-show-stabilizing-end-markets-7a7fed2a?siteid=yhoof2&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:36:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2191cfba"
+  },
+  {
+    "id": "techmeme-c0bc3d",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Connecticut-based Amphenol plans to acquire North Carolina-based CommScope's broadband connectivity and cable unit for ~$10.5B, including debt, amid the AI boom (Lauren Thomas/Wall Street Journal)",
+    "url": "http://www.techmeme.com/250804/p20#a250804p20",
+    "summary": "A HREF=\"http://www.techmeme.com/250804/p20",
+    "fullContent": "Lauren Thomas / Wall Street Journal: Connecticut-based Amphenol plans to acquire North Carolina-based CommScope's broadband connectivity and cable unit for ~$10.5B, including debt, amid the AI boom — Maker of interconnect products is buying CommScope's broadband connectivity and cable unit — Amphenol said it would buy &hellip; ]]",
+    "publishedAt": "2025-08-04T12:35:15.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.323Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "c0bc3d"
+  },
+  {
+    "id": "bbc-business-3ac345c1",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "",
+    "url": "https://www.bbc.com/news/articles/cr4e2d09wdko?at_medium=RSS&amp;at_campaign=rss",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:34:39.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.307Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3ac345c1"
+  },
+  {
+    "id": "cnbc-markets-58a73b1c",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "Trump set to name replacements at the Fed and Bureau of Labor Statistics in coming days",
+    "url": "https://www.cnbc.com/2025/08/04/trump-set-to-name-replacements-at-the-fed-and-bls-in-coming-days.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:34:04.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.053Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "58a73b1c"
+  },
+  {
+    "id": "cnbc-economy-58a73b1c",
+    "sourceId": "cnbc-economy",
+    "sourceName": "CNBC Economy",
+    "title": "Trump set to name replacements at the Fed and Bureau of Labor Statistics in coming days",
+    "url": "https://www.cnbc.com/2025/08/04/trump-set-to-name-replacements-at-the-fed-and-bls-in-coming-days.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:34:04.000Z",
+    "fetchedAt": "2025-08-04T13:23:28.092Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "58a73b1c"
+  },
+  {
+    "id": "fortune-5c9a61e",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Stanford hires former Nike CEO John Donahoe as athletic director",
+    "url": "https://fortune.com/2025/08/04/stanford-hires-former-nike-ceo-john-donahoe-as-athletic-director/",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:33:15.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.385Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5c9a61e"
+  },
+  {
+    "id": "fortune-148bdbd7",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "MrBeast leads online creators in $40 million fundraiser to build better quality water projects worldwdie",
+    "url": "https://fortune.com/2025/08/04/mrbeast-water-fundraising-youtube-40-million-user-generated-content/",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:31:48.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.385Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "148bdbd7"
+  },
+  {
+    "id": "the-verge-503e47a6",
+    "sourceId": "the-verge",
+    "sourceName": "The Verge",
+    "title": "",
+    "url": "https://www.theverge.com/news/718038/spotify-premium-subscription-price-increase-outside-us",
+    "summary": "![CDATA[Spotify is increasing prices in several regions outside of the US, just days after posting disappointing earnings. Spotify announced on Monday that Premium subscribers across Europe, South Asia, the Middle East, Africa, Latin America, and Asia-Pacific will be notified about pricing changes",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:30:59.000Z",
+    "fetchedAt": "2025-08-04T13:23:28.974Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "503e47a6"
+  },
+  {
+    "id": "techmeme-70ad14b3",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Bullish, a digital asset exchange and CoinDesk owner, plans to sell 20.3M shares at $28 to $31 in a US IPO, raising up to $629.3M at an up to $4.2B valuation (Monique Mulima/Bloomberg)",
+    "url": "http://www.techmeme.com/250804/p19#a250804p19",
+    "summary": "A TITLE=",
+    "fullContent": "Monique Mulima / Bloomberg: Bullish, a digital asset exchange and CoinDesk owner, plans to sell 20.3M shares at $28 to $31 in a US IPO, raising up to $629.3M at an up to $4.2B valuation — Bullish, a digital-asset exchange operator and owner of media outlet CoinDesk, is looking to raise as much as $629.3 million in its US initial public offering. ]]",
+    "publishedAt": "2025-08-04T12:30:47.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.323Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "70ad14b3"
+  },
+  {
+    "id": "yahoo-finance-297dc377",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Here’s Why Baron Real Estate Fund Increased Its Position in Equinix (EQIX)",
+    "url": "https://finance.yahoo.com/news/why-baron-real-estate-fund-123016621.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:30:16.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "297dc377"
+  },
+  {
+    "id": "bloomberg-markets-27074f61",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/videos/2025-08-04/-markets-are-open-for-ipos-nyse-s-martin-says",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:30:15.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.004Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "27074f61"
+  },
+  {
+    "id": "big-picture-cd61cdb",
+    "sourceId": "big-picture",
+    "sourceName": "The Big Picture",
+    "title": "Transcript: Erik Hirsch, Hamilton Lane",
+    "url": "https://ritholtz.com/2025/08/transcript-erik-hirsch/",
+    "summary": "&#160; &#160; The transcript from this week’s, MiB: Erik Hirsch, Hamilton Lane, is below. You can stream and download our full conversation, including any podcast extras, on Apple Podcasts, Spotify, YouTube, and Bloomberg. All of our earlier podcasts on your favorite pod hosts can be fou",
+    "fullContent": "&#160; &#160; The transcript from this week’s, MiB: Erik Hirsch, Hamilton Lane, is below. You can stream and download our full conversation, including any podcast extras, on Apple Podcasts, Spotify, YouTube, and Bloomberg. All of our earlier podcasts on your favorite pod hosts can be found here. ~~~ This is Masters in business with Barry Ritholtz&#8230; Read More The post Transcript: Erik Hirsch, Hamilton Lane appeared first on The Big Picture. ]]",
+    "publishedAt": "2025-08-04T12:30:08.000Z",
+    "fetchedAt": "2025-08-05T02:40:13.786Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "cd61cdb"
+  },
+  {
+    "id": "bloomberg-markets-2e9ab5da",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/videos/2025-08-04/galbraith-tariff-picture-shifting-video",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:28:59.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.004Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2e9ab5da"
+  },
+  {
+    "id": "nyt-business-3d94fe71",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Tesla Grants Musk $29 Billion in Stock to ‘Keep Elon’s Energies Focused’",
+    "url": "https://www.nytimes.com/2025/08/04/business/tesla-elon-musk-29-billion.html",
+    "summary": "The “interim” package announced on Monday was intended to help retain Elon Musk, whose previous pay plan was invalidated by a judge.",
+    "fullContent": "The “interim” package announced on Monday was intended to help retain Elon Musk, whose previous pay plan was invalidated by a judge.",
+    "publishedAt": "2025-08-04T12:28:46.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.876Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3d94fe71"
+  },
+  {
+    "id": "et-markets-13afe379",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times Markets",
+    "title": "",
+    "url": "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-nifty-to-experience-a-volatile-week-ahead-eyes-2400025300-range-jay-thakkar/articleshow/123096249.cms",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:27:04.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.298Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "13afe379"
+  },
+  {
+    "id": "bloomberg-markets-36ef7029",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/videos/2025-08-04/koning-see-one-rate-cut-this-year-video",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:26:37.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.004Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "36ef7029"
+  },
+  {
+    "id": "bloomberg-business-youtube-70433486",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business YouTube",
+    "title": "OPEC+ Increases Output, Leaves Questions on Next Move",
+    "url": "https://www.youtube.com/watch?v=moHi8ykhedE",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:26:10.000Z",
+    "fetchedAt": "2025-08-04T13:23:38.952Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "70433486"
+  },
+  {
+    "id": "yahoo-finance-38a9e206",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Baron Real Estate Fund Trimmed American Tower Corporation (AMT) to Manage the Position Size",
+    "url": "https://finance.yahoo.com/news/baron-real-estate-fund-trimmed-122430746.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:24:30.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "38a9e206"
+  },
+  {
+    "id": "bloomberg-business-youtube-3cbad47d",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business YouTube",
+    "title": "Boeing Defense Union Strikes for First Time Since 1996",
+    "url": "https://www.youtube.com/watch?v=YRa4ppjHaIU",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:23:56.000Z",
+    "fetchedAt": "2025-08-04T13:23:38.952Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "3cbad47d"
+  },
+  {
+    "id": "yahoo-finance-1ca887cd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Here’s Why Baron Real Estate Fund Sold Extra Space Storage (EXR) in Q2",
+    "url": "https://finance.yahoo.com/news/why-baron-real-estate-fund-122309986.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:23:09.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1ca887cd"
+  },
+  {
+    "id": "cnbc-tv18-youtube-54b82fbc",
+    "sourceId": "cnbc-tv18-youtube",
+    "sourceName": "CNBC TV18 YouTube",
+    "title": "India vs England Live: India vs England LIVE Score | Live Cricket Commentary | Latest News",
+    "url": "https://www.youtube.com/watch?v=qDnVfr7LM_U",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:22:33.000Z",
+    "fetchedAt": "2025-08-04T13:23:32.845Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "54b82fbc"
+  },
+  {
+    "id": "yahoo-finance-5363ce0e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Earnings live: Wayfair stock soars on Q2 beat, Tyson raises revenue forecast",
+    "url": "https://finance.yahoo.com/news/live/earnings-live-wayfair-stock-soars-on-q2-beat-tyson-raises-revenue-forecast-122208056.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:22:08.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5363ce0e"
+  },
+  {
+    "id": "cnbc-tv18-youtube-6b5c395d",
+    "sourceId": "cnbc-tv18-youtube",
+    "sourceName": "CNBC TV18 YouTube",
+    "title": "Bhaiyaji Kahin With Prateek Trivedi LIVE: Tejashwi Yadav | Rahul Gandhi | Bihar Voter List |EC",
+    "url": "https://www.youtube.com/watch?v=zSTA6bD54w8",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:20:20.000Z",
+    "fetchedAt": "2025-08-04T13:23:32.845Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "6b5c395d"
+  },
+  {
+    "id": "techmeme-498f6f54",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Lyft partners with Baidu to launch autonomous vehicles in Germany and the UK in 2026, pending regulatory approval; Lyft will deploy Baidu's sixth-gen robotaxis (Natalie Lung/Bloomberg)",
+    "url": "http://www.techmeme.com/250804/p18#a250804p18",
+    "summary": "A TITLE=\"Te",
+    "fullContent": "Natalie Lung / Bloomberg: Lyft partners with Baidu to launch autonomous vehicles in Germany and the UK in 2026, pending regulatory approval; Lyft will deploy Baidu's sixth-gen robotaxis — Lyft Inc. said it's partnering with China's Baidu Inc. to launch autonomous vehicles in Europe starting next year &hellip; ]]",
+    "publishedAt": "2025-08-04T12:20:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:29.323Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "498f6f54"
+  },
+  {
+    "id": "yahoo-finance-13b0d628",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Here’s Why Baron Real Estate Fund is Excited about BXP’s (BXP) Prospects",
+    "url": "https://finance.yahoo.com/news/why-baron-real-estate-fund-121917671.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:19:17.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "13b0d628"
+  },
+  {
+    "id": "ndtv-profit-rss-752c93e9",
+    "sourceId": "ndtv-profit-rss",
+    "sourceName": "NDTV Profit RSS",
+    "title": "Tata Investment Approves 1:10 Stock Split — Check Details",
+    "url": "https://www.ndtvprofit.com/markets/tata-investment-approves-110-stock-split-check-details",
+    "summary": "The record date for Tata Investment's stock split is yet to be announced, and will be decided as per the approval of the shareholders of the company.",
+    "fullContent": "The record date for Tata Investment's stock split is yet to be announced, and will be decided as per the approval of the shareholders of the company.",
+    "publishedAt": "2025-08-04T12:18:53.600Z",
+    "fetchedAt": "2025-08-04T13:23:29.097Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "752c93e9"
+  },
+  {
+    "id": "ndtv-profit-rss-185e8e7e",
+    "sourceId": "ndtv-profit-rss",
+    "sourceName": "NDTV Profit RSS",
+    "title": "Crude Oil Hits 1-Week Low After OPEC+ Hikes Output Supply: How To Place Bets On WTI, MCX?",
+    "url": "https://www.ndtvprofit.com/markets/crude-oil-hits-1-week-low-after-opec-hikes-output-supply-how-to-place-bets-on-wti-mcx",
+    "summary": "Crude Oil Price Today: After OPEC+ cartel hiked the oil output supply by 5,47,000 bpd for September, Brent crude futures fell $1.17, or 1.7%, to $68.50 a barrel.",
+    "fullContent": "Crude Oil Price Today: After OPEC+ cartel hiked the oil output supply by 5,47,000 bpd for September, Brent crude futures fell $1.17, or 1.7%, to $68.50 a barrel.",
+    "publishedAt": "2025-08-04T12:17:37.113Z",
+    "fetchedAt": "2025-08-04T13:23:29.097Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "185e8e7e"
+  },
+  {
+    "id": "yahoo-finance-7e2841b7",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Here’s Why Baron Real Estate Fund Bought Airbnb (ABNB)",
+    "url": "https://finance.yahoo.com/news/why-baron-real-estate-fund-121629742.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:16:29.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7e2841b7"
+  },
+  {
+    "id": "ndtv-profit-rss-75084a8",
+    "sourceId": "ndtv-profit-rss",
+    "sourceName": "NDTV Profit RSS",
+    "title": "Promoter Shareholding In Indian Corporates At Eight-Year Low",
+    "url": "https://www.ndtvprofit.com/markets/promoter-shareholding-in-indian-corporates-at-eight-year-low",
+    "summary": "Government holdings as promoters saw a slight increase during the quarter, rising from 9.27% to 9.39%.",
+    "fullContent": "Government holdings as promoters saw a slight increase during the quarter, rising from 9.27% to 9.39%.",
+    "publishedAt": "2025-08-04T12:16:21.835Z",
+    "fetchedAt": "2025-08-04T13:23:29.097Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "75084a8"
+  },
+  {
+    "id": "yahoo-finance-2921fb6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cisco Systems Stock: Is Wall Street Bullish or Bearish?",
+    "url": "https://finance.yahoo.com/news/cisco-systems-stock-wall-street-121614673.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:16:14.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2921fb6"
+  },
+  {
+    "id": "yahoo-finance-3ed31aa5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Analysts Warn That CoreWeave Stock Is ‘High Risk,’ But They Still Want You to Buy CRWV Now",
+    "url": "https://finance.yahoo.com/news/analysts-warn-coreweave-stock-high-121501696.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:15:01.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3ed31aa5"
+  },
+  {
+    "id": "yahoo-finance-4d7d2fed",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Independence Realty Trust (IRT) Traded Down in Q2 Due to Economic Concerns",
+    "url": "https://finance.yahoo.com/news/independence-realty-trust-irt-traded-121410239.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:14:10.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4d7d2fed"
+  },
+  {
+    "id": "yahoo-finance-10fe9bad",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Foxconn Looks to Build AI Servers at Former Lordstown EV Factory",
+    "url": "https://www.wsj.com/tech/lordstown-ev-plant-to-be-converted-into-ai-hardware-factory-849eadfa?siteid=yhoof2&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:14:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "10fe9bad"
+  },
+  {
+    "id": "bloomberg-business-youtube-26f5fff5",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business YouTube",
+    "title": "Stocks Rebound Amid Rate-Cut Bets; Trump to Name New Fed Governor | Bloomberg Brief 8/4/2025",
+    "url": "https://www.youtube.com/watch?v=loYWPYkInMk",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:13:18.000Z",
+    "fetchedAt": "2025-08-04T13:23:38.952Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "26f5fff5"
+  },
+  {
+    "id": "yahoo-finance-3e8c8a83",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Prologis (PLD) Slid Due to a Slower Leasing Environment",
+    "url": "https://finance.yahoo.com/news/prologis-pld-slid-due-slower-121153667.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:11:53.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3e8c8a83"
+  },
+  {
+    "id": "et-markets-7060f573",
+    "sourceId": "et-markets",
+    "sourceName": "Economic Times Markets",
+    "title": "",
+    "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/rich-dad-poor-dad-author-robert-kiyosaki-says-hell-double-down-on-bitcoin-if-august-curse-sends-it-below-90k/articleshow/123095943.cms",
+    "summary": "![CDATA[Robert Kiyosaki says he will double his Bitcoin holdings if the “August Curse” pushes prices below $90,000. Despite market jitters, he blames macroeconomic mismanagement—not Bitcoin—for volatility. While bearish sentiment grows due to seasonal and global risks, Kiyosaki views the dip as a b",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:11:41.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.298Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7060f573"
+  },
+  {
+    "id": "bloomberg-markets-524c946e",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/imf-says-saudi-arabia-has-cut-spending-enough-even-if-oil-slides",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:11:26.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.004Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "524c946e"
+  },
+  {
+    "id": "bloomberg-economics-524c946e",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/imf-says-saudi-arabia-has-cut-spending-enough-even-if-oil-slides",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:11:26.000Z",
+    "fetchedAt": "2025-08-05T02:40:12.335Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "524c946e"
+  },
+  {
+    "id": "yahoo-finance-7a896d2a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tyson Foods Raises Revenue Outlook",
+    "url": "https://www.wsj.com/business/retail/tyson-foods-raises-revenue-outlook-6831caa2?siteid=yhoof2&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:11:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7a896d2a"
+  },
+  {
+    "id": "yahoo-finance-5d065e2c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Markets Rebounding as Investors Buy the Dip on Fed Rate-Cut Hope After Dismal Jobs Data",
+    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-080425/card/markets-lifted-as-investors-buy-the-dip-after-dismal-jobs-report-tanked-stocks-OmZmPKPSQeUdUMf7LDpN?siteid=yhoof2&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:10:57.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5d065e2c"
+  },
+  {
+    "id": "yahoo-finance-1965bbaf",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Churchill Downs Incorporated (CHDN) Sold Off Following Earnings Release",
+    "url": "https://finance.yahoo.com/news/churchill-downs-incorporated-chdn-sold-120934900.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:09:34.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1965bbaf"
+  },
+  {
+    "id": "yahoo-finance-1bf372e6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "This Networking Stock Is Rising 70% on Unit Sale. It’s Part of the Data Center Frenzy.",
+    "url": "https://www.barrons.com/articles/commscope-stock-amphenol-ai-data-center-4bac39e5?siteid=yhoof2&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:08:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1bf372e6"
+  },
+  {
+    "id": "bloomberg-markets-122083cd",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/swiss-gold-trading-takes-spotlight-in-trade-talks-with-trump",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:08:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.004Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "122083cd"
+  },
+  {
+    "id": "bloomberg-economics-122083cd",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/swiss-gold-trading-takes-spotlight-in-trade-talks-with-trump",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:08:00.000Z",
+    "fetchedAt": "2025-08-05T02:40:12.335Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "122083cd"
+  },
+  {
+    "id": "bloomberg-politics-122083cd",
+    "sourceId": "bloomberg-politics",
+    "sourceName": "Bloomberg Politics",
+    "title": "",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/swiss-gold-trading-takes-spotlight-in-trade-talks-with-trump",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:08:00.000Z",
+    "fetchedAt": "2025-08-05T02:40:13.150Z",
+    "category": "policy",
+    "tags": [
+      "policy"
+    ],
+    "priority": "normal",
+    "contentHash": "122083cd"
+  },
+  {
+    "id": "zerohedge-2b29dc44",
     "sourceId": "zerohedge",
     "sourceName": "ZeroHedge",
-    "title": "UPenn Student Paper: School Caving To Trump Admin Over Men In Women's Sports Is \"Fascism\"",
-    "url": "https://www.zerohedge.com/political/upenn-student-paper-school-caving-trump-admin-over-men-womens-sports-fascism",
-    "summary": "UPenn Student Paper: School Caving To Trump Admin Over Men In Women's Sports Is \"Fascism\" div property=\"schema:text\" class=\"clearfix text-formatted field field--nam",
-    "fullContent": "UPenn Student Paper: School Caving To Trump Admin Over Men In Women's Sports Is \"Fascism\" By Dave Huber of The College Fix The University of Pennsylvania student paper is very upset the school agreed to Trump administration demands regarding men’s participation in women’s sports — so much so it says UPenn is “descending into fascism” (its headline). The Daily Pennsylvanian Summer Opinion Editor Ingrid Holmquist and her summer-session cohorts say their editorial is not about the UPenn (women’s) swim team (and surrounding Lia Thomas controversy) nor “NCAA guidelines” or “biological sex characteristics.” Except that … it really is. “In allowing the federal government to make a decision that belongs to our community, Penn has violated our trust in a way that may be impossible to restore,” the editors write. “Our administration could have said no, fighting in court to keep the government out of our athletic policies.” Furthermore, UPenn made a deal with an administration that has “proven hostile to human rights,” and this agreement “affirmed the belief” for the university that Trump’s actions were “logical [and] legal.” “Throughout history, authoritarian regimes have begun their crackdowns with an attack on universities — beacons of dissent and social progress,” the editors continue. “We can’t ignore the warning signs. Penn’s actions are exactly what it looks like to give in to extortion disguised as governance.” Hostile to human rights? The Ivy Leaguers’ proof: a link to the notoriously centrist (ha ha) Amnesty International which claims Trump is “targeting immigrants,” “attacking freedom of expression and the right to protest,” and “marginalizing Black and other racialized communities.” Logical? Remember when the geniuses in the academy and media lectured us about believing in science? Apparently there’s nothing logical or scientific about not wanting men to compete against women in sports. Legal? Wait, it’s illegal to keep federal monies from entities which do not want to comply with federal desires? Ask states that had drinking ages under 21 how that worked out for them. Authoritarian/fascist regimes? Yes, let’s buy into these budding journalists’ definition of “fascism”; meanwhile, Editor Holmquist (pictured) doesn’t believe downtown Philadelphia is a dangerous place and chides her peers for thinking otherwise (certain demographics, you see). UPenn’s agreement with the Trump administration got it back $175 million. You know what the school’s endowment is worth? Over $22 billion. This means UPenn saved a whopping 0.8 percent of its endowment by conceding to Trump. If it really needs to be pointed out, UPenn can give a middle finger to President Trump by forgoing all federal monies. This is precisely what Hillsdale College does to “maintain its institutional independence.” Twenty-two billion is a helluva lot of money, UPenn. Just throw back that $175 mill (and more), and you’ll be free to not only let Lia Thomas and other men compete against women, but from the shackles of … FASCISM! Tyler Durden Mon, 08/04/2025 - 06:55",
-    "publishedAt": "2025-08-04T10:55:00.000Z",
-    "fetchedAt": "2025-08-04T13:23:28.187Z",
+    "title": "Futures Rise, Recovering From Friday's Dump On Rising Rate Cut Expectations",
+    "url": "https://www.zerohedge.com/market-recaps/futures-rise-recovering-fridays-dump-rising-rate-cut-expectations",
+    "summary": "Futures Rise, Recovering From Friday's Dump On Rising Rate Cut Expectations div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--",
+    "fullContent": "Futures Rise, Recovering From Friday's Dump On Rising Rate Cut Expectations Futures are higher as markets rebound from last week’s sell-off amid increased expectations the Fed will ride to the rescue with rate cuts following Friday’s dismal US jobs data. As of 7:45am ET, S&P 500 and Nasdaq futures climbed 0.7% after the index had its biggest decline since May on Friday. Pre-market, Mag7 and Semis are outperforming with Cyclicals over Defensives. Bond yields are 2-3bp higher as the USD falls again. Commodities are weaker with Energy underperforming as OPEC+ approves another supply hike. This is a catalyst-light week with tomorrow’s ISM the most important and heightened focus on weekly claims with the Fed spotlighting the unemployment rate. In premarket trading, all Magnificent Seven stocks are higher alongside index futures (Amazon +1.8% after a Friday selloff, Nvidia +1.2%, Meta Platforms +1.1%, Tesla +1%, Alphabet +0.8%, Microsoft +0.8%, Apple +0.8%). here are the other notable premarket movers: Berkshire Hathaway (BRK/B) is down 0.6% after Warren Buffett’s company took a $3.8 billion impairment on its Kraft Heinz stake. Boeing (BA) falls 0.3% as workers at its St. Louis-area defense factories strike for the first time in almost three decades. Blade Air Mobility Inc. (BLDE) is up 16% after Bloomberg reported that Joby Aviation Inc. (JOBY) is exploring an acquisition of the helicopter ride-share operator. Joby shares are up 5%. CommScope (COMM) shares climbed 42% before being halted after reaching a deal to sell its broadband connectivity arm for about $10.5 billion in cash to Amphenol Corp. as it seeks to cut its debt. Amphenol (APH) gains 4%. Kodiak Gas (KGS) rises 5% after the announcement that the provider of natural gas compression services will join the S&P Small Cap 600 Index. Opendoor (OPEN) climbs 14% as much as 20% after the company regained compliance with the Nasdaq exchange. Spotify (SPOT) gains 3% after the audio-streaming company said it will increase the monthly cost of premium subscriptions in some markets. Steelcase Inc. (SCS) soars 45 % after HNI (HNI) agreed to buy the company. HNI shares are down 20%. Tyson Foods (TSN) rises 4% as management raised its earnings forecast after quarterly profit unexpectedly rose as a boom in US chicken continues to offset losses in the beef business. Wayfair (W) rises 11% after the e-commerce firm posted second quarter profit that sailed past estimates. Friday’s tumble on Wall Street, which was sparked by rising US unemployment and slower job creation, boosted bets for a Fed rate cut to prop up the market economy. Traders rushed into Treasuries despite worries about the inflationary effect of Trump’s tariffs, which have kept policy makers in hawkish mode. “We’re buyers of pullbacks and bullish the next 12 months,” Morgan Stanley equity strategists led by Michael Wilson wrote in a note. “We think the Fed will eventually transition to cuts. Friday may be all we get to the downside for now; that is, until the next payroll number or other weaker, lagging growth data is potentially revealed.” Overnight-indexed swaps signaled more than 80% odds of a reduction next month while fully pricing in one more cut by year-end. Some market-watchers are even anticipating the Fed may cut rates by 50 basis points, twice the regular amount. That may be too optimistic, given the outlook for inflation and growth, according to Pictet Wealth Management. Separately, Trump said he will announce a new Fed governor and jobs data statistician in the coming days, two appointments that could shape his economic agenda. The Fed announced Friday that Adriana Kugler will step down from her position as a governor, giving Trump an opportunity to install a policymaker who aligns with his demands for lower interest rates. Also on Friday, Trump fired chief labor statistician Erika McEntarfer hours after labor market data showed weak jobs growth based in part on steep downward revisions for May and June. Meanwhile, the US Trade Representative Jamieson Greer sounded a cautiously optimistic note on discussions with China on rare earth flows, following trade talks that further steadied ties between the economies. “Things have changed dramatically in the trade environment globally, not only the US,” veteran investor Mark Mobius said in a Bloomberg TV interview. “People are looking at this much more realistically. There’s going to be a lot of thinking about how to make things fairer for all countries involved.” Europe’s Stoxx 600 index rose about 0.6%. Banks led the advance after UK lenders won a major reprieve in a pivotal UK car finance case, with Lloyds Banking Group Plc surging more than 7%. As noted above, the Swiss stocks benchmark, meanwhile, fell as the market reopened after a holiday, on worries about the impact from US President Donald Trump’s punitive 39% export tariff and a push for drugmakers to lower prices. Here are the biggest movers Monday: UK lenders including Lloyds and Barclays advance after they won a major reprieve in a pivotal UK car finance case; Jefferies analyst Jonathan Pierce says the ruling is a “huge win for industry” that shows “common sense” Clarkson shares rise as much as 6.4% to the highest level since March after the shipping-services company posted results ahead of expectations and reiterated its guidance, which analysts at Panmure Liberum say is reassuring Novo Nordisk shares rise as much as 2.9%, paring some of last week’s record 32% drop. Goldman Sachs analysts say bull/bear scenarios for the Danish drugmaker “suggest upside risk” TeamViewer shares rise as much as 3.5% as Kepler Cheuvreux upgrades the German software company to buy as it sees momentum improving in the coming quarters and says this isn’t factored into the valuation Metlen Energy and Metals’ shares rose in its debut on the London Stock Exchange on Monday after moving its primary listing from Athens, although the trading in the stock was relatively thin Swiss stocks are down as the market resumes trading for the first time since President Trump unexpectedly slapped punitive 39% tariffs on the country. Roche, ABB and UBS are among the biggest decliners in the SMI Index Stabilus shares fall as much as 12% after the German machinery and equipment maker’s 3Q earnings missed expectations, according to Bernstein, while it narrowed its full-year adjusted Ebit margin and revenue forecast Auction Technology Group drops as much as 22%, the most since 2023, after the online marketplace operator downgraded its margin guidance for the full year, which analysts at Panmure Liberum said will pressure consensus Swiss stocks slumped as the market reopened after a holiday, on worries about the impact from US President Donald Trump’s punitive 39% export tariff and a push for drugmakers to lower prices. Earlier in the session, Asian equities traded in a narrow range, with Japanese stocks leading declines while South Korean shares rose after growing optimism a controversial tax plan may be revised. The MSCI Asia Pacific Index gained slightly, erasing an earlier loss of as much as 0.5%. Advances in Tencent and Nintendo helped boost the regional benchmark. MUFG was among the biggest drags along with other Japanese large caps including Recruit and Hitachi. Key equity indexes fell more than 1% in Tokyo while the yen climbed, as Friday’s weak US payrolls data raised expectations for Federal Reserve interest-rate cuts. Korean benchmarks rebounded as a petition to withdraw planned corporate and capital-gains tax hikes drew strong support. The regional MSCI Asia gauge was set to snap a six-day decline, as investors digested a slew of new US tariffs. Shares rose in Hong Kong as investors looked beyond the Politburo meeting, seeking fresh catalysts amid ongoing tariff negotiations between US and China. Mainland investors also poured a record amount of money into exchange-traded funds that track the market in the Asian financial hub. In FX, the dollar was steady after a gauge of the greenback’s strength plunged 0.9% on Friday. The Swiss franc underperforms, falling 0.5% against the greenback having only derived brief support from a larger-than-expected rise in CPI. In rates, treasuries pared last week’s gains as traders braced for a hefty slate of bond sales this week. Yields on the 10-year notes climbed 1 basis point to 4.23% after dropping 16 basis points Friday. Gilts dip but German government bonds are steady. Treasury new-issue auctions this week begin Tuesday with $58 billion 3-year notes, followed by $42 billion 10-year notes and $25 billion 30-year bonds Wednesday and Thursday In commodities, WTI crude futures slide 1.3% to near $66.50 a barrel after OPEC+’s latest supply increase. Spot gold is steady near $3,360/oz. Today's economic data slate includes June factory orders at 10am. Fed speaker slate empty for the session. Ahead this week are appearances by Cook, Daly, Bostic, Musalem and Bowman. Market Snapshot S&P 500 mini +0.7% Nasdaq 100 mini +0.8% Russell 2000 mini +0.9% Stoxx Europe 600 +0.7% DAX +1.3% CAC 40 +0.9% 10-year Treasury yield +3 basis points at 4.24% VIX -1.4 points at 18.99 Bloomberg Dollar Index little changed at 1210.36 euro -0.1% at $1.1571 WTI crude -1.1% at $66.62/barrel Top Overnight News Trump said he would remove Fed Chair Powell in a heartbeat but added that removing Powell would disturb the market, while he stated Powell will most likely stay on as Chair, and he will appoint a new Fed Chair once Powell’s term ends. Trump said he is to announce a replacement for Fed's Kugler in the next couple of days after the Fed announced on Friday that Governor Kugler is resigning from the Fed board effective August 8th. Fed’s Williams said he is going into the September meeting with an open mind and that modestly restrictive policy is still needed, while he added the unusually large downward revisions in May and June payrolls were really the news in the report. Apple is changing course and exploring in-house AI services with the goal of creating a new ChatGPT-like search experience. A team is building an “answer engine” — a system capable of crawling the web to respond to general-knowledge questions. BBG Apple CEO Cook said he intends to win the AI race and will make the appropriate investments to do so. Boeing defence workers are set to strike on Monday after the company’s St. Louis employees rejected the latest offer, while Boeing stated that it is prepared for a strike and has fully implemented its contingency plan: BBG Chinese exporters are reconsidering investment in offshore factories as US tariffs on alternative hubs and new restrictions on “transshipment” force a sweeping rethink of supply chain in Asia. FT China is limiting the flow of critical minerals to Western defense manufacturers, delaying production and forcing companies to scour the world for stockpiles of the minerals needed to make everything from bullets to jet fighters. WSJ Japanese Prime Minister Shigeru Ishiba said on Monday the government is ready to compile an extra budget to cushion the economic blow from U.S. tariffs, a move that would add strain to the country's already worsening finances. RTRS The Swiss government is open to revising its offer to the United States in response to planned heavy tariffs, Business Minister Guy Parmelin said, as experts warned the 39% import duties announced by President Donald Trump could trigger a recession in Switzerland. RTRS Brazil’s President Lula da Silva said he’s open to trade talks with Trump but only if his country is treated as an equal. BBG Trump this week is set to name his replacements for the Kugler’s open seat the Fed and the Commissioner of Labor Statistics. FT The US is “about halfway” toward restoring flows of rare earth magnets from China, USTR Jamieson Greer said. A US and Canada deal is also possible, with Trump and PM Mark Carney expected to speak soon, Canada’s trade envoy Dominic LeBlanc told CBS. BBG Boeing workers at its St. Louis-area defense factories went on strike around midnight after union members rejected the company’s modified contract offer. BBG A conservative think tank run by former US VP Pence is reportedly lobbying Hill offices against a push to make gambling losses 100% tax-deductible, according to Punchbowl. Trade/Tariffs USTR Greer said the trade truce deadline for China is still under discussion. Canada’s trade envoy LeBlanc said PM Mark Carney and US President Donald Trump are expected to talk “over the next number of days” after a failure by their countries to reach a deal before the Aug. 1st tariff deadline, while LeBlanc plans to speak with US Commerce Secretary Lutnick and still sees a chance to ease Trump tariffs, according to Bloomberg. Canadian ministers are to discuss trade in meetings with Mexico's President Sheinbaum and government officials, according to The Globe and Mail. Brazil’s Finance Minister Haddad said they will have a meeting with US Treasury Secretary Bessent in the week ahead and will clarify in the meeting how the Brazilian justice system works. China is reportedly choking the supply of critical minerals to Western defence companies, according to WSJ. Japanese Economy Minister Akazawa said the US is attempting to alter the rules and norms of global trade, while he stated that waiting for a deal in writing might have delayed a levy cut. EU said to be awaiting US President Trump's actions on its car tariffs and exemptions this week, according to Bloomberg. A more detailed look at global markets courtesy of Newsquawk APAC stocks traded mixed following a quiet weekend of newsflow and last Friday's disappointing Non-Farm Payrolls data. ASX 200 was subdued amid underperformance in the top-weighted financials sector and with weakness also seen in energy, Industrials and tech, although losses were stemmed by resilience in defensives and miners. Nikkei 225 underperformed after recent currency strength and briefly dipped back beneath the 40k level. Hang Seng and Shanghai Comp were kept afloat amid earnings and corporate updates, while the PBoC announced last week that it is to expand the issuance scale of sci-tech bonds and promote cross-border financing facilitation, as well as strengthen the implementation and supervision of interest rate policies. Top Asian News China could step up monetary easing efforts in H2 2025 by cutting benchmark interest rates and banks’ RRR in order to guide overall financing costs lower and support the economy, according to Shanghai Securities News. India's capital markets regulator called for structural reforms to the country's vast derivatives market, according to FT. PBoC did not purchase or sell Chinese sovereign bonds on the open market in July; PBoC conducted CNY 1.4tln of outright reverse repos in July on the open market. European equities (STOXX 600 +0.6%) began the week in the green (ex. SMI), and have continued to climb higher as the session progressed. The SMI (-0.6%) underperforms as it reacts to the US unexpectedly raising tariffs on Swiss goods to 39% (from 31%); as a reminder, Switzerland was on holiday last Friday. European sectors began mixed, though as the session has progressed, the picture looks more positive. Banks reside at the top and Healthcare at the bottom; the latter is hampered by heavyweight Novartis (-0.5%), given the broader pressure across Swiss stocks. Stateside, equity futures (ES +0.7%, NQ +0.8%, RTY +0.9%) have been firming throughout the morning with some modest outperformance in the RTY after closing with significant losses on Friday. Tesla (TSLA) sold 67,886 China-made vehicles in July (vs. 71,599 in June), according to China's CPCA. Top European News UK's FCA proposed a redress scheme for motor finance claims which could cost banks up to GBP 18bln, according to FT. Germany's engineering association VDMA said engineering orders -5% Y/Y in June (domestic -5%, foreign -5%); engineering orders -2% Y/Y in April-June (domestic -2%, foreign -1%). FX DXY has started the week off on the front foot but gains are very modest in comparison to the post-payrolls downside on Friday, which saw the index close lower by 1.4%. The knock-on impact to Fed pricing means that markets price an 89% chance of a 25bps cut next month and a total of 59bps of loosening by year-end. This also comes in the context of a potentially more dovish composition of the FOMC with US President Trump set to name Kugler's replacement in the coming days. Elsewhere on the personnel front, Trump is also set to announce the replacement for the head of the BLS, whom he fired on Friday, claiming that they \"faked job numbers\" before the election in an attempt to help his political rivals. DXY has been unable to make its way back onto a 99 handle with a current session peak at 98.97. EUR/USD is on the backfoot after a choppy week last week, which saw EUR slide against the USD in the wake of the EU-US trade deal before mounting a partial recovery on Friday post-payrolls. The macro narrative surrounding the EU remains as it was, and that could remain the case with little in the way of market-moving scheduled releases for the Eurozone this week. EUR/USD failed to crack 1.16 to the upside, topping out at 1.1597 and has since slipped back below its 200DMA at 1.1581 with a session low at 1.1551. After a wild week last week, which saw an initial rally in USD/JPY (on account of broad USD strength and a dovish reaction to the BoJ policy announcement) swiftly reversed in the wake of the US NFP report, USD/JPY is attempting to clamber off the lows. USD/JPY delved as low as 147.07 overnight (vs. Friday's 147.28 trough) but has since recovered to levels closer to 148 as the USD attempts to atone for recent losses. Overnight, comments from Japanese Trade Negotiator Akazawa stated that the recently announced trade agreement between the US and Japan is not a legally binding commitment. This has raised some doubts over how rigidly Japan will stick to its existing pledges with the US. GBP is fractionally lower vs. the USD with incremental macro drivers from the UK on the light side. That will change on Thursday with the latest BoE policy announcement and MPR, which is 82% priced for a 25bps reduction. Within the vote split, Morgan Stanley expects a 1:7:1 outcome with Mann voting for a hold and Dhingra voting for a 50bp cut. Additionally, the desk expects unchanged messaging and an uplift to near-term inflation forecasts. Cable has returned to a 1.32 handle but is still enjoying the bulk of Friday's gains, trading in a 1.3254-93 range. Antipodeans are both slightly softer vs. the USD but holding onto a bulk of their post-NFP gains. AUD is slightly more resilient than NZD following a rise in the latest Melbourne Institute Inflation Gauge. Fixed Income USTs are lower, attempting to pare back some of the post-NFP upside seen on Friday, but with focus also on the dovish implications of Fed’s Kugler resignation and Trump’s firing of the BLS Chief. On the former, it was announced that Fed’s Kugler is to resign from her role at the Fed (sparking a slight dovish reaction on Friday); thereafter, US President Trump said he will announce a replacement in the coming days. Traders will keep an eye out for the appointment, as it provides Trump the opportunity to shove in his favoured candidate to replace Powell, once his term ends. On the Trump-BLS saga; after blaming (and then firing) the BLS Chief for a poor NFP report, Trump confirmed he will be announcing a new appointee in the coming days. Price action today has been relatively contained and trades at the mid-point of a 111-31+ to 112-12 range; the peak for the day surpassed Friday’s high at 112-11, and further upside will bring into play the high from 1 July at 112-12+. Bunds are downbeat, in-fitting with global peers. Currently trading in a 129.50 to 130.06 range, which is well within Friday’s confines of 129.12 to 130.21. Newsflow has been very light today, aside from EZ Sentix Index, which printed at -3.7, far below the expected 8.0; the Sentix director manager described the recent EU-US trade deal as a “mood killer”. Commentary over the weekend came via ECB’s Patsalides, who said that the EZ continues to remain resilient despite trade woes, though he added that “the environment remains uncertain”. On the latest ECB policy decision (where the Bank opted to keep rates steady), Patsalides said it would be “premature to interpret this decision as a pause”. Gilts are also trading in tandem with peers, holding a bearish bias but with price action fairly muted. UK paper is currently lower by around 12 ticks in a 92.24 to 92.49 range. Newsflow has been exceptionally quiet so far, but all attention will be on Thursday’s BoE policy announcement. Commodities Choppy trade in the crude complex and now ultimately softer following the initial modest gap lower at the reopen in the aftermath of the OPEC+ decision on Sunday and after the NFP and ISM-induced slide on Friday. To recap, OPEC+ said in a statement that eight members will raise oil output by 547,000 bpd in September (some sources last week suggested it could be lower). The eight countries are scheduled to meet again on September 7th, where they may consider reinstating another 1.65mln bpd of cuts that are currently in place until the end of 2026, according to Reuters sources. WTI resides in a 66.56-67.62/bbl range while Brent sits in a USD 68.90-69.88/bbl range. Mostly softer trade across precious metals as the Dollar claws back some ground after Friday's data-induced losses. Price action this morning has been fairly contained as the yellow metal takes a breather, with support found near its 50 DMA this morning, as spot gold resides in a USD 3,345.00-3,364.81/oz range at the time of writing. Mixed trade across base metals amid quieter weekend newsflow and a relatively uneventful European session thus far in terms of macro impulses. Little move was seen on reports that China could step up monetary easing efforts in H2 2025 by cutting benchmark interest rates and banks’ RRR in order to guide overall financing costs lower and support the economy, according to Shanghai Securities News. 3M LME copper prices reside in a USD 9,635.10-9,696.80/t range. OPEC+ said in a statement that eight members are to raise oil output by 548k bpd in September, citing steady global economic and current healthy market fundamentals, while it stated that eight OPEC+ countries are to meet next on September 7th and sources noted the group may discuss returning another layer of cuts of 1.65mln bbls which are in place until end-2026, according to Reuters. Kuwait’s Oil Minister praised the OPEC+ decision to raise output and said the meeting reflects continued coordination among participating countries to ensure the stability of the oil market, while he added that the decision was based on a thorough analysis of market data regarding production inventories and future expectations. Libya’s Sharara oilfield reached its highest production since 2018 at nearly 311k bpd. Azerbaijan is to export 1.2bcm of gas to Syria each year from the BP-led Shah Deniz gas field. China rejects US request to stop importing oil from Iran and Russia, according to Al Hadath. Geopolitics: Middle East Hamas said it won’t disarm unless an independent Palestinian state is established. It was separately reported that Hamas’s armed wing said it is ready to respond positively and cooperate with any request from the Red Cross to deliver food to hostages in Gaza, while it added that Israel must stop aerial operations during the delivery of aid to hostages. Jordan’s armed forces said two armed people were killed after a foiled infiltration attempt through its border with Syria. Syrian Defence Ministry said an attack by Syrian Defence Forces in the northern city of Mamjib injured four army personnel and three civilians. A senior official from the International Atomic Energy Agency (IAEA) will visit Iran within the next 10 days, according to Iran International, cited by the Iranian Foreign Ministry. Geopolitics: Russia-Ukraine Russia's Kremlin said, \"We're not talking about any kind of nuclear escalation\"; \"it's obvious that US submarines are already on combat duty anyway\". Contacts with Witkoff are always useful and important. US mediation efforts in the Ukraine conflict are very important. Putin may meet Trump’s envoy Witkoff this week. Everyone should be very, very careful with nuclear rhetoric. No desire to get into a polemic with Trump over nuclear submarines. The Russian Defence Ministry said Russian forces captured the village of Oleksandro Kalynove in Eastern Ukraine. IAEA team at Ukraine’s Zaporizhzhia Nuclear Power Plant heard explosions and saw smoke coming from a nearby location where the plant said one of its auxiliary facilities was attacked. Ukraine’s military said it struck Russia’s Ryazan oil refinery again. US President Trump said there will be sanctions if Russia does not stop the war, but added that Russia seems to be good at avoiding sanctions, while he stated that special envoy Witkoff will be going to Russia on Wednesday or Thursday. US President Trump ordered two nuclear submarines to be positioned in the appropriate regions on Friday, \"just in case these foolish and inflammatory statements” from Russia's Medvedev are more than just that. Indian officials said they will continue to buy Russian oil despite threats of additional tariffs from US President Trump’s administration. US Event Calendar 10:00 am: Jun Factory Orders, est. -4.8%, prior 8.2% 10:00 am: Jun F Durable Goods Orders, est. -9.3%, prior -9.3% 10:00 am: Jun F Durables Ex Transportation, est. 0.2%, prior 0.2% 10:00 am: Jun F Cap Goods Orders Nondef Ex Air, prior -0.7% 10:00 am: Jun F Cap Goods Ship Nondef Ex Air, prior 0.4% DB's Jim Reid concludes the overnight wrap The Extel survey opens in 11 months, if you value our…. … ok..... Too soon. Sorry. Hope you all had a nice weekend. Since we last spoke on Friday, I’ve played 5 rounds of golf as my family were on a “no Dads allowed” camping long weekend in Devon with a number of other families. My back and knees now hurt a lot but my handicap is back down to the lowest it’s ever been at 1.7, 40 years after starting the game. So there’s still life in a body that needs twos knee replacements and back fusion surgery. Markets may need a little physio this week to get through all the things being thrown at it. August has opened with extraordinary developments, despite only one full trading day having passed. The resignation of Fed Governor Kugler on Friday has created an opportunity for President Trump to appoint a new board member. This individual could potentially be groomed as a successor to Chair Powell or, at the very least, represent another dovish voter. While last week’s FOMC vote was 9-2 against a rate cut, it’s worth noting that the two dissenters—Waller and Bowman—were both appointed during Trump’s first term. The significant revisions in Friday’s payroll release have also increased the likelihood that other members may reconsider their hawkish positions. The probability of a rate cut in September surged to 87% on Friday, up from around 40% before the payroll data was released, and market pricing for cuts by year-end rose from 18 basis points to 41bps. Our economists point out that although the usual nomination and confirmation process for a Fed Governor can take months, Section 10.5 of the Federal Reserve Act allows the President to temporarily fill vacancies during Senate recesses. Such appointments would last until the next session of the Senate. With the Senate scheduled to be in recess from 4 August to 1 September, Trump could theoretically appoint a new Governor through January 2027 without going through the traditional confirmation process. However, the Senate may hold pro forma sessions during this period to block such appointments, leaving some uncertainty about how unilateral Trump’s actions could be and how long the process might take. Nonetheless, it seems likely that a dovish figure will eventually fill the vacant seat. Adding to the upheaval, Trump dismissed Bureau of Labour Statistics head McEntarfer, accusing her of political bias following the dramatic -258,000 revisions to the previous two months’ payroll figures—the largest on record outside the pandemic. The revisions were partly attributed to a declining initial response rate to the survey, which has made early releases increasingly provisional and less reliable. On Friday, yields fell sharply, with 2-year Treasuries dropping by 27.5 basis points and 10-year Treasuries by 15.8 basis points - the largest one day fall in US 10yr yields since August 2 last year when the unemployment rate ticked up to 4.3% and triggered the Sahm rule. However, the replacement of both a Fed Governor and the BLS chief could ultimately impact the ease of funding the US twin deficits. This may hinder long-end rallies unless there is a significant economic slowdown. For now, though, seasonal trends in August remain supportive so it’s not recommended to lean too much against it for now. See our piece on this here from last week. Yesterday Trump said he will announce both new appointments in the coming few days. So certainly one to watch. Looking ahead, the new 7 August trade deadline looms, with several new deals expected to take effect. This date also marks the implementation of recent trade agreements. The week also features key economic indicators from the US and Europe, trade data from China, and wage figures from Japan. A notable event will be the Bank of England’s decision on Thursday. Typically, the week following payrolls is quieter for US data, but given Friday’s shock revisions, commentary from Fed officials may prove more influential than the data itself. On Wednesday, Governor Cook and Boston’s Collins, a voting member, will participate in a panel discussion alongside a Board Member from the Central Bank of Chile. San Francisco’s Daly, a non-voter, will speak at an economic summit. On Thursday, Atlanta’s Bostic, also a non-voter, will discuss monetary policy, and on Friday, St. Louis’s Musalem, a voter, will take part in a fireside chat. Bostic, speaking after Friday’s jobs report, expressed concern about the slowdown evident in the employment data. However, he stated that he would not have changed last week’s decision to hold rates steady and is not yet prepared to revise his projections for near-term rate cuts. Among the US data releases that matter, Tuesday’s ISM report (forecast at 51.2 versus 50.8 previously), particularly its employment component, and Thursday’s initial jobless claims (225,000 versus 218,000) will be closely watched in light of the payroll revisions. Tuesday also brings the international trade balance (-$75 billion versus -$71.5 billion), which will include country and product-level details. These will allow for a recalculation of the average tariff rate. Our economists estimate that, as of 7 August, when country-specific rates take effect, the average tariff rate will be 19.6% on a static basis using 2024 trade weights. However, this is likely an upper bound, and after adjusting for overestimation, the more realistic average is closer to 15%. See their piece here for more on this. Thursday’s US data also includes productivity (expected at +2.5% versus -1.5%) and unit labour costs (+1.0% versus +6.6%). In Europe, the highlight will be the Bank of England’s rate decision. Our UK chief economist expects the central bank to cut the Bank Rate to 4%, marking the fifth quarter-point reduction in the current cycle. See his preview here. Additional European data will come from trade and industrial production figures across key Eurozone economies, with Germany’s factory orders due on Wednesday. CPI prints are expected in Switzerland today and in Sweden on Thursday. In Asia, the focus will be on China’s trade balance, due Thursday, and Japan’s wage data on Wednesday. Our economists anticipate Chinese exports to slow to 5% year-on-year in July, down from 5.8% in June. The Bank of Japan will release its summary of opinions from the July meeting on Friday and the minutes from the June meeting tomorrow. On the earnings front, the US season has passed its peak, but notable reports are expected from Eli Lilly, Palantir, and AMD. Other S&P 500 names reporting include McDonald’s, Walt Disney, and Uber. In Europe, attention will be on Novo Nordisk, Siemens, and Rheinmetall. Novo’s report on Wednesday will be particularly interesting following last week’s profit warning. In Japan, Toyota and Sony are set to report. Saudi Aramco, the world’s largest energy company by market capitalisation, will release its results tomorrow. Asian markets are mixed this morning but DM futures are higher after the difficult Friday session. The Nikkei (-1.49%) and the S&P/ASX200 (-0.11%) are lower but the Hang Seng (+0.50%) has rebounded after its worst seven-day losing streak since July 2021. In Korea, the Kospi (+1.04%) is managing to outperform as a petition to withdraw the proposed capital gains tax hike received more than 50,000 signatures, enough to trigger a standing committee review. The CSI 300 (+0.05%) and Shanghai Composite (+0.25%) are trading higher. On the rates side, JGBs are following Friday’s global yield rally with the 10-year yield -5bps this morning. 30-year JGBs are unchanged though, after gaining +9.1bps since last Tuesday. Equity futures are higher this morning with the S&P 500 up +0.38% and the Nasdaq up +0.44%, with European futures also higher by +0.52%. Oil prices are relatively flat after news that OPEC+ endorsed an additional 547,000 barrels per day production increase from September. A decent boost but broadly in line with expectations. Recapping last week now, and the lead-up to the 1 August tariff deadline saw a flurry of announcements involving major US trading partners. The EU agreed to a 15% tariff on most goods and pledged $750 billion in energy imports and $600 billion in US investments. South Korea committed to a $350 billion investment fund for the US, including $150 billion for shipbuilding. Other countries faced steeper tariffs: India at 25%, Switzerland at 39%, Taiwan at 20%, and Canada’s tariffs rising from 25% to 35%. Mexico received a 90-day extension, maintaining its 25% tariff rate in the meantime. Friday’s payroll shock sent 2-year Treasuries down 27.5 basis points (24.2bps on the week) and 10-year Treasuries down 15.8bps (17.2bps weekly). In Europe, Q2 flash GDP showed a slight improvement, with eurozone growth at +0.1% quarter-on-quarter versus 0.0% expected. German Bunds fell 3.9bps (-1.6bps Friday), French OATs dropped 3.8bps (-0.2bps Friday), and Italian BTPs declined 4.0bps (though rose 0.4bps Friday). Equities saw notable divergence at the micro level in the heart of results season. Novo Nordisk, which began the week as Europe’s second most valuable company, plunged 30% intraday on Tuesday and ended the week down 31.7%, now ranking seventh. Semiconductor stocks were also weak, with the Philadelphia Semiconductor Index down 2.09% (-1.43% Friday). On the positive side, Microsoft rose 2.02% (though fell 1.76% Friday) and Meta gained 5.24% (down 3.18% Friday). Apple and Amazon underperformed, falling 5.38% and 7.21% respectively on the week. Overall, markets ended the week lower, particularly on Friday, with the S&P 500 down 2.36% (-1.60% Friday) and the Nasdaq down 2.17% (-2.24% Friday). In Europe, the Stoxx 600 declined 2.57% (-1.89% Friday), while Japanese equities followed suit, with the Nikkei falling 1.58% (-0.66% Friday). The dollar was one of the week’s winners, with the dollar index climbing +1.52% (though down 0.84% Friday), marking its longest winning streak since February. The euro weakened by 1.32% over the week but rebounded 1.51% on Friday following the US developments. Tyler Durden Mon, 08/04/2025 - 08:06",
+    "publishedAt": "2025-08-04T12:06:57.000Z",
+    "fetchedAt": "2025-08-04T13:23:28.186Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "3401b08d"
+    "contentHash": "2b29dc44"
   },
   {
-    "id": "fortune-4badf9ba",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Italy just hit Shein with a $1.15 million greenwashing fine over misleading claims",
-    "url": "https://fortune.com/europe/2025/08/04/italy-shein-1-15-million-greenwashing-fine-over-misleading-claims-china/",
+    "id": "yahoo-finance-2f22349a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Is Brookfield Asset Management Ltd. (BAM) Attractively Valued?",
+    "url": "https://finance.yahoo.com/news/brookfield-asset-management-ltd-bam-120623159.html",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T10:54:56.000Z",
-    "fetchedAt": "2025-08-04T11:22:10.891Z",
+    "publishedAt": "2025-08-04T12:06:23.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "4badf9ba"
+    "contentHash": "2f22349a"
   },
   {
-    "id": "ndtv-profit-youtube-60b0ff93",
-    "sourceId": "ndtv-profit-youtube",
-    "sourceName": "NDTV Profit YouTube",
-    "title": "Trump Aide Accuses India Of Financing Russian War; Pak Link To Pahalgam Confirmed",
-    "url": "https://www.youtube.com/watch?v=aldkl_FGmBg",
+    "id": "ndtv-profit-rss-7766f877",
+    "sourceId": "ndtv-profit-rss",
+    "sourceName": "NDTV Profit RSS",
+    "title": "Tesla China Shipments Fall Again As Competition Heats Up",
+    "url": "https://www.ndtvprofit.com/business/tesla-china-shipments-fall-again-as-competition-heats-up",
+    "summary": "Tesla’s China plant has seen shipments decline in six of the seven months for which data is available this year",
+    "fullContent": "Tesla’s China plant has seen shipments decline in six of the seven months for which data is available this year",
+    "publishedAt": "2025-08-04T12:05:26.648Z",
+    "fetchedAt": "2025-08-04T13:23:29.097Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7766f877"
+  },
+  {
+    "id": "trendlyne-youtube-1202f280",
+    "sourceId": "trendlyne-youtube",
+    "sourceName": "Trendlyne YouTube",
+    "title": "Ather Energy Earnings Call for Q1FY26",
+    "url": "https://www.youtube.com/watch?v=z-TENmuNB-I",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T10:53:18.000Z",
-    "fetchedAt": "2025-08-04T11:22:18.573Z",
+    "publishedAt": "2025-08-04T12:05:18.000Z",
+    "fetchedAt": "2025-08-04T13:23:51.235Z",
     "category": "videos",
     "tags": [
       "videos"
     ],
     "priority": "normal",
-    "contentHash": "60b0ff93"
+    "contentHash": "1202f280"
   },
   {
-    "id": "yahoo-finance-4ba6154e",
+    "id": "yahoo-finance-25cfd315",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
-    "title": "Evercore deal accelerates talent dash as banks anticipate M&A upturn",
-    "url": "https://finance.yahoo.com/news/evercore-deal-accelerates-talent-dash-105134398.html",
+    "title": "Sterling Could Recover as it Looks Oversold",
+    "url": "https://www.wsj.com/finance/currencies/u-s-dollar-index-weakens-amid-rising-fed-rate-cut-expectations-59e80969?siteid=yhoof2&amp;yptr=yahoo",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T10:51:34.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.379Z",
+    "publishedAt": "2025-08-04T12:05:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "4ba6154e"
+    "contentHash": "25cfd315"
   },
   {
-    "id": "yahoo-finance-2975ca9b",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "BioNTech's Q2 revenues double on higher COVID vaccine sales",
-    "url": "https://finance.yahoo.com/news/biontechs-q2-revenues-double-higher-105133084.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:51:33.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.379Z",
+    "id": "zerohedge-481e7f39",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "Tesla Fined $243 Million By Florida Jury In Autopilot Crash Lawsuit",
+    "url": "https://www.zerohedge.com/technology/tesla-fined-243-million-florida-jury-autopilot-crash-lawsuit",
+    "summary": "Tesla Fined $243 Million By Florida Jury In Autopilot Crash Lawsuit div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-tex",
+    "fullContent": "Tesla Fined $243 Million By Florida Jury In Autopilot Crash Lawsuit Authored by Naveen Athrappully via The Epoch Times (emphasis ours), Tesla shares responsibility for an accident involving its vehicle’s Autopilot system, and must pay $243 million as compensation, a jury from the District Court, Southern District of Florida, said in an Aug. 1 verdict. The logo of Tesla at a Tesla Super Charging station in Saint-Herblain near Nantes, France, on March 27, 2025. Stephane Mahe/Reuters The case stems from a collision involving a 2019 Tesla Model S equipped with automatic driving features, in which Tesla’s Autopilot allowed the car to “navigate without driver input,” according to a June 30 court document. The incident took place on April 25, 2019, when George McGee, the driver and owner of a 2019 Tesla Model S, slammed into a parked Chevrolet Tahoe, which then went on to strike two individuals—Naibel Benavides Leon and Dillon Angulo. While Leon died in the accident, Angulo suffered “significant injuries.” Subsequently, Leon’s representative and Angulo filed separate lawsuits against Tesla, which were eventually consolidated into a single lawsuit in March 2024. Out of the four charges laid out in the lawsuit, the court allowed two product liability claims against Tesla to move forward—defective design and failure to warn. On Aug. 1, a Florida jury agreed that Tesla placed the 2019 Model S in the market “with a defect which was a legal cause of damage” to the victims, according to the verdict form. They found that there was negligence on the part of driver McGee as well, which was also a legal cause of damage to Leon and Angulo. Tesla was assigned 33 percent of the accident’s responsibility by the jury, with McGee sharing 67 percent. Commenting on the verdict, law firm Singleton Schreiber LLP, representing the victims in the lawsuit, said in an Aug. 2 post that the jury “determined that Tesla was 33 percent at fault for allowing Autopilot use on roads it wasn’t designed for and failing to adequately monitor driver attention.” The jury awarded $35 million to Leon’s mother and $24 million to her father. For Angulo, the jury awarded $70 million in damages. In total, the plaintiffs were awarded $129 million, according to the Aug. 1 verdict. Since Tesla shared 33 percent of the responsibility, the company is due to pay a third of the $129 million, which comes to around $43 million. Plus, the jury also imposed a $200 million punitive damage on Tesla, bringing the total to $243 million. In an emailed statement to The Epoch Times, Tesla criticized the jury’s decision. “Today’s verdict is wrong and only works to set back automotive safety and jeopardize Tesla’s and the entire industry’s efforts to develop and implement life-saving technology. We plan to appeal given the substantial errors of law and irregularities at trial,” a company spokesperson said. “Even though this jury found that the driver was overwhelmingly responsible for this tragic accident in 2019, the evidence has always shown that this driver was solely at fault because he was speeding, with his foot on the accelerator—which overrode Autopilot—as he rummaged for his dropped phone without his eyes on the road.” Tesla said that no car, from 2019 or today, would have been able to prevent the crash. The company pointed out that the car’s driver had “admitted and accepted responsibility” for the incident since day one. Tesla said the punitive damages in the case will only amount to $127.5 million, lower than the $200 million mentioned in the jury verdict. “Florida law is explicit that punitive damages have been all but eliminated in product liability cases such as this one, so we are confident that the punitive damage award at a minimum, and likely this whole verdict, will be overturned by the appellate court,” the company said. Autopilot Under Scrutiny The plaintiffs’ lead lawyer, Brett Schreiber, acknowledged that the driver, George McGee, was negligent, but said that Tesla was at fault nonetheless. He said Tesla allowed drivers to act recklessly by not disengaging the Autopilot as soon as they begin to show signs of distraction, and by allowing them to use the system on smaller roads that it was not designed for, like the one McGee was driving on. Tesla’s decision to even use the term Autopilot showed it was willing to mislead people and take big risks with their lives because the system only helps drivers with lane changes, slowing a car, and other tasks, falling far short of driving the car itself, he said. The Epoch Times reached out to the plaintiffs’ attorney for comment and did not receive a response by publication time. McGee had previously settled with the victims and was cited for careless driving, according to the Aug. 1 post from Singleton Schreiber LLP. Tesla has faced regulatory scrutiny over the safety of its vehicles. In April 2024, the Department of Transportation’s National Highway Traffic Safety Administration (NHTSA) said Tesla’s Autopilot system contributed to at least 467 vehicle crashes, including 14 deaths and several serious injuries. In January, NHTSA announced it was investigating a feature on Tesla vehicles that allows drivers to move their vehicles remotely, via a phone app. The department had received a complaint, alleging that a crash occurred, from a person using this feature. On its website, Tesla says the Autopilot system is far safer than human drivers. “In Q2 2025, we recorded one crash for every 6.69 million miles driven in which drivers were using Autopilot technology. For Tesla drivers who were not using Autopilot technology, we recorded one crash for every 963,000 miles driven,” it said. The company said that setting a vehicle on Autopilot does not mean the driver doesn’t have to pay attention. “Autopilot is a driver assistance system that is intended to be used only with a fully attentive driver. It does not turn a Tesla into a fully autonomous vehicle. Before enabling Autopilot, you must agree to ‘keep your hands on the steering wheel at all times’ and to always ‘maintain control and responsibility for your vehicle,’” it said. The Associated Press contributed to this report. Tyler Durden Mon, 08/04/2025 - 08:05",
+    "publishedAt": "2025-08-04T12:05:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:28.186Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "2975ca9b"
+    "contentHash": "481e7f39"
   },
   {
-    "id": "yahoo-finance-6be4d2f2",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Boston Beer CEO to step down",
-    "url": "https://finance.yahoo.com/news/boston-beer-ceo-step-down-104952893.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:49:52.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.380Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6be4d2f2"
-  },
-  {
-    "id": "thehindubusinessline-4b88177d",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/companies/eli-lilly-inaugurates-new-technology-innovation-site-in-hyderabad/article69892244.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:48:12.875Z",
-    "fetchedAt": "2025-08-04T10:48:12.875Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4b88177d"
-  },
-  {
-    "id": "thehindubusinessline-2d9690f4",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/markets/stock-markets/federal-bank-shares-dive-5-amid-mfi-stress-q1-profit-dips/article69892175.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:48:12.875Z",
-    "fetchedAt": "2025-08-04T10:48:12.875Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2d9690f4"
-  },
-  {
-    "id": "thehindubusinessline-2dabfdbc",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/markets/stock-markets/delhivery-shares-hit-52-week-high-on-strong-q1-show/article69892060.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:48:12.875Z",
-    "fetchedAt": "2025-08-04T10:48:12.875Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2dabfdbc"
-  },
-  {
-    "id": "thehindubusinessline-677feea3",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/markets/forex/rupee-plunges-52-paise-to-close-at-8770-against-us-dollar/article69893090.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:48:12.873Z",
-    "fetchedAt": "2025-08-04T10:48:12.873Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "677feea3"
-  },
-  {
-    "id": "thehindubusinessline-3194476d",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/money-and-banking/pantomath-capital-onboards-3-market-veterans/article69893084.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:48:12.873Z",
-    "fetchedAt": "2025-08-04T10:48:12.873Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3194476d"
-  },
-  {
-    "id": "thehindubusinessline-1ff2b4ce",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/data-stories/data-focus/data-focus-pm-svanidhi-scheme-for-street-vendors-gets-a-good-response-mp-and-up-lead-in-disbursals/article69893009.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:48:12.873Z",
-    "fetchedAt": "2025-08-04T10:48:12.873Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1ff2b4ce"
-  },
-  {
-    "id": "thehindubusinessline-64e54198",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "",
-    "url": "<![CDATA[https://www.thehindubusinessline.com/info-tech/xterlify-subsidiary-of-bharti-airtel-launches-airtel-cloud-to-provide-iaas-paas/article69892874.ece]]>",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:48:12.873Z",
-    "fetchedAt": "2025-08-04T10:48:12.873Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "64e54198"
-  },
-  {
-    "id": "bloomberg-markets-60962e5b",
+    "id": "bloomberg-markets-61aed163",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
     "title": "",
-    "url": "https://www.bloomberg.com/news/videos/2025-08-04/yardeni-may-see-october-bottom-set-up-year-end-rally-video",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-04/coindesk-owner-bullish-seeks-to-raise-up-to-629-million-in-ipo",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T10:47:59.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.434Z",
+    "publishedAt": "2025-08-04T12:04:39.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.004Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "60962e5b"
+    "contentHash": "61aed163"
   },
   {
-    "id": "fortune-50852f07",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Labor department&#8217;s data upset may have sealed the deal for a Fed interest rate cut",
-    "url": "https://fortune.com/2025/08/04/labor-department-data-fed-interest-rate-cut/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:47:30.000Z",
-    "fetchedAt": "2025-08-04T11:22:10.891Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "50852f07"
-  },
-  {
-    "id": "fortune-148d6374",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "As UnitedHealth’s troubles mount, new CFO faces challenge to restore confidence",
-    "url": "https://fortune.com/2025/08/04/unitedhealth-troubles-mount-new-cfo-challenge-restore-confidence/",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:47:19.000Z",
-    "fetchedAt": "2025-08-04T11:22:10.891Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "148d6374"
-  },
-  {
-    "id": "yahoo-finance-61509e9c",
+    "id": "yahoo-finance-56f150a1",
     "sourceId": "yahoo-finance",
     "sourceName": "Yahoo Finance",
-    "title": "Greif to shut down steel and polymer drum facility in California, US",
-    "url": "https://finance.yahoo.com/news/greif-shut-down-steel-polymer-104639492.html",
+    "title": "Amphenol Buys CommScope Broadband Unit In $10.5 Billion Deal",
+    "url": "https://www.investors.com/news/technology/commscope-stock-amphenol-stock-acquisition-broadband/?src=A00220&amp;yptr=yahoo",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-04T10:46:39.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.380Z",
+    "publishedAt": "2025-08-04T12:04:18.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "61509e9c"
+    "contentHash": "56f150a1"
   },
   {
-    "id": "cnbc-tv18-youtube-2d625830",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "दिल्ली में बदमाशों ने सांसद एम. सुधा की चेन लूटी | #delhinews #crime #viralvideo #shorts",
-    "url": "https://www.youtube.com/shorts/etWZlreiYQ8",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:46:37.000Z",
-    "fetchedAt": "2025-08-04T10:48:19.858Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "2d625830"
-  },
-  {
-    "id": "wsj-markets-main-2ab5c1ce",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "Stock Market Today: Dow Futures Rise After Friday's Selloff; New Tariff Deadline Eyed",
-    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-04-2025?mod=rss_markets_main",
-    "summary": "Trump says he'll name a new BLS chief this week, after firing the old one following Friday's jobs report",
-    "fullContent": "Trump says he'll name a new BLS chief this week, after firing the old one following Friday's jobs report",
-    "publishedAt": "2025-08-04T10:46:00.000Z",
-    "fetchedAt": "2025-08-04T10:48:12.388Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2ab5c1ce"
-  },
-  {
-    "id": "bloomberg-markets-179ba9df",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "",
-    "url": "https://www.bloomberg.com/news/videos/2025-08-04/trump-set-to-announce-new-fed-governor-bls-data-head-video",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:45:49.000Z",
-    "fetchedAt": "2025-08-04T10:48:11.749Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "179ba9df"
-  },
-  {
-    "id": "cnbc-tv18-youtube-1a3f3330",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "पहलगाम हमले के पीछे पाकिस्तान के होने के सबूत | #pahalgamattack #pakistan #terrorattack #indianarmy",
-    "url": "https://www.youtube.com/shorts/v5H-HSYljaY",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:45:15.000Z",
-    "fetchedAt": "2025-08-04T10:48:19.858Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "1a3f3330"
-  },
-  {
-    "id": "cnbc-tv18-youtube-2df055b2",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "मोदी सरकार में मुस्लिम सबसे सुरक्षित| Modi | Indian Muslim | Yogi | Podcast with Amber Zaidi | N18P",
-    "url": "https://www.youtube.com/watch?v=jXCcT9fZfF8",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:45:05.000Z",
-    "fetchedAt": "2025-08-04T10:48:19.858Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "2df055b2"
-  },
-  {
-    "id": "cnbc-tv18-youtube-40f6379e",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Pahalgam Attack: Pakistan के आतंकी होने के सबूत मिले | J&K में साजिश बेनकाब! | Operation Mahadev",
-    "url": "https://www.youtube.com/watch?v=pokvB49f7zU",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:45:01.000Z",
-    "fetchedAt": "2025-08-04T10:48:19.858Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "40f6379e"
-  },
-  {
-    "id": "yahoo-finance-22c597c4",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "1 Microsoft Quote That Nvidia Investors Have to Hear",
-    "url": "https://finance.yahoo.com/news/1-microsoft-quote-nvidia-investors-104500352.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:45:00.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.380Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "22c597c4"
-  },
-  {
-    "id": "yahoo-finance-76e96c82",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "1 Reason Wall Street Is Obsessed With IonQ Stock",
-    "url": "https://finance.yahoo.com/news/1-reason-wall-street-obsessed-104500100.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:45:00.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.380Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "76e96c82"
-  },
-  {
-    "id": "cnbc-tv18-youtube-41db182",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "UP Drone News: UP में ड्रोन उड़ाने वालों की खैर नहीं CM योगी का ऐक्शन! Viral Video | Breaking News",
-    "url": "https://www.youtube.com/watch?v=5mkXgTaoSuU",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:44:06.000Z",
-    "fetchedAt": "2025-08-04T10:48:19.858Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "41db182"
-  },
-  {
-    "id": "ndtv-profit-rss-368bd620",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "How To Check NSDL IPO Allotment Status And What Does GMP Signal Ahead Of Listing On Aug. 6?",
-    "url": "https://www.ndtvprofit.com/markets/how-to-check-nsdl-ipo-allotment-status-and-what-does-gmp-signal-ahead-of-listing-on-aug-6",
-    "summary": "Ahead of its Dalal Street debut, trading in the unlisted shares of National Securities Depository Ltd. saw increased activity even as the price fell below Rs 950 apiece in the private market.",
-    "fullContent": "Ahead of its Dalal Street debut, trading in the unlisted shares of National Securities Depository Ltd. saw increased activity even as the price fell below Rs 950 apiece in the private market.",
-    "publishedAt": "2025-08-04T10:42:01.839Z",
-    "fetchedAt": "2025-08-04T10:48:14.640Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "368bd620"
-  },
-  {
-    "id": "yahoo-finance-29173b2e",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Bel Group H1 profits decline despite higher sales",
-    "url": "https://finance.yahoo.com/news/bel-group-h1-profits-decline-104104214.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:41:04.000Z",
-    "fetchedAt": "2025-08-04T10:48:11.618Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "29173b2e"
-  },
-  {
-    "id": "yahoo-finance-47596619",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Warren Buffett's Berkshire Hathaway Operating Profit Fell 4% In Q2",
-    "url": "https://www.investors.com/news/warren-buffett-berkshire-hathaway-operating-profit-q2-brkb-stock/?src=A00220&amp;yptr=yahoo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-04T10:39:39.000Z",
-    "fetchedAt": "2025-08-04T11:22:08.379Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "47596619"
-  },
-  {
-    "id": "ndtv-profit-rss-123ef2df",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "NSE IPO: SEBI Committee To Decide On Co-Location Settlement By September-End — Profit Exclusive",
-    "url": "https://www.ndtvprofit.com/markets/nse-ipo-sebi-committee-to-decide-on-co-location-settlement-by-september-end-profit-exclusive",
-    "summary": "The NSE's initial public offering is likely to receive a no-objection certificate from the SEBI post the approval of its settlement applications.",
-    "fullContent": "The NSE's initial public offering is likely to receive a no-objection certificate from the SEBI post the approval of its settlement applications.",
-    "publishedAt": "2025-08-04T10:39:28.473Z",
-    "fetchedAt": "2025-08-04T10:48:14.640Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "123ef2df"
-  },
-  {
-    "id": "ndtv-profit-rss-3b65c706",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "CBDT’s PAN 2.0 Project Awarded To LTIMindtree, Set To Go Live In 18 Months",
-    "url": "https://www.ndtvprofit.com/nation/cbdts-pan-20-project-awarded-to-ltimindtree-set-to-go-live-in-18-months",
-    "summary": "The PAN 2.0 project was approved by the Cabinet Committee on Economic Affairs (CCEA) in November 2024.",
-    "fullContent": "The PAN 2.0 project was approved by the Cabinet Committee on Economic Affairs (CCEA) in November 2024.",
-    "publishedAt": "2025-08-04T10:38:59.640Z",
-    "fetchedAt": "2025-08-04T10:48:14.640Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3b65c706"
-  },
-  {
-    "id": "ndtv-profit-rss-3cdf6ad8",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "US Stock Futures Rebound As Traders Bet On Fed Rate Cuts: Markets Wrap",
-    "url": "https://www.ndtvprofit.com/markets/global-stock-markets-asian-indices-hang-sheng-nikkei-dax-ftse-nasdaq-s-and-p-dow-jones-news-today-august-4",
-    "summary": "Contracts for the S&P 500 climbed 0.6% after the gauge had its biggest decline since May on Friday.",
-    "fullContent": "Contracts for the S&P 500 climbed 0.6% after the gauge had its biggest decline since May on Friday.",
-    "publishedAt": "2025-08-04T10:38:42.260Z",
-    "fetchedAt": "2025-08-04T10:48:14.640Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3cdf6ad8"
-  },
-  {
-    "id": "scmp-business-7925c2b7",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Li mansion in Deep Water Bay is ‘not for sale’, CK Asset says in rebuke",
-    "url": "https://www.scmp.com/business/china-business/article/3320707/li-family-home-hong-kong-not-sale-ck-asset-says-rebuke-false-rumour?utm_source=rss_feed",
-    "summary": "Hong Kong’s wealthiest family denied that their residence of more than half a century is up for sale, as CK Asset Holdings issued an unusual rebuttal of rumours that have circulated for days on social media. Social media speculation of the impending sale of 79 Deep Water Bay Road was “entirely fabri",
-    "fullContent": "Hong Kong’s wealthiest family denied that their residence of more than half a century is up for sale, as CK Asset Holdings issued an unusual rebuttal of rumours that have circulated for days on social media. Social media speculation of the impending sale of 79 Deep Water Bay Road was “entirely fabricated”, “false” and “groundless,” CK Asset said in a statement on behalf of the company’s chairman and managing director, Victor Li Tzar-kuoi. “The reports and posts on certain websites and social...",
-    "publishedAt": "2025-08-04T10:38:10.000Z",
-    "fetchedAt": "2025-08-04T10:48:15.531Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7925c2b7"
-  },
-  {
-    "id": "business-insider-23f3b03f",
+    "id": "business-insider-356e5d2b",
     "sourceId": "business-insider",
     "sourceName": "Business Insider",
-    "title": "Tesla just announced plans for a new $29 billion pay package for Elon Musk",
-    "url": "https://www.businessinsider.com/tesla-elon-musk-new-29-billion-pay-package-ceo-2025-8",
-    "summary": "It comes as Musk's 2018 pay package, which was worth around $46.8 billion in June, was struck down by a Delaware judge last year.",
-    "fullContent": "It comes as Musk's 2018 pay package, which was worth around $46.8 billion in June, was struck down by a Delaware judge last year.",
-    "publishedAt": "2025-08-04T10:37:08.000Z",
-    "fetchedAt": "2025-08-04T10:48:12.015Z",
+    "title": "I've been to over 20 countries. These 4 popular bucket-list items weren't as glamorous in real life as they looked on social media.",
+    "url": "https://www.businessinsider.com/popular-travel-experiences-looked-better-online-social-media-traveler-2025-8",
+    "summary": "In my opinion, seeing the northern lights and visiting Hollywood Boulevard are two travel experiences that looked better online than in real life.",
+    "fullContent": "In my opinion, seeing the northern lights and visiting Hollywood Boulevard are two travel experiences that looked better online than in real life.",
+    "publishedAt": "2025-08-04T12:04:01.000Z",
+    "fetchedAt": "2025-08-04T13:23:27.652Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "23f3b03f"
+    "contentHash": "356e5d2b"
+  },
+  {
+    "id": "yahoo-finance-60d4bda9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Wayfair Stock Jumps As Earnings Top Expectations. Is Furniture Demand Back?",
+    "url": "https://www.barrons.com/articles/wayfair-earnings-stock-price-07697b4c?siteid=yhoof2&amp;yptr=yahoo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-04T12:04:00.000Z",
+    "fetchedAt": "2025-08-04T13:23:26.961Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "60d4bda9"
   }
 ]
