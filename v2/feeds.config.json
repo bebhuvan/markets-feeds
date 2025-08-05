@@ -28,6 +28,51 @@
       "active": true
     },
     {
+      "id": "et_b2b",
+      "name": "Economic Times B2B",
+      "url": "https://b2b.economictimes.indiatimes.com/rss/recentstories",
+      "sourceId": "et-b2b",
+      "category": "news",
+      "fetchInterval": 60,
+      "active": true
+    },
+    {
+      "id": "et_cfo_topstories",
+      "name": "Economic Times CFO Top Stories",
+      "url": "https://cfo.economictimes.indiatimes.com/rss/topstories",
+      "sourceId": "et-cfo-topstories",
+      "category": "news",
+      "fetchInterval": 60,
+      "active": true
+    },
+    {
+      "id": "et_cfo_policy",
+      "name": "Economic Times CFO Policy",
+      "url": "https://cfo.economictimes.indiatimes.com/rss/policy",
+      "sourceId": "et-cfo-policy",
+      "category": "regulation",
+      "fetchInterval": 120,
+      "active": true
+    },
+    {
+      "id": "et_cfo_latest",
+      "name": "Economic Times CFO Latest",
+      "url": "https://cfo.economictimes.indiatimes.com/rss/lateststories",
+      "sourceId": "et-cfo-latest",
+      "category": "news",
+      "fetchInterval": 60,
+      "active": true
+    },
+    {
+      "id": "et_cfo_economy",
+      "name": "Economic Times CFO Economy",
+      "url": "https://cfo.economictimes.indiatimes.com/rss/economy",
+      "sourceId": "et-cfo-economy",
+      "category": "macro",
+      "fetchInterval": 60,
+      "active": true
+    },
+    {
       "id": "cnbc_markets",
       "name": "CNBC Markets",
       "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
