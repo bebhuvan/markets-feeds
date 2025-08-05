@@ -1,6 +1,5 @@
 import type { APIRoute } from 'astro';
 import { dataLoader } from '../../../lib/data-loader';
-import { ideasLoader } from '../../../lib/ideas-loader';
 
 export const POST: APIRoute = async ({ request }) => {
   try {
@@ -14,18 +13,9 @@ export const POST: APIRoute = async ({ request }) => {
       clearedCaches.push('feeds');
     }
     
-    if (cacheType === 'all' || cacheType === 'ideas') {
-      // Clear ideas cache (if the loader supports it)
-      if ('clearCache' in ideasLoader) {
-        (ideasLoader as any).clearCache();
-      }
-      clearedCaches.push('ideas');
-    }
-    
     // Force reload to verify cache clearing worked
     const metrics = {
       totalArticles: 0,
-      totalIdeas: 0,
       lastUpdate: new Date().toISOString()
     };
     
@@ -37,13 +27,6 @@ export const POST: APIRoute = async ({ request }) => {
         : new Date().toISOString();
     } catch (error) {
       console.error('Error reloading feeds after cache clear:', error);
-    }
-    
-    try {
-      const allIdeas = await ideasLoader.loadPosts();
-      metrics.totalIdeas = allIdeas.length;
-    } catch (error) {
-      console.error('Error reloading ideas after cache clear:', error);
     }
     
     return new Response(JSON.stringify({
