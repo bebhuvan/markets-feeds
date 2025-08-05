@@ -464,9 +464,12 @@ const quickFilters = [
   
   // Count matching articles and update filter counts on load
   function updateFilterCounts() {
+    // Cache articles to avoid repeated DOM queries
+    const currentArticles = document.querySelectorAll('.article');
+    
     filterButtons.forEach(btn => {
       const keywords = btn.getAttribute('data-keywords')?.split(',') || [];
-      const count = countMatchingArticles(keywords);
+      const count = countMatchingArticles(keywords, currentArticles);
       const countElement = btn.querySelector('.filter-count');
       if (countElement) {
         countElement.textContent = count.toString();
@@ -474,9 +477,9 @@ const quickFilters = [
     });
   }
   
-  function countMatchingArticles(keywords) {
+  function countMatchingArticles(keywords, articlesSet = articles) {
     let count = 0;
-    articles.forEach(article => {
+    articlesSet.forEach(article => {
       const title = article.querySelector('.article-title')?.textContent?.toLowerCase() || '';
       const excerpt = article.querySelector('.article-excerpt')?.textContent?.toLowerCase() || '';
       const text = title + ' ' + excerpt;
@@ -537,9 +540,19 @@ const quickFilters = [
   document.addEventListener('DOMContentLoaded', updateFilterCounts);
   
   // Update counts when articles are dynamically loaded
-  const observer = new MutationObserver(updateFilterCounts);
-  observer.observe(document.querySelector('.articles') || document.body, {
-    childList: true,
-    subtree: true
-  });
+  const articlesContainer = document.querySelector('.articles-grid') || document.querySelector('.articles');
+  if (articlesContainer) {
+    // Throttle updates to avoid performance issues
+    let updateTimeout;
+    const throttledUpdate = () => {
+      clearTimeout(updateTimeout);
+      updateTimeout = setTimeout(updateFilterCounts, 250); // Wait 250ms after last change
+    };
+    
+    const observer = new MutationObserver(throttledUpdate);
+    observer.observe(articlesContainer, {
+      childList: true,
+      subtree: false // Only observe direct children, not deep changes
+    });
+  }
 </script>
