@@ -45,7 +45,8 @@ const STRATEGIC_MIGRATION_RULES = {
   'news': { defaultCategory: 'news' },
   'filings': { defaultCategory: 'news' },
   'culture': { defaultCategory: 'blogs' },
-  'non-money': { defaultCategory: 'blogs' }
+  'non-money': { defaultCategory: 'blogs' },
+  'eclectic': { defaultCategory: 'eclectic' }
 } as const;
 
 export interface RecategorizationResult {
@@ -121,7 +122,19 @@ export class RecategorizationEngine {
     // Crypto sources -> crypto
     'coindesk': 'crypto',
     'cointelegraph': 'crypto',
-    'crypto-news': 'crypto'
+    'crypto-news': 'crypto',
+    
+    // Eclectic sources -> eclectic
+    'gaby-delvalle': 'eclectic',
+    'way-of-work': 'eclectic',
+    'benthams': 'eclectic',
+    'leading-edge': 'eclectic',
+    'astral-codex-ten': 'eclectic',
+    'freddie-deboer': 'eclectic',
+    'res-obscura': 'eclectic',
+    'nicholas-decker': 'eclectic',
+    'max-read': 'eclectic',
+    'henrik-karlsson': 'eclectic'
   };
 
   /**
@@ -236,7 +249,7 @@ export class RecategorizationEngine {
 
     for (const [category, count] of sortedCategories) {
       const percentage = Math.round((count / stats.totalArticles) * 100);
-      const categoryName = NEW_CATEGORIES[category as keyof typeof NEW_CATEGORIES] || category;
+      const categoryName = CATEGORIES[category as keyof typeof CATEGORIES] || category;
       report += `- **${categoryName}**: ${count.toLocaleString()} articles (${percentage}%)\n`;
     }
 
@@ -245,7 +258,7 @@ export class RecategorizationEngine {
       if (migration.newCategories.length > 1) {
         report += `\n### ${migration.oldCategory}\n`;
         for (const newCat of migration.newCategories.slice(0, 5)) {
-          const categoryName = NEW_CATEGORIES[newCat.category as keyof typeof NEW_CATEGORIES] || newCat.category;
+          const categoryName = CATEGORIES[newCat.category as keyof typeof CATEGORIES] || newCat.category;
           report += `- **${categoryName}**: ${newCat.count} articles (${newCat.percentage}%)\n`;
         }
       }
@@ -326,7 +339,8 @@ export class RecategorizationEngine {
     const migrationRule = STRATEGIC_MIGRATION_RULES[article.category as keyof typeof STRATEGIC_MIGRATION_RULES];
     
     if (!migrationRule) {
-      return { category: 'global-markets', confidence: 0.5, reason: 'Default fallback category' };
+      // Preserve original category if no migration rule exists
+      return { category: article.category, confidence: 0.5, reason: 'Preserved original category' };
     }
 
     const content = `${article.title} ${article.summary || ''}`.toLowerCase();
