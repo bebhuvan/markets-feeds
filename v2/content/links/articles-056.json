@@ -1,1276 +1,1657 @@
 [
   {
-    "id": "fed-working-papers-63681fb855592961",
-    "sourceId": "fed-working-papers",
-    "sourceName": "Federal Reserve Working Papers",
-    "title": "FEDS Paper: Trading Costs v. Indicative Liquidity in the Off-the-Run Treasury Market",
-    "url": "https://www.federalreserve.gov/econres/feds/trading-costs-vs-indicative-liquidity-in-the-off-the-run-treasury-market.htm",
-    "summary": "Oleg SokolinskiyThis paper estimates trading costs in the off-the-run Treasury market using comprehensive transactions data and machine learning techniques. The analysis reveals several key findings that enhance the understanding of the off-the-run Treasury market liquidity. First, the indicative bid-ask spread is shown to be a biased measure of liquidity, even when not considering transaction volume. Specifically, bid-ask spreads systematically overstate trading costs of more seasoned Treasuries, and the liquidity of benchmark, on-the-run securities affects how off-the-run bid-ask spreads map to trading costs. Second, the paper demonstrates that trading costs may scale non-monotonically with transaction volume, which suggests selective, opportunistic liquidity-taking. Additionally, transaction size has greater effect on off-the-run securities’ trading costs when benchmark, on-the-run liquidity is lower. Finally, indicative bid-ask spreads may notably overstate trading costs for larger",
-    "publishedAt": "2025-07-07T20:49:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:10.662716+00:00",
+    "id": "gary-marcus-b62ef89bf05262f9",
+    "sourceId": "gary-marcus",
+    "sourceName": "Gary Marcus",
+    "title": "BREAKING NEWS: AI coding may not be helping as much as you think",
+    "url": "https://garymarcus.substack.com/p/breaking-news-ai-coding-may-not-be",
+    "summary": "Coding has been the strongest use case. But a new study from METR just dropped.",
+    "publishedAt": "2025-07-10T18:01:26+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.976737+00:00",
     "category": "research",
     "tags": [
-      "Research",
-      "Debt",
-      "AI"
-    ],
-    "priority": "high",
-    "contentHash": "63681fb855592961"
-  },
-  {
-    "id": "fed-working-papers-f04233f419c1869f",
-    "sourceId": "fed-working-papers",
-    "sourceName": "Federal Reserve Working Papers",
-    "title": "FEDS Paper: Gauging the Sentiment of Federal Open Market Committee Communications through the Eyes of the Financial Press",
-    "url": "https://www.federalreserve.gov/econres/feds/gauging-the-sentiment-of-federal-open-market-committee-communications-through-the-eyes-of-the-financial-press.htm",
-    "summary": "Shantanu Banerjee, Paul Cordova, Michiel De Pooter, and Olesya V. GrishchenkoWe apply natural language processing tools to news articles in the financial press to construct a sentiment index—an index of the perceived semantic orientation of monetary policy communications around scheduled Federal Open Market Committee (FOMC) meetings. To that end, we develop several dictionaries that capture various monetary policy tools: conventional monetary policy, asset purchases, and forward guidance. The surprises in the sentiment index around FOMC meetings announcements explain variation in major asset prices classes between May 1999 and November 2022. Sentiment index surprises are important for explaining the variation in asset prices beyond monetary policy surprises.",
-    "publishedAt": "2025-07-07T20:10:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:10.663256+00:00",
-    "category": "research",
-    "tags": [
+      "AI",
       "Research"
     ],
-    "priority": "high",
-    "contentHash": "f04233f419c1869f"
+    "priority": "breaking",
+    "contentHash": "b62ef89bf05262f9"
   },
   {
-    "id": "fed-working-papers-b91fa2bfcc9a4fb0",
-    "sourceId": "fed-working-papers",
-    "sourceName": "Federal Reserve Working Papers",
-    "title": "FEDS Paper: Soft Landing or Stagnation? A Framework for Estimating the Probabilities of Macro Scenarios",
-    "url": "https://www.federalreserve.gov/econres/feds/soft-landing-or-stagnation-a-framework-for-estimating-the-probabilities-of-macro-scenarios.htm",
-    "summary": "Eric EngstromAmid ongoing trade policy shifts and geopolitical uncertainty, concerns about stagflation have reemerged as a key macroeconomic risk. This paper develops a probabilistic framework to estimate the likelihood of stagflation versus soft landing scenarios over a four-quarter horizon. Building on Bekaert, Engstrom, and Ermolov (2025), the model integrates survey forecasts, structural shock decomposition, and a non-Gaussian BEGE-GARCH approach to capture time-varying volatility and skewness. Results suggest that the probability of stagflation was elevated at around 30 percent in late 2022, while the chance of a soft landing was below 5 percent. As inflation moderated and growth remained strong through 2024, these probabilities reversed. However, by mid-2025, renewed tariff concerns drove stagflation risk back up and the probability of a soft landing lower. These shifts highlight the potential value of distributional forecasting for policymakers and market participants navigating",
-    "publishedAt": "2025-07-07T19:45:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:10.663631+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "b91fa2bfcc9a4fb0"
-  },
-  {
-    "id": "honest-broker-3a839c8ffac4f901",
-    "sourceId": "honest-broker",
-    "sourceName": "The Honest Broker",
-    "title": "Why I Take Gifts Seriously",
-    "url": "https://www.honest-broker.com/p/why-i-take-gifts-seriously",
-    "summary": "The digital economy is built on the unpaid labor of the gifted. What can we do to protect them?",
-    "publishedAt": "2025-07-07T19:20:10+00:00",
-    "fetchedAt": "2025-07-28T06:33:13.420943+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "3a839c8ffac4f901"
-  },
-  {
-    "id": "honest-broker-57258d0f",
-    "sourceId": "honest-broker",
-    "sourceName": "The Honest Broker",
-    "title": "",
-    "url": "https://www.honest-broker.com/p/why-i-take-gifts-seriously",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-07T19:20:10.000Z",
-    "fetchedAt": "2025-08-04T10:03:08.930Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "57258d0f"
-  },
-  {
-    "id": "one-useful-thing-1d508df1",
-    "sourceId": "one-useful-thing",
-    "sourceName": "One Useful Thing",
-    "title": "",
-    "url": "https://www.oneusefulthing.org/p/against-brain-damage",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-07T19:02:38.000Z",
-    "fetchedAt": "2025-08-04T10:05:59.372Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "1d508df1"
-  },
-  {
-    "id": "economist-business-4d5939630cd12e84",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "Does working from home kill company culture?",
-    "url": "https://www.economist.com/business/2025/07/07/does-working-from-home-kill-company-culture",
-    "summary": "Our analysis suggests it depends on what sort of culture bosses want",
-    "publishedAt": "2025-07-07T18:43:03+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.204323+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "low",
-    "contentHash": "4d5939630cd12e84"
-  },
-  {
-    "id": "economist-business-49c4c907",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "",
-    "url": "https://www.economist.com/business/2025/07/07/does-working-from-home-kill-company-culture",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-07T18:43:03.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.967Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "49c4c907"
-  },
-  {
-    "id": "best-of-econ-twitter-9cc5f7444183d4f6",
-    "sourceId": "best-of-econ-twitter",
-    "sourceName": "Best of Econ Twitter",
-    "title": "Best of #econtwitter - Week of June 22, 2025: good tweets",
-    "url": "https://www.bestofecontwitter.com/p/best-of-econtwitter-week-of-june-bc7",
-    "summary": "Welcome readers old and new to this week’s edition of the Best of Econtwitter newsletter.",
-    "publishedAt": "2025-07-07T17:11:14+00:00",
-    "fetchedAt": "2025-07-28T08:52:50.304764+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "9cc5f7444183d4f6"
-  },
-  {
-    "id": "best-of-econ-twitter-3cbef0e54e47016b",
-    "sourceId": "best-of-econ-twitter",
-    "sourceName": "Best of Econ Twitter",
-    "title": "Best of #econtwitter - Week of June 22, 2025: paper summaries",
-    "url": "https://www.bestofecontwitter.com/p/best-of-econtwitter-week-of-june-fda",
-    "summary": "Welcome readers old and new to this week’s edition of the Best of Econtwitter newsletter.",
-    "publishedAt": "2025-07-07T17:10:14+00:00",
-    "fetchedAt": "2025-07-28T08:52:50.305139+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "3cbef0e54e47016b"
-  },
-  {
-    "id": "larry-swedroe-ee4976fcde16753e",
-    "sourceId": "larry-swedroe",
-    "sourceName": "Larry Swedroe",
-    "title": "The Integration of Factors Advantage",
-    "url": "https://larryswedroe.substack.com/p/the-integration-of-factors-advantage",
-    "summary": "Investors Should Stop Mixing and Start Integrating Factor Strategies",
-    "publishedAt": "2025-07-07T17:09:41+00:00",
-    "fetchedAt": "2025-07-28T06:22:16.426830+00:00",
-    "category": "blogs",
-    "tags": [
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "ee4976fcde16753e"
-  },
-  {
-    "id": "nate-silver-65b642a27f48ee68",
-    "sourceId": "nate-silver",
-    "sourceName": "Nate Silver",
-    "title": "Can Elon's America Party succeed where others have failed?",
-    "url": "https://www.natesilver.net/p/can-elons-america-party-succeed-where",
-    "summary": "Probably not. Unless Musk is truly thinking big.",
-    "publishedAt": "2025-07-07T17:09:07+00:00",
-    "fetchedAt": "2025-07-28T06:33:15.295679+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "65b642a27f48ee68"
-  },
-  {
-    "id": "nate-silver-4a25e739",
-    "sourceId": "nate-silver",
-    "sourceName": "Nate Silver",
-    "title": "",
-    "url": "https://www.natesilver.net/p/can-elons-america-party-succeed-where",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-07T17:09:07.000Z",
-    "fetchedAt": "2025-08-04T10:01:40.864Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "4a25e739"
-  },
-  {
-    "id": "matt-levine-98db66d247d7233b",
+    "id": "matt-levine-d8a13969af2fe321",
     "sourceId": "matt-levine",
     "sourceName": "Matt Levine Money Stuff",
-    "title": "Jane Street’s Indian Options Trade Was Too Good",
-    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-07/jane-street-s-indian-options-trade-was-too-good",
-    "summary": "SEBI, MSOs, America Party.",
-    "publishedAt": "2025-07-07T16:45:32+00:00",
-    "fetchedAt": "2025-07-28T04:04:08.133197+00:00",
+    "title": "Do Your Betting With Your Broker",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-10/do-your-betting-with-your-broker",
+    "summary": "Gambling losses, hedge-fund AI agents, Hunterbrook, legal fees and self-publishing.",
+    "publishedAt": "2025-07-10T17:51:29+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.132662+00:00",
     "category": "blogs",
     "tags": [
-      "Research"
+      "Research",
+      "AI"
     ],
     "priority": "normal",
-    "contentHash": "98db66d247d7233b"
+    "contentHash": "d8a13969af2fe321"
   },
   {
-    "id": "matt-levine-6f09333f",
+    "id": "matt-levine-67d29e91",
     "sourceId": "matt-levine",
     "sourceName": "Matt Levine",
     "title": "",
-    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-07/jane-street-s-indian-options-trade-was-too-good",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-10/do-your-betting-with-your-broker",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-07T16:45:32.000Z",
+    "publishedAt": "2025-07-10T17:51:29.000Z",
     "fetchedAt": "2025-08-04T06:57:28.026Z",
     "category": "blogs",
     "tags": [
       "blogs"
     ],
     "priority": "normal",
-    "contentHash": "6f09333f"
+    "contentHash": "67d29e91"
   },
   {
-    "id": "noahpinion-1964de143319b67f",
-    "sourceId": "noahpinion",
-    "sourceName": "Noah Smith",
-    "title": "At least five interesting things: It Isn't That Bad edition (#66)",
-    "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-4c7",
-    "summary": "U.S. wage growth; fertility and sexism; construction costs and house prices; the next financial crisis; macroeconomics vs. microeconomics;",
-    "publishedAt": "2025-07-07T16:44:59+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.484510+00:00",
+    "id": "over-the-field-a8d5b2922bf16426",
+    "sourceId": "over-the-field",
+    "sourceName": "Over the Field",
+    "title": "Living Like the End is Nigh, and Living Like it isn't.",
+    "url": "https://overthefield.substack.com/p/living-like-the-end-is-nigh-and-living",
+    "summary": "How then is the agrarian to live?",
+    "publishedAt": "2025-07-10T17:38:38+00:00",
+    "fetchedAt": "2025-07-28T06:33:11.960017+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "a8d5b2922bf16426"
+  },
+  {
+    "id": "krebs-security-88db3dcafdf8d4e9",
+    "sourceId": "krebs-security",
+    "sourceName": "Krebs on Security",
+    "title": "UK Arrests Four in ‘Scattered Spider’ Ransom Group",
+    "url": "https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/",
+    "summary": "Authorities in the United Kingdom this week arrested four alleged members of \"Scattered Spider,\" a prolific data theft and extortion group whose recent victims include multiple airlines and the U.K. retail chain Marks & Spencer.",
+    "fullContent": "Authorities in the United Kingdom this week arrested four people aged 17 to 20 in connection with recent data theft and extortion attacks against the retailers Marks & Spencer and Harrods, and the British food retailer Co-op Group. The breaches have been linked to a prolific but loosely-affiliated cybercrime group dubbed “Scattered Spider,” whose other recent victims include multiple airlines. The U.K.’s National Crime Agency (NCA) declined verify the names of those arrested, saying only that they included two males aged 19, another aged 17, and 20-year-old female. Scattered Spider is the name given to an English-speaking cybercrime group known for using social engineering tactics to break into companies and steal data for ransom, often impersonating employees or contractors to deceive IT help desks into granting access. The FBI warned last month that Scattered Spider had recently shifted to targeting companies in the retail and airline sectors. KrebsOnSecurity has learned the identiti",
+    "publishedAt": "2025-07-10T17:31:10+00:00",
+    "fetchedAt": "2025-07-31T06:18:28.894111+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "88db3dcafdf8d4e9"
+  },
+  {
+    "id": "brad-delong-3b175493313137a1",
+    "sourceId": "brad-delong",
+    "sourceName": "Brad DeLong",
+    "title": "Why the New York Jewish Left’s Little Magazine \"Dissent\" Still Has Much Unfinished Business",
+    "url": "https://braddelong.substack.com/p/why-the-new-york-jewish-lefts-little",
+    "summary": "Dissent magazine’s relevance in a world of political rubble, grifters, confidence men, neofascist werewolves, chaos monkeys, & reluctant ex-left-neoliberals. Plus what the next mayor of New York—&...",
+    "publishedAt": "2025-07-10T17:07:24+00:00",
+    "fetchedAt": "2025-07-28T06:22:16.625117+00:00",
     "category": "non-money",
     "tags": [
       "Research"
     ],
-    "priority": "breaking",
-    "contentHash": "1964de143319b67f"
+    "priority": "normal",
+    "contentHash": "3b175493313137a1"
   },
   {
-    "id": "noahpinion-4912c595",
+    "id": "venkatesh-rao-3b9b6c8f4223e0ec",
+    "sourceId": "venkatesh-rao",
+    "sourceName": "Venkatesh Rao",
+    "title": "Tripwire Minds, Clockwork Days",
+    "url": "https://contraptions.venkateshrao.com/p/tripwire-minds-clockwork-days",
+    "summary": "There is no healthy lifestyle formula for creative production",
+    "publishedAt": "2025-07-10T17:02:16+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.818378+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "3b9b6c8f4223e0ec"
+  },
+  {
+    "id": "wocomo-docs-youtube-61850a32f231024f",
+    "sourceId": "wocomo-docs-youtube",
+    "sourceName": "Wocomo Docs",
+    "title": "South Tyrol and the Dolomites: Italy's Most Breathtaking Region | Alto Adige (Documentary, 2016)",
+    "url": "https://www.youtube.com/watch?v=6b_LO0TvbEI",
+    "summary": "Breathtaking landscapes, mild sunny climate, a moving history at the crossroads of two cultures, outstanding hospitality and cuisine, living traditions in crafts, music, art and architecture – Alto Adige, also known as South Tyrol, impresses with its diversity and the unique mix of alpine traditions and Mediterranean flair. Italy’s northernmost province lies on the Alps’ south side and is one of Europe’s most popular holiday destinations. The majestic mountain world of the Dolomites, lush meadows of Europe’s highest mountain pasture, mellow lakeside vineyards, the region’s lively capital Bozen with its Italian flair, or the chic resort town of Merano – it is first and foremost the landscapes that make Alto Adige so attractive. In spring one is amazed by the blossoming apple trees, in summer the region turns into a hiking paradise, in autumn it lures with the rich harvest of wine grapes and chestnuts, and in winter it’s a dream destination for skiers and lovers of fairytale-like snowy l",
+    "fullContent": "Breathtaking landscapes, mild sunny climate, a moving history at the crossroads of two cultures, outstanding hospitality and cuisine, living traditions in crafts, music, art and architecture – Alto Adige, also known as South Tyrol, impresses with its diversity and the unique mix of alpine traditions and Mediterranean flair. Italy’s northernmost province lies on the Alps’ south side and is one of Europe’s most popular holiday destinations. The majestic mountain world of the Dolomites, lush meadows of Europe’s highest mountain pasture, mellow lakeside vineyards, the region’s lively capital Bozen with its Italian flair, or the chic resort town of Merano – it is first and foremost the landscapes that make Alto Adige so attractive. In spring one is amazed by the blossoming apple trees, in summer the region turns into a hiking paradise, in autumn it lures with the rich harvest of wine grapes and chestnuts, and in winter it’s a dream destination for skiers and lovers of fairytale-like snowy l",
+    "publishedAt": "2025-07-10T17:00:06+00:00",
+    "fetchedAt": "2025-07-30T15:00:43.394306+00:00",
+    "category": "videos",
+    "tags": [
+      "Videos",
+      "ESG"
+    ],
+    "priority": "normal",
+    "contentHash": "61850a32f231024f"
+  },
+  {
+    "id": "dwarkesh-podcast-4fa326159223d267",
+    "sourceId": "dwarkesh-podcast",
+    "sourceName": "Dwarkesh Podcast",
+    "title": "Stephen Kotkin — How Stalin Became the Most Powerful Dictator in History",
+    "url": "https://www.dwarkesh.com/p/stephen-kotkin",
+    "summary": "The most consequential figure of the 20th century",
+    "publishedAt": "2025-07-10T16:11:28+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.518839+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "4fa326159223d267"
+  },
+  {
+    "id": "commodity-context-f40ec82c37285e0e",
+    "sourceId": "commodity-context",
+    "sourceName": "Commodity Context",
+    "title": "OPEC Operation Tabula Rasa",
+    "url": "https://www.commoditycontext.com/p/opec-operation-tabula-rasa",
+    "summary": "The producer group is now set to wind up its latest and largest production cut tranche as soon as September—but there will still be ~3.6 MMbpd of additional, withheld oil left on the books.",
+    "publishedAt": "2025-07-10T16:06:20+00:00",
+    "fetchedAt": "2025-07-28T06:22:16.687420+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "f40ec82c37285e0e"
+  },
+  {
+    "id": "nyt-economy-564d9553b20d287e",
+    "sourceId": "nyt-economy",
+    "sourceName": "NYT Economy",
+    "title": "Trump Fuels Fear Among Immigrant Farm Workers in California’s Central Valley",
+    "url": "https://www.nytimes.com/2025/07/10/us/politics/trump-farmers-california-central-valley.html",
+    "summary": "The fertile valley feeds the world. President Trump has thrown farmers and farmworkers there into turmoil, but recently offered them a glimmer of hope.",
+    "publishedAt": "2025-07-10T15:59:01+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.475200+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "564d9553b20d287e"
+  },
+  {
+    "id": "larry-swedroe-2616e6880305e0e3",
+    "sourceId": "larry-swedroe",
+    "sourceName": "Larry Swedroe",
+    "title": "The US Trade Deficit and Foreign Borrowing",
+    "url": "https://larryswedroe.substack.com/p/the-us-trade-deficit-and-foreign",
+    "summary": "How Long Can It Continue?",
+    "publishedAt": "2025-07-10T15:49:10+00:00",
+    "fetchedAt": "2025-07-28T06:22:16.426096+00:00",
+    "category": "blogs",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "2616e6880305e0e3"
+  },
+  {
+    "id": "asimov-press-31145329",
+    "sourceId": "asimov-press",
+    "sourceName": "Asimov Press",
+    "title": "",
+    "url": "https://www.asimov.press/p/issue-07",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T15:47:52.000Z",
+    "fetchedAt": "2025-08-04T10:06:55.510Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "31145329"
+  },
+  {
+    "id": "benthams-3dcc55eba1cef07e",
+    "sourceId": "benthams",
+    "sourceName": "Benthams",
+    "title": "Fish Feel Pain",
+    "url": "https://benthams.substack.com/p/bad-arguments-against-fish-pain",
+    "summary": "Comprehensively rebutting Defending Feminism, Key, and the other fish pain skeptics",
+    "publishedAt": "2025-07-10T15:30:46+00:00",
+    "fetchedAt": "2025-07-28T06:33:12.506688+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "3dcc55eba1cef07e"
+  },
+  {
+    "id": "programmable-mutter-a1343529217cffee",
+    "sourceId": "programmable-mutter",
+    "sourceName": "Programmable Mutter",
+    "title": "Cultural theory was right about the death of the author. It was just a few decades early",
+    "url": "https://www.programmablemutter.com/p/cultural-theory-was-right-about-the",
+    "summary": "How old theories explain the new technology of LLMs",
+    "publishedAt": "2025-07-10T14:34:09+00:00",
+    "fetchedAt": "2025-07-28T06:33:17.332335+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "a1343529217cffee"
+  },
+  {
+    "id": "programmable-mutter-28d0c2b7",
+    "sourceId": "programmable-mutter",
+    "sourceName": "Programmable Mutter",
+    "title": "",
+    "url": "https://www.programmablemutter.com/p/cultural-theory-was-right-about-the",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T14:34:09.000Z",
+    "fetchedAt": "2025-08-04T10:02:43.564Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "28d0c2b7"
+  },
+  {
+    "id": "invest-marcellus-youtube-5972d363",
+    "sourceId": "invest-marcellus-youtube",
+    "sourceName": "Invest with Marcellus YouTube",
+    "title": "Strategic UnHustle: An Entrepreneur's Secret Power-Up",
+    "url": "https://www.youtube.com/shorts/aOlDbBp9yOo",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T14:30:19.000Z",
+    "fetchedAt": "2025-08-04T10:00:05.800Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "5972d363"
+  },
+  {
+    "id": "cfa-society-india-youtube-6d181aac",
+    "sourceId": "cfa-society-india-youtube",
+    "sourceName": "CFA Society India YouTube",
+    "title": "CFA Program Careers: Investment Strategist",
+    "url": "https://www.youtube.com/watch?v=-LqxdJC1MMQ",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T14:29:39.000Z",
+    "fetchedAt": "2025-08-04T09:59:59.535Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "6d181aac"
+  },
+  {
+    "id": "soic-finance-youtube-1d61867",
+    "sourceId": "soic-finance-youtube",
+    "sourceName": "SOIC Finance YouTube",
+    "title": "Catch Accounting Frauds With ChatGPT| Secret Prompt For Forensic Analysis",
+    "url": "https://www.youtube.com/watch?v=C5D2DzdlOy4",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T14:05:58.000Z",
+    "fetchedAt": "2025-08-04T09:59:22.582Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "1d61867"
+  },
+  {
+    "id": "woman-of-letters-70ec08b114b5a895",
+    "sourceId": "woman-of-letters",
+    "sourceName": "Woman of Letters",
+    "title": "How to write a creepy guy for an audience of women",
+    "url": "https://www.woman-of-letters.com/p/how-to-sell-a-creepy-guy-to-an-audience",
+    "summary": "I’m friends with a fair number of guys who’re writing novels about angry losers.",
+    "publishedAt": "2025-07-10T14:02:47+00:00",
+    "fetchedAt": "2025-07-28T06:33:17.444311+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "70ec08b114b5a895"
+  },
+  {
+    "id": "woman-of-letters-102d4a1d",
+    "sourceId": "woman-of-letters",
+    "sourceName": "Woman of Letters",
+    "title": "",
+    "url": "https://www.woman-of-letters.com/p/how-to-sell-a-creepy-guy-to-an-audience",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T14:02:47.000Z",
+    "fetchedAt": "2025-08-04T10:02:58.778Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "102d4a1d"
+  },
+  {
+    "id": "rzepczynski-6fa2d3cdf80e3a59",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Momentum and reversal related to turnover",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/momentum-and-reversal-related-to.html",
+    "summary": "Momentum is a key factor found across all asset classes. It is persistent and perhaps the most used of the major risk factors. A paper I had not read before provides more light on the topic by showing that you can have both reversal and momentum with 1-month returns if you sort on turnover. The low turnover decile shows short-term reversals, while the high turnover decile shows momentum. See \"Short-term Momentum\".Reversal and momentum can coexist once you account for turnover. Large liquid stocks are less sensitive to price pressure effects. The price pressure effect is the main driver for short-term price moves and reversals, but turnover does matter. Don't fight short-term reversal unless you account for the turnover issue.",
+    "publishedAt": "2025-07-10T13:44:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.913381+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "6fa2d3cdf80e3a59"
+  },
+  {
+    "id": "bbc-technology-7f1fc05c8df30551",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Four arrested in connection with M&S and Co-op cyber-attacks",
+    "url": "https://www.bbc.com/news/articles/cwykgrv374eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Three men and one woman - aged between 17 and 20 - have been arrested in London and the Midlands.",
+    "fullContent": "Three men and one woman - aged between 17 and 20 - have been arrested in London and the Midlands.",
+    "publishedAt": "2025-07-10T13:42:24+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.573555+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology"
+    ],
+    "priority": "normal",
+    "contentHash": "7f1fc05c8df30551"
+  },
+  {
+    "id": "ecfr-0877a9644cc93a36",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "The power of partnerships: European climate leadership with less America",
+    "url": "https://ecfr.eu/publication/the-power-of-partnerships-european-climate-leadership-with-less-america/",
+    "summary": "In a Trumpian world, Europeans must drive climate action through stronger climate partnerships with countries across the globe. Here’s how they can act.",
+    "publishedAt": "2025-07-10T13:40:49+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.187828+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy",
+      "ESG"
+    ],
+    "priority": "normal",
+    "contentHash": "0877a9644cc93a36"
+  },
+  {
+    "id": "bonddad-ab8fb279fd6d63f9",
+    "sourceId": "bonddad",
+    "sourceName": "The Bonddad Blog",
+    "title": "Jobless claims continue to suggest weakness but no downturn",
+    "url": "https://bonddad.blogspot.com/2025/07/jobless-claims-continue-to-suggest.html",
+    "summary": "- by New Deal democratWe finally have some new data this week - the usual, jobless claims.Initial claims declined -5,000 for the week, while the four week moving average declined 5,750. With the usual one week delay, continuing claims, on the other hand, rose 10,000 to a new 4.5+ year high of 1.965 million:I can’t help but note that although the above numbers are seasonally adjusted, it is clear there is some residual unresolved post-pandemic seasonality nonetheless, as ever since the beginning of 2023 we have seen low numbers at the beginning of the year, rising through midyear, and then falling back down through the Holiday season.On the YoY% change more useful for forecasting, initial claims were up 2.3%, the four week moving average up 1.3%, and continuing claims up 5.9%:This continues to forecast weakness, but no recession. Interestingly, while there has been no substantial increase in new layoffs, those who are out of work are finding a more difficult time finding new jobs, as is",
+    "publishedAt": "2025-07-10T13:33:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.833044+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "ab8fb279fd6d63f9"
+  },
+  {
+    "id": "bis-papers-08112975afe49106",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Joachim Nagel: Target achieved, but challenges still remain - monetary policy since the 2021 strategy review",
+    "url": "https://www.bis.org/review/r250710i.htm",
+    "summary": "Text of the 10th Bundesbank IAW Lecture by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the Institute for Applied Economic Research (IAW), University of Tübingen, Tübingen, 9 July 2027.",
+    "publishedAt": "2025-07-10T13:30:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.428391+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "08112975afe49106"
+  },
+  {
+    "id": "bis-papers-6f33183602391bfe",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Piero Cipollone: Shifting payment landscape - what a digital euro will bring",
+    "url": "https://www.bis.org/review/r250710h.htm",
+    "summary": "Speech by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at Bank of Slovenia, Ljubljana, 10 July 2025.",
+    "publishedAt": "2025-07-10T13:28:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.428596+00:00",
+    "category": "research",
+    "tags": [
+      "Currency",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "6f33183602391bfe"
+  },
+  {
+    "id": "ecfr-e1a2e5283f6810cc",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "Harmattan hazards: How coastal west Africa can escape the Sahel’s fate",
+    "url": "https://ecfr.eu/publication/harmattan-hazards-how-coastal-west-africa-can-escape-the-sahels-fate/",
+    "summary": "Benin, Ghana, Ivory Coast and Togo face a double threat—from jihadists creeping south from the Sahel and coup plotters lurking within. As northern borders buckle, the region could slip into instability and away from Europe’s reach",
+    "publishedAt": "2025-07-10T13:23:14+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.188030+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "e1a2e5283f6810cc"
+  },
+  {
+    "id": "bis-papers-da6ce5cfd9a8487e",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Philip R Lane: The monetary agenda at the European Central Bank",
+    "url": "https://www.bis.org/review/r250710g.htm",
+    "summary": "Remarks by Mr Philip R Lane, Member of the Executive Board of the European Central Bank, at the House of the Euro, Brussels, 9 July 2025.",
+    "publishedAt": "2025-07-10T13:22:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.428788+00:00",
+    "category": "research",
+    "tags": [
+      "Currency",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "da6ce5cfd9a8487e"
+  },
+  {
+    "id": "fed-working-papers-d58099633797e783",
+    "sourceId": "fed-working-papers",
+    "sourceName": "Federal Reserve Working Papers",
+    "title": "IFDP Paper: What Determines Household Expectations?",
+    "url": "https://www.federalreserve.gov/econres/ifdp/what-determines-household-expectations.htm",
+    "summary": "Anushka Mitra and Aditi SinghThis paper examines which macroeconomic signals shape household expectations and finds that unemployment shocks play a more influential role than inflation shocks. Using daily data, we identify which announcements prompt households to revise their expectations. We construct two shock series—assuming households are either sophisticated or naive—based on the surprise components of announcements. Labor market news strongly influences both general economic sentiment and inflation expectations. Even when inflation rises and unemployment falls, households respond more to unemployment shocks. Most changes in inflation expectations are driven by labor market shocks. During negative supply and demand shocks, unemployment remains the dominant driver.",
+    "publishedAt": "2025-07-10T13:10:00+00:00",
+    "fetchedAt": "2025-07-28T08:46:10.661676+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "d58099633797e783"
+  },
+  {
+    "id": "fred-blog-d5c80699d7197608",
+    "sourceId": "fred-blog",
+    "sourceName": "FRED Blog",
+    "title": "Trends in leverage : Debt securities vs. loans in the nonfinancial corporate sector",
+    "url": "https://fredblog.stlouisfed.org/2025/07/trends-in-leverage/",
+    "summary": "Each quarter, the Board of Governors of the Federal Reserve System releases the Financial Accounts of the United States (Z.1 tables). They include data on transactions and levels of financial assets and liabilities, by sector and financial instrument; and full … Continue reading →",
+    "publishedAt": "2025-07-10T13:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:42.796914+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "Earnings",
+      "Debt"
+    ],
+    "priority": "high",
+    "contentHash": "d5c80699d7197608"
+  },
+  {
+    "id": "noahpinion-e67927003269fdd3",
+    "sourceId": "noahpinion",
+    "sourceName": "Noah Smith",
+    "title": "Free-market economics is working surprisingly well",
+    "url": "https://www.noahpinion.blog/p/free-market-economics-is-working",
+    "summary": "Which economic approach works depends a lot on where you start from.",
+    "publishedAt": "2025-07-10T12:56:37+00:00",
+    "fetchedAt": "2025-07-28T04:04:07.484337+00:00",
+    "category": "non-money",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "e67927003269fdd3"
+  },
+  {
+    "id": "noahpinion-34ec9005",
     "sourceId": "noahpinion",
     "sourceName": "Noahpinion",
     "title": "",
-    "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-4c7",
+    "url": "https://www.noahpinion.blog/p/free-market-economics-is-working",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-07T16:44:59.000Z",
+    "publishedAt": "2025-07-10T12:56:37.000Z",
     "fetchedAt": "2025-08-04T06:57:27.564Z",
     "category": "blogs",
     "tags": [
       "blogs"
     ],
     "priority": "normal",
-    "contentHash": "4912c595"
+    "contentHash": "34ec9005"
   },
   {
-    "id": "cnbc-economy-e4ac3762e52fbeb0",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "Trump threatens extra 10% tariff on countries that align with 'Anti-American' BRICS policies",
-    "url": "https://www.cnbc.com/2025/07/07/trump-says-countries-aligning-with-brics-bloc-will-face-extra-tariff.html",
-    "summary": "Trump confirmed the U.S. will start delivering letters on Monday, detailing tariff rates and any agreements reached with various trading partners.",
-    "publishedAt": "2025-07-07T15:40:12+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.634546+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "high",
-    "contentHash": "e4ac3762e52fbeb0"
-  },
-  {
-    "id": "of-dollars-data-2785a4c7f64d0577",
-    "sourceId": "of-dollars-data",
-    "sourceName": "Of Dollars And Data",
-    "title": "How to Make More Without Working More",
-    "url": "https://ofdollarsanddata.com/how-to-make-more-without-working-more/",
-    "summary": "Making more without working more. It's the holy grail of personal finance. But is it as difficult to achieve as it seems? Or are there actual ways to increase your earnings without needing to increase your effort? The truth is somewhere in between. Yes, it's possible to increase your income without increasing your effort, but only if you change your strategy. This is the premise of my upcoming book, The Wealth Ladder, which comes out in 2 weeks. The core idea: the strategy that got you to one point in your financial life may not get you to the next. This is true whether you're trying to build wealth or simply earn more. Too often we get stuck in the same routines while expecting different results. But, when it comes to making more without working more, the answer isn't necessarily to work harder, but to work differently. Below are four strategies I explore in more depth in the book that can help raise your income over time. Let's dig in. Negotiate a Raise The simplest way to get paid m",
-    "publishedAt": "2025-07-07T15:30:50+00:00",
-    "fetchedAt": "2025-07-30T08:21:42.663688+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "2785a4c7f64d0577"
-  },
-  {
-    "id": "the-zvi-8b6abec2498a6617",
-    "sourceId": "the-zvi",
-    "sourceName": "The Zvi",
-    "title": "On Alpha School",
-    "url": "https://thezvi.substack.com/p/on-alpha-school",
-    "summary": "The epic 18k word writeup on Austin’s flagship Alpha School is excellent. It is long, but given the blog you’re reading now, if you have interest in such topics I’d strongly consider reading the whole thing.",
-    "publishedAt": "2025-07-07T15:08:18+00:00",
-    "fetchedAt": "2025-07-28T06:22:19.229847+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "8b6abec2498a6617"
-  },
-  {
-    "id": "economist-business-8b710dd8c2a7df1e",
+    "id": "economist-business-ba1ca6f108b7a4ce",
     "sourceId": "economist-business",
     "sourceName": "Economist Business",
-    "title": "On Lego, love and friendship",
-    "url": "https://www.economist.com/business/2025/07/07/on-lego-love-and-friendship",
-    "summary": "Human relations are a useful way to think about brands",
-    "publishedAt": "2025-07-07T14:54:29+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.204470+00:00",
+    "title": "A CEO’s summer guide to protecting profits",
+    "url": "https://www.economist.com/business/2025/07/10/a-ceos-summer-guide-to-protecting-profits",
+    "summary": "America’s bosses are sharpening their axes",
+    "publishedAt": "2025-07-10T12:54:40+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.203378+00:00",
     "category": "markets",
     "tags": [
       "Markets"
     ],
     "priority": "normal",
-    "contentHash": "8b710dd8c2a7df1e"
+    "contentHash": "ba1ca6f108b7a4ce"
   },
   {
-    "id": "economist-business-1fbe2368",
+    "id": "economist-business-6a519fa07366a891",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "America’s broken construction industry is a big problem for Trump",
+    "url": "https://www.economist.com/business/2025/07/10/americas-broken-construction-industry-is-a-big-problem-for-trump",
+    "summary": "It is beset by fragmentation, overregulation and underinvestment",
+    "publishedAt": "2025-07-10T12:54:40+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.203540+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6a519fa07366a891"
+  },
+  {
+    "id": "economist-business-ff94429eafdd1979",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "Can a $9bn deal sustain CoreWeave’s stunning growth?",
+    "url": "https://www.economist.com/business/2025/07/10/can-a-9bn-deal-sustain-coreweaves-stunning-growth",
+    "summary": "The AI superstar faces competition and an over-reliance on big tech",
+    "publishedAt": "2025-07-10T12:54:40+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.203708+00:00",
+    "category": "markets",
+    "tags": [
+      "Tech",
+      "Markets",
+      "AI",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "ff94429eafdd1979"
+  },
+  {
+    "id": "economist-business-9c35d88853a93340",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "Silicon Valley is racing to build the first $1trn unicorn",
+    "url": "https://www.economist.com/business/2025/07/10/silicon-valley-is-racing-to-build-the-first-1trn-unicorn",
+    "summary": "What could possibly go wrong?",
+    "publishedAt": "2025-07-10T12:54:40+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.203857+00:00",
+    "category": "markets",
+    "tags": [
+      "Tech",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9c35d88853a93340"
+  },
+  {
+    "id": "economist-business-2c5f3c64",
     "sourceId": "economist-business",
     "sourceName": "Economist Business",
     "title": "",
-    "url": "https://www.economist.com/business/2025/07/07/on-lego-love-and-friendship",
+    "url": "https://www.economist.com/business/2025/07/10/a-ceos-summer-guide-to-protecting-profits",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-07T14:54:29.000Z",
+    "publishedAt": "2025-07-10T12:54:40.000Z",
     "fetchedAt": "2025-08-04T06:57:21.967Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "1fbe2368"
+    "contentHash": "2c5f3c64"
   },
   {
-    "id": "nils-gilman-e4c8ae0521954ea8",
-    "sourceId": "nils-gilman",
-    "sourceName": "Nils Gilman",
-    "title": "What Sort of Regime Is Beijing, Really?",
-    "url": "https://nilsgilman.substack.com/p/what-sort-of-regime-is-beijing-really",
-    "summary": "Zombie political theory continues to distort how Westerns (Americans especially) see the government in China",
-    "publishedAt": "2025-07-07T14:15:54+00:00",
-    "fetchedAt": "2025-07-28T06:33:15.859143+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "e4c8ae0521954ea8"
-  },
-  {
-    "id": "novara-media-youtube-4bcbceea",
-    "sourceId": "novara-media-youtube",
-    "sourceName": "Novara Media YouTube",
-    "title": "My Palestinian Brother Became A Militant | Ash Sarkar Meets Ahmed Alnaouq",
-    "url": "https://www.youtube.com/watch?v=OdYURBKVdTA",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-07T14:07:45.000Z",
-    "fetchedAt": "2025-08-04T09:59:47.166Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "4bcbceea"
-  },
-  {
-    "id": "novara-media-youtube-134804a4",
-    "sourceId": "novara-media-youtube",
-    "sourceName": "Novara Media YouTube",
-    "title": "Nelson Mandela Gives Me Strength | Ash Sarkar Meets Ahmed Alnaouq",
-    "url": "https://www.youtube.com/watch?v=SUr6vaAvXFk",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-07T14:05:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:47.166Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "134804a4"
-  },
-  {
-    "id": "climate-brink-a130258",
-    "sourceId": "climate-brink",
-    "sourceName": "The Climate Brink",
+    "id": "economist-business-5f684fa0",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
     "title": "",
-    "url": "https://www.theclimatebrink.com/p/update-on-texas-flooding",
+    "url": "https://www.economist.com/business/2025/07/10/americas-broken-construction-industry-is-a-big-problem-for-trump",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-07T14:01:28.000Z",
-    "fetchedAt": "2025-08-04T10:05:17.486Z",
-    "category": "eclectic",
+    "publishedAt": "2025-07-10T12:54:40.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
     "tags": [
-      "eclectic"
+      "markets"
     ],
     "priority": "normal",
-    "contentHash": "a130258"
+    "contentHash": "5f684fa0"
   },
   {
-    "id": "sec-press-releases-6f2a058436cdd3df",
-    "sourceId": "sec-press-releases",
-    "sourceName": "SEC Press Releases",
-    "title": "SEC Small Business Advisory Committee to Discuss Regulatory Framework for Finders and Continue Exploring Regulation A",
-    "url": "https://www.sec.gov/newsroom/press-releases/2025-97-sec-small-business-advisory-committee-discuss-regulatory-framework-finders-continue-exploring",
-    "summary": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting at the SEC Headquarters in Washington D.C on Tuesday, July 22, 2025 at 10 a.m. E.T. The meeting will be open to the public…",
-    "publishedAt": "2025-07-07T13:57:00+00:00",
-    "fetchedAt": "2025-07-28T04:25:36.302962+00:00",
-    "category": "filings",
-    "tags": [
-      "Filings"
-    ],
-    "priority": "normal",
-    "contentHash": "6f2a058436cdd3df"
-  },
-  {
-    "id": "sec-press-releases-3ce48a61",
-    "sourceId": "sec-press-releases",
-    "sourceName": "SEC Press Releases",
-    "title": "SEC Small Business Advisory Committee to Discuss Regulatory Framework for Finders and Continue Exploring Regulation A",
-    "url": "https://www.sec.gov/newsroom/press-releases/2025-97-sec-small-business-advisory-committee-discuss-regulatory-framework-finders-continue-exploring",
-    "summary": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting at the SEC Headquarters in Washington D.C on Tuesday, July 22, 2025 at 10 a.m. E.T. The meeting will be open to the public…",
-    "fullContent": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting at the SEC Headquarters in Washington D.C on Tuesday, July 22, 2025 at 10 a.m. E.T. The meeting will be open to the public…",
-    "publishedAt": "2025-07-07T13:57:00.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.520Z",
-    "category": "regulation",
-    "tags": [
-      "regulation"
-    ],
-    "priority": "normal",
-    "contentHash": "3ce48a61"
-  },
-  {
-    "id": "novara-media-youtube-7eab7a3e",
-    "sourceId": "novara-media-youtube",
-    "sourceName": "Novara Media YouTube",
-    "title": "My Entire Family Was Killed By The Israeli Military | Ash Sarkar Meets Ahmed Alnaouq",
-    "url": "https://www.youtube.com/watch?v=9hmRNAeAD34",
+    "id": "economist-business-146f6503",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "",
+    "url": "https://www.economist.com/business/2025/07/10/can-a-9bn-deal-sustain-coreweaves-stunning-growth",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-07T13:51:15.000Z",
-    "fetchedAt": "2025-08-04T09:59:47.166Z",
-    "category": "videos",
+    "publishedAt": "2025-07-10T12:54:40.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
     "tags": [
-      "videos"
+      "markets"
     ],
     "priority": "normal",
-    "contentHash": "7eab7a3e"
+    "contentHash": "146f6503"
   },
   {
-    "id": "ecfr-099e9aba8b210445",
-    "sourceId": "ecfr",
-    "sourceName": "European Council on Foreign Relations",
-    "title": "Ukraine’s due, Russia’s debt: How to use Moscow’s money against itself",
-    "url": "https://ecfr.eu/article/ukraines-due-russias-debt-how-to-use-moscows-money-against-itself/",
-    "summary": "Russia’s hundreds of billions of frozen assets should be lent to Ukraine—with Moscow only getting its money back if it pays reparations. Europe can make this “reparation loan” without Trump’s permission",
-    "publishedAt": "2025-07-07T13:41:54+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.188432+00:00",
-    "category": "policy",
+    "id": "economist-business-2da70d37",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "",
+    "url": "https://www.economist.com/business/2025/07/10/silicon-valley-is-racing-to-build-the-first-1trn-unicorn",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T12:54:40.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
     "tags": [
-      "Policy",
-      "Debt"
+      "markets"
     ],
     "priority": "normal",
-    "contentHash": "099e9aba8b210445"
+    "contentHash": "2da70d37"
   },
   {
-    "id": "bonddad-4796de16c9a75320",
-    "sourceId": "bonddad",
-    "sourceName": "The Bonddad Blog",
-    "title": "Economically weighted ISM manufacturing + services indexes continue to warrant “recession watch”",
-    "url": "https://bonddad.blogspot.com/2025/07/economically-weighted-ism-manufacturing.html",
-    "summary": "- by New Deal democratLast month the new orders components of the economically weighted ISM manufacturing and services indexes warranted the hoisting of a yellow flag “Recession Watch.” This month that continued.To recap, because manufacturing is much less important to the economy than in the decades before the Millennium, the economically weighted average of the ISM services index (75%) as well as manufacturing (25%), especially over a three month period, has been much more accurate since 2000.Last week the ISM manufacturing index for June came in at 49.0, and its three month average was 48.7. The new orders subindex came in at 46.4, and its three month average was 47.1. On Thursday the non-manufacturing index was reported at 54.2, and the new orders index at 51.3. The three month average for the headline index was 52.6, and for new orders 50.0.Here is the manufacturing and services numbers for the past three years:The economically weighted average for the month of June alone is 52.9,",
-    "publishedAt": "2025-07-07T13:22:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.840542+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "4796de16c9a75320"
-  },
-  {
-    "id": "fred-blog-5252c8949e00f487",
-    "sourceId": "fred-blog",
-    "sourceName": "FRED Blog",
-    "title": "Disposable income and spending growth : Overall trends and effects from fiscal stimulus",
-    "url": "https://fredblog.stlouisfed.org/2025/07/disposable-income-and-spending-growth/",
-    "summary": "Disposable income and spending growth tend to follow similar long-term trends, as shown in our FRED graph above. Over the past 15 years, real disposable personal income growth and real personal consumption expenditures growth have averaged just over 2.5% year-over-year. … Continue reading →",
-    "publishedAt": "2025-07-07T13:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:21:42.797273+00:00",
+    "id": "moontower-meta-7b10c6e8e541c2f1",
+    "sourceId": "moontower-meta",
+    "sourceName": "Moontower Meta",
+    "title": "Aftertones: Rohit, Kyla, VGR",
+    "url": "https://moontower.substack.com/p/aftertones-rohit-kyla-vgr",
+    "summary": "yes, it is confusing right now",
+    "publishedAt": "2025-07-10T12:49:24+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.670768+00:00",
     "category": "research",
     "tags": [
       "Research"
     ],
     "priority": "normal",
-    "contentHash": "5252c8949e00f487"
+    "contentHash": "7b10c6e8e541c2f1"
   },
   {
-    "id": "yale-e360-7654662ce11f200e",
-    "sourceId": "yale-e360",
-    "sourceName": "Yale E360",
-    "title": "With 'Big Beautiful Bill,' U.S. to Reverse Course on Clean Energy",
-    "url": "https://e360.yale.edu/digest/big-beautiful-bill-renewable-energy-china",
-    "summary": "The Republican spending bill, signed into law Friday, will reset the course for the U.S. energy sector, analyses show. The law rapidly phases out tax credits for wind, solar, and electric cars, while making it cheaper to drill and mine for fossil fuels on federal lands. Read more on E360 →",
-    "publishedAt": "2025-07-07T12:48:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:11.437518+00:00",
-    "category": "culture",
-    "tags": [
-      "Culture"
-    ],
-    "priority": "high",
-    "contentHash": "7654662ce11f200e"
-  },
-  {
-    "id": "rzepczynski-f36d9d6a4ebfc7d5",
-    "sourceId": "rzepczynski",
-    "sourceName": "Disciplined Systematic Global Macro",
-    "title": "Performance at that the half year mark - nothing expected",
-    "url": "https://mrzepczynski.blogspot.com/2025/07/performance-at-that-half-year-mark.html",
-    "summary": "We have lived through uncertainty, a war, trade battles, and various events that should have pushed markets lower; yet, we are at the highs in the core US market indices. This does not feel expected or normal.One of my favorite exercises is to play out scenarios - what would you have expected to happen if a particular event occurred, and then examine the reality. No one would have expected the current outcome. This sharpens your intuition and also tests expected relationships.We are now in a place with US stock indices touching all time highs and a widening of breath beyond the large cp tech sector. The markets have looked through uncertainty. Some of that uncertainty has been resolved, but that does not alter the underlying view that we are in an environment with a wide range of views. Of course, investors focus on downside uncertainty. There is also upside uncertainty, or a positive reaction to the unexpected., There is still a rotation effect toward international stocks; however, th",
-    "publishedAt": "2025-07-07T12:47:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.917196+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "Tech"
-    ],
-    "priority": "normal",
-    "contentHash": "f36d9d6a4ebfc7d5"
-  },
-  {
-    "id": "small-potatoes-2564f19f2a90d76a",
-    "sourceId": "small-potatoes",
-    "sourceName": "Small Potatoes",
-    "title": "Would you still love me if I was a worm?",
-    "url": "https://smallpotatoes.paulbloom.net/p/would-you-still-love-me-if-i-was",
-    "summary": "An investigation",
-    "publishedAt": "2025-07-07T12:19:17+00:00",
-    "fetchedAt": "2025-07-28T06:33:14.107453+00:00",
+    "id": "noema-magazine-c5eb173bab23235a",
+    "sourceId": "noema-magazine",
+    "sourceName": "Noema",
+    "title": "The Future Of Health On A Damaged Planet",
+    "url": "https://www.noemamag.com/cultivating-well-being-on-a-damaged-earth",
+    "summary": "The post The Future Of Health On A Damaged Planet appeared first on NOEMA.",
+    "publishedAt": "2025-07-10T12:48:41+00:00",
+    "fetchedAt": "2025-07-28T06:33:13.843174+00:00",
     "category": "non-money",
     "tags": [
       "Non-Money"
     ],
     "priority": "normal",
-    "contentHash": "2564f19f2a90d76a"
+    "contentHash": "c5eb173bab23235a"
   },
   {
-    "id": "small-potatoes-3ad2e166",
-    "sourceId": "small-potatoes",
-    "sourceName": "Small Potatoes",
-    "title": "",
-    "url": "https://smallpotatoes.paulbloom.net/p/would-you-still-love-me-if-i-was",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-07T12:19:17.000Z",
-    "fetchedAt": "2025-08-04T10:04:06.034Z",
+    "id": "noema-magazine-52cf26fb",
+    "sourceId": "noema-magazine",
+    "sourceName": "Noema Magazine",
+    "title": "The Future Of Health On A Damaged Planet",
+    "url": "https://www.noemamag.com/cultivating-well-being-on-a-damaged-earth",
+    "summary": "The post The Future Of Health On A Damaged Planet appeared first on NOEMA. ]]",
+    "fullContent": "The post The Future Of Health On A Damaged Planet appeared first on NOEMA. ]]",
+    "publishedAt": "2025-07-10T12:48:41.000Z",
+    "fetchedAt": "2025-08-04T10:02:27.032Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "3ad2e166"
+    "contentHash": "52cf26fb"
   },
   {
-    "id": "freddie-deboer-f3fe206d6bc2ce9f",
-    "sourceId": "freddie-deboer",
-    "sourceName": "Freddie deBoer",
-    "title": "The Bear Goes Full Bing Bong",
-    "url": "https://freddiedeboer.substack.com/p/the-bear-goes-full-bing-bong",
-    "summary": "what is cynicism, really?",
-    "publishedAt": "2025-07-07T12:01:06+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.872398+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "f3fe206d6bc2ce9f"
-  },
-  {
-    "id": "henrik-karlsson-52715c342a83ba0c",
-    "sourceId": "henrik-karlsson",
-    "sourceName": "Henrik Karlsson",
-    "title": "On agency",
-    "url": "https://www.henrikkarlsson.xyz/p/agency",
-    "summary": "Or, how to handle being sentenced to freedom, and handle it effectively, and authentically, and responsibly",
-    "publishedAt": "2025-07-07T12:00:31+00:00",
-    "fetchedAt": "2025-07-28T06:33:13.489121+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "52715c342a83ba0c"
-  },
-  {
-    "id": "henrik-karlsson-3d194f6a",
-    "sourceId": "henrik-karlsson",
-    "sourceName": "Henrik Karlsson",
-    "title": "",
-    "url": "https://www.henrikkarlsson.xyz/p/agency",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-07T12:00:31.000Z",
-    "fetchedAt": "2025-08-04T10:00:55.023Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "3d194f6a"
-  },
-  {
-    "id": "nicholas-decker-dd6fb603c95f7fd1",
-    "sourceId": "nicholas-decker",
-    "sourceName": "Nicholas Decker",
-    "title": "The Incredible Macroeconomic Implications of Uniform Pricing",
-    "url": "https://nicholasdecker.substack.com/p/the-incredible-macroeconomic-implications",
-    "summary": "What does it say about optimal monetary policy?",
-    "publishedAt": "2025-07-07T11:36:17+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.059240+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "high",
-    "contentHash": "dd6fb603c95f7fd1"
-  },
-  {
-    "id": "china-talk-39480ad4b65f97ef",
-    "sourceId": "china-talk",
-    "sourceName": "ChinaTalk",
-    "title": "Deterring a Taiwan Invasion",
-    "url": "https://www.chinatalk.media/p/operation-sho-2go-how-imperial-japan",
-    "summary": "straight from the Japan military archives",
-    "publishedAt": "2025-07-07T11:06:33+00:00",
-    "fetchedAt": "2025-07-28T06:22:16.955919+00:00",
-    "category": "blogs",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "39480ad4b65f97ef"
-  },
-  {
-    "id": "common-reader-4620aa3863b422e1",
-    "sourceId": "common-reader",
-    "sourceName": "Common Reader",
-    "title": "Will people enjoy AI art?",
-    "url": "https://www.commonreader.co.uk/p/will-people-enjoy-ai-art",
-    "summary": "thoughts on Walter Benjamin",
-    "publishedAt": "2025-07-07T10:58:18+00:00",
-    "fetchedAt": "2025-07-28T06:33:13.548356+00:00",
+    "id": "the-zvi-7918a30725ad9f1d",
+    "sourceId": "the-zvi",
+    "sourceName": "The Zvi",
+    "title": "AI #124: Grokless Interlude",
+    "url": "https://thezvi.substack.com/p/ai-124-grokless-interlude",
+    "summary": "Last night, on the heels of some rather unfortunate incidents involving the Twitter version of Grok 3, xAI released Grok 4.",
+    "publishedAt": "2025-07-10T12:39:10+00:00",
+    "fetchedAt": "2025-07-28T06:22:19.229282+00:00",
     "category": "non-money",
     "tags": [
       "AI",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "7918a30725ad9f1d"
+  },
+  {
+    "id": "pens-and-poison-40f79f266827396e",
+    "sourceId": "pens-and-poison",
+    "sourceName": "Pens and Poison",
+    "title": "I Went from Nobody to Substack Bestseller",
+    "url": "https://www.pensandpoison.org/p/i-went-from-nobody-to-substack-bestseller",
+    "summary": "How a failed college blog, a forgotten novel draft, and a rooftop conversation led to 5,000+ subscribers and a second chance at a writing life",
+    "publishedAt": "2025-07-10T12:08:39+00:00",
+    "fetchedAt": "2025-07-28T06:33:15.948988+00:00",
+    "category": "non-money",
+    "tags": [
       "Non-Money"
     ],
     "priority": "normal",
-    "contentHash": "4620aa3863b422e1"
+    "contentHash": "40f79f266827396e"
   },
   {
-    "id": "common-reader-23686da1",
-    "sourceId": "common-reader",
-    "sourceName": "The Common Reader",
+    "id": "pens-and-poison-1de2e251",
+    "sourceId": "pens-and-poison",
+    "sourceName": "Pens and Poison",
     "title": "",
-    "url": "https://www.commonreader.co.uk/p/will-people-enjoy-ai-art",
+    "url": "https://www.pensandpoison.org/p/i-went-from-nobody-to-substack-bestseller",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-07T10:58:18.000Z",
-    "fetchedAt": "2025-08-04T10:02:06.700Z",
+    "publishedAt": "2025-07-10T12:08:39.000Z",
+    "fetchedAt": "2025-08-04T10:03:39.831Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "23686da1"
+    "contentHash": "1de2e251"
   },
   {
-    "id": "aeon-magazine-d645c849b2cf908b",
-    "sourceId": "aeon-magazine",
-    "sourceName": "Aeon",
-    "title": "The search for America: the family",
-    "url": "https://aeon.co/videos/margaret-mead-explains-why-the-family-was-entering-a-brave-new-world-in-this-1959-film?utm_source=rss-feed",
-    "summary": "Can societies exist without families? Can individuality thrive in them? Margaret Mead on the brave new world of 1959 - by Aeon Video Watch at Aeon",
-    "publishedAt": "2025-07-07T10:01:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:10.649196+00:00",
+    "id": "brad-delong-c49c21c648b80c92",
+    "sourceId": "brad-delong",
+    "sourceName": "Brad DeLong",
+    "title": "This Is Not an Administration. This Is Not Even a Renaissance Court. This Is, Pure & Simple, a Chaos-Monkey House",
+    "url": "https://braddelong.substack.com/p/this-is-not-an-administration-this",
+    "summary": "Dumbf***s in disarray: whiplash foreign-policy reversals & unreliability with the triumph of impulses over institutions, & what we learn from the Ukraine arms-shipment reversal...",
+    "publishedAt": "2025-07-10T12:03:14+00:00",
+    "fetchedAt": "2025-07-28T06:22:16.625327+00:00",
     "category": "non-money",
     "tags": [
-      "Non-Money"
+      "Research"
     ],
-    "priority": "normal",
-    "contentHash": "d645c849b2cf908b"
+    "priority": "high",
+    "contentHash": "c49c21c648b80c92"
   },
   {
-    "id": "psyche-magazine-96b893aa95287320",
-    "sourceId": "psyche-magazine",
-    "sourceName": "Psyche",
-    "title": "How to draw en plein air",
-    "url": "https://psyche.co/videos/to-become-more-attuned-to-the-world-around-you-try-sketching-outdoors?utm_source=rss-feed",
-    "summary": "Learn how to sketch outdoors from an artist, and the masters who inspire her, in the Museum of Modern Art’s sculpture garden- Video by The Museum of Modern ArtWatch on Psyche",
-    "publishedAt": "2025-07-07T10:01:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:10.763674+00:00",
-    "category": "non-money",
+    "id": "bbc-technology-ca3de983bdfc1590",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Musk says Grok chatbot was 'manipulated' into praising Hitler",
+    "url": "https://www.bbc.com/news/articles/c4g8r34nxeno?at_medium=RSS&at_campaign=rss",
+    "summary": "Anti-hate campaigners say the posts were \"irresponsible, dangerous and antisemitic.\"",
+    "fullContent": "Anti-hate campaigners say the posts were \"irresponsible, dangerous and antisemitic.\"",
+    "publishedAt": "2025-07-10T12:02:11+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.574003+00:00",
+    "category": "technology",
     "tags": [
-      "Non-Money"
+      "Technology"
     ],
     "priority": "normal",
-    "contentHash": "96b893aa95287320"
+    "contentHash": "ca3de983bdfc1590"
   },
   {
-    "id": "psyche-magazine-62b8ce17308ed2b3",
-    "sourceId": "psyche-magazine",
-    "sourceName": "Psyche",
-    "title": "Find meditation really boring? You’re not the only one",
-    "url": "https://psyche.co/ideas/find-meditation-really-boring-youre-not-the-only-one?utm_source=rss-feed",
-    "summary": "Other practices like sermons, yoga and retreats can also trigger ‘spiritual boredom’. Here’s why it’s normal and even useful- by Thomas GoetzRead on Psyche",
-    "publishedAt": "2025-07-07T10:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:10.763991+00:00",
-    "category": "non-money",
+    "id": "construction-physics-dcd739124be41e41",
+    "sourceId": "construction-physics",
+    "sourceName": "Construction Physics",
+    "title": "Should the Federal Government Sell Land?",
+    "url": "https://www.construction-physics.com/p/should-the-federal-government-sell",
+    "summary": "An early version of the US Senate budget bill which passed last week included a provision to sell off between 2 and 3 million acres of federal land in western states, ostensibly to be used for homebuilding.",
+    "publishedAt": "2025-07-10T12:01:59+00:00",
+    "fetchedAt": "2025-07-28T04:04:06.661675+00:00",
+    "category": "research",
     "tags": [
-      "Non-Money"
+      "Research"
     ],
-    "priority": "normal",
-    "contentHash": "62b8ce17308ed2b3"
+    "priority": "high",
+    "contentHash": "dcd739124be41e41"
   },
   {
-    "id": "conspicuous-cognition-60be50a7",
-    "sourceId": "conspicuous-cognition",
-    "sourceName": "Conspicuous Cognition",
+    "id": "construction-physics-e5fcbf4",
+    "sourceId": "construction-physics",
+    "sourceName": "Construction Physics",
     "title": "",
-    "url": "https://www.conspicuouscognition.com/p/the-standpoint-of-the-oppressed-doesnt",
+    "url": "https://www.construction-physics.com/p/should-the-federal-government-sell",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-07T09:34:59.000Z",
-    "fetchedAt": "2025-08-04T10:07:00.633Z",
+    "publishedAt": "2025-07-10T12:01:59.000Z",
+    "fetchedAt": "2025-08-04T10:03:19.471Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "60be50a7"
+    "contentHash": "e5fcbf4"
   },
   {
-    "id": "astral-codex-ten-747513ac3f0fc6dc",
+    "id": "back-of-mind-4264316113ed197d",
+    "sourceId": "back-of-mind",
+    "sourceName": "Back of Mind",
+    "title": "the pendulum might be the best we can do",
+    "url": "https://backofmind.substack.com/p/the-pendulum-might-be-the-best-we",
+    "summary": "oscillation of the nation",
+    "publishedAt": "2025-07-10T12:00:30+00:00",
+    "fetchedAt": "2025-07-28T06:33:10.744632+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "4264316113ed197d"
+  },
+  {
+    "id": "bis-papers-0b012c386bea666b",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Economic activity, inflation, and monetary policy after extreme weather events: ENSO and its economic impact on the Peruvian economy",
+    "url": "https://www.bis.org/publ/work1276.htm",
+    "summary": "by John Aguirre, Alan Ledesma, Fernando Perez, Youel RojasThis paper studies how El Niño Costero, a large climatic event, generates physical risks disrupting business cycles and hindering the effectiveness of monetary policy. Using Peruvian data, we find consistent empirical evidence that El Niño shocks leave a footprint on the economy akin to a supply-side shock: it exerts inflationary pressures while simultaneously contracting GDP. The effects are very persistent and reflect the differentiated effects across sectors in the economy. Primary sectors response is more immediate and larger but persistent. Conversely, non-primary sectors experience lagged effects that become considerably more persistent and important later on. We integrate these empirical findings into a semi-structural model that incorporates five non-linear transmission channels through which El Niño affects the economy. These non-linearities present a challenge for monetary policy design, as the economic uncertainty and",
+    "publishedAt": "2025-07-10T12:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.429256+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "0b012c386bea666b"
+  },
+  {
+    "id": "cfa-enterprising-investor-b59336ad1bb93dfd",
+    "sourceId": "cfa-enterprising-investor",
+    "sourceName": "CFA Enterprising Investor",
+    "title": "Mind the Inflation Gap: Hedging with Real Assets",
+    "url": "https://blogs.cfainstitute.org/investor/2025/07/10/mind-the-inflation-gap-hedging-with-real-assets/",
+    "summary": "Timely insights on portfolio risk, inflation hedging, and market cycles—grounded in financial history and written for investment decision-makers. The post Mind the Inflation Gap: Hedging with Real Assets appeared first on CFA Institute Enterprising Investor.",
+    "publishedAt": "2025-07-10T12:00:00+00:00",
+    "fetchedAt": "2025-07-28T08:46:10.403296+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "b59336ad1bb93dfd"
+  },
+  {
+    "id": "cfa-institute-blog-62e5bf98",
+    "sourceId": "cfa-institute-blog",
+    "sourceName": "CFA Institute Enterprising Investor",
+    "title": "Mind the Inflation Gap: Hedging with Real Assets",
+    "url": "https://blogs.cfainstitute.org/investor/2025/07/10/mind-the-inflation-gap-hedging-with-real-assets/",
+    "summary": "Timely insights on portfolio risk, inflation hedging, and market cycles—grounded in financial history and written for investment decision-makers. The post Mind the Inflati",
+    "fullContent": "Timely insights on portfolio risk, inflation hedging, and market cycles—grounded in financial history and written for investment decision-makers. The post Mind the Inflation Gap: Hedging with Real Assets appeared first on CFA Institute Enterprising Investor. ]]",
+    "publishedAt": "2025-07-10T12:00:00.000Z",
+    "fetchedAt": "2025-08-04T09:59:20.543Z",
+    "category": "research",
+    "tags": [
+      "research"
+    ],
+    "priority": "normal",
+    "contentHash": "62e5bf98"
+  },
+  {
+    "id": "rzepczynski-540e7c203eb24d0b",
+    "sourceId": "rzepczynski",
+    "sourceName": "Disciplined Systematic Global Macro",
+    "title": "Dollar - Down but not out - Look at longer-run",
+    "url": "https://mrzepczynski.blogspot.com/2025/07/dollar-down-but-not-out-look-at-longer.html",
+    "summary": "The dollar has reversed two years of gains against advanced economies, but the moves are more muted compared to the broad dollar index and emerging markets. The speed of the decline is a concern, yet the dollar is still within a long-term range after a substantial gain. The question is whether the dollar is declining because there is less confidence in the US economy and financial system. It is a signal of US weakness, and that is a problem. The dollar remains the reserve currency, primarily due to its role as a medium of exchange; however, the store of value argument is problematic.",
+    "publishedAt": "2025-07-10T11:52:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.914021+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Currency"
+    ],
+    "priority": "normal",
+    "contentHash": "540e7c203eb24d0b"
+  },
+  {
+    "id": "china-talk-a790f23365b52720",
+    "sourceId": "china-talk",
+    "sourceName": "ChinaTalk",
+    "title": "China’s AI Gambit: Code as Standards",
+    "url": "https://www.chinatalk.media/p/chinas-ai-strategy-for-open-source",
+    "summary": "Export Models, Win Influence",
+    "publishedAt": "2025-07-10T10:59:05+00:00",
+    "fetchedAt": "2025-07-28T06:22:16.955406+00:00",
+    "category": "blogs",
+    "tags": [
+      "AI",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "a790f23365b52720"
+  },
+  {
+    "id": "economist-business-7bf8cb6aee13fa40",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "Pity France’s cognac-makers",
+    "url": "https://www.economist.com/business/2025/07/10/pity-frances-cognac-makers",
+    "summary": "They have won a respite from China, but face growing pressures in America",
+    "publishedAt": "2025-07-10T10:54:13+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.204012+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "7bf8cb6aee13fa40"
+  },
+  {
+    "id": "economist-business-199a2d5b",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "",
+    "url": "https://www.economist.com/business/2025/07/10/pity-frances-cognac-makers",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T10:54:13.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "199a2d5b"
+  },
+  {
+    "id": "astral-codex-ten-0e160d8c5f15b0c4",
     "sourceId": "astral-codex-ten",
     "sourceName": "Astral Codex Ten",
-    "title": "Open Thread 389",
-    "url": "https://www.astralcodexten.com/p/open-thread-389",
+    "title": "Hidden Open Thread 389.5",
+    "url": "https://www.astralcodexten.com/p/hidden-open-thread-3895",
     "summary": "...",
-    "publishedAt": "2025-07-07T07:51:03+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.300069+00:00",
+    "publishedAt": "2025-07-10T10:14:32+00:00",
+    "fetchedAt": "2025-07-28T06:33:11.299297+00:00",
     "category": "non-money",
     "tags": [
       "Non-Money"
     ],
     "priority": "normal",
-    "contentHash": "747513ac3f0fc6dc"
+    "contentHash": "0e160d8c5f15b0c4"
   },
   {
-    "id": "astral-codex-ten-209f201a",
+    "id": "astral-codex-ten-4ea35d43",
     "sourceId": "astral-codex-ten",
     "sourceName": "Astral Codex Ten",
     "title": "",
-    "url": "https://www.astralcodexten.com/p/open-thread-389",
+    "url": "https://www.astralcodexten.com/p/hidden-open-thread-3895",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-07T07:51:03.000Z",
+    "publishedAt": "2025-07-10T10:14:32.000Z",
     "fetchedAt": "2025-08-04T10:00:29.635Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "209f201a"
+    "contentHash": "4ea35d43"
   },
   {
-    "id": "novara-media-youtube-2839bc1e",
-    "sourceId": "novara-media-youtube",
-    "sourceName": "Novara Media YouTube",
-    "title": "A HUGE Problem: Elites Do Not Understand AI.",
-    "url": "https://www.youtube.com/watch?v=U44Lv-EjPfo",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-07T07:45:58.000Z",
-    "fetchedAt": "2025-08-04T09:59:47.166Z",
-    "category": "videos",
+    "id": "ecfr-e0e326dfcd7c6eaf",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "What went wrong in Europe’s trade gamble with Trump",
+    "url": "https://ecfr.eu/article/what-went-wrong-in-europes-trade-gamble-with-trump/",
+    "summary": "The EU’s burgeoning deal with the Trump administration seems to escape the harshest US tariff threats. But there is a sense that the bloc has fumbled its hand, despite holding decent cards. The EU needs to examine what went wrong and how it can better secure its future interests against great powers",
+    "publishedAt": "2025-07-10T10:04:49+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.188234+00:00",
+    "category": "policy",
     "tags": [
-      "videos"
+      "Policy",
+      "M&A"
     ],
     "priority": "normal",
-    "contentHash": "2839bc1e"
+    "contentHash": "e0e326dfcd7c6eaf"
   },
   {
-    "id": "imf-news-special-e13881812f03c174",
-    "sourceId": "imf-news-special",
-    "sourceName": "IMF News Special",
-    "title": "How Nigeria Can Unleash its Economic Potential",
-    "url": "https://www.imf.org/en/News/Articles/2025/07/07/cf-how-nigeria-can-unleash-its-economic-potential",
-    "summary": "",
-    "publishedAt": "2025-07-07T06:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.354679+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "e13881812f03c174"
-  },
-  {
-    "id": "rohan-venkat-5f48a138d24307cb",
-    "sourceId": "rohan-venkat",
-    "sourceName": "Rohan Venkat",
-    "title": "Interview: Tariq Thachil on the challenges of studying India in the US",
-    "url": "https://rohanvenkat.substack.com/p/interview-tariq-thachil-on-the-challenges",
-    "summary": "'I'd be hard pressed to find a book coming out of the US that offers us a great explanation of what might be the most significant political development in India in the past decade.'",
-    "publishedAt": "2025-07-07T05:01:57+00:00",
-    "fetchedAt": "2025-07-28T06:33:14.195556+00:00",
+    "id": "aeon-magazine-aa35a0f3decbf4fe",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon",
+    "title": "Ancient water clocks",
+    "url": "https://aeon.co/videos/how-water-based-clocks-revolutionised-the-way-we-measure-time?utm_source=rss-feed",
+    "summary": "For centuries, time-measuring tools were woefully imprecise. Moving from the Sun to water birthed a revolution in timekeeping - by Aeon Video Watch at Aeon",
+    "publishedAt": "2025-07-10T10:01:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:10.647957+00:00",
     "category": "non-money",
     "tags": [
       "Non-Money"
     ],
     "priority": "normal",
-    "contentHash": "5f48a138d24307cb"
+    "contentHash": "aa35a0f3decbf4fe"
   },
   {
-    "id": "our-world-data-3bf6fc806138df58",
-    "sourceId": "our-world-data",
-    "sourceName": "Our World in Data",
-    "title": "There are now more than half a billion mobile money accounts in the world, mostly in Africa — here's why this matters",
-    "url": "https://ourworldindata.org/mobile-money-why-it-matters",
-    "summary": "Mobile money allows people without banks to securely transfer funds via text message, and its adoption is growing rapidly.",
-    "publishedAt": "2025-07-07T04:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:21:42.498539+00:00",
+    "id": "bis-papers-dd3fe3aea18348e1",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Tokenisation of government bonds:  assessment and roadmap",
+    "url": "https://www.bis.org/publ/bisbull107.htm",
+    "summary": "by Iñaki Aldasoro, Giulio Cornelli, Jon Frost, Priscilla Koo Wilkens, Ulf Lewrick, Vatsala ShreetiGovernment securities play a crucial role in the financial system – as a savings vehicle for households and firms, collateral in a range of transactions and a means of pricing assets. Despite their early stage of development ($8 billion in issuance to date), tokenised bonds have lower bid-ask spreads than conventional bonds and comparable issuance costs. Government bond tokenisation could improve market efficiency and support financial innovation, but its success depends on addressing regulatory and infrastructure challenges.",
+    "publishedAt": "2025-07-10T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.429566+00:00",
+    "category": "research",
+    "tags": [
+      "Debt",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "dd3fe3aea18348e1"
+  },
+  {
+    "id": "aeon-magazine-5a0f76883565112c",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon",
+    "title": "Freedom over death",
+    "url": "https://aeon.co/essays/why-medically-assisted-dying-should-be-legalised?utm_source=rss-feed",
+    "summary": "Death is a certainty. But choosing how and when we depart is a modest opportunity for freedom – and dignity - by Michael Cholbi Read at Aeon",
+    "publishedAt": "2025-07-10T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:10.648241+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "5a0f76883565112c"
+  },
+  {
+    "id": "psyche-magazine-66adce3daf7f7d28",
+    "sourceId": "psyche-magazine",
+    "sourceName": "Psyche",
+    "title": "Gun world",
+    "url": "https://psyche.co/stories-of-change/survivors-guilt-after-a-mass-shooting-that-didnt-occur?utm_source=rss-feed",
+    "summary": "Is it possible to feel grief and survivor’s guilt after a mass shooting that didn’t occur?- by Jess KeefeRead on Psyche",
+    "publishedAt": "2025-07-10T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:10.762258+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "66adce3daf7f7d28"
+  },
+  {
+    "id": "rest-of-world-e2c9ade142b41c9e",
+    "sourceId": "rest-of-world",
+    "sourceName": "Rest of World",
+    "title": "Tireless health workers keep rural telehealth alive despite USAID cuts and poor internet",
+    "url": "https://restofworld.org/2025/usaid-cut-bangladesh-telehealth-network/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "summary": "Bangladesh’s telemedicine program overcame tech barriers to connect rural residents to city doctors until this year.",
+    "publishedAt": "2025-07-10T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T08:52:45.737105+00:00",
+    "category": "news",
+    "tags": [
+      "News",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "e2c9ade142b41c9e"
+  },
+  {
+    "id": "economist-finance-0d90621fb383d110",
+    "sourceId": "economist-finance",
+    "sourceName": "The Economist",
+    "title": "Want to be a good explorer? Study economics",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/10/want-to-be-a-good-explorer-study-economics",
+    "summary": "The battle to reduce risk has shaped centuries of ventures",
+    "publishedAt": "2025-07-10T09:57:20+00:00",
+    "fetchedAt": "2025-07-28T03:50:55.557145+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "0d90621fb383d110"
+  },
+  {
+    "id": "economist-finance-3c018b20",
+    "sourceId": "economist-finance",
+    "sourceName": "Economist Finance",
+    "title": "",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/10/want-to-be-a-good-explorer-study-economics",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T09:57:20.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.178Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "3c018b20"
+  },
+  {
+    "id": "economist-finance-b764610a7f7d5942",
+    "sourceId": "economist-finance",
+    "sourceName": "The Economist",
+    "title": "Jane Street is chucked out of India. Other firms should be nervous",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/10/jane-street-is-chucked-out-of-india-other-firms-should-be-nervous",
+    "summary": "Around the world, marketmakers now face extra scrutiny",
+    "publishedAt": "2025-07-10T09:56:45+00:00",
+    "fetchedAt": "2025-07-28T03:50:55.557347+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "b764610a7f7d5942"
+  },
+  {
+    "id": "economist-finance-87442d3",
+    "sourceId": "economist-finance",
+    "sourceName": "Economist Finance",
+    "title": "",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/10/jane-street-is-chucked-out-of-india-other-firms-should-be-nervous",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T09:56:45.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.178Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "87442d3"
+  },
+  {
+    "id": "economist-finance-11cb1898cbb0115e",
+    "sourceId": "economist-finance",
+    "sourceName": "The Economist",
+    "title": "Japan has been hit by investing fever",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/10/japan-has-been-hit-by-investing-fever",
+    "summary": "Will old folk catch the bug?",
+    "publishedAt": "2025-07-10T09:42:09+00:00",
+    "fetchedAt": "2025-07-28T03:50:55.558250+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "normal",
+    "contentHash": "11cb1898cbb0115e"
+  },
+  {
+    "id": "economist-finance-6d73cd49",
+    "sourceId": "economist-finance",
+    "sourceName": "Economist Finance",
+    "title": "",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/10/japan-has-been-hit-by-investing-fever",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-10T09:42:09.000Z",
+    "fetchedAt": "2025-08-04T06:57:22.178Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "6d73cd49"
+  },
+  {
+    "id": "bis-papers-0f030feb27d6fca2",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Banks' interconnections with non-bank financial intermediaries",
+    "url": "https://www.bis.org/bcbs/publ/d598.htm",
+    "summary": "The Basel Committee on Banking Supervision horizon scanning report on banks' interconnections with non-bank financial intermediaries (NBFIs).",
+    "publishedAt": "2025-07-10T09:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.429760+00:00",
     "category": "research",
     "tags": [
       "Research"
     ],
     "priority": "normal",
-    "contentHash": "3bf6fc806138df58"
+    "contentHash": "0f030feb27d6fca2"
   },
   {
-    "id": "bbc-business-1430efa10323b48c",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Tariffs are shifting global supply chains",
-    "url": "https://www.bbc.com/news/articles/c93l6n32ne5o",
-    "summary": "Trump's 90-day pause on his sweeping tariffs plan is about to expire. But already some firms are radically changing how they work.",
-    "publishedAt": "2025-07-06T23:08:24+00:00",
-    "fetchedAt": "2025-07-28T08:47:55.144005+00:00",
+    "id": "bis-papers-accbf28211053911",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Basel Committee shares report on interconnections between banks  and non-bank financial intermediaries",
+    "url": "https://www.bis.org/press/p250710.htm",
+    "summary": "The report reflects the findings of an analysis conducted as part of the Committee's forward-looking work to identify and analyse risks and vulnerabilities to the banking system. The report identifies the services banks and non-bank financial intermediaries (NBFIs) provide to each other and the trends shaping the relationship between them. The Committee will continue to monitor and investigate the interconnections between banks and NBFIs with a particular focus on synthetic risk transfers.",
+    "publishedAt": "2025-07-10T09:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.430006+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "low",
+    "contentHash": "accbf28211053911"
+  },
+  {
+    "id": "bis-papers-4779ba5144158ae9",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Elizabeth Genia: 42nd Green Climate Fund Board Meeting",
+    "url": "https://www.bis.org/review/r250710c.htm",
+    "summary": "Keynote address by Ms Elizabeth Genia, Governor of the Bank of Papua New Guinea, at the closing dinner of the 42nd Green Climate Fund Board Meeting, Port Moresby, 2 July 2025.",
+    "publishedAt": "2025-07-10T08:49:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.430197+00:00",
+    "category": "research",
+    "tags": [
+      "ESG",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "4779ba5144158ae9"
+  },
+  {
+    "id": "bis-papers-2ae54921938cec11",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "P Nandalal Weerasinghe: Launch of key financial literacy initiatives",
+    "url": "https://www.bis.org/review/r250709h.htm",
+    "summary": "Speech by Dr P Nandalal Weerasinghe, Governor of the Central Bank of Sri Lanka, at the Central Bank of Sri Lanka's assembly to mark a pivotal milestone in Sri Lanka's financial inclusion progression, Colombo, 3 July 2025.",
+    "publishedAt": "2025-07-10T08:15:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.430389+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "2ae54921938cec11"
+  },
+  {
+    "id": "bis-papers-5859673d06f077a8",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Erik Thedéen: The road to the EU savings and investment union - do's and don'ts",
+    "url": "https://www.bis.org/review/r250709d.htm",
+    "summary": "Speech by Mr Erik Thedéen, Governor of the Sveriges Riksbank, at a conference organised by SEB, Brussels, 3 July 2025.",
+    "publishedAt": "2025-07-10T07:59:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.430576+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "5859673d06f077a8"
+  },
+  {
+    "id": "bis-papers-741c198a43bb2568",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Eli M Remolona: Digital, sustainable, inclusive - celebrating the 32nd anniversary of Bangko Sentral ng Pilipinas",
+    "url": "https://www.bis.org/review/r250709c.htm",
+    "summary": "Speech by Mr Eli M Remolona, Jr, Governor of Bangko Sentral ng Pilipinas (BSP, the central bank of the Philippines), at the 32nd anniversary of the Bangko Sentral ng Pilipinas, Manila, 3 July 2025.",
+    "publishedAt": "2025-07-10T07:54:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.430770+00:00",
+    "category": "research",
+    "tags": [
+      "ESG",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "741c198a43bb2568"
+  },
+  {
+    "id": "bis-papers-c816e56736554818",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Yannis Stournaras: Should central banks' mandate be revised?",
+    "url": "https://www.bis.org/review/r250709b.htm",
+    "summary": "Speech by Mr Yannis Stournaras, Governor of the Bank of Greece, at \"Les Rencontres Économiques d'Aix-en-Provence 2025\", panel \"Should central banks' mandate be revised?\", Aix-en-Provence, 5 July 2025.",
+    "publishedAt": "2025-07-10T07:44:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.430960+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "c816e56736554818"
+  },
+  {
+    "id": "ecb-press-1011a15409569793",
+    "sourceId": "ecb-press",
+    "sourceName": "European Central Bank",
+    "title": "Piero Cipollone: Shifting payment landscape: what a digital euro will bring",
+    "url": "https://www.ecb.europa.eu//press/key/date/2025/html/ecb.sp250710~7d5aeae662.en.html",
+    "summary": "",
+    "publishedAt": "2025-07-10T07:00:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.750928+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy",
+      "Currency"
+    ],
+    "priority": "normal",
+    "contentHash": "1011a15409569793"
+  },
+  {
+    "id": "bis-papers-8d2711e2f795b1e3",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Gent Sejko: Bolstering credit to the agriculture sector",
+    "url": "https://www.bis.org/review/r250710a.htm",
+    "summary": "Address by Mr Gent Sejko, Governor of the Bank of Albania, at the roundtable on bolstering credit to the agriculture sector, organised by the Bank of Albania and the Ministry of Finance, Tirana, 8 July 2025.",
+    "publishedAt": "2025-07-10T06:35:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.431144+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "8d2711e2f795b1e3"
+  },
+  {
+    "id": "bis-papers-fc6508c798a26521",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Vasileios Madouros: Opening statement - Oireachtas Select Committee on Budgetary Oversight",
+    "url": "https://www.bis.org/review/r250709a.htm",
+    "summary": "Opening statement by Mr Vasileios Madouros, Deputy Governor of the Central Bank of Ireland, at the Oireachtas Select Committee on Budgetary Oversight, Dublin, 8 July 2025.",
+    "publishedAt": "2025-07-10T06:32:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.431334+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "fc6508c798a26521"
+  },
+  {
+    "id": "bis-papers-78096f10a4bd99bb",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Eddie Yue: Unlocking value through China's resilience",
+    "url": "https://www.bis.org/review/r250708d.htm",
+    "summary": "Keynote speech by Mr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority, at the Bond Connect Anniversary Summit 2025 on \"Unlocking value through China's resilience\", Hong Kong, 8 July 2025.",
+    "publishedAt": "2025-07-10T06:30:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.431520+00:00",
+    "category": "research",
+    "tags": [
+      "Debt",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "78096f10a4bd99bb"
+  },
+  {
+    "id": "bis-papers-2dc436327cc5b667",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Andrew Hauser: What has Australian macroeconomic thought achieved in the past century &#8211; and where can it contribute in the next?",
+    "url": "https://www.bis.org/review/r250709e.htm",
+    "summary": "Speech by Mr Andrew Hauser, Deputy Governor of the Reserve Bank of Australia, to mark the centenary of the Economic Society of Australia at the Australian Conference of Economists, Sydney, 9 July 2025.",
+    "publishedAt": "2025-07-10T06:05:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.431725+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "2dc436327cc5b667"
+  },
+  {
+    "id": "bis-papers-ea752531e8094695",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Andrew Bailey: The meaning of reserve currency",
+    "url": "https://www.bis.org/review/r250708b.htm",
+    "summary": "Panel remarks by Mr Andrew Bailey, Governor of the Bank of England, at the Andrew Crockett Memorial Lecture, on the occasion of the Bank for International Settlement's Annual General Meeting, Basel, 29 June 2025.",
+    "publishedAt": "2025-07-10T06:02:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.431924+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "ea752531e8094695"
+  },
+  {
+    "id": "bis-papers-ddee02547ab05a8b",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "José Luis Escrivá: Monetary policymaking in a context of extreme uncertainty",
+    "url": "https://www.bis.org/review/r250708a.htm",
+    "summary": "Speech by Mr José Luis Escrivá, Governor of the Bank of Spain, at the \"Fourth high-level conference on global risk, uncertainty, and volatility\", jointly organised by the Swiss National Bank, the Bank for International Settlements, and the Division of International Finance of the Federal Reserve Board, Zurich, 13 May 2025.",
+    "publishedAt": "2025-07-10T06:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.432143+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "ddee02547ab05a8b"
+  },
+  {
+    "id": "bis-papers-ef92ac4bb8cc7ce4",
+    "sourceId": "bis-papers",
+    "sourceName": "BIS Papers",
+    "title": "Joachim Nagel: The German economy - navigating cyclical fluctuations and boosting long-term growth",
+    "url": "https://www.bis.org/review/r250708c.htm",
+    "summary": "Text of the Eesti Pank Public Lecture by Dr Joachim Nagel, President of the Deutsche Bundesbank, at Eesti Bank, Tallinn, 7 July 2025.",
+    "publishedAt": "2025-07-10T06:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.432333+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "ef92ac4bb8cc7ce4"
+  },
+  {
+    "id": "cepr-discussion-papers-47c072989c517716",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20446 Do Public Goods Actually Reduce Inequality?",
+    "url": "https://cepr.org/publications/dp20446",
+    "summary": "Public goods are meant to be universal, but they are inherently place-based. This paper systematically measures spatial access to public goods and quantifies the implications of distance to public facilities for income inequality. First, we map all schools and hospitals across Belgium. We compute the distance to facilities for each of the 20,000 neighborhoods and document large spatial inequalities in access to public facilities. Second, we find that this unequal distribution favors high-income neighborhoods: allocating public goods spending proportionally to our access index increases income inequality compared to measures based solely on disposable income. Third, we show that the positive relationship between income and access can be rationalized by a simple model of public goods allocation with an inequality-neutral social planner. Finally, we provide evidence that access is strongly correlated with educational and health outcomes, emphasizing the need to consider the place-based na",
+    "publishedAt": "2025-07-09T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.841636+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "47c072989c517716"
+  },
+  {
+    "id": "cepr-discussion-papers-424c6f694114bbfa",
+    "sourceId": "cepr-discussion-papers",
+    "sourceName": "CEPR Discussion Papers",
+    "title": "DP20445 Brothers in Arms: Monetary-Fiscal Interactions Without Ricardian Equivalence",
+    "url": "https://cepr.org/publications/dp20445",
+    "summary": "We study equilibrium outcomes in a model with monetary-fiscal interaction when Ricardian Equivalence fails and argue that the latter feature has fundamental consequences. First, there is no longer any clear distinction between active and passive fiscal policies - there is always some monetary-fiscal interaction. Second, the equilibrium displays local determinacy for a much larger range of monetary and fiscal rules than in representative agent models. Third, the Taylor principle no longer applies in the sense that it is neither necessary nor sufficient for local determinacy. Fourth, when Ricardian equivalence fails and the equilibrium is locally determinate, fiscal deficits are generally inflationary, and their timing matters. These results hold both in a simple three-equation New Keynesian model and in a medium-scale setting when agents have finite planning horizons.",
+    "publishedAt": "2025-07-09T23:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.842019+00:00",
+    "category": "research",
+    "tags": [
+      "Earnings",
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "424c6f694114bbfa"
+  },
+  {
+    "id": "economist-business-f59f31ee731e9331",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
+    "title": "Linda Yaccarino goes from X CEO to ex-CEO",
+    "url": "https://www.economist.com/business/2025/07/09/linda-yaccarino-goes-from-x-ceo-to-ex-ceo",
+    "summary": "The top position at Elon Musk’s social-media platform is open once again",
+    "publishedAt": "2025-07-09T20:07:12+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.204173+00:00",
     "category": "markets",
     "tags": [
       "Markets"
     ],
     "priority": "normal",
-    "contentHash": "1430efa10323b48c"
+    "contentHash": "f59f31ee731e9331"
   },
   {
-    "id": "bbc-business-86da3e80ff0ce1fa",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Tariffs are shifting global supply chains",
-    "url": "https://www.bbc.com/news/articles/c93l6n32ne5o?at_medium=RSS&at_campaign=rss",
-    "summary": "Trump's 90-day pause on his sweeping tariffs plan is about to expire. But already some firms are radically changing how they work.",
-    "publishedAt": "2025-07-06T23:08:24+00:00",
-    "fetchedAt": "2025-07-28T15:48:36.216886+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "86da3e80ff0ce1fa"
-  },
-  {
-    "id": "bbc-business-5be12cc9",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
+    "id": "economist-business-362f81a9",
+    "sourceId": "economist-business",
+    "sourceName": "Economist Business",
     "title": "",
-    "url": "https://www.bbc.com/news/articles/c93l6n32ne5o?at_medium=RSS&amp;at_campaign=rss",
+    "url": "https://www.economist.com/business/2025/07/09/linda-yaccarino-goes-from-x-ceo-to-ex-ceo",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-06T23:08:24.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.136Z",
+    "publishedAt": "2025-07-09T20:07:12.000Z",
+    "fetchedAt": "2025-08-04T06:57:21.967Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "5be12cc9"
+    "contentHash": "362f81a9"
   },
   {
-    "id": "cepr-news-2f730cff8d7ab2a9",
-    "sourceId": "cepr-news",
-    "sourceName": "CEPR News",
-    "title": "New Discussion Papers: Week Ending 06 July",
-    "url": "https://cepr.org/about/news/new-discussion-papers-week-ending-06-july",
-    "summary": "24 new CEPR Discussion Papers published in the week ending 06 July 2025",
-    "publishedAt": "2025-07-06T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.248979+00:00",
-    "category": "research",
+    "id": "bbc-technology-ad2cdd420eb6efcc",
+    "sourceId": "bbc-technology",
+    "sourceName": "BBC Technology",
+    "title": "Linda Yaccarino departs as boss of Musk's X",
+    "url": "https://www.bbc.com/news/articles/cx2gy3j9xq6o?at_medium=RSS&at_campaign=rss",
+    "summary": "Her exit comes at a difficult time for Musk who, in a brief reply, thanked her for her \"contributions.\"",
+    "fullContent": "Her exit comes at a difficult time for Musk who, in a brief reply, thanked her for her \"contributions.\"",
+    "publishedAt": "2025-07-09T19:47:26+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.574370+00:00",
+    "category": "technology",
     "tags": [
-      "Research"
+      "Technology"
     ],
     "priority": "normal",
-    "contentHash": "2f730cff8d7ab2a9"
+    "contentHash": "ad2cdd420eb6efcc"
   },
   {
-    "id": "infinite-scroll-51cebe43",
-    "sourceId": "infinite-scroll",
-    "sourceName": "Infinite Scroll",
-    "title": "",
-    "url": "https://www.infinitescroll.us/p/weekly-scroll-big-ugly-bill",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-06T20:03:42.000Z",
-    "fetchedAt": "2025-08-04T10:05:54.138Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "51cebe43"
-  },
-  {
-    "id": "viks-newsletter-9d265769bb7a1bf2",
-    "sourceId": "viks-newsletter",
-    "sourceName": "Viks Newsletter",
-    "title": "Why Building Smarter EDA Tools Is Key To Winning The AI Era",
-    "url": "https://www.viksnewsletter.com/p/why-building-smarter-eda-tools-is-key",
-    "summary": "If AI is the gold prize, AI-enabled EDA tools are the picks and shovels. Why traditional chip design tools are stuck in the past, and how new AI-first EDA approaches could be critical to the AI boom.",
-    "publishedAt": "2025-07-06T18:29:23+00:00",
-    "fetchedAt": "2025-07-28T06:22:18.638951+00:00",
-    "category": "research",
-    "tags": [
-      "AI",
-      "Research",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "9d265769bb7a1bf2"
-  },
-  {
-    "id": "invest-marcellus-youtube-2025a80d",
-    "sourceId": "invest-marcellus-youtube",
-    "sourceName": "Invest with Marcellus YouTube",
-    "title": "Selective and Steady in the SMID Space | Marcellus LCP and RGP Update",
-    "url": "https://www.youtube.com/watch?v=ilX58ZviplM",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-06T17:17:20.000Z",
-    "fetchedAt": "2025-08-04T10:00:05.800Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "2025a80d"
-  },
-  {
-    "id": "wocomo-docs-youtube-acdb08a6e4f30cca",
-    "sourceId": "wocomo-docs-youtube",
-    "sourceName": "Wocomo Docs",
-    "title": "Budapest-Nyugati Station, a reminder of the Danube monarchy  | Europe's Most Famous Railway Stations",
-    "url": "https://www.youtube.com/watch?v=ERnJWqnaXDA",
-    "summary": "Explore Budapest-Nyugati station, designed by the Eiffel workshops in the 1870s. ------- Chapters ▷ 00:00 - Intro ▷ 01:00 - Nyugati pályaudvar: planned by the Austrians, brought to life by the French ▷ 04:00 - The loyal station master - a life dedicated to the station ▷ 06:21 - The aura of the Nyugati Railway Station ▷ 07:23 - The tale of the escaped cat ▷ 09:42 - The Imperial Coronation Train and the royal waiting room ▷ 12:23 - The millennial exhibition brings about the modernization of the station ▷ 13:18 - Keleti pályaudvar: a station created by the people of Budapest ▷ 15:43 - Hungary's travelling symphony orchestra - The MÁV musicians ▷ 17:43 - Hűvösvölgy: the cool valley ▷ 19:22 - A training school for budding railway workers ▷ 25:31 - Nyugati pályaudvar: an honorable reminder of the old Danube monarchy ▷ 26:54 - Credits #documentary #tourism #history #architecture #railwaystations #Budapest #Nyugatipályaudvar #Nyugatirailwaystation #hungary #trainstation #train #travel ------- ",
-    "fullContent": "Explore Budapest-Nyugati station, designed by the Eiffel workshops in the 1870s. ------- Chapters ▷ 00:00 - Intro ▷ 01:00 - Nyugati pályaudvar: planned by the Austrians, brought to life by the French ▷ 04:00 - The loyal station master - a life dedicated to the station ▷ 06:21 - The aura of the Nyugati Railway Station ▷ 07:23 - The tale of the escaped cat ▷ 09:42 - The Imperial Coronation Train and the royal waiting room ▷ 12:23 - The millennial exhibition brings about the modernization of the station ▷ 13:18 - Keleti pályaudvar: a station created by the people of Budapest ▷ 15:43 - Hungary's travelling symphony orchestra - The MÁV musicians ▷ 17:43 - Hűvösvölgy: the cool valley ▷ 19:22 - A training school for budding railway workers ▷ 25:31 - Nyugati pályaudvar: an honorable reminder of the old Danube monarchy ▷ 26:54 - Credits #documentary #tourism #history #architecture #railwaystations #Budapest #Nyugatipályaudvar #Nyugatirailwaystation #hungary #trainstation #train #travel ------- ",
-    "publishedAt": "2025-07-06T17:00:29+00:00",
-    "fetchedAt": "2025-07-30T15:00:43.394860+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "normal",
-    "contentHash": "acdb08a6e4f30cca"
-  },
-  {
-    "id": "larry-swedroe-43db674423318250",
+    "id": "larry-swedroe-e64c86bfbeab8cee",
     "sourceId": "larry-swedroe",
     "sourceName": "Larry Swedroe",
-    "title": "Thanks to all those who subscribed",
-    "url": "https://larryswedroe.substack.com/p/thanks-to-all-those-who-subscribed",
-    "summary": "Just hit 1000!",
-    "publishedAt": "2025-07-06T15:49:13+00:00",
-    "fetchedAt": "2025-07-28T06:22:16.426988+00:00",
+    "title": "Private Capital’s Overlooked Sweet Spot, Growth Equity",
+    "url": "https://larryswedroe.substack.com/p/private-capitals-overlooked-sweet",
+    "summary": "Growth equity stands out as a distinct and increasingly important strategy within private equity, offering investors exposure to high-growth companies that have moved beyond the risky startup phase but are not yet candidates for traditional buyouts.",
+    "publishedAt": "2025-07-09T19:00:25+00:00",
+    "fetchedAt": "2025-07-28T06:22:16.426303+00:00",
     "category": "blogs",
     "tags": [
-      "Research"
+      "Research",
+      "Tech"
     ],
-    "priority": "normal",
-    "contentHash": "43db674423318250"
+    "priority": "high",
+    "contentHash": "e64c86bfbeab8cee"
   },
   {
-    "id": "lyn-alden-3d92e4f1f57e0a15",
-    "sourceId": "lyn-alden",
-    "sourceName": "Lyn Alden",
-    "title": "The Rise of Bitcoin Stocks and Bonds",
-    "url": "https://www.lynalden.com/bitcoin-stocks-and-bonds/",
-    "summary": "Originally published: July 2025 During the past year or so, the Bitcoin ecosystem has largely been led by the rise of corporate bitcoin treasury strategies. Although Strategy (MSTR) pioneered the trend back in 2020, the follow-on adoption by others was slow. However, after yet another cycle of bear market and bull market activity, as well […] The post The Rise of Bitcoin Stocks and Bonds appeared first on Lyn Alden.",
-    "publishedAt": "2025-07-06T14:03:34+00:00",
-    "fetchedAt": "2025-07-30T08:46:00.174781+00:00",
+    "id": "gary-marcus-ee529bda0a65d28e",
+    "sourceId": "gary-marcus",
+    "sourceName": "Gary Marcus",
+    "title": "Are LLMs starting to become sentient?",
+    "url": "https://garymarcus.substack.com/p/are-llms-starting-to-become-a-sentient",
+    "summary": "A compassionate but skeptical letter that Douglas Hofstadter wrote to one of his readers",
+    "publishedAt": "2025-07-09T18:54:25+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.977444+00:00",
     "category": "research",
     "tags": [
-      "Debt",
-      "Crypto",
       "Research"
     ],
-    "priority": "high",
-    "contentHash": "3d92e4f1f57e0a15"
-  },
-  {
-    "id": "ppfas-mf-youtube-6c55c1",
-    "sourceId": "ppfas-mf-youtube",
-    "sourceName": "PPFAS Mutual Fund YouTube",
-    "title": "Value Retail - An Expensive Bargain?",
-    "url": "https://www.youtube.com/watch?v=5fyvt9fT-x0",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-06T12:20:58.000Z",
-    "fetchedAt": "2025-08-04T09:59:37.953Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
     "priority": "normal",
-    "contentHash": "6c55c1"
+    "contentHash": "ee529bda0a65d28e"
   },
   {
-    "id": "max-read-ed6d6075711dff82",
-    "sourceId": "max-read",
-    "sourceName": "Max Read",
-    "title": "A terrific noir series perfect for summer reading; a warm, funny, wise, and lately overlooked family drama; and more",
-    "url": "https://maxread.substack.com/p/a-terrific-noir-series-perfect-for",
-    "summary": "Roundup 07/05/2025",
-    "publishedAt": "2025-07-06T12:11:16+00:00",
-    "fetchedAt": "2025-07-28T06:33:12.635965+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "ed6d6075711dff82"
-  },
-  {
-    "id": "economist-finance-10d6068799093bf4",
+    "id": "economist-finance-d69d71f3421db562",
     "sourceId": "economist-finance",
     "sourceName": "The Economist",
-    "title": "Struggling with the trade war? Amateur football might help",
-    "url": "https://www.economist.com/finance-and-economics/2025/07/06/struggling-with-the-trade-war-amateur-football-might-help",
-    "summary": "Jiangsu’s party cadres find success with a bizarre idea",
-    "publishedAt": "2025-07-06T10:59:05+00:00",
-    "fetchedAt": "2025-07-28T03:50:55.559413+00:00",
+    "title": "Don’t invest through the rearview mirror",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/09/dont-invest-through-the-rearview-mirror",
+    "summary": "Markets are supposed to look forward; plenty of investors look back instead",
+    "publishedAt": "2025-07-09T18:43:20+00:00",
+    "fetchedAt": "2025-07-28T03:50:55.558455+00:00",
     "category": "macro",
     "tags": [
       "Macro"
     ],
     "priority": "normal",
-    "contentHash": "10d6068799093bf4"
+    "contentHash": "d69d71f3421db562"
   },
   {
-    "id": "economist-finance-7c885c47",
+    "id": "economist-finance-6ed57163",
     "sourceId": "economist-finance",
     "sourceName": "Economist Finance",
     "title": "",
-    "url": "https://www.economist.com/finance-and-economics/2025/07/06/struggling-with-the-trade-war-amateur-football-might-help",
+    "url": "https://www.economist.com/finance-and-economics/2025/07/09/dont-invest-through-the-rearview-mirror",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-06T10:59:05.000Z",
+    "publishedAt": "2025-07-09T18:43:20.000Z",
     "fetchedAt": "2025-08-04T06:57:22.178Z",
     "category": "macro",
     "tags": [
       "macro"
     ],
     "priority": "normal",
-    "contentHash": "7c885c47"
+    "contentHash": "6ed57163"
   },
   {
-    "id": "economist-finance-0a514a11c874adc5",
-    "sourceId": "economist-finance",
-    "sourceName": "The Economist",
-    "title": "How America’s economy is dodging disaster",
-    "url": "https://www.economist.com/finance-and-economics/2025/07/06/how-americas-economy-is-dodging-disaster",
-    "summary": "It is astonishingly dynamic, even under the weight of tariffs",
-    "publishedAt": "2025-07-06T10:55:05+00:00",
-    "fetchedAt": "2025-07-28T03:50:55.559667+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "0a514a11c874adc5"
-  },
-  {
-    "id": "economist-finance-5f8a544f",
-    "sourceId": "economist-finance",
-    "sourceName": "Economist Finance",
-    "title": "",
-    "url": "https://www.economist.com/finance-and-economics/2025/07/06/how-americas-economy-is-dodging-disaster",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-06T10:55:05.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.178Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "5f8a544f"
-  },
-  {
-    "id": "ai-log-blog-4f56687fc7ac97dd",
-    "sourceId": "ai-log-blog",
-    "sourceName": "AI Log Blog",
-    "title": "A Phaedrus Moment",
-    "url": "https://www.ailog.blog/p/a-phaedrus-moment",
-    "summary": "If Socrates was right, what do we make of Claude?",
-    "publishedAt": "2025-07-06T10:45:59+00:00",
-    "fetchedAt": "2025-07-28T06:33:18.959686+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "high",
-    "contentHash": "4f56687fc7ac97dd"
-  },
-  {
-    "id": "derek-thompson-40c74ca7",
-    "sourceId": "derek-thompson",
-    "sourceName": "Derek Thompson",
-    "title": "",
-    "url": "https://www.derekthompson.org/p/the-sunday-morning-post-what-was",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-06T10:02:22.000Z",
-    "fetchedAt": "2025-08-04T10:05:38.646Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "40c74ca7"
-  },
-  {
-    "id": "uncharted-territories-470934f7",
-    "sourceId": "uncharted-territories",
-    "sourceName": "Uncharted Territories",
-    "title": "",
-    "url": "https://unchartedterritories.tomaspueyo.com/p/jeans-suits-athleisure-saris-four",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-06T09:00:18.000Z",
-    "fetchedAt": "2025-08-04T10:05:27.992Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "470934f7"
-  },
-  {
-    "id": "common-reader-30dfed546a5d9253",
-    "sourceId": "common-reader",
-    "sourceName": "Common Reader",
-    "title": "Frances Wilson: T.S. Eliot is stealing my baked beans.",
-    "url": "https://www.commonreader.co.uk/p/frances-wilson-ts-eliot-is-stealing",
-    "summary": "Thomas De Quincey, D.H. Lawrence, Muriel Spark, Elizabeth Bowen, George Meredith, ghosts, spies, lives, and modern novels.",
-    "publishedAt": "2025-07-06T08:22:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:13.548559+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "30dfed546a5d9253"
-  },
-  {
-    "id": "common-reader-7d874da",
-    "sourceId": "common-reader",
-    "sourceName": "The Common Reader",
-    "title": "",
-    "url": "https://www.commonreader.co.uk/p/frances-wilson-ts-eliot-is-stealing",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-06T08:22:00.000Z",
-    "fetchedAt": "2025-08-04T10:02:06.700Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "7d874da"
-  },
-  {
-    "id": "noahpinion-1b15e4291a789003",
-    "sourceId": "noahpinion",
-    "sourceName": "Noah Smith",
-    "title": "How to take our country back",
-    "url": "https://www.noahpinion.blog/p/how-to-take-our-country-back",
-    "summary": "The America you grew up in is under attack from technologies that we ourselves invented.",
-    "publishedAt": "2025-07-06T04:48:26+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.484678+00:00",
-    "category": "non-money",
+    "id": "viks-newsletter-760d82779d0603e7",
+    "sourceId": "viks-newsletter",
+    "sourceName": "Viks Newsletter",
+    "title": "Passion versus Practicality in Engineering Careers",
+    "url": "https://www.viksnewsletter.com/p/passion-versus-practicality-in-engineering",
+    "summary": "A framework for choosing your specialization focus when industry trends and personal interests don’t align.",
+    "publishedAt": "2025-07-09T18:29:22+00:00",
+    "fetchedAt": "2025-07-28T06:22:18.638744+00:00",
+    "category": "research",
     "tags": [
       "Research"
     ],
     "priority": "normal",
-    "contentHash": "1b15e4291a789003"
+    "contentHash": "760d82779d0603e7"
   },
   {
-    "id": "noahpinion-53bc0dd9",
-    "sourceId": "noahpinion",
-    "sourceName": "Noahpinion",
+    "id": "summer-of-protocols-17ffa8796f83f9ff",
+    "sourceId": "summer-of-protocols",
+    "sourceName": "Summer of Protocols",
+    "title": "The Reverie Loop",
+    "url": "https://protocolized.summerofprotocols.com/p/the-reverie-loop",
+    "summary": "Issue #33:",
+    "publishedAt": "2025-07-09T18:23:17+00:00",
+    "fetchedAt": "2025-07-28T06:33:15.615436+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "17ffa8796f83f9ff"
+  },
+  {
+    "id": "summer-of-protocols-5637ff87",
+    "sourceId": "summer-of-protocols",
+    "sourceName": "Summer of Protocols",
     "title": "",
-    "url": "https://www.noahpinion.blog/p/how-to-take-our-country-back",
+    "url": "https://protocolized.summerofprotocols.com/p/the-reverie-loop",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-06T04:48:26.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.564Z",
-    "category": "blogs",
+    "publishedAt": "2025-07-09T18:23:17.000Z",
+    "fetchedAt": "2025-08-04T10:02:11.789Z",
+    "category": "eclectic",
     "tags": [
-      "blogs"
+      "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "53bc0dd9"
-  },
-  {
-    "id": "invest-marcellus-youtube-6705ca59",
-    "sourceId": "invest-marcellus-youtube",
-    "sourceName": "Invest with Marcellus YouTube",
-    "title": "Balance Over Brilliance: Asset Allocation as Strategy | #MarcellusMusings",
-    "url": "https://www.youtube.com/watch?v=CSC2SqgjU1M",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-06T04:15:40.000Z",
-    "fetchedAt": "2025-08-04T10:00:05.800Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "6705ca59"
+    "contentHash": "5637ff87"
   }
 ]
