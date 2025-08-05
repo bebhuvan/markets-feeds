@@ -423,7 +423,16 @@ export class FeedFetcher {
   private extractTextContent(xml: string, tagName: string): string | null {
     const regex = new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, 'i');
     const match = xml.match(regex);
-    return match ? match[1].trim() : null;
+    if (!match) return null;
+    
+    let content = match[1].trim();
+    
+    // Handle CDATA sections
+    if (content.startsWith('<![CDATA[') && content.endsWith(']]>')) {
+      content = content.slice(9, -3).trim(); // Remove <![CDATA[ and ]]>
+    }
+    
+    return content || null;
   }
 
   /**
