@@ -3,8 +3,8 @@ export const prerender = false;
 
 import Layout from '../../layouts/Layout.astro';
 import SimpleHeader from '../../components/SimpleHeader.astro';
-import Navigation from '../../components/Navigation.astro';
-import Article from '../../components/Article.astro';
+import EnhancedNavigation from '../../components/EnhancedNavigation.astro';
+import EnhancedArticle from '../../components/EnhancedArticle.astro';
 import Sidebar from '../../components/Sidebar.astro';
 import { dataLoader } from '../../lib/data-loader';
 import '../../styles/global.css';
@@ -32,7 +32,7 @@ const sourceCounts = await dataLoader.getSourceCounts();
 
 <Layout title={`${sourceName} - Latest News`}>
   <SimpleHeader />
-  <Navigation categoryCounts={categoryCounts} />
+  <EnhancedNavigation categoryCounts={categoryCounts} />
   
   <main class="main-content">
     <div class="content-wrapper">
@@ -55,7 +55,7 @@ const sourceCounts = await dataLoader.getSourceCounts();
           <>
             <div class="articles-grid">
               {items.map(article => (
-                <Article article={article} />
+                <EnhancedArticle article={article} />
               ))}
             </div>
 

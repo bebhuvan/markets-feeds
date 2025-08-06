@@ -3,8 +3,8 @@ export const prerender = false;
 
 import Layout from '../layouts/Layout.astro';
 import SimpleHeader from '../components/SimpleHeader.astro';
-import Navigation from '../components/Navigation.astro';
-import Article from '../components/Article.astro';
+import EnhancedNavigation from '../components/EnhancedNavigation.astro';
+import EnhancedArticle from '../components/EnhancedArticle.astro';
 import Sidebar from '../components/Sidebar.astro';
 import { dataLoader } from '../lib/data-loader';
 import { CATEGORIES } from '../lib/categories';
@@ -37,15 +37,16 @@ const lastUpdate = categoryItems.length > 0
 
 <Layout title={`${categoryLabel} - Markets Feeds`}>
   <SimpleHeader />
-  <Navigation currentCategory={category} categoryCounts={categoryCounts} />
+  <EnhancedNavigation currentCategory={category} categoryCounts={categoryCounts} />
   
   <div class="container">
-    <div class="content-grid">
+    <div class="content-wrapper">
+      <div class="content-grid">
       <!-- Main Feed -->
       <main class="feed">
         <div class="feed-header">
           <h1 class="feed-title">{categoryLabel}</h1>
-          <div class="feed-meta">{totalItems} articles</div>
+          <span class="article-count">{totalItems} articles</span>
         </div>
 
         {totalItems === 0 ? (
@@ -56,7 +57,7 @@ const lastUpdate = categoryItems.length > 0
           <>
             <div class="articles">
               {items.map(article => (
-                <Article article={article} />
+                <EnhancedArticle article={article} />
               ))}
             </div>
 
@@ -89,6 +90,7 @@ const lastUpdate = categoryItems.length > 0
       <aside class="sidebar-wrapper">
         <Sidebar sourceCounts={sourceCounts} categoryCounts={categoryCounts} currentCategory={category} />
       </aside>
+      </div>
     </div>
   </div>
 
@@ -102,6 +104,43 @@ const lastUpdate = categoryItems.length > 0
   <!-- Sidebar Overlay -->
   <div class="sidebar-overlay"></div>
 </Layout>
+
+<style>
+  /* Content spacing */
+  .content-wrapper {
+    padding-top: 24px;
+  }
+
+  /* Simple Feed Header */
+  .feed-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f1f5f9;
+  }
+
+  .feed-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0;
+  }
+
+  .article-count {
+    color: #9ca3af;
+    font-size: 13px;
+  }
+
+  @media (max-width: 768px) {
+    .feed-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4px;
+    }
+  }
+</style>
 
 <script>
   // Mobile sidebar toggle

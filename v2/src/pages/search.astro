@@ -3,8 +3,8 @@ export const prerender = false;
 
 import Layout from '../layouts/Layout.astro';
 import SimpleHeader from '../components/SimpleHeader.astro';
-import Navigation from '../components/Navigation.astro';
-import Article from '../components/Article.astro';
+import EnhancedNavigation from '../components/EnhancedNavigation.astro';
+import EnhancedArticle from '../components/EnhancedArticle.astro';
 import Sidebar from '../components/Sidebar.astro';
 import { dataLoader } from '../lib/data-loader';
 import '../styles/global.css';
@@ -60,9 +60,10 @@ const isSearch = query.trim().length > 0;
 
 <Layout title={query ? `Search: ${query} - Markets Feeds` : 'Search - Markets Feeds'}>
   <SimpleHeader />
-  <Navigation categoryCounts={categoryCounts} />
+  <EnhancedNavigation categoryCounts={categoryCounts} />
   
   <div class="container">
+    <div class="content-wrapper">
     <!-- Search Header -->
     <div class="search-header">
       <h1 class="search-title">
@@ -145,7 +146,7 @@ const isSearch = query.trim().length > 0;
           <>
             <div class="articles">
               {items.map((article: any) => (
-                <Article article={article} />
+                <EnhancedArticle article={article} />
               ))}
             </div>
 
@@ -186,10 +187,15 @@ const isSearch = query.trim().length > 0;
       <!-- Sidebar -->
       <Sidebar sourceCounts={sourceCounts} categoryCounts={categoryCounts} />
     </div>
+    </div>
   </div>
 </Layout>
 
 <style>
+  .content-wrapper {
+    padding-top: 24px;
+  }
+
   .search-header {
     padding: 32px 0;
     border-bottom: 1px solid #e8ebed;

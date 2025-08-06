@@ -253,6 +253,11 @@ const domain = getDomain(article.url);
     color: #6b7280;
     line-height: 1.4;
     margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: calc(1.4em * 2);
   }
 
   .article-summary.no-summary {

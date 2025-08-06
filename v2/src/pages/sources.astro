@@ -3,7 +3,7 @@ export const prerender = false;
 
 import Layout from '../layouts/Layout.astro';
 import SimpleHeader from '../components/SimpleHeader.astro';
-import Navigation from '../components/Navigation.astro';
+import EnhancedNavigation from '../components/EnhancedNavigation.astro';
 import { dataLoader } from '../lib/data-loader';
 import feedsConfig from '../../feeds.config.json';
 import '../styles/global.css';
@@ -242,7 +242,7 @@ function getCategoryIcon(category: string): string {
 
 <Layout title="Sources - Markets Feeds">
   <SimpleHeader />
-  <Navigation categoryCounts={categoryCounts} />
+  <EnhancedNavigation categoryCounts={categoryCounts} />
   
   <div class="container">
     <div class="sources-page">
