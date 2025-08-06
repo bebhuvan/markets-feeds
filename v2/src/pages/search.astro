@@ -2,7 +2,7 @@
 export const prerender = false;
 
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
+import SimpleHeader from '../components/SimpleHeader.astro';
 import Navigation from '../components/Navigation.astro';
 import Article from '../components/Article.astro';
 import Sidebar from '../components/Sidebar.astro';
@@ -59,7 +59,7 @@ const isSearch = query.trim().length > 0;
 ---
 
 <Layout title={query ? `Search: ${query} - Markets Feeds` : 'Search - Markets Feeds'}>
-  <Header />
+  <SimpleHeader />
   <Navigation categoryCounts={categoryCounts} />
   
   <div class="container">

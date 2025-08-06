@@ -2,7 +2,7 @@
 export const prerender = false;
 
 import Layout from '../../layouts/Layout.astro';
-import Header from '../../components/Header.astro';
+import SimpleHeader from '../../components/SimpleHeader.astro';
 import Navigation from '../../components/Navigation.astro';
 import Article from '../../components/Article.astro';
 import Sidebar from '../../components/Sidebar.astro';
@@ -31,7 +31,7 @@ const sourceCounts = await dataLoader.getSourceCounts();
 ---
 
 <Layout title={`${sourceName} - Latest News`}>
-  <Header />
+  <SimpleHeader />
   <Navigation categoryCounts={categoryCounts} />
   
   <main class="main-content">

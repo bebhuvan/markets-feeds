@@ -2,7 +2,7 @@
 export const prerender = false;
 
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
+import SimpleHeader from '../components/SimpleHeader.astro';
 import Navigation from '../components/Navigation.astro';
 import Article from '../components/Article.astro';
 import Sidebar from '../components/Sidebar.astro';
@@ -36,7 +36,7 @@ const lastUpdate = categoryItems.length > 0
 ---
 
 <Layout title={`${categoryLabel} - Markets Feeds`}>
-  <Header lastUpdate={lastUpdate} totalArticles={categoryItems.length} />
+  <SimpleHeader />
   <Navigation currentCategory={category} categoryCounts={categoryCounts} />
   
   <div class="container">
