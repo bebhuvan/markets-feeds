@@ -16,6 +16,7 @@ const mainCategories = [
   { key: 'crypto', icon: '₿', desc: 'Cryptocurrency & blockchain' },
   { key: 'macro', icon: '🏛️', desc: 'Economic policy & trends' },
   { key: 'technology', icon: '💻', desc: 'Tech industry news' },
+  { key: 'eclectic', icon: '📚', desc: 'Long-form & insightful reads' },
 ];
 
 // Secondary categories for dropdown
@@ -734,6 +735,52 @@ const totalArticles = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
 </style>
 
 <script>
+  // Dropdown functionality
+  const dropdown = document.querySelector('.nav-dropdown');
+  const dropdownTrigger = document.querySelector('.dropdown-trigger');
+  const dropdownMenu = document.querySelector('.dropdown-menu');
+  
+  if (dropdown && dropdownTrigger && dropdownMenu) {
+    let isDropdownOpen = false;
+    
+    // Toggle dropdown on click
+    dropdownTrigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      isDropdownOpen = !isDropdownOpen;
+      
+      if (isDropdownOpen) {
+        dropdownMenu.style.opacity = '1';
+        dropdownMenu.style.visibility = 'visible';
+        dropdownMenu.style.transform = 'translateY(0)';
+      } else {
+        dropdownMenu.style.opacity = '0';
+        dropdownMenu.style.visibility = 'hidden';
+        dropdownMenu.style.transform = 'translateY(-10px)';
+      }
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!dropdown.contains(e.target) && isDropdownOpen) {
+        isDropdownOpen = false;
+        dropdownMenu.style.opacity = '0';
+        dropdownMenu.style.visibility = 'hidden';
+        dropdownMenu.style.transform = 'translateY(-10px)';
+      }
+    });
+    
+    // Close dropdown on escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && isDropdownOpen) {
+        isDropdownOpen = false;
+        dropdownMenu.style.opacity = '0';
+        dropdownMenu.style.visibility = 'hidden';
+        dropdownMenu.style.transform = 'translateY(-10px)';
+      }
+    });
+  }
+
   // Mobile navigation toggle
   const mobileToggle = document.querySelector('.mobile-nav-toggle');
   const mobileMenu = document.querySelector('.mobile-nav-menu');
