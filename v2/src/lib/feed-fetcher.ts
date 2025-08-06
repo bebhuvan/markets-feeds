@@ -4,6 +4,7 @@
  */
 
 import type { FeedItem } from '../types';
+import { summaryProcessor } from './summary-processor';
 
 export interface FeedConfig {
   id: string;
@@ -320,6 +321,22 @@ export class FeedFetcher {
         }
       }
       
+      // Post-process summaries for consistency across the entire feed
+      if (items.length > 0) {
+        const processedSummaries = summaryProcessor.processBatch(
+          items.map(item => ({
+            title: item.title,
+            summary: item.summary,
+            fullContent: item.fullContent
+          }))
+        );
+        
+        // Update items with processed summaries
+        items.forEach((item, index) => {
+          item.summary = processedSummaries[index];
+        });
+      }
+      
     } catch (error) {
       console.error('Error parsing XML:', error);
       throw new Error(`Failed to parse feed XML: ${error instanceof Error ? error.message : 'Unknown error'}`);
@@ -344,6 +361,17 @@ export class FeedFetcher {
         return null; // Skip items without title or link
       }
       
+      // Clean and process text content
+      const cleanTitle = this.cleanText(title);
+      const cleanDescription = this.cleanText(description || '');
+      
+      // Generate standardized summary using the summary processor
+      const processedSummary = summaryProcessor.processSummary(
+        cleanDescription,
+        cleanTitle,
+        cleanDescription
+      );
+      
       // Generate unique ID
       const contentHash = this.generateHash(title + link + description);
       const id = `${config.sourceId}-${contentHash}`;
@@ -351,11 +379,11 @@ export class FeedFetcher {
       const item: FeedItem = {
         id,
         sourceId: config.sourceId,
-        sourceName: config.name, // Always use configured name for consistency
-        title: this.cleanText(title),
+        sourceName: config.name,
+        title: cleanTitle,
         url: link.trim(),
-        summary: this.cleanText(description?.slice(0, 300) || ''),
-        fullContent: this.cleanText(description || ''),
+        summary: processedSummary,
+        fullContent: cleanDescription,
         publishedAt: this.parseDate(pubDate) || new Date().toISOString(),
         fetchedAt: new Date().toISOString(),
         category: config.category,
@@ -390,17 +418,28 @@ export class FeedFetcher {
         return null;
       }
       
+      // Clean and process text content
+      const cleanTitle = this.cleanText(title);
+      const cleanSummary = this.cleanText(summary || '');
+      
+      // Generate standardized summary using the summary processor
+      const processedSummary = summaryProcessor.processSummary(
+        cleanSummary,
+        cleanTitle,
+        cleanSummary
+      );
+      
       const contentHash = this.generateHash(title + link + summary);
       const itemId = `${config.sourceId}-${contentHash}`;
       
       const item: FeedItem = {
         id: itemId,
         sourceId: config.sourceId,
-        sourceName: config.name, // Always use configured name for consistency
-        title: this.cleanText(title),
+        sourceName: config.name,
+        title: cleanTitle,
         url: link.trim(),
-        summary: this.cleanText(summary?.slice(0, 300) || ''),
-        fullContent: this.cleanText(summary || ''),
+        summary: processedSummary,
+        fullContent: cleanSummary,
         publishedAt: this.parseDate(updated) || new Date().toISOString(),
         fetchedAt: new Date().toISOString(),
         category: config.category,

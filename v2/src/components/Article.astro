@@ -19,8 +19,10 @@ const { article } = Astro.props;
       {article.title}
     </a>
   </h2>
-  {article.summary && (
+  {article.summary ? (
     <p class="article-excerpt">{article.summary}</p>
+  ) : (
+    <p class="article-excerpt no-summary">Click to read the full article</p>
   )}
   {article.tags.length > 0 && (
     <div class="article-tags">

@@ -6,6 +6,7 @@ import Header from '../components/Header.astro';
 import Navigation from '../components/Navigation.astro';
 import Article from '../components/Article.astro';
 import Sidebar from '../components/Sidebar.astro';
+import UserPreferences from '../components/UserPreferences.astro';
 import { dataLoader } from '../lib/data-loader';
 import '../styles/global.css';
 
@@ -82,6 +83,9 @@ const sourceCounts = await dataLoader.getSourceCounts();
 
   <!-- Sidebar Overlay -->
   <div class="sidebar-overlay"></div>
+
+  <!-- User Preferences -->
+  <UserPreferences />
 </Layout>
 
 <script>

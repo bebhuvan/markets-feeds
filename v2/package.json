@@ -12,6 +12,7 @@
     "fetch-feeds": "tsx src/scripts/fetch-all-feeds.ts",
     "fetch-main": "tsx src/scripts/fetch-main-feeds.ts",
     "fetch-substack": "tsx src/scripts/fetch-substack-feeds.ts",
+    "fix-summaries": "tsx src/scripts/fix-summaries.ts",
     "recategorize": "tsx src/scripts/recategorize-feeds.ts",
     "test-feeds": "node test-feeds.js"
   },

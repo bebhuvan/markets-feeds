@@ -175,6 +175,12 @@ body {
   margin-bottom: 8px;
 }
 
+.article-excerpt.no-summary {
+  color: #9ca3af;
+  font-style: italic;
+  font-size: 13px;
+}
+
 .article-tags {
   display: flex;
   gap: 6px;
