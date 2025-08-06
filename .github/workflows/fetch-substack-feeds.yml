@@ -1,0 +1,65 @@
+name: Fetch Substack Feeds
+
+on:
+  schedule:
+    # Run at 5:00 AM UTC every day
+    - cron: '0 5 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  fetch-feeds:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        cd v2
+        npm ci
+        
+    - name: Fetch Substack feeds
+      run: |
+        cd v2
+        npx tsx src/scripts/fetch-substack-feeds.ts
+      env:
+        NODE_ENV: production
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Pull latest changes first
+        git pull --rebase origin main
+        
+        # Add Substack content files
+        git add v2/content/links/substack-*.json 2>/dev/null || true
+        # Try to add fetch report, using -f to override gitignore if needed
+        git add -f v2/substack-fetch-report.json 2>/dev/null || echo "Note: substack-fetch-report.json is gitignored or doesn't exist"
+        
+        if ! git diff --staged --quiet; then
+          git commit -m "📚 Update Substack feeds - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          
+          # Retry push with pull if it fails
+          for i in 1 2 3; do
+            if git push; then
+              echo "✅ Successfully pushed Substack feeds"
+              break
+            else
+              echo "⚠️ Push failed, pulling and retrying (attempt $i/3)..."
+              git pull --rebase origin main
+              sleep 2
+            fi
+          done
+        else
+          echo "ℹ️ No Substack feed changes to commit"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

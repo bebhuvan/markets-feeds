@@ -86,7 +86,38 @@ const lastUpdate = categoryItems.length > 0
       </main>
       
       <!-- Sidebar -->
-      <Sidebar sourceCounts={sourceCounts} categoryCounts={categoryCounts} currentCategory={category} />
+      <aside class="sidebar-wrapper">
+        <Sidebar sourceCounts={sourceCounts} categoryCounts={categoryCounts} currentCategory={category} />
+      </aside>
     </div>
   </div>
+
+  <!-- Mobile Sidebar Toggle -->
+  <button class="mobile-sidebar-toggle" aria-label="Toggle sidebar">
+    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+    </svg>
+  </button>
+
+  <!-- Sidebar Overlay -->
+  <div class="sidebar-overlay"></div>
 </Layout>
+
+<script>
+  // Mobile sidebar toggle
+  const toggleBtn = document.querySelector('.mobile-sidebar-toggle');
+  const sidebar = document.querySelector('.sidebar');
+  const overlay = document.querySelector('.sidebar-overlay');
+
+  if (toggleBtn && sidebar && overlay) {
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+      overlay.classList.toggle('active');
+    });
+
+    overlay.addEventListener('click', () => {
+      sidebar.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  }
+</script>

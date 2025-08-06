@@ -31,13 +31,16 @@ export class DataLoader {
 
     cacheMonitor.recordMiss('DataLoader');
 
-    // Load all JSON files
+    // Load all JSON files (including both main and Substack feeds)
     const modules = import.meta.glob('../../content/links/*.json', { eager: true });
     const items: FeedItem[] = [];
 
     for (const [path, module] of Object.entries(modules)) {
       if (path.includes('sample-data')) continue;
       
+      // Load both regular articles and Substack articles
+      // Regular: articles-YYYY-MM-DD.json
+      // Substack: substack-YYYY-MM-DD.json
       const data = (module as any).default;
       if (Array.isArray(data)) {
         // Filter out articles with empty titles or summaries to prevent blank display

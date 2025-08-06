@@ -53,13 +53,27 @@ jobs:
         git config --global user.email 'bot@markets-feeds.com'
         
         if [ -n "$(git status --porcelain v2/content/links/)" ]; then
+          # Pull latest changes first
+          git pull --rebase origin main
+          
           git add v2/content/links/*.json
+          # Try to add fetch report if it exists and is not ignored
           if [ -f "v2/fetch-report.json" ]; then
-            git add v2/fetch-report.json
+            git add -f v2/fetch-report.json 2>/dev/null || echo "Note: fetch-report.json is gitignored"
           fi
           git commit -m "🤖 Update feeds - $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
-          echo "✅ Changes pushed to repository"
+          
+          # Retry push with pull if it fails
+          for i in 1 2 3; do
+            if git push; then
+              echo "✅ Changes pushed to repository"
+              break
+            else
+              echo "⚠️ Push failed, pulling and retrying (attempt $i/3)..."
+              git pull --rebase origin main
+              sleep 2
+            fi
+          done
         else
           echo "ℹ️ No new articles to commit"
         fi

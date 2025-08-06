@@ -1,0 +1,1090 @@
+{
+  "timestamp": "2025-08-05T09:28:47.140Z",
+  "summary": {
+    "totalFeeds": 154,
+    "successfulFeeds": 152,
+    "failedFeeds": 2,
+    "totalArticles": 6600,
+    "totalNewItems": 19473
+  },
+  "feeds": [
+    {
+      "sourceId": "yahoo-finance",
+      "success": true,
+      "itemCount": 42,
+      "responseTime": 397,
+      "error": null
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "success": true,
+      "itemCount": 30,
+      "responseTime": 1192,
+      "error": null
+    },
+    {
+      "sourceId": "et-markets",
+      "success": true,
+      "itemCount": 50,
+      "responseTime": 148,
+      "error": null
+    },
+    {
+      "sourceId": "cnbc-markets",
+      "success": true,
+      "itemCount": 30,
+      "responseTime": 572,
+      "error": null
+    },
+    {
+      "sourceId": "bbc-business",
+      "success": true,
+      "itemCount": 60,
+      "responseTime": 7539,
+      "error": null
+    },
+    {
+      "sourceId": "wsj-markets-main",
+      "success": true,
+      "itemCount": 61,
+      "responseTime": 978,
+      "error": null
+    },
+    {
+      "sourceId": "ft-markets",
+      "success": true,
+      "itemCount": 25,
+      "responseTime": 1360,
+      "error": null
+    },
+    {
+      "sourceId": "reuters-business",
+      "success": false,
+      "itemCount": 0,
+      "responseTime": 349,
+      "error": "fetch failed"
+    },
+    {
+      "sourceId": "business-insider",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1490,
+      "error": null
+    },
+    {
+      "sourceId": "bloomberg-economics",
+      "success": true,
+      "itemCount": 30,
+      "responseTime": 1495,
+      "error": null
+    },
+    {
+      "sourceId": "bloomberg-politics",
+      "success": true,
+      "itemCount": 30,
+      "responseTime": 1753,
+      "error": null
+    },
+    {
+      "sourceId": "nikkei-asia",
+      "success": true,
+      "itemCount": 50,
+      "responseTime": 680,
+      "error": null
+    },
+    {
+      "sourceId": "thehindubusinessline",
+      "success": true,
+      "itemCount": 100,
+      "responseTime": 855,
+      "error": null
+    },
+    {
+      "sourceId": "marketwatch",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 8805,
+      "error": null
+    },
+    {
+      "sourceId": "nyt-business",
+      "success": true,
+      "itemCount": 50,
+      "responseTime": 715,
+      "error": null
+    },
+    {
+      "sourceId": "nyt-economy",
+      "success": true,
+      "itemCount": 22,
+      "responseTime": 699,
+      "error": null
+    },
+    {
+      "sourceId": "nyt-technology",
+      "success": true,
+      "itemCount": 22,
+      "responseTime": 722,
+      "error": null
+    },
+    {
+      "sourceId": "economist-finance",
+      "success": true,
+      "itemCount": 300,
+      "responseTime": 923,
+      "error": null
+    },
+    {
+      "sourceId": "economist-business",
+      "success": true,
+      "itemCount": 300,
+      "responseTime": 1052,
+      "error": null
+    },
+    {
+      "sourceId": "wsj-opinion",
+      "success": true,
+      "itemCount": 19,
+      "responseTime": 1389,
+      "error": null
+    },
+    {
+      "sourceId": "wsj-world-news",
+      "success": true,
+      "itemCount": 75,
+      "responseTime": 1358,
+      "error": null
+    },
+    {
+      "sourceId": "ft-economics",
+      "success": true,
+      "itemCount": 25,
+      "responseTime": 3676,
+      "error": null
+    },
+    {
+      "sourceId": "ft-technology",
+      "success": true,
+      "itemCount": 25,
+      "responseTime": 1996,
+      "error": null
+    },
+    {
+      "sourceId": "cnbc-business",
+      "success": true,
+      "itemCount": 30,
+      "responseTime": 1197,
+      "error": null
+    },
+    {
+      "sourceId": "cnbc-economy",
+      "success": true,
+      "itemCount": 30,
+      "responseTime": 1889,
+      "error": null
+    },
+    {
+      "sourceId": "zerohedge",
+      "success": true,
+      "itemCount": 25,
+      "responseTime": 2077,
+      "error": null
+    },
+    {
+      "sourceId": "big-picture",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 6148,
+      "error": null
+    },
+    {
+      "sourceId": "marginal-revolution",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 2080,
+      "error": null
+    },
+    {
+      "sourceId": "project-syndicate",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1835,
+      "error": null
+    },
+    {
+      "sourceId": "paul-krugman",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1286,
+      "error": null
+    },
+    {
+      "sourceId": "noahpinion",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1656,
+      "error": null
+    },
+    {
+      "sourceId": "matt-levine",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 2316,
+      "error": null
+    },
+    {
+      "sourceId": "stratechery",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 2261,
+      "error": null
+    },
+    {
+      "sourceId": "fed-news",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 2003,
+      "error": null
+    },
+    {
+      "sourceId": "ecb-press",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 7108,
+      "error": null
+    },
+    {
+      "sourceId": "rbi-press",
+      "success": true,
+      "itemCount": 0,
+      "responseTime": 6299,
+      "error": null
+    },
+    {
+      "sourceId": "imf-news",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 6322,
+      "error": null
+    },
+    {
+      "sourceId": "sec-press-releases",
+      "success": true,
+      "itemCount": 25,
+      "responseTime": 6660,
+      "error": null
+    },
+    {
+      "sourceId": "bse-notices",
+      "success": true,
+      "itemCount": 0,
+      "responseTime": 7397,
+      "error": null
+    },
+    {
+      "sourceId": "sebi-news",
+      "success": true,
+      "itemCount": 30,
+      "responseTime": 6745,
+      "error": null
+    },
+    {
+      "sourceId": "oil-price",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 8267,
+      "error": null
+    },
+    {
+      "sourceId": "fortune",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 7489,
+      "error": null
+    },
+    {
+      "sourceId": "the-verge",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 6747,
+      "error": null
+    },
+    {
+      "sourceId": "wired",
+      "success": true,
+      "itemCount": 50,
+      "responseTime": 6810,
+      "error": null
+    },
+    {
+      "sourceId": "techmeme",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 8141,
+      "error": null
+    },
+    {
+      "sourceId": "scmp-business",
+      "success": true,
+      "itemCount": 50,
+      "responseTime": 7490,
+      "error": null
+    },
+    {
+      "sourceId": "foreign-affairs",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 7185,
+      "error": null
+    },
+    {
+      "sourceId": "pew-research",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 7064,
+      "error": null
+    },
+    {
+      "sourceId": "ndtv-profit-rss",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 7697,
+      "error": null
+    },
+    {
+      "sourceId": "marketwatch-realtime",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 7573,
+      "error": null
+    },
+    {
+      "sourceId": "cfa-institute-blog",
+      "success": true,
+      "itemCount": 500,
+      "responseTime": 7332,
+      "error": null
+    },
+    {
+      "sourceId": "moneycontrol-news",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 7294,
+      "error": null
+    },
+    {
+      "sourceId": "soic-finance-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 709,
+      "error": null
+    },
+    {
+      "sourceId": "cnbc-tv18-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 192,
+      "error": null
+    },
+    {
+      "sourceId": "ndtv-profit-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 184,
+      "error": null
+    },
+    {
+      "sourceId": "bloomberg-business-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 353,
+      "error": null
+    },
+    {
+      "sourceId": "aswath-damodaran-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 269,
+      "error": null
+    },
+    {
+      "sourceId": "ppfas-mf-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 177,
+      "error": null
+    },
+    {
+      "sourceId": "dwarkesh-patel-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 172,
+      "error": null
+    },
+    {
+      "sourceId": "trendlyne-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 276,
+      "error": null
+    },
+    {
+      "sourceId": "novara-media-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 179,
+      "error": null
+    },
+    {
+      "sourceId": "wsj-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 161,
+      "error": null
+    },
+    {
+      "sourceId": "norges-bank-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 164,
+      "error": null
+    },
+    {
+      "sourceId": "harvard-hbs-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 255,
+      "error": null
+    },
+    {
+      "sourceId": "cfa-society-india-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 245,
+      "error": null
+    },
+    {
+      "sourceId": "wocomo-docs-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 238,
+      "error": null
+    },
+    {
+      "sourceId": "invest-marcellus-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 272,
+      "error": null
+    },
+    {
+      "sourceId": "microcap-club-youtube",
+      "success": true,
+      "itemCount": 15,
+      "responseTime": 180,
+      "error": null
+    },
+    {
+      "sourceId": "gaby-delvalle",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 400,
+      "error": null
+    },
+    {
+      "sourceId": "way-of-work",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 714,
+      "error": null
+    },
+    {
+      "sourceId": "benthams",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 184,
+      "error": null
+    },
+    {
+      "sourceId": "leading-edge",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 433,
+      "error": null
+    },
+    {
+      "sourceId": "astral-codex-ten",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 233,
+      "error": null
+    },
+    {
+      "sourceId": "freddie-deboer",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 229,
+      "error": null
+    },
+    {
+      "sourceId": "res-obscura",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 418,
+      "error": null
+    },
+    {
+      "sourceId": "nicholas-decker",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 244,
+      "error": null
+    },
+    {
+      "sourceId": "max-read",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 191,
+      "error": null
+    },
+    {
+      "sourceId": "henrik-karlsson",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 847,
+      "error": null
+    },
+    {
+      "sourceId": "visa-kanv",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1414,
+      "error": null
+    },
+    {
+      "sourceId": "simon-sarris",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 955,
+      "error": null
+    },
+    {
+      "sourceId": "ai-log-blog",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 2407,
+      "error": null
+    },
+    {
+      "sourceId": "unhappy-man",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1036,
+      "error": null
+    },
+    {
+      "sourceId": "experimental-history",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 406,
+      "error": null
+    },
+    {
+      "sourceId": "age-of-invention",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1989,
+      "error": null
+    },
+    {
+      "sourceId": "not-boring",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1544,
+      "error": null
+    },
+    {
+      "sourceId": "roots-of-progress",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 881,
+      "error": null
+    },
+    {
+      "sourceId": "nate-silver",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 745,
+      "error": null
+    },
+    {
+      "sourceId": "public-policy-substack",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 313,
+      "error": null
+    },
+    {
+      "sourceId": "branko-milanovic",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1486,
+      "error": null
+    },
+    {
+      "sourceId": "aeon-magazine",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 563,
+      "error": null
+    },
+    {
+      "sourceId": "psyche-magazine",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 270,
+      "error": null
+    },
+    {
+      "sourceId": "common-reader",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 332,
+      "error": null
+    },
+    {
+      "sourceId": "summer-of-protocols",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 910,
+      "error": null
+    },
+    {
+      "sourceId": "gary-marcus",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 236,
+      "error": null
+    },
+    {
+      "sourceId": "nautilus-magazine",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 456,
+      "error": null
+    },
+    {
+      "sourceId": "noema-magazine",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 1278,
+      "error": null
+    },
+    {
+      "sourceId": "n-plus-one",
+      "success": true,
+      "itemCount": 200,
+      "responseTime": 2706,
+      "error": null
+    },
+    {
+      "sourceId": "quanta-magazine",
+      "success": true,
+      "itemCount": 5,
+      "responseTime": 1214,
+      "error": null
+    },
+    {
+      "sourceId": "programmable-mutter",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1275,
+      "error": null
+    },
+    {
+      "sourceId": "back-of-mind",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 469,
+      "error": null
+    },
+    {
+      "sourceId": "dave-karpf",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 726,
+      "error": null
+    },
+    {
+      "sourceId": "woman-of-letters",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 677,
+      "error": null
+    },
+    {
+      "sourceId": "school-unconformed",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1174,
+      "error": null
+    },
+    {
+      "sourceId": "honest-broker",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1484,
+      "error": null
+    },
+    {
+      "sourceId": "works-in-progress",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 521,
+      "error": null
+    },
+    {
+      "sourceId": "construction-physics",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 897,
+      "error": null
+    },
+    {
+      "sourceId": "rotten-and-good",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 865,
+      "error": null
+    },
+    {
+      "sourceId": "over-the-field",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1243,
+      "error": null
+    },
+    {
+      "sourceId": "nils-gilman",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 859,
+      "error": null
+    },
+    {
+      "sourceId": "pens-and-poison",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1841,
+      "error": null
+    },
+    {
+      "sourceId": "philosophy-garden",
+      "success": false,
+      "itemCount": 0,
+      "responseTime": 503,
+      "error": "HTTP 404: Not Found"
+    },
+    {
+      "sourceId": "brad-delong",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1199,
+      "error": null
+    },
+    {
+      "sourceId": "jacobin-magazine",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1908,
+      "error": null
+    },
+    {
+      "sourceId": "new-left-review",
+      "success": true,
+      "itemCount": 7,
+      "responseTime": 960,
+      "error": null
+    },
+    {
+      "sourceId": "small-potatoes",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 644,
+      "error": null
+    },
+    {
+      "sourceId": "shruti-rajagopalan",
+      "success": true,
+      "itemCount": 16,
+      "responseTime": 1010,
+      "error": null
+    },
+    {
+      "sourceId": "rohan-venkat",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1459,
+      "error": null
+    },
+    {
+      "sourceId": "adam-tooze",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 145,
+      "error": null
+    },
+    {
+      "sourceId": "africanist-perspective",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 732,
+      "error": null
+    },
+    {
+      "sourceId": "sustainability-by-numbers",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 387,
+      "error": null
+    },
+    {
+      "sourceId": "afraw",
+      "success": true,
+      "itemCount": 10,
+      "responseTime": 1704,
+      "error": null
+    },
+    {
+      "sourceId": "join-reboot",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 385,
+      "error": null
+    },
+    {
+      "sourceId": "urban-proxima",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1337,
+      "error": null
+    },
+    {
+      "sourceId": "changing-lanes",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 2373,
+      "error": null
+    },
+    {
+      "sourceId": "matt-clancy",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1676,
+      "error": null
+    },
+    {
+      "sourceId": "ggd-world",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 581,
+      "error": null
+    },
+    {
+      "sourceId": "existential-crunch",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 709,
+      "error": null
+    },
+    {
+      "sourceId": "doomsday-machines",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1488,
+      "error": null
+    },
+    {
+      "sourceId": "climate-brink",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 781,
+      "error": null
+    },
+    {
+      "sourceId": "understanding-ai",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1505,
+      "error": null
+    },
+    {
+      "sourceId": "uncharted-territories",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1807,
+      "error": null
+    },
+    {
+      "sourceId": "hypertextual",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1301,
+      "error": null
+    },
+    {
+      "sourceId": "derek-thompson",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1213,
+      "error": null
+    },
+    {
+      "sourceId": "high-capacity",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1444,
+      "error": null
+    },
+    {
+      "sourceId": "statecraft",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 2309,
+      "error": null
+    },
+    {
+      "sourceId": "infinite-scroll",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 788,
+      "error": null
+    },
+    {
+      "sourceId": "one-useful-thing",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 243,
+      "error": null
+    },
+    {
+      "sourceId": "paul-goldsmith-pinkham",
+      "success": true,
+      "itemCount": 8,
+      "responseTime": 1089,
+      "error": null
+    },
+    {
+      "sourceId": "parachute-earth",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 710,
+      "error": null
+    },
+    {
+      "sourceId": "global-developments",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 835,
+      "error": null
+    },
+    {
+      "sourceId": "progress-and-poverty",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1693,
+      "error": null
+    },
+    {
+      "sourceId": "eric-topol",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1793,
+      "error": null
+    },
+    {
+      "sourceId": "semianalysis",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1702,
+      "error": null
+    },
+    {
+      "sourceId": "volts",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1401,
+      "error": null
+    },
+    {
+      "sourceId": "economic-forces",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 923,
+      "error": null
+    },
+    {
+      "sourceId": "ai-futures",
+      "success": true,
+      "itemCount": 12,
+      "responseTime": 821,
+      "error": null
+    },
+    {
+      "sourceId": "writing-ruxandra",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1444,
+      "error": null
+    },
+    {
+      "sourceId": "asimov-press",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 984,
+      "error": null
+    },
+    {
+      "sourceId": "conspicuous-cognition",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1620,
+      "error": null
+    },
+    {
+      "sourceId": "everything-is-bullshit",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 1812,
+      "error": null
+    },
+    {
+      "sourceId": "optimally-irrational",
+      "success": true,
+      "itemCount": 20,
+      "responseTime": 6099,
+      "error": null
+    },
+    {
+      "sourceId": "nse-online-announcements",
+      "success": true,
+      "itemCount": 15086,
+      "responseTime": 716,
+      "error": null
+    },
+    {
+      "sourceId": "nse-financial-results",
+      "success": true,
+      "itemCount": 3,
+      "responseTime": 244,
+      "error": null
+    },
+    {
+      "sourceId": "nse-circulars",
+      "success": true,
+      "itemCount": 5,
+      "responseTime": 198,
+      "error": null
+    }
+  ]
+}

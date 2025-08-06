@@ -1,0 +1,179 @@
+name: Unified Feed Fetcher
+
+on:
+  schedule:
+    # Run main feeds multiple times a day (IST times converted to UTC)
+    - cron: '30 0 * * 1-5'   # 6:00 AM IST - Pre-market
+    - cron: '15 4 * * 1-5'   # 9:45 AM IST - Market open
+    - cron: '30 6 * * 1-5'   # 12:00 PM IST - Midday
+    - cron: '30 9 * * 1-5'   # 3:00 PM IST - Market close
+    - cron: '30 12 * * 1-5'  # 6:00 PM IST - Post-market
+    
+    # Run Substack feeds once daily at 5 AM IST (11:30 PM UTC previous day)
+    - cron: '30 23 * * *'     # 5:00 AM IST next day
+    
+  workflow_dispatch:
+    inputs:
+      feed_type:
+        description: 'Type of feeds to fetch'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - main
+          - substack
+
+jobs:
+  fetch-feeds:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'v2/package-lock.json'
+          
+      - name: Install dependencies
+        working-directory: v2
+        run: npm ci
+        
+      - name: Determine which feeds to fetch
+        id: feed_type
+        run: |
+          # For manual runs, use the input
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "type=${{ inputs.feed_type }}" >> $GITHUB_OUTPUT
+          # For scheduled runs at 11:30 PM UTC (5 AM IST), run Substack
+          elif [ "$(date -u +'%H')" = "23" ]; then
+            echo "type=substack" >> $GITHUB_OUTPUT
+          # For all other scheduled runs, fetch main feeds
+          else
+            echo "type=main" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Fetch main feeds
+        if: steps.feed_type.outputs.type == 'main' || steps.feed_type.outputs.type == 'all'
+        working-directory: v2
+        run: |
+          echo "📰 Fetching main feeds (non-Substack)..."
+          npm run fetch-main || npm run fetch-feeds
+          
+      - name: Fetch Substack feeds
+        if: steps.feed_type.outputs.type == 'substack' || steps.feed_type.outputs.type == 'all'
+        working-directory: v2
+        run: |
+          echo "📚 Fetching Substack/eclectic feeds with delays..."
+          npm run fetch-substack || echo "Substack fetcher not configured, skipping"
+          
+      - name: Configure Git
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          
+      - name: Pull latest changes
+        run: |
+          echo "📥 Pulling latest changes..."
+          git fetch origin main
+          git pull --rebase origin main || {
+            echo "⚠️ Rebase failed, attempting merge..."
+            git rebase --abort 2>/dev/null || true
+            git pull origin main --no-rebase
+          }
+          
+      - name: Stage changes
+        id: stage_changes
+        run: |
+          # Add content files
+          git add v2/content/links/*.json 2>/dev/null || true
+          
+          # Check if there are changes
+          if ! git diff --staged --quiet; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📝 Changes detected:"
+            git diff --staged --stat
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No content changes to commit"
+          fi
+          
+      - name: Commit and push changes
+        if: steps.stage_changes.outputs.has_changes == 'true'
+        run: |
+          # Determine commit message based on feed type
+          FEED_TYPE="${{ steps.feed_type.outputs.type }}"
+          if [ "$FEED_TYPE" = "substack" ]; then
+            COMMIT_MSG="📚 Update Substack feeds - $(date -u +'%Y-%m-%d %H:%M') UTC"
+          elif [ "$FEED_TYPE" = "all" ]; then
+            COMMIT_MSG="🔄 Update all feeds - $(date -u +'%Y-%m-%d %H:%M') UTC"
+          else
+            COMMIT_MSG="📰 Update main feeds - $(date -u +'%Y-%m-%d %H:%M') UTC"
+          fi
+          
+          git commit -m "$COMMIT_MSG"
+          
+          # Push with retry logic
+          MAX_RETRIES=5
+          RETRY_COUNT=0
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            if git push origin main; then
+              echo "✅ Successfully pushed changes"
+              break
+            else
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              echo "⚠️ Push failed (attempt $RETRY_COUNT/$MAX_RETRIES)"
+              
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "🔄 Pulling latest changes and retrying..."
+                git pull --rebase origin main || {
+                  echo "⚠️ Rebase failed, attempting merge..."
+                  git rebase --abort 2>/dev/null || true
+                  git pull origin main --no-rebase
+                }
+                sleep $((RETRY_COUNT * 2))  # Exponential backoff
+              else
+                echo "❌ Failed to push after $MAX_RETRIES attempts"
+                exit 1
+              fi
+            fi
+          done
+          
+      - name: Build and deploy (if main feeds)
+        if: steps.feed_type.outputs.type == 'main' && steps.stage_changes.outputs.has_changes == 'true'
+        working-directory: v2
+        run: |
+          echo "🏗️ Building Astro site..."
+          npm run build-only || echo "Build failed, but continuing"
+          
+      - name: Deploy to Cloudflare Pages
+        if: steps.feed_type.outputs.type == 'main' && steps.stage_changes.outputs.has_changes == 'true'
+        uses: cloudflare/pages-action@v1
+        continue-on-error: true
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: markets-feeds
+          directory: v2/dist
+          wranglerVersion: '3'
+          
+      - name: Upload fetch reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fetch-reports-${{ steps.feed_type.outputs.type }}-${{ github.run_number }}
+          path: |
+            v2/*fetch-report.json
+            v2/*.log
+          retention-days: 7
+          if-no-files-found: ignore

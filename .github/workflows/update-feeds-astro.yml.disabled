@@ -73,12 +73,27 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+          # Pull latest changes first to avoid conflicts
+          git pull --rebase origin main
+          
           git add v2/content/links/*.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update RSS feeds [skip ci]"
-            git push
+            git commit -m "🤖 Auto-update feeds $(date -u +'%Y-%m-%d %H:%M') UTC"
+            
+            # Retry push with pull if it fails
+            for i in 1 2 3; do
+              if git push; then
+                echo "✅ Successfully pushed changes"
+                break
+              else
+                echo "⚠️ Push failed, pulling and retrying (attempt $i/3)..."
+                git pull --rebase origin main
+                sleep 2
+              fi
+            done
           fi
           
       - name: Deploy to Cloudflare Pages

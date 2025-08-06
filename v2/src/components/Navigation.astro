@@ -170,7 +170,7 @@ const otherCategories = Object.keys(CATEGORIES).filter(cat => !mainCategories.in
     visibility: hidden;
     transform: translateY(-8px);
     transition: all 0.2s ease;
-    z-index: 50;
+    z-index: 200;
   }
 
   .nav-dropdown:hover .dropdown-menu {
@@ -244,6 +244,23 @@ const otherCategories = Object.keys(CATEGORIES).filter(cat => !mainCategories.in
     border-color: #1d4ed8;
   }
 
+  /* Mobile menu toggle button */
+  .mobile-menu-toggle {
+    display: none;
+    background: #1e40af;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.15s ease;
+  }
+
+  .mobile-menu-toggle:hover {
+    background: #1d4ed8;
+  }
+
   @media (max-width: 768px) {
     .nav-container {
       flex-direction: column;
@@ -254,6 +271,20 @@ const otherCategories = Object.keys(CATEGORIES).filter(cat => !mainCategories.in
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       padding-bottom: 4px;
+      scrollbar-width: thin;
+    }
+
+    .nav-tabs::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .nav-tabs::-webkit-scrollbar-track {
+      background: #f3f4f6;
+    }
+
+    .nav-tabs::-webkit-scrollbar-thumb {
+      background: #d1d5db;
+      border-radius: 2px;
     }
     
     .search-form {
@@ -262,6 +293,21 @@ const otherCategories = Object.keys(CATEGORIES).filter(cat => !mainCategories.in
     
     .search-box {
       width: calc(100% - 44px);
+    }
+
+    /* Fix dropdown on mobile */
+    .dropdown-menu {
+      position: fixed;
+      left: 10px;
+      right: 10px;
+      width: auto;
+      max-height: 70vh;
+      overflow-y: auto;
+    }
+
+    .mobile-menu-toggle {
+      display: block;
+      margin-bottom: 12px;
     }
   }
 </style>
