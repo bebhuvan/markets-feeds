@@ -33,9 +33,10 @@ const sourceCounts = await dataLoader.getSourceCounts();
   <EnhancedNavigation categoryCounts={categoryCounts} />
   
   <div class="container">
-    <div class="content-grid">
-      <!-- Main Feed -->
-      <main class="feed">
+    <div class="content-wrapper">
+      <div class="content-grid">
+        <!-- Main Feed -->
+        <main class="feed">
         <div class="feed-header">
           <h1 class="feed-title">All Articles</h1>
           <span class="article-count">{totalItems.toLocaleString()} articles</span>
@@ -72,6 +73,7 @@ const sourceCounts = await dataLoader.getSourceCounts();
       
       <!-- Enhanced Sidebar -->
       <EnhancedSidebar sourceCounts={sourceCounts} categoryCounts={categoryCounts} />
+      </div>
     </div>
   </div>
 
@@ -110,13 +112,18 @@ const sourceCounts = await dataLoader.getSourceCounts();
 </script>
 
 <style>
+  /* Content spacing */
+  .content-wrapper {
+    padding-top: 24px;
+  }
+
   /* Simple Feed Header */
   .feed-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 16px;
-    padding-bottom: 6px;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
     border-bottom: 1px solid #f1f5f9;
   }
 
