@@ -1572,6 +1572,96 @@
       "category": "eclectic",
       "fetchInterval": 720,
       "active": true
+    },
+    {
+      "id": "the_point_magazine",
+      "name": "The Point Magazine",
+      "url": "https://thepointmag.com/feed/",
+      "sourceId": "the-point-magazine",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "laphams_quarterly",
+      "name": "Lapham's Quarterly",
+      "url": "https://www.laphamsquarterly.org/feed",
+      "sourceId": "laphams-quarterly",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "hedgehog_review",
+      "name": "The Hedgehog Review",
+      "url": "https://hedgehogreview.com/issues/rss",
+      "sourceId": "hedgehog-review",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "undark_magazine",
+      "name": "Undark Magazine",
+      "url": "https://undark.org/feed/",
+      "sourceId": "undark-magazine",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "works_in_progress",
+      "name": "Works in Progress",
+      "url": "https://worksinprogress.co/rss",
+      "sourceId": "works-in-progress",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "the_new_inquiry",
+      "name": "The New Inquiry",
+      "url": "https://thenewinquiry.com/feed/",
+      "sourceId": "the-new-inquiry",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "the_baffler",
+      "name": "The Baffler",
+      "url": "https://thebaffler.com/feed",
+      "sourceId": "the-baffler",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "london_review_books",
+      "name": "London Review of Books",
+      "url": "https://www.lrb.co.uk/feeds/lrb",
+      "sourceId": "london-review-books",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "the_wire_india",
+      "name": "The Wire (India)",
+      "url": "https://thewire.in/feed",
+      "sourceId": "the-wire-india",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
+    },
+    {
+      "id": "palladium_magazine",
+      "name": "Palladium Magazine",
+      "url": "https://palladiummag.com/feed/",
+      "sourceId": "palladium-magazine",
+      "category": "eclectic",
+      "fetchInterval": 720,
+      "active": true
     }
   ]
 }
