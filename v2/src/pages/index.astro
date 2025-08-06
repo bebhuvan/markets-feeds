@@ -2,7 +2,7 @@
 export const prerender = false;
 
 import Layout from '../layouts/Layout.astro';
-import EnhancedHeader from '../components/EnhancedHeader.astro';
+import SimpleHeader from '../components/SimpleHeader.astro';
 import EnhancedNavigation from '../components/EnhancedNavigation.astro';
 import EnhancedArticle from '../components/EnhancedArticle.astro';
 import EnhancedSidebar from '../components/EnhancedSidebar.astro';
@@ -29,7 +29,7 @@ const sourceCounts = await dataLoader.getSourceCounts();
 ---
 
 <Layout title="Markets Feeds v2 - Real-time Financial Intelligence">
-  <EnhancedHeader lastUpdate={lastUpdate} totalArticles={allItems.length} />
+  <SimpleHeader />
   <EnhancedNavigation categoryCounts={categoryCounts} />
   
   <div class="container">
@@ -37,37 +37,8 @@ const sourceCounts = await dataLoader.getSourceCounts();
       <!-- Main Feed -->
       <main class="feed">
         <div class="feed-header">
-          <div class="feed-info">
-            <h1 class="feed-title">
-              <span class="feed-icon">🌐</span>
-              All Sources
-              <span class="live-indicator">● Live</span>
-            </h1>
-            <div class="feed-meta">
-              <span class="article-count">{totalItems.toLocaleString()} articles</span>
-              <span class="update-time">Updated {formatTimeAgo(lastUpdate)}</span>
-            </div>
-          </div>
-          
-          <div class="feed-controls">
-            <div class="view-options">
-              <button class="view-btn active" data-view="cards">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <rect x="3" y="3" width="7" height="7"/>
-                  <rect x="14" y="3" width="7" height="7"/>
-                  <rect x="3" y="14" width="7" height="7"/>
-                  <rect x="14" y="14" width="7" height="7"/>
-                </svg>
-              </button>
-              <button class="view-btn" data-view="compact">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <line x1="3" y1="6" x2="21" y2="6"/>
-                  <line x1="3" y1="12" x2="21" y2="12"/>
-                  <line x1="3" y1="18" x2="21" y2="18"/>
-                </svg>
-              </button>
-            </div>
-          </div>
+          <h1 class="feed-title">All Articles</h1>
+          <span class="article-count">{totalItems.toLocaleString()} articles</span>
         </div>
 
         <div class="articles" id="articlesContainer">
@@ -136,201 +107,36 @@ const sourceCounts = await dataLoader.getSourceCounts();
     });
   }
 
-  // View switching functionality
-  const viewButtons = document.querySelectorAll('.view-btn');
-  const articlesContainer = document.getElementById('articlesContainer');
-  
-  viewButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const view = btn.getAttribute('data-view');
-      
-      // Update active state
-      viewButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      
-      // Apply view class
-      if (articlesContainer) {
-        articlesContainer.className = `articles view-${view}`;
-        localStorage.setItem('preferredView', view);
-      }
-    });
-  });
-  
-  // Restore preferred view
-  const preferredView = localStorage.getItem('preferredView');
-  if (preferredView && articlesContainer) {
-    articlesContainer.className = `articles view-${preferredView}`;
-    const activeBtn = document.querySelector(`[data-view="${preferredView}"]`);
-    if (activeBtn) {
-      viewButtons.forEach(b => b.classList.remove('active'));
-      activeBtn.classList.add('active');
-    }
-  }
 </script>
 
 <style>
-  /* Enhanced Feed Header */
+  /* Simple Feed Header */
   .feed-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 24px;
-    padding: 16px;
-    background: #fafbfc;
-    border: 1px solid #f1f5f9;
-    border-radius: 8px;
-  }
-
-  .feed-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    margin-bottom: 16px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #f1f5f9;
   }
 
   .feed-title {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     color: #1f2937;
     margin: 0;
   }
 
-  .feed-icon {
-    font-size: 28px;
-  }
-
-  .live-indicator {
-    font-size: 12px;
-    color: #16a34a;
-    background: #dcfce7;
-    padding: 3px 6px;
-    border-radius: 4px;
-    font-weight: 500;
-  }
-
-  .feed-meta {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    font-size: 14px;
-  }
-
   .article-count {
-    color: #374151;
-    font-weight: 600;
+    color: #9ca3af;
+    font-size: 13px;
   }
 
-  .update-time {
-    color: #6b7280;
-  }
-
-  .feed-controls {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-
-  .view-options {
-    display: flex;
-    gap: 2px;
-    background: #f8fafc;
-    padding: 2px;
-    border-radius: 6px;
-    border: 1px solid #e5e7eb;
-  }
-
-  .view-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    border: none;
-    border-radius: 4px;
-    background: transparent;
-    color: #6b7280;
-    cursor: pointer;
-    transition: all 0.15s ease;
-  }
-
-  .view-btn:hover {
-    background: #ffffff;
-    color: #374151;
-  }
-
-  .view-btn.active {
-    background: #64748b;
-    color: white;
-  }
-
-  /* View Modes */
-  .articles.view-compact .enhanced-article {
-    padding: 12px 16px;
-    margin-bottom: 8px;
-    border-radius: 8px;
-  }
-
-  .articles.view-compact .article-content {
-    margin-bottom: 8px;
-  }
-
-  .articles.view-compact .article-title {
-    font-size: 14px;
-    margin-bottom: 6px;
-  }
-
-  .articles.view-compact .article-summary {
-    display: none;
-  }
-
-  .articles.view-compact .article-actions {
-    display: none;
-  }
-
-  /* Mobile Responsive */
   @media (max-width: 768px) {
     .feed-header {
       flex-direction: column;
       align-items: flex-start;
-      gap: 16px;
-      padding: 20px;
-    }
-
-    .feed-title {
-      font-size: 20px;
-    }
-
-    .feed-meta {
-      flex-direction: column;
-      align-items: flex-start;
       gap: 4px;
-    }
-
-    .feed-controls {
-      width: 100%;
-      justify-content: flex-end;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .feed-header {
-      padding: 16px;
-      margin-bottom: 24px;
-    }
-
-    .feed-title {
-      font-size: 18px;
-    }
-
-    .view-options {
-      padding: 2px;
-    }
-
-    .view-btn {
-      width: 32px;
-      height: 32px;
     }
   }
 </style>

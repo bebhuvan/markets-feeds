@@ -62,9 +62,6 @@ const domain = getDomain(article.url);
   <div class="article-header">
     {showSource && (
       <div class="source-info">
-        <span class="category-icon" title={`${article.category} category`}>
-          {categoryIcon}
-        </span>
         <a 
           href={`/source/${article.sourceId}`} 
           class="source-badge"
@@ -72,23 +69,12 @@ const domain = getDomain(article.url);
         >
           {article.sourceName}
         </a>
-        <span class="domain-badge" title={domain}>
-          {domain}
-        </span>
       </div>
     )}
     
-    <div class="article-meta">
-      <time class="article-time" datetime={article.publishedAt} title={new Date(article.publishedAt).toLocaleString()}>
-        {formatTimeAgo(article.publishedAt)}
-      </time>
-      
-      {article.priority === 'high' && (
-        <span class="priority-badge" title="High priority article">
-          🔥 Hot
-        </span>
-      )}
-    </div>
+    <time class="article-time" datetime={article.publishedAt} title={new Date(article.publishedAt).toLocaleString()}>
+      {formatTimeAgo(article.publishedAt)}
+    </time>
   </div>
 
   <!-- Article Content -->
@@ -183,285 +169,97 @@ const domain = getDomain(article.url);
 
 <style>
   .enhanced-article {
-    position: relative;
-    padding: 18px;
-    border: 1px solid #f3f4f6;
-    border-radius: 8px;
-    background: #ffffff;
-    transition: all 0.15s ease;
-    margin-bottom: 12px;
-    overflow: hidden;
+    padding: 8px 0;
+    border-bottom: 1px solid #f8fafc;
+    margin-bottom: 0;
   }
 
   .enhanced-article:hover {
-    border-color: #e5e7eb;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    background: #fafbfc;
   }
 
-  /* Priority styling - more subtle */
-  .priority-high {
-    border-left: 3px solid #ef4444;
-  }
-
-  .priority-medium {
-    border-left: 3px solid #f59e0b;
-  }
-
-  .priority-normal {
-    border-left: 3px solid #d1d5db;
-  }
+  /* No priority styling needed */
 
   /* Article Header */
   .article-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 12px;
+    align-items: center;
+    margin-bottom: 4px;
     gap: 12px;
   }
 
   .source-info {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     flex: 1;
     min-width: 0;
   }
 
-  .category-icon {
-    font-size: 16px;
-    flex-shrink: 0;
-  }
-
   .source-badge {
-    padding: 3px 7px;
-    background: #f8fafc;
-    color: #64748b;
     font-size: 11px;
     font-weight: 500;
-    border-radius: 4px;
+    color: #64748b;
     text-decoration: none;
-    transition: color 0.15s ease;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 120px;
+    max-width: 100px;
   }
 
   .source-badge:hover {
     color: #475569;
   }
 
-  .domain-badge {
+  .article-time {
     font-size: 10px;
     color: #9ca3af;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 80px;
-  }
-
-  .article-meta {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-shrink: 0;
-  }
-
-  .article-time {
-    font-size: 11px;
-    color: #9ca3af;
-    white-space: nowrap;
-  }
-
-  .priority-badge {
-    padding: 2px 6px;
-    background: #fef3c7;
-    color: #d97706;
-    font-size: 9px;
-    font-weight: 600;
-    border-radius: 4px;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
   }
 
   /* Article Content */
   .article-content {
-    margin-bottom: 16px;
+    margin-bottom: 0;
   }
 
   .article-title {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.4;
-    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 3px;
     color: #1f2937;
   }
 
   .article-link {
     color: inherit;
     text-decoration: none;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 4px;
-    transition: all 0.15s ease;
   }
 
   .article-link:hover {
-    color: #2563eb;
-    text-decoration: underline;
+    color: #475569;
   }
 
   .external-icon {
-    font-size: 12px;
-    opacity: 0.5;
-    margin-top: 2px;
-    transition: all 0.15s ease;
-  }
-
-  .article-link:hover .external-icon {
-    opacity: 1;
-    transform: translate(1px, -1px);
+    display: none;
   }
 
   .article-summary {
-    font-size: 14px;
+    font-size: 12px;
     color: #6b7280;
-    line-height: 1.5;
-    margin-bottom: 12px;
+    line-height: 1.3;
+    margin-bottom: 0;
   }
 
   .article-summary.no-summary {
-    font-style: italic;
-    color: #9ca3af;
-    font-size: 13px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
+    display: none;
   }
 
-  .no-summary-icon {
-    font-size: 12px;
-    opacity: 0.7;
-  }
-
-  /* Article Tags */
-  .article-tags {
-    display: flex;
-    gap: 4px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .article-tag {
-    padding: 2px 6px;
-    background: #f1f5f9;
-    color: #64748b;
-    font-size: 10px;
-    font-weight: 500;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: color 0.15s ease;
-  }
-
-  .article-tag:hover {
-    color: #475569;
-  }
-
-  .more-tags {
-    font-size: 10px;
-    color: #9ca3af;
-    font-weight: 500;
-    padding: 2px 6px;
-    background: #f3f4f6;
-    border-radius: 4px;
-  }
-
-  /* Article Actions */
-  .article-actions {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    border-top: 1px solid #f8fafc;
-  }
-
-  .action-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    border: none;
-    border-radius: 4px;
-    background: #f8fafc;
-    color: #6b7280;
-    cursor: pointer;
-    transition: all 0.15s ease;
-  }
-
-  .action-btn:hover {
-    background: #f1f5f9;
-    color: #475569;
-  }
-
-  .bookmark-btn.active {
-    background: #fef3c7;
-    color: #d97706;
-  }
-
-  .mark-read-btn.active {
-    background: #dcfce7;
-    color: #16a34a;
-  }
-
-  .reading-progress {
-    flex: 1;
-    height: 1px;
-    background: #f1f5f9;
-    border-radius: 1px;
-    margin: 0 10px;
-    overflow: hidden;
-  }
-
-  .progress-bar {
-    height: 100%;
-    background: #64748b;
-    border-radius: 1px;
-    width: 0%;
-    transition: width 0.3s ease;
-  }
-
-  /* Reading Indicator */
+  /* Hide all extras */
+  .article-tags,
+  .article-actions,
   .reading-indicator {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    opacity: 0;
-    transition: all 0.3s ease;
-  }
-
-  .enhanced-article.read .reading-indicator {
-    opacity: 1;
-  }
-
-  .read-badge {
-    padding: 2px 6px;
-    background: #dcfce7;
-    color: #16a34a;
-    font-size: 9px;
-    font-weight: 500;
-    border-radius: 4px;
-  }
-
-  /* Read state styling */
-  .enhanced-article.read {
-    opacity: 0.75;
-    background: #fafafa;
-  }
-
-  .enhanced-article.read .article-title {
-    color: #6b7280;
+    display: none;
   }
 
   /* Hidden state */
