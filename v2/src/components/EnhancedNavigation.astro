@@ -231,39 +231,32 @@ const totalArticles = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 10px 14px;
+    padding: 8px 12px;
     text-decoration: none;
     color: #6b7280;
     font-size: 14px;
     font-weight: 500;
-    border-radius: 8px;
-    transition: all 0.15s ease;
+    border-radius: 6px;
     white-space: nowrap;
     position: relative;
-    border: 1px solid transparent;
   }
 
   .nav-item:hover {
     color: #374151;
-    background: #f9fafb;
-    border-color: #e5e7eb;
   }
 
   .nav-item.active {
     color: #374151;
-    background: #f1f5f9;
-    border-color: #e2e8f0;
+    background: #f8fafc;
   }
 
   .nav-all {
-    background: #f3f4f6;
-    border-color: #d1d5db;
+    background: #f8fafc;
   }
 
   .nav-all.active {
-    background: #1f2937;
-    color: white;
-    border-color: #374151;
+    background: #f1f5f9;
+    color: #374151;
   }
 
   .nav-icon {
@@ -292,13 +285,13 @@ const totalArticles = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
   }
 
   .nav-all .nav-count {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(107, 114, 128, 0.1);
     color: #6b7280;
   }
 
   .nav-all.active .nav-count {
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
+    background: rgba(107, 114, 128, 0.15);
+    color: #374151;
   }
 
   /* Dropdown */
