@@ -184,37 +184,31 @@ const domain = getDomain(article.url);
 <style>
   .enhanced-article {
     position: relative;
-    padding: 20px;
-    border: 1px solid #f1f5f9;
-    border-radius: 12px;
+    padding: 18px;
+    border: 1px solid #f3f4f6;
+    border-radius: 8px;
     background: #ffffff;
-    transition: all 0.2s ease;
-    margin-bottom: 16px;
+    transition: all 0.15s ease;
+    margin-bottom: 12px;
     overflow: hidden;
   }
 
   .enhanced-article:hover {
-    border-color: #e2e8f0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transform: translateY(-1px);
+    border-color: #e5e7eb;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   }
 
-  /* Priority styling */
+  /* Priority styling - more subtle */
   .priority-high {
-    border-left: 4px solid #dc2626;
-    background: linear-gradient(135deg, #ffffff 0%, #fef2f2 100%);
-  }
-
-  .priority-high:hover {
-    box-shadow: 0 4px 16px rgba(220, 38, 38, 0.1);
+    border-left: 3px solid #ef4444;
   }
 
   .priority-medium {
-    border-left: 4px solid #f59e0b;
+    border-left: 3px solid #f59e0b;
   }
 
   .priority-normal {
-    border-left: 4px solid #e5e7eb;
+    border-left: 3px solid #d1d5db;
   }
 
   /* Article Header */
@@ -240,15 +234,14 @@ const domain = getDomain(article.url);
   }
 
   .source-badge {
-    padding: 4px 8px;
-    background: #f0f9ff;
-    color: #0369a1;
+    padding: 3px 7px;
+    background: #f8fafc;
+    color: #64748b;
     font-size: 11px;
-    font-weight: 600;
-    border-radius: 6px;
-    border: 1px solid #e0f2fe;
+    font-weight: 500;
+    border-radius: 4px;
     text-decoration: none;
-    transition: all 0.15s ease;
+    transition: color 0.15s ease;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -256,18 +249,12 @@ const domain = getDomain(article.url);
   }
 
   .source-badge:hover {
-    background: #e0f2fe;
-    color: #0c4a6e;
-    transform: translateY(-1px);
+    color: #475569;
   }
 
   .domain-badge {
     font-size: 10px;
     color: #9ca3af;
-    background: #f9fafb;
-    padding: 2px 6px;
-    border-radius: 4px;
-    border: 1px solid #f3f4f6;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -289,20 +276,13 @@ const domain = getDomain(article.url);
 
   .priority-badge {
     padding: 2px 6px;
-    background: linear-gradient(135deg, #fef3c7, #fcd34d);
-    color: #92400e;
+    background: #fef3c7;
+    color: #d97706;
     font-size: 9px;
-    font-weight: 700;
-    border-radius: 8px;
+    font-weight: 600;
+    border-radius: 4px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border: 1px solid #fde68a;
-    animation: pulse 2s infinite;
-  }
-
-  @keyframes pulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); }
+    letter-spacing: 0.3px;
   }
 
   /* Article Content */
@@ -368,29 +348,24 @@ const domain = getDomain(article.url);
   /* Article Tags */
   .article-tags {
     display: flex;
-    gap: 6px;
+    gap: 4px;
     flex-wrap: wrap;
     align-items: center;
   }
 
   .article-tag {
-    padding: 3px 8px;
-    background: #f8fafc;
-    color: #6b7280;
+    padding: 2px 6px;
+    background: #f1f5f9;
+    color: #64748b;
     font-size: 10px;
-    font-weight: 600;
-    border-radius: 12px;
-    border: 1px solid #e2e8f0;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
+    font-weight: 500;
+    border-radius: 4px;
     cursor: pointer;
-    transition: all 0.15s ease;
+    transition: color 0.15s ease;
   }
 
   .article-tag:hover {
-    background: #eff6ff;
-    color: #2563eb;
-    border-color: #dbeafe;
+    color: #475569;
   }
 
   .more-tags {
@@ -399,7 +374,7 @@ const domain = getDomain(article.url);
     font-weight: 500;
     padding: 2px 6px;
     background: #f3f4f6;
-    border-radius: 8px;
+    border-radius: 4px;
   }
 
   /* Article Actions */
@@ -407,55 +382,51 @@ const domain = getDomain(article.url);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 12px;
-    border-top: 1px solid #f9fafb;
+    padding-top: 10px;
+    border-top: 1px solid #f8fafc;
   }
 
   .action-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    background: #ffffff;
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 4px;
+    background: #f8fafc;
     color: #6b7280;
     cursor: pointer;
     transition: all 0.15s ease;
   }
 
   .action-btn:hover {
-    background: #f9fafb;
-    color: #374151;
-    border-color: #d1d5db;
-    transform: translateY(-1px);
+    background: #f1f5f9;
+    color: #475569;
   }
 
   .bookmark-btn.active {
     background: #fef3c7;
-    color: #92400e;
-    border-color: #fde68a;
+    color: #d97706;
   }
 
   .mark-read-btn.active {
     background: #dcfce7;
     color: #16a34a;
-    border-color: #bbf7d0;
   }
 
   .reading-progress {
     flex: 1;
-    height: 2px;
-    background: #f3f4f6;
+    height: 1px;
+    background: #f1f5f9;
     border-radius: 1px;
-    margin: 0 12px;
+    margin: 0 10px;
     overflow: hidden;
   }
 
   .progress-bar {
     height: 100%;
-    background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+    background: #64748b;
     border-radius: 1px;
     width: 0%;
     transition: width 0.3s ease;
@@ -464,8 +435,8 @@ const domain = getDomain(article.url);
   /* Reading Indicator */
   .reading-indicator {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 14px;
+    right: 14px;
     opacity: 0;
     transition: all 0.3s ease;
   }
@@ -475,27 +446,22 @@ const domain = getDomain(article.url);
   }
 
   .read-badge {
-    padding: 4px 8px;
+    padding: 2px 6px;
     background: #dcfce7;
     color: #16a34a;
-    font-size: 10px;
-    font-weight: 600;
-    border-radius: 12px;
-    border: 1px solid #bbf7d0;
+    font-size: 9px;
+    font-weight: 500;
+    border-radius: 4px;
   }
 
   /* Read state styling */
   .enhanced-article.read {
-    opacity: 0.7;
-    background: #f9fafb;
+    opacity: 0.75;
+    background: #fafafa;
   }
 
   .enhanced-article.read .article-title {
     color: #6b7280;
-  }
-
-  .enhanced-article.read .article-link {
-    text-decoration: line-through;
   }
 
   /* Hidden state */
