@@ -1,1674 +1,1666 @@
 [
   {
-    "id": "wsj-world-news-73bede3",
+    "id": "yahoo-finance-97b8bd6a91909e3c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Singapore Set to Hold Policy as Economy Shows Tariff Resilience",
+    "url": "https://finance.yahoo.com/news/singapore-set-hold-policy-economy-230000559.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T23:00:00+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.766883+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "high",
+    "contentHash": "97b8bd6a91909e3c"
+  },
+  {
+    "id": "yahoo-finance-9a8eaede1606b9eb",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Trump's trade deals are set to unleash an 11% rally for stocks through year-end, Oppenheimer says",
+    "url": "https://finance.yahoo.com/news/trumps-trade-deals-set-unleash-225917224.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:59:17+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767007+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "9a8eaede1606b9eb"
+  },
+  {
+    "id": "econbrowser-new-32970f8429987581",
+    "sourceId": "econbrowser-new",
+    "sourceName": "Econbrowser",
+    "title": "What Happens If IEEPA Tariffs Are Rule Illegal?",
+    "url": "https://econbrowser.com/archives/2025/07/what-happens-if-ieep-tariffs-are-rule-illegal",
+    "summary": "Oral arguments before the appellate court take place this week. Suppose the tariffs invoked under IEEPA are struck down, then that decision would likely be appealed to the Supreme Court (eventually). From CNBC: The case, known as V.O.S. Selections v. Trump, is the furthest along of more than half a dozen federal lawsuits challenging Trump’s […]",
+    "publishedAt": "2025-07-28T22:50:10+00:00",
+    "fetchedAt": "2025-07-30T08:46:06.828149+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "32970f8429987581"
+  },
+  {
+    "id": "yahoo-finance-312668a686477b0a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Corn Bears Hold onto Losses at Monday’s Close",
+    "url": "https://finance.yahoo.com/news/corn-bears-hold-onto-losses-224843529.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:48:43+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.766720+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "312668a686477b0a"
+  },
+  {
+    "id": "yahoo-finance-03cdd4ad3f7d3327",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cotton Pop Higher on Monday, USDA Shows Drop in Ratings",
+    "url": "https://finance.yahoo.com/news/cotton-pop-higher-monday-usda-224843093.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:48:43+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.766763+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "03cdd4ad3f7d3327"
+  },
+  {
+    "id": "yahoo-finance-375d4fc021148f9e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Soybeans Fall to Start the Week, as Ratings Improve",
+    "url": "https://finance.yahoo.com/news/soybeans-fall-start-week-ratings-224843198.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:48:43+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.766803+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "375d4fc021148f9e"
+  },
+  {
+    "id": "yahoo-finance-4bcfe91b71fc8840",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Air Canada Posts Lower Profit, Higher Revenue in Second Quarter",
+    "url": "https://www.wsj.com/business/earnings/air-canada-posts-lower-profit-higher-revenue-in-second-quarter-99c22331?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:48:00+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.766921+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "4bcfe91b71fc8840"
+  },
+  {
+    "id": "yahoo-finance-08ceff2dafeb1c69",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tariff Deadline, Jobs Report, Tech Earnings: What to Watch This Week",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-28-2025/card/tariff-deadline-jobs-report-tech-earnings-what-to-watch-this-week-gNFCA91rE5nobMGl2Zz1?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:44:20+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.766843+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Equities",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "08ceff2dafeb1c69"
+  },
+  {
+    "id": "yahoo-finance-656e985928c37cb5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Recursion Pharmaceuticals Stock Got Mashed on Monday",
+    "url": "https://finance.yahoo.com/news/why-recursion-pharmaceuticals-stock-got-224343363.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:43:43+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767083+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "656e985928c37cb5"
+  },
+  {
+    "id": "yahoo-finance-634e27c303bbaa71",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Inverse Finance snags $2.6m from DeFi investors to plug bad debt hole",
+    "url": "https://finance.yahoo.com/news/inverse-finance-snags-2-6m-223633110.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:36:33+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767312+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities",
+      "Debt"
+    ],
+    "priority": "normal",
+    "contentHash": "634e27c303bbaa71"
+  },
+  {
+    "id": "wsj-world-news-18e91640d4ca1188",
     "sourceId": "wsj-world-news",
     "sourceName": "WSJ World News",
-    "title": "CK Hutchison Seeks to Include Chinese Investor in Panama Port Deal",
-    "url": "https://www.wsj.com/world/china/ck-hutchison-seeks-to-include-china-investor-in-panama-port-deal-b03933ea",
-    "summary": "CK Hutchison Holdings is in talks with a BlackRock-led consortium to include a strategic investor from China to push ahead with its plans to sell ports on either end of the Panama Canal.",
-    "fullContent": "CK Hutchison Holdings is in talks with a BlackRock-led consortium to include a strategic investor from China to push ahead with its plans to sell ports on either end of the Panama Canal.",
-    "publishedAt": "2025-07-28T01:17:00.000Z",
+    "title": "Thailand, Cambodia Agree to Cease-Fire",
+    "url": "https://www.wsj.com/world/asia/thailand-cambodia-agree-to-cease-fire-9e5b76ac",
+    "summary": "At least 38 people have been killed in fighting linked to a century-old dispute over the countries’ shared border.",
+    "fullContent": "At least 38 people have been killed in fighting linked to a century-old dispute over the countries’ shared border.",
+    "publishedAt": "2025-07-28T22:34:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.064591+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "18e91640d4ca1188"
+  },
+  {
+    "id": "wsj-world-news-42d85988",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Thailand, Cambodia Agree to Cease-Fire",
+    "url": "https://www.wsj.com/world/asia/thailand-cambodia-agree-to-cease-fire-9e5b76ac",
+    "summary": "At least 38 people have been killed in fighting linked to a century-old dispute over the countries&#x2019; shared border.",
+    "fullContent": "At least 38 people have been killed in fighting linked to a century-old dispute over the countries&#x2019; shared border.",
+    "publishedAt": "2025-07-28T22:34:00.000Z",
     "fetchedAt": "2025-08-04T09:59:18.965Z",
     "category": "news",
     "tags": [
       "news"
     ],
     "priority": "normal",
-    "contentHash": "73bede3"
+    "contentHash": "42d85988"
   },
   {
-    "id": "economist-finance-31c49629",
-    "sourceId": "economist-finance",
-    "sourceName": "Economist Finance",
-    "title": "",
-    "url": "https://www.economist.com/finance-and-economics/2025/07/28/europe-averts-its-trumpian-trade-nightmare",
+    "id": "yahoo-finance-4e1b7806091d948e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Markets are about to kick off a huge week of earnings and macro data",
+    "url": "https://finance.yahoo.com/news/markets-kick-off-huge-week-223300465.html",
     "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-28T00:11:36.000Z",
-    "fetchedAt": "2025-08-04T06:57:22.178Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "31c49629"
-  },
-  {
-    "id": "economist-finance-447fc9b5",
-    "sourceId": "economist-finance",
-    "sourceName": "Economist Finance",
-    "title": "Europe averts its Trumpian trade nightmare",
-    "url": "https://www.economist.com/finance-and-economics/2025/07/28/europe-averts-its-trumpian-trade-nightmare",
-    "summary": "A deal with America chooses certain tariffs over risky retaliation",
-    "fullContent": "A deal with America chooses certain tariffs over risky retaliation",
-    "publishedAt": "2025-07-28T00:11:36.000Z",
-    "fetchedAt": "2025-08-05T11:27:53.665Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "447fc9b5"
-  },
-  {
-    "id": "bloomberg-markets-e61019a6dc819c71",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Gold Holds Decline as US-EU Trade Deal Eases Some Haven Demand",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
-    "summary": "Gold steadied after the US and European Union announced they had reached a tariff agreement, staving off some concerns about a potentially painful trade war between the economies.",
-    "publishedAt": "2025-07-27T23:58:55+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.597925+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "e61019a6dc819c71"
-  },
-  {
-    "id": "bloomberg-markets-5be1dfd570ba6ff5",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Gold Steadies as Traders Weigh US-EU Trade Deal Ahead of the Fed",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
-    "summary": "Gold steadied after the US and European Union announced a tariff agreement, staving off some concern about a potentially painful trade war between the economies.",
-    "publishedAt": "2025-07-27T23:58:55+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.099339+00:00",
-    "category": "markets",
-    "tags": [
-      "Commodities",
-      "Markets",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "5be1dfd570ba6ff5"
-  },
-  {
-    "id": "bloomberg-markets-cf382b52df2c6b78",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Gold Steadies as Markets Mull US-EU Deal Ahead of the Fed",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/gold-holds-decline-as-us-eu-trade-deal-eases-some-haven-demand",
-    "summary": "Gold wavered after the US and European Union announced a tariff agreement, staving off some concern about a potentially painful trade war between the economies.",
-    "publishedAt": "2025-07-27T23:58:55+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.018836+00:00",
-    "category": "markets",
-    "tags": [
-      "Commodities",
-      "M&A",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "cf382b52df2c6b78"
-  },
-  {
-    "id": "et-markets-25bfe393a66891f5",
-    "sourceId": "et-markets",
-    "sourceName": "Economic Times",
-    "title": "Why 60% of NSE 500 stocks remain below their 2024 highs",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-60-of-nse-500-stocks-remain-below-their-2024-highs/articleshow/122941990.cms",
-    "summary": "Despite a recent market rebound, many stocks are still below their 2024 highs. An ETIG study reveals that a significant portion of NSE 500 stocks remain considerably lower than their peak values. Analysts suggest these stocks may struggle to reach previous highs due to valuation concerns and limited earnings growth prospects.",
-    "publishedAt": "2025-07-27T23:54:32+00:00",
-    "fetchedAt": "2025-07-28T03:50:55.474095+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "25bfe393a66891f5"
-  },
-  {
-    "id": "bbc-business-8cdfb01e3616654a",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "The Caribbean islands that give you a passport if you buy a home",
-    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo",
-    "summary": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
-    "publishedAt": "2025-07-27T23:46:06+00:00",
-    "fetchedAt": "2025-07-28T08:47:55.135459+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "8cdfb01e3616654a"
-  },
-  {
-    "id": "bbc-business-f594ce0ab1abf4ad",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "The Caribbean islands that give you a passport if you buy a home",
-    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo?at_medium=RSS&at_campaign=rss",
-    "summary": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
-    "fullContent": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
-    "publishedAt": "2025-07-27T23:46:06+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.661208+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f594ce0ab1abf4ad"
-  },
-  {
-    "id": "bbc-business-25026b11",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "",
-    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-27T23:46:06.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.136Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "25026b11"
-  },
-  {
-    "id": "bbc-business-23b95b4f",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "The Caribbean islands that give you a passport if you buy a home",
-    "url": "https://www.bbc.com/news/articles/cly88xg5d9vo?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
-    "fullContent": "Five of the region's island nations offer such citizenship by investment for as little as $200,000.",
-    "publishedAt": "2025-07-27T23:46:06.000Z",
-    "fetchedAt": "2025-08-05T11:27:56.048Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "23b95b4f"
-  },
-  {
-    "id": "calculated-risk-c425b6c546d7b894",
-    "sourceId": "calculated-risk",
-    "sourceName": "Calculated Risk",
-    "title": "Sunday Night Futures",
-    "url": "http://www.calculatedriskblog.com/2025/07/sunday-night-futures_27.html",
-    "summary": "Weekend: • Schedule for Week of July 20, 2025 Monday: • At 10:00 AM ET, the Q2 2025 Housing Vacancies and Homeownership from the Census Bureau. • At 10:30 AM, Dallas Fed Survey of Manufacturing Activity for July. From CNBC: Pre-Market Data and Bloomberg futures S&P 500 are up 28 and DOW futures are up 168 (fair value). Oil prices were down over the last week with WTI futures at $65.16 per barrel and Brent at $68.44 per barrel. A year ago, WTI was at $79, and Brent was at $81 - so WTI oil prices are down about 20% year-over-year. Here is a graph from Gasbuddy.com for nationwide gasoline prices. Nationally prices are at $3.12 per gallon. A year ago, prices were at $3.49 per gallon, so gasoline prices are down $0.37 year-over-year.",
-    "publishedAt": "2025-07-27T23:46:00+00:00",
-    "fetchedAt": "2025-07-28T04:04:08.176183+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "Commodities"
-    ],
-    "priority": "high",
-    "contentHash": "c425b6c546d7b894"
-  },
-  {
-    "id": "gary-marcus-a3befcf5df958771",
-    "sourceId": "gary-marcus",
-    "sourceName": "Gary Marcus",
-    "title": "What to Expect When You’re Expecting … GPT-5",
-    "url": "https://garymarcus.substack.com/p/what-to-expect-when-youre-expecting-62e",
-    "summary": "7 predictions that might sound familiar",
-    "publishedAt": "2025-07-27T23:39:41+00:00",
-    "fetchedAt": "2025-07-28T06:22:17.975811+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "a3befcf5df958771"
-  },
-  {
-    "id": "gary-marcus-4b9e9e88",
-    "sourceId": "gary-marcus",
-    "sourceName": "Gary Marcus",
-    "title": "",
-    "url": "https://garymarcus.substack.com/p/what-to-expect-when-youre-expecting-62e",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-27T23:39:41.000Z",
-    "fetchedAt": "2025-08-05T09:22:19.541Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "4b9e9e88"
-  },
-  {
-    "id": "bbc-business-c3cb02c5db4bccd9",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "EU and US agree trade deal, with 15% tariffs for European exports to America",
-    "url": "https://www.bbc.com/news/articles/cx2xylk3d07o",
-    "summary": "US President Donald Trump and EU chief Ursula von der Leyen shake on it after \"tough negotiations\" in Scotland.",
-    "publishedAt": "2025-07-27T23:39:11+00:00",
-    "fetchedAt": "2025-07-28T08:47:55.134210+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "c3cb02c5db4bccd9"
-  },
-  {
-    "id": "bloomberg-markets-53941ff94f472c65",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Oil Edges Higher as EU Agrees to US Trade Deal Ahead of Deadline",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/latest-oil-market-news-and-analysis-for-july-28",
-    "summary": "Oil rose after the US and European Union agreed on a trade deal ahead of President Donald Trump’s tariff deadline of Aug. 1.",
-    "publishedAt": "2025-07-27T23:39:05+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.595191+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "53941ff94f472c65"
-  },
-  {
-    "id": "bloomberg-markets-1dcf41ef0f577ec0",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Oil Rises as EU Deal With US Allays Fears of Harmful Trade War",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/latest-oil-market-news-and-analysis-for-july-28",
-    "summary": "Oil rose after the US and European Union reached a trade deal ahead of President Donald Trump’s Aug. 1. deadline, avoiding a tariff war that could have hurt the global economy.",
-    "publishedAt": "2025-07-27T23:39:05+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.017490+00:00",
-    "category": "markets",
-    "tags": [
-      "Commodities",
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1dcf41ef0f577ec0"
-  },
-  {
-    "id": "bloomberg-markets-6a6d733dc77b50e3",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Macau Casino Bulls See Stock Rally Extending as Revenue Grows",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/macau-casino-bulls-see-stock-rally-extending-as-revenue-grows",
-    "summary": "Macau casino stocks are poised to continue their recent outperformance as special events and luxury hotel offerings help drive a recovery in gross gaming revenue, sell-side analysts say.",
-    "publishedAt": "2025-07-27T23:30:00+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.596594+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "normal",
-    "contentHash": "6a6d733dc77b50e3"
-  },
-  {
-    "id": "marketwatch-84f813adc8e76436",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "‘I’m considering giving up my U.S. citizenship’: I’m 39 and moving to the U.K. How should I invest my $30K savings?",
-    "url": "https://www.marketwatch.com/story/im-considering-giving-up-my-u-s-citizenship-im-moving-to-the-u-k-what-should-i-do-with-30-000-cash-34913ce9?mod=mw_rss_topstories",
-    "summary": "“My credit cards are paid off monthly, but I finally paid off my student loans earlier this year.”",
-    "publishedAt": "2025-07-27T23:27:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:25.145918+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "84f813adc8e76436"
-  },
-  {
-    "id": "business-insider-bdac0e9249f4cbde",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Marvel's new 'Fantastic Four' blasts off with $218 million in box office debut",
-    "url": "https://www.businessinsider.com/fantastic-four-first-steps-box-office-numbers-marvel-superhero-movies-2025-7",
-    "summary": "\"The Fantastic Four: First Steps,\" based on the 1961 comic book, stars Pedro Pascal, Vanessa Kirby, Joseph Quinn, and Ebon Moss-Bachrach.",
-    "publishedAt": "2025-07-27T23:22:12+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.891879+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "bdac0e9249f4cbde"
-  },
-  {
-    "id": "ft-economics-28f65634a12e8a91",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "US and EU reach tariff agreement to avert trade war",
-    "url": "https://www.ft.com/content/c1737bd3-9a1f-471d-9ae3-b102d6e25625",
-    "summary": "Deal follows Scotland talks between Donald Trump and European Commission head Ursula von der Leyen",
-    "publishedAt": "2025-07-27T23:19:25+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.914053+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "28f65634a12e8a91"
-  },
-  {
-    "id": "bbc-technology-20ef142bf185e15d",
-    "sourceId": "bbc-technology",
-    "sourceName": "BBC Technology",
-    "title": "Google failed to warn 10 million of Turkey earthquake severity",
-    "url": "https://www.bbc.com/news/articles/c77v2kx304go?at_medium=RSS&at_campaign=rss",
-    "summary": "The tech giant said only 469 serious warnings were sent out ahead of the 7.8 magnitude quake.",
-    "fullContent": "The tech giant said only 469 serious warnings were sent out ahead of the 7.8 magnitude quake.",
-    "publishedAt": "2025-07-27T23:16:50+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.565664+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology",
-      "Tech"
-    ],
-    "priority": "normal",
-    "contentHash": "20ef142bf185e15d"
-  },
-  {
-    "id": "marketwatch-1a9c576462a58799",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "‘The selling agent is long dead’: My $250,000 term life-insurance policy costs $2,000 a month. I’m 80. Is it time to ditch it?",
-    "url": "https://www.marketwatch.com/story/the-selling-agent-is-long-dead-my-250-000-term-life-insurance-policy-costs-2-000-a-month-im-80-is-it-time-to-ditch-it-681e4df6?mod=mw_rss_topstories",
-    "summary": "“I took out a $250,000 policy for a 10-year term. At the time, the payments were $200 per month.”",
-    "publishedAt": "2025-07-27T23:15:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:25.146123+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "1a9c576462a58799"
-  },
-  {
-    "id": "zerohedge-0015560863120b72",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "US Sanctions Maduro-Linked Venezuelan 'Cartel Of The Suns' As Terrorist Entity",
-    "url": "https://www.zerohedge.com/geopolitical/us-sanctions-maduro-linked-venezuelan-cartel-suns-terrorist-entity",
-    "summary": "US Sanctions Maduro-Linked Venezuelan 'Cartel Of The Suns' As Terrorist Entity The Treasury Department on Friday designated Venezuela’s Cartel de los Soles - known in English as the Cartel of the Suns - as a Specially Designated Global Terrorist (SDGT) entity, accusing President Nicolas Maduro and senior members of his regime of leading the group and supporting major drug cartels whose activities threaten U.S. national security. The designation, issued by the Treasury’s Office of Foreign Assets Control (OFAC) on July 25 under counterterrorism authorities, blocks all property and interests of the group within U.S. jurisdiction, and generally prohibits Americans from engaging in transactions with it. “Today’s action further exposes the illegitimate Maduro regime’s facilitation of narco-terrorism through terrorist groups like Cartel de los Soles,” Treasury Secretary Scott Bessent said in a statement. “The Treasury Department will continue to execute on President [Donald] Trump’s pledge to",
-    "publishedAt": "2025-07-27T23:15:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.528613+00:00",
-    "category": "markets",
-    "tags": [
-      "Debt",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "0015560863120b72"
-  },
-  {
-    "id": "rzepczynski-e202e4b6e6e72969",
-    "sourceId": "rzepczynski",
-    "sourceName": "Disciplined Systematic Global Macro",
-    "title": "Choose your modeling technique wisely",
-    "url": "https://mrzepczynski.blogspot.com/2025/07/choose-your-modeling-technique-wisely.html",
-    "summary": "One of the key challenges for any quantitative modeler is selecting the appropriate modeling technique. This involves not selecting the features or predictors to be included in the model, but rather the statistical techniques that will generate the best predictions. Not all modeling approaches are the same, so knowing when to use the best techniques is an important skill. The paper \"From OLS to neural nets: Comparing regression models in systematic trading\" is not the final word on this question. Still, it does a good job of making comparisons across techniques. It does not address all the machine learning techniques, yet it does compare many of the simple techniques that most researchers may employ. The tables from the paper are nice to have handy for anyone starting out when thinking about modeling.",
-    "publishedAt": "2025-07-27T23:11:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.907655+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "AI"
-    ],
-    "priority": "high",
-    "contentHash": "e202e4b6e6e72969"
-  },
-  {
-    "id": "marketwatch-f462502b8c693c22",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "Is now a good time to invest in the S&P 500? I’m 66, retired and have $200K to invest.",
-    "url": "https://www.marketwatch.com/story/i-have-no-debts-is-this-a-good-time-to-invest-in-the-s-p-500-im-66-retired-and-have-700k-3439a13e?mod=mw_rss_topstories",
-    "summary": "On Friday, the S&P 500 achieved its fifth consecutive record finish, its longest streak of record closing highs since July 10, 2024.",
-    "publishedAt": "2025-07-27T23:05:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:25.146321+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f462502b8c693c22"
-  },
-  {
-    "id": "venkatesh-rao-69f92d6d640aed74",
-    "sourceId": "venkatesh-rao",
-    "sourceName": "Venkatesh Rao",
-    "title": "Texts as Toys",
-    "url": "https://contraptions.venkateshrao.com/p/texts-as-toys",
-    "summary": "Writing is now toy-making, reading is now playing with toys",
-    "publishedAt": "2025-07-27T23:02:12+00:00",
-    "fetchedAt": "2025-07-28T06:22:17.817517+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "69f92d6d640aed74"
-  },
-  {
-    "id": "scmp-business-f35aa31a61c2fb9e",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Back to basics: Keenon Robotics takes pragmatic approach with humanoids",
-    "url": "https://www.scmp.com/tech/tech-trends/article/3319728/back-basics-softbank-backed-keenon-robotics-takes-pragmatic-approach-humanoids?utm_source=rss_feed",
-    "summary": "Deploying humanoid robots in the real world will be a gradual process, beginning with simple and repetitive tasks, while truly versatile humanoid robots remain a distant goal, according to Shanghai-based Keenon Robotics. Founded in 2010, Keenon has emerged as the world’s leading commercial service robot manufacturer, boasting a global shipment market share of nearly 23 per cent last year, according to the research firm IDC. The company said it had sold more than 100,000 robot units worldwide so...",
-    "publishedAt": "2025-07-27T23:00:11+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.590977+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "f35aa31a61c2fb9e"
-  },
-  {
-    "id": "techmeme-cd8fe3c095727ae8",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "AI tools like ChatGPT are helping neurodivergent individuals navigate social encounters with real-time guidance, though some experts warn of overreliance (Hani Richter/Reuters)",
-    "url": "http://www.techmeme.com/250727/p21#a250727p21",
-    "summary": "Hani Richter / Reuters: AI tools like ChatGPT are helping neurodivergent individuals navigate social encounters with real-time guidance, though some experts warn of overreliance  —  AI tools like ChatGPT are helping neurodivergent users communicate more clearly and confidently — though some experts warn that overreliance could come at a cost.",
-    "publishedAt": "2025-07-27T23:00:01+00:00",
-    "fetchedAt": "2025-07-28T06:12:26.068149+00:00",
-    "category": "technology",
-    "tags": [
-      "AI",
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "cd8fe3c095727ae8"
-  },
-  {
-    "id": "techmeme-effb867218f3f9aa",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "ChatGPT and other AI tools are helping neurodivergent people navigate social encounters with real-time guidance, though some experts warn of an overreliance (Hani Richter/Reuters)",
-    "url": "http://www.techmeme.com/250727/p21#a250727p21",
-    "summary": "Hani Richter / Reuters: ChatGPT and other AI tools are helping neurodivergent people navigate social encounters with real-time guidance, though some experts warn of an overreliance  —  AI tools like ChatGPT are helping neurodivergent users communicate more clearly and confidently — though some experts warn that overreliance could come at a cost.",
-    "publishedAt": "2025-07-27T23:00:01+00:00",
-    "fetchedAt": "2025-07-28T08:46:17.300624+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "effb867218f3f9aa"
-  },
-  {
-    "id": "bloomberg-economics-94749016585ccd61",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "US, China Officials to Meet in Sweden to Extend Trade Truce",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-china-negotiators-meet-in-stockholm-to-extend-trade-truce",
-    "summary": "US and Chinese officials are meeting Monday to extend their tariff detente beyond a mid-August deadline, and haggle over other ways to further defuse trade tensions.",
-    "publishedAt": "2025-07-27T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.978069+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "94749016585ccd61"
-  },
-  {
-    "id": "oil-price-40a9fbdfd1ae87d2",
-    "sourceId": "oil-price",
-    "sourceName": "OilPrice.com",
-    "title": "China Ditches U.S. LNG as Russian Pipelines and Domestic Output Surge",
-    "url": "https://oilprice.com/Energy/Natural-Gas/China-Ditches-US-LNG-as-Russian-Pipelines-and-Domestic-Output-Surge.html",
-    "summary": "Over the past couple of years, China has become the world’s largest importer of Liquefied Natural Gas (LNG), surpassing Japan as the top buyer of super-chilled gas since 2021. China’s surging LNG imports have been shaping Asian energy flows, with the country accounting for more than 40% of the continent's total LNG import growth. However, China’s dominance in LNG markets now appears in jeopardy, and we are seeing a prolonged decline in imports. According to ship-tracking data by Kpler via Bloomberg, China’s LNG imports are…",
-    "publishedAt": "2025-07-27T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.902600+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "40a9fbdfd1ae87d2"
-  },
-  {
-    "id": "cepr-discussion-papers-8e0baeee09b4893c",
-    "sourceId": "cepr-discussion-papers",
-    "sourceName": "CEPR Discussion Papers",
-    "title": "DP20496 Financial Advisors and Investors’ Bias",
-    "url": "https://cepr.org/publications/dp20496",
-    "summary": "We study an intervention by a brokerage firm providing advisory services to high-net- worth investors. In 2018, the firm changed the information displayed on its internal platform, so that financial advisors could no longer observe which clients’ holdings were in paper gain or loss. Using data on portfolio stock transactions between 2016 and 2021, we show that, while all investors exhibit a significant disposition effect before 2018, i.e., a greater propensity to realize gains than losses, highly-advised investors see their bias significantly reduced afterward. Our paper shows that by appropriately manipulating advisors’ information, financial firms can successfully reduce their clients’ biases.",
-    "publishedAt": "2025-07-27T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:12.896763+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "8e0baeee09b4893c"
-  },
-  {
-    "id": "cepr-discussion-papers-b4b485b5fa6ffc20",
-    "sourceId": "cepr-discussion-papers",
-    "sourceName": "CEPR Discussion Papers",
-    "title": "DP20495 Regulating Entrepreneurship: The Case of Capital Requirements",
-    "url": "https://cepr.org/publications/dp20495",
-    "summary": "Governments have a long history of regulating entrepreneurs’ use of limited liability by mandating a minimum amount of paid-in equity. While opponents argue that these requirements pose an unnecessary barrier to entrepreneurship, proponents maintain that they protect stakeholders, in part by screening out low-quality entrepreneurship. We exploit a 2012 Norwegian reform that lowered the capital requirement from $17,000 to $5,000 to study this quantity-quality trade-off. Our setting includes detailed data on both firms and the underlying entrepreneurs, providing comprehensive proxies for entrepreneurial quality. We first show that incorporation rates double after the reform and remain elevated over time. Post-reform entrants are considerably smaller in terms of assets and revenues but do not differ in terms of growth, survival rates, profitability, productivity, or leverage. Furthermore, post-reform entrants have similar past income levels, age, and educational attainment as pre-reform e",
-    "publishedAt": "2025-07-27T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:12.897193+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "b4b485b5fa6ffc20"
-  },
-  {
-    "id": "marketwatch-c63b9165c65fecd7",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "‘I have a degree in economics’: I’m 70, earn $250K a year and have $3.7 million in investments. Is it time to retire?",
-    "url": "https://www.marketwatch.com/story/i-have-a-degree-in-economics-im-70-earn-250k-a-year-and-have-3-7-million-in-investments-is-it-time-to-retire-4cf10c13?mod=mw_rss_topstories",
-    "summary": "“I have a home worth $1.3 million with $900,000 in equity. I have not paid it off as I have a 3% interest rate.”",
-    "publishedAt": "2025-07-27T22:59:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:25.146519+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "c63b9165c65fecd7"
-  },
-  {
-    "id": "marketwatch-2e8bf21c150fdb2b",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "‘I have felt invisible, disrespected and heartbroken’: My firstborn son wants nothing to do with me. Do I cut him off?",
-    "url": "https://www.marketwatch.com/story/i-have-felt-invisible-disrespected-and-heartbroken-my-firstborn-son-wants-nothing-to-do-with-me-do-i-cut-him-off-a17bb951?mod=mw_rss_topstories",
-    "summary": "“My second wife and I agreed that 25% of our total estate would go to my older son, and the remainder to our younger son.”",
-    "publishedAt": "2025-07-27T22:56:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:25.146732+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2e8bf21c150fdb2b"
-  },
-  {
-    "id": "nate-silver-102ca5a4e7f7202f",
-    "sourceId": "nate-silver",
-    "sourceName": "Nate Silver",
-    "title": "Who has the brightest future in the NBA?",
-    "url": "https://www.natesilver.net/p/brightest-future-in-the-nba",
-    "summary": "Part II of our Future of the Franchise rankings.",
-    "publishedAt": "2025-07-27T22:49:54+00:00",
-    "fetchedAt": "2025-07-28T06:33:15.293615+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "102ca5a4e7f7202f"
-  },
-  {
-    "id": "nate-silver-50c75d4b",
-    "sourceId": "nate-silver",
-    "sourceName": "Nate Silver",
-    "title": "",
-    "url": "https://www.natesilver.net/p/brightest-future-in-the-nba",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-27T22:49:54.000Z",
-    "fetchedAt": "2025-08-04T10:01:40.864Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "50c75d4b"
-  },
-  {
-    "id": "nate-silver-1531aae3",
-    "sourceId": "nate-silver",
-    "sourceName": "Nate Silver",
-    "title": "Who has the brightest future in the NBA?",
-    "url": "https://www.natesilver.net/p/brightest-future-in-the-nba",
-    "summary": "Part II of our Future of the Franchise rankings.",
-    "fullContent": "Part II of our Future of the Franchise rankings.",
-    "publishedAt": "2025-07-27T22:49:54.000Z",
-    "fetchedAt": "2025-08-05T11:30:16.132Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "1531aae3"
-  },
-  {
-    "id": "fortune-216239650f10a518",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Russia starts direct flights to North Korea with initial service just once a month and tickets priced at $570",
-    "url": "https://fortune.com/2025/07/27/russia-direct-flights-north-korea-nordwind-airlines-moscow-pyongyang/",
-    "summary": "\"For the first time in more than 70 years of diplomatic relations, we are launching direct flights between the capitals of our countries.\"",
-    "publishedAt": "2025-07-27T22:48:04+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.629540+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "216239650f10a518"
-  },
-  {
-    "id": "thehindubusinessline-ccc32a814f5b912d",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "Hindu BusinessLine",
-    "title": "Markets brace for crucial week: Fed, jobs data, and big tech in focus",
-    "url": "https://www.thehindubusinessline.com/markets/markets-brace-for-crucial-week-fed-jobs-data-and-big-tech-in-focus/article69863160.ece",
-    "summary": "While rate cuts aren’t expected, investors are looking for forward guidance amid inflation and trade uncertainties.",
-    "publishedAt": "2025-07-27T22:43:32+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.358430+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Tech"
-    ],
-    "priority": "high",
-    "contentHash": "ccc32a814f5b912d"
-  },
-  {
-    "id": "zerohedge-a899b209130651d3",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "This Scene Perfectly Defines The Fake Legacy Media...",
-    "url": "https://www.zerohedge.com/political/scene-perfectly-defines-fake-legacy-media",
-    "summary": "This Scene Perfectly Defines The Fake Legacy Media... Authored by Steve Watson via Modernity.news, John Brennan, the Obama CIA Deep Stater currently up to his neck in the oversight majority staff report that details how he and others under Obama cooked up the entire Russia collusion hoax, appeared on MSNBC and provided a snapshot that perfectly encapsulates the legacy media. Brennan openly accused DNI Tulsi Gabbard of lying even though the documents are declassified for all to read. And he did this with Jen Psaki, the former Biden Press Secretary. On Wednesday John Brennan went on with Jen Psaki to lash out at Tulsi Gabbard, accusing her of lying. Two Obama admin liars lying about lying, running cover for a hoax. Legacy media, defined. pic.twitter.com/i1fISs0Zc1 — Western Lensman (@WesternLensman) July 25, 2025 Actual journalist Matt Taibbi added this succinct observation. Perfect snapshot of modern “news”: a former White House flack masquerading as an anchor, interviewing an ex-CIA ch",
-    "publishedAt": "2025-07-27T22:40:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.530115+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a899b209130651d3"
-  },
-  {
-    "id": "bloomberg-markets-653c00d8e966bf8e",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Stock Futures Rise as Trump, EU Reach Tariff Deal: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
-    "summary": "Stock-index futures climbed after the European Union struck a deal with President Donald Trump that subjects most of the bloc’s exports to 15% tariffs, easing fears of a damaging trade war.",
-    "publishedAt": "2025-07-27T22:25:35+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.594151+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "653c00d8e966bf8e"
-  },
-  {
-    "id": "bloomberg-markets-87afc37af6d69cc8",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Stock Rally to Extend as Futures Rise on EU Deal: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
-    "summary": "The record rally in US stocks looks set for more gains after the European Union reached a trade deal with President Donald Trump, further easing fears of a damaging trade war.",
-    "publishedAt": "2025-07-27T22:25:35+00:00",
-    "fetchedAt": "2025-07-28T04:44:19.363818+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "87afc37af6d69cc8"
-  },
-  {
-    "id": "bloomberg-markets-f1a9c9dccf35c58c",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "European Stocks Rise as US Deal Eases Tariff Fears: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
-    "summary": "European stocks and US equity futures climbed after the European Union reached a trade deal with President Donald Trump, further easing fears of a damaging trade war.",
-    "publishedAt": "2025-07-27T22:25:35+00:00",
-    "fetchedAt": "2025-07-28T08:46:15.640546+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "f1a9c9dccf35c58c"
-  },
-  {
-    "id": "bloomberg-markets-576845da45e9c4a3",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "S&amp;P Futures Rise as EU-US Trade Deal Brings Relief: Markets Wrap",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/us-futures-climb-after-trump-agrees-eu-tariff-deal-markets-wrap",
-    "summary": "US equity futures climbed along with the dollar after the European Union reached a trade deal with President Donald Trump, further easing fears of a damaging trade war.",
-    "publishedAt": "2025-07-27T22:25:35+00:00",
-    "fetchedAt": "2025-07-28T09:46:47.017191+00:00",
-    "category": "markets",
-    "tags": [
-      "M&A",
-      "Currency",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "576845da45e9c4a3"
-  },
-  {
-    "id": "fortune-6bc8265046ebf7fc",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Dow futures rise on US-EU trade pact as investors brace for fast and furious week of earnings, China talks, Fed, GDP, jobs report, tariff deadline",
-    "url": "https://fortune.com/2025/07/27/stock-market-today-dow-futures-us-eu-trade-deal-earnings-fed-meeting-china-talks/",
-    "summary": "Investors will not be able to look away over the coming week as every single day could produce significant market-moving news.",
-    "publishedAt": "2025-07-27T22:21:31+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.629947+00:00",
+    "publishedAt": "2025-07-28T22:33:00+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767213+00:00",
     "category": "markets",
     "tags": [
       "Earnings",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "6bc8265046ebf7fc"
-  },
-  {
-    "id": "business-insider-e7bcef0175989059",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Ryan Reynolds' ad agency, Maximum Effort, was behind the Gwyneth Paltrow Astronomer ad",
-    "url": "https://www.businessinsider.com/ryan-reynolds-maximum-effort-gwyneth-paltrow-astronomer-ad-2025-7",
-    "summary": "Astronomer, the tech company that went viral for the wrong reasons, worked with Ryan Reynolds' Maximum Effort and Gwyneth Paltrow to rehabilitate its image.",
-    "publishedAt": "2025-07-27T22:11:36+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.892073+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Tech"
+      "Equities"
     ],
     "priority": "normal",
-    "contentHash": "e7bcef0175989059"
+    "contentHash": "4e1b7806091d948e"
   },
   {
-    "id": "fortune-8d09bb7a753e4c07",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Boeing expects more than 3,200 fighter-jet workers to strike after they reject contract offer despite union leaders calling for yes vote",
-    "url": "https://fortune.com/2025/07/27/boeing-strike-st-louis-contract-wage-hike-fighter-jet-plant-f18-super-hornet/",
-    "summary": "The proposed contract that was rejected included a 20% wage increase over four years.",
-    "publishedAt": "2025-07-27T22:09:08+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.630260+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "8d09bb7a753e4c07"
-  },
-  {
-    "id": "zerohedge-a10fcc4d5c0907be",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "\"China Did Not Start The War\": Another Fiery Showdown At The UN Over Beijing-Moscow Relations",
-    "url": "https://www.zerohedge.com/geopolitical/china-did-not-start-war-another-fiery-showdown-un-over-beijing-moscow-relations",
-    "summary": "\"China Did Not Start The War\": Another Fiery Showdown At The UN Over Beijing-Moscow Relations The United States and China once again clashed at the United Nations during a Security Council meeting, which occurred Friday. This has been a more frequent and growing trend over the last year of grinding conflict, into the Trump administration. Acting US Ambassador Dorothy Shea accused Beijing of covertly aiding Moscow's military machine, and urged China to \"stop fueling Russia’s aggression\" in Ukraine. Washington has long suspected Beijing of intentionally shipping dual civilian-military goods in order to prop up Russia's defense industrial sector. \"Beijing’s claim to have implemented strong export controls on dual-use goods falls apart in the face of daily recovery of Chinese-produced components in the drones, weapons, and vehicles that Russia uses against Ukraine,\" Ambassador Shea said. Beijing firmly rejected the allegations, saying it enforces legal and strict controls over its exports,",
-    "publishedAt": "2025-07-27T22:05:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.531210+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "a10fcc4d5c0907be"
-  },
-  {
-    "id": "bloomberg-markets-7e20564f8e81e251",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Hedging by Australia’s Pension Funds Set to Boost Local Dollar",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/hedging-by-australia-s-pension-funds-set-to-boost-local-dollar",
-    "summary": "The Australian dollar is set for further gains as the nation’s biggest pension funds have reason to boost hedging of their US assets to shield them from policy uncertainties.",
-    "publishedAt": "2025-07-27T22:01:55+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.598109+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Currency"
-    ],
-    "priority": "high",
-    "contentHash": "7e20564f8e81e251"
-  },
-  {
-    "id": "scmp-business-6e71e48847bfd7d2",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Yuen Yuen Ang on how China can turn ‘polycrisis’ into ‘polytunity’",
-    "url": "https://www.scmp.com/economy/china-economy/article/3319375/yuen-yuen-ang-how-china-can-turn-polycrisis-polytunity?utm_source=rss_feed",
-    "summary": "Yuen Yuen Ang is the Alfred Chandler Chair Professor of political economy at Johns Hopkins University. She is an influential scholar, writing extensively on China’s political and economic trajectory, its international relations and its adaptive development in a fragmented, unpredictable world. Originally from Singapore, her award-winning work includes the books How China Escaped the Poverty Trap and China’s Gilded Age. This interview first appeared in SCMP Plus. For other interviews in the Open...",
-    "publishedAt": "2025-07-27T22:00:11+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.591229+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "breaking",
-    "contentHash": "6e71e48847bfd7d2"
-  },
-  {
-    "id": "weekend-reads-6b1b605535d1ce1b",
-    "sourceId": "weekend-reads",
-    "sourceName": "Weekend Reads",
-    "title": "Weekend Reads #429",
-    "url": "https://weekendreads.substack.com/p/weekend-reads-429",
-    "summary": "A collection of cross-disciplinary thoughts, perspectives, and opinions",
-    "publishedAt": "2025-07-27T21:53:29+00:00",
-    "fetchedAt": "2025-07-28T06:12:24.268458+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "low",
-    "contentHash": "6b1b605535d1ce1b"
-  },
-  {
-    "id": "ft-economics-bb0e1bec2061e590",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "FirstFT: The US and EU reach a trade deal",
-    "url": "https://www.ft.com/content/d4605098-0961-4ef7-b91f-2a5f8a5fe8d8",
-    "summary": "Also in today’s newsletter, Taiwanese voters reject attempt to recall KMT lawmakers, and China proposes global body to govern AI",
-    "publishedAt": "2025-07-27T21:40:43+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.914251+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "AI",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "bb0e1bec2061e590"
-  },
-  {
-    "id": "wsj-youtube-a8a695fb5a6bd299",
-    "sourceId": "wsj-youtube",
-    "sourceName": "Wall Street Journal",
-    "title": "Officials Seek Terrorism Charge After Suspect Attacks People Inside Walmart | WSJ News",
-    "url": "https://www.youtube.com/watch?v=tIaleS57nPc",
-    "summary": "Officials took a suspect into custody after at least 11 people were stabbed and injured in a Michigan Walmart store. The motive remains under investigation, police said. Photo: Ryan Sun/AP #WSJ #attack #walmart",
-    "fullContent": "Officials took a suspect into custody after at least 11 people were stabbed and injured in a Michigan Walmart store. The motive remains under investigation, police said. Photo: Ryan Sun/AP #WSJ #attack #walmart",
-    "publishedAt": "2025-07-27T21:37:44+00:00",
-    "fetchedAt": "2025-07-30T15:00:43.123220+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "normal",
-    "contentHash": "a8a695fb5a6bd299"
-  },
-  {
-    "id": "marketwatch-3054a2a7204c30e7",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "Trump announces deal with E.U. imposing 15% tariffs, averting trade war",
-    "url": "https://www.marketwatch.com/story/trump-announces-deal-with-e-u-imposing-15-tariffs-averting-trade-war-819e8e87?mod=mw_rss_topstories",
-    "summary": "The U.S. and the European Union have agreed to a trade framework that will result in 15% tariffs on most imported European goods, President Donald Trump announced Sunday. The deal comes a week before Trump’s Aug. 1 deadline, averting an all-out trade war between the two economic giants.",
-    "publishedAt": "2025-07-27T21:36:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:25.146944+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "3054a2a7204c30e7"
-  },
-  {
-    "id": "scmp-business-930c847bd1b7e98a",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "When travellers think sustainability, make them think Greater Bay Area",
-    "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3319224/when-travellers-think-sustainability-make-them-think-greater-bay-area?utm_source=rss_feed",
-    "summary": "Earlier this year, Hong Kong launched its first fully electric ferry. In June, jurisdictions within the Greater Bay Area development zone marked a national event for the environment. Against this backdrop, a quiet but important shift is under way. Policymakers in the Greater Bay Area are no longer just thinking about sustainability; they are setting it in motion. With the development zone becoming a hub for experimentation in smart infrastructure and climate innovation, the time is ripe to...",
-    "publishedAt": "2025-07-27T21:30:08+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.591470+00:00",
-    "category": "markets",
-    "tags": [
-      "ESG",
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "930c847bd1b7e98a"
-  },
-  {
-    "id": "zerohedge-667a76b40c63fd76",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Judge Maintains Nationwide Block On Trump's Birthright Citizenship Order",
-    "url": "https://www.zerohedge.com/political/judge-maintains-nationwide-block-trumps-birthright-citizenship-order",
-    "summary": "Judge Maintains Nationwide Block On Trump's Birthright Citizenship Order Authored by Sam Dorman via The Epoch Times, A federal judge in Massachusetts has maintained his nationwide block on President Donald Trump’s policy restricting birthright citizenship, saying that a narrower injunction would be impractical and create too many problems for states that sued the administration. “The record does not support a finding that any narrower option would feasibly and adequately protect the plaintiffs from the injuries they have shown they are likely to suffer if the unlawful policy announced in [Trump’s] Executive Order takes effect during the pendency of this lawsuit,” U.S. District Judge Leo Sorokin said in an opinion on July 25. Sorokin’s opinion came nearly a month after the Supreme Court’s decision in Trump v. CASA, in which a majority of justices said nationwide injunctions likely exceeded the authority granted to courts by Congress. Justice Amy Coney Barrett’s majority opinion left ope",
-    "publishedAt": "2025-07-27T21:30:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.532351+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "667a76b40c63fd76"
-  },
-  {
-    "id": "honest-broker-34b74b57ac8be3db",
-    "sourceId": "honest-broker",
-    "sourceName": "The Honest Broker",
-    "title": "As AI Gets Smarter, It Acts More Evil",
-    "url": "https://www.honest-broker.com/p/as-ai-gets-smarter-it-acts-more-evil",
-    "summary": "I share disturbing evidence, a hypothesis, and a prediction—tell me what you think",
-    "publishedAt": "2025-07-27T21:26:51+00:00",
-    "fetchedAt": "2025-07-28T06:33:13.418264+00:00",
-    "category": "non-money",
-    "tags": [
-      "AI",
-      "Non-Money"
-    ],
-    "priority": "high",
-    "contentHash": "34b74b57ac8be3db"
-  },
-  {
-    "id": "honest-broker-4f192524",
-    "sourceId": "honest-broker",
-    "sourceName": "The Honest Broker",
-    "title": "",
-    "url": "https://www.honest-broker.com/p/as-ai-gets-smarter-it-acts-more-evil",
+    "id": "yahoo-finance-5af23c733d4c2cef",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "\"AI Won't Stop Your Water Heater From Leaking\" : Lowe's CEO Says Skilled Trades Are Gen Z's Job Security Hack",
+    "url": "https://finance.yahoo.com/news/ai-wont-stop-water-heater-223128063.html",
     "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-27T21:26:51.000Z",
-    "fetchedAt": "2025-08-04T10:03:08.930Z",
-    "category": "eclectic",
+    "publishedAt": "2025-07-28T22:31:28+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767473+00:00",
+    "category": "markets",
     "tags": [
-      "eclectic"
+      "Equities",
+      "AI"
     ],
     "priority": "normal",
-    "contentHash": "4f192524"
+    "contentHash": "5af23c733d4c2cef"
   },
   {
-    "id": "honest-broker-4776e302",
-    "sourceId": "honest-broker",
-    "sourceName": "The Honest Broker",
-    "title": "As AI Gets Smarter, It Acts More Evil",
-    "url": "https://www.honest-broker.com/p/as-ai-gets-smarter-it-acts-more-evil",
-    "summary": "I share disturbing evidence, a hypothesis, and a prediction&#8212;tell me what you think",
-    "fullContent": "I share disturbing evidence, a hypothesis, and a prediction&#8212;tell me what you think",
-    "publishedAt": "2025-07-27T21:26:51.000Z",
-    "fetchedAt": "2025-08-05T11:31:44.721Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "4776e302"
-  },
-  {
-    "id": "nyt-business-32f576ca843d7619",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "11 People Injured in Stabbing at a Michigan Walmart, Officials Say",
-    "url": "https://www.nytimes.com/2025/07/26/us/stabbing-traverse-city-walmart.html",
-    "summary": "One person was in custody after what the authorities said was a random attack at a store near Traverse City, Mich.",
-    "publishedAt": "2025-07-27T21:23:46+00:00",
-    "fetchedAt": "2025-07-30T09:09:09.795583+00:00",
+    "id": "yahoo-finance-acb9335116e73029",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "JPMorgan has a blunt response on killing fintech companies",
+    "url": "https://finance.yahoo.com/news/exclusive-jpmorgan-blunt-response-killing-223016777.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:30:16+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767609+00:00",
     "category": "markets",
     "tags": [
       "Equities"
     ],
     "priority": "normal",
-    "contentHash": "32f576ca843d7619"
+    "contentHash": "acb9335116e73029"
   },
   {
-    "id": "nate-silver-50d71a73c9c369d8",
-    "sourceId": "nate-silver",
-    "sourceName": "Nate Silver",
-    "title": "How popular is Donald Trump?",
-    "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
-    "summary": "Silver Bulletin approval ratings for President Trump — and all presidents since Truman.",
-    "publishedAt": "2025-07-27T21:03:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:15.293940+00:00",
-    "category": "non-money",
-    "tags": [
-      "Commodities",
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "50d71a73c9c369d8"
-  },
-  {
-    "id": "handelsblatt-023e10f98adc77a4",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "+++ Nahost +++: FT: Starmer ruft Kabinett wegen Gaza aus Sommerpause zurück",
-    "url": "https://www.handelsblatt.com/politik/international/nahost-ft-starmer-ruft-kabinett-wegen-gaza-aus-sommerpause-zurueck/100136895.html",
-    "summary": "UN-Palästinenserhilfswerk fordert Öffnung aller Gaza-Grenzübergänge +++ Kritik in Netanjahus Regierung an Gaza-Hilfslieferungen +++ Der Newsblog.",
-    "publishedAt": "2025-07-27T21:02:00+00:00",
-    "fetchedAt": "2025-07-28T08:47:58.274395+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "023e10f98adc77a4"
-  },
-  {
-    "id": "bloomberg-markets-d2df101faee6c185",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Trump’s Tariffs Are Already Stunting World Growth While Markets Shrug",
-    "url": "https://www.bloomberg.com/news/features/2025-07-27/how-trump-s-tariffs-are-already-stunting-world-economic-growth",
-    "summary": "With the president’s new trade deals, US protectionism is slowing investment and rewiring supply chains at the expense of the global economy",
-    "publishedAt": "2025-07-27T21:00:07+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.598289+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "d2df101faee6c185"
-  },
-  {
-    "id": "bloomberg-markets-438ea2082495f547",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "CK Hutchison to Invite China Investor to Join Port Deal",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/investors-revive-interest-in-ck-hutchison-despite-deal-delay",
-    "summary": "CK Hutchison Holdings Ltd. said it may invite a “major strategic investor” from China to join a group seeking to buy its global ports, as the Hong Kong-based company works toward a solution that pleases all in the geopolitically-sensitive deal.",
-    "publishedAt": "2025-07-27T21:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.594966+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "438ea2082495f547"
-  },
-  {
-    "id": "nate-silver-96fbb6f483797dbc",
-    "sourceId": "nate-silver",
-    "sourceName": "Nate Silver",
-    "title": "How popular is Elon Musk?",
-    "url": "https://www.natesilver.net/p/elon-musk-polls-popularity-nate-silver-bulletin",
-    "summary": "Silver Bulletin favorability ratings for the world's richest man.",
-    "publishedAt": "2025-07-27T21:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:33:15.294202+00:00",
-    "category": "non-money",
-    "tags": [
-      "Commodities",
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "96fbb6f483797dbc"
-  },
-  {
-    "id": "zerohedge-9297cc58cf0f72ca",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Bezos Dumps $5.7 Billion In Amazon Stock. Now CNBC Buyout Rumors Swirl",
-    "url": "https://www.zerohedge.com/markets/bezos-dumps-57-billion-amazon-stock-now-cnbc-buyout-rumors-swirl",
-    "summary": "Bezos Dumps $5.7 Billion In Amazon Stock. Now CNBC Buyout Rumors Swirl Jeff Bezos has generated billions of dollars in Amazon stock sales since late June under a 10b5-1 plan. The divestitures coincide with a new report suggesting he's mulling over a potential acquisition of CNBC. According to Bloomberg data, Bezos has been on a selling spree since late June, capitalizing on Amazon's stock rebound from its April lows. So far, the sales have generated $5.7 billion for the billionaire. Here's more from the Bloomberg report: The sales, which began when Bezos unloaded $737 million around his weekend nuptials in Venice, were part of a trading plan for up to 25 million shares that he adopted earlier this year. He sold the last of the 25 million on Wednesday and Thursday, divesting about 4.2 million shares for $954 million, according to a Securities and Exchange Commission filing on Friday. Amid Bezos' dumping of stock under the 10b5-1 plan, a new report emerged last week from The New York Pos",
-    "publishedAt": "2025-07-27T20:55:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.533390+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "high",
-    "contentHash": "9297cc58cf0f72ca"
-  },
-  {
-    "id": "econbrowser-f9dace4918a400c5",
-    "sourceId": "econbrowser",
-    "sourceName": "Econbrowser",
-    "title": "Wegovy ™  for Me, but Not for Thee (cont’d)",
-    "url": "https://econbrowser.com/archives/2025/07/wegovy-for-me-but-not-for-thee-contd",
-    "summary": "The just-announced trade “deal” (what’s the enforcement mechanism?) apparently covers pharmaceuticals. Where do we get most of our pharma (by value)? From Joey Politano, the answer: Source: Politano.  I don’t think there’s anything on paper (and even if there were, would it mean much?). So, not the 50% I pondered back in May, but still […]",
-    "publishedAt": "2025-07-27T20:45:41+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.823967+00:00",
-    "category": "research",
-    "tags": [
-      "Research",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "f9dace4918a400c5"
-  },
-  {
-    "id": "punchbowl-dc-1a9b700f5d94359a",
-    "sourceId": "punchbowl-dc",
-    "sourceName": "Punchbowl DC",
-    "title": "Subcribers of 7/27/25 🏦 The Vault Sunday Lookahead",
-    "url": "https://punchbowl.news/archive/72725-road-tripping-with-jason-smith-2/",
-    "summary": "The post Subcribers of 7/27/25 🏦 The Vault Sunday Lookahead appeared first on Punchbowl News.",
-    "publishedAt": "2025-07-27T20:31:00+00:00",
-    "fetchedAt": "2025-07-28T04:04:06.852288+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
-    ],
-    "priority": "normal",
-    "contentHash": "1a9b700f5d94359a"
-  },
-  {
-    "id": "punchbowl-dc-12e62b4439df8027",
-    "sourceId": "punchbowl-dc",
-    "sourceName": "Punchbowl DC",
-    "title": "SUBSCRIBERS of 7/27/25 💻 Tech Sunday Lookahead",
-    "url": "https://punchbowl.news/archive/72725-ai-plans-under-the-radar-proposals/",
-    "summary": "The post SUBSCRIBERS of 7/27/25 💻 Tech Sunday Lookahead appeared first on Punchbowl News.",
-    "publishedAt": "2025-07-27T20:30:00+00:00",
-    "fetchedAt": "2025-07-28T04:04:06.852519+00:00",
-    "category": "policy",
-    "tags": [
-      "Tech",
-      "Policy"
-    ],
-    "priority": "normal",
-    "contentHash": "12e62b4439df8027"
-  },
-  {
-    "id": "wsj-opinion-3e6f90ddb4420fb3",
-    "sourceId": "wsj-opinion",
-    "sourceName": "WSJ Opinion",
-    "title": "Opinion | Vinay Prasad Is a Bernie Sanders Acolyte in MAHA Drag",
-    "url": "https://www.wsj.com/opinion/vinay-prasad-is-a-bernie-sanders-acolyte-in-maha-drag-healthcare-bfc3be57?mod=rss_Technology",
-    "summary": "A top FDA appointee who doesn’t think patients can be trusted to make their own healthcare decisions.",
-    "fullContent": "A top FDA appointee who doesn’t think patients can be trusted to make their own healthcare decisions.",
-    "publishedAt": "2025-07-27T20:24:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.114453+00:00",
-    "category": "blogs",
-    "tags": [
-      "Blogs"
-    ],
-    "priority": "low",
-    "contentHash": "3e6f90ddb4420fb3"
-  },
-  {
-    "id": "zerohedge-1144271f66c1b851",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "China's $167 Billion Tibetan Dam Alarms Scientists, Neighbors",
-    "url": "https://www.zerohedge.com/energy/chinas-167-billion-tibetan-dam-alarms-scientists-neighbors",
-    "summary": "China's $167 Billion Tibetan Dam Alarms Scientists, Neighbors Authored by Olivia Li via The Epoch Times (emphasis ours), China has officially begun construction on a massive hydroelectric dam on the Yarlung Tsangpo River in Tibet, despite strong warnings from scientists about the region’s fragile ecosystem and complex geological conditions. A Chinese hydrology expert has described the project as outright illegal, pointing out that it violates multiple international agreements and China’s environmental laws. The estimated $167 billion project, formally known as the Motuo Hydropower Station, is situated on the eastern edge of the Tibetan Plateau. It is set to become the world’s largest hydroelectric dam, with a projected annual output of 300 billion kilowatt-hours. On July 19, Chinese Premier Li Qiang attended the groundbreaking ceremony, referring to it as the “project of the century,” according to Chinese state media. The Yarlung Tsangpo River, also known as the Brahmaputra in India an",
-    "publishedAt": "2025-07-27T20:20:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.535150+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "breaking",
-    "contentHash": "1144271f66c1b851"
-  },
-  {
-    "id": "seeking-alpha-abeecf05e74c2bba",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Simon Property Group: A Great REIT At The Wrong Price",
-    "url": "https://seekingalpha.com/article/4804951-simon-property-group-great-reit-at-wrong-price?source=feed_all_articles",
+    "id": "yahoo-finance-44af87c609027f36",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Procter & Gamble Names Jejurikar as CEO",
+    "url": "https://www.wsj.com/business/c-suite/procter-gamble-names-jejurikar-ceo-30bbae50?siteid=yhoof2&yptr=yahoo",
     "summary": "",
-    "publishedAt": "2025-07-27T20:18:43+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252214+00:00",
+    "publishedAt": "2025-07-28T22:17:00+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767131+00:00",
     "category": "markets",
     "tags": [
-      "Markets"
+      "Equities"
     ],
     "priority": "normal",
-    "contentHash": "abeecf05e74c2bba"
+    "contentHash": "44af87c609027f36"
   },
   {
-    "id": "fortune-89b68954818c4858",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Trump scores another big trade deal after securing promise of massive investment, but China will be less willing to cave, analyst says",
-    "url": "https://fortune.com/2025/07/27/trump-tariff-deal-us-china-trade-war-talks-bessent-investments/",
-    "summary": "\"The biggest piece in the trade deal puzzle still remains, and the Chinese are unlikely to be as willing to fold.\"",
-    "publishedAt": "2025-07-27T20:18:18+00:00",
-    "fetchedAt": "2025-07-28T03:59:59.630721+00:00",
+    "id": "yahoo-finance-8e46dbb77175d4f3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Whirlpool Cuts Dividend, Full-Year Profit Guidance as Tariffs Hurt Quarterly Results",
+    "url": "https://www.wsj.com/business/earnings/whirlpool-cuts-dividend-full-year-profit-guidance-as-tariffs-hurt-quarterly-results-7dfeda58?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:15:00+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767171+00:00",
     "category": "markets",
     "tags": [
-      "Markets",
-      "M&A"
+      "Earnings",
+      "Equities"
     ],
     "priority": "normal",
-    "contentHash": "89b68954818c4858"
+    "contentHash": "8e46dbb77175d4f3"
   },
   {
-    "id": "bloomberg-markets-d82d616fd60aa914",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "European Stock Futures Climb After EU Clinches US Trade Deal",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/stock-investors-expect-rally-as-europe-clinches-us-trade-deal",
-    "summary": "European stock futures rallied after the US and European Union agreed to a trade deal.",
-    "publishedAt": "2025-07-27T20:14:39+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.597549+00:00",
+    "id": "yahoo-finance-be3d60469f60aa06",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "What Wall Street Is Saying About the Trade Deal and Stock-Market Records",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-28-2025/card/what-wall-street-is-saying-about-the-trade-deal-and-stock-market-records-SJJVB6nBb9IutYgggI6D?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T22:00:02+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767391+00:00",
     "category": "markets",
     "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "d82d616fd60aa914"
-  },
-  {
-    "id": "bloomberg-markets-c3299ce2633987f7",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "European Stock Futures Climb After EU Clinches US Tariff Deal",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/stock-investors-expect-rally-as-europe-clinches-us-trade-deal",
-    "summary": "European stock futures rallied as the US and the European Union agreed to a tariff deal, easing fears about a prolonged trade war.",
-    "publishedAt": "2025-07-27T20:14:39+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.099612+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "c3299ce2633987f7"
-  },
-  {
-    "id": "bloomberg-markets-8de1304ecc2973a2",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "European Stocks Rally as EU Reaches Tariff Agreement With US",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/stock-investors-expect-rally-as-europe-clinches-us-trade-deal",
-    "summary": "European stocks gained as the US and the European Union agreed to a tariff deal, easing fears about a prolonged trade war.",
-    "publishedAt": "2025-07-27T20:14:39+00:00",
-    "fetchedAt": "2025-07-28T08:46:15.644410+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "8de1304ecc2973a2"
-  },
-  {
-    "id": "techmeme-601551e4afb9b648",
-    "sourceId": "techmeme",
-    "sourceName": "Techmeme",
-    "title": "AIUC, which offers enterprises insurance policies and audits for AI agents, emerges from stealth with a $15M seed led by Nat Friedman at NFDG (Sharon Goldman/Fortune)",
-    "url": "http://www.techmeme.com/250727/p20#a250727p20",
-    "summary": "Sharon Goldman / Fortune: AIUC, which offers enterprises insurance policies and audits for AI agents, emerges from stealth with a $15M seed led by Nat Friedman at NFDG  —  Today, the Artificial Intelligence Underwriting Company (AIUC) is emerging from stealth with a $15 million seed round led by Nat Friedman at NFDG …",
-    "publishedAt": "2025-07-27T20:10:00+00:00",
-    "fetchedAt": "2025-07-28T06:12:26.068592+00:00",
-    "category": "technology",
-    "tags": [
-      "AI",
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "601551e4afb9b648"
-  },
-  {
-    "id": "ft-economics-dad650102ec91097",
-    "sourceId": "ft-economics",
-    "sourceName": "FT Economics",
-    "title": "How the EU succumbed to Trump’s tariff steamroller",
-    "url": "https://www.ft.com/content/85d57e0e-0c6f-4392-a68c-81866e1519c3",
-    "summary": "Relief at avoiding trade war is tinged with regret at not taking firmer stand from the start",
-    "publishedAt": "2025-07-27T20:02:02+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.914429+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro"
-    ],
-    "priority": "normal",
-    "contentHash": "dad650102ec91097"
-  },
-  {
-    "id": "bloomberg-markets-211beca902da4539",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Landing a $35 Billion Tech Deal in the Middle of Trade Turbulence",
-    "url": "https://www.bloomberg.com/news/newsletters/2025-07-27/synopsys-ansys-snps-land-35-billion-tech-deal-amid-trump-china-trade-war",
-    "summary": "Synopsys CFO Shelagh Glaser recounts some last-minute drama around the deal for Ansys. Plus, a one-on-one with the finance chief of Colombia’s biggest lender.",
-    "publishedAt": "2025-07-27T20:00:12+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.598469+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
       "M&A",
-      "Tech"
+      "Equities"
     ],
     "priority": "normal",
-    "contentHash": "211beca902da4539"
+    "contentHash": "be3d60469f60aa06"
   },
   {
-    "id": "bloomberg-markets-d876d8abade381e5",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Oil Prices Caught Between a $70 Summer and Growing Surplus Fears",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/oil-prices-caught-between-a-70-summer-and-growing-surplus-fears",
-    "summary": "Oil traders are grappling with a tension — there’s a growing chorus of warnings about the market weakening later this year and into 2026, but for now prices are holding strong near $70 a barrel.",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.598674+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "d876d8abade381e5"
-  },
-  {
-    "id": "seeking-alpha-d8aaf7484856d23f",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "General Mills: The Turnaround Story Wall Street Is Ignoring",
-    "url": "https://seekingalpha.com/article/4804923-general-mills-turnaround-story-wall-street-is-ignoring?source=feed_all_articles",
+    "id": "yahoo-finance-1e40546dcbbc7a3c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Retail ETFs Pop on EU Deal; MAGS, QQQ Rise Ahead of Earnings",
+    "url": "https://finance.yahoo.com/news/retail-etfs-pop-eu-deal-220000096.html",
     "summary": "",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252243+00:00",
+    "publishedAt": "2025-07-28T22:00:00+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767428+00:00",
     "category": "markets",
     "tags": [
-      "Markets"
+      "Earnings",
+      "M&A",
+      "Equities"
     ],
     "priority": "normal",
-    "contentHash": "d8aaf7484856d23f"
+    "contentHash": "1e40546dcbbc7a3c"
   },
   {
-    "id": "seeking-alpha-ef4681d0cbc995c6",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "S&P 500: This Chart Calls A Crash; Ignore It (Technical Analysis)",
-    "url": "https://seekingalpha.com/article/4804926-sp500-this-chart-calls-crash-ignore-it-technical-analysis?source=feed_all_articles",
+    "id": "yahoo-finance-81d027b07a4ebfa0",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Bristol Myers, Bain Capital form new company to develop immunology drugs",
+    "url": "https://finance.yahoo.com/news/bristol-myers-bain-capital-form-215919235.html",
     "summary": "",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252274+00:00",
+    "publishedAt": "2025-07-28T21:59:19+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767353+00:00",
     "category": "markets",
     "tags": [
-      "Markets"
+      "Equities"
     ],
-    "priority": "low",
-    "contentHash": "ef4681d0cbc995c6"
+    "priority": "normal",
+    "contentHash": "81d027b07a4ebfa0"
   },
   {
-    "id": "seeking-alpha-9d31da99f7ad4bd1",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Franklin Mutual Global Discovery Fund Q2 2025 Commentary",
-    "url": "https://seekingalpha.com/article/4804948-franklin-mutual-global-discovery-fund-q2-2025-commentary?source=feed_all_articles",
+    "id": "yahoo-finance-754c0b859ef376b6",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Harley-Davidson in talks to sell stake in financing unit, Bloomberg News reports",
+    "url": "https://finance.yahoo.com/news/harley-davidson-talks-sell-stake-215022547.html",
     "summary": "",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252301+00:00",
+    "publishedAt": "2025-07-28T21:50:22+00:00",
+    "fetchedAt": "2025-07-30T09:09:08.767558+00:00",
     "category": "markets",
     "tags": [
-      "Markets"
+      "Equities"
     ],
     "priority": "normal",
-    "contentHash": "9d31da99f7ad4bd1"
+    "contentHash": "754c0b859ef376b6"
   },
   {
-    "id": "seeking-alpha-90057f36cb33bb09",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Franklin Utilities Fund Q2 2025 Commentary",
-    "url": "https://seekingalpha.com/article/4804949-franklin-utilities-fund-q2-2025-commentary?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252326+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "90057f36cb33bb09"
-  },
-  {
-    "id": "bloomberg-markets-8fbaa341fcaed68c",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Oil Caught Between a $70 Summer and Growing Surplus Fears",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/oil-prices-caught-between-a-70-summer-and-growing-surplus-fears",
-    "summary": "Oil traders are grappling with a tension — there’s a growing chorus of warnings about the market weakening later this year and into 2026, but for now prices are holding strong near $70 a barrel.",
-    "publishedAt": "2025-07-27T20:00:00+00:00",
-    "fetchedAt": "2025-07-28T09:03:32.720013+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Commodities"
-    ],
-    "priority": "normal",
-    "contentHash": "8fbaa341fcaed68c"
-  },
-  {
-    "id": "handelsblatt-c5996d6fa4377a2e",
-    "sourceId": "handelsblatt",
-    "sourceName": "Handelsblatt",
-    "title": "Handelskonflikt: 6,5 Milliarden Euro Schaden für die deutsche Wirtschaft: Das kostet der Zoll-Deal mit den USA",
-    "url": "https://www.handelsblatt.com/politik/konjunktur/zoelle-milliarden-schaden-fuer-deutsche-wirtschaft-durch-deal-mit-usa/100144426.html",
-    "summary": "Exklusive Berechnungen zeigen, dass die Einigung das Wachstum in Europa verlangsamen wird. Die Folgen hätten noch dramatischer ausfallen können – wäre da nicht ein Detail des Deals.",
-    "publishedAt": "2025-07-27T19:58:10+00:00",
-    "fetchedAt": "2025-07-28T08:47:58.274623+00:00",
-    "category": "markets",
-    "tags": [
-      "Currency",
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "c5996d6fa4377a2e"
-  },
-  {
-    "id": "branko-milanovic-fbab81c831c1fed1",
-    "sourceId": "branko-milanovic",
-    "sourceName": "Branko Milanovic",
-    "title": "New capitalism III: Capital",
-    "url": "https://branko2f7.substack.com/p/the-new-capitalism-iii-capital",
-    "summary": "Why is capital so concentrated and why so few have it?",
-    "publishedAt": "2025-07-27T19:52:51+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.360000+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "high",
-    "contentHash": "fbab81c831c1fed1"
-  },
-  {
-    "id": "branko-milanovic-57a2927a",
-    "sourceId": "branko-milanovic",
-    "sourceName": "Branko Milanovic",
-    "title": "",
-    "url": "https://branko2f7.substack.com/p/the-new-capitalism-iii-capital",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-27T19:52:51.000Z",
-    "fetchedAt": "2025-08-05T09:21:52.227Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "57a2927a"
-  },
-  {
-    "id": "zerohedge-9be46e29aa3449ef",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "EU Slashes $1.7BN In Aid To Ukraine Over Corruption Concerns: 'Exasperation From Biggest Donors'",
-    "url": "https://www.zerohedge.com/geopolitical/eu-slashes-17bn-aid-ukraine-over-corruption-concerns-exasperation-biggest-donors",
-    "summary": "EU Slashes $1.7BN In Aid To Ukraine Over Corruption Concerns: 'Exasperation From Biggest Donors' Have we reached the beginning of the end for Zelensky? Does this spell game-over and victory for Putin and Russia? The following is a very rare admission from the hard news pages of The New York Times: James Wasserstrom, an American anticorruption expert, said in an interview that “the luster is definitely coming off” Mr. Zelensky’s wartime leadership among governments providing financial assistance. He added, “There is exasperation at Zelensky in the donor community.” Early last week, there were unexpected images coming from Kiev of the largest demonstrations against the Ukrainian government since Russia invaded more than three years ago, as more than 2,000 people gathered near the president's office, shouting \"shame\" and \"veto the law,\" after President Zelensky signed a law gutting the country's anti-corruption agency. AFP/Getty Images This was enough to get the attention of Kiev's bigges",
-    "publishedAt": "2025-07-27T19:45:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.536599+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "9be46e29aa3449ef"
-  },
-  {
-    "id": "marketwatch-98de370df19f9216",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "This chart shows how prices have gone up because of Trump’s tariffs",
-    "url": "https://www.marketwatch.com/story/this-chart-shows-how-prices-have-gone-up-because-of-trumps-tariffs-41f4e2fb?mod=mw_rss_topstories",
-    "summary": "One team of economists found clear price increases for American consumers due to President Donald Trump’s tariffs. I, a chart, they compare the price tags for imported goods with those for goods made in the U.S.",
-    "publishedAt": "2025-07-27T19:42:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:25.147150+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "98de370df19f9216"
-  },
-  {
-    "id": "marketwatch-19b35db5c1f2b033",
-    "sourceId": "marketwatch",
-    "sourceName": "MarketWatch",
-    "title": "Investors face a week rife with risks, as worries about stock-market euphoria mount. Here’s what to watch.",
-    "url": "https://www.marketwatch.com/story/investors-face-a-week-rife-with-risks-as-worries-about-stock-market-euphoria-mount-heres-what-to-watch-616b1fdc?mod=mw_rss_topstories",
-    "summary": "A busy week of corporate earnings, a Fed meeting, a deluge of economic data and President Trump’s Aug. 1 tariff deadline are just some of the things on the calendar.",
-    "publishedAt": "2025-07-27T19:38:00+00:00",
-    "fetchedAt": "2025-07-28T03:55:25.147347+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "19b35db5c1f2b033"
-  },
-  {
-    "id": "bloomberg-markets-c2b3bf9ac6cced5a",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "US and EU Leaders Shake Hands Following Trade Deal",
-    "url": "https://www.bloomberg.com/news/videos/2025-07-27/us-and-eu-leaders-shake-hands-following-trade-deal-video",
-    "summary": "President Trump shakes hands with EU Commission President Ursula von der Leyen following trade deal. The deal will see the bloc face 15% tariffs on most of its exports, including automobiles, staving off a trade war that could have delivered a hammer blow to the global economy. (Source: Bloomberg)",
-    "publishedAt": "2025-07-27T19:27:30+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.598865+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "c2b3bf9ac6cced5a"
-  },
-  {
-    "id": "zerohedge-4ac63caa39231e8a",
-    "sourceId": "zerohedge",
-    "sourceName": "ZeroHedge",
-    "title": "Extremism Masquerading As Activism",
-    "url": "https://www.zerohedge.com/political/extremism-masquerading-activism",
-    "summary": "Extremism Masquerading As Activism Authored by Aaron Pomerantz via RealClearPolitics, Earlier this month, the UK Parliament voted 385-26 to ban Palestine Action after members infiltrated an air force base and vandalized equipment. Under the UK’s Terrorism Act of 2000, it is now illegal to fund, support, or even publicly approve of the organization. Arrests have already begun, sparking backlash from critics, who describe cracking down on pro-Palestine Action protests as “dystopian.” Now, Palestine Action’s U.S. wing, “Unity of Fields” (UoF) faces similar scrutiny for similar behavior, including calling for police to be set on fire, cheering the murder of Israeli-Americans, traveling to Iran and publicly supporting them against the U.S., and advocating for “direct action” tactics including vandalism, violence, and full-blown terrorism. The question is: Should the U.S. follow the UK’s lead and formally ban UoF and similar extremist groups? That decision rests with lawmakers. Before discus",
-    "publishedAt": "2025-07-27T19:10:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.538734+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "high",
-    "contentHash": "4ac63caa39231e8a"
-  },
-  {
-    "id": "seeking-alpha-721485a5fd61a14f",
-    "sourceId": "seeking-alpha",
-    "sourceName": "Seeking Alpha",
-    "title": "Wall Street Brunch: Four Mag 7 Earnings And Fed On Tap",
-    "url": "https://seekingalpha.com/article/4804950-wall-street-brunch-four-mag-7-earnings-and-fed-on-tap?source=feed_all_articles",
-    "summary": "",
-    "publishedAt": "2025-07-27T19:07:22+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.252356+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "721485a5fd61a14f"
-  },
-  {
-    "id": "et-markets-01ae20938faaad07",
-    "sourceId": "et-markets",
-    "sourceName": "Economic Times",
-    "title": "Bank of Baroda, Canara Bank let go of ₹54,000 crore loans for margin safety",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/bank-of-baroda-canara-bank-let-go-of-54000-crore-loans-for-margin-safety/articleshow/122942339.cms",
-    "summary": "Bank of Baroda and Canara Bank reduced their corporate loan portfolios by ₹54,000 crore in the June quarter to protect net interest margins amidst repo rate cuts. Public sector undertakings sought further rate revisions, prompting the banks to prioritize profitability over retaining these loans.",
-    "publishedAt": "2025-07-27T19:00:16+00:00",
-    "fetchedAt": "2025-07-28T03:50:55.474289+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Earnings"
-    ],
-    "priority": "high",
-    "contentHash": "01ae20938faaad07"
-  },
-  {
-    "id": "bloomberg-markets-1af21e794eeeb5be",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "A Data Deluge Brings a ‘Moment of Truth’ for Markets This Week",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/a-data-deluge-brings-a-moment-of-truth-for-markets-this-week",
-    "summary": "Wall Street pros are staring down a pivotal week that will likely set the tone for the rest of the year in markets and the economy.",
-    "publishedAt": "2025-07-27T19:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.599115+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1af21e794eeeb5be"
-  },
-  {
-    "id": "bloomberg-markets-e86e84e51612c5fa",
-    "sourceId": "bloomberg-markets",
-    "sourceName": "Bloomberg Markets",
-    "title": "Bond Traders Await Fed Meeting, Refunding and July Jobs Report",
-    "url": "https://www.bloomberg.com/news/articles/2025-07-27/bond-traders-await-fed-meeting-refunding-and-july-jobs-report",
-    "summary": "Bond investors enter a frenetic week comprising the latest Treasury view on quarterly debt sales, a Federal Reserve meeting, and plenty of data crowned by the July jobs report.",
-    "publishedAt": "2025-07-27T19:00:00+00:00",
-    "fetchedAt": "2025-07-28T03:50:56.599289+00:00",
+    "id": "wsj-markets-main-716fce7e3ab0cfb9",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Opinion | The Interest Rate That Matters",
+    "url": "https://www.wsj.com/opinion/interest-rates-fomc-federal-reserve-jerome-powell-ten-year-treasury-b899ac3b?mod=rss_markets_main",
+    "summary": "When the Fed cut short rates in the fall, long-bond yields spiked.",
+    "fullContent": "When the Fed cut short rates in the fall, long-bond yields spiked.",
+    "publishedAt": "2025-07-28T21:42:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.200937+00:00",
     "category": "markets",
     "tags": [
       "Markets",
       "Debt"
     ],
     "priority": "high",
-    "contentHash": "e86e84e51612c5fa"
+    "contentHash": "716fce7e3ab0cfb9"
   },
   {
-    "id": "oil-price-2fe92d6d4e0906f5",
-    "sourceId": "oil-price",
-    "sourceName": "OilPrice.com",
-    "title": "China’s Coal Capital Is Transforming Into a Clean Energy Hub",
-    "url": "https://oilprice.com/Energy/Energy-General/Chinas-Coal-Capital-Is-Transforming-Into-a-Clean-Energy-Hub.html",
-    "summary": "China’s coal hubs are some of the biggest in the world, with the Asian country having long relied on the fossil fuel for power and industry. However, some of these regions are now being transformed into green energy hubs, as China gradually reduces its reliance on coal in favour of renewable alternatives. One such region is Shanxi in the North of China.  In 2023, China produced around 4.71 billion tonnes of coal from over 3,000 mines. Coal is China’s biggest source of carbon emissions. However, with China pledging to achieve peak…",
-    "publishedAt": "2025-07-27T19:00:00+00:00",
-    "fetchedAt": "2025-07-28T04:00:00.903082+00:00",
+    "id": "nyt-business-9a510421d199cc15",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Trump’s Tariffs on Medicines From Europe Stand to Cost Drugmakers Billions",
+    "url": "https://www.nytimes.com/2025/07/28/health/trump-drug-tariffs-europe.html",
+    "summary": "Many pharmaceutical products made in Europe will face a 15 percent tariff, pinching manufacturers and potentially leading to higher drug prices.",
+    "publishedAt": "2025-07-28T21:38:31+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.790741+00:00",
     "category": "markets",
     "tags": [
-      "ESG",
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "9a510421d199cc15"
+  },
+  {
+    "id": "wsj-markets-main-5e62ef54e564ca41",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Opinion | The Gensler Surveillance Tax Goes Down",
+    "url": "https://www.wsj.com/opinion/sec-cat-tax-gary-gensler-eleventh-circuit-andrew-brasher-6cbbc2e5?mod=rss_markets_main",
+    "summary": "The Biden SEC Chair continues his stellar record of legal defeat.",
+    "fullContent": "The Biden SEC Chair continues his stellar record of legal defeat.",
+    "publishedAt": "2025-07-28T21:36:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.201483+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "low",
+    "contentHash": "5e62ef54e564ca41"
+  },
+  {
+    "id": "yahoo-finance-d1ce3de3de3be55a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Lululemon Stock Has Rebounded. What to Expect From Earnings.",
+    "url": "https://www.barrons.com/articles/lululemon-stock-price-earnings-d0383a29?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:35:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.339026+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "d1ce3de3de3be55a"
+  },
+  {
+    "id": "yahoo-finance-6883d89d2823561f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tech, Media & Telecom Roundup: Market Talk",
+    "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-0ce089f2?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:34:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338976+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "6883d89d2823561f"
+  },
+  {
+    "id": "yahoo-finance-e3740525082132fd",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Earnings live: Starbucks posts another US sales decline, Novo stock plunges, Big Tech giants on deck",
+    "url": "https://finance.yahoo.com/news/live/earnings-live-starbucks-posts-another-us-sales-decline-novo-stock-plunges-big-tech-giants-on-deck-213334904.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T21:33:34+00:00",
+    "fetchedAt": "2025-07-30T13:01:28.103728+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "e3740525082132fd"
+  },
+  {
+    "id": "yahoo-finance-b2f54859787748a3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Economist Reinhart Expects Fed Rate Cut By End of Year",
+    "url": "https://finance.yahoo.com/video/economist-reinhart-expects-fed-rate-213310275.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:33:10+00:00",
+    "fetchedAt": "2025-07-30T09:38:03.842573+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "high",
+    "contentHash": "b2f54859787748a3"
+  },
+  {
+    "id": "yahoo-finance-c8a88eac307db749",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Watch These Microsoft Stock Price Levels as Tech Giant Set to Report Earnings",
+    "url": "https://finance.yahoo.com/news/watch-microsoft-stock-price-levels-213248923.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:32:48+00:00",
+    "fetchedAt": "2025-07-30T09:38:03.842314+00:00",
+    "category": "markets",
+    "tags": [
+      "Tech",
+      "Earnings",
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "c8a88eac307db749"
+  },
+  {
+    "id": "yahoo-finance-cf86b5fd8497e4da",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Auto & Transport Roundup: Market Talk",
+    "url": "https://www.wsj.com/business/auto-transport-roundup-market-talk-bec48b8b?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:32:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338941+00:00",
+    "category": "markets",
+    "tags": [
       "Markets"
     ],
     "priority": "normal",
-    "contentHash": "2fe92d6d4e0906f5"
+    "contentHash": "cf86b5fd8497e4da"
+  },
+  {
+    "id": "yahoo-finance-b8505e53536c3c17",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Bitcoin, Ethereum, Dogecoin Climb On Trump-EU Trade Pact — Analyst Says This 'Risk-Off' Signal Could Be Critical As BTC Drives Entire Crypto Market",
+    "url": "https://finance.yahoo.com/news/bitcoin-ethereum-dogecoin-climb-trump-213112327.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:31:12+00:00",
+    "fetchedAt": "2025-07-30T09:38:03.842404+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities",
+      "Crypto"
+    ],
+    "priority": "normal",
+    "contentHash": "b8505e53536c3c17"
+  },
+  {
+    "id": "yahoo-finance-1d0087091024f79c",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Podcast: Stock Indexes Closed Mixed After U.S.-EU Trade Deal",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-28-2025/card/podcast-stock-indexes-closed-mixed-after-u-s-eu-trade-deal-ymF85gskGBu08Xdh6Tof?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:30:02+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338906+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "1d0087091024f79c"
+  },
+  {
+    "id": "yahoo-finance-52b35819e8688aa5",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Financial Services Roundup: Market Talk",
+    "url": "https://www.wsj.com/finance/banking/financial-services-roundup-market-talk-ec3560ec?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:29:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338854+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "52b35819e8688aa5"
+  },
+  {
+    "id": "yahoo-finance-145546776efeccab",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cadence Design Systems Pleads Guilty to Export Violation, Will Pay $140.6 Million in Settlement",
+    "url": "https://www.wsj.com/business/earnings/cadence-design-systems-ups-outlook-amid-increasing-ai-demand-f6782414?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:28:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338818+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "145546776efeccab"
+  },
+  {
+    "id": "wsj-opinion-6485340a61d09e3d",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Cadence Design Systems Pleads Guilty to Export Violation, Will Pay $140.6 Million in Settlement",
+    "url": "https://www.wsj.com/business/earnings/cadence-design-systems-ups-outlook-amid-increasing-ai-demand-f6782414?mod=rss_Technology",
+    "summary": "The company will pay $140.6 million to settle claims that it illegally exported products to China. Separately, Cadence posted higher revenue in the second quarter and boosted its full-year earnings outlook.",
+    "fullContent": "The company will pay $140.6 million to settle claims that it illegally exported products to China. Separately, Cadence posted higher revenue in the second quarter and boosted its full-year earnings outlook.",
+    "publishedAt": "2025-07-28T21:28:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.118853+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "6485340a61d09e3d"
+  },
+  {
+    "id": "yahoo-finance-0066bc2c45dbe9fe",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Energy & Utilities Roundup: Market Talk",
+    "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-57a72ebe?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:27:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338770+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0066bc2c45dbe9fe"
+  },
+  {
+    "id": "yahoo-finance-3aa9cc91ca09f918",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Basic Materials Roundup: Market Talk",
+    "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-a7dfbaca?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:24:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338738+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3aa9cc91ca09f918"
+  },
+  {
+    "id": "wsj-world-news-ebce321649529012",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "How Trump Got the Upper Hand Over the EU on Tariffs",
+    "url": "https://www.wsj.com/world/europe/trade-deal-us-european-union-16adcd0a",
+    "summary": "European officials gave up on trying to avoid tariffs altogether and instead looked for the best agreement they could get.",
+    "fullContent": "European officials gave up on trying to avoid tariffs altogether and instead looked for the best agreement they could get.",
+    "publishedAt": "2025-07-28T21:19:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.073935+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "normal",
+    "contentHash": "ebce321649529012"
+  },
+  {
+    "id": "wsj-world-news-49bda22b",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "How Trump Got the Upper Hand Over the EU on Tariffs",
+    "url": "https://www.wsj.com/world/europe/trade-deal-us-european-union-16adcd0a",
+    "summary": "European officials gave up on trying to avoid tariffs altogether and instead looked for the best agreement they could get.",
+    "fullContent": "European officials gave up on trying to avoid tariffs altogether and instead looked for the best agreement they could get.",
+    "publishedAt": "2025-07-28T21:19:00.000Z",
+    "fetchedAt": "2025-08-04T09:59:18.965Z",
+    "category": "news",
+    "tags": [
+      "news"
+    ],
+    "priority": "normal",
+    "contentHash": "49bda22b"
+  },
+  {
+    "id": "yahoo-finance-63a2ab3f9a6cef3e",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "FIS, Circle Partner to Offer Stablecoin Transactions to Financial Institutions",
+    "url": "https://www.wsj.com/finance/currencies/fis-circle-partner-to-offer-stablecoin-transactions-to-financial-institutions-d18a1d2a?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:17:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338658+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "63a2ab3f9a6cef3e"
+  },
+  {
+    "id": "yahoo-finance-6c4d4c595dab392b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "First look: Most metrics at TFI are down from 2Q 2024 but Bedard touts higher margin",
+    "url": "https://finance.yahoo.com/news/first-look-most-metrics-tfi-211329060.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:13:29+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338618+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6c4d4c595dab392b"
+  },
+  {
+    "id": "yahoo-finance-98e9e234ff148911",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Rambus Stock Rises On Better-Than-Forecast Second-Quarter Results",
+    "url": "https://www.investors.com/news/technology/rambus-stock-rmbs-q2-2025-earnings/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:13:05+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338575+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "98e9e234ff148911"
+  },
+  {
+    "id": "nyt-business-5280a1ca7927ab09",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "Why We Almost Got a MAGA-Branded Instant Pot",
+    "url": "https://www.nytimes.com/video/business/100000010304170/why-we-almost-got-a-maga-branded-instant-pot.html",
+    "summary": "Instant Brands announced a new line of pots emblazoned with the slogan “Make America Great Again.” David Fahrenthold explains what’s behind this decision and explores the link between this brand and others that have created Trump-related products.",
+    "publishedAt": "2025-07-28T21:13:02+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.790946+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "5280a1ca7927ab09"
+  },
+  {
+    "id": "yahoo-finance-944a897b32f5e4fc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Procter & Gamble replaces CEO Moeller with COO and long-time executive Jejurikar",
+    "url": "https://finance.yahoo.com/news/procter-gamble-names-operating-chief-211059405.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:10:59+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338496+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "944a897b32f5e4fc"
+  },
+  {
+    "id": "calculated-risk-51cb07d756791ec8",
+    "sourceId": "calculated-risk",
+    "sourceName": "Calculated Risk",
+    "title": "Fannie and Freddie: Single Family Serious Delinquency Rates Decreased in June",
+    "url": "http://www.calculatedriskblog.com/2025/07/fannie-and-freddie-single-family_28.html",
+    "summary": "Today, in the Calculated Risk Real Estate Newsletter: Fannie and Freddie: Single Family Serious Delinquency Rates Decreased in June Excerpt: Freddie Mac reported that the Single-Family serious delinquency rate in June was 0.55%, unchanged from 0.55% May. Freddie's rate is up year-over-year from 0.50% in June 2024, however, this is below the pre-pandemic level of 0.60%. Freddie's serious delinquency rate peaked in February 2010 at 4.20% following the housing bubble and peaked at 3.17% in August 2020 during the pandemic. Fannie Mae reported that the Single-Family serious delinquency rate in May was 0.53%, down from 0.55% in April. The serious delinquency rate is up year-over-year from 0.48% in May 2024, however, this is below the pre-pandemic lows of 0.65%. Fannie Mae reported that the Single-Family serious delinquency rate in June was 0.53%, unchanged from 0.53% in May. The serious delinquency rate is up year-over-year from 0.48% in June 2024, however, this is below the pre-pandemic low",
+    "publishedAt": "2025-07-28T21:09:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:56.639368+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "51cb07d756791ec8"
+  },
+  {
+    "id": "yahoo-finance-2e3dc1d565b6ce9d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Trading Day: Fading trade deal relief?",
+    "url": "https://finance.yahoo.com/news/trading-day-fading-trade-deal-210723413.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:07:23+00:00",
+    "fetchedAt": "2025-07-30T08:21:34.170193+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "2e3dc1d565b6ce9d"
+  },
+  {
+    "id": "yahoo-finance-d165512256ec02c7",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Treasury Expects to Borrow Over $1 Trillion This Quarter",
+    "url": "https://www.barrons.com/articles/treasury-borrow-over-1-trillion-this-quarter-cd997349?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:06:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:34.170152+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Debt",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "d165512256ec02c7"
+  },
+  {
+    "id": "yahoo-finance-30896e2d425b285d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "The E.U. to buy $750 billion of U.S. energy products. Why that’s ‘absurd.’",
+    "url": "https://finance.yahoo.com/news/e-u-buy-750-billion-210600628.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:06:00+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338706+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "30896e2d425b285d"
+  },
+  {
+    "id": "yahoo-finance-3f73b70f083ce921",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Bristol Myers Squibb and Bain Capital Form New Immunology Company",
+    "url": "https://www.wsj.com/health/pharma/bristol-myers-squibb-and-bain-capital-form-new-immunology-company-e3bc7fa8?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:05:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:34.170082+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3f73b70f083ce921"
+  },
+  {
+    "id": "yahoo-finance-87dc11eabe9a5d84",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "AMD Raises AI Chip Price, Confident It Can Compete With Nvidia",
+    "url": "https://www.investors.com/news/technology/amd-stock-ai-chip-price-increase-nvidia/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:04:48+00:00",
+    "fetchedAt": "2025-07-30T08:21:34.170118+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "87dc11eabe9a5d84"
+  },
+  {
+    "id": "wsj-world-news-08e1c44f459b9f93",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Trump Says U.S., Europe to Send More Aid to Gaza",
+    "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-europe-to-send-more-aid-to-gaza-b7d83af9",
+    "summary": "The president described the food crisis in the enclave as a “terrible situation,” and said the U.S. would set up food centers and fund the effort along with European nations.",
+    "fullContent": "The president described the food crisis in the enclave as a “terrible situation,” and said the U.S. would set up food centers and fund the effort along with European nations.",
+    "publishedAt": "2025-07-28T21:04:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.064083+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "breaking",
+    "contentHash": "08e1c44f459b9f93"
+  },
+  {
+    "id": "cnbc-business-f3de9bd793543768",
+    "sourceId": "cnbc-business",
+    "sourceName": "CNBC Business",
+    "title": "Stocks making the biggest moves after hours: Cadence Design Systems, Whirlpool, Nucor and more",
+    "url": "https://www.cnbc.com/2025/07/28/stocks-making-the-biggest-moves-after-hours-cdns-whr-nue.html",
+    "summary": "These are the stocks posting the largest moves in extended trading.",
+    "fullContent": "These are the stocks posting the largest moves in extended trading.",
+    "publishedAt": "2025-07-28T21:03:56+00:00",
+    "fetchedAt": "2025-07-31T06:18:02.276653+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f3de9bd793543768"
+  },
+  {
+    "id": "yahoo-finance-69b5912d43b75079",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Dow Jones Futures: Circle, Coinbase, CoreWeave, Nvidia, Tesla Are Key Movers",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-circle-coinbase-coreweave-nvidia-tesla/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:00:02+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755417+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "69b5912d43b75079"
+  },
+  {
+    "id": "yahoo-finance-74e28321f20e6fa8",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "ETHA Jumps as BlackRock Exec Takes New Role at SharpLink",
+    "url": "https://finance.yahoo.com/news/etha-jumps-blackrock-exec-takes-210000847.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755445+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "74e28321f20e6fa8"
+  },
+  {
+    "id": "yahoo-finance-9dd85e82ee319129",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "MSTR Introduces New Preferred Stock With Initial 9% Dividend",
+    "url": "https://finance.yahoo.com/news/mstr-introduces-preferred-stock-initial-210000977.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755474+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9dd85e82ee319129"
+  },
+  {
+    "id": "yahoo-finance-2c0bbbf6792e66d7",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "$6.9B Flowed Into SPY Friday as S 500 Hit New High",
+    "url": "https://finance.yahoo.com/news/6-9b-flowed-spy-friday-210000390.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T21:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:21:34.170011+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2c0bbbf6792e66d7"
+  },
+  {
+    "id": "yahoo-finance-1c91243831db3ee2",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "How Middle-Class Earners Are Actually Succeeding With Retirement Saving",
+    "url": "https://finance.yahoo.com/news/middle-class-earners-actually-succeeding-205906682.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:59:06+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338537+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1c91243831db3ee2"
+  },
+  {
+    "id": "yahoo-finance-3d650156eeaa7528",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Super Micro Computer Rallied Today",
+    "url": "https://finance.yahoo.com/news/why-super-micro-computer-rallied-205901559.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:59:01+00:00",
+    "fetchedAt": "2025-07-30T08:45:44.338421+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3d650156eeaa7528"
+  },
+  {
+    "id": "yahoo-finance-3bfb5e8847bd0f95",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stocks Hold at Record, Dollar Jumps on Trade Hopes: Markets Wrap",
+    "url": "https://finance.yahoo.com/news/dollar-extends-july-rally-us-140224049.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:55:28+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755352+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Currency"
+    ],
+    "priority": "normal",
+    "contentHash": "3bfb5e8847bd0f95"
+  },
+  {
+    "id": "yahoo-finance-90a90c9f0fdb6e48",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cadence Design Systems Stock Jumps On Beat-And-Raise Earnings Report",
+    "url": "https://www.investors.com/news/technology/cadence-stock-cdns-q2-2025-earnings/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:55:14+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755058+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "90a90c9f0fdb6e48"
+  },
+  {
+    "id": "yahoo-finance-e470d3fa38bcd120",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Cathie Wood's ARK Invest taps SOL Strategies for Solana staking",
+    "url": "https://finance.yahoo.com/news/cathie-woods-ark-invest-taps-205507029.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:55:07+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755185+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "e470d3fa38bcd120"
+  },
+  {
+    "id": "yahoo-finance-72a6a6dc02c612ec",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tesla Just Signed a Chip Supply Deal with Samsung. What Does That Mean for TSLA Stock?",
+    "url": "https://finance.yahoo.com/news/tesla-just-signed-chip-supply-205433540.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:54:33+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754989+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "72a6a6dc02c612ec"
+  },
+  {
+    "id": "yahoo-finance-6d54ee282baffe49",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stocks Keep Streak of Records Going Following Europe-U.S. Trade Deal",
+    "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-28-2025-48fb101e?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:54:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754887+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6d54ee282baffe49"
+  },
+  {
+    "id": "wsj-markets-main-5aaf9f7d25e9968b",
+    "sourceId": "wsj-markets-main",
+    "sourceName": "WSJ Markets",
+    "title": "Stocks Keep Streak of Records Going Following Europe-U.S. Trade Deal",
+    "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-28-2025-48fb101e?mod=rss_markets_main",
+    "summary": "The euro fell against the U.S. dollar amid European pushback over the pact. The Nasdaq Composite and S&P 500 inched up to fresh records.",
+    "fullContent": "The euro fell against the U.S. dollar amid European pushback over the pact. The Nasdaq Composite and S&P 500 inched up to fresh records.",
+    "publishedAt": "2025-07-28T20:54:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.199345+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets",
+      "Currency"
+    ],
+    "priority": "normal",
+    "contentHash": "5aaf9f7d25e9968b"
+  },
+  {
+    "id": "yahoo-finance-43eb0ca785f3f619",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Mexico Wraps Up $12 Billion Debt Offering to Support Pemex",
+    "url": "https://finance.yahoo.com/news/mexico-kicks-off-debt-offering-161831351.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:52:49+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755027+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "43eb0ca785f3f619"
+  },
+  {
+    "id": "meb-faber-2eeea5f999717aa4",
+    "sourceId": "meb-faber",
+    "sourceName": "Meb Faber Research",
+    "title": "#9 – “Institutions Can’t Beat A Basic Buy and Hold Allocation”",
+    "url": "https://mebfaber.com/2025/07/28/9-institutions-cant-beat-a-basic-buy-and-hold-allocation/",
+    "summary": "Pension funds’ annualized aggregate returns since 2000 have been virtually identical to a simple 60-40 index portfolio.  That feels somewhat expected it seems, but what about the true crème de la crème, the top institutions. Surely they could beat a simple buy and hold allocation? Turns out, they really can’t. Below we recall an article […] The post #9 – “Institutions Can’t Beat A Basic Buy and Hold Allocation” appeared first on Meb Faber Research - Stock Market and Investing Blog.",
+    "publishedAt": "2025-07-28T20:51:51+00:00",
+    "fetchedAt": "2025-07-30T08:46:00.446524+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2eeea5f999717aa4"
+  },
+  {
+    "id": "yahoo-finance-8675dbab297ef538",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Bank of America appoints new tech chief as Bhasin retires, memo shows",
+    "url": "https://finance.yahoo.com/news/bank-america-appoints-tech-chief-205120739.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:51:20+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754728+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "8675dbab297ef538"
+  },
+  {
+    "id": "yahoo-finance-107b02d996b1734a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Where Morgan Stanley is looking for value after powerful rebound in U.S. stocks",
+    "url": "https://finance.yahoo.com/news/where-morgan-stanley-looking-value-204800748.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:48:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754857+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "107b02d996b1734a"
+  },
+  {
+    "id": "yahoo-finance-83b610262d592912",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Spooked By the Microsoft SharePoint Exploit? Here’s the Top-Rated Cybersecurity Stock to Buy for Portfolio Protection.",
+    "url": "https://finance.yahoo.com/news/spooked-microsoft-sharepoint-exploit-top-204617344.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:46:17+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754570+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "83b610262d592912"
+  },
+  {
+    "id": "yahoo-finance-f629b33ec590bc76",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Google Just Kickstarted a New AI Spending Wave. Buy This Top-Rated Stock to Benefit.",
+    "url": "https://finance.yahoo.com/news/google-just-kickstarted-ai-spending-204608943.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:46:08+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754363+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "f629b33ec590bc76"
+  },
+  {
+    "id": "yahoo-finance-bc3b7f652e469d18",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "The Stock Market Is Taking a Tougher Line on Earnings Misses",
+    "url": "https://www.barrons.com/articles/stocks-earnings-reaction-profits-70073f98?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:45:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754394+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "bc3b7f652e469d18"
+  },
+  {
+    "id": "bbc-business-88452b94fe1f50fb",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "France and Germany lead downbeat EU response to US trade deal",
+    "url": "https://www.bbc.com/news/articles/c3ez97zv5y5o?at_medium=RSS&at_campaign=rss",
+    "summary": "France describes it as a \"submission\", though there is relief in Europe that a trade war has been averted.",
+    "fullContent": "France describes it as a \"submission\", though there is relief in Europe that a trade war has been averted.",
+    "publishedAt": "2025-07-28T20:42:47+00:00",
+    "fetchedAt": "2025-07-31T06:18:05.660037+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "88452b94fe1f50fb"
+  },
+  {
+    "id": "yahoo-finance-d2754c827b3a8100",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Why Volkswagen, BMW, and Other European Auto Stocks Fell on Trump’s EU Trade Deal",
+    "url": "https://www.barrons.com/articles/volkswagen-bmw-stellantis-mercedes-eu-auto-stocks-ba76e210?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:41:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754081+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d2754c827b3a8100"
+  },
+  {
+    "id": "yahoo-finance-5d21f5ffacb979da",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Heard on the Street Recap: Done Deal",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-28-2025/card/heard-on-the-street-recap-done-deal-dvgDcsNdT2LnXLTfYfWD?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:40:21+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754118+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "5d21f5ffacb979da"
+  },
+  {
+    "id": "yahoo-finance-6e86b73865f7866a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Analysts consider new Apple stock target price ahead of earnings",
+    "url": "https://finance.yahoo.com/news/analysts-consider-apple-stock-target-203949032.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:39:49+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754152+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "6e86b73865f7866a"
+  },
+  {
+    "id": "yahoo-finance-03632018b94f6a86",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Pimco's Forgash: High-Yield Market at Highest Quality in Years",
+    "url": "https://finance.yahoo.com/video/pimcos-forgash-high-yield-market-203829397.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:38:29+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754330+00:00",
+    "category": "markets",
+    "tags": [
+      "Debt",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "03632018b94f6a86"
+  },
+  {
+    "id": "yahoo-finance-7835d46064906bda",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stock Market Today: Dow Dips As Microsoft Slips Ahead Of Earnings; Cathie Wood Loads Up On This Stock Amid 47% Plunge (Live Coverage)",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-trade-deal-tesla-tsla-stock/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:38:02+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754232+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "7835d46064906bda"
+  },
+  {
+    "id": "yahoo-finance-e9db553b8cc2abab",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Albermarle Stock Drops 10%. The Lithium Rally Is ‘Transitory.’",
+    "url": "https://www.barrons.com/articles/albermarle-stock-drops-10-lithium-rally-is-transitory-57709a58?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:38:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754188+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e9db553b8cc2abab"
+  },
+  {
+    "id": "yahoo-finance-1d55b8e247fe5a12",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Elon Musk and Tesla’s $30 Trillion AI Supersonic Tsunami",
+    "url": "https://www.barrons.com/articles/elon-musk-tesla-30-trillion-robots-5de8ff44?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:35:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754267+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "1d55b8e247fe5a12"
+  },
+  {
+    "id": "yahoo-finance-153d364412cc8d32",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "S&P 500 and Nasdaq 100 Post Record Highs on Trade Deals",
+    "url": "https://finance.yahoo.com/news/p-500-nasdaq-100-post-203441103.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:34:41+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754299+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "153d364412cc8d32"
+  },
+  {
+    "id": "yahoo-finance-bb53cccf293184c3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Stocks to Watch Monday: Cheniere, TSM, Nike, Tesla",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-28-2025/card/stocks-to-watch-monday-samsung-tesla-cheniere-asml-tmRGwRDtSpv66gfFrrjr?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:32:51+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754604+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "bb53cccf293184c3"
+  },
+  {
+    "id": "yahoo-finance-b9208476e9586014",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Nvidia Partner, Rival Lead S&P 500 Stocks Monday",
+    "url": "https://www.investors.com/news/sp-500-stocks-nvidia-partner-super-micro-rival-amd-lead/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:32:07+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754455+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "b9208476e9586014"
+  },
+  {
+    "id": "yahoo-finance-bc19256d5322e3b4",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Tesla Picks Samsung for Its AI Chips. These Stocks Are Moving on the News.",
+    "url": "https://www.barrons.com/articles/tesla-samsung-stock-price-ai-chips-2e62b360?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:32:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754427+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "bc19256d5322e3b4"
+  },
+  {
+    "id": "yahoo-finance-8cf2ae8dcd89b1c9",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Trump-supporter CEO calls out administration’s ethane export ban to China: ‘These kinds of actions rarely hurt the intended target and often backfire’",
+    "url": "https://finance.yahoo.com/news/trump-supporter-ceo-calls-administration-203125177.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:31:25+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754512+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8cf2ae8dcd89b1c9"
+  },
+  {
+    "id": "yahoo-finance-4250e4a723251ec3",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Shiba Inu Could Surge 3,000% and Overtake Dogecoin by 2026, Say Analysts",
+    "url": "https://finance.yahoo.com/news/shiba-inu-could-surge-3-203111133.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:31:11+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754698+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "4250e4a723251ec3"
+  },
+  {
+    "id": "yahoo-finance-9aaf18bf04621cbb",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Spirit Airlines to Furlough and Demote Pilots. The Stock Is Falling.",
+    "url": "https://www.barrons.com/articles/spirit-airlines-stock-pilot-furloughs-bfb5399f?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:29:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754636+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9aaf18bf04621cbb"
+  },
+  {
+    "id": "nyt-business-19758d3c134a7838",
+    "sourceId": "nyt-business",
+    "sourceName": "NYT Business",
+    "title": "‘The Fantastic Four: First Steps’ Breaks a Box Office Curse",
+    "url": "https://www.nytimes.com/2025/07/27/business/media/the-fantastic-four-first-steps-box-office.html",
+    "summary": "The movie, the fifth effort to adapt the comic characters for the big screen, was expected to collect about $218 million worldwide in its first weekend.",
+    "publishedAt": "2025-07-28T20:28:56+00:00",
+    "fetchedAt": "2025-07-30T09:09:09.794386+00:00",
+    "category": "markets",
+    "tags": [
+      "Equities"
+    ],
+    "priority": "normal",
+    "contentHash": "19758d3c134a7838"
+  },
+  {
+    "id": "yahoo-finance-0c76dd3160574945",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Not Even Two Downgrades Could Take Down GE Vernova Stock",
+    "url": "https://www.barrons.com/articles/ge-vernova-stock-downgrades-7763aa75?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:27:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754665+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0c76dd3160574945"
+  },
+  {
+    "id": "yahoo-finance-26a8fa5364722a95",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Analyst Think Rtx (RTX) Among Top Beneficiaries of Increasing Defense Budgets",
+    "url": "https://finance.yahoo.com/news/analyst-think-rtx-rtx-among-202452661.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:24:52+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754760+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "26a8fa5364722a95"
+  },
+  {
+    "id": "yahoo-finance-80674595223d6710",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "These Stocks Moved the Most Today: Tesla, AMD, ASML, Nike, Revvity, Charter, and More",
+    "url": "https://www.barrons.com/articles/stock-movers-5702d436?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:23:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754825+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "80674595223d6710"
+  },
+  {
+    "id": "yahoo-finance-d4021b0f65b5affa",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Is General Dynamics (GD) The Best Defense Stock to Buy in 2025?",
+    "url": "https://finance.yahoo.com/news/general-dynamics-gd-best-defense-202247940.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:22:47+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754790+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "d4021b0f65b5affa"
+  },
+  {
+    "id": "yahoo-finance-18e1dd32e568efcc",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Starbucks stock drops after US same-store sales fall for 6th straight quarter",
+    "url": "https://finance.yahoo.com/news/starbucks-stock-drops-after-us-same-store-sales-fall-for-6th-straight-quarter-202028730.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T20:20:28+00:00",
+    "fetchedAt": "2025-07-30T14:58:32.596255+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "18e1dd32e568efcc"
+  },
+  {
+    "id": "yahoo-finance-625181d56c387669",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Starbucks posts 6th straight quarter of US same-store sales declines as turnaround efforts continue",
+    "url": "https://finance.yahoo.com/news/starbucks-posts-6th-straight-quarter-of-us-same-store-sales-declines-as-turnaround-efforts-continue-202028803.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-28T20:20:28+00:00",
+    "fetchedAt": "2025-08-01T04:05:37.254859+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "625181d56c387669"
+  },
+  {
+    "id": "yahoo-finance-6c5f8369c18a57a2",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Analyst Says He’s Buying Meta Platforms (META) Amid AI Monetization – ‘Margins Are Just Going Higher’",
+    "url": "https://finance.yahoo.com/news/analyst-says-buying-meta-platforms-201939222.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:19:39+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754926+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6c5f8369c18a57a2"
+  },
+  {
+    "id": "yahoo-finance-897a5cba0298492b",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Whirlpool, Still Awaiting Tariff Boost, Slashes Earnings Guidance",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-07-28-2025/card/whirlpool-still-awaiting-tariff-boost-slashes-earnings-guidance-7g29ijqlgIUXem5EMVoh?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:19:13+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.754956+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "897a5cba0298492b"
+  },
+  {
+    "id": "yahoo-finance-f1bf2b7a3e97b741",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Treasurys Wrap Steady Trading Monday",
+    "url": "https://www.wsj.com/finance/investing/jgb-futures-edge-higher-on-possible-position-adjustments-fcaf64f2?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:18:00+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755083+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f1bf2b7a3e97b741"
+  },
+  {
+    "id": "ft-markets-91c96e93f37724d7",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "EU-US trade deal as it happened: Germany’s Merz says agreement will cause ‘considerable damage’ to bloc’s economy",
+    "url": "https://www.ft.com/content/d974c264-a3ac-4fdc-a9e1-8f95b49e8bf0",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:17:35+00:00",
+    "fetchedAt": "2025-07-30T08:08:48.406122+00:00",
+    "category": "markets",
+    "tags": [
+      "M&A",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "91c96e93f37724d7"
+  },
+  {
+    "id": "yahoo-finance-0bf3c57508f8431d",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Josh Brown Gives Followers ‘Permission’ to Sell NVIDIA (NVDA) Shares – Here’s Why",
+    "url": "https://finance.yahoo.com/news/josh-brown-gives-followers-permission-201644075.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:16:44+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755119+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0bf3c57508f8431d"
+  },
+  {
+    "id": "yahoo-finance-8282130f041d0872",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Nike Stock Breaks Out As JPMorgan Sees Earnings Revival For Dow Jones Giant",
+    "url": "https://www.investors.com/news/nike-stock-breakout-jpmorgan-earnings-revival-dow-jones-giant/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:16:14+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755155+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Earnings"
+    ],
+    "priority": "normal",
+    "contentHash": "8282130f041d0872"
+  },
+  {
+    "id": "yahoo-finance-3cbfcd53c2501071",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Apple (AAPL) Bull Says iPhone Will Be a ‘Great’ AI Catalyst – ‘We Feel Stock is Very Attractive’",
+    "url": "https://finance.yahoo.com/news/apple-aapl-bull-says-iphone-201515621.html",
+    "summary": "",
+    "publishedAt": "2025-07-28T20:15:15+00:00",
+    "fetchedAt": "2025-07-30T08:08:51.755225+00:00",
+    "category": "markets",
+    "tags": [
+      "AI",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3cbfcd53c2501071"
   }
 ]
