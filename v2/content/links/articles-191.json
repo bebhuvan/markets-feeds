@@ -1,1688 +1,1654 @@
 [
   {
-    "id": "aeon-magazine-70d8d0a2",
-    "sourceId": "aeon-magazine",
-    "sourceName": "Aeon Magazine",
+    "id": "ft-economics-53a87370a2b056b6",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "VW pledges ‘huge’ US investments as it seeks separate trade deal with Trump",
+    "url": "https://www.ft.com/content/cc06031c-f4a9-45db-ba3a-a3a23404b1f9",
+    "summary": "German auto group lowers return-on-sales estimate after taking €1.3bn tariff hit.",
+    "publishedAt": "2025-07-25T10:56:38+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.917782+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "high",
+    "contentHash": "53a87370a2b056b6"
+  },
+  {
+    "id": "ft-economics-057c23c79df12507",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "Nvidia AI chips worth $1bn smuggled to China after Trump export controls",
+    "url": "https://www.ft.com/content/6f806f6e-61c1-4b8d-9694-90d7328a7b54",
+    "summary": "Roaring black market for US semiconductors operates despite efforts to curb Beijing’s high-tech ambitions.",
+    "publishedAt": "2025-07-25T10:52:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.917952+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Tech",
+      "AI"
+    ],
+    "priority": "high",
+    "contentHash": "057c23c79df12507"
+  },
+  {
+    "id": "thehindubusinessline-95102fe5e7d22f60",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Rupee weakens 12 paise to settle at 86.52 against US dollar",
+    "url": "https://www.thehindubusinessline.com/markets/forex/rupee-weakens-12-paise-to-settle-at-8652-against-us-dollar/article69854452.ece",
+    "summary": "On Thursday, the rupee saw some initial recovery but ended the session just 1 paisa higher at 86.40 against the US dollar.",
+    "publishedAt": "2025-07-25T10:47:00+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.363588+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Currency"
+    ],
+    "priority": "normal",
+    "contentHash": "95102fe5e7d22f60"
+  },
+  {
+    "id": "thehindubusinessline-08d96992e54b19e9",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Ujjivan SFB shares fall on Q1 profit miss",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/ujjivan-sfb-shares-fall-on-q1-profit-miss/article69854429.ece",
+    "summary": "Brokerages maintain positive outlook, eyes recovery from H2FY26.",
+    "publishedAt": "2025-07-25T10:43:44+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.363848+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "low",
+    "contentHash": "08d96992e54b19e9"
+  },
+  {
+    "id": "jacobin-8f16832ebaaf988f",
+    "sourceId": "jacobin",
+    "sourceName": "Jacobin",
+    "title": "Building Trades Unions Are Split in Their Response to Trump",
+    "url": "https://jacobin.com/2025/07/building-trades-unions-trump-immigrants/",
+    "summary": "One of the last nationwide bastions of union jobs is getting jackhammered by the Trump administration. Members are languishing in Immigration and Customs Enforcement (ICE) prisons without trial. Programs that protect members from racism and sexism are getting the axe.",
+    "publishedAt": "2025-07-25T10:43:14+00:00",
+    "fetchedAt": "2025-07-28T06:33:17.777136+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "8f16832ebaaf988f"
+  },
+  {
+    "id": "wsj-opinion-63832b83e271df9a",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Bold Names Season 4",
+    "url": "https://www.wsj.com/business/bold-names-season-4-bcba6674?mod=rss_Technology",
+    "summary": "Listen to a WSJ interview series where you hear directly from the leaders of bold-name companies.",
+    "fullContent": "Listen to a WSJ interview series where you hear directly from the leaders of bold-name companies.",
+    "publishedAt": "2025-07-25T10:42:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.115632+00:00",
+    "category": "blogs",
+    "tags": [
+      "Blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "63832b83e271df9a"
+  },
+  {
+    "id": "paul-krugman-b69cb5f2b959f265",
+    "sourceId": "paul-krugman",
+    "sourceName": "Paul Krugman",
+    "title": "The Art of the Really Stupid Deal",
+    "url": "https://paulkrugman.substack.com/p/the-art-of-the-really-stupid-deal",
+    "summary": "",
+    "publishedAt": "2025-07-25T10:31:14+00:00",
+    "fetchedAt": "2025-07-28T06:22:17.744696+00:00",
+    "category": "non-money",
+    "tags": [
+      "M&A",
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "b69cb5f2b959f265"
+  },
+  {
+    "id": "paul-krugman-38cf2067",
+    "sourceId": "paul-krugman",
+    "sourceName": "Paul Krugman",
     "title": "",
-    "url": "https://aeon.co/essays/is-it-time-to-chart-a-new-path-for-xenolinguistics-through-sci-fi?utm_source=rss-feed",
-    "summary": "To truly explore alien languages, linguists must open themselves to the maximum conceivable degree of cosmic otherness - by Eli K P William Read at Aeon]]",
-    "fullContent": "To truly explore alien languages, linguists must open themselves to the maximum conceivable degree of cosmic otherness - by Eli K P William Read at Aeon]]",
-    "publishedAt": "2025-07-18T10:00:00.000Z",
-    "fetchedAt": "2025-08-04T10:01:56.350Z",
+    "url": "https://paulkrugman.substack.com/p/the-art-of-the-really-stupid-deal",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-25T10:31:14.000Z",
+    "fetchedAt": "2025-08-04T06:57:27.940Z",
+    "category": "blogs",
+    "tags": [
+      "blogs"
+    ],
+    "priority": "normal",
+    "contentHash": "38cf2067"
+  },
+  {
+    "id": "big-picture-23069cd33bb311dc",
+    "sourceId": "big-picture",
+    "sourceName": "The Big Picture",
+    "title": "10 Friday AM Reads",
+    "url": "https://ritholtz.com/2025/07/10-friday-am-reads-460/",
+    "summary": "My end-of-week morning train WFH reads: • U.S. Homes Are Not Selling, and Prices Continue to Rise: June, usually the height of the spring housing season, saw sales of existing homes drop from the previous month, according to the National Association of Realtors.",
+    "publishedAt": "2025-07-25T10:30:53+00:00",
+    "fetchedAt": "2025-07-30T08:45:59.562811+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "23069cd33bb311dc"
+  },
+  {
+    "id": "project-syndicate-104045a259bf28ce",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "AI’s Corporate Shell Game Must End",
+    "url": "https://www.project-syndicate.org/commentary/ai-corporate-governance-overlooked-accountability-tool-by-christopher-marquis-2025-07",
+    "summary": "US President Donald Trump’s AI Action Plan has confirmed his administration’s unwillingness to regulate this fast-moving industry. But policymakers, investors, and the American public can ensure that AI firms are held accountable by strengthening the requirements for...",
+    "publishedAt": "2025-07-25T10:26:21+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.036651+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "AI"
+    ],
+    "priority": "high",
+    "contentHash": "104045a259bf28ce"
+  },
+  {
+    "id": "bbc-business-5be66529b6c5d872",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Trump bickers with Powell over Fed renovation costs",
+    "url": "https://www.bbc.com/news/articles/c1ljlvg1e7eo",
+    "summary": "Tensions between the president and the Fed Chair were on full display during Trump's visit.",
+    "publishedAt": "2025-07-25T10:20:39+00:00",
+    "fetchedAt": "2025-07-28T08:47:55.136790+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "5be66529b6c5d872"
+  },
+  {
+    "id": "bbc-business-094d7ad1f6f0ef7b",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Trump bickers with Powell over Fed renovation costs",
+    "url": "https://www.bbc.com/news/articles/c1ljlvg1e7eo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tensions between the president and the Fed Chair were on full display during Trump's visit.",
+    "publishedAt": "2025-07-25T10:20:39+00:00",
+    "fetchedAt": "2025-07-28T15:48:36.210591+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "high",
+    "contentHash": "094d7ad1f6f0ef7b"
+  },
+  {
+    "id": "esg-today-5c1063bcee100c8c",
+    "sourceId": "esg-today",
+    "sourceName": "ESG Today",
+    "title": "Mizuho Acquires Energy Transition-Focused Investment Bank Augusta",
+    "url": "https://www.esgtoday.com/mizuho-acquires-energy-transition-focused-investment-bank-augusta/?utm_source=rss&utm_medium=rss&utm_campaign=mizuho-acquires-energy-transition-focused-investment-bank-augusta",
+    "summary": "Tokyo-based banking and financial services company Mizuho Financial Group announced today an agreement to acquire […]",
+    "publishedAt": "2025-07-25T10:20:12+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.802825+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "5c1063bcee100c8c"
+  },
+  {
+    "id": "ft-economics-e15b529d9004c24b",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "FirstFT: Trump adds to pressure on Powell with highly unusual Fed visit",
+    "url": "https://www.ft.com/content/9773cc90-3b8c-4800-9ad1-7c7865a72994",
+    "summary": "Also in today’s newsletter, Chinese investors flock to HK and the stock market’s extraordinary year.",
+    "publishedAt": "2025-07-25T10:09:53+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.918137+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro"
+    ],
+    "priority": "high",
+    "contentHash": "e15b529d9004c24b"
+  },
+  {
+    "id": "derek-thompson-7410c2a",
+    "sourceId": "derek-thompson",
+    "sourceName": "Derek Thompson",
+    "title": "",
+    "url": "https://www.derekthompson.org/p/if-trumps-economic-ideas-are-so-terrible",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-25T10:02:50.000Z",
+    "fetchedAt": "2025-08-04T10:05:38.646Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "70d8d0a2"
+    "contentHash": "7410c2a"
   },
   {
-    "id": "psyche-magazine-716c0688",
+    "id": "derek-thompson-5a6429a4",
+    "sourceId": "derek-thompson",
+    "sourceName": "Derek Thompson",
+    "title": "The US Economy Was Supposed to Be in a Recession By Now. What Happened?",
+    "url": "https://www.derekthompson.org/p/if-trumps-economic-ideas-are-so-terrible",
+    "summary": "Poisoned by inflation, shot by tariffs, counted out by economists, it just keeps kicking.",
+    "fullContent": "Poisoned by inflation, shot by tariffs, counted out by economists, it just keeps kicking.",
+    "publishedAt": "2025-07-25T10:02:50.000Z",
+    "fetchedAt": "2025-08-05T11:34:14.515Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "5a6429a4"
+  },
+  {
+    "id": "psyche-magazine-1913c855",
     "sourceId": "psyche-magazine",
     "sourceName": "Psyche Magazine",
     "title": "",
-    "url": "https://psyche.co/stories-of-change/how-sitting-in-the-hole-helped-me-cope-with-depression?utm_source=rss-feed",
-    "summary": "img src=\" alt=\"A person with a backpack hiking through a dense forest towards a rocky riverba.",
-    "fullContent": "A metaphor for depression became a catalyst, and I started to reinvent my approach to suffering- by Tasha EichenseherRead on Psyche]]",
-    "publishedAt": "2025-07-18T10:00:00.000Z",
+    "url": "https://psyche.co/videos/you-are-me-i-am-you-a-trans-poets-evocative-message-to-her-former-self?utm_source=rss-feed",
+    "summary": "img src=\" alt=\"Illustration of a room with a plant on a table, soft coloured walls and a window with cu.",
+    "fullContent": "‘All of this is only mine through you.’ Time and identity collapse in a trans poet’s evocative message to her former self- Video by On BeingWatch on Psyche]]",
+    "publishedAt": "2025-07-25T10:01:00.000Z",
     "fetchedAt": "2025-08-04T10:02:01.530Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "716c0688"
+    "contentHash": "1913c855"
   },
   {
-    "id": "aeon-magazine-4ba6b702",
-    "sourceId": "aeon-magazine",
-    "sourceName": "Aeon Magazine",
-    "title": "The grammar of a god-ocean",
-    "url": "https://aeon.co/essays/is-it-time-to-chart-a-new-path-for-xenolinguistics-through-sci-fi?utm_source=rss-feed",
-    "summary": "To truly explore alien languages, linguists must open themselves to the maximum conceivable degree of cosmic otherness - by Eli K P William Read at Aeon.",
-    "fullContent": "To truly explore alien languages, linguists must open themselves to the maximum conceivable degree of cosmic otherness - by Eli K P William Read at Aeon",
-    "publishedAt": "2025-07-18T10:00:00.000Z",
-    "fetchedAt": "2025-08-05T11:30:31.690Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "4ba6b702"
-  },
-  {
-    "id": "psyche-magazine-6951ae0c",
+    "id": "psyche-magazine-1d47b107",
     "sourceId": "psyche-magazine",
     "sourceName": "Psyche Magazine",
-    "title": "In the hole",
-    "url": "https://psyche.co/stories-of-change/how-sitting-in-the-hole-helped-me-cope-with-depression?utm_source=rss-feed",
-    "summary": "A metaphor for depression became a catalyst, and I started to reinvent my approach to suffering- by Tasha EichenseherRead on Psyche.",
-    "fullContent": "A metaphor for depression became a catalyst, and I started to reinvent my approach to suffering- by Tasha EichenseherRead on Psyche",
-    "publishedAt": "2025-07-18T10:00:00.000Z",
+    "title": "Letter to my body",
+    "url": "https://psyche.co/videos/you-are-me-i-am-you-a-trans-poets-evocative-message-to-her-former-self?utm_source=rss-feed",
+    "summary": "img src=\" alt=\"Illustration of a room with a plant on a table, soft coloured walls and a window with curtains.\"",
+    "fullContent": "‘All of this is only mine through you.’ Time and identity collapse in a trans poet’s evocative message to her former self- Video by On BeingWatch on Psyche",
+    "publishedAt": "2025-07-25T10:01:00.000Z",
     "fetchedAt": "2025-08-05T11:30:36.850Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "6951ae0c"
+    "contentHash": "1d47b107"
   },
   {
-    "id": "noahpinion-e69b6ebcfb51b3a7",
-    "sourceId": "noahpinion",
-    "sourceName": "Noah Smith",
-    "title": "At least five interesting things: Bad Policy edition (#67)",
-    "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-c56",
-    "summary": "ICE backlash; progressive bumbling; antisocial Americans; bad inflation data; the Roaring 20s; AI politics; China vs. America.",
-    "publishedAt": "2025-07-18T09:55:03+00:00",
-    "fetchedAt": "2025-07-28T04:04:07.483660+00:00",
+    "id": "thehindubusinessline-a1d57b8ab52ee45e",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Cyient shares swing post Q1 results, brokerages cautious",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/cyient-shares-swing-post-q1-results-brokerages-cautious/article69854259.ece",
+    "summary": "Unimpressed brokerages flag weak DET performance, margin concerns.",
+    "publishedAt": "2025-07-25T10:00:47+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.364021+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a1d57b8ab52ee45e"
+  },
+  {
+    "id": "over-the-field-835e3694b46e10b4",
+    "sourceId": "over-the-field",
+    "sourceName": "Over the Field",
+    "title": "A Glimpse of All Things Made New",
+    "url": "https://overthefield.substack.com/p/a-glimpse-of-all-things-made-new",
+    "summary": "When a wild creature accepts our presence it is a sacred moment.",
+    "publishedAt": "2025-07-25T10:00:46+00:00",
+    "fetchedAt": "2025-07-28T06:33:11.958769+00:00",
     "category": "non-money",
     "tags": [
-      "Research",
-      "AI"
+      "Non-Money"
     ],
-    "priority": "high",
-    "contentHash": "e69b6ebcfb51b3a7"
+    "priority": "normal",
+    "contentHash": "835e3694b46e10b4"
   },
   {
-    "id": "noahpinion-6023e7dd",
-    "sourceId": "noahpinion",
-    "sourceName": "Noahpinion",
+    "id": "over-the-field-17472bc1",
+    "sourceId": "over-the-field",
+    "sourceName": "Over the Field",
     "title": "",
-    "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-c56",
+    "url": "https://overthefield.substack.com/p/a-glimpse-of-all-things-made-new",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-18T09:55:03.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.564Z",
-    "category": "blogs",
+    "publishedAt": "2025-07-25T10:00:46.000Z",
+    "fetchedAt": "2025-08-05T09:23:44.533Z",
+    "category": "eclectic",
     "tags": [
-      "blogs"
+      "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "6023e7dd"
+    "contentHash": "17472bc1"
   },
   {
-    "id": "noahpinion-51aabcf5",
-    "sourceId": "noahpinion",
-    "sourceName": "Noahpinion",
-    "title": "At least five interesting things: Bad Policy edition (#67)",
-    "url": "https://www.noahpinion.blog/p/at-least-five-interesting-things-c56",
-    "summary": "ICE backlash; progressive bumbling; antisocial Americans; bad inflation data; the Roaring 20s; AI politics; China vs. America.",
-    "fullContent": "ICE backlash; progressive bumbling; antisocial Americans; bad inflation data; the Roaring 20s; AI politics; China vs. America",
-    "publishedAt": "2025-07-18T09:55:03.000Z",
-    "fetchedAt": "2025-08-05T11:27:54.219Z",
-    "category": "blogs",
+    "id": "ft-markets-d73947de7d1e367d",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "My latest nice problem is Japan",
+    "url": "https://www.ft.com/content/8e60015d-e921-4e57-b0ce-038953932e2d",
+    "summary": "A positive trade deal with the US masks a year of zero equity returns in sterling.",
+    "publishedAt": "2025-07-25T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.546678+00:00",
+    "category": "markets",
     "tags": [
-      "blogs"
+      "Markets",
+      "M&A"
     ],
     "priority": "normal",
-    "contentHash": "51aabcf5"
+    "contentHash": "d73947de7d1e367d"
   },
   {
-    "id": "bbc-technology-f9e4cd970ab1fc42",
-    "sourceId": "bbc-technology",
-    "sourceName": "BBC Technology",
-    "title": "Netflix uses AI effects for first time to cut costs",
-    "url": "https://www.bbc.com/news/articles/c9vr4rymlw9o?at_medium=RSS&at_campaign=rss",
-    "summary": "The streaming firm says AI allowed The Eternaut to complete a sequence faster and cheaper.",
-    "fullContent": "The streaming firm says AI allowed The Eternaut to complete a sequence faster and cheaper.",
-    "publishedAt": "2025-07-18T08:54:29+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.568245+00:00",
+    "id": "stratechery-29c8cb9d9f83c501",
+    "sourceId": "stratechery",
+    "sourceName": "Stratechery",
+    "title": "2025.30: Rumors of Google’s Demise…",
+    "url": "https://stratechery.com/2025/rumors-of-googles-demise/",
+    "summary": "The best Stratechery content from the week of July 21, 2025, including exaggerated rumors of Google's demise, content and community, and computers as entertainment machines.",
+    "publishedAt": "2025-07-25T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.063798+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "29c8cb9d9f83c501"
+  },
+  {
+    "id": "aeon-magazine-2b833278f4cb8a99",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon",
+    "title": "Beyond food and people",
+    "url": "https://aeon.co/essays/nietzsches-startling-provocation-youre-edible-and-delicious?utm_source=rss-feed",
+    "summary": "Nietzsche shows us how to embrace our connection with nature – without denying its essential conflict, strife and suffering - by Nicholas E Low Read at Aeon.",
+    "publishedAt": "2025-07-25T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:10.643238+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "2b833278f4cb8a99"
+  },
+  {
+    "id": "rest-of-world-8ff279fbcd7ef006",
+    "sourceId": "rest-of-world",
+    "sourceName": "Rest of World",
+    "title": "Saudi Aramco wants a Google spinoff to turn its waste into wealth",
+    "url": "https://restofworld.org/2025/saudi-aramco-carbon-emissions-profit-google-spinoff-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "summary": "The world’s biggest crude producer is partnering with SandboxAQ to turn captured carbon into profitable products.",
+    "publishedAt": "2025-07-25T10:00:00+00:00",
+    "fetchedAt": "2025-07-28T08:52:45.734401+00:00",
+    "category": "news",
+    "tags": [
+      "News"
+    ],
+    "priority": "normal",
+    "contentHash": "8ff279fbcd7ef006"
+  },
+  {
+    "id": "apollo-academy-b9f7e15fe1716fca",
+    "sourceId": "apollo-academy",
+    "sourceName": "Apollo Academy",
+    "title": "S&P 500 Returns Extremely Concentrated",
+    "url": "https://www.apolloacademy.com/sp-500-returns-extremely-concentrated/",
+    "summary": "If you had invested $1 million in the S&P 500 on January 1, 2021, your return today would be $660,000,... The post S&P 500 Returns Extremely Concentrated appeared first on Apollo Academy.",
+    "publishedAt": "2025-07-25T10:00:00+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.206746+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "b9f7e15fe1716fca"
+  },
+  {
+    "id": "stratechery-670f436d",
+    "sourceId": "stratechery",
+    "sourceName": "Stratechery",
+    "title": "2025.30: Rumors of Google&#8217;s Demise&#8230;",
+    "url": "https://stratechery.com/2025/rumors-of-googles-demise/",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-25T10:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.015Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "670f436d"
+  },
+  {
+    "id": "aeon-magazine-2c0863f9",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon Magazine",
+    "title": "",
+    "url": "https://aeon.co/essays/nietzsches-startling-provocation-youre-edible-and-delicious?utm_source=rss-feed",
+    "summary": "Nietzsche shows us how to embrace our connection with.",
+    "fullContent": "Nietzsche shows us how to embrace our connection with nature – without denying its essential conflict, strife and suffering - by Nicholas E Low Read at Aeon]]",
+    "publishedAt": "2025-07-25T10:00:00.000Z",
+    "fetchedAt": "2025-08-04T10:01:56.350Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "2c0863f9"
+  },
+  {
+    "id": "psyche-magazine-5d6e05e4",
+    "sourceId": "psyche-magazine",
+    "sourceName": "Psyche Magazine",
+    "title": "",
+    "url": "https://psyche.co/stories-of-change/a-wolf-encounter-taught-me-what-sartre-meant-by-authentic-living?utm_source=rss-feed",
+    "summary": "img src=\" alt=\"A white wolf standing on a rocky surface with a grassy background, tongue out, looki.",
+    "fullContent": "Time slowed and adrenaline kicked in. The creature studied me, just another element in nature- by Melanie McGrathRead on Psyche]]",
+    "publishedAt": "2025-07-25T10:00:00.000Z",
+    "fetchedAt": "2025-08-04T10:02:01.530Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "5d6e05e4"
+  },
+  {
+    "id": "stratechery-216bd61b",
+    "sourceId": "stratechery",
+    "sourceName": "Stratechery",
+    "title": "2025.30: Rumors of Google&#8217;s Demise&#8230;",
+    "url": "https://stratechery.com/2025/rumors-of-googles-demise/",
+    "summary": "The best Stratechery content from the week of July 21, 2025, including exaggerated rumors of Google's demise, content and community, and computers as entertainment machines.",
+    "fullContent": "The best Stratechery content from the week of July 21, 2025, including exaggerated rumors of Google's demise, content and community, and computers as entertainment machines.",
+    "publishedAt": "2025-07-25T10:00:00.000Z",
+    "fetchedAt": "2025-08-05T11:27:54.342Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "216bd61b"
+  },
+  {
+    "id": "aeon-magazine-490e3f65",
+    "sourceId": "aeon-magazine",
+    "sourceName": "Aeon Magazine",
+    "title": "Beyond food and people",
+    "url": "https://aeon.co/essays/nietzsches-startling-provocation-youre-edible-and-delicious?utm_source=rss-feed",
+    "summary": "Nietzsche shows us how to embrace our connection with nature –",
+    "fullContent": "Nietzsche shows us how to embrace our connection with nature – without denying its essential conflict, strife and suffering - by Nicholas E Low Read at Aeon",
+    "publishedAt": "2025-07-25T10:00:00.000Z",
+    "fetchedAt": "2025-08-05T11:30:31.690Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "490e3f65"
+  },
+  {
+    "id": "psyche-magazine-4dce03c0",
+    "sourceId": "psyche-magazine",
+    "sourceName": "Psyche Magazine",
+    "title": "Alone with a she-wolf",
+    "url": "https://psyche.co/stories-of-change/a-wolf-encounter-taught-me-what-sartre-meant-by-authentic-living?utm_source=rss-feed",
+    "summary": "img src=\" alt=\"A white wolf standing on a rocky surface with a grassy background, tongue out, looking forwar.",
+    "fullContent": "Time slowed and adrenaline kicked in. The creature studied me, just another element in nature- by Melanie McGrathRead on Psyche",
+    "publishedAt": "2025-07-25T10:00:00.000Z",
+    "fetchedAt": "2025-08-05T11:30:36.850Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "4dce03c0"
+  },
+  {
+    "id": "thehindubusinessline-15c2da270425803d",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "eClerx shares hit 52-week high as Q1 profit jumps 27%",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/eclerx-shares-hit-52-week-high-as-q1-profit-jumps-27/article69854232.ece",
+    "summary": "The Mumbai-based company posted a 26.9% year-on-year jump in net profit to ₹141.7 crore for the quarter ended June 30, compared to ₹111.6 crore in the same period last year.",
+    "publishedAt": "2025-07-25T09:57:49+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.364223+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "15c2da270425803d"
+  },
+  {
+    "id": "thehindubusinessline-28be37ac239f95c0",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Reliance Power hits lower circuit on enforcement action reports",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/reliance-power-hits-lower-circuit-on-enforcement-action-reports/article69854204.ece",
+    "summary": "Media reports allegedly pertain to transactions involving Reliance Communications Limited (RCOM) or Reliance Home Finance Limited (RHFL) that are over 10 years old.",
+    "publishedAt": "2025-07-25T09:50:19+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.364410+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "28be37ac239f95c0"
+  },
+  {
+    "id": "thehindubusinessline-ad07eb2979b45143",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Canara Bank shares down despite Q1 profit rising 21.69%",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/canara-bank-posts-2169-jump-in-q1-net-profit-stock-declines/article69854217.ece",
+    "summary": "The bank’s retail lending portfolio expanded 33.92 per cent to ₹2,35,418 crore, with housing loans growing 13.92 per cent to ₹1,09,490 crore. Fee-based income increased 16.39 per cent to ₹2,223 crore.",
+    "publishedAt": "2025-07-25T09:50:11+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.364620+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "ad07eb2979b45143"
+  },
+  {
+    "id": "nautilus-magazine-3972cc7213685967",
+    "sourceId": "nautilus-magazine",
+    "sourceName": "Nautilus",
+    "title": "The Dawn of Bathtub Cosmology",
+    "url": "https://nautil.us/the-dawn-of-bathtub-cosmology-1226694/",
+    "summary": "A phenomenon that captured the imaginations of generations of bathers may be key to understanding planetary formation The post The Dawn of Bathtub Cosmology appeared first on Nautilus.",
+    "publishedAt": "2025-07-25T09:50:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:17.700601+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "3972cc7213685967"
+  },
+  {
+    "id": "nautilus-magazine-0dae1668fb16cb00",
+    "sourceId": "nautilus-magazine",
+    "sourceName": "Nautilus",
+    "title": "What We Still Get Wrong About Psychopaths",
+    "url": "https://nautil.us/what-we-still-get-wrong-about-psychopaths-1226700/",
+    "summary": "Many scientists portray psychopathy as a brain disorder, despite a lack of evidence The post What We Still Get Wrong About Psychopaths appeared first on Nautilus.",
+    "publishedAt": "2025-07-25T09:50:00+00:00",
+    "fetchedAt": "2025-07-28T06:33:17.700936+00:00",
+    "category": "non-money",
+    "tags": [
+      "Non-Money"
+    ],
+    "priority": "normal",
+    "contentHash": "0dae1668fb16cb00"
+  },
+  {
+    "id": "esg-today-6ef26cf41b06cd21",
+    "sourceId": "esg-today",
+    "sourceName": "ESG Today",
+    "title": "Kimberly-Clark Invests Over $165 Million to Decarbonize Manufacturing with Green Hydrogen",
+    "url": "https://www.esgtoday.com/kimberly-clark-invests-over-165-million-to-decarbonize-manufacturing-with-green-hydrogen/?utm_source=rss&utm_medium=rss&utm_campaign=kimberly-clark-invests-over-165-million-to-decarbonize-manufacturing-with-green-hydrogen",
+    "summary": "Kimberly-Clark UK & Ireland, the manufacturer of household brands including Andrex and Kleenex, has become […]",
+    "publishedAt": "2025-07-25T09:33:15+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.803051+00:00",
+    "category": "research",
+    "tags": [
+      "Research",
+      "ESG"
+    ],
+    "priority": "normal",
+    "contentHash": "6ef26cf41b06cd21"
+  },
+  {
+    "id": "infinite-scroll-4038e725",
+    "sourceId": "infinite-scroll",
+    "sourceName": "Infinite Scroll",
+    "title": "",
+    "url": "https://www.infinitescroll.us/p/you-dont-care-about-politics-you",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-25T09:32:20.000Z",
+    "fetchedAt": "2025-08-04T10:05:54.138Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "4038e725"
+  },
+  {
+    "id": "infinite-scroll-3ab5c44f",
+    "sourceId": "infinite-scroll",
+    "sourceName": "Infinite Scroll",
+    "title": "You don't care about politics. You have a politics hobby.",
+    "url": "https://www.infinitescroll.us/p/you-dont-care-about-politics-you",
+    "summary": "",
+    "fullContent": "Entertainment is not the same as action",
+    "publishedAt": "2025-07-25T09:32:20.000Z",
+    "fetchedAt": "2025-08-05T11:34:29.947Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "3ab5c44f"
+  },
+  {
+    "id": "ft-markets-a08152a6f77b073c",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "NatWest ‘closely monitoring’ impact of tax rises on millionaire customers",
+    "url": "https://www.ft.com/content/5b75ded1-f8a5-4267-8e85-80919b383c3e",
+    "summary": "FTSE 100 upgrades guidance and announces £750mn share buyback.",
+    "publishedAt": "2025-07-25T09:26:19+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.546842+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a08152a6f77b073c"
+  },
+  {
+    "id": "reuters-main-b2628a67becc93ad",
+    "sourceId": "reuters-main",
+    "sourceName": "Reuters",
+    "title": "Thailand-Cambodia border clashes - as they happened",
+    "url": "https://www.reuters.com/world/thailand-cambodia-live-artillery-rockets-fired-across-border-2025-07-25/",
+    "summary": "Cambodian and Thai militaries clash as civilians flee border areas.",
+    "publishedAt": "2025-07-25T09:12:41+00:00",
+    "fetchedAt": "2025-07-28T15:48:38.240849+00:00",
+    "category": "news",
+    "tags": [
+      "News"
+    ],
+    "priority": "normal",
+    "contentHash": "b2628a67becc93ad"
+  },
+  {
+    "id": "punchbowl-dc-22d17452b0c6fda3",
+    "sourceId": "punchbowl-dc",
+    "sourceName": "Punchbowl DC",
+    "title": "7/25/25 ☀️ AM:",
+    "url": "https://punchbowl.news/archive/72525-am/",
+    "summary": "PRESENTED BY IN THIS EDITION Inside Dems’ redistricting strategy The Vault: Big The post 7/25/25 ☀️ AM: appeared first on Punchbowl News.",
+    "publishedAt": "2025-07-25T09:09:25+00:00",
+    "fetchedAt": "2025-07-28T04:04:06.853442+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "high",
+    "contentHash": "22d17452b0c6fda3"
+  },
+  {
+    "id": "doomberg-efb67df6261af652",
+    "sourceId": "doomberg",
+    "sourceName": "Doomberg",
+    "title": "Paint By Number",
+    "url": "https://newsletter.doomberg.com/p/paint-by-number",
+    "summary": "Visualizing the physics of the European Union’s geopolitical impotence.",
+    "publishedAt": "2025-07-25T09:01:45+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.642256+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "efb67df6261af652"
+  },
+  {
+    "id": "ft-technology-8bb7002ff692b902",
+    "sourceId": "ft-technology",
+    "sourceName": "FT Technology",
+    "title": "AI boosts effort to combat long Covid and other fatigue diseases",
+    "url": "https://www.ft.com/content/9cdfadf4-21e2-4656-b0a8-235c5fdb68aa",
+    "summary": "Scientists hunt biological flags in gut bacteria and immune systems for chronic conditions such as ME.",
+    "publishedAt": "2025-07-25T09:00:10+00:00",
+    "fetchedAt": "2025-07-28T08:47:56.309071+00:00",
     "category": "technology",
     "tags": [
       "Technology",
       "AI"
     ],
     "priority": "normal",
-    "contentHash": "f9e4cd970ab1fc42"
+    "contentHash": "8bb7002ff692b902"
   },
   {
-    "id": "ai-futures-1912b756",
-    "sourceId": "ai-futures",
-    "sourceName": "AI Futures",
-    "title": "",
-    "url": "https://blog.ai-futures.org/p/against-misalignment-as-self-fulfilling",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-18T07:50:57.000Z",
-    "fetchedAt": "2025-08-04T10:06:45.314Z",
-    "category": "eclectic",
+    "id": "wired-d2ad834175600179",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "The First Planned Migration of an Entire Country Is Underway",
+    "url": "https://www.wired.com/story/the-first-planned-migration-of-an-entire-country-is-underway/",
+    "summary": "The Pacific island nation of Tuvalu could be submerged in 25 years due to rising sea levels, so a plan is being implemented to relocate its population to Australia.",
+    "publishedAt": "2025-07-25T09:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.128434+00:00",
+    "category": "technology",
     "tags": [
-      "eclectic"
+      "Research"
     ],
     "priority": "normal",
-    "contentHash": "1912b756"
+    "contentHash": "d2ad834175600179"
   },
   {
-    "id": "ai-futures-32f601d8",
-    "sourceId": "ai-futures",
-    "sourceName": "AI Futures",
-    "title": "We aren't worried about misalignment as self-fulfilling prophecy",
-    "url": "https://blog.ai-futures.org/p/against-misalignment-as-self-fulfilling",
-    "summary": "",
-    "fullContent": "...",
-    "publishedAt": "2025-07-18T07:50:57.000Z",
-    "fetchedAt": "2025-08-05T11:35:21.751Z",
-    "category": "eclectic",
+    "id": "jacobin-15b801e8fa196881",
+    "sourceId": "jacobin",
+    "sourceName": "Jacobin",
+    "title": "The New Cold War Is Exposing Europe’s Fault Lines",
+    "url": "https://jacobin.com/2025/07/central-eastern-europe-economic-divisions/",
+    "summary": "Something is stirring on the European Union’s eastern flank. Hungary is increasingly throwing its lot in with China and receiving billions in investment in return. Slovakia under Prime Minister Robert Fico keeps breaking with Brussels on Ukraine and edging closer to Moscow.",
+    "publishedAt": "2025-07-25T08:56:20+00:00",
+    "fetchedAt": "2025-07-28T06:33:17.777412+00:00",
+    "category": "non-money",
     "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "32f601d8"
-  },
-  {
-    "id": "ecfr-d6dc819398d77de2",
-    "sourceId": "ecfr",
-    "sourceName": "European Council on Foreign Relations",
-    "title": "Crisis and control in Gaza and the West Bank",
-    "url": "https://ecfr.eu/podcasts/episode/crisis-and-control-in-gaza-and-the-west-bank/",
-    "summary": "Mark Leonard is joined by Hugh Lovatt and Tahani Mustafa to discuss the humanitarian crisis in Gaza and the West Bank.",
-    "publishedAt": "2025-07-18T05:10:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.186314+00:00",
-    "category": "policy",
-    "tags": [
-      "Policy"
+      "Non-Money"
     ],
     "priority": "breaking",
-    "contentHash": "d6dc819398d77de2"
+    "contentHash": "15b801e8fa196881"
   },
   {
-    "id": "foreign-affairs-09ad4e4f8b2d2738",
-    "sourceId": "foreign-affairs",
-    "sourceName": "Foreign Affairs",
-    "title": "Is China’s Military Ready for War?",
-    "url": "https://www.foreignaffairs.com/china/chinas-military-ready-war-xi-jinping-taylor-fravel",
-    "summary": "What Xi’s purges do—and don’t—mean for Beijing’s ambitions.",
-    "publishedAt": "2025-07-18T04:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:49:27.487699+00:00",
+    "id": "ft-markets-85855de9164318db",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "Chinese investment into Hong Kong surges to record high",
+    "url": "https://www.ft.com/content/2ad21126-5ee0-4b06-8499-67e93d2938b9",
+    "summary": "Inflows through Stock Connect show how city’s fortunes have become increasingly dependent on capital from mainland.",
+    "publishedAt": "2025-07-25T08:50:48+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.547013+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "85855de9164318db"
+  },
+  {
+    "id": "project-syndicate-20d15b40447c6e18",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "Reimagining Sustainable Development for a Fractured World",
+    "url": "https://www.project-syndicate.org/commentary/achieving-sdgs-depends-on-catalyzing-private-investment-by-jozef-sikela-2025-07",
+    "summary": "As developing countries' investment needs become increasingly urgent, the resources to meet them are steadily dwindling. With public finances under strain worldwide, the European Union’s approach aims to mobilize private capital by de-risking investment and supporting local...",
+    "publishedAt": "2025-07-25T08:36:44+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.036869+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "ESG"
+    ],
+    "priority": "breaking",
+    "contentHash": "20d15b40447c6e18"
+  },
+  {
+    "id": "ft-markets-1bbea567c683985f",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "Trump swings by Scottish oil hubs as UK energy debate flares",
+    "url": "https://www.ft.com/content/0dc1ca8e-4333-476a-9182-f624c3349de3",
+    "summary": "US president to meet the UK and Scottish leaders, as trade and renewables policies loom large in push for growth.",
+    "publishedAt": "2025-07-25T08:35:09+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.547190+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Commodities"
+    ],
+    "priority": "normal",
+    "contentHash": "1bbea567c683985f"
+  },
+  {
+    "id": "ecb-press-f61e8d61395056a7",
+    "sourceId": "ecb-press",
+    "sourceName": "European Central Bank",
+    "title": "ECB appoints Isabel Vansteenkiste as Counsellor to President Lagarde",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250725_2~6509f4f965.en.html",
+    "summary": "",
+    "publishedAt": "2025-07-25T08:30:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.750547+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy"
+    ],
+    "priority": "high",
+    "contentHash": "f61e8d61395056a7"
+  },
+  {
+    "id": "ecb-press-76420c4c",
+    "sourceId": "ecb-press",
+    "sourceName": "ECB Press",
+    "title": "ECB appoints Isabel Vansteenkiste as Counsellor to President Lagarde",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250725_2~6509f4f965.en.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-25T08:30:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.826Z",
+    "category": "central-banking",
+    "tags": [
+      "central-banking"
+    ],
+    "priority": "normal",
+    "contentHash": "76420c4c"
+  },
+  {
+    "id": "ecfr-ce4af8c53483e624",
+    "sourceId": "ecfr",
+    "sourceName": "European Council on Foreign Relations",
+    "title": "Democratic decay in Bulgaria",
+    "url": "https://ecfr.eu/podcasts/episode/democratic-decay-in-bulgaria/",
+    "summary": "Mark Leonard welcomes Vessela Tcherneva and Maria Simeonova, to discuss the deteriorating political situation in Bulgaria.",
+    "publishedAt": "2025-07-25T08:23:17+00:00",
+    "fetchedAt": "2025-07-30T08:46:07.185271+00:00",
     "category": "policy",
     "tags": [
       "Policy"
     ],
     "priority": "normal",
-    "contentHash": "09ad4e4f8b2d2738"
+    "contentHash": "ce4af8c53483e624"
   },
   {
-    "id": "foreign-affairs-54a8c8cc",
+    "id": "thehindubusinessline-967a34d0d6c64a18",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Supplyco’s Onam purchase lifts good liquoring tea prices at Kochi auctions",
+    "url": "https://www.thehindubusinessline.com/economy/agri-business/supplycos-onam-purchase-lifts-good-liquoring-tea-prices-at-kochi-auctions/article69853970.ece",
+    "summary": "The procurement was to include tea in the food kits to be supplied to below poverty line families.",
+    "publishedAt": "2025-07-25T08:12:11+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.364810+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "967a34d0d6c64a18"
+  },
+  {
+    "id": "project-syndicate-103b3a368c1a1766",
+    "sourceId": "project-syndicate",
+    "sourceName": "Project Syndicate",
+    "title": "AI Should Help Fund Creative Labor",
+    "url": "https://www.project-syndicate.org/onpoint/how-ai-profits-can-help-fund-cultural-production-by-mariana-mazzucato-and-fausto-gernone-2025-07",
+    "summary": "Generative AI models are trained on publicly accessible creative content yet offer little to the artists, journalists, coders, and others who produce it. A levy on AI firms’ revenues could help fund the arts, promote open access, and ensure that human ingenuity doesn’t become...",
+    "publishedAt": "2025-07-25T08:10:45+00:00",
+    "fetchedAt": "2025-07-30T08:21:43.037094+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "Earnings",
+      "AI"
+    ],
+    "priority": "normal",
+    "contentHash": "103b3a368c1a1766"
+  },
+  {
+    "id": "ecb-press-dbb6b5e665a927c4",
+    "sourceId": "ecb-press",
+    "sourceName": "European Central Bank",
+    "title": "Results of the ECB Survey of Professional Forecasters for the third quarter of 2025",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250725~2c8aaa2009.en.html",
+    "summary": "",
+    "publishedAt": "2025-07-25T08:00:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.750600+00:00",
+    "category": "policy",
+    "tags": [
+      "Policy",
+      "Earnings"
+    ],
+    "priority": "high",
+    "contentHash": "dbb6b5e665a927c4"
+  },
+  {
+    "id": "ecb-press-7eb5dfa1",
+    "sourceId": "ecb-press",
+    "sourceName": "ECB Press",
+    "title": "Results of the ECB Survey of Professional Forecasters for the third quarter of 2025",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250725~2c8aaa2009.en.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-25T08:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.826Z",
+    "category": "central-banking",
+    "tags": [
+      "central-banking"
+    ],
+    "priority": "normal",
+    "contentHash": "7eb5dfa1"
+  },
+  {
+    "id": "bbc-business-53104235ba21060b",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Hot weather boosted retail sales in June",
+    "url": "https://www.bbc.com/news/articles/c3353der4evo",
+    "summary": "Supermarkets sold more drinks and fuel sales were up as people \"ventured out\", the UK statistics body says.",
+    "publishedAt": "2025-07-25T07:55:00+00:00",
+    "fetchedAt": "2025-07-28T08:47:55.137218+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "53104235ba21060b"
+  },
+  {
+    "id": "bbc-business-2fb79f89c0519bd6",
+    "sourceId": "bbc-business",
+    "sourceName": "BBC Business",
+    "title": "Hot weather boosted retail sales in June",
+    "url": "https://www.bbc.com/news/articles/c3353der4evo?at_medium=RSS&at_campaign=rss",
+    "summary": "Supermarkets sold more drinks and fuel sales were up as people \"ventured out\", the UK statistics body says.",
+    "publishedAt": "2025-07-25T07:55:00+00:00",
+    "fetchedAt": "2025-07-28T15:48:36.211061+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2fb79f89c0519bd6"
+  },
+  {
+    "id": "thehindubusinessline-757142c0baf591f3",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Nifty tumbles below 25,000 mark as FII selling pressure intensifies; Sensex drops nearly 600 points",
+    "url": "https://www.thehindubusinessline.com/markets/nifty-tumbles-below-25000-mark-as-fii-selling-pressure-intensifies-sensex-drops-nearly-600-points/article69853980.ece",
+    "summary": "Nifty Financial Services index falls 0.94% to 26,754; banking index decreases 0.90% to 56,475.",
+    "publishedAt": "2025-07-25T07:51:10+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.364992+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "757142c0baf591f3"
+  },
+  {
+    "id": "undark-magazine-2df7316c",
+    "sourceId": "undark-magazine",
+    "sourceName": "Undark Magazine",
+    "title": "Coercive Care: Southern Europe’s Reliance on Elder Restraints",
+    "url": "https://undark.org/2025/07/25/elder-care-restraints/",
+    "summary": "A five-month investigation across Italy, Spain, and Portugal — southern European countries with rapidly aging populations and limited funding for elderly care — reveals a stark gap between regulations on the use of physical restraints in nursing homes and reality.",
+    "fullContent": "A five-month investigation across Italy, Spain, and Portugal — southern European countries with rapidly aging populations and limited funding for elderly care — reveals a stark gap between regulations on the use of physical restraints in nursing homes and reality.",
+    "publishedAt": "2025-07-25T07:00:00.000Z",
+    "fetchedAt": "2025-08-06T09:59:37.523Z",
+    "category": "eclectic",
+    "tags": [
+      "eclectic"
+    ],
+    "priority": "normal",
+    "contentHash": "2df7316c"
+  },
+  {
+    "id": "thehindubusinessline-a68f37ec02a6ea38",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "REC shares fall 1% despite 29% profit jump in Q1 FY26",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/rec-shares-fall-1-despite-29-profit-jump-in-q1-fy26/article69853799.ece",
+    "summary": "REC’s consolidated net profit for Q1 FY26 increased to ₹4,465.71 crore.",
+    "publishedAt": "2025-07-25T06:52:51+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.365165+00:00",
+    "category": "markets",
+    "tags": [
+      "Earnings",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "a68f37ec02a6ea38"
+  },
+  {
+    "id": "thehindubusinessline-78d2b63c222f2b59",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "India-UK FTA sparks rally in leather, textile, pharma stocks",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/india-uk-fta-sparks-rally-in-leather-textile-pharma-stocks/article69853731.ece",
+    "summary": "Mirza International surged 17%, Superhouse jumped 7.35%, and Trident soared 6.91% on the BSE.",
+    "publishedAt": "2025-07-25T06:19:07+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.365342+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "78d2b63c222f2b59"
+  },
+  {
+    "id": "wired-3be371124b96c479",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "The Age-Checked Internet Has Arrived",
+    "url": "https://www.wired.com/story/the-age-checked-internet-has-arrived/",
+    "summary": "Starting today, UK adults will have to prove their age to access porn online. Experts warn that a global wave of age-check laws threatens to chill speech and ultimately harm children and adults alike.",
+    "publishedAt": "2025-07-25T06:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.128647+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "3be371124b96c479"
+  },
+  {
+    "id": "ft-markets-e5badb68f50c1666",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "Where do US house prices go from here?",
+    "url": "https://www.ft.com/content/7d3658db-9722-4bd6-8660-7a620aabce05",
+    "summary": "",
+    "publishedAt": "2025-07-25T05:30:08+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.547344+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "e5badb68f50c1666"
+  },
+  {
+    "id": "thehindubusinessline-9526330b32939d1a",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Bajaj Finance shares fall on asset quality, credit costs & MSME stress",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/bajaj-finance-shares-fall-6-on-asset-quality-credit-costs-msme-stress/article69853574.ece",
+    "summary": "Market experts believe that the growth in the MSME segment would remain subdued in FY26 due to ongoing macro headwinds.",
+    "publishedAt": "2025-07-25T05:08:51+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.365522+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "9526330b32939d1a"
+  },
+  {
+    "id": "imf-news-50c103007fdb8ecc",
+    "sourceId": "imf-news",
+    "sourceName": "IMF",
+    "title": "IMF Staff Concludes Visit to Sri Lanka",
+    "url": "https://www.imf.org/en/News/Articles/2025/07/24/pr-25264-sri-lanka-imf-staff-concludes-visit-to-sri-lanka",
+    "summary": "",
+    "publishedAt": "2025-07-25T05:00:00+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.036285+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "50c103007fdb8ecc"
+  },
+  {
+    "id": "wired-86377eca6dd24bd1",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "NordVPN Coupon and Discount Codes: 76% Off",
+    "url": "https://www.wired.com/story/nordvpn-coupon/",
+    "summary": "Save up to 76% on 2-year plans and get a gift card valued up to $50 with our NordVPN discount codes.",
+    "publishedAt": "2025-07-25T05:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.128832+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "86377eca6dd24bd1"
+  },
+  {
+    "id": "wired-2a225330cd790836",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "1Password Coupon: Get Up to 50% Off in July",
+    "url": "https://www.wired.com/story/1password-coupon/",
+    "summary": "Save up to 50% on business and personal memberships with a 1Password promo code.",
+    "publishedAt": "2025-07-25T05:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.129009+00:00",
+    "category": "technology",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "2a225330cd790836"
+  },
+  {
+    "id": "thehindubusinessline-0670f02e85ecca7c",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "M&B Engineering IPO to open on July 30; sets price band at ₹366-385/share",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/mb-engineering-ipo-to-open-on-july-30-sets-price-band-at-366-385share/article69853489.ece",
+    "summary": "M&B Engineering is expected to list on the stock exchanges on August 6.",
+    "publishedAt": "2025-07-25T04:53:41+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.365717+00:00",
+    "category": "markets",
+    "tags": [
+      "IPO",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "0670f02e85ecca7c"
+  },
+  {
+    "id": "marginal-revolution-1f8ad65e83309e17",
+    "sourceId": "marginal-revolution",
+    "sourceName": "Marginal Revolution",
+    "title": "Partisan Bias in Professional Macroeconomic Forecasts",
+    "url": "https://marginalrevolution.com/marginalrevolution/2025/07/partisan-bias-in-professional-macroeconomic-forecasts.html?utm_source=rss&utm_medium=rss&utm_campaign=partisan-bias-in-professional-macroeconomic-forecasts",
+    "summary": "Here is a recent paper by Benjamin S. Kay, Aeimit Lakdawala, and Jane Ryngaert: Using a novel dataset linking professional forecasters in the Wall Street Journal Economic Forecasting Survey to their political affiliations, we document a partisan bias in GDP growth forecasts.",
+    "publishedAt": "2025-07-25T04:50:22+00:00",
+    "fetchedAt": "2025-07-28T04:04:07.246326+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "high",
+    "contentHash": "1f8ad65e83309e17"
+  },
+  {
+    "id": "thehindubusinessline-19a2974420b48602",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Markets open lower as FII outflows and weak technicals weigh on sentiment",
+    "url": "https://www.thehindubusinessline.com/markets/markets-open-lower-as-fii-outflows-and-weak-technicals-weigh-on-sentiment/article69853504.ece",
+    "summary": "",
+    "publishedAt": "2025-07-25T04:46:48+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.365883+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "19a2974420b48602"
+  },
+  {
+    "id": "thehindubusinessline-f9e51c46e6ebc0ee",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "NSDL IPO: Price band, GMP, key dates, issue size and more",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/nsdls-4011-cr-ipo-to-open-on-july-30-price-band-set-at-760-800share/article69853514.ece",
+    "summary": "The entirely offer-for-sale IPO and listing of NSDL is crucial in order to comply with SEBI’s ownership norms. These regulations require that no entity can hold more than 15 per cent of the shareholding in a depository company.",
+    "publishedAt": "2025-07-25T04:46:03+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.366081+00:00",
+    "category": "markets",
+    "tags": [
+      "IPO",
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "f9e51c46e6ebc0ee"
+  },
+  {
+    "id": "thehindubusinessline-6f13304f2d940f7c",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "Hindu BusinessLine",
+    "title": "Crude oil futures gain on reports of possible US-EU trade deal",
+    "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-gain-on-reports-of-possible-us-eu-trade-deal/article69853502.ece",
+    "summary": "At 9.56 am on Friday, September Brent oil futures were at $69.43, up 0.36% and crude oil futures on WTI were at $66.25, up 0.33%",
+    "publishedAt": "2025-07-25T04:43:48+00:00",
+    "fetchedAt": "2025-07-28T03:59:59.366259+00:00",
+    "category": "markets",
+    "tags": [
+      "Commodities",
+      "Markets",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "6f13304f2d940f7c"
+  },
+  {
+    "id": "dwarkesh-patel-youtube-78c84fd7",
+    "sourceId": "dwarkesh-patel-youtube",
+    "sourceName": "Dwarkesh Patel YouTube",
+    "title": "Stalin Was Not the Problem – Stephen Kotkin",
+    "url": "https://www.youtube.com/watch?v=AWYjy1G2iug",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-07-25T04:27:07.000Z",
+    "fetchedAt": "2025-08-04T09:59:41.056Z",
+    "category": "videos",
+    "tags": [
+      "videos"
+    ],
+    "priority": "normal",
+    "contentHash": "78c84fd7"
+  },
+  {
+    "id": "ft-markets-8863b6f995e50e73",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "The stablecoin loophole that could expose the EU",
+    "url": "https://www.ft.com/content/3dd627ff-d091-4141-9c48-5d63a15eb879",
+    "summary": "A regulatory framework must be established for tokens issued both inside and outside the bloc.",
+    "publishedAt": "2025-07-25T04:00:17+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.547502+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "8863b6f995e50e73"
+  },
+  {
+    "id": "ft-markets-3d0435ff6cac922c",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "Investors beware the dangers lurking in private credit",
+    "url": "https://www.ft.com/content/15033607-78e2-4e96-bc10-da4126266b22",
+    "summary": "For some observers, the rapid rise of this asset class invites unsettling historical comparisons.",
+    "publishedAt": "2025-07-25T04:00:17+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.547667+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "3d0435ff6cac922c"
+  },
+  {
+    "id": "ft-economics-0b6eb46975cb13c7",
+    "sourceId": "ft-economics",
+    "sourceName": "FT Economics",
+    "title": "Starmer to press Trump over deal to cut tariffs on UK steel imports",
+    "url": "https://www.ft.com/content/d47ba19d-88f0-4aba-a9e7-5217cacca060",
+    "summary": "Prime minister will also make the case for closer ties as US president visits golf courses in Scotland.",
+    "publishedAt": "2025-07-25T04:00:17+00:00",
+    "fetchedAt": "2025-07-28T03:55:24.918302+00:00",
+    "category": "macro",
+    "tags": [
+      "Macro",
+      "M&A"
+    ],
+    "priority": "normal",
+    "contentHash": "0b6eb46975cb13c7"
+  },
+  {
+    "id": "ft-technology-0612f01fb2260098",
+    "sourceId": "ft-technology",
+    "sourceName": "FT Technology",
+    "title": "Tech giants’ age verification tools put to the test as UK online safety rules kick in",
+    "url": "https://www.ft.com/content/dca34551-4828-4677-9a72-ac8966a380cd",
+    "summary": "Systems of X, TikTok and Reddit will face scrutiny by the industry regulator.",
+    "publishedAt": "2025-07-25T04:00:17+00:00",
+    "fetchedAt": "2025-07-28T08:47:56.309366+00:00",
+    "category": "technology",
+    "tags": [
+      "Technology",
+      "Tech"
+    ],
+    "priority": "normal",
+    "contentHash": "0612f01fb2260098"
+  },
+  {
+    "id": "ft-markets-6100905bd37ff75c",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "It’s fear, not greed, that drives the stock market",
+    "url": "https://www.ft.com/content/4d2d9599-897c-4382-b1a7-8c25029e5dbc",
+    "summary": "‘Fomo’ is powering today’s frothy asset prices — but the fear of loss may be about to take over.",
+    "publishedAt": "2025-07-25T04:00:07+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.547835+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6100905bd37ff75c"
+  },
+  {
+    "id": "ft-markets-2a89745a31253cca",
+    "sourceId": "ft-markets",
+    "sourceName": "Financial Times",
+    "title": "Companies load up on niche crypto tokens to boost share prices",
+    "url": "https://www.ft.com/content/50f98757-3823-4cd2-9adf-738f9e41b546",
+    "summary": "Listed firms load up on ether, litecoin and $TRUMP as they bid to emulate Michael Saylor’s Strategy.",
+    "publishedAt": "2025-07-25T04:00:07+00:00",
+    "fetchedAt": "2025-07-28T03:50:56.547998+00:00",
+    "category": "markets",
+    "tags": [
+      "Markets",
+      "Crypto"
+    ],
+    "priority": "high",
+    "contentHash": "2a89745a31253cca"
+  },
+  {
+    "id": "imf-publications-17f675dbff0337d0",
+    "sourceId": "imf-publications",
+    "sourceName": "IMF Publications",
+    "title": "Options to Strengthen the Tax System in Estonia: Republic of Estonia",
+    "url": "https://www.imf.org/en/Publications/selected-issues-papers/Issues/2025/07/24/Options-to-Strengthen-the-Tax-System-in-Estonia-Republic-of-Estonia-568911",
+    "summary": "",
+    "publishedAt": "2025-07-25T04:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.434518+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "17f675dbff0337d0"
+  },
+  {
+    "id": "imf-publications-548d890a6a768e65",
+    "sourceId": "imf-publications",
+    "sourceName": "IMF Publications",
+    "title": "Revisiting Fiscal Multipliers for Estonia: Republic of Estonia",
+    "url": "https://www.imf.org/en/Publications/selected-issues-papers/Issues/2025/07/24/Revisiting-Fiscal-Multipliers-for-Estonia-Republic-of-Estonia-568899",
+    "summary": "",
+    "publishedAt": "2025-07-25T04:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.434558+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "548d890a6a768e65"
+  },
+  {
+    "id": "imf-publications-d4526dd91ee4a45e",
+    "sourceId": "imf-publications",
+    "sourceName": "IMF Publications",
+    "title": "Allocative Efficiency, Firm Dynamics, and Productivity in the Baltics: Republic of Estonia",
+    "url": "https://www.imf.org/en/Publications/selected-issues-papers/Issues/2025/07/24/Allocative-Efficiency-Firm-Dynamics-and-Productivity-in-the-Baltics-Republic-of-Estonia-568921",
+    "summary": "",
+    "publishedAt": "2025-07-25T04:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.434611+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "d4526dd91ee4a45e"
+  },
+  {
+    "id": "imf-publications-d5f3e79d55e0ef5c",
+    "sourceId": "imf-publications",
+    "sourceName": "IMF Publications",
+    "title": "United Kingdom: 2025 Article IV Consultation-Press Release; Staff Report; and Statement by the Executive Director for United Kingdom",
+    "url": "https://www.imf.org/en/Publications/CR/Issues/2025/07/24/United-Kingdom-2025-Article-IV-Consultation-Press-Release-Staff-Report-and-Statement-by-the-568905",
+    "summary": "",
+    "publishedAt": "2025-07-25T04:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.434662+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "d5f3e79d55e0ef5c"
+  },
+  {
+    "id": "imf-publications-d7ef782c49f8cf6b",
+    "sourceId": "imf-publications",
+    "sourceName": "IMF Publications",
+    "title": "United Kingdom: Selected Issues",
+    "url": "https://www.imf.org/en/Publications/CR/Issues/2025/07/24/United-Kingdom-Selected-Issues-568908",
+    "summary": "",
+    "publishedAt": "2025-07-25T04:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.434696+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "d7ef782c49f8cf6b"
+  },
+  {
+    "id": "imf-publications-94aa1fb2ac7b6789",
+    "sourceId": "imf-publications",
+    "sourceName": "IMF Publications",
+    "title": "Strengthening Resilience in Kiribati with Public Investment: Kiribati",
+    "url": "https://www.imf.org/en/Publications/selected-issues-papers/Issues/2025/07/24/Strengthening-Resilience-in-Kiribati-with-Public-Investment-Kiribati-568927",
+    "summary": "",
+    "publishedAt": "2025-07-25T04:00:00+00:00",
+    "fetchedAt": "2025-07-28T06:10:41.434735+00:00",
+    "category": "research",
+    "tags": [
+      "Research"
+    ],
+    "priority": "normal",
+    "contentHash": "94aa1fb2ac7b6789"
+  },
+  {
+    "id": "foreign-affairs-26a3b0c6",
     "sourceId": "foreign-affairs",
     "sourceName": "Foreign Affairs",
-    "title": "Is China’s Military Ready for War?",
-    "url": "https://www.foreignaffairs.com/china/chinas-military-ready-war-xi-jinping-taylor-fravel",
-    "summary": "What Xi’s purges do—and don’t—mean for Beijing’s ambitions.",
-    "fullContent": "What Xi’s purges do—and don’t—mean for Beijing’s ambitions.",
-    "publishedAt": "2025-07-18T04:00:00.000Z",
+    "title": "The Real Meaning of Putin’s Middle East Failure",
+    "url": "https://www.foreignaffairs.com/russia/real-meaning-putins-middle-east-failure-michael-mcfaul",
+    "summary": "Russia’s allies in the region couldn’t count on Moscow—and neither should China.",
+    "fullContent": "Russia’s allies in the region couldn’t count on Moscow—and neither should China.",
+    "publishedAt": "2025-07-25T04:00:00.000Z",
     "fetchedAt": "2025-08-04T06:57:28.957Z",
     "category": "policy",
     "tags": [
       "policy"
     ],
     "priority": "normal",
-    "contentHash": "54a8c8cc"
+    "contentHash": "26a3b0c6"
   },
   {
-    "id": "invest-marcellus-youtube-15fecaab",
-    "sourceId": "invest-marcellus-youtube",
-    "sourceName": "Invest with Marcellus YouTube",
-    "title": "The Shocking Truths our Survey Reveals About Affluent Indian Households!",
-    "url": "https://www.youtube.com/watch?v=xqUewTl4miY",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-18T03:38:54.000Z",
-    "fetchedAt": "2025-08-04T10:00:05.800Z",
-    "category": "videos",
+    "id": "foreign-affairs-1bd02e1",
+    "sourceId": "foreign-affairs",
+    "sourceName": "Foreign Affairs",
+    "title": "China’s Overlooked AI Strategy",
+    "url": "https://www.foreignaffairs.com/united-states/chinas-overlooked-ai-strategy",
+    "summary": "Beijing is using soft power to gain global dominance.",
+    "fullContent": "Beijing is using soft power to gain global dominance.",
+    "publishedAt": "2025-07-25T04:00:00.000Z",
+    "fetchedAt": "2025-08-04T06:57:28.957Z",
+    "category": "policy",
     "tags": [
-      "videos"
+      "policy"
     ],
     "priority": "normal",
-    "contentHash": "15fecaab"
+    "contentHash": "1bd02e1"
   },
   {
-    "id": "krebs-security-874dadac0d77d89a",
-    "sourceId": "krebs-security",
-    "sourceName": "Krebs on Security",
-    "title": "Poor Passwords Tattle on AI Hiring Bot Maker Paradox.ai",
-    "url": "https://krebsonsecurity.com/2025/07/poor-passwords-tattle-on-ai-hiring-bot-maker-paradox-ai/",
-    "summary": "Security researchers recently revealed that the personal information of millions of people who applied for jobs at McDonald's was exposed after they guessed the password (\"123456\") for the fast food chain's account at Paradox.",
-    "fullContent": "Security researchers recently revealed that the personal information of millions of people who applied for jobs at McDonald’s was exposed after they guessed the password (“123456”) for the fast food chain’s account at Paradox.ai, a company that makes artificial intelligence based hiring chatbots used by many Fortune 500 firms. Paradox.ai said the security oversight was an isolated incident that did not affect its other customers, but recent security breaches involving its employees in Vietnam tell a more nuanced story. A screenshot of the paradox.ai homepage showing its AI hiring chatbot “Olivia” interacting with potential hires. Earlier this month, security researchers Ian Carroll and Sam Curry wrote about simple methods they found to access the backend of the AI chatbot platform on McHire.com, the McDonald’s website that many of its franchisees use to screen job applicants. As first reported by Wired, the researchers discovered that the weak password used by Paradox exposed 64 millio",
-    "publishedAt": "2025-07-18T01:23:20+00:00",
-    "fetchedAt": "2025-07-31T06:18:28.888944+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "874dadac0d77d89a"
-  },
-  {
-    "id": "platformer-4df95a062f3fe027",
-    "sourceId": "platformer",
-    "sourceName": "Platformer",
-    "title": "Let’s all try to help Substack live up to its new valuation",
-    "url": "https://www.platformer.news/substack-series-c-enshittification/",
-    "summary": "The company's new unicorn status has already led its founders to reverse their position on advertising. What other compromises are they prepared to make?",
-    "publishedAt": "2025-07-18T00:33:44+00:00",
-    "fetchedAt": "2025-07-28T06:22:15.629576+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "4df95a062f3fe027"
-  },
-  {
-    "id": "roots-of-progress-b6233db9a9042101",
-    "sourceId": "roots-of-progress",
-    "sourceName": "Roots of Progress",
-    "title": "Introducing the 2025 Roots of Progress Institute Fellows",
-    "url": "https://newsletter.rootsofprogress.org/p/introducing-the-2025-roots-of-progress",
-    "summary": "We’re thrilled to introduce our second cohort of 2025 Blog-Build Intensive Fellows!",
-    "publishedAt": "2025-07-18T00:18:04+00:00",
-    "fetchedAt": "2025-07-28T06:33:15.072859+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "b6233db9a9042101"
-  },
-  {
-    "id": "roots-of-progress-7eef8150",
-    "sourceId": "roots-of-progress",
-    "sourceName": "Roots of Progress",
-    "title": "",
-    "url": "https://newsletter.rootsofprogress.org/p/introducing-the-2025-roots-of-progress",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-18T00:18:04.000Z",
-    "fetchedAt": "2025-08-04T10:01:35.740Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "7eef8150"
-  },
-  {
-    "id": "roots-of-progress-2faf5e96",
-    "sourceId": "roots-of-progress",
-    "sourceName": "Roots of Progress",
-    "title": "Introducing the 2025 Roots of Progress Institute Fellows",
-    "url": "https://newsletter.rootsofprogress.org/p/introducing-the-2025-roots-of-progress",
-    "summary": "We&#8217;re thrilled to introduce our second cohort of 2025 Blog-Build Intensive Fellows!",
-    "fullContent": "We&#8217;re thrilled to introduce our second cohort of 2025 Blog-Build Intensive Fellows!",
-    "publishedAt": "2025-07-18T00:18:04.000Z",
-    "fetchedAt": "2025-08-05T11:30:10.917Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "2faf5e96"
-  },
-  {
-    "id": "the-acquirers-fund-5afe758ad83898e3",
-    "sourceId": "the-acquirers-fund",
-    "sourceName": "The Acquirer's Multiple",
-    "title": "The Coca-Cola Company (KO): Our Calculation of Intrinsic Value",
-    "url": "https://acquirersmultiple.com/2025/07/the-coca-cola-company-ko-our-calculation-of-intrinsic-value/",
-    "summary": "As part of our ongoing series, each week we typically conduct a DCF on one of the companies in our screens. This week, we’re analyzing one of the most iconic consumer brands in the world — The Coca-Cola Company (KO).",
-    "publishedAt": "2025-07-17T23:58:21+00:00",
-    "fetchedAt": "2025-07-28T04:04:08.485357+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "5afe758ad83898e3"
-  },
-  {
-    "id": "bbc-technology-deb72d1abec82528",
-    "sourceId": "bbc-technology",
-    "sourceName": "BBC Technology",
-    "title": "US passes first major national crypto legislation",
-    "url": "https://www.bbc.com/news/articles/cd78lvd94zyo?at_medium=RSS&at_campaign=rss",
-    "summary": "It marks a milestone for the once fringe industry, as it expands its power in Washington.",
-    "fullContent": "It marks a milestone for the once fringe industry, as it expands its power in Washington.",
-    "publishedAt": "2025-07-17T23:17:14+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.567147+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology",
-      "Crypto"
-    ],
-    "priority": "normal",
-    "contentHash": "deb72d1abec82528"
-  },
-  {
-    "id": "bbc-business-815013b5dc113eae",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Spud-tacular: How India became a french fry superpower",
-    "url": "https://www.bbc.com/news/articles/ced2zpvv179o",
-    "summary": "India's position as a leading exporter of french fries has spurred innovation on potato farms.",
-    "publishedAt": "2025-07-17T23:08:22+00:00",
-    "fetchedAt": "2025-07-28T08:47:55.141887+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "815013b5dc113eae"
-  },
-  {
-    "id": "bbc-business-c8951a4e464bce14",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Spud-tacular: How India became a french fry superpower",
-    "url": "https://www.bbc.com/news/articles/ced2zpvv179o?at_medium=RSS&at_campaign=rss",
-    "summary": "India's position as a leading exporter of french fries has spurred innovation on potato farms.",
-    "publishedAt": "2025-07-17T23:08:22+00:00",
-    "fetchedAt": "2025-07-28T15:48:36.215635+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "c8951a4e464bce14"
-  },
-  {
-    "id": "bbc-business-30cd5d8c",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "",
-    "url": "https://www.bbc.com/news/articles/ced2zpvv179o?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T23:08:22.000Z",
-    "fetchedAt": "2025-08-04T06:57:29.136Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "30cd5d8c"
-  },
-  {
-    "id": "bbc-business-79af73ac",
-    "sourceId": "bbc-business",
-    "sourceName": "BBC Business",
-    "title": "Spud-tacular: How India became a french fry superpower",
-    "url": "https://www.bbc.com/news/articles/ced2zpvv179o?at_medium=RSS&amp;at_campaign=rss",
-    "summary": "India's position as a leading exporter of french fries has spurred innovation on potato farms.",
-    "fullContent": "India's position as a leading exporter of french fries has spurred innovation on potato farms.",
-    "publishedAt": "2025-07-17T23:08:22.000Z",
-    "fetchedAt": "2025-08-05T11:27:56.048Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "79af73ac"
-  },
-  {
-    "id": "gary-marcus-d039b597dc2705ab",
-    "sourceId": "gary-marcus",
-    "sourceName": "Gary Marcus",
-    "title": "Sex, Violence, and Ethics: Trying to Teach Grok a Lesson",
-    "url": "https://garymarcus.substack.com/p/sex-violence-and-ethics-trying-to",
-    "summary": "A strange new world, presented mostly without comment.",
-    "publishedAt": "2025-07-17T23:07:48+00:00",
-    "fetchedAt": "2025-07-28T06:22:17.976196+00:00",
-    "category": "research",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "d039b597dc2705ab"
-  },
-  {
-    "id": "gary-marcus-3eb091c2",
-    "sourceId": "gary-marcus",
-    "sourceName": "Gary Marcus",
-    "title": "",
-    "url": "https://garymarcus.substack.com/p/sex-violence-and-ethics-trying-to",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T23:07:48.000Z",
-    "fetchedAt": "2025-08-05T09:22:19.542Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "3eb091c2"
-  },
-  {
-    "id": "cfa-society-india-youtube-211da9cd",
-    "sourceId": "cfa-society-india-youtube",
-    "sourceName": "CFA Society India YouTube",
-    "title": "Christopher Shipley: Navigating US Equities, Tariffs, and Global Markets in 2025",
-    "url": "https://www.youtube.com/watch?v=3ExhJaStQts",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T23:00:43.000Z",
-    "fetchedAt": "2025-08-04T09:59:59.535Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "211da9cd"
-  },
-  {
-    "id": "cepr-discussion-papers-6e6ba307dad64c6e",
-    "sourceId": "cepr-discussion-papers",
-    "sourceName": "CEPR Discussion Papers",
-    "title": "DP20468 Are M&As Spurring or Stifling Innovation? Evidence from Antidiabetic Drug Development",
-    "url": "https://cepr.org/publications/dp20468",
-    "summary": "This paper provides empirical evidence on which M&A deals spur innovation, and which stifle it. To do so, we consider not only the product market position of the acquiring firm, but also the position of both target and acquirer in the technology space.",
-    "publishedAt": "2025-07-17T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.833723+00:00",
-    "category": "research",
-    "tags": [
-      "Earnings",
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "6e6ba307dad64c6e"
-  },
-  {
-    "id": "cepr-discussion-papers-07a74019f7638af2",
-    "sourceId": "cepr-discussion-papers",
-    "sourceName": "CEPR Discussion Papers",
-    "title": "DP20470 Foreign Ownership and Occupational Safety: Evidence from France",
-    "url": "https://cepr.org/publications/dp20470",
-    "summary": "One in nine workers worldwide experiences a non-fatal occupational accident, with nearly 750,000 French workers missing multiple workdays due to work-related injuries in 2003 alone. As multinational firms emphasize their superior management practices and ESG commitments, this...",
-    "publishedAt": "2025-07-17T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.834073+00:00",
-    "category": "research",
-    "tags": [
-      "M&A",
-      "ESG",
-      "Research"
-    ],
-    "priority": "high",
-    "contentHash": "07a74019f7638af2"
-  },
-  {
-    "id": "cepr-discussion-papers-529404cc61204606",
-    "sourceId": "cepr-discussion-papers",
-    "sourceName": "CEPR Discussion Papers",
-    "title": "DP20469 The Economic Costs of Temperature Uncertainty",
-    "url": "https://cepr.org/publications/dp20469",
-    "summary": "Beyond its environmental damage, climate change is predicted to produce significant economic costs. Combining novel high-frequency geospatial temperature data from satellites with measures of economic activity for the universe of US listed firms, this article examines a...",
-    "publishedAt": "2025-07-17T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.834361+00:00",
-    "category": "research",
-    "tags": [
-      "Earnings",
-      "ESG",
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "529404cc61204606"
-  },
-  {
-    "id": "cepr-discussion-papers-f1ad1c8944253d0b",
-    "sourceId": "cepr-discussion-papers",
-    "sourceName": "CEPR Discussion Papers",
-    "title": "DP20467 Inflation Forecast Targeting Revisited",
-    "url": "https://cepr.org/publications/dp20467",
-    "summary": "Under inflation forecast targeting, central banks such as the ECB adjust policy to keep expected inflation on target. We evaluate the ECB’s inflation forecasts: they are unbiased and efficient but contain little information at forecast horizons beyond three quarters.",
-    "publishedAt": "2025-07-17T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.834651+00:00",
+    "id": "calculated-risk-fabe2178c296e87b",
+    "sourceId": "calculated-risk",
+    "sourceName": "Calculated Risk",
+    "title": "Friday: Durable Goods",
+    "url": "http://www.calculatedriskblog.com/2025/07/friday-durable-goods.html",
+    "summary": "Note: Mortgage rates are from MortgageNewsDaily.com and are for top tier scenarios. Friday: • At 8:30 AM ET,Durable Goods Orders for June from the Census Bureau. The consensus is for a 10.0% decrease in durable goods orders.",
+    "publishedAt": "2025-07-24T23:54:00+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.184854+00:00",
     "category": "research",
     "tags": [
       "Research"
     ],
     "priority": "high",
-    "contentHash": "f1ad1c8944253d0b"
+    "contentHash": "fabe2178c296e87b"
   },
   {
-    "id": "cepr-discussion-papers-111fda6453eac51f",
-    "sourceId": "cepr-discussion-papers",
-    "sourceName": "CEPR Discussion Papers",
-    "title": "DP20471 Exorbitant Privilege and Economic Sanctions",
-    "url": "https://cepr.org/publications/dp20471",
-    "summary": "This paper examines the impact of economic sanctions on the choice of invoicing currencies in international trade, focusing on the sanctions imposed on Russia following its full-scale invasion of Ukraine in February 2022.",
-    "publishedAt": "2025-07-17T23:00:00+00:00",
-    "fetchedAt": "2025-07-28T06:10:41.835083+00:00",
-    "category": "research",
+    "id": "adam-tooze-c546f702f1f94554",
+    "sourceId": "adam-tooze",
+    "sourceName": "Adam Tooze",
+    "title": "Chartbook 399: Columbia University, the Trump administration and \"ad hoc governance\": Iterations of the \"Unstate\".",
+    "url": "https://adamtooze.substack.com/p/chartbook-399-columbia-university",
+    "summary": "On Wednesday, July 23, 2025 Columbia University announced what it called a “resolution” and “agreement” with the Trump administration.",
+    "publishedAt": "2025-07-24T23:53:19+00:00",
+    "fetchedAt": "2025-07-28T06:22:15.312321+00:00",
+    "category": "non-money",
     "tags": [
-      "Currency",
       "Research"
     ],
-    "priority": "high",
-    "contentHash": "111fda6453eac51f"
-  },
-  {
-    "id": "nicholas-decker-2ce9ede19ad012eb",
-    "sourceId": "nicholas-decker",
-    "sourceName": "Nicholas Decker",
-    "title": "Is Less Information Better?",
-    "url": "https://nicholasdecker.substack.com/p/is-less-information-better",
-    "summary": "",
-    "publishedAt": "2025-07-17T21:54:31+00:00",
-    "fetchedAt": "2025-07-28T06:33:11.058024+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
     "priority": "normal",
-    "contentHash": "2ce9ede19ad012eb"
+    "contentHash": "c546f702f1f94554"
   },
   {
-    "id": "nicholas-decker-7df7f8dc",
-    "sourceId": "nicholas-decker",
-    "sourceName": "Nicholas Decker",
+    "id": "adam-tooze-62da1d8b",
+    "sourceId": "adam-tooze",
+    "sourceName": "Adam Tooze",
     "title": "",
-    "url": "https://nicholasdecker.substack.com/p/is-less-information-better",
+    "url": "https://adamtooze.substack.com/p/chartbook-399-columbia-university",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-17T21:54:31.000Z",
-    "fetchedAt": "2025-08-05T09:20:32.997Z",
+    "publishedAt": "2025-07-24T23:53:19.000Z",
+    "fetchedAt": "2025-08-05T09:24:45.069Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "7df7f8dc"
+    "contentHash": "62da1d8b"
   },
   {
-    "id": "common-reader-d78299c81e4f4992",
-    "sourceId": "common-reader",
-    "sourceName": "Common Reader",
-    "title": "‘The Old Man and the Sea has the EMPTIEST sea in all of LITERATURE’",
-    "url": "https://www.commonreader.co.uk/p/the-old-man-and-the-sea-has-the-emptiest",
-    "summary": "",
-    "publishedAt": "2025-07-17T21:07:39+00:00",
-    "fetchedAt": "2025-07-28T06:33:13.547173+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "d78299c81e4f4992"
-  },
-  {
-    "id": "common-reader-75b137c5",
-    "sourceId": "common-reader",
-    "sourceName": "The Common Reader",
-    "title": "",
-    "url": "https://www.commonreader.co.uk/p/the-old-man-and-the-sea-has-the-emptiest",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T21:07:39.000Z",
-    "fetchedAt": "2025-08-04T10:02:06.700Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "75b137c5"
-  },
-  {
-    "id": "common-reader-3f5f97b9",
-    "sourceId": "common-reader",
-    "sourceName": "The Common Reader",
-    "title": "‘The Old Man and the Sea has the EMPTIEST sea in all of LITERATURE’",
-    "url": "https://www.commonreader.co.uk/p/the-old-man-and-the-sea-has-the-emptiest",
-    "summary": "",
-    "fullContent": "Gertrude Stein compared FDR to fascists",
-    "publishedAt": "2025-07-17T21:07:39.000Z",
-    "fetchedAt": "2025-08-05T11:30:42.033Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "3f5f97b9"
-  },
-  {
-    "id": "wsj-markets-main-3d51127990fc6e9e",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "House Passes Crypto Bills After Trump Rallies Republicans",
-    "url": "https://www.wsj.com/finance/currencies/crypto-bills-congress-43014009?mod=rss_markets_main",
-    "summary": "The bills establish standards for stablecoins, lay out rules for crypto exchanges and ban central-bank digital currencies.",
-    "fullContent": "The bills establish standards for stablecoins, lay out rules for crypto exchanges and ban central-bank digital currencies.",
-    "publishedAt": "2025-07-17T20:54:00+00:00",
-    "fetchedAt": "2025-07-31T06:18:06.205821+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Crypto"
-    ],
-    "priority": "normal",
-    "contentHash": "3d51127990fc6e9e"
-  },
-  {
-    "id": "wsj-markets-main-774ed090",
-    "sourceId": "wsj-markets-main",
-    "sourceName": "WSJ Markets",
-    "title": "House Passes Crypto Bills After Trump Rallies Republicans",
-    "url": "https://www.wsj.com/finance/currencies/crypto-bills-congress-43014009?mod=rss_markets_main",
-    "summary": "The bills establish standards for stablecoins, lay out rules for crypto exchanges and ban central-bank digital currencies.",
-    "fullContent": "The bills establish standards for stablecoins, lay out rules for crypto exchanges and ban central-bank digital currencies.",
-    "publishedAt": "2025-07-17T20:54:00.000Z",
-    "fetchedAt": "2025-08-04T09:59:18.468Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "774ed090"
-  },
-  {
-    "id": "bbc-technology-8938cab0838afe83",
-    "sourceId": "bbc-technology",
-    "sourceName": "BBC Technology",
-    "title": "Meta investors settle $8bn lawsuit with Zuckerberg over Facebook privacy",
-    "url": "https://www.bbc.com/news/articles/cx2jmledvr3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Shareholders accused Meta leaders of damaging the company by allowing repeat violations of Facebook users' privacy.",
-    "fullContent": "Shareholders accused Meta leaders of damaging the company by allowing repeat violations of Facebook users' privacy.",
-    "publishedAt": "2025-07-17T20:05:28+00:00",
-    "fetchedAt": "2025-07-31T06:18:05.567903+00:00",
-    "category": "technology",
-    "tags": [
-      "Technology"
-    ],
-    "priority": "normal",
-    "contentHash": "8938cab0838afe83"
-  },
-  {
-    "id": "dwarkesh-patel-youtube-dfe569cfeb528bb0",
-    "sourceId": "dwarkesh-patel-youtube",
-    "sourceName": "Dwarkesh Patel",
-    "title": "The Real Reason Russia Never Became a Democracy",
-    "url": "https://www.youtube.com/watch?v=Hk__lEBGcwk",
-    "summary": "Kotkin is arguably the world’s foremost expert on Joseph Stalin and has written a massive 2-volume biography of Stalin (with a 3rd volume in the works). Full Episode: Me on Twitter:",
-    "fullContent": "Kotkin is arguably the world’s foremost expert on Joseph Stalin and has written a massive 2-volume biography of Stalin (with a 3rd volume in the works). Full Episode: https://youtu.be/YMfd3EoHfPI Me on Twitter: https://x.com/dwarkesh_sp",
-    "publishedAt": "2025-07-17T18:59:06+00:00",
-    "fetchedAt": "2025-07-30T15:00:42.741785+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "normal",
-    "contentHash": "dfe569cfeb528bb0"
-  },
-  {
-    "id": "harvard-hbs-youtube-155eaf8d",
-    "sourceId": "harvard-hbs-youtube",
-    "sourceName": "Harvard Business School YouTube",
-    "title": "What Happens When You Reach The Summit?",
-    "url": "https://www.youtube.com/watch?v=ioGnuZeK7hE",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T18:23:10.000Z",
-    "fetchedAt": "2025-08-04T09:59:56.444Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "155eaf8d"
-  },
-  {
-    "id": "harvard-hbs-youtube-43688851",
-    "sourceId": "harvard-hbs-youtube",
-    "sourceName": "Harvard Business School YouTube",
-    "title": "What happens when 400+ alumni from 57 countries reconnect on campus?",
-    "url": "https://www.youtube.com/watch?v=j5xVbGzHNKg",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T18:21:25.000Z",
-    "fetchedAt": "2025-08-04T09:59:56.444Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "43688851"
-  },
-  {
-    "id": "harvard-hbs-youtube-b94013d",
-    "sourceId": "harvard-hbs-youtube",
-    "sourceName": "Harvard Business School YouTube",
-    "title": "Global perspectives. Leadership growth. Organizational impact.",
-    "url": "https://www.youtube.com/watch?v=J0OvJm522jE",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T18:20:24.000Z",
-    "fetchedAt": "2025-08-04T09:59:56.444Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "b94013d"
-  },
-  {
-    "id": "matt-levine-8da4583e31826ace",
-    "sourceId": "matt-levine",
-    "sourceName": "Matt Levine Money Stuff",
-    "title": "Everyone Wants a Bitcoin Treasury",
-    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-17/everyone-wants-a-bitcoin-treasury",
-    "summary": "Also slang memecoins, LQR House, collusion on earnings calls and three-page résumés.",
-    "publishedAt": "2025-07-17T17:48:16+00:00",
-    "fetchedAt": "2025-07-28T04:04:08.131791+00:00",
-    "category": "blogs",
-    "tags": [
-      "Research",
-      "Earnings",
-      "Crypto",
-      "Debt"
-    ],
-    "priority": "normal",
-    "contentHash": "8da4583e31826ace"
-  },
-  {
-    "id": "matt-levine-5d201d57",
-    "sourceId": "matt-levine",
-    "sourceName": "Matt Levine",
-    "title": "",
-    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-17/everyone-wants-a-bitcoin-treasury",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T17:48:16.000Z",
-    "fetchedAt": "2025-08-04T06:57:28.026Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "5d201d57"
-  },
-  {
-    "id": "matt-levine-3954a0cd",
-    "sourceId": "matt-levine",
-    "sourceName": "Matt Levine",
-    "title": "Everyone Wants a Bitcoin Treasury",
-    "url": "https://www.bloomberg.com/opinion/newsletters/2025-07-17/everyone-wants-a-bitcoin-treasury",
-    "summary": "Also slang memecoins, LQR House, collusion on earnings calls and three-page résumés.",
-    "fullContent": "Also slang memecoins, LQR House, collusion on earnings calls and three-page résumés.",
-    "publishedAt": "2025-07-17T17:48:16.000Z",
-    "fetchedAt": "2025-08-05T11:27:54.242Z",
-    "category": "blogs",
-    "tags": [
-      "blogs"
-    ],
-    "priority": "normal",
-    "contentHash": "3954a0cd"
-  },
-  {
-    "id": "brad-delong-d1a996cb6cbf2aad",
+    "id": "brad-delong-e0f2b1573d977746",
     "sourceId": "brad-delong",
     "sourceName": "Brad DeLong",
-    "title": "Martin Wolf: On Thomas Mann & His \"The Magic Mountain\"",
-    "url": "https://braddelong.substack.com/p/martin-wolf-on-thomas-mann-and-his",
-    "summary": "Progressive, melioristic liberalism once again on the brink. Revisiting Thomas Mann’s The Magic Mountain in an age of authoritarian revival. Or: why Martin Wolf thinks The Magic Mountain with Hans...",
-    "publishedAt": "2025-07-17T17:31:54+00:00",
-    "fetchedAt": "2025-07-28T06:22:16.622788+00:00",
-    "category": "non-money",
-    "tags": [
-      "Research"
-    ],
-    "priority": "normal",
-    "contentHash": "d1a996cb6cbf2aad"
-  },
-  {
-    "id": "brad-delong-404a89a6",
-    "sourceId": "brad-delong",
-    "sourceName": "Brad DeLong",
-    "title": "",
-    "url": "https://braddelong.substack.com/p/martin-wolf-on-thomas-mann-and-his",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T17:31:54.000Z",
-    "fetchedAt": "2025-08-05T09:24:08.939Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "404a89a6"
-  },
-  {
-    "id": "cnbc-markets-ca311f5d722b7c51",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Banks are thriving so far in Trump’s economy. Here's what that means for markets and the consumer",
-    "url": "https://www.cnbc.com/2025/07/17/banks-thriving-so-far-trump-economy-markets-consumer.html",
-    "summary": "Banks are giving the all-clear signal on the U.S. economy during the turbulent opening months of the second Trump presidency.",
-    "publishedAt": "2025-07-17T17:31:07+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.268564+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "ca311f5d722b7c51"
-  },
-  {
-    "id": "meb-faber-2f25025f1cf33557",
-    "sourceId": "meb-faber",
-    "sourceName": "Meb Faber Research",
-    "title": "#4 – “Bonds are NOT Safe Investments”",
-    "url": "https://mebfaber.com/2025/07/17/4-bonds-are-safe-investments/",
-    "summary": "Most investors think of Treasury bills—the short-term, “risk-free” U.S. government debt—as the ultimate safe haven. No credit risk, highly liquid, guaranteed by Uncle Sam. This is all true on a nominal basis. T-bills have never had a drawdown or lost money.",
-    "publishedAt": "2025-07-17T17:09:54+00:00",
-    "fetchedAt": "2025-07-30T08:46:00.448102+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "Debt"
-    ],
-    "priority": "high",
-    "contentHash": "2f25025f1cf33557"
-  },
-  {
-    "id": "wocomo-docs-youtube-114b02d4cd525790",
-    "sourceId": "wocomo-docs-youtube",
-    "sourceName": "Wocomo Docs",
-    "title": "Life on the Isle of Rum: A Glimpse Into Scotland's Remote Community (Documentary, 2022)",
-    "url": "https://www.youtube.com/watch?v=k5stSb5hQ-k",
-    "summary": "Two hours by ferry from the Scottish mainland lies one of the bigger islands of the Inner Hebrides, Rum, which boasts only about 35 human inhabitants, grouped in two kilometers stretch around the harbor.",
-    "fullContent": "Two hours by ferry from the Scottish mainland lies one of the bigger islands of the Inner Hebrides, Rum, which boasts only about 35 human inhabitants, grouped in two kilometers stretch around the harbor. Resilient, eccentric and living a life that is often romanticized, three of the inhabitants of the island allow access to their daily life. What was once know as the Forbidden Island is now a nature reserve, a fascinating location for day trippers and yachts. But beyond that, it is an island that has no indigenous people, that can easily be cut off from the rest of the world and that has been a magnet for unusual humans. Creating a world in which both independence and community play important roles on this island, the rough beauty of the nature and the stark demands on its inhabitants show a microcosm that draws the audience in. In a slow-paced, gorgeously shot documentary, we get a glimpse into the life of David Beaton, the unique harbor master, Kim Taylor, the proprietor of the only ",
-    "publishedAt": "2025-07-17T17:00:06+00:00",
-    "fetchedAt": "2025-07-30T15:00:43.393132+00:00",
-    "category": "videos",
-    "tags": [
-      "Videos"
-    ],
-    "priority": "high",
-    "contentHash": "114b02d4cd525790"
-  },
-  {
-    "id": "economic-forces-34c473d2",
-    "sourceId": "economic-forces",
-    "sourceName": "Economic Forces",
-    "title": "",
-    "url": "https://www.economicforces.xyz/p/what-the-heck-is-welfare-1f8",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T16:28:00.000Z",
-    "fetchedAt": "2025-08-04T10:06:40.069Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "34c473d2"
-  },
-  {
-    "id": "economic-forces-4d398068",
-    "sourceId": "economic-forces",
-    "sourceName": "Economic Forces",
-    "title": "What the Heck is Welfare?",
-    "url": "https://www.economicforces.xyz/p/what-the-heck-is-welfare-1f8",
-    "summary": "",
-    "fullContent": "The sum is greater than its parts",
-    "publishedAt": "2025-07-17T16:28:00.000Z",
-    "fetchedAt": "2025-08-05T11:35:16.431Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "4d398068"
-  },
-  {
-    "id": "nils-gilman-45d8c1ba6b875f39",
-    "sourceId": "nils-gilman",
-    "sourceName": "Nils Gilman",
-    "title": "China's Environmental Authoritarianism",
-    "url": "https://nilsgilman.substack.com/p/chinas-environmental-authoritarianism",
-    "summary": "China is in the process of transforming from the worst environmental disaster in the world to a model that the may redefine development in the Global South.",
-    "publishedAt": "2025-07-17T16:23:17+00:00",
-    "fetchedAt": "2025-07-28T06:33:15.858349+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "45d8c1ba6b875f39"
-  },
-  {
-    "id": "nils-gilman-20e7d3c6",
-    "sourceId": "nils-gilman",
-    "sourceName": "Nils Gilman",
-    "title": "",
-    "url": "https://nilsgilman.substack.com/p/chinas-environmental-authoritarianism",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T16:23:17.000Z",
-    "fetchedAt": "2025-08-05T09:23:50.393Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "20e7d3c6"
-  },
-  {
-    "id": "benthams-40fafef997065ac9",
-    "sourceId": "benthams",
-    "sourceName": "Benthams",
-    "title": "Horrifying Ethical Truths",
-    "url": "https://benthams.substack.com/p/horrifying-ethical-truths",
-    "summary": "",
-    "publishedAt": "2025-07-17T16:18:41+00:00",
-    "fetchedAt": "2025-07-28T06:33:12.505375+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "normal",
-    "contentHash": "40fafef997065ac9"
-  },
-  {
-    "id": "asimov-press-4bc97f18",
-    "sourceId": "asimov-press",
-    "sourceName": "Asimov Press",
-    "title": "",
-    "url": "https://www.asimov.press/p/first-weight-loss-drugs",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T15:57:24.000Z",
-    "fetchedAt": "2025-08-04T10:06:55.510Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "4bc97f18"
-  },
-  {
-    "id": "asimov-press-763d2a36",
-    "sourceId": "asimov-press",
-    "sourceName": "Asimov Press",
-    "title": "The First Weight Loss Drugs",
-    "url": "https://www.asimov.press/p/first-weight-loss-drugs",
-    "summary": "Long before Ozempic and Mounjaro, there were mitochondrial uncouplers. While deadly if not used with care, it might be time for them to make a comeback.",
-    "fullContent": "Long before Ozempic and Mounjaro, there were mitochondrial uncouplers. While deadly if not used with care, it might be time for them to make a comeback.",
-    "publishedAt": "2025-07-17T15:57:24.000Z",
-    "fetchedAt": "2025-08-05T11:35:32.135Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "763d2a36"
-  },
-  {
-    "id": "cnbc-economy-4113c9014a48d628",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "Kevin Warsh touts 'regime change' at Fed and calls for partnership with Treasury",
-    "url": "https://www.cnbc.com/2025/07/17/kevin-warsh-touts-regime-change-at-fed-and-calls-for-partnership-with-treasury.html",
-    "summary": "Warsh called for sweeping changes on how the Fed conducts business and suggested a policy alliance with the Treasury Department.",
-    "publishedAt": "2025-07-17T15:31:47+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.632935+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "Debt"
-    ],
-    "priority": "high",
-    "contentHash": "4113c9014a48d628"
-  },
-  {
-    "id": "cnbc-economy-7bf1e012",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "Kevin Warsh touts 'regime change' at Fed and calls for partnership with Treasury",
-    "url": "https://www.cnbc.com/2025/07/17/kevin-warsh-touts-regime-change-at-fed-and-calls-for-partnership-with-treasury.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T15:31:47.000Z",
-    "fetchedAt": "2025-08-04T06:57:27.393Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "7bf1e012"
-  },
-  {
-    "id": "cnbc-economy-796f4a4c",
-    "sourceId": "cnbc-economy",
-    "sourceName": "CNBC Economy",
-    "title": "Kevin Warsh touts 'regime change' at Fed and calls for partnership with Treasury",
-    "url": "https://www.cnbc.com/2025/07/17/kevin-warsh-touts-regime-change-at-fed-and-calls-for-partnership-with-treasury.html",
-    "summary": "Warsh called for sweeping changes on how the Fed conducts business and suggested a policy alliance with the Treasury Department.",
-    "fullContent": "Warsh called for sweeping changes on how the Fed conducts business and suggested a policy alliance with the Treasury Department.",
-    "publishedAt": "2025-07-17T15:31:47.000Z",
-    "fetchedAt": "2025-08-05T11:27:54.054Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "796f4a4c"
-  },
-  {
-    "id": "microcap-club-youtube-f36a09d",
-    "sourceId": "microcap-club-youtube",
-    "sourceName": "MicroCap Club YouTube",
-    "title": "Supreme PLC (SUP.L): A Leading Distributor in Fast Moving Consumer Goods",
-    "url": "https://www.youtube.com/watch?v=xVng7HtYg9I",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T15:29:14.000Z",
-    "fetchedAt": "2025-08-04T10:00:08.899Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "f36a09d"
-  },
-  {
-    "id": "novara-media-youtube-7c31cf82",
-    "sourceId": "novara-media-youtube",
-    "sourceName": "Novara Media YouTube",
-    "title": "Crypto Versus Gold: Which Is Safer Post-Collapse? | Ash Sarkar Meets Quinn Slobodian",
-    "url": "https://www.youtube.com/watch?v=wSv3_IBzdAw",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T15:14:53.000Z",
-    "fetchedAt": "2025-08-04T09:59:47.166Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "7c31cf82"
-  },
-  {
-    "id": "novara-media-youtube-6d8db94a",
-    "sourceId": "novara-media-youtube",
-    "sourceName": "Novara Media YouTube",
-    "title": "Riding the Tiger: How The Right Uses Discontent For Private Gain | Ash Sarkar Meets Quinn Slobodian",
-    "url": "https://www.youtube.com/watch?v=cVJAaRvwXrE",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T15:06:24.000Z",
-    "fetchedAt": "2025-08-04T09:59:47.166Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "6d8db94a"
-  },
-  {
-    "id": "afraw-63f82bf8",
-    "sourceId": "afraw",
-    "sourceName": "Africa Foresight",
-    "title": "",
-    "url": "https://afraw.substack.com/p/progress-in-chinese-urbanism",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T15:02:40.000Z",
-    "fetchedAt": "2025-08-05T09:25:02.894Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "63f82bf8"
-  },
-  {
-    "id": "the-zvi-8cb4cfa45f77940c",
-    "sourceId": "the-zvi",
-    "sourceName": "The Zvi",
-    "title": "AI #125: Smooth Criminal",
-    "url": "https://thezvi.substack.com/p/ai-125-smooth-criminal",
-    "summary": "",
-    "publishedAt": "2025-07-17T14:20:54+00:00",
-    "fetchedAt": "2025-07-28T06:22:19.228214+00:00",
+    "title": "MILKEN INSTITUTE REVIEW: Behind the Hype: What \"AI\" Is & Isn't",
+    "url": "https://braddelong.substack.com/p/milken-institute-review-behind-the",
+    "summary": "In the summer 2025 issue of the Milken Institute Review. Silicon dreams & nightmares & the real sakes of the AI frenzy comprised of machine minds, human motives, & a lot of tangled hype…",
+    "publishedAt": "2025-07-24T23:42:58+00:00",
+    "fetchedAt": "2025-07-28T06:22:16.621380+00:00",
     "category": "non-money",
     "tags": [
       "AI",
       "Research"
     ],
     "priority": "normal",
-    "contentHash": "8cb4cfa45f77940c"
+    "contentHash": "e0f2b1573d977746"
   },
   {
-    "id": "woman-of-letters-a9674ddf7a26dcdc",
-    "sourceId": "woman-of-letters",
-    "sourceName": "Woman of Letters",
-    "title": "It might be integrity, or it might be cowardice",
-    "url": "https://www.woman-of-letters.com/p/cope",
-    "summary": "Andi had a very strong opinion about a particular issue.",
-    "publishedAt": "2025-07-17T14:02:46+00:00",
-    "fetchedAt": "2025-07-28T06:33:17.443849+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
-    ],
-    "priority": "low",
-    "contentHash": "a9674ddf7a26dcdc"
-  },
-  {
-    "id": "woman-of-letters-6a232d3a",
-    "sourceId": "woman-of-letters",
-    "sourceName": "Woman of Letters",
+    "id": "brad-delong-302bc63e",
+    "sourceId": "brad-delong",
+    "sourceName": "Brad DeLong",
     "title": "",
-    "url": "https://www.woman-of-letters.com/p/cope",
+    "url": "https://braddelong.substack.com/p/milken-institute-review-behind-the",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-07-17T14:02:46.000Z",
-    "fetchedAt": "2025-08-04T10:02:58.778Z",
+    "publishedAt": "2025-07-24T23:42:58.000Z",
+    "fetchedAt": "2025-08-05T09:24:08.938Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "6a232d3a"
+    "contentHash": "302bc63e"
   },
   {
-    "id": "woman-of-letters-3fea911a",
-    "sourceId": "woman-of-letters",
-    "sourceName": "Woman of Letters",
-    "title": "It might be integrity, or it might be cowardice",
-    "url": "https://www.woman-of-letters.com/p/cope",
-    "summary": "Andi had a very strong opinion about a particular issue.",
-    "fullContent": "Andi had a very strong opinion about a particular issue.",
-    "publishedAt": "2025-07-17T14:02:46.000Z",
-    "fetchedAt": "2025-08-05T11:31:34.531Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "3fea911a"
-  },
-  {
-    "id": "cnbc-markets-4e1d1a9a4bfad59e",
-    "sourceId": "cnbc-markets",
-    "sourceName": "CNBC Markets",
-    "title": "Crypto theft is booming as criminals increasingly turn to physical attacks",
-    "url": "https://www.cnbc.com/2025/07/17/crypto-theft-hits-record-in-2025.html",
-    "summary": "It comes as there have been multiple headlines this year about crypto entrepreneurs and their relatives being targeted with physical violence.",
-    "publishedAt": "2025-07-17T13:34:49+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.268746+00:00",
-    "category": "markets",
-    "tags": [
-      "Crypto",
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4e1d1a9a4bfad59e"
-  },
-  {
-    "id": "bonddad-99ed2be4b01cd8a7",
-    "sourceId": "bonddad",
-    "sourceName": "The Bonddad Blog",
-    "title": "Topline monthly increase in retail sales betrays weak underlying trend",
-    "url": "https://bonddad.blogspot.com/2025/07/topline-monthly-increase-in-retail.html",
-    "summary": "- by New Deal democratConsumption leads employment, and retail sales are the most timely monthly indicator of consumption. Indeed, population-adjusted real retail sales in the past have tended to turn negative one year or more before a recession has begun.",
-    "publishedAt": "2025-07-17T13:31:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.819589+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "Earnings",
-      "M&A"
-    ],
-    "priority": "normal",
-    "contentHash": "99ed2be4b01cd8a7"
-  },
-  {
-    "id": "fed-working-papers-7d62da676efcf13d",
-    "sourceId": "fed-working-papers",
-    "sourceName": "Federal Reserve Working Papers",
-    "title": "FEDS Paper: Generative AI at the Crossroads: Light Bulb, Dynamo, or Microscope?",
-    "url": "https://www.federalreserve.gov/econres/feds/generative-ai-at-the-crossroads-light-bulb-dynamo-or-microscope.htm",
-    "summary": "Martin Neil Baily, David M. Byrne, Aidan T. Kane, and Paul E. SotoWith the advent of generative AI (genAI), the potential scope of artificial intelligence has increased dramatically, but the future effect of genAI on productivity remains uncertain.",
-    "publishedAt": "2025-07-17T13:16:00+00:00",
-    "fetchedAt": "2025-07-28T08:46:10.660394+00:00",
+    "id": "the-acquirers-fund-31ce48e821e627d7",
+    "sourceId": "the-acquirers-fund",
+    "sourceName": "The Acquirer's Multiple",
+    "title": "American Express (AXP): Our Calculation of Intrinsic Value",
+    "url": "https://acquirersmultiple.com/2025/07/american-express-axp-our-calculation-of-intrinsic-value-2/",
+    "summary": "As part of our ongoing series, each week we typically conduct a DCF on one of the companies in our screens. This week, we’re analyzing a powerhouse in global payments and financial services — American Express (AXP).",
+    "publishedAt": "2025-07-24T23:41:14+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.481572+00:00",
     "category": "research",
     "tags": [
-      "Research",
-      "AI"
-    ],
-    "priority": "high",
-    "contentHash": "7d62da676efcf13d"
-  },
-  {
-    "id": "noema-magazine-53d5b22fb7c140c4",
-    "sourceId": "noema-magazine",
-    "sourceName": "Noema",
-    "title": "The Surprising Durability Of Africa’s Colonial Borders",
-    "url": "https://www.noemamag.com/the-surprising-durability-of-africas-colonial-borders",
-    "summary": "The post The Surprising Durability Of Africa’s Colonial Borders appeared first on NOEMA.",
-    "publishedAt": "2025-07-17T13:09:13+00:00",
-    "fetchedAt": "2025-07-28T06:33:13.842393+00:00",
-    "category": "non-money",
-    "tags": [
-      "Non-Money"
+      "Research"
     ],
     "priority": "normal",
-    "contentHash": "53d5b22fb7c140c4"
+    "contentHash": "31ce48e821e627d7"
   },
   {
-    "id": "noema-magazine-72fe55dd",
-    "sourceId": "noema-magazine",
-    "sourceName": "Noema Magazine",
-    "title": "The Surprising Durability Of Africa’s Colonial Borders",
-    "url": "https://www.noemamag.com/the-surprising-durability-of-africas-colonial-borders",
-    "summary": "The post The Surprising Durability Of Africa’s Colonial Borders appeared first on NOEMA. ]]",
-    "fullContent": "The post The Surprising Durability Of Africa’s Colonial Borders appeared first on NOEMA. ]]",
-    "publishedAt": "2025-07-17T13:09:13.000Z",
-    "fetchedAt": "2025-08-04T10:02:27.032Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "72fe55dd"
-  },
-  {
-    "id": "noema-magazine-51b4568d",
-    "sourceId": "noema-magazine",
-    "sourceName": "Noema Magazine",
-    "title": "The Surprising Durability Of Africa’s Colonial Borders",
-    "url": "https://www.noemamag.com/the-surprising-durability-of-africas-colonial-borders",
-    "summary": "The post The Surprising Durability Of Africa’s Colonial Borders appeared first on NOEMA.",
-    "fullContent": "The post The Surprising Durability Of Africa’s Colonial Borders appeared first on NOEMA.",
-    "publishedAt": "2025-07-17T13:09:13.000Z",
-    "fetchedAt": "2025-08-05T11:31:02.504Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "51b4568d"
-  },
-  {
-    "id": "bonddad-0d65d03bb03bbd61",
-    "sourceId": "bonddad",
-    "sourceName": "The Bonddad Blog",
-    "title": "Jobless claims: the brightest spot in the entire economy right now",
-    "url": "https://bonddad.blogspot.com/2025/07/jobless-claims-brightest-spot-in-entire.html",
-    "summary": "- by New Deal democratProbably the brightest spot in the entire economy right now is initial jobless claims. Contrary to the general theme of deceleration which has been the case for several years now, initial claims appear to be breaking trend in the positive...",
-    "publishedAt": "2025-07-17T13:03:00+00:00",
-    "fetchedAt": "2025-07-30T08:46:07.820863+00:00",
-    "category": "macro",
-    "tags": [
-      "Macro",
-      "M&A"
-    ],
-    "priority": "breaking",
-    "contentHash": "0d65d03bb03bbd61"
-  },
-  {
-    "id": "fred-blog-d81d82f3ec99b07b",
-    "sourceId": "fred-blog",
-    "sourceName": "FRED Blog",
-    "title": "Measuring policy rate uncertainty : Daily data from the Kansas City Fed",
-    "url": "https://fredblog.stlouisfed.org/2025/07/measuring-policy-rate-uncertainty/",
-    "summary": "Previous FRED Blog posts have discussed how to measure economic and financial uncertainty. Some measures are based on news coverage from a large set of U.S. newspapers, and others are calculated using the prices of financial derivatives. Today, we measure … Continue reading →...",
-    "publishedAt": "2025-07-17T13:00:00+00:00",
-    "fetchedAt": "2025-07-30T08:21:42.796150+00:00",
+    "id": "the-acquirers-fund-bfe594eb21cb8129",
+    "sourceId": "the-acquirers-fund",
+    "sourceName": "The Acquirer's Multiple",
+    "title": "Weekly Investing Roundup – News, Podcasts, Interviews (07/25/2025)",
+    "url": "https://acquirersmultiple.com/2025/07/weekly-investing-roundup-news-podcasts-interviews-07-25-2025/",
+    "summary": "This week’s best investing news: Seth Klarman on Finding Value and Maintaining Discipline (GS) Billionaire Bill Ackman Reveals His Investment Strategy (Forbes) Ray Dalio’s right. Wall Street’s big message doesn’t make sense AFR) Legendary Value Investor Bob Robotti discusses...",
+    "publishedAt": "2025-07-24T23:40:57+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.481855+00:00",
     "category": "research",
     "tags": [
       "Research"
     ],
     "priority": "high",
-    "contentHash": "d81d82f3ec99b07b"
+    "contentHash": "bfe594eb21cb8129"
   },
   {
-    "id": "cfa-enterprising-investor-8dbba505c59246b4",
-    "sourceId": "cfa-enterprising-investor",
-    "sourceName": "CFA Enterprising Investor",
-    "title": "Top 10 Most Read Blogs from Q2: AI, Alpha, and a Shifting Global Order",
-    "url": "https://blogs.cfainstitute.org/investor/2025/07/17/top-10-most-read-blogs-from-q2-ai-alpha-and-a-shifting-global-order/",
-    "summary": "AI disruption, portfolio shifts, and timeless lessons—these blogs topped the charts in Q2. The post Top 10 Most Read Blogs from Q2: AI, Alpha, and a Shifting Global Order appeared first on CFA Institute Enterprising Investor.",
-    "publishedAt": "2025-07-17T12:54:06+00:00",
-    "fetchedAt": "2025-07-28T08:46:10.402404+00:00",
+    "id": "the-acquirers-fund-d544548e1389b575",
+    "sourceId": "the-acquirers-fund",
+    "sourceName": "The Acquirer's Multiple",
+    "title": "Medical Facilities Corporation (DR.TO): Is This Deeply Undervalued Stock a Hidden Gem?",
+    "url": "https://acquirersmultiple.com/2025/07/medical-facilities-corporation-dr-to-is-this-deeply-undervalued-stock-a-hidden-gem/",
+    "summary": "As part of our ongoing series here at The Acquirer’s Multiple, each week we spotlight a stock from our Stock Screeners that might be a deeply undervalued gem hiding in plain sight. The stock this week is: Medical Facilities Corporation (DR.",
+    "publishedAt": "2025-07-24T23:40:36+00:00",
+    "fetchedAt": "2025-07-28T04:04:08.482107+00:00",
     "category": "research",
     "tags": [
-      "Research",
-      "AI"
+      "Research"
     ],
-    "priority": "normal",
-    "contentHash": "8dbba505c59246b4"
+    "priority": "high",
+    "contentHash": "d544548e1389b575"
   },
   {
-    "id": "cfa-institute-blog-24eafb65",
-    "sourceId": "cfa-institute-blog",
-    "sourceName": "CFA Institute Enterprising Investor",
-    "title": "Top 10 Most Read Blogs from Q2: AI, Alpha, and a Shifting Global Order",
-    "url": "https://blogs.cfainstitute.org/investor/2025/07/17/top-10-most-read-blogs-from-q2-ai-alpha-and-a-shifting-global-order/",
-    "summary": "AI disruption, portfolio shifts, and timeless lessons—these blogs topped the charts in Q2. The post Top 10 Most Read Blogs from Q2: AI, Alpha, and a Sh.",
-    "fullContent": "AI disruption, portfolio shifts, and timeless lessons—these blogs topped the charts in Q2. The post Top 10 Most Read Blogs from Q2: AI, Alpha, and a Shifting Global Order appeared first on CFA Institute Enterprising Investor. ]]",
-    "publishedAt": "2025-07-17T12:54:06.000Z",
-    "fetchedAt": "2025-08-04T09:59:20.543Z",
-    "category": "research",
+    "id": "wsj-opinion-db8811c53892060b",
+    "sourceId": "wsj-opinion",
+    "sourceName": "WSJ Opinion",
+    "title": "Intel to Lay Off 15% of Workers, Cancel Billions in Projects in Bid for Rebound",
+    "url": "https://www.wsj.com/business/earnings/intel-earnings-q2-intc-stock-00bacf74?mod=rss_Technology",
+    "summary": "The American chip-making giant is facing a strategic crossroads as it chases rivals like Nvidia and TSMC in the global silicon boom.",
+    "fullContent": "The American chip-making giant is facing a strategic crossroads as it chases rivals like Nvidia and TSMC in the global silicon boom.",
+    "publishedAt": "2025-07-24T23:19:00+00:00",
+    "fetchedAt": "2025-07-31T06:18:06.116182+00:00",
+    "category": "blogs",
     "tags": [
-      "research"
+      "Blogs"
     ],
-    "priority": "normal",
-    "contentHash": "24eafb65"
+    "priority": "high",
+    "contentHash": "db8811c53892060b"
   },
   {
-    "id": "cfa-institute-blog-f4a1f43",
-    "sourceId": "cfa-institute-blog",
-    "sourceName": "CFA Institute Enterprising Investor",
-    "title": "Top 10 Most Read Blogs from Q2: AI, Alpha, and a Shifting Global Order",
-    "url": "https://blogs.cfainstitute.org/investor/2025/07/17/top-10-most-read-blogs-from-q2-ai-alpha-and-a-shifting-global-order/",
-    "summary": "AI disruption, portfolio shifts, and timeless lessons—these blogs topped the charts in Q2. The post Top 10 Most Read Blogs from Q2: AI, Alpha, and a Shifting Gl.",
-    "fullContent": "AI disruption, portfolio shifts, and timeless lessons—these blogs topped the charts in Q2. The post Top 10 Most Read Blogs from Q2: AI, Alpha, and a Shifting Global Order appeared first on CFA Institute Enterprising Investor.",
-    "publishedAt": "2025-07-17T12:54:06.000Z",
-    "fetchedAt": "2025-08-05T11:27:55.817Z",
-    "category": "research",
+    "id": "wired-038f438cdf7e44ba",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "Paramount Has a $1.5 Billion ‘South Park’ Problem",
+    "url": "https://www.wired.com/story/paramount-has-a-south-park-problem/",
+    "summary": "The White House says the show is “fourth-rate” after it showed Trump with “tiny” genitals. The controversy comes just as the FCC has greenlit Paramount’s merger with Skydance and promised to end DEI.",
+    "publishedAt": "2025-07-24T23:13:39+00:00",
+    "fetchedAt": "2025-07-28T06:12:24.129274+00:00",
+    "category": "technology",
     "tags": [
-      "research"
+      "M&A",
+      "Research"
     ],
-    "priority": "normal",
-    "contentHash": "f4a1f43"
+    "priority": "high",
+    "contentHash": "038f438cdf7e44ba"
   },
   {
-    "id": "economist-business-3a4b28309974bced",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "Are superstars as good when they move jobs?",
-    "url": "https://www.economist.com/business/2025/07/17/are-superstars-as-good-when-they-move-jobs",
+    "id": "nicholas-decker-c90910e48b049b7c",
+    "sourceId": "nicholas-decker",
+    "sourceName": "Nicholas Decker",
+    "title": "My Best Work This Year",
+    "url": "https://nicholasdecker.substack.com/p/my-best-work-this-year",
     "summary": "",
-    "publishedAt": "2025-07-17T12:48:23+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.201941+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets",
-      "AI"
-    ],
-    "priority": "normal",
-    "contentHash": "3a4b28309974bced"
-  },
-  {
-    "id": "economist-business-355a53c6ee30ac12",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "Move over, Tim Cook. Jensen Huang is America Inc’s new China envoy",
-    "url": "https://www.economist.com/business/2025/07/17/move-over-tim-cook-jensen-huang-is-america-incs-new-china-envoy",
-    "summary": "",
-    "publishedAt": "2025-07-17T12:48:23+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.202110+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "355a53c6ee30ac12"
-  },
-  {
-    "id": "economist-business-307857c39464cc8a",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "Kraft Heinz is not the only food giant in trouble",
-    "url": "https://www.economist.com/business/2025/07/17/kraft-heinz-is-not-the-only-food-giant-in-trouble",
-    "summary": "The industry is grappling with slowing demand, rising competition and new regulations.",
-    "publishedAt": "2025-07-17T12:48:23+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.202299+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "307857c39464cc8a"
-  },
-  {
-    "id": "economist-business-98109ed2dc428570",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "America throws big money at a small rare-earths mine",
-    "url": "https://www.economist.com/business/2025/07/17/america-throws-big-money-at-a-small-rare-earths-mine",
-    "summary": "Challenging China’s dominance will be a tall order",
-    "publishedAt": "2025-07-17T12:48:23+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.202466+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "98109ed2dc428570"
-  },
-  {
-    "id": "economist-business-e5b1de621970dd8e",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "The spectacular folly of Donald Trump’s copper tariffs",
-    "url": "https://www.economist.com/business/2025/07/17/the-spectacular-folly-of-donald-trumps-copper-tariffs",
-    "summary": "Duties on the red metal will undermine the president’s wider economic agenda.",
-    "publishedAt": "2025-07-17T12:48:23+00:00",
-    "fetchedAt": "2025-07-28T03:55:24.202653+00:00",
-    "category": "markets",
-    "tags": [
-      "Markets"
-    ],
-    "priority": "normal",
-    "contentHash": "e5b1de621970dd8e"
-  },
-  {
-    "id": "economist-business-3bd582f",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "",
-    "url": "https://www.economist.com/business/2025/07/17/are-superstars-as-good-when-they-move-jobs",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.967Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3bd582f"
-  },
-  {
-    "id": "economist-business-7bd631a",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "",
-    "url": "https://www.economist.com/business/2025/07/17/move-over-tim-cook-jensen-huang-is-america-incs-new-china-envoy",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.967Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7bd631a"
-  },
-  {
-    "id": "economist-business-2ef6c8a",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "",
-    "url": "https://www.economist.com/business/2025/07/17/kraft-heinz-is-not-the-only-food-giant-in-trouble",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.967Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2ef6c8a"
-  },
-  {
-    "id": "economist-business-17e3ce33",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "",
-    "url": "https://www.economist.com/business/2025/07/17/america-throws-big-money-at-a-small-rare-earths-mine",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.967Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "17e3ce33"
-  },
-  {
-    "id": "economist-business-2f8ea661",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "",
-    "url": "https://www.economist.com/business/2025/07/17/the-spectacular-folly-of-donald-trumps-copper-tariffs",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-04T06:57:21.967Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2f8ea661"
-  },
-  {
-    "id": "economist-business-782f86d1",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "Are superstars as good when they move jobs?",
-    "url": "https://www.economist.com/business/2025/07/17/are-superstars-as-good-when-they-move-jobs",
-    "summary": "",
-    "fullContent": "The AI-talent scramble raises an old question",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-05T11:27:53.677Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "782f86d1"
-  },
-  {
-    "id": "economist-business-20c118c8",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "Move over, Tim Cook. Jensen Huang is America Inc’s new China envoy",
-    "url": "https://www.economist.com/business/2025/07/17/move-over-tim-cook-jensen-huang-is-america-incs-new-china-envoy",
-    "summary": "",
-    "fullContent": "Nvidia’s boss is proving to be a canny diplomat",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-05T11:27:53.677Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "20c118c8"
-  },
-  {
-    "id": "economist-business-876c8c",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "Kraft Heinz is not the only food giant in trouble",
-    "url": "https://www.economist.com/business/2025/07/17/kraft-heinz-is-not-the-only-food-giant-in-trouble",
-    "summary": "The industry is grappling with slowing demand, rising competition and new regulations.",
-    "fullContent": "The industry is grappling with slowing demand, rising competition and new regulations",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-05T11:27:53.677Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "876c8c"
-  },
-  {
-    "id": "economist-business-5c65c8f5",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "America throws big money at a small rare-earths mine",
-    "url": "https://www.economist.com/business/2025/07/17/america-throws-big-money-at-a-small-rare-earths-mine",
-    "summary": "Challenging China’s dominance will be a tall order",
-    "fullContent": "Challenging China’s dominance will be a tall order",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-05T11:27:53.677Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5c65c8f5"
-  },
-  {
-    "id": "economist-business-59c7aacf",
-    "sourceId": "economist-business",
-    "sourceName": "Economist Business",
-    "title": "The spectacular folly of Donald Trump’s copper tariffs",
-    "url": "https://www.economist.com/business/2025/07/17/the-spectacular-folly-of-donald-trumps-copper-tariffs",
-    "summary": "Duties on the red metal will undermine the president’s wider economic agenda.",
-    "fullContent": "Duties on the red metal will undermine the president’s wider economic agenda",
-    "publishedAt": "2025-07-17T12:48:23.000Z",
-    "fetchedAt": "2025-08-05T11:27:53.677Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "59c7aacf"
-  },
-  {
-    "id": "not-boring-f2628167627abd6b",
-    "sourceId": "not-boring",
-    "sourceName": "Not Boring",
-    "title": "How to Flounder Mode with Brie Wolfson",
-    "url": "https://www.notboring.co/p/how-to-flounder-mode-with-brie-wolfson",
-    "summary": "Hyperlegible 013: On Brie's good day together with Kevin Kelly.",
-    "publishedAt": "2025-07-17T12:39:17+00:00",
-    "fetchedAt": "2025-07-28T06:33:12.253460+00:00",
+    "publishedAt": "2025-07-24T23:07:50+00:00",
+    "fetchedAt": "2025-07-28T06:33:11.057774+00:00",
     "category": "non-money",
     "tags": [
       "Non-Money"
     ],
     "priority": "normal",
-    "contentHash": "f2628167627abd6b"
-  },
-  {
-    "id": "not-boring-659c13d0",
-    "sourceId": "not-boring",
-    "sourceName": "Not Boring",
-    "title": "",
-    "url": "https://www.notboring.co/p/how-to-flounder-mode-with-brie-wolfson",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-07-17T12:39:17.000Z",
-    "fetchedAt": "2025-08-04T10:01:30.636Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "659c13d0"
-  },
-  {
-    "id": "not-boring-2fced5ea",
-    "sourceId": "not-boring",
-    "sourceName": "Not Boring",
-    "title": "How to Flounder Mode with Brie Wolfson",
-    "url": "https://www.notboring.co/p/how-to-flounder-mode-with-brie-wolfson",
-    "summary": "Hyperlegible 013: On Brie's good day together with Kevin Kelly.",
-    "fullContent": "Hyperlegible 013: On Brie's good day together with Kevin Kelly",
-    "publishedAt": "2025-07-17T12:39:17.000Z",
-    "fetchedAt": "2025-08-05T11:30:05.561Z",
-    "category": "eclectic",
-    "tags": [
-      "eclectic"
-    ],
-    "priority": "normal",
-    "contentHash": "2fced5ea"
+    "contentHash": "c90910e48b049b7c"
   }
 ]
