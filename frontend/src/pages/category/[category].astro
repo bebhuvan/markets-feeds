@@ -1,0 +1,529 @@
+---
+// Dynamic category page
+export async function getStaticPaths() {
+  return [
+    { params: { category: 'markets-trading' } },
+    { params: { category: 'business-news' } },
+    { params: { category: 'economic-research' } },
+    { params: { category: 'investment-analysis' } },
+    { params: { category: 'regional-india' } },
+    { params: { category: 'regional-asia' } },
+    { params: { category: 'technology' } },
+    { params: { category: 'policy-regulation' } },
+    { params: { category: 'academic-research' } },
+    { params: { category: 'alternative-perspectives' } },
+    { params: { category: 'specialized-markets' } },
+    { params: { category: 'audio-content' } },
+    { params: { category: 'videos' } }
+  ];
+}
+
+const { category } = Astro.params;
+
+// Map category slugs to display names
+const categoryNames = {
+  'markets-trading': 'Markets & Trading',
+  'business-news': 'Business News',
+  'economic-research': 'Economic Research',
+  'investment-analysis': 'Investment Analysis',
+  'regional-india': 'Regional - India',
+  'regional-asia': 'Regional - Asia',
+  'technology': 'Technology',
+  'policy-regulation': 'Policy & Regulation',
+  'academic-research': 'Academic & Research',
+  'alternative-perspectives': 'Alternative Perspectives',
+  'specialized-markets': 'Specialized Markets',
+  'audio-content': 'Audio Content',
+  'videos': 'Videos'
+};
+
+const categoryName = categoryNames[category] || category;
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{categoryName} - Research Feed</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body class="page-category">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/" style="text-decoration: none; color: inherit;">Research Feed</a>
+                </div>
+                <nav class="header-nav">
+                    <a href="/" class="nav-link">Feed</a>
+                    <div class="category-dropdown">
+                        <button class="category-dropdown-toggle active" id="categoriesToggle">
+                            Categories
+                            <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6,9 12,15 18,9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="category-dropdown-menu" id="categoriesMenu">
+                            <a href="/category/markets-trading">Markets & Trading</a>
+                            <a href="/category/business-news">Business News</a>
+                            <a href="/category/economic-research">Economic Research</a>
+                            <a href="/category/investment-analysis">Investment Analysis</a>
+                            <a href="/category/regional-india">Regional - India</a>
+                            <a href="/category/regional-asia">Regional - Asia</a>
+                            <a href="/category/technology">Technology</a>
+                            <a href="/category/policy-regulation">Policy & Regulation</a>
+                            <a href="/category/academic-research">Academic & Research</a>
+                            <a href="/category/alternative-perspectives">Alternative Perspectives</a>
+                            <a href="/category/specialized-markets">Specialized Markets</a>
+                            <a href="/category/audio-content">Audio Content</a>
+                        </div>
+                    </div>
+                    <a href="/sources" class="nav-link">Sources</a>
+                </nav>
+                <div class="header-meta">
+                    <span id="totalArticles">Loading...</span> • Updated <span id="lastUpdate">just now</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-icon">⌕</div>
+                <input type="text" class="search-input" placeholder={`Search ${categoryName.toLowerCase()} articles...`} id="searchInput">
+                <div class="search-results" id="searchResults"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <main class="main">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <div class="sidebar-header">Categories</div>
+                    <div class="source-groups">
+                        <div class="source-group">
+                            <ul class="source-list">
+                                <li class="source-item">
+                                    <a href="/category/markets-trading" class="source-link">
+                                        <span>Markets & Trading</span>
+                                        <span class="source-count" id="markets-trading-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/business-news" class="source-link">
+                                        <span>Business News</span>
+                                        <span class="source-count" id="business-news-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/economic-research" class="source-link">
+                                        <span>Economic Research</span>
+                                        <span class="source-count" id="economic-research-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/investment-analysis" class="source-link">
+                                        <span>Investment Analysis</span>
+                                        <span class="source-count" id="investment-analysis-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/regional-india" class="source-link">
+                                        <span>Regional - India</span>
+                                        <span class="source-count" id="regional-india-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/regional-asia" class="source-link">
+                                        <span>Regional - Asia</span>
+                                        <span class="source-count" id="regional-asia-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/technology" class="source-link">
+                                        <span>Technology</span>
+                                        <span class="source-count" id="technology-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/policy-regulation" class="source-link">
+                                        <span>Policy & Regulation</span>
+                                        <span class="source-count" id="policy-regulation-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/academic-research" class="source-link">
+                                        <span>Academic & Research</span>
+                                        <span class="source-count" id="academic-research-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/alternative-perspectives" class="source-link">
+                                        <span>Alternative Perspectives</span>
+                                        <span class="source-count" id="alternative-perspectives-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/specialized-markets" class="source-link">
+                                        <span>Specialized Markets</span>
+                                        <span class="source-count" id="specialized-markets-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/audio-content" class="source-link">
+                                        <span>Audio Content</span>
+                                        <span class="source-count" id="audio-content-count">-</span>
+                                    </a>
+                                </li>
+                                <li class="source-item">
+                                    <a href="/category/videos" class="source-link">
+                                        <span>Videos</span>
+                                        <span class="source-count" id="videos-count">-</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <div class="sidebar-header">Sources in {categoryName}</div>
+                    <div class="source-groups" id="categorySourceGroups">
+                        <div class="loading">Loading sources...</div>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="feed-content">
+                <div class="feed-header">
+                    <h1 class="feed-title">{categoryName}</h1>
+                    <div class="feed-meta" id="feedMeta">Loading articles...</div>
+                </div>
+
+                <ul class="articles" id="articlesList">
+                    <li class="loading">Loading articles...</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // FeedAPI class (same as before)
+        class FeedAPI {
+            constructor(baseUrl = 'http://localhost:8787') {
+                this.baseUrl = baseUrl;
+            }
+
+            async getArticles(options = {}) {
+                const params = new URLSearchParams();
+                Object.entries(options).forEach(([key, value]) => {
+                    if (value !== null && value !== undefined) {
+                        params.set(key, value.toString());
+                    }
+                });
+
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/articles?${params}`);
+                    if (!response.ok) throw new Error(`API error: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('API error:', error);
+                    return { articles: [], error: error.message };
+                }
+            }
+
+            async getSources() {
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/sources`);
+                    if (!response.ok) throw new Error(`API error: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('API error:', error);
+                    return [];
+                }
+            }
+
+            async search(query, options = {}) {
+                const params = new URLSearchParams();
+                if (query) params.set('q', query);
+                
+                Object.entries(options).forEach(([key, value]) => {
+                    if (value !== null && value !== undefined) {
+                        params.set(key, value.toString());
+                    }
+                });
+
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/search?${params}`);
+                    if (!response.ok) throw new Error(`Search failed: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('Search error:', error);
+                    return { results: [], error: error.message };
+                }
+            }
+
+            async getSuggestions(query) {
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/suggestions?q=${encodeURIComponent(query)}`);
+                    if (!response.ok) throw new Error(`API error: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('API error:', error);
+                    return { suggestions: [] };
+                }
+            }
+        }
+
+        // Category Page App
+        class CategoryPageApp {
+            constructor() {
+                this.feedAPI = new FeedAPI();
+                this.currentCategory = '${category}';
+                this.categoryName = '${categoryName}';
+                this.articles = [];
+                this.sources = [];
+                this.categoryMap = {
+                    'markets-trading': 'Markets & Trading',
+                    'business-news': 'Business News',
+                    'economic-research': 'Economic Research',
+                    'investment-analysis': 'Investment Analysis',
+                    'regional-india': 'Regional - India',
+                    'regional-asia': 'Regional - Asia',
+                    'technology': 'Technology',
+                    'policy-regulation': 'Policy & Regulation',
+                    'academic-research': 'Academic & Research',
+                    'alternative-perspectives': 'Alternative Perspectives',
+                    'specialized-markets': 'Specialized Markets',
+                    'audio-content': 'Audio Content',
+                    'videos': 'Videos'
+                };
+
+                this.init();
+            }
+
+            async init() {
+                console.log(`🚀 Initializing ${this.categoryName} page...`);
+                
+                try {
+                    await this.loadSources();
+                    await this.loadCategoryArticles();
+                    this.setupSearch();
+                    this.setupDropdown();
+                    this.highlightCurrentCategory();
+                    
+                    console.log(`✅ ${this.categoryName} page initialized successfully!`);
+                } catch (error) {
+                    console.error(`❌ Failed to initialize ${this.categoryName} page:`, error);
+                    this.showError('Failed to load the category page.');
+                }
+            }
+
+            highlightCurrentCategory() {
+                document.querySelectorAll('.sidebar .source-link').forEach(link => {
+                    if (link.getAttribute('href') === `/category/${this.currentCategory}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+
+            async loadSources() {
+                try {
+                    this.sources = await this.feedAPI.getSources();
+                    this.renderCategorySources();
+                    this.updateCategoryCounts();
+                } catch (error) {
+                    console.error('Failed to load sources:', error);
+                }
+            }
+
+            async loadCategoryArticles() {
+                try {
+                    const result = await this.feedAPI.getArticles({
+                        limit: 100,
+                        category: this.categoryMap[this.currentCategory]
+                    });
+                    this.articles = result.articles || [];
+                    this.renderArticles();
+                    this.updateStats();
+                } catch (error) {
+                    console.error('Failed to load articles:', error);
+                    document.getElementById('articlesList').innerHTML = '<li class="error">Failed to load articles</li>';
+                }
+            }
+
+            renderCategorySources() {
+                const categoryDisplayName = this.categoryMap[this.currentCategory];
+                const sourcesInCategory = this.sources.filter(source => 
+                    source.category === categoryDisplayName
+                );
+
+                if (sourcesInCategory.length === 0) {
+                    document.getElementById('categorySourceGroups').innerHTML = '<div class="loading">No sources in this category</div>';
+                    return;
+                }
+
+                const sourceGroupsHtml = `
+                    <div class="source-group">
+                        <ul class="source-list">
+                            ${sourcesInCategory.map(source => `
+                                <li class="source-item">
+                                    <a href="/source/${this.slugify(source.name)}" class="source-link">
+                                        <span>${this.escapeHtml(source.name)}</span>
+                                        <span class="source-count">${source.articles_today || 0}</span>
+                                    </a>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                `;
+
+                document.getElementById('categorySourceGroups').innerHTML = sourceGroupsHtml;
+            }
+
+            updateCategoryCounts() {
+                Object.entries(this.categoryMap).forEach(([slug, displayName]) => {
+                    const sourcesInCategory = this.sources.filter(source => source.category === displayName);
+                    const totalArticles = sourcesInCategory.reduce((sum, source) => sum + (source.articles_today || 0), 0);
+                    const countElement = document.getElementById(`${slug}-count`);
+                    if (countElement) {
+                        countElement.textContent = totalArticles.toString();
+                    }
+                });
+            }
+
+            renderArticles() {
+                if (this.articles.length === 0) {
+                    document.getElementById('articlesList').innerHTML = `<li class="loading">No articles found in ${this.categoryName}</li>`;
+                    return;
+                }
+
+                const articlesHtml = this.articles.map(article => `
+                    <li class="article">
+                        <div class="article-header">
+                            <h2 class="article-title">
+                                <a href="${article.link || '#'}" target="_blank">${this.escapeHtml(article.title || 'Untitled')}</a>
+                            </h2>
+                            <div class="article-meta">
+                                <span class="article-source">${this.escapeHtml(article.source || 'Unknown')}</span>
+                                <span class="article-time">${this.getRelativeTime(new Date(article.publishedAt))}</span>
+                            </div>
+                        </div>
+                        ${article.description || article.excerpt ? `<p class="article-excerpt">${this.escapeHtml(article.description || article.excerpt)}</p>` : ''}
+                    </li>
+                `).join('');
+
+                document.getElementById('articlesList').innerHTML = articlesHtml;
+            }
+
+            setupSearch() {
+                const searchInput = document.getElementById('searchInput');
+                if (!searchInput) return;
+
+                searchInput.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        this.performSearch(e.target.value);
+                    }
+                });
+            }
+
+            setupDropdown() {
+                const categoriesToggle = document.getElementById('categoriesToggle');
+                const categoriesDropdown = categoriesToggle?.closest('.category-dropdown');
+                
+                if (categoriesToggle && categoriesDropdown) {
+                    categoriesToggle.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        categoriesDropdown.classList.toggle('open');
+                    });
+
+                    // Close dropdown when clicking outside
+                    document.addEventListener('click', (e) => {
+                        if (!categoriesDropdown.contains(e.target)) {
+                            categoriesDropdown.classList.remove('open');
+                        }
+                    });
+
+                    // Close dropdown when pressing escape
+                    document.addEventListener('keydown', (e) => {
+                        if (e.key === 'Escape') {
+                            categoriesDropdown.classList.remove('open');
+                        }
+                    });
+                }
+            }
+
+            async performSearch(query) {
+                if (!query.trim()) return;
+
+                try {
+                    const results = await this.feedAPI.search(query, { 
+                        limit: 50,
+                        category: this.categoryMap[this.currentCategory]
+                    });
+                    this.articles = results.results || [];
+                    this.renderArticles();
+                    this.updateSearchHeader(query, results.results?.length || 0);
+                } catch (error) {
+                    console.error('Search failed:', error);
+                }
+            }
+
+            updateSearchHeader(query, count) {
+                document.getElementById('feedTitle').textContent = `Search in ${this.categoryName}: "${query}"`;
+                document.getElementById('feedMeta').textContent = `${count} results found`;
+            }
+
+            updateStats() {
+                document.getElementById('totalArticles').textContent = `${this.articles.length} articles`;
+                document.getElementById('feedMeta').textContent = `${this.articles.length} articles`;
+            }
+
+            showError(message) {
+                const errorElement = document.createElement('div');
+                errorElement.className = 'error';
+                errorElement.textContent = message;
+                document.querySelector('.main')?.prepend(errorElement);
+            }
+
+            slugify(text) {
+                return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            }
+
+            escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            getRelativeTime(date) {
+                const now = new Date();
+                const diffInMinutes = Math.floor((now - date) / (1000 * 60));
+                
+                if (diffInMinutes < 1) return 'just now';
+                if (diffInMinutes < 60) return `${diffInMinutes} min ago`;
+                
+                const diffInHours = Math.floor(diffInMinutes / 60);
+                if (diffInHours < 24) return `${diffInHours} hours ago`;
+                
+                const diffInDays = Math.floor(diffInHours / 24);
+                if (diffInDays < 7) return `${diffInDays} days ago`;
+                
+                return date.toLocaleDateString();
+            }
+        }
+
+        // Initialize the app
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                window.categoryApp = new CategoryPageApp();
+            });
+        } else {
+            window.categoryApp = new CategoryPageApp();
+        }
+    </script>
+</body>
+</html>

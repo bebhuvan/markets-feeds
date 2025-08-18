@@ -1,122 +1,81 @@
-# Markets Feeds v2
+# Research Feed Aggregator
 
-A modern financial news aggregator built with Astro, featuring automated RSS feed collection and intelligent categorization.
+A modern RSS feed aggregator built with Astro and Cloudflare Workers, designed specifically for financial and economic research content.
 
-## ⚠️ Known Issues
+## Features
 
-### GitHub Actions Workflow Failures
-- **Problem**: All GitHub Actions workflows fail with `Dependencies lock file not found` error
-- **Cause**: `actions/setup-node@v4` automatically tries to use npm cache but can't find package-lock.json
-- **Attempted Fixes**: 
-  - Created package-lock.json in root
-  - Used `actions/setup-node@v3` 
-  - Disabled caching entirely
-  - Manual Node.js installation
-  - Multiple workflow variations
-- **Status**: ❌ Still failing - GitHub Actions keeps reverting to v4 somehow
-- **Workaround**: Use Cloudflare Pages build process or manual updates
+- **Real-time RSS Feed Processing**: Automated fetching from 100+ high-quality sources
+- **Smart Categorization**: Logical organization by content type (Markets, Economic Research, etc.)
+- **Modern UI**: Clean, responsive design optimized for reading
+- **Export Functionality**: OPML, JSON, and CSV export support
+- **Production Caching**: Optimized cache policies for news content freshness
+- **Search & Filter**: Advanced search with category filtering
 
-### Current State
-- ✅ **Local development works perfectly**
-- ✅ **60+ RSS feeds configured and tested**
-- ✅ **Complete admin dashboard functional**
-- ✅ **Astro build process works**
-- ❌ **Automated RSS fetching via GitHub Actions fails**
+## Architecture
 
-## 🚀 Deployment Instructions
+### Frontend (Astro)
+- Static site generation with dynamic API integration
+- Responsive design with soft color palette
+- Category navigation and search functionality
+- Export capabilities for feed management
 
-### Option 1: Cloudflare Pages (Recommended)
+### Backend (Mock Server for Development)
+- Express.js API server simulating Cloudflare Workers
+- Comprehensive caching strategy
+- Security headers and CORS configuration
+- RESTful endpoints for all data operations
 
-1. **Connect Repository:**
-   - Go to [Cloudflare Pages](https://pages.cloudflare.com)
-   - Click "Connect to Git" → Select this repository
-   - Choose the `main` branch
+### Content Categories
 
-2. **Build Configuration:**
-   ```
-   Build command: cd v2 && npm run build
-   Build output directory: v2/dist
-   Root directory: /
-   ```
+1. **Markets & Trading** - Real-time market news and trading data
+2. **Business News** - Corporate news and industry updates  
+3. **Economic Research** - Macro economics and monetary policy
+4. **Investment Analysis** - Commentary and portfolio theory
+5. **Regional Focus** - Geographic market coverage
+6. **Technology** - FinTech and innovation
+7. **Policy & Regulation** - Financial regulation and policy
+8. **Academic & Research** - Scholarly content
+9. **Alternative Perspectives** - Diverse analytical viewpoints
+10. **Specialized Markets** - Commodities and niche markets
+11. **Audio Content** - Podcasts and audio resources
 
-3. **Environment Variables:**
-   - `NODE_VERSION`: `20`
-   - `NPM_FLAGS`: `--legacy-peer-deps` (if needed)
+## Quick Start
 
-**Note**: The build.sh script will attempt to fetch fresh feeds during build, but may fail due to network restrictions.
-
-### Option 2: Manual Feed Updates
-
-Since GitHub Actions is having issues, you can manually update feeds:
+### Development
 
 ```bash
-cd v2
-npm install
-npm run fetch-feeds
-git add content/links/*.json
-git commit -m "Update feeds"
-git push
+# Install dependencies
+cd frontend && npm install
+
+# Start mock API server
+cd .. && PORT=8787 node mock-server.js
+
+# Start Astro development server
+cd frontend && npm run dev
 ```
 
-## 📊 Features
+### Caching Strategy
 
-- **60+ RSS Feeds**: Financial news from major sources
-- **Smart Categorization**: 16 focused categories
-- **Search & Discovery**: Full-text search with suggestions
-- **Admin Dashboard**: Feed management interface
-- **Mobile Responsive**: Works on all devices
+- **Articles**: 1 minute cache (fresh news content)
+- **Sources**: 5 minutes cache (rarely changes)
+- **Search**: No cache (user-specific queries)
+- **Static Assets**: 1 year cache (with versioning)
+- **HTML Pages**: 5 minutes cache (dynamic content)
 
-## 🔧 Local Development
+## Deployment
 
-```bash
-cd v2
-npm install
-npm run dev
-```
+The system is designed for deployment on Cloudflare Workers + D1 Database with Cloudflare Pages for the frontend.
 
-Visit `http://localhost:4321`
+See `CACHING.md` for detailed production caching configuration.
 
-## 📁 Project Structure
+## API Endpoints
 
-```
-v2/
-├── src/
-│   ├── pages/          # Astro pages
-│   ├── lib/            # Utilities and data loading
-│   ├── scripts/        # RSS feed fetchers
-│   └── layouts/        # Page layouts
-├── content/
-│   ├── links/          # Article JSON files
-│   └── ideas/          # Curated insights
-└── feeds.config.json   # RSS feed configuration
-```
+- `GET /api/articles` - Retrieve articles with filtering
+- `GET /api/sources` - Get all RSS sources  
+- `GET /api/search` - Search articles
+- `GET /api/suggestions` - Search suggestions
+- `GET /api/trending` - Trending topics
 
-## 🤖 Automated Updates (CURRENTLY BROKEN)
+## Contributing
 
-**GitHub Actions Issue**: All workflows fail with cache/dependency errors despite multiple fix attempts.
-
-**Alternative Solutions**:
-1. **Set up a cron job** on any server with the feed fetch script
-2. **Use Cloudflare Workers** with scheduled triggers
-3. **Manual updates** as shown above
-4. **New chat session** - Try debugging GitHub Actions with fresh context
-
-## 📈 Data Sources
-
-- **Markets**: WSJ, Bloomberg, Reuters, CNBC, FT
-- **Indian Markets**: ET Markets, Hindu Business Line, NDTV Profit
-- **Central Banking**: Fed, ECB, RBI press releases
-- **Analysis**: Matt Levine, Paul Krugman, Stratechery
-- **Technology**: TechMeme, The Verge, Wired
-- **Research**: NBER, BIS, CEPR papers
-
-## 🎯 Categories
-
-- Markets, Earnings, M&A, Crypto
-- Economics, Central Banking, Commodities
-- Technology, Regulation, Research
-- Videos, Podcasts, Analysis, News
-
----
-
-**Live Site**: Deploy to see your financial news aggregator in action! 🚀
+This is a specialized financial news aggregator. All sources are curated for quality and relevance to financial/economic research.

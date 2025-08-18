@@ -1,0 +1,627 @@
+---
+// Sources overview page - Minimal & Beautiful
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Sources - Research Feed</title>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <style>
+        .sources-header {
+            background: #ffffff;
+            border-bottom: 1px solid #f1f5f9;
+            padding: 32px 0;
+        }
+
+        .sources-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+
+        .sources-subtitle {
+            color: #6b7280;
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+
+        .sources-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .export-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #1f2937;
+            color: #ffffff;
+            padding: 10px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .export-btn:hover {
+            background: #374151;
+            transform: translateY(-1px);
+        }
+
+        .export-btn.secondary {
+            background: #ffffff;
+            color: #374151;
+            border: 1px solid #d1d5db;
+        }
+
+        .export-btn.secondary:hover {
+            background: #f9fafb;
+            border-color: #9ca3af;
+        }
+
+        .category-pills {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 32px 0;
+            padding: 0;
+        }
+
+        .category-pill {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            color: #475569;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-decoration: none;
+        }
+
+        .category-pill:hover {
+            background: #e2e8f0;
+            color: #334155;
+        }
+
+        .category-pill.active {
+            background: #1f2937;
+            color: #ffffff;
+            border-color: #1f2937;
+        }
+
+        .sources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 24px;
+            margin-top: 32px;
+        }
+
+        .source-card {
+            background: #ffffff;
+            border: 1px solid #f1f5f9;
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .source-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #f3f4f6 0%, #e5e7eb 50%, #d1d5db 100%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .source-card:hover::before {
+            opacity: 1;
+        }
+
+        .source-card:hover {
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            border-color: #e5e7eb;
+            transform: translateY(-2px);
+        }
+
+        .source-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .source-info h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 4px;
+            line-height: 1.3;
+        }
+
+        .source-category {
+            font-size: 11px;
+            font-weight: 600;
+            color: #78716c;
+            background: #f7f6f4;
+            padding: 4px 8px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .source-status {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #10b981;
+            flex-shrink: 0;
+            margin-top: 6px;
+        }
+
+        .source-status.inactive {
+            background: #f59e0b;
+        }
+
+        .source-url {
+            font-size: 12px;
+            color: #9ca3af;
+            margin-bottom: 16px;
+            word-break: break-all;
+            line-height: 1.4;
+        }
+
+        .source-stats {
+            display: flex;
+            gap: 20px;
+            padding-top: 16px;
+            border-top: 1px solid #f9fafb;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #111827;
+            display: block;
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 4px;
+        }
+
+        .loading-state {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 64px 0;
+            color: #6b7280;
+        }
+
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 64px 0;
+            text-align: center;
+        }
+
+        .empty-state h3 {
+            font-size: 18px;
+            color: #374151;
+            margin-bottom: 8px;
+        }
+
+        .empty-state p {
+            color: #6b7280;
+        }
+
+        @media (max-width: 768px) {
+            .sources-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sources-actions {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .category-pills {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body class="page-sources">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/" style="text-decoration: none; color: inherit;">Research Feed</a>
+                </div>
+                <nav class="header-nav">
+                    <a href="/" class="nav-link">Feed</a>
+                    <div class="category-dropdown">
+                        <button class="category-dropdown-toggle" id="categoriesToggle">
+                            Categories
+                            <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6,9 12,15 18,9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="category-dropdown-menu" id="categoriesMenu">
+                            <a href="/category/markets-trading">Markets & Trading</a>
+                            <a href="/category/business-news">Business News</a>
+                            <a href="/category/economic-research">Economic Research</a>
+                            <a href="/category/investment-analysis">Investment Analysis</a>
+                            <a href="/category/regional-india">Regional - India</a>
+                            <a href="/category/regional-asia">Regional - Asia</a>
+                            <a href="/category/technology">Technology</a>
+                            <a href="/category/policy-regulation">Policy & Regulation</a>
+                            <a href="/category/academic-research">Academic & Research</a>
+                            <a href="/category/alternative-perspectives">Alternative Perspectives</a>
+                            <a href="/category/specialized-markets">Specialized Markets</a>
+                            <a href="/category/audio-content">Audio Content</a>
+                        </div>
+                    </div>
+                    <a href="/sources" class="nav-link active">Sources</a>
+                </nav>
+                <div class="header-meta">
+                    <span id="totalSources">Loading...</span> • <span id="activeSources">0</span> active
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sources-header">
+        <div class="container">
+            <h1 class="sources-title">Content Sources</h1>
+            <p class="sources-subtitle">Curated collection of <span id="sourceCount">62</span> premium financial and research publications</p>
+            
+            <div class="sources-actions">
+                <button class="export-btn" id="exportOPML">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7,10 12,15 17,10"/>
+                        <line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                    Export OPML
+                </button>
+                <button class="export-btn secondary" id="exportJSON">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2"/>
+                        <path d="M9 9h6v6h-6z"/>
+                    </svg>
+                    Export JSON
+                </button>
+                <button class="export-btn secondary" id="exportCSV">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14,2 14,8 20,8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10,9 9,9 8,9"/>
+                    </svg>
+                    Export CSV
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="category-pills" id="categoryPills">
+            <button class="category-pill active" data-category="">All Sources</button>
+            <!-- Categories will be populated dynamically -->
+        </div>
+
+        <div class="sources-grid" id="sourcesGrid">
+            <div class="loading-state">Loading sources...</div>
+        </div>
+    </div>
+
+    <script>
+        class FeedAPI {
+            constructor(baseUrl = 'http://localhost:8787') {
+                this.baseUrl = baseUrl;
+            }
+
+            async getSources() {
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/sources`);
+                    if (!response.ok) throw new Error(`API error: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('API error:', error);
+                    return [];
+                }
+            }
+        }
+
+        class SourcesPageApp {
+            constructor() {
+                this.feedAPI = new FeedAPI();
+                this.sources = [];
+                this.currentFilter = '';
+                
+                this.init();
+            }
+
+            async init() {
+                console.log('🚀 Initializing Beautiful Sources page...');
+                
+                try {
+                    await this.loadSources();
+                    this.setupFilters();
+                    this.setupExports();
+                    this.setupDropdown();
+                    
+                    console.log('✅ Sources page initialized successfully!');
+                } catch (error) {
+                    console.error('❌ Failed to initialize Sources page:', error);
+                    this.showError();
+                }
+            }
+
+            async loadSources() {
+                try {
+                    this.sources = await this.feedAPI.getSources();
+                    this.renderCategories();
+                    this.renderSources();
+                    this.updateStats();
+                } catch (error) {
+                    console.error('Failed to load sources:', error);
+                    this.showError();
+                }
+            }
+
+            renderCategories() {
+                const categories = [...new Set(this.sources.map(s => s.category))].sort();
+                
+                const categoryPillsHtml = categories.map(category => 
+                    `<button class="category-pill" data-category="${category}">${category}</button>`
+                ).join('');
+
+                const container = document.getElementById('categoryPills');
+                container.innerHTML = 
+                    `<button class="category-pill active" data-category="">All Sources</button>` +
+                    categoryPillsHtml;
+            }
+
+            setupFilters() {
+                document.getElementById('categoryPills').addEventListener('click', (e) => {
+                    if (e.target.classList.contains('category-pill')) {
+                        // Update active filter
+                        document.querySelectorAll('.category-pill').forEach(btn => btn.classList.remove('active'));
+                        e.target.classList.add('active');
+                        
+                        // Apply filter
+                        this.currentFilter = e.target.dataset.category;
+                        this.renderSources();
+                    }
+                });
+            }
+
+            setupExports() {
+                document.getElementById('exportOPML').addEventListener('click', () => this.exportOPML());
+                document.getElementById('exportJSON').addEventListener('click', () => this.exportJSON());
+                document.getElementById('exportCSV').addEventListener('click', () => this.exportCSV());
+            }
+
+            setupDropdown() {
+                const categoriesToggle = document.getElementById('categoriesToggle');
+                const categoriesDropdown = categoriesToggle?.closest('.category-dropdown');
+                
+                if (categoriesToggle && categoriesDropdown) {
+                    categoriesToggle.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        categoriesDropdown.classList.toggle('open');
+                    });
+
+                    // Close dropdown when clicking outside
+                    document.addEventListener('click', (e) => {
+                        if (!categoriesDropdown.contains(e.target)) {
+                            categoriesDropdown.classList.remove('open');
+                        }
+                    });
+
+                    // Close dropdown when pressing escape
+                    document.addEventListener('keydown', (e) => {
+                        if (e.key === 'Escape') {
+                            categoriesDropdown.classList.remove('open');
+                        }
+                    });
+                }
+            }
+
+            renderSources() {
+                let filteredSources = this.sources;
+                
+                if (this.currentFilter) {
+                    filteredSources = this.sources.filter(source => source.category === this.currentFilter);
+                }
+
+                if (filteredSources.length === 0) {
+                    document.getElementById('sourcesGrid').innerHTML = `
+                        <div class="empty-state">
+                            <h3>No sources found</h3>
+                            <p>Try selecting a different category or check back later.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                const sourcesHtml = filteredSources.map(source => `
+                    <a href="/source/${this.slugify(source.name)}" class="source-card">
+                        <div class="source-header">
+                            <div class="source-info">
+                                <h3>${this.escapeHtml(source.name)}</h3>
+                                <div class="source-category">${this.escapeHtml(source.category || 'Other')}</div>
+                            </div>
+                            <div class="source-status ${source.enabled ? 'active' : 'inactive'}"></div>
+                        </div>
+                        <div class="source-url">${this.escapeHtml(source.url)}</div>
+                        <div class="source-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">${source.articles_today || 0}</span>
+                                <div class="stat-label">Today</div>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">${source.articles_week || 0}</span>
+                                <div class="stat-label">Week</div>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">${source.total_articles || 0}</span>
+                                <div class="stat-label">Total</div>
+                            </div>
+                        </div>
+                    </a>
+                `).join('');
+
+                document.getElementById('sourcesGrid').innerHTML = sourcesHtml;
+            }
+
+            updateStats() {
+                const total = this.sources.length;
+                const active = this.sources.filter(s => s.enabled).length;
+                
+                document.getElementById('totalSources').textContent = `${total} sources`;
+                document.getElementById('activeSources').textContent = active;
+                document.getElementById('sourceCount').textContent = total;
+            }
+
+            exportOPML() {
+                const opmlContent = this.generateOPML();
+                this.downloadFile(opmlContent, 'research-feed-sources.opml', 'text/xml');
+            }
+
+            exportJSON() {
+                const jsonContent = JSON.stringify(this.sources, null, 2);
+                this.downloadFile(jsonContent, 'research-feed-sources.json', 'application/json');
+            }
+
+            exportCSV() {
+                const csvContent = this.generateCSV();
+                this.downloadFile(csvContent, 'research-feed-sources.csv', 'text/csv');
+            }
+
+            generateOPML() {
+                const grouped = {};
+                this.sources.forEach(source => {
+                    const category = source.category || 'Other';
+                    if (!grouped[category]) grouped[category] = [];
+                    grouped[category].push(source);
+                });
+
+                let opmlBody = '';
+                Object.entries(grouped).forEach(([category, sources]) => {
+                    opmlBody += `    <outline title="${this.escapeXml(category)}" text="${this.escapeXml(category)}">\n`;
+                    sources.forEach(source => {
+                        opmlBody += `      <outline type="rss" title="${this.escapeXml(source.name)}" text="${this.escapeXml(source.name)}" xmlUrl="${this.escapeXml(source.url)}"/>\n`;
+                    });
+                    opmlBody += `    </outline>\n`;
+                });
+
+                return `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>Research Feed Sources</title>
+    <dateCreated>${new Date().toISOString()}</dateCreated>
+  </head>
+  <body>
+${opmlBody}  </body>
+</opml>`;
+            }
+
+            generateCSV() {
+                const headers = ['Name', 'URL', 'Category', 'Enabled', 'Articles Today', 'Articles Week', 'Total Articles'];
+                const rows = this.sources.map(source => [
+                    source.name,
+                    source.url,
+                    source.category || 'Other',
+                    source.enabled ? 'Yes' : 'No',
+                    source.articles_today || 0,
+                    source.articles_week || 0,
+                    source.total_articles || 0
+                ]);
+
+                return [headers, ...rows]
+                    .map(row => row.map(field => `"${String(field).replace(/"/g, '""')}"`).join(','))
+                    .join('\n');
+            }
+
+            downloadFile(content, filename, mimeType) {
+                const blob = new Blob([content], { type: mimeType });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+            }
+
+            showError() {
+                document.getElementById('sourcesGrid').innerHTML = `
+                    <div class="empty-state">
+                        <h3>Failed to load sources</h3>
+                        <p>Please check that the API server is running and try again.</p>
+                    </div>
+                `;
+            }
+
+            slugify(text) {
+                return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            }
+
+            escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            escapeXml(text) {
+                return String(text)
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&apos;');
+            }
+        }
+
+        // Initialize the app
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                window.sourcesApp = new SourcesPageApp();
+            });
+        } else {
+            window.sourcesApp = new SourcesPageApp();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Feed Aggregator - Test Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test { margin: 10px 0; padding: 10px; border: 1px solid #ccc; }
+        .success { background: #d4edda; }
+        .error { background: #f8d7da; }
+        .pending { background: #fff3cd; }
+        button { padding: 8px 16px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <h1>RSS Feed Aggregator - Functionality Test</h1>
+    
+    <div id="test-results"></div>
+    
+    <h3>Manual Tests:</h3>
+    <button onclick="testSources()">Test Sources API</button>
+    <button onclick="testArticles()">Test Articles API</button>
+    <button onclick="testSearch()">Test Search API</button>
+    <button onclick="testSuggestions()">Test Suggestions API</button>
+    <button onclick="runAllTests()">Run All Tests</button>
+
+    <script>
+        const API_BASE = 'http://localhost:8787';
+        
+        function addTestResult(name, status, message) {
+            const results = document.getElementById('test-results');
+            const div = document.createElement('div');
+            div.className = `test ${status}`;
+            div.innerHTML = `<strong>${name}:</strong> ${message}`;
+            results.appendChild(div);
+        }
+        
+        async function testSources() {
+            try {
+                const response = await fetch(`${API_BASE}/api/sources`);
+                const data = await response.json();
+                if (Array.isArray(data) && data.length > 0) {
+                    addTestResult('Sources API', 'success', `✓ Loaded ${data.length} sources`);
+                    return true;
+                } else {
+                    addTestResult('Sources API', 'error', '✗ No sources returned');
+                    return false;
+                }
+            } catch (error) {
+                addTestResult('Sources API', 'error', `✗ Error: ${error.message}`);
+                return false;
+            }
+        }
+        
+        async function testArticles() {
+            try {
+                const response = await fetch(`${API_BASE}/api/articles?limit=10`);
+                const data = await response.json();
+                if (data.articles && data.articles.length > 0) {
+                    addTestResult('Articles API', 'success', `✓ Loaded ${data.articles.length} articles`);
+                    return true;
+                } else {
+                    addTestResult('Articles API', 'error', '✗ No articles returned');
+                    return false;
+                }
+            } catch (error) {
+                addTestResult('Articles API', 'error', `✗ Error: ${error.message}`);
+                return false;
+            }
+        }
+        
+        async function testSearch() {
+            try {
+                const response = await fetch(`${API_BASE}/api/search?q=Federal`);
+                const data = await response.json();
+                if (data.results && data.results.length > 0) {
+                    addTestResult('Search API', 'success', `✓ Found ${data.results.length} results for "Federal"`);
+                    return true;
+                } else {
+                    addTestResult('Search API', 'error', '✗ No search results returned');
+                    return false;
+                }
+            } catch (error) {
+                addTestResult('Search API', 'error', `✗ Error: ${error.message}`);
+                return false;
+            }
+        }
+        
+        async function testSuggestions() {
+            try {
+                const response = await fetch(`${API_BASE}/api/suggestions?q=AI`);
+                const data = await response.json();
+                if (data.suggestions && data.suggestions.length > 0) {
+                    addTestResult('Suggestions API', 'success', `✓ Got ${data.suggestions.length} suggestions for "AI"`);
+                    return true;
+                } else {
+                    addTestResult('Suggestions API', 'error', '✗ No suggestions returned');
+                    return false;
+                }
+            } catch (error) {
+                addTestResult('Suggestions API', 'error', `✗ Error: ${error.message}`);
+                return false;
+            }
+        }
+        
+        async function runAllTests() {
+            document.getElementById('test-results').innerHTML = '';
+            addTestResult('Test Suite', 'pending', 'Running all tests...');
+            
+            const results = await Promise.all([
+                testSources(),
+                testArticles(),
+                testSearch(),
+                testSuggestions()
+            ]);
+            
+            const passed = results.filter(r => r).length;
+            const total = results.length;
+            
+            if (passed === total) {
+                addTestResult('Overall Result', 'success', `✓ All tests passed (${passed}/${total})`);
+            } else {
+                addTestResult('Overall Result', 'error', `✗ Some tests failed (${passed}/${total})`);
+            }
+        }
+        
+        // Auto-run tests on page load
+        window.addEventListener('load', runAllTests);
+    </script>
+</body>
+</html>

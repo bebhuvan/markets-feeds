@@ -1,0 +1,14 @@
+name = "research-feed-worker"
+main = "src/worker.js"
+compatibility_date = "2024-08-15"
+
+[triggers]
+crons = ["*/30 * * * *"]  # Run every 30 minutes
+
+[[d1_databases]]
+binding = "DB"
+database_name = "research-feeds"
+database_id = "YOUR_DATABASE_ID"  # Will be generated
+
+[vars]
+ENVIRONMENT = "production"

@@ -1,23 +1,32 @@
 {
-  "name": "markets-feeds-v2",
-  "type": "module",
-  "version": "2.0.0",
+  "name": "research-feed-aggregator",
+  "version": "1.0.0",
+  "description": "RSS feed aggregator with full-text search capabilities",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "fetch-feeds": "tsx src/scripts/fetch-all-feeds.ts",
-    "recategorize": "tsx src/scripts/recategorize-feeds.ts",
-    "test-feeds": "node test-feeds.js"
+    "setup": "npm run worker:setup && npm run frontend:setup",
+    "worker:setup": "cd worker && npm install",
+    "frontend:setup": "cd frontend && npm install",
+    "worker:dev": "cd worker && npm run dev",
+    "frontend:dev": "cd frontend && npm run dev",
+    "worker:deploy": "cd worker && npm run deploy",
+    "frontend:deploy": "cd frontend && npm run build && wrangler pages deploy dist",
+    "db:create": "cd worker && npm run db:create",
+    "db:init": "cd worker && npm run db:init",
+    "deploy": "npm run worker:deploy && npm run frontend:deploy",
+    "dev": "concurrently \"npm run worker:dev\" \"npm run frontend:dev\"",
+    "dev:mock": "concurrently \"node mock-server.js\" \"cd frontend && npm run dev\"",
+    "build": "npm run worker:deploy && cd frontend && npm run build"
+  },
+  "keywords": ["rss", "feed", "aggregator", "search", "cloudflare", "astro"],
+  "author": "Research Feed Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^11.2.0",
-    "astro": "^4.15.0"
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   },
-  "devDependencies": {
-    "tsx": "^4.20.3",
-    "typescript": "^5.3.3"
-  }
+  "type": "module"
 }

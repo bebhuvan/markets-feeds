@@ -1,0 +1,19 @@
+{
+  "name": "research-feed-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish",
+    "db:create": "wrangler d1 create research-feeds",
+    "db:init": "wrangler d1 execute research-feeds --file=./src/database-schema.sql",
+    "db:query": "wrangler d1 execute research-feeds --command"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.2.5",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
