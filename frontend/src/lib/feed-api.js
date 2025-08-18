@@ -1,6 +1,11 @@
 export class FeedAPI {
-  constructor(baseUrl = import.meta.env.WORKER_URL) {
-    this.baseUrl = baseUrl;
+  constructor(baseUrl) {
+    // In production (Workers), use current origin; in development, use local server
+    this.baseUrl = baseUrl || (
+      typeof window !== 'undefined' && window.location.hostname !== 'localhost'
+        ? window.location.origin
+        : import.meta.env.WORKER_URL || 'http://localhost:8787'
+    );
   }
 
   async search(query, options = {}) {
