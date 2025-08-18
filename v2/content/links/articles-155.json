@@ -1,1702 +1,1702 @@
 [
   {
-    "id": "wired-73e8113e",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "The US Court Records System Has Been Hacked",
-    "url": "https://www.wired.com/story/us-court-records-system-hacked/",
-    "summary": "Plus: Instagram sparks a privacy backlash over its new map feature, hackers steal data from Google's customer support system, and the true scope of the Columbia University hack comes into focus.",
-    "fullContent": "Plus: Instagram sparks a privacy backlash over its new map feature, hackers steal data from Google's customer support system, and the true scope of the Columbia University hack comes into focus.",
-    "publishedAt": "2025-08-09T10:30:00.000Z",
-    "fetchedAt": "2025-08-10T02:52:49.559Z",
+    "id": "cnbc-markets-15d3a271",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "We spent $104 million turning an abandoned 19th-century college in NYC into luxury apartments—take a look inside",
+    "url": "https://www.cnbc.com/2025/08/09/abandoned-st-johns-university-the-hartby-apartment-building.html",
+    "summary": "The Hartby in Brooklyn, New York was formerly St. John's College before the school closed in 1972.",
+    "fullContent": "The Hartby in Brooklyn, New York was formerly St. John's College before the school closed in 1972.",
+    "publishedAt": "2025-08-09T15:00:02.000Z",
+    "fetchedAt": "2025-08-10T02:52:47.716Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "15d3a271"
+  },
+  {
+    "id": "yahoo-finance-15c6629f",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "A $10 Billion Reason to Buy Palantir Stock",
+    "url": "https://finance.yahoo.com/news/10-billion-reason-buy-palantir-150002322.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-09T15:00:02.000Z",
+    "fetchedAt": "2025-08-11T02:36:53.432Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "15c6629f"
+  },
+  {
+    "id": "wsj-world-news-137a5661",
+    "sourceId": "wsj-world-news",
+    "sourceName": "WSJ World News",
+    "title": "Deep in the Amazon, the Gospel Arrives by Boat",
+    "url": "https://www.wsj.com/world/americas/deep-in-the-amazon-the-gospel-arrives-by-boat-47c0d698",
+    "summary": "Evangelical Christianity is spreading fast across the Amazon. The spiritual battle is reshaping the world&#x2019;s biggest rainforest, environmentalists and indigenous leaders say.",
+    "fullContent": "Evangelical Christianity is spreading fast across the Amazon. The spiritual battle is reshaping the world&#x2019;s biggest rainforest, environmentalists and indigenous leaders say.",
+    "publishedAt": "2025-08-09T15:00:00.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.525Z",
+    "category": "news",
+    "tags": [
+      "news"
+    ],
+    "priority": "normal",
+    "contentHash": "137a5661"
+  },
+  {
+    "id": "yahoo-finance-48973102",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "Suze Orman’s Top Money Tip Is ‘Very Different’ From Most Advice You Hear",
+    "url": "https://finance.yahoo.com/news/suze-orman-no-1-money-210233988.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-09T14:59:17.000Z",
+    "fetchedAt": "2025-08-11T02:36:53.433Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "48973102"
+  },
+  {
+    "id": "nse-online-announcements-4c406148",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Just Dial Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/chintan_09082025145751_Newspaper_Clippings.pdf",
+    "summary": "Just Dial Limited has informed the Exchange about Newspaper Clippings Annual General Meeting of the Members of the Company and other related information. |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Just Dial Limited has informed the Exchange about Newspaper Clippings Annual General Meeting of the Members of the Company and other related information. |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:58:19.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.660Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "4c406148"
+  },
+  {
+    "id": "nse-online-announcements-53f7d16b",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "PNB Housing Finance Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/PNBHOUSING_09082025145553_SEInvestorsCallTranscipt_9Aug25Sd.pdf",
+    "summary": "PNB Housing Finance Limited has informed the Exchange about Transcript |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates.",
+    "fullContent": "PNB Housing Finance Limited has informed the Exchange about Transcript |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates",
+    "publishedAt": "2025-08-09T14:57:25.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.660Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "53f7d16b"
+  },
+  {
+    "id": "nse-online-announcements-30ae0836",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Happy Forgings Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/9876964720_09082025145337_MonitoringAgencyReport09082025.pdf",
+    "summary": "Monitoring Agency Report for the quarter ended 30th June 2025 |SUBJECT: Monitoring Agency Report.",
+    "fullContent": "Monitoring Agency Report for the quarter ended 30th June 2025 |SUBJECT: Monitoring Agency Report",
+    "publishedAt": "2025-08-09T14:53:47.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.660Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "30ae0836"
+  },
+  {
+    "id": "nse-online-announcements-59f70625",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Banka BioLoo Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/BANKA_09082025145308_CoveringletterPreAGMdispatch.pdf",
+    "summary": "Banka BioLoo Limited has informed the Exchange about Copy of Newspaper Publication on conducting 13th AGM through VC/OAVM |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Banka BioLoo Limited has informed the Exchange about Copy of Newspaper Publication on conducting 13th AGM through VC/OAVM |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:53:16.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.660Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "59f70625"
+  },
+  {
+    "id": "nse-online-announcements-43e01bcb",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Speciality Restaurants Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/SPECIALITY_09082025145258_NSEBSELETTERDATED09082025.pdf",
+    "summary": "Speciality Restaurants Limited has informed the Exchange about Transcript |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates.",
+    "fullContent": "Speciality Restaurants Limited has informed the Exchange about Transcript |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates",
+    "publishedAt": "2025-08-09T14:53:07.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.660Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "43e01bcb"
+  },
+  {
+    "id": "nse-online-announcements-54f242e4",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Bombay Dyeing & Mfg Company Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/Savita_09082025145119_Intimation_Signed.pdf",
+    "summary": "Bombay Dyeing & Mfg Company Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Bombay Dyeing & Mfg Company Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:51:51.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.660Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "54f242e4"
+  },
+  {
+    "id": "nse-online-announcements-77700d9e",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Banka BioLoo Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/BANKA_09082025145027_IntimationNewspaperAd30062025.pdf",
+    "summary": "Banka BioLoo Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Banka BioLoo Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:50:35.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.660Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "77700d9e"
+  },
+  {
+    "id": "nse-online-announcements-6dc87d8a",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Suraksha Diagnostic Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/SURAKSHA_09082025144629_Suraksha_Investor_Presentation_Q1_FY_2025-26.pdf",
+    "summary": "Suraksha Diagnostic Limited has informed the Exchange about Investor Presentation |SUBJECT: Investor Presentation.",
+    "fullContent": "Suraksha Diagnostic Limited has informed the Exchange about Investor Presentation |SUBJECT: Investor Presentation",
+    "publishedAt": "2025-08-09T14:46:38.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.660Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "6dc87d8a"
+  },
+  {
+    "id": "nse-online-announcements-50101784",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Precot Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/PRECOT_09082025144314_SEIntimationAdvt.pdf",
+    "summary": "Precot Limited has informed the Exchange about Copy of Newspaper Publication -100 days Campaign for KYC updation |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Precot Limited has informed the Exchange about Copy of Newspaper Publication -100 days Campaign for KYC updation |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:46:08.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.660Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "50101784"
+  },
+  {
+    "id": "techmeme-6b039c85",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Advocates for net neutrality say they won't appeal a ruling against the policy, saying they don't trust the US Supreme Court to rule fairly on the issue (Jon Brodkin/Ars Technica)",
+    "url": "http://www.techmeme.com/250809/p8#a250809p8",
+    "summary": "Jon Brodkin / Ars Technica: Advocates for net neutrality say they won't appeal a ruling against the policy, saying they don't trust the US Supreme Court to rule fairly on the issue — Advocacy groups that tried to defend federal net neutrality rules in court won't file an...",
+    "fullContent": "Jon Brodkin / Ars Technica: Advocates for net neutrality say they won't appeal a ruling against the policy, saying they don't trust the US Supreme Court to rule fairly on the issue — Advocacy groups that tried to defend federal net neutrality rules in court won't file an appeal, saying they don't trust the Supreme Court to rule fairly on the issue.",
+    "publishedAt": "2025-08-09T14:45:00.000Z",
+    "fetchedAt": "2025-08-10T02:52:49.962Z",
     "category": "technology",
     "tags": [
       "technology"
     ],
     "priority": "normal",
-    "contentHash": "73e8113e"
+    "contentHash": "6b039c85"
   },
   {
-    "id": "wired-4dc7a7c7",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Gear News of the Week: iPhone 17 May Be a Month Away, and Sonos to Raise Prices",
-    "url": "https://www.wired.com/story/gear-news-of-the-week-iphone-17-may-be-a-month-away-and-sonos-to-raise-prices/",
-    "summary": "Plus: Seiko’s official Pepsi watches are here (for anyone who needs a GMT Master II), and Motorola showcases a bedazzled Razr.",
-    "fullContent": "Plus: Seiko’s official Pepsi watches are here (for anyone who needs a GMT Master II), and Motorola showcases a bedazzled Razr.",
-    "publishedAt": "2025-08-09T10:30:00.000Z",
-    "fetchedAt": "2025-08-10T02:52:49.559Z",
-    "category": "technology",
+    "id": "yahoo-finance-dc8745a",
+    "sourceId": "yahoo-finance",
+    "sourceName": "Yahoo Finance",
+    "title": "UPS extends buyout offer deadline after low driver interest",
+    "url": "https://finance.yahoo.com/news/ups-extends-buyout-offer-deadline-144450112.html",
+    "summary": "",
+    "fullContent": "",
+    "publishedAt": "2025-08-09T14:44:50.000Z",
+    "fetchedAt": "2025-08-11T02:36:53.432Z",
+    "category": "markets",
     "tags": [
-      "technology"
+      "markets"
     ],
     "priority": "normal",
-    "contentHash": "4dc7a7c7"
+    "contentHash": "dc8745a"
   },
   {
-    "id": "bloomberg-politics-7e94182e",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "Ivorian Opposition Demands Fair Polls in Nationwide Protests",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-09/ivorian-opposition-demands-fair-elections-in-nationwide-protests",
-    "summary": "Ivory Coast opposition parties staged protests across the West African nation on Saturday to demand that their leaders be allowed to take part in presidential elections scheduled for October.",
-    "fullContent": "Ivory Coast opposition parties staged protests across the West African nation on Saturday to demand that their leaders be allowed to take part in presidential elections scheduled for October.",
-    "publishedAt": "2025-08-09T10:27:38.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.089Z",
-    "category": "policy",
+    "id": "fortune-1297102d",
+    "sourceId": "fortune",
+    "sourceName": "Fortune",
+    "title": "Wall Street is divided over whether immigration is behind US hiring slowdown",
+    "url": "https://fortune.com/2025/08/09/immigration-crackdown-us-hiring-slowdown-labor-supply-vs-demand/",
+    "summary": "“Whether what we’re seeing is all immigration effects or if it’s true demand effects is definitely the key question.”",
+    "fullContent": "“Whether what we’re seeing is all immigration effects or if it’s true demand effects is definitely the key question.”",
+    "publishedAt": "2025-08-09T14:44:18.000Z",
+    "fetchedAt": "2025-08-10T02:52:49.908Z",
+    "category": "markets",
     "tags": [
-      "policy"
+      "markets"
     ],
     "priority": "normal",
-    "contentHash": "7e94182e"
+    "contentHash": "1297102d"
   },
   {
-    "id": "thehindubusinessline-7cd4fe47",
+    "id": "nse-online-announcements-5a25a49d",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "ESAF Small Finance Bank Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/esfb_09082025144202_SEIntimation_Newspaper_Publication.pdf",
+    "summary": "ESAF Small Finance Bank Limited has informed the Exchange about Copy of Newspaper Publication on the Unaudited Standalone Financial Results of the Bank for the quarter ended June 30, 2025. |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "ESAF Small Finance Bank Limited has informed the Exchange about Copy of Newspaper Publication on the Unaudited Standalone Financial Results of the Bank for the quarter ended June 30, 2025. |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:42:47.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "5a25a49d"
+  },
+  {
+    "id": "nse-online-announcements-4e91956e",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "GPT Infraprojects Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/GPTINFRA_09082025144059_GILFINALUPLOAD.pdf",
+    "summary": "GPT Infraprojects Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on August 07, 2025 |SUBJECT: Shareholders meeting.",
+    "fullContent": "GPT Infraprojects Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on August 07, 2025 |SUBJECT: Shareholders meeting",
+    "publishedAt": "2025-08-09T14:41:59.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "4e91956e"
+  },
+  {
+    "id": "nse-online-announcements-27956266",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Laxmi Cotspin Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/LAXMICOT_09082025144111_Newspaper_Publication_June_2025.pdf",
+    "summary": "Laxmi Cotspin Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Laxmi Cotspin Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:41:32.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "27956266"
+  },
+  {
+    "id": "nse-online-announcements-5b9f88a1",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Danish Power Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/DANISH_09082025144100_Appointment_of_Auditors.pdf",
+    "summary": "Danish Power Limited has informed the Exchange regarding Appointment of Ms. Harleen Kaur and M/s R Sogani & Associates as Other of the company w.e.f. August 08, 2025. |SUBJECT: Appointment.",
+    "fullContent": "Danish Power Limited has informed the Exchange regarding Appointment of Ms. Harleen Kaur and M/s R Sogani & Associates as Other of the company w.e.f. August 08, 2025. |SUBJECT: Appointment",
+    "publishedAt": "2025-08-09T14:41:18.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "5b9f88a1"
+  },
+  {
+    "id": "thehindubusinessline-4a2b6925",
     "sourceId": "thehindubusinessline",
     "sourceName": "The Hindu Business Line",
-    "title": "SME IPOs hit an eight-month high, industrial sector leads in listings: NSE Market Pulse",
-    "url": "https://www.thehindubusinessline.com/markets/sme-ipos-hit-an-eight-month-high-industrial-sector-leads-in-listings-nse-market-pulse/article69913187.ece",
-    "summary": "A total of 21 companies debuted on the exchanges during June 2025 - six on the Mainboard and 15 on the SME-focused Emerge platform.",
-    "fullContent": "A total of 21 companies debuted on the exchanges during June 2025 - six on the Mainboard and 15 on the SME-focused Emerge platform",
-    "publishedAt": "2025-08-09T10:24:51.000Z",
+    "title": "India’s first passive flexicap fund: Should you invest in DSP Nifty500 Flexicap Quality 30 NFO?",
+    "url": "https://www.thehindubusinessline.com/portfolio/mutual-funds/rules-based-flexicap-bets-on-quality-momentum/article69910879.ece",
+    "summary": "The launch comes at a low point in the index’s relative alpha cycle.",
+    "fullContent": "The launch comes at a low point in the index’s relative alpha cycle",
+    "publishedAt": "2025-08-09T14:41:06.000Z",
     "fetchedAt": "2025-08-10T02:52:48.905Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "7cd4fe47"
+    "contentHash": "4a2b6925"
   },
   {
-    "id": "scmp-business-74805b1c",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "67 arrested in crackdown on triad-controlled prostitution ring in Hong Kong",
-    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3321317/67-arrested-crackdown-triad-controlled-prostitution-ring-hong-kong?utm_source=rss_feed",
-    "summary": "Hong Kong police have arrested 67 people after an undercover operation found a triad group running membership clubs and bars that brought in sex workers from Thailand, Taiwan and mainland China. A source said on Saturday that the operation was the third recent effort targeting...",
-    "fullContent": "Hong Kong police have arrested 67 people after an undercover operation found a triad group running membership clubs and bars that brought in sex workers from Thailand, Taiwan and mainland China. A source said on Saturday that the operation was the third recent effort targeting triad group Sun Yee On, including senior-ranking gangster “Little B”. He was allegedly also involved in laundering nearly HK$40 billion by a syndicate that the force smashed last month. In the July operation, police...",
-    "publishedAt": "2025-08-09T10:24:48.000Z",
-    "fetchedAt": "2025-08-10T02:52:50.188Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "74805b1c"
-  },
-  {
-    "id": "nse-online-announcements-2c22f578",
+    "id": "nse-online-announcements-337673c2",
     "sourceId": "nse-online-announcements",
     "sourceName": "NSE Online Announcements",
-    "title": "Universal Cables Limited",
-    "url": "https://nsearchives.nseindia.com/corporate/UNIVCABLES_09082025102139_Newspaper_advertisment_result.pdf",
-    "summary": "Universal Cables Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
-    "fullContent": "Universal Cables Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
-    "publishedAt": "2025-08-09T10:21:51.000Z",
-    "fetchedAt": "2025-08-09T09:50:59.666Z",
+    "title": "Gujarat Alkalies and Chemicals Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/JAXESH_ZAVERI_09082025144000_Newspaper_Publications.pdf",
+    "summary": "Gujarat Alkalies and Chemicals Limited has informed the Exchange about Copy of Newspaper Publication.Newspaper Clippings of the extract of Standalone & Consolidated Un audited (Provisional) Financial Results for the First Quarter ended on 30th June 2025.",
+    "fullContent": "Gujarat Alkalies and Chemicals Limited has informed the Exchange about Copy of Newspaper Publication.Newspaper Clippings of the extract of Standalone & Consolidated Un audited (Provisional) Financial Results for the First Quarter ended on 30th June 2025. |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:40:12.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
     "category": "filings",
     "tags": [
       "filings"
     ],
     "priority": "normal",
-    "contentHash": "2c22f578"
+    "contentHash": "337673c2"
   },
   {
-    "id": "nse-online-announcements-318d7765",
+    "id": "nse-online-announcements-60e6ec20",
     "sourceId": "nse-online-announcements",
     "sourceName": "NSE Online Announcements",
-    "title": "Premier Energies Limited",
-    "url": "https://nsearchives.nseindia.com/corporate/PEL2024_09082025102047_PEL_MAR_JUNE_2025_CF.pdf",
-    "summary": "Monitoring Agency Report for the Quarter ended 30th June 2025 |SUBJECT: Monitoring Agency Report.",
-    "fullContent": "Monitoring Agency Report for the Quarter ended 30th June 2025 |SUBJECT: Monitoring Agency Report",
-    "publishedAt": "2025-08-09T10:21:05.000Z",
-    "fetchedAt": "2025-08-09T09:50:59.666Z",
+    "title": "PCBL Chemical Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/PCBL_09082025143645_IntimationofNewspaperPublication.pdf",
+    "summary": "PCBL Chemical Limited has informed the Exchange about Copy of Newspaper Publication. |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "PCBL Chemical Limited has informed the Exchange about Copy of Newspaper Publication. |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:37:19.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
     "category": "filings",
     "tags": [
       "filings"
     ],
     "priority": "normal",
-    "contentHash": "318d7765"
+    "contentHash": "60e6ec20"
   },
   {
-    "id": "business-insider-1f5f2ced",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "'The 2 Kevins' and the other potential picks Trump could name to replace Jerome Powell",
-    "url": "https://www.businessinsider.com/trump-shortlist-powell-replacement-waller-warsh-hassett-2025-8",
-    "summary": "Donald Trump says &#34;the Two Kevins&#34; are among the leading candidates to lead the Federal Reserve. Someone else is surging in prediction markets.",
-    "fullContent": "Donald Trump says &#34;the Two Kevins&#34; are among the leading candidates to lead the Federal Reserve. Someone else is surging in prediction markets.",
-    "publishedAt": "2025-08-09T10:21:01.000Z",
-    "fetchedAt": "2025-08-10T02:52:47.982Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1f5f2ced"
-  },
-  {
-    "id": "bloomberg-politics-74abf904",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "UK Steps Up Gaza Aid as Israel Plans to Expand Offensive",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-09/uk-steps-up-gaza-aid-as-israel-plans-to-expand-offensive",
-    "summary": "The UK government announced additional humanitarian aid for Gaza as it urged Israel to allow supplies into the territory and reverse plans for an expanded military operation to take control of a key city in the enclave.",
-    "fullContent": "The UK government announced additional humanitarian aid for Gaza as it urged Israel to allow supplies into the territory and reverse plans for an expanded military operation to take control of a key city in the enclave.",
-    "publishedAt": "2025-08-09T10:18:39.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.089Z",
-    "category": "policy",
-    "tags": [
-      "policy"
-    ],
-    "priority": "normal",
-    "contentHash": "74abf904"
-  },
-  {
-    "id": "nse-online-announcements-289f4a80",
+    "id": "nse-online-announcements-28ce26c",
     "sourceId": "nse-online-announcements",
     "sourceName": "NSE Online Announcements",
-    "title": "Ram Ratna Wires Limited",
-    "url": "https://nsearchives.nseindia.com/corporate/RAMRATNA_09082025101744_Newspaper_Intimation_Results_Q126.pdf",
-    "summary": "Ram Ratna Wires Limited has informed the Exchange about Copy of Newspaper Publication with respect to the un-audited Financial Results for the quarter ended June 30, 2025. |SUBJECT: Copy of Newspaper Publication.",
-    "fullContent": "Ram Ratna Wires Limited has informed the Exchange about Copy of Newspaper Publication with respect to the un-audited Financial Results for the quarter ended June 30, 2025. |SUBJECT: Copy of Newspaper Publication",
-    "publishedAt": "2025-08-09T10:17:56.000Z",
-    "fetchedAt": "2025-08-09T09:50:59.666Z",
+    "title": "Biocon Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/Biocon2_09082025143602_Covering_Letter.pdf",
+    "summary": "Biocon Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Biocon Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:37:09.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
     "category": "filings",
     "tags": [
       "filings"
     ],
     "priority": "normal",
-    "contentHash": "289f4a80"
+    "contentHash": "28ce26c"
   },
   {
-    "id": "business-insider-dd1ff9",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "I struggled to balance my career, motherhood, and 4 international moves. I had to rethink my definition of success.",
-    "url": "https://www.businessinsider.com/struggled-balance-my-career-motherhood-international-moves-2025-8",
-    "summary": "Over two decades, I built a thriving career, raised my kids, and oversaw several moves. It looked like I was thriving, but inside, I was unraveling.",
-    "fullContent": "Over two decades, I built a thriving career, raised my kids, and oversaw several moves. It looked like I was thriving, but inside, I was unraveling.",
-    "publishedAt": "2025-08-09T10:17:01.000Z",
-    "fetchedAt": "2025-08-10T02:52:47.982Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "dd1ff9"
-  },
-  {
-    "id": "business-insider-7865f0b1",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "See inside the hidden area where Qatar Airways flight attendants sleep on long-haul Boeing 777 flights",
-    "url": "https://www.businessinsider.com/photos-inside-hidden-qatar-airways-crew-rest-area-boeing-777-2025-7",
-    "summary": "I had to hunch down to walk through the crew rest area, which has eight beds for flight attendants to rest on long-haul Boeing 777 flights.",
-    "fullContent": "I had to hunch down to walk through the crew rest area, which has eight beds for flight attendants to rest on long-haul Boeing 777 flights.",
-    "publishedAt": "2025-08-09T10:15:01.000Z",
-    "fetchedAt": "2025-08-10T02:52:47.982Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7865f0b1"
-  },
-  {
-    "id": "business-insider-617d548d",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "My French-born husband taught me the real way to experience France — slow, immersive, and away from big cities",
-    "url": "https://www.businessinsider.com/marrying-french-man-taught-how-to-better-enjoy-travel-france-2025-8",
-    "summary": "My visits to France have changed dramatically since marrying into a French family. Now I know how to experience the best the country has to offer.",
-    "fullContent": "My visits to France have changed dramatically since marrying into a French family. Now I know how to experience the best the country has to offer.",
-    "publishedAt": "2025-08-09T10:14:02.000Z",
-    "fetchedAt": "2025-08-10T02:52:47.982Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "617d548d"
-  },
-  {
-    "id": "thehindubusinessline-74d856aa",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "Looking to complete divestment of Mexico and Australia business by early next fiscal: Symphony Ltd",
-    "url": "https://www.thehindubusinessline.com/companies/looking-to-complete-divestment-of-mexico-and-australia-business-by-early-next-fiscal-symphony-ltd/article69913112.ece",
-    "summary": "Symphony had acquired Climate Technologies Pty Limited, Australia, in 2018 and IMPCO, Mexico, in 2008.",
-    "fullContent": "Symphony had acquired Climate Technologies Pty Limited, Australia, in 2018 and IMPCO, Mexico, in 2008",
-    "publishedAt": "2025-08-09T10:09:28.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.905Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "74d856aa"
-  },
-  {
-    "id": "thehindubusinessline-7e71aacd",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "Prestige Group acquires 102 acres of land in Q1 to build homes worth ₹20k cr",
-    "url": "https://www.thehindubusinessline.com/news/real-estate/prestige-group-acquires-102-acres-of-land-in-q1-to-build-homes-worth-20k-cr/article69913147.ece",
-    "summary": "According to its latest investor presentation, the company acquired a total of 102 acres of land in Bengaluru, Hyderabad, Chennai and Mumbai in the first quarter of this fiscal year.",
-    "fullContent": "According to its latest investor presentation, the company acquired a total of 102 acres of land in Bengaluru, Hyderabad, Chennai and Mumbai in the first quarter of this fiscal year",
-    "publishedAt": "2025-08-09T10:07:54.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.905Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7e71aacd"
-  },
-  {
-    "id": "business-insider-4adac767",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "I spent almost $30,000 upgrading our garage to a dreamy laundry room. Now, doing laundry for my family of 7 feels peaceful.",
-    "url": "https://www.businessinsider.com/upgraded-garage-dream-laundry-room-renovation-large-family-2025-8",
-    "summary": "I spent almost $30,000 of my inheritance on my dream laundry room. There are two washers and two dryers, and laundry baskets for everyone.&#xA;",
-    "fullContent": "I spent almost $30,000 of my inheritance on my dream laundry room. There are two washers and two dryers, and laundry baskets for everyone.&#xA;",
-    "publishedAt": "2025-08-09T10:07:01.000Z",
-    "fetchedAt": "2025-08-10T02:52:47.982Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "4adac767"
-  },
-  {
-    "id": "nse-online-announcements-2ceed2c6",
+    "id": "nse-online-announcements-5534161c",
     "sourceId": "nse-online-announcements",
     "sourceName": "NSE Online Announcements",
-    "title": "Universal Cables Limited",
-    "url": "https://nsearchives.nseindia.com/corporate/xbrl/CIM_63654_1507806_09082025100601_WEB.xml",
-    "summary": "UNIVERSAL CABLES LIMITED has informed the Exchange about Change in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent |SUBJECT: Change in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent.",
-    "fullContent": "UNIVERSAL CABLES LIMITED has informed the Exchange about Change in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent |SUBJECT: Change in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent",
-    "publishedAt": "2025-08-09T10:06:01.000Z",
-    "fetchedAt": "2025-08-09T09:50:59.666Z",
+    "title": "Zota Health Care LImited",
+    "url": "https://nsearchives.nseindia.com/corporate/ZOTA_09082025143547_Newspaperadv09082025.pdf",
+    "summary": "Zota Health Care LImited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Zota Health Care LImited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:36:48.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
     "category": "filings",
     "tags": [
       "filings"
     ],
     "priority": "normal",
-    "contentHash": "2ceed2c6"
+    "contentHash": "5534161c"
   },
   {
-    "id": "thehindubusinessline-4a2518d7",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "Mutual Funds returns",
-    "url": "https://www.thehindubusinessline.com/portfolio/mutual-funds/Mutual-Funds-returns/article69913153.ece",
-    "summary": "",
-    "fullContent": "As on : Aug 09, 2025",
-    "publishedAt": "2025-08-09T10:01:01.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.905Z",
-    "category": "markets",
+    "id": "nse-online-announcements-2d669e96",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "MMP Industries Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/MMP_09082025141757_MMPILNewspapaer30062025.pdf",
+    "summary": "MMP Industries Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "MMP Industries Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:35:35.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
     "tags": [
-      "markets"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "4a2518d7"
+    "contentHash": "2d669e96"
   },
   {
-    "id": "yahoo-finance-4790b40e",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "HELOC rates today, August 9, 2025: The answer to high rates for homeowners",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-interest-rates-today-saturday-august-9-2025-100015605.html",
+    "id": "nse-online-announcements-2ea9ba8c",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Norben Tea & Exports Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/NORBTEAEXP_09082025143256_NewsPaperPublicationUFRJune25.pdf",
+    "summary": "Norben Tea & Exports Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Norben Tea & Exports Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:33:10.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "2ea9ba8c"
+  },
+  {
+    "id": "nse-online-announcements-5e12591",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Precision Wires India Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/PRECWIRE_09082025143036_outcome.pdf",
+    "summary": "Precision Wires India Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "Precision Wires India Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T14:32:53.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "5e12591"
+  },
+  {
+    "id": "nse-online-announcements-35afc0a2",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Ravi Kumar Distilleries Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/RKDL_09082025143155_RKDL_Newspapercutting_June2025_ocr.pdf",
+    "summary": "Ravi Kumar Distilleries Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Ravi Kumar Distilleries Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:32:41.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "35afc0a2"
+  },
+  {
+    "id": "nse-online-announcements-75adb254",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Danish Power Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/xbrl/CIM_63660_1507843_09082025023142_WEB.xml",
+    "summary": "DANISH POWER LIMITED has informed the Exchange about Change in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent |SUBJECT: Change in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent.",
+    "fullContent": "DANISH POWER LIMITED has informed the Exchange about Change in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent |SUBJECT: Change in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent",
+    "publishedAt": "2025-08-09T14:31:43.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "75adb254"
+  },
+  {
+    "id": "nse-online-announcements-7a762a37",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Mukka Proteins Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_63659_1507841_09082025023101_WEB.xml",
+    "summary": "MUKKA PROTEINS LIMITED has informed the Exchange about Board Meeting to be held on 13-Aug-2025 to consider and approve the Quarterly Unaudited Financial results of the Company for the period ended June 2025 and Other business. |SUBJECT: Board Meeting Intimation.",
+    "fullContent": "MUKKA PROTEINS LIMITED has informed the Exchange about Board Meeting to be held on 13-Aug-2025 to consider and approve the Quarterly Unaudited Financial results of the Company for the period ended June 2025 and Other business. |SUBJECT: Board Meeting Intimation",
+    "publishedAt": "2025-08-09T14:31:02.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "7a762a37"
+  },
+  {
+    "id": "nse-online-announcements-4439843f",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Happy Forgings Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/9876964720_09082025143000_OutcomeLetter09082025.pdf",
+    "summary": "Happy Forgings Limited has informed the Exchange regarding Outcome of Board Meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "Happy Forgings Limited has informed the Exchange regarding Outcome of Board Meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T14:30:35.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "4439843f"
+  },
+  {
+    "id": "bloomberg-business-youtube-23d3649a",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business YouTube",
+    "title": "Inside Brazil’s Biggest Bank Heist",
+    "url": "https://www.youtube.com/shorts/KI98Nip8EFM",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-09T10:00:15.000Z",
-    "fetchedAt": "2025-08-10T09:42:18.262Z",
-    "category": "markets",
+    "publishedAt": "2025-08-09T14:30:16.000Z",
+    "fetchedAt": "2025-08-10T02:52:59.607Z",
+    "category": "videos",
     "tags": [
-      "markets"
+      "videos"
     ],
     "priority": "normal",
-    "contentHash": "4790b40e"
+    "contentHash": "23d3649a"
   },
   {
-    "id": "yahoo-finance-b69570c",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Mortgage and refinance interest rates today, August 9, 2025: Fixed rates are unsteady",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-saturday-august-9-2025-100008941.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T10:00:08.000Z",
-    "fetchedAt": "2025-08-10T09:42:18.261Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "b69570c"
-  },
-  {
-    "id": "yahoo-finance-6e0ba5a0",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Best CD rates today, August 9, 2025 (best account provides 5.5% APY)",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-9-2025-100006420.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T10:00:06.000Z",
-    "fetchedAt": "2025-08-10T09:42:18.261Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6e0ba5a0"
-  },
-  {
-    "id": "yahoo-finance-33314d7d",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "Best money market account rates today, August 9, 2025 (best account provides 4.41% APY)",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-saturday-august-9-2025-100005669.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T10:00:05.000Z",
-    "fetchedAt": "2025-08-10T09:42:18.261Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "33314d7d"
-  },
-  {
-    "id": "zerohedge-3ddfce53",
+    "id": "zerohedge-d987e59",
     "sourceId": "zerohedge",
     "sourceName": "ZeroHedge",
-    "title": "Hemispheric Defense: Trump Directs Military For Kinetic Ops Against Foreign Drug Cartels",
-    "url": "https://www.zerohedge.com/military/hemispheric-defense-trump-directs-military-kinetic-ops-against-foreign-drug-cartels",
-    "summary": "Hemispheric Defense: Trump Directs Military For Kinetic Ops Against Foreign Drug Cartels Per The New York Times reporting, President Trump has issued a new directive authorizing the Department of Defense (DoD) to conduct direct military operations against select Latin American...",
-    "fullContent": "Hemispheric Defense: Trump Directs Military For Kinetic Ops Against Foreign Drug Cartels Per The New York Times reporting, President Trump has issued a new directive authorizing the Department of Defense (DoD) to conduct direct military operations against select Latin American drug cartels designated as Foreign Terrorist Organizations (FTOs). This represents a major escalation in the administration's counter-cartel posture, moving beyond law enforcement and intelligence support to offensive kinetic missions. The directive, according to people familiar with the matter, provides legal cover for potential direct U.S. military operations at sea and on foreign soil, bypassing the traditional law enforcement framework. \"It signals Mr. Trump's continued willingness to use military forces to carry out what has primarily been considered a law enforcement responsibility to curb the flow of fentanyl and other illegal drugs,\" The New York Times wrote in the report. The move follows the deployment of active-duty and National Guard troops along the southern border, expanding surveillance via reconnaissance aircraft, and designating multiple cartels and gangs as FTOs, including Venezuela's Cartel de los Soles, which the administration alleges is run by Nicolás Maduro. On Thursday, the U.S. increased its bounty on Maduro's capture to $50 million. Recently, the Treasury Department accused Cartel de los Soles of providing material support to Tren de Aragua and the Sinaloa Cartel in Mexico. Both cartels have been designated as FTOs, which the Treasury said are \"threatening the peace and security of the United States.\" Trump administration lawyers, including the new Pentagon general counsel and head of the Justice Department's Office of Legal Counsel, are expected to face early tests in determining what operations are legally permissible. NYT noted, \"Trump's new directive appears to envision a different approach, focused on U.S. forces directly capturing or killing people involved in the drug trade.\" Earlier this year, we provided readers with the understanding that the groundwork was being laid for these types of authorizations, including capture/kill missions, maritime interdictions, and cross-border SOF raids against high-value targets: USAF Spy Plane Runs SIGINT Operation Near Cabo As U.S. Preps For Potential Cartel Fight USAF Spy Jet Flies Second SIGINT Operation On US Border With Focus On Narco Hub Border Czar \"Expects\" Kinetic Warfare Between U.S. Troops & Mexican Drug Cartels U.S. Designates Mexican Cartels As \"Foreign Terrorists,\" Signaling Financial Warfare Looms US P-3B Orion Spy Plane Spotted Over Mexico As SIGINT Ops Target Cartels U.S. Special Forces Deploy To Mexico For \"Training\" Mission Following Spy Plane SIGINT Operations Trump Weighs Drone Strikes On Mexican Cartel Terrorists Amid Major Hemispheric Defense Push Trump Mulls Deploying Special Forces To Assassinate Mexican Drug Lords: Report Former Green Beret: Trump Can \"Turn Loose Delta Force\" On The Cartels Trump's target of cartels is an initiative that appears nested within a broader strategic framework referred to as \"Hemispheric Defense,\" aimed at securing the Western Hemisphere against transnational criminal gangs and Beijing. The primary objective will be to fracture cartel command-and-control nodes to disrupt fentanyl trafficking networks, particularly those dependent on precursor chemical shipments originating from China (hybrid warfare) that kill 100,000 Americans every year. It's likely that before the kinetic action begins, the U.S. Treasury will exert more financial pressure on these cartels to disrupt their financial networks. Source: Heritage Foundation If implemented, this directive marks a major doctrinal shift for the U.S. to secure the Western Hemisphere in a world fracturing into a dangerous bipolar state. There are risks that this action could spark diplomatic fallout with Mexico and other surrounding countries. Another risk is that cartels may retaliate with asymmetric attacks targeting U.S. personnel, diplomatic buildings, or infrastructure. What's worse is that the Biden-Harris regime of far-left globalists flooded the nation with cartel members. There is a coming storm. Tyler Durden Sat, 08/09/2025 - 06:00",
-    "publishedAt": "2025-08-09T10:00:00.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.711Z",
+    "title": "120 Million Square Feet: Store Closings In The US Are On Pace To Set A New Record High In 2025",
+    "url": "https://www.zerohedge.com/personal-finance/120-million-square-feet-store-closings-us-are-pace-set-new-record-high-2025",
+    "summary": "120 Million Square Feet: Store Closings In The US Are On Pace To Set A New Record High In 2025 Authored by Michael Snyder via The Economic Collapse blog, If everything is going to be just fine, why are thousands of stores closing all over the country?",
+    "fullContent": "120 Million Square Feet: Store Closings In The US Are On Pace To Set A New Record High In 2025 Authored by Michael Snyder via The Economic Collapse blog, If everything is going to be just fine, why are thousands of stores closing all over the country? So far this year, the total amount of retail space that has been permanently closed has surpassed 120 million square feet. We have never seen anything like this before. Store closings spiked during the early days of the pandemic, but in 2025 stores are being permanently shuttered at an even faster pace. In fact, during the first six months of this year 5,822 store closures were recorded… Store closures across the U.S. continue to rise, and remain on track to far significantly surpass both new openings and the figures seen in 2024. According to a new report from research and advisory firm Coresight Research, cited by CoStar News, 5,822 store closures were recorded as of June 27, compared to 3,496 closures announced during the same period of 2024. If stores continue to close at this rate, we will break the old record that was established during the pandemic by a wide margin. We are also being told that the total amount of retail space that has been permanently shuttered in 2025 has reached a staggering 120 million square feet… In June, store closings by Plano, Texas-based home goods seller At Home and Philadelphia-based pharmacy chain Rite Aid, which have both filed for Chapter 11 bankruptcy protection, “pushed the total amount of retail space to close in the U.S. this year to over 120 million square feet,” Coresight said. The real estate churn is happening “as cyclical impacts confront structural shifts,” according to one executive at the research firm. Wow. You may have noticed that there are an increasing number of abandoned buildings in your particular area. Sadly, this is just the beginning. Consumers are under more financial stress than we have ever seen, and that has resulted in a substantial decline in store traffic… Many of the retail store closures are a result of declining store traffic as more consumers respond to inflation by reducing spending. There also are more consumers turning to online shopping especially for apparel, accessories and household items. The winner is not merely Amazon but increased competition from Temu and Shein marketplaces and social commerce outlets like TikTok. Needless to say, more stores are being closed down with each passing day. After filing for Chapter 11 bankruptcy protection, Claire’s announced that it will be closing 18 more stores… Claire’s, a mall-based teen accessories retailer, has identified several locations across the country it plans to close after filing for Chapter 11 bankruptcy protection. Claire’s U.S., which operates Claire’s and Icing stores, made the filing in the U.S. Bankruptcy Court in Delaware on Wednesday. It’s the second time since 2018 the company has filed for bankruptcy. While the company says the majority of its retail stores will remain open while it “continues to explore all strategic alternatives,” Claire’s said it identified 18 stores ahead of the Aug. 6 bankruptcy filing it would close, filings show. And home goods retailer At Home just announced that it will be closing 6 more stores… The home goods retailer At Home is closing an additional six stores across the country, bringing its total closure tally to more than two dozen as it grapples with high debt and dwindling sales. The furniture and home decor retailer based in Coppell, Texas, filed for Chapter 11 bankruptcy on June 16, pointing to “broader economic and retail-specific market pressures,” in court documents. The bankruptcy filing and store closures follow several other “big box” retailers that have also significantly downsized their brick-and-mortar footprints this year, including Big Lots, Joann Fabrics, Kohl’s, JCPenney, Macy’s, and Party City. The retailer intially announced 26 store closures in June, before paring that down to 24 when it decided to keep open two stores in New Jersey and Wisconsin. The company added another six stores to the list, according to a statement by retail firm Hilco Consumer-Retail on Aug. 1, bringing the current number of stores it will shutter in the coming months to 30. We see more stories like this every single day. So what is going to happen if our economic momentum continues to take us very rapidly in the wrong direction? Earlier today, we learned that the percentage of student loans entering serious delinquency is absolutely exploding… The total amount of outstanding student loan debt was $1.64 trillion in the second quarter of 2025 after rising by $7 billion in the quarter. Additionally, the share of student loan debt entering serious delinquency, considered 90 days or more late, jumped to 12.9% at the end of June, up from 8% in March and above pre-pandemic trends that were around 9-10% from 2012 into early 2020, when the moratorium initially took effect. The American people are drowning in debt, and I expect delinquency rates of all types to continue to rise in the months ahead. We are going to see more layoffs too, and the fact that continuing claims for unemployment benefits just hit their highest level since 2021 is not a good sign at all… Recurring applications for unemployment benefits surged to the highest since November 2021, adding to recent signs that the labor market is weakening. Continuing claims, a proxy for the number of people receiving benefits, rose by 38,000 to 1.97 million in the week ended July 26, according to Labor Department data released Thursday. On top of everything else, U.S. manufacturing activity is now in contraction territory… From March to July, U.S. manufacturing activity contracted, according to the Institute for Supply Management’s monthly survey. The Manufacturing PMI last registered at 48, below the 50 score that differentiates growth and decline. The effective average tariff rate on all imported goods now stands at around roughly 18% versus 2.3% last year, the highest levels since the 1930s. We are in so much trouble. After evaluating all of the latest economic numbers that have come in, Mark Zandi has come to the conclusion that the “economy is on the precipice of recession”… Mark Zandi, chief economist at Moody’s Analytics, on Monday wrote a post on X that the “economy is on the precipice of recession” – citing the weaker-than-expected jobs report released Friday and the inflation data from the previous day that showed consumer prices rose as indicating the economy’s precarious position. “Consumer spending has flatlined, construction and manufacturing are contracting, and employment is set to fall. And with inflation on the rise, it is tough for the Fed to come to the rescue,” he wrote. It is hard to argue with him. Of course what is eventually coming is going to be so much worse than just a “recession”. As conditions deteriorate, will store closings slow down or will they speed up? The answer to that question is obvious. If there are stores in your local area that you really enjoy, I would visit them now while you still can, because they might not be there next year. * * * Michael’s new book entitled “10 Prophetic Events That Are Coming Next” is available in paperback and for the Kindle on Amazon.com, and you can subscribe to his Substack newsletter at michaeltsnyder.substack.com. Tyler Durden Sat, 08/09/2025 - 10:30",
+    "publishedAt": "2025-08-09T14:30:00.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.709Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "3ddfce53"
+    "contentHash": "d987e59"
   },
   {
-    "id": "wired-228181d9",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "Here’s How to Buy the Best Used EV",
-    "url": "https://www.wired.com/story/heres-how-to-buy-the-best-used-ev/",
-    "summary": "Right now is the best time yet to bag a bargain secondhand electric car. But how do you test battery health? Or charging ability? Here’s WIRED’s expert tips on how to get it done properly.",
-    "fullContent": "Right now is the best time yet to bag a bargain secondhand electric car. But how do you test battery health? Or charging ability? Here’s WIRED’s expert tips on how to get it done properly.",
-    "publishedAt": "2025-08-09T10:00:00.000Z",
-    "fetchedAt": "2025-08-10T02:52:49.559Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "228181d9"
-  },
-  {
-    "id": "fortune-6df48e69",
+    "id": "fortune-587368a",
     "sourceId": "fortune",
     "sourceName": "Fortune",
-    "title": "Stablecoin issuers like Circle and Tether are gobbling up more Treasuries than most countries. Here’s how that could reshape the U.S. economy",
-    "url": "https://fortune.com/crypto/2025/08/09/circle-tether-stablecoins-treasuries-us-economy-impact-genius-act/",
-    "summary": "After Congress passed the Genius Act in July, stablecoins have gone mainstream.",
-    "fullContent": "After Congress passed the Genius Act in July, stablecoins have gone mainstream.",
-    "publishedAt": "2025-08-09T10:00:00.000Z",
-    "fetchedAt": "2025-08-13T13:11:16.859Z",
+    "title": "Michigan Gov. Gretchen Whitmer privately warns Trump that tariffs could cause severe economic damage in key swing state",
+    "url": "https://fortune.com/2025/08/09/michigan-gov-gretchen-whitmer-trump-tariffs-economic-damage/",
+    "summary": "Whitmer also brought up federal support for recovery efforts after an ice storm and sought to delay changes to Medicaid.",
+    "fullContent": "Whitmer also brought up federal support for recovery efforts after an ice storm and sought to delay changes to Medicaid.",
+    "publishedAt": "2025-08-09T14:29:28.000Z",
+    "fetchedAt": "2025-08-10T02:52:49.908Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "6df48e69"
+    "contentHash": "587368a"
   },
   {
-    "id": "thehindubusinessline-611184c1",
+    "id": "nse-online-announcements-c40dd1f",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "GPT Healthcare Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/GPTHEALTHCARE_09082025142914_GHLTranscript.pdf",
+    "summary": "GPT Healthcare Limited has informed the Exchange about Transcript |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates.",
+    "fullContent": "GPT Healthcare Limited has informed the Exchange about Transcript |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates",
+    "publishedAt": "2025-08-09T14:29:22.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "c40dd1f"
+  },
+  {
+    "id": "thehindubusinessline-1a785254",
     "sourceId": "thehindubusinessline",
     "sourceName": "The Hindu Business Line",
-    "title": "India, Oman free trade agreement likely to be announced soon: Official",
-    "url": "https://www.thehindubusinessline.com/economy/india-oman-free-trade-agreement-likely-to-be-announced-soon-official/article69913120.ece",
-    "summary": "The trade pact text is being translated into Arabic in Oman; After that, the cabinets of both countries will approve the agreement, according to the official.",
-    "fullContent": "The trade pact text is being translated into Arabic in Oman; After that, the cabinets of both countries will approve the agreement, according to the official",
-    "publishedAt": "2025-08-09T09:55:42.000Z",
+    "title": "IDBI Bank unions appeal to Govt against privatisation",
+    "url": "https://www.thehindubusinessline.com/money-and-banking/idbi-bank-unions-appeal-to-govt-against-privatisation/article69913976.ece",
+    "summary": "United Forum of IDBI Officers & Employees appeal to Prime Minister Narendra Modi, Finance Minister Nirmala Sitharmanan to preserve public sector character of IDBI Bank.",
+    "fullContent": "United Forum of IDBI Officers & Employees appeal to Prime Minister Narendra Modi, Finance Minister Nirmala Sitharmanan to preserve public sector character of IDBI Bank",
+    "publishedAt": "2025-08-09T14:28:09.000Z",
     "fetchedAt": "2025-08-10T02:52:48.905Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "611184c1"
+    "contentHash": "1a785254"
   },
   {
-    "id": "nse-online-announcements-7ee0ebfa",
+    "id": "nse-online-announcements-30bbc2f0",
     "sourceId": "nse-online-announcements",
     "sourceName": "NSE Online Announcements",
-    "title": "Zensar Technologies Limited",
-    "url": "https://nsearchives.nseindia.com/corporate/ZENSARTECH_09082025094814_SE_Intimation_ESG_Rating.pdf",
-    "summary": "Zensar Technologies Limited has informed the Exchange about Credit Rating |SUBJECT: Credit Rating.",
-    "fullContent": "Zensar Technologies Limited has informed the Exchange about Credit Rating |SUBJECT: Credit Rating",
-    "publishedAt": "2025-08-09T09:51:58.000Z",
-    "fetchedAt": "2025-08-09T09:50:59.666Z",
+    "title": "Happy Forgings Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/9876964720_09082025142712_OutcomeLetter09082025.pdf",
+    "summary": "Happy Forgings Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "Happy Forgings Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T14:28:05.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
     "category": "filings",
     "tags": [
       "filings"
     ],
     "priority": "normal",
-    "contentHash": "7ee0ebfa"
+    "contentHash": "30bbc2f0"
   },
   {
-    "id": "bloomberg-politics-2fb62170",
+    "id": "nse-online-announcements-dde7dd",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Godrej Seeds & Genetics Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/GODREJSEEDS_09082025142714_NSEEGMPRIORINTIMATION08082025.pdf",
+    "summary": "Intimation under Regulation 50(2) |SUBJECT: Intimation under Regulation 50(2)",
+    "fullContent": "Intimation under Regulation 50(2) |SUBJECT: Intimation under Regulation 50(2)",
+    "publishedAt": "2025-08-09T14:27:48.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "dde7dd"
+  },
+  {
+    "id": "nse-online-announcements-4ba18630",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Precision Wires India Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/PRECWIRE_09082025142530_outcome.pdf",
+    "summary": "Precision Wires India Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "Precision Wires India Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T14:25:43.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "4ba18630"
+  },
+  {
+    "id": "nse-online-announcements-7beaf9df",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Krishana Phoschem Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/KRISHANA_09082025142433_01BRSR_YEAR_202425MERGETOUP.pdf",
+    "summary": "Krishana Phoschem Limited has informed the Exchange regarding ', we are submitting herewith the Business Responsibility and Sustainability Report (BRSR) for the Financial Year 2024-2025 which forms part of the Annual Report for the aforesaid Financial Year'. |SUBJECT: Updates...",
+    "fullContent": "Krishana Phoschem Limited has informed the Exchange regarding ', we are submitting herewith the Business Responsibility and Sustainability Report (BRSR) for the Financial Year 2024-2025 which forms part of the Annual Report for the aforesaid Financial Year'. |SUBJECT: Updates",
+    "publishedAt": "2025-08-09T14:25:42.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "7beaf9df"
+  },
+  {
+    "id": "nse-online-announcements-190cb594",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "ESAF Small Finance Bank Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/esfb_09082025142005_SEIntimation_Investor_Presentation.pdf",
+    "summary": "ESAF Small Finance Bank Limited has informed the Exchange about Investor Presentation |SUBJECT: Investor Presentation.",
+    "fullContent": "ESAF Small Finance Bank Limited has informed the Exchange about Investor Presentation |SUBJECT: Investor Presentation",
+    "publishedAt": "2025-08-09T14:23:11.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "190cb594"
+  },
+  {
+    "id": "nse-online-announcements-616388c0",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Indo Farm Equipment Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/IFEL_09082025142049_Intimation_of_reaffirm_credit_ratings.pdf",
+    "summary": "Indo Farm Equipment Limited has informed the Exchange about Credit Rating |SUBJECT: Credit Rating.",
+    "fullContent": "Indo Farm Equipment Limited has informed the Exchange about Credit Rating |SUBJECT: Credit Rating",
+    "publishedAt": "2025-08-09T14:21:05.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.661Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "616388c0"
+  },
+  {
+    "id": "nse-online-announcements-6cd13d06",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Krishana Phoschem Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/KRISHANA_09082025141846_NSENEWSINT0908TOUPLOAD.pdf",
+    "summary": "Krishana Phoschem Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Krishana Phoschem Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:19:55.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "6cd13d06"
+  },
+  {
+    "id": "nse-online-announcements-57743eeb",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "The Andhra Sugars Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/ANDHRSUGAR_09082025141754_Director_Appointment.pdf",
+    "summary": "The Andhra Sugars Limited has informed the Exchange regarding Appointment of Mr Kanuri Rama Seshayya as Independent Director of the company w.e.f. September 25, 2025. |SUBJECT: Appointment.",
+    "fullContent": "The Andhra Sugars Limited has informed the Exchange regarding Appointment of Mr Kanuri Rama Seshayya as Independent Director of the company w.e.f. September 25, 2025. |SUBJECT: Appointment",
+    "publishedAt": "2025-08-09T14:18:04.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "57743eeb"
+  },
+  {
+    "id": "nse-online-announcements-5006e771",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Sinclairs Hotels Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/SINCLAIRS_09082025141707_UFR_Newspaper_Advertisement.pdf",
+    "summary": "Sinclairs Hotels Limited has informed the Exchange about Copy of Newspaper Publication of Unaudited Financial Results for quarter ended June 30, 2025 |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Sinclairs Hotels Limited has informed the Exchange about Copy of Newspaper Publication of Unaudited Financial Results for quarter ended June 30, 2025 |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:17:54.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "5006e771"
+  },
+  {
+    "id": "bloomberg-politics-5c8ccc95",
     "sourceId": "bloomberg-politics",
     "sourceName": "Bloomberg Politics",
-    "title": "Thai Soldiers Injured in Landmine Blast Near Cambodia Border",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-09/thai-soldiers-injured-in-landmine-blast-at-cambodia-border",
-    "summary": "Thailand’s army said three soldiers were injured in a landmine blast near its disputed border with Cambodia, threatening a fragile ceasefire agreement between the two neighbors.",
-    "fullContent": "Thailand’s army said three soldiers were injured in a landmine blast near its disputed border with Cambodia, threatening a fragile ceasefire agreement between the two neighbors.",
-    "publishedAt": "2025-08-09T09:44:40.000Z",
+    "title": "London Police Arrest Hundreds at Protest Supporting Pro-Palestinian Group",
+    "url": "https://www.bloomberg.com/en/news/thp/2025-08-09/police-arrest-demonstrators-supporting-the-palestine-action-group-in-central-london",
+    "summary": "LONDON (AP) — British police said they arrested 365 people in central London on Saturday as supporters of a recently banned pro-Palestinian group intentionally flouted the law as part of their effort to force the government to reconsider the ban.",
+    "fullContent": "LONDON (AP) — British police said they arrested 365 people in central London on Saturday as supporters of a recently banned pro-Palestinian group intentionally flouted the law as part of their effort to force the government to reconsider the ban.",
+    "publishedAt": "2025-08-09T14:17:25.000Z",
     "fetchedAt": "2025-08-10T02:52:48.089Z",
     "category": "policy",
     "tags": [
       "policy"
     ],
     "priority": "normal",
-    "contentHash": "2fb62170"
+    "contentHash": "5c8ccc95"
   },
   {
-    "id": "thehindubusinessline-268a2916",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "US licences Nvidia to export chips to China, official says",
-    "url": "https://www.thehindubusinessline.com/info-tech/us-licences-nvidia-to-export-chips-to-china-official-says/article69913081.ece",
-    "summary": "It is unclear how many licenses may have been issued, which companies Nvidia is allowed to ship the H20s to and the value of the shipments allowed.",
-    "fullContent": "It is unclear how many licenses may have been issued, which companies Nvidia is allowed to ship the H20s to and the value of the shipments allowed",
-    "publishedAt": "2025-08-09T09:42:30.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.906Z",
-    "category": "markets",
+    "id": "nse-online-announcements-7e59cb40",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Aptech Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/APTECHT_09082025141324_Newspaper_Publication.pdf",
+    "summary": "Aptech Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Aptech Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:13:31.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
     "tags": [
-      "markets"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "268a2916"
+    "contentHash": "7e59cb40"
   },
   {
-    "id": "nikkei-asia-1477b107",
-    "sourceId": "nikkei-asia",
-    "sourceName": "Nikkei Asia",
-    "title": "Japan's air conditioner makers step outside to fight summer heat",
-    "url": "https://asia.nikkei.com/business/business-trends/japan-s-air-conditioner-makers-step-outside-to-fight-summer-heat",
+    "id": "bloomberg-business-youtube-63a850a2",
+    "sourceId": "bloomberg-business-youtube",
+    "sourceName": "Bloomberg Business YouTube",
+    "title": "Blair Effron: How CEOs Are Navigating Trump-Era Policies",
+    "url": "https://www.youtube.com/watch?v=jL3BDJR_1XU",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-09T09:42:09.216Z",
-    "fetchedAt": "2025-08-09T09:42:09.216Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1477b107"
-  },
-  {
-    "id": "nikkei-asia-64207c1f",
-    "sourceId": "nikkei-asia",
-    "sourceName": "Nikkei Asia",
-    "title": "More Chinese sex workers willingly smuggled into Germany, police say",
-    "url": "https://asia.nikkei.com/economy/more-chinese-sex-workers-willingly-smuggled-into-germany-police-say",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:42:09.216Z",
-    "fetchedAt": "2025-08-09T09:42:09.216Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "64207c1f"
-  },
-  {
-    "id": "nikkei-asia-1537ba22",
-    "sourceId": "nikkei-asia",
-    "sourceName": "Nikkei Asia",
-    "title": "Vietnam takes bite out of Philippine bananas' market share in Japan",
-    "url": "https://asia.nikkei.com/business/food-beverage/vietnam-takes-bite-out-of-philippine-bananas-market-share-in-japan",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:42:09.216Z",
-    "fetchedAt": "2025-08-09T09:42:09.216Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1537ba22"
-  },
-  {
-    "id": "thehindubusinessline-6aced239",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "4th restricted gas ship seen near sanctioned Arctic LNG plant",
-    "url": "https://www.thehindubusinessline.com/markets/commodities/4th-restricted-gas-ship-seen-near-sanctioned-arctic-lng-plant/article69913111.ece",
-    "summary": "The ice-class LNG vessel was sanctioned in January as part of the most aggressive restrictions imposed on Russia’s energy sector by Joe Biden’s administration as it prepared to depart.",
-    "fullContent": "The ice-class LNG vessel was sanctioned in January as part of the most aggressive restrictions imposed on Russia’s energy sector by Joe Biden’s administration as it prepared to depart",
-    "publishedAt": "2025-08-09T09:42:04.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.906Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6aced239"
-  },
-  {
-    "id": "cnbc-tv18-youtube-47c8ec28",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "PM Modi Rakshabandhan : बच्चों संग पीएम मोदी का रक्षाबंधन | Kids Tie Rakhi to PM",
-    "url": "https://www.youtube.com/watch?v=zURS_VR5rO8",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:40:15.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
+    "publishedAt": "2025-08-09T14:13:04.000Z",
+    "fetchedAt": "2025-08-10T02:52:59.607Z",
     "category": "videos",
     "tags": [
       "videos"
     ],
     "priority": "normal",
-    "contentHash": "47c8ec28"
+    "contentHash": "63a850a2"
   },
   {
-    "id": "cnbc-tv18-youtube-7689a7d9",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Delhi News: दिल्ली में दीवार गिरने से 7 की मौत | #shorts",
-    "url": "https://www.youtube.com/shorts/8DqKmDGsRvY",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:39:35.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
+    "id": "nse-online-announcements-2fdfe5bc",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "T T Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/TTL_09082025141147_newspaperpublicationresult.pdf",
+    "summary": "T T Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "T T Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:12:16.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
     "tags": [
-      "videos"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "7689a7d9"
+    "contentHash": "2fdfe5bc"
   },
   {
-    "id": "cnbc-tv18-youtube-5a1dce72",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "PM Modi Celebrates Raksha Bandhan With School Kids: बच्चों के साथ PM मोदी का रक्षाबंधन | #shorts",
-    "url": "https://www.youtube.com/shorts/1W52xT9LNJk",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:38:43.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
+    "id": "nse-online-announcements-7088b522",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Alicon Castalloy Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/ALICON_09082025140937_Record_date.pdf",
+    "summary": "In continuation to our letter dated 07.08.2025, Alicon Castalloy Limited has informed the Exchange that Record date for the purpose of Dividend is 15-Sep-2025. |SUBJECT: Record Date.",
+    "fullContent": "In continuation to our letter dated 07.08.2025, Alicon Castalloy Limited has informed the Exchange that Record date for the purpose of Dividend is 15-Sep-2025. |SUBJECT: Record Date",
+    "publishedAt": "2025-08-09T14:10:26.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
     "tags": [
-      "videos"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "5a1dce72"
+    "contentHash": "7088b522"
   },
   {
-    "id": "cnbc-tv18-youtube-7dfc9465",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Operation Sindoor : भारत के पराक्रम से, पाकिस्तान का निकला दम | India Pakistan News | Hindi News",
-    "url": "https://www.youtube.com/watch?v=lb7pdnFIfBY",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:38:07.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
+    "id": "nse-online-announcements-51c2ad29",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "CEAT Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/CEATLTD_09082025140959_CEATSELetterSchInvMeetAug142025signed.pdf",
+    "summary": "CEAT Limited has informed the Exchange about Schedule of meet |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates.",
+    "fullContent": "CEAT Limited has informed the Exchange about Schedule of meet |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates",
+    "publishedAt": "2025-08-09T14:10:20.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
     "tags": [
-      "videos"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "7dfc9465"
+    "contentHash": "51c2ad29"
   },
   {
-    "id": "bloomberg-politics-429c884b",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "India Air Force Chief Claims Five Pakistan Jets Downed in May Clash",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-09/india-air-force-chief-claims-5-pakistan-jets-downed-in-may-clash",
-    "summary": "India’s air force chief said its military shot down at least five Pakistani fighter jets during a confrontation with its western neighbor in early May.",
-    "fullContent": "India’s air force chief said its military shot down at least five Pakistani fighter jets during a confrontation with its western neighbor in early May.",
-    "publishedAt": "2025-08-09T09:35:36.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.089Z",
-    "category": "policy",
+    "id": "nse-online-announcements-14681cb7",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Precision Wires India Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/PRECWIRE_09082025140811_AGMproceeding.pdf",
+    "summary": "Precision Wires India Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on August 09, 2025 |SUBJECT: Shareholders meeting.",
+    "fullContent": "Precision Wires India Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on August 09, 2025 |SUBJECT: Shareholders meeting",
+    "publishedAt": "2025-08-09T14:08:52.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
     "tags": [
-      "policy"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "429c884b"
+    "contentHash": "14681cb7"
   },
   {
-    "id": "bloomberg-politics-6a48175d",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "Trump Invites Poland’s New President to White House on Sept. 3",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-09/trump-invites-poland-s-new-president-to-white-house-on-sept-3",
-    "summary": "US President Donald Trump has invited his new Polish counterpart Karol Nawrocki to the White House for a working meeting on Sept. 3, the Polish head of state’s chief of staff Pawel Szefernaker said on Saturday.",
-    "fullContent": "US President Donald Trump has invited his new Polish counterpart Karol Nawrocki to the White House for a working meeting on Sept. 3, the Polish head of state’s chief of staff Pawel Szefernaker said on Saturday.",
-    "publishedAt": "2025-08-09T09:35:05.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.089Z",
-    "category": "policy",
+    "id": "nse-online-announcements-1d0f3abc",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Indoco Remedies Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/INDOCO_09082025140830_Intimationadvst.pdf",
+    "summary": "Indoco Remedies Limited has informed the Exchange about Publication of Newspaper Advertisement pursuant to MCA Circulars of 78th AGM of the Company to be held on 11th September, 2025 through VC/OAVM. |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Indoco Remedies Limited has informed the Exchange about Publication of Newspaper Advertisement pursuant to MCA Circulars of 78th AGM of the Company to be held on 11th September, 2025 through VC/OAVM. |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:08:51.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
     "tags": [
-      "policy"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "6a48175d"
+    "contentHash": "1d0f3abc"
   },
   {
-    "id": "bloomberg-politics-7155ef19",
-    "sourceId": "bloomberg-politics",
-    "sourceName": "Bloomberg Politics",
-    "title": "Polish Cabinet Stung by Allegations EU Recovery Funds Misused",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-09/polish-cabinet-stung-by-allegations-eu-recovery-funds-misused",
-    "summary": "Poland’s government, struggling to regain momentum after its candidate lost a presidential election in June, was put further on the defensive over the potential misuse of European Union funds.",
-    "fullContent": "Poland’s government, struggling to regain momentum after its candidate lost a presidential election in June, was put further on the defensive over the potential misuse of European Union funds.",
-    "publishedAt": "2025-08-09T09:34:16.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.089Z",
-    "category": "policy",
-    "tags": [
-      "policy"
-    ],
-    "priority": "normal",
-    "contentHash": "7155ef19"
-  },
-  {
-    "id": "cnbc-tv18-youtube-326e87d1",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Delhi Building Collapsed : दिल्ली के जैतपुर में गिरी दीवार, 7 लोगों की मौत | Hindi News",
-    "url": "https://www.youtube.com/watch?v=7PG-T-k9CJs",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:32:10.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "326e87d1"
-  },
-  {
-    "id": "ndtv-profit-youtube-3fe206e8",
-    "sourceId": "ndtv-profit-youtube",
-    "sourceName": "NDTV Profit YouTube",
-    "title": "The Burrp! London's Love Affair With Indian Street Food | Out Of Britain",
-    "url": "https://www.youtube.com/watch?v=kfzCHYB4mnc",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:31:53.000Z",
-    "fetchedAt": "2025-08-09T09:42:18.577Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "3fe206e8"
-  },
-  {
-    "id": "thehindubusinessline-637a641c",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "Traffic restrictions in Bengaluru on August 10th ahead of PM Modi’s visit",
-    "url": "https://www.thehindubusinessline.com/news/national/traffic-restrictions-in-bengaluru-on-august-10th-ahead-of-pm-modis-visit/article69913096.ece",
-    "summary": "Traffic Police have recommended alternative routes to ease congestion.",
-    "fullContent": "Traffic Police have recommended alternative routes to ease congestion",
-    "publishedAt": "2025-08-09T09:31:30.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.255Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "637a641c"
-  },
-  {
-    "id": "cnbc-tv18-youtube-7e21ae91",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "LIVE PM Modi | US Tariff on India | Donald Trump | Putin | Xi Jinping | India America | Aman Chopra",
-    "url": "https://www.youtube.com/watch?v=wTUXFISmARw",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:30:27.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "7e21ae91"
-  },
-  {
-    "id": "cnbc-tv18-youtube-7e3d2e18",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "LIVE PM Modi | US Tariff on India | Donald Trump | Putin | Xi Jinping | India America | Aman Chopra",
-    "url": "https://www.youtube.com/watch?v=cDoDMr5AHdc",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:26:24.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "7e3d2e18"
-  },
-  {
-    "id": "cnbc-tv18-youtube-3c400ee",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Rahul Gandhi vs EC: 'क्या संविधान की शपथ लेने वाला MP संवैधानिक संस्थाओं के खिलाफ जंग छेड़ सकता है?'",
-    "url": "https://www.youtube.com/watch?v=aYRnh0RJ76I",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:24:50.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "3c400ee"
-  },
-  {
-    "id": "thehindubusinessline-5daeba51",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "India shot down 6 Pakistani military aircraft in May fighting, air force chief says",
-    "url": "https://www.thehindubusinessline.com/economy/logistics/india-shot-down-6-pakistani-military-aircraft-in-may-fighting-air-force-chief-says/article69913074.ece",
-    "summary": "Most of the Pakistani aircraft were downed by India's Russian-made S-400 surface-to-air missile system, Indian Air Chief Marshal A.P. Singh said at an event in the southern city of Bengaluru.",
-    "fullContent": "Most of the Pakistani aircraft were downed by India's Russian-made S-400 surface-to-air missile system, Indian Air Chief Marshal A.P. Singh said at an event in the southern city of Bengaluru",
-    "publishedAt": "2025-08-09T09:24:24.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.256Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5daeba51"
-  },
-  {
-    "id": "thehindubusinessline-31588705",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "India downed 5 Pak fighter jets, surveillance aircraft during Operation Sindoor",
-    "url": "https://www.thehindubusinessline.com/economy/logistics/india-shot-down-6-pakistani-military-aircraft-in-may-fighting-air-force-chief-says/article69913074.ece",
-    "summary": "“We have at least five fighters confirmed killed and one large aircraft,” he said during a keynote address at the 16th Air Chief Marshal L M Katre Memorial Lecture in Bengaluru.",
-    "fullContent": "“We have at least five fighters confirmed killed and one large aircraft,” he said during a keynote address at the 16th Air Chief Marshal L M Katre Memorial Lecture in Bengaluru",
-    "publishedAt": "2025-08-09T09:24:24.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.906Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "31588705"
-  },
-  {
-    "id": "cnbc-tv18-youtube-2a00291e",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Uttarkashi News: उत्तरकाशी में तेज बारिश | #shorts",
-    "url": "https://www.youtube.com/shorts/rrsTGmPtNh8",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:23:13.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "2a00291e"
-  },
-  {
-    "id": "cnbc-tv18-youtube-1519f024",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Kolkata Rape Case: कोलकाता में डॉक्टरों का प्रदर्शन | #shorts",
-    "url": "https://www.youtube.com/shorts/Q9dZdcqo6dE",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:20:43.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "1519f024"
-  },
-  {
-    "id": "cnbc-tv18-youtube-67d9707b",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "\"जो राहुल गांधी कहे...वो ही सही\" | #shorts",
-    "url": "https://www.youtube.com/shorts/B5UkVsNphPk",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:18:53.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "67d9707b"
-  },
-  {
-    "id": "thehindubusinessline-7c576e9",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "UP govt to soon decide developer for multimodal logistics park in Greater Noida",
-    "url": "https://www.thehindubusinessline.com/economy/logistics/up-govt-to-soon-decide-developer-for-multimodal-logistics-park-in-greater-noida/article69913018.ece",
-    "summary": "The proposed logistics park will have proximity to Noida International Airport and easy access to Eastern and Western Dedicated Freight Corridors.",
-    "fullContent": "The proposed logistics park will have proximity to Noida International Airport and easy access to Eastern and Western Dedicated Freight Corridors",
-    "publishedAt": "2025-08-09T09:18:38.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.256Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7c576e9"
-  },
-  {
-    "id": "business-insider-1d1a825f",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "'Freaky Friday' opened in theaters 22 years ago — here are the best photos from the red-carpet premiere",
-    "url": "https://www.businessinsider.com/freaky-friday-red-carpet-premiere-photos-2025-8",
-    "summary": "Look back at the 2003 premiere of Disney's &#34;Freaky Friday&#34; starring Jamie Lee Curtis and Lindsay Lohan.",
-    "fullContent": "Look back at the 2003 premiere of Disney's &#34;Freaky Friday&#34; starring Jamie Lee Curtis and Lindsay Lohan.",
-    "publishedAt": "2025-08-09T09:18:01.000Z",
-    "fetchedAt": "2025-08-09T09:42:08.921Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1d1a825f"
-  },
-  {
-    "id": "yahoo-finance-605e87a4",
-    "sourceId": "yahoo-finance",
-    "sourceName": "Yahoo Finance",
-    "title": "An Arizona senior told Dave Ramsey she has no savings and debt — 3 late-stage retirement catch-up tactics",
-    "url": "https://finance.yahoo.com/news/arizona-senior-told-dave-ramsey-091700359.html",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:17:00.000Z",
-    "fetchedAt": "2025-08-10T09:42:18.261Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "605e87a4"
-  },
-  {
-    "id": "thehindubusinessline-5e5b0f72",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "Centre may roll out ₹2,250 crore export promotion mission soon: Official",
-    "url": "https://www.thehindubusinessline.com/economy/centre-may-roll-out-2250-crore-export-promotion-mission-soon-official/article69913014.ece",
-    "summary": "The mission may include components, such as easy credit schemes for MSME and e-commerce exporters, facilitation of overseas warehousing, and global branding initiatives to tap emerging export opportunities.",
-    "fullContent": "The mission may include components, such as easy credit schemes for MSME and e-commerce exporters, facilitation of overseas warehousing, and global branding initiatives to tap emerging export opportunities",
-    "publishedAt": "2025-08-09T09:15:23.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.256Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "5e5b0f72"
-  },
-  {
-    "id": "cnbc-tv18-youtube-19629e1f",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Top 100 News LIVE: Raksha Bandhan 2025 | Uttarkashi Cloudburst | PM Modi | US Tariff | Rahul Gandhi",
-    "url": "https://www.youtube.com/watch?v=dvFXl4e28A4",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:14:35.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "19629e1f"
-  },
-  {
-    "id": "cnbc-tv18-youtube-469c56ab",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Delhi Breaking News: दिल्ली में घर की दीवार गिरने से कई लोगों की मौत | Accident | Building Collapse",
-    "url": "https://www.youtube.com/watch?v=cLBshiybObU",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T09:13:36.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
-    "tags": [
-      "videos"
-    ],
-    "priority": "normal",
-    "contentHash": "469c56ab"
-  },
-  {
-    "id": "business-insider-7a96feaa",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Take-Two CEO says AI could lead to better-paying video-game jobs",
-    "url": "https://www.businessinsider.com/take-two-ceo-ai-better-paying-video-game-jobs-2025-8",
-    "summary": "Learning generative AI could lead to higher pay for video-game workers, said the boss of &#34;Grand Theft Auto&#34;-maker Take-Two.",
-    "fullContent": "Learning generative AI could lead to higher pay for video-game workers, said the boss of &#34;Grand Theft Auto&#34;-maker Take-Two.",
-    "publishedAt": "2025-08-09T09:12:01.000Z",
-    "fetchedAt": "2025-08-09T09:42:08.921Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7a96feaa"
-  },
-  {
-    "id": "ndtv-profit-rss-3274b997",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "Bengaluru Traffic Restrictions On Aug. 10 During PM Modi's Visit — Check Routes To Avoid",
-    "url": "https://www.ndtvprofit.com/nation/bengaluru-traffic-restrictions-on-aug-10-during-pm-modis-visit-check-routes-to-avoid",
-    "summary": "Bengaluru, Aug 9 (PTI) Bengaluru Traffic Police have announced traffic restrictions across several key routes on August 10 between 8.30 am and 2.30 pm, anticipating heavy crowds and VIP movement during Prime Minister Narendra Modi’s visit.",
-    "fullContent": "Bengaluru, Aug 9 (PTI) Bengaluru Traffic Police have announced traffic restrictions across several key routes on August 10 between 8.30 am and 2.30 pm, anticipating heavy crowds and VIP movement during Prime Minister Narendra Modi’s visit.",
-    "publishedAt": "2025-08-09T09:11:21.391Z",
-    "fetchedAt": "2025-08-09T09:42:11.267Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3274b997"
-  },
-  {
-    "id": "bloomberg-markets-522f5e8c",
+    "id": "bloomberg-markets-1aadb612",
     "sourceId": "bloomberg-markets",
     "sourceName": "Bloomberg Markets",
-    "title": "Fourth Restricted Gas Ship Seen Near Sanctioned Arctic LNG Plant",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-09/fourth-restricted-gas-ship-seen-near-sanctioned-arctic-lng-plant",
-    "summary": "A fourth sanctioned liquefied natural gas tanker has arrived near Russia’s Arctic export plant, also subject to the US restrictions, as Moscow attempts to expand shipments of the fuel.",
-    "fullContent": "A fourth sanctioned liquefied natural gas tanker has arrived near Russia’s Arctic export plant, also subject to the US restrictions, as Moscow attempts to expand shipments of the fuel.",
-    "publishedAt": "2025-08-09T09:10:15.000Z",
-    "fetchedAt": "2025-08-09T09:42:08.891Z",
+    "title": "Blair Effron: How CEOs Are Navigating Trump-Era Policies",
+    "url": "https://www.bloomberg.com/news/videos/2025-08-09/blair-effron-how-ceos-are-navigating-trump-era-policies-video",
+    "summary": "Despite President Trump’s tariff policies, America’s top CEOs have adapted quickly by embracing AI and making nimble business decisions. Centerview Partners Blair Effron warns that structural issues like the ballooning federal debt and high urban taxes, especially in places...",
+    "fullContent": "Despite President Trump’s tariff policies, America’s top CEOs have adapted quickly by embracing AI and making nimble business decisions. Centerview Partners Blair Effron warns that structural issues like the ballooning federal debt and high urban taxes, especially in places like New York, pose long-term risks if left unaddressed. He argues that both political parties must move beyond ideological extremes and focus on practical solutions that support growth, affordability, and broad-based opportunity. (Source: Bloomberg)",
+    "publishedAt": "2025-08-09T14:05:53.000Z",
+    "fetchedAt": "2025-08-10T09:42:19.842Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "522f5e8c"
+    "contentHash": "1aadb612"
   },
   {
-    "id": "business-insider-7000ee8f",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "I'm experimenting with AI in my 70s. I've had to adapt to new technologies my entire career — those who embrace change survive.",
-    "url": "https://www.businessinsider.com/retired-ai-chatbot-replacing-jobs-2025-8",
-    "summary": "Orrin Onken, a retiree in his 70s who was an early adopter of new technologies throughout his career, advises embracing change in the age of AI.",
-    "fullContent": "Orrin Onken, a retiree in his 70s who was an early adopter of new technologies throughout his career, advises embracing change in the age of AI.",
-    "publishedAt": "2025-08-09T09:05:01.000Z",
-    "fetchedAt": "2025-08-09T09:42:08.921Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7000ee8f"
-  },
-  {
-    "id": "nyt-business-246e131e",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Trump’s Tariffs Are Now Forcing Companies to Make Tough Choices",
-    "url": "https://www.nytimes.com/2025/08/09/business/trump-tariffs-prices-layoffs.html",
-    "summary": "Businesses that had been in a holding pattern during President Trump’s evolving trade war are starting to plan ahead with more conviction.",
-    "fullContent": "Businesses that had been in a holding pattern during President Trump’s evolving trade war are starting to plan ahead with more conviction.",
-    "publishedAt": "2025-08-09T09:02:52.000Z",
-    "fetchedAt": "2025-08-10T02:52:48.265Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "246e131e"
-  },
-  {
-    "id": "nyt-business-6eb8ecc7",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Trump Tariffs Spur Layoffs and Price Increases as Companies Face Tough Choices",
-    "url": "https://www.nytimes.com/2025/08/09/business/trump-tariffs-prices-layoffs.html",
-    "summary": "Businesses that had been in a holding pattern during President Trump’s evolving trade war are starting to plan ahead with more conviction.",
-    "fullContent": "Businesses that had been in a holding pattern during President Trump’s evolving trade war are starting to plan ahead with more conviction.",
-    "publishedAt": "2025-08-09T09:02:51.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.345Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6eb8ecc7"
-  },
-  {
-    "id": "nyt-business-7149fed9",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "What to Do When Your Manager Doesn’t Work. Like, at All.",
-    "url": "https://www.nytimes.com/2025/08/09/business/manager-performance-work-advice.html",
-    "summary": "",
-    "fullContent": "Plus, more tips for bossing around your boss.",
-    "publishedAt": "2025-08-09T09:02:40.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.345Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7149fed9"
-  },
-  {
-    "id": "nyt-business-641ad412",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Alexa Got an A.I. Brain Transplant. How Smart Is It Now?",
-    "url": "https://www.nytimes.com/2025/08/09/business/alexa-artificial-intelligence-amazon.html",
-    "summary": "It took Amazon several years to overcome technical hurdles as it remade its voice assistant with new artificial intelligence technology.",
-    "fullContent": "It took Amazon several years to overcome technical hurdles as it remade its voice assistant with new artificial intelligence technology.",
-    "publishedAt": "2025-08-09T09:02:35.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.345Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "641ad412"
-  },
-  {
-    "id": "nyt-technology-641ad412",
+    "id": "nyt-technology-34fcc423",
     "sourceId": "nyt-technology",
     "sourceName": "NYT Technology",
-    "title": "Alexa Got an A.I. Brain Transplant. How Smart Is It Now?",
-    "url": "https://www.nytimes.com/2025/08/09/business/alexa-artificial-intelligence-amazon.html",
-    "summary": "It took Amazon several years to overcome technical hurdles as it remade its voice assistant with new artificial intelligence technology.",
-    "fullContent": "It took Amazon several years to overcome technical hurdles as it remade its voice assistant with new artificial intelligence technology.",
-    "publishedAt": "2025-08-09T09:02:35.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.351Z",
+    "title": "How Older People Are Reaping Brain Benefits From New Tech",
+    "url": "https://www.nytimes.com/2025/08/09/health/technology-cognition-older-people.html",
+    "summary": "Overuse of digital gadgets harms teenagers, research suggests. But ubiquitous technology may be helping older Americans stay sharp.",
+    "fullContent": "Overuse of digital gadgets harms teenagers, research suggests. But ubiquitous technology may be helping older Americans stay sharp.",
+    "publishedAt": "2025-08-09T14:05:04.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.270Z",
     "category": "technology",
     "tags": [
       "technology"
     ],
     "priority": "normal",
-    "contentHash": "641ad412"
+    "contentHash": "34fcc423"
   },
   {
-    "id": "nyt-business-1e5642ea",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Why Young Americans Dread Turning 26: Health Insurance Chaos",
-    "url": "https://www.nytimes.com/2025/08/09/health/young-adults-health-insurance-26.html",
-    "summary": "Young adults without jobs that provide insurance find that their options are limited and expensive. The problem is about to get worse.",
-    "fullContent": "Young adults without jobs that provide insurance find that their options are limited and expensive. The problem is about to get worse.",
-    "publishedAt": "2025-08-09T09:02:26.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.346Z",
-    "category": "markets",
+    "id": "nse-online-announcements-381beefb",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "The Andhra Sugars Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/ANDHRSUGAR_09082025140403_20250809163802.pdf",
+    "summary": "The Andhra Sugars Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "The Andhra Sugars Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T14:04:30.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
     "tags": [
-      "markets"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "1e5642ea"
+    "contentHash": "381beefb"
   },
   {
-    "id": "nyt-business-607b85ce",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Car Companies Are Paying Tariffs So You Don’t Have To",
-    "url": "https://www.nytimes.com/2025/08/09/business/trump-tariffs-car-prices.html",
-    "summary": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
-    "fullContent": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
-    "publishedAt": "2025-08-09T09:02:17.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.346Z",
-    "category": "markets",
+    "id": "nse-online-announcements-5e9a4af8",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Kross Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/8910457293_09082025140403_Reg47_30062025.pdf",
+    "summary": "Kross Limited has informed the Exchange about Copy of Newspaper advertisement published on 09 August 2025 for the Unaudited Financial Results for the quarter ended on June 30, 2025 |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Kross Limited has informed the Exchange about Copy of Newspaper advertisement published on 09 August 2025 for the Unaudited Financial Results for the quarter ended on June 30, 2025 |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T14:04:27.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
     "tags": [
-      "markets"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "607b85ce"
+    "contentHash": "5e9a4af8"
   },
   {
-    "id": "nyt-economy-607b85ce",
-    "sourceId": "nyt-economy",
-    "sourceName": "NYT Economy",
-    "title": "Car Companies Are Paying Tariffs So You Don’t Have To",
-    "url": "https://www.nytimes.com/2025/08/09/business/trump-tariffs-car-prices.html",
-    "summary": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
-    "fullContent": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
-    "publishedAt": "2025-08-09T09:02:17.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.578Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "607b85ce"
-  },
-  {
-    "id": "nyt-business-508ebc0a",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "Flattery, Lobbyists and a Business Deal: Crypto’s Richest Man Campaigns for a Pardon",
-    "url": "https://www.nytimes.com/2025/08/09/us/politics/changpeng-zhao-pardon-trump.html",
-    "summary": "A sophisticated operation is pushing President Trump to forgive Changpeng Zhao, which would boost the chances for his company, Binance, to break into the U.S. market.",
-    "fullContent": "A sophisticated operation is pushing President Trump to forgive Changpeng Zhao, which would boost the chances for his company, Binance, to break into the U.S. market.",
-    "publishedAt": "2025-08-09T09:02:11.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.346Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "508ebc0a"
-  },
-  {
-    "id": "nyt-business-1db0bd97",
-    "sourceId": "nyt-business",
-    "sourceName": "NYT Business",
-    "title": "A Guide to Finding Insurance at 26",
-    "url": "https://www.nytimes.com/2025/08/09/health/finding-health-insurance.html",
-    "summary": "It’s a difficult rite of passage for young adults without job-based insurance. Here are some tips for getting started.",
-    "fullContent": "It’s a difficult rite of passage for young adults without job-based insurance. Here are some tips for getting started.",
-    "publishedAt": "2025-08-09T09:00:06.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.346Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "1db0bd97"
-  },
-  {
-    "id": "business-insider-1bd37998",
+    "id": "business-insider-17cab0f0",
     "sourceId": "business-insider",
     "sourceName": "Business Insider",
-    "title": "Do you work in finance? Tell us how your career has shaped your dating life.",
-    "url": "https://www.businessinsider.com/finance-professionals-dating-love-romance-survey-banker-trader-dealmaker-2025-8",
-    "summary": "We want to hear how demanding Wall Street jobs are impacting finance workers' romantic lives. Take our survey to share your perspective.",
-    "fullContent": "We want to hear how demanding Wall Street jobs are impacting finance workers' romantic lives. Take our survey to share your perspective.",
-    "publishedAt": "2025-08-09T09:00:01.000Z",
-    "fetchedAt": "2025-08-09T09:42:08.921Z",
+    "title": "Must-visit road trip food stops in every state",
+    "url": "https://www.businessinsider.com/road-trip-food-stops-in-every-state",
+    "summary": "On road trips, it's easy to settle for fast food. However, from Texas barbecue to Maine lobster rolls, some local spots make the trip more memorable.",
+    "fullContent": "On road trips, it's easy to settle for fast food. However, from Texas barbecue to Maine lobster rolls, some local spots make the trip more memorable.",
+    "publishedAt": "2025-08-09T14:04:01.000Z",
+    "fetchedAt": "2025-08-10T02:52:47.981Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "1bd37998"
+    "contentHash": "17cab0f0"
   },
   {
-    "id": "business-insider-1efbc39c",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "The app will see you now: New AI scans faces to predict diseases, disorders, and early death",
-    "url": "https://www.businessinsider.com/new-ai-apps-scan-face-to-predict-lifespan-health-risks-2025-8",
-    "summary": "Facial recognition is finally getting good enough to say something meaningful about our health. Are we ready for it?",
-    "fullContent": "Facial recognition is finally getting good enough to say something meaningful about our health. Are we ready for it?",
-    "publishedAt": "2025-08-09T09:00:01.000Z",
-    "fetchedAt": "2025-08-09T09:42:08.921Z",
-    "category": "markets",
+    "id": "nse-online-announcements-20773982",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "The Andhra Sugars Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/ANDHRSUGAR_09082025140120_20250809163802.pdf",
+    "summary": "The Andhra Sugars Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "The Andhra Sugars Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T14:03:15.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
     "tags": [
-      "markets"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "1efbc39c"
+    "contentHash": "20773982"
   },
   {
-    "id": "business-insider-67ffd2ae",
-    "sourceId": "business-insider",
-    "sourceName": "Business Insider",
-    "title": "Inside KPMG's lavish Florida 'Lakehouse,' where interns get drumming parades, soft serve ice cream, and mini-golf",
-    "url": "https://www.businessinsider.com/kpmg-florida-lakehouse-big-four-training-center-2025-8",
-    "summary": "With a putting green, karoake and Florida's tropical weater, the Big Four firm's Lakehouse. felt like a corporate amusement park.",
-    "fullContent": "With a putting green, karoake and Florida's tropical weater, the Big Four firm's Lakehouse. felt like a corporate amusement park.",
-    "publishedAt": "2025-08-09T09:00:01.000Z",
-    "fetchedAt": "2025-08-09T09:42:08.921Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "67ffd2ae"
-  },
-  {
-    "id": "bloomberg-economics-2a498dd3",
-    "sourceId": "bloomberg-economics",
-    "sourceName": "Bloomberg Economics",
-    "title": "Charting the Global Economy: A Split Bank of England Cuts Rates",
-    "url": "https://www.bloomberg.com/news/articles/2025-08-09/world-economy-latest-bank-of-england-lowers-rates-in-narrow-decision",
-    "summary": "The Bank of England reduced interest rates to a more than two-year low in a closer-than-expected decision that leaves investors with what Governor Andrew Bailey called “genuine uncertainty” on its next move.",
-    "fullContent": "The Bank of England reduced interest rates to a more than two-year low in a closer-than-expected decision that leaves investors with what Governor Andrew Bailey called “genuine uncertainty” on its next move.",
-    "publishedAt": "2025-08-09T09:00:00.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.205Z",
-    "category": "macro",
-    "tags": [
-      "macro"
-    ],
-    "priority": "normal",
-    "contentHash": "2a498dd3"
-  },
-  {
-    "id": "fortune-2bd44e34",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Gen Z are sharing their unhinged hacks to surviving their toxic jobs, including CCing fake lawyers and being maliciously compliant",
-    "url": "https://fortune.com/2025/08/09/gen-z-are-sharing-their-unhinged-hacks-to-surviving-their-toxic-jobs-including-ccing-fake-lawyers-and-being-maliciously-compliant/",
-    "summary": "Gen Z is tackling their toxic jobs not by talking to HR or their therapist—but rather returning the favor to their employers with toxic-coping practices like malicious compliance and revenge quitting.",
-    "fullContent": "Gen Z is tackling their toxic jobs not by talking to HR or their therapist—but rather returning the favor to their employers with toxic-coping practices like malicious compliance and revenge quitting. With limited job security, high costs of living, and few attractive alternatives, many young people feel stuck—and these hacks are how they're making it through.",
-    "publishedAt": "2025-08-09T09:00:00.000Z",
-    "fetchedAt": "2025-08-09T09:42:11.326Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "2bd44e34"
-  },
-  {
-    "id": "wired-42e306c9",
-    "sourceId": "wired",
-    "sourceName": "Wired",
-    "title": "What Even Is Instagram Now?",
-    "url": "https://www.wired.com/story/what-even-is-instagram-now/",
-    "summary": "Long after shifting your feed away from friends and toward influencers, Instagram is adding new features intended to make the app more personal. The turnabout exposes the platform’s identity crisis.",
-    "fullContent": "Long after shifting your feed away from friends and toward influencers, Instagram is adding new features intended to make the app more personal. The turnabout exposes the platform’s identity crisis.",
-    "publishedAt": "2025-08-09T09:00:00.000Z",
-    "fetchedAt": "2025-08-09T09:42:10.914Z",
-    "category": "technology",
-    "tags": [
-      "technology"
-    ],
-    "priority": "normal",
-    "contentHash": "42e306c9"
-  },
-  {
-    "id": "thehindubusinessline-7946a32d",
+    "id": "thehindubusinessline-3afdd741",
     "sourceId": "thehindubusinessline",
     "sourceName": "The Hindu Business Line",
-    "title": "Brigade Enterprises aims ₹225 cr revenue from new housing project in Bengaluru",
-    "url": "https://www.thehindubusinessline.com/news/real-estate/brigade-enterprises-aims-225-cr-revenue-from-new-housing-project-in-bengaluru/article69912956.ece",
-    "summary": "The company has launched a new project 'Brigade Cherry Blossom', in Malur of East Bengaluru.",
-    "fullContent": "The company has launched a new project 'Brigade Cherry Blossom', in Malur of East Bengaluru",
-    "publishedAt": "2025-08-09T08:58:11.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.256Z",
+    "title": "Who Am I? Aug 10, 2025",
+    "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/who-am-i-aug-10-2025/article69913312.ece",
+    "summary": "Are you an avid investor? How well do you know corporate India?",
+    "fullContent": "Are you an avid investor? How well do you know corporate India?",
+    "publishedAt": "2025-08-09T14:00:03.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.905Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "7946a32d"
+    "contentHash": "3afdd741"
   },
   {
-    "id": "jacobin-magazine-2051aae5",
+    "id": "cnbc-markets-198a955e",
+    "sourceId": "cnbc-markets",
+    "sourceName": "CNBC Markets",
+    "title": "New Yorker quit her corporate role in the middle of a meeting—now she earns twice as much and is happier in her dream job",
+    "url": "https://www.cnbc.com/2025/08/09/new-yorker-quit-during-a-meeting-now-earns-twice-as-much-in-dream-job.html",
+    "summary": "Pooja Tripathi quit her corporate fashion marketing job in the middle of a meeting. Now, she makes more money and is happier making social media content.",
+    "fullContent": "Pooja Tripathi quit her corporate fashion marketing job in the middle of a meeting. Now, she makes more money and is happier making social media content.",
+    "publishedAt": "2025-08-09T14:00:01.000Z",
+    "fetchedAt": "2025-08-10T02:52:47.716Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "198a955e"
+  },
+  {
+    "id": "bloomberg-economics-3ca2093e",
+    "sourceId": "bloomberg-economics",
+    "sourceName": "Bloomberg Economics",
+    "title": "Wall Street Is Divided Over Whether Immigration Is Behind US Hiring Slowdown",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-09/weak-us-jobs-data-divides-wall-street-on-whether-immigration-is-behind-it",
+    "summary": "Wall Street economists disagree on what’s behind a sharp slowdown in US job growth, highlighting a divide that is central to the broader outlook for the economy.",
+    "fullContent": "Wall Street economists disagree on what’s behind a sharp slowdown in US job growth, highlighting a divide that is central to the broader outlook for the economy.",
+    "publishedAt": "2025-08-09T14:00:00.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.093Z",
+    "category": "macro",
+    "tags": [
+      "macro"
+    ],
+    "priority": "normal",
+    "contentHash": "3ca2093e"
+  },
+  {
+    "id": "bloomberg-politics-3ca2093e",
+    "sourceId": "bloomberg-politics",
+    "sourceName": "Bloomberg Politics",
+    "title": "Wall Street Is Divided Over Whether Immigration Is Behind US Hiring Slowdown",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-09/weak-us-jobs-data-divides-wall-street-on-whether-immigration-is-behind-it",
+    "summary": "Wall Street economists disagree on what’s behind a sharp slowdown in US job growth, highlighting a divide that is central to the broader outlook for the economy.",
+    "fullContent": "Wall Street economists disagree on what’s behind a sharp slowdown in US job growth, highlighting a divide that is central to the broader outlook for the economy.",
+    "publishedAt": "2025-08-09T14:00:00.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.089Z",
+    "category": "policy",
+    "tags": [
+      "policy"
+    ],
+    "priority": "normal",
+    "contentHash": "3ca2093e"
+  },
+  {
+    "id": "nse-online-announcements-16a7284c",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Suprajit Engineering Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/SUPRAJIT_09082025135719_BMresultsAugust2025.pdf",
+    "summary": "Suprajit Engineering Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "Suprajit Engineering Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T13:59:31.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "16a7284c"
+  },
+  {
+    "id": "thehindubusinessline-21ed3ef5",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "The Hindu Business Line",
+    "title": "FIRE movement in India: Harsh truths about early retirement, inflation and longevity risks",
+    "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/fire-movement-in-india-harsh-truths-about-early-retirement-inflation-and-longevity-risks/article69904727.ece",
+    "summary": "Beyond the hype of financial freedom, a closer look at the decades-long challenges early retirees face.",
+    "fullContent": "Beyond the hype of financial freedom, a closer look at the decades-long challenges early retirees face",
+    "publishedAt": "2025-08-09T13:59:30.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.905Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "21ed3ef5"
+  },
+  {
+    "id": "nse-online-announcements-7bd416e9",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "SMS Pharmaceuticals Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/SMSPHARMA_09082025135727_OutcomeBM09082025.pdf",
+    "summary": "SMS Pharmaceuticals Limited has informed the Exchange that Record date for the purpose of Dividend is 22-Sep-2025. |SUBJECT: Record Date.",
+    "fullContent": "SMS Pharmaceuticals Limited has informed the Exchange that Record date for the purpose of Dividend is 22-Sep-2025. |SUBJECT: Record Date",
+    "publishedAt": "2025-08-09T13:58:30.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "7bd416e9"
+  },
+  {
+    "id": "nse-online-announcements-44a877e6",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Bkm Industries Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_63658_1507830_09082025015654_WEB.xml",
+    "summary": "BKM INDUSTRIES LIMITED has informed the Exchange about Board Meeting to be held on 13-Aug-2025 to inter-alia consider and approve the Unaudited Financial results of the Company for the Quarterly ended June 2025 . |SUBJECT: Board Meeting Intimation.",
+    "fullContent": "BKM INDUSTRIES LIMITED has informed the Exchange about Board Meeting to be held on 13-Aug-2025 to inter-alia consider and approve the Unaudited Financial results of the Company for the Quarterly ended June 2025 . |SUBJECT: Board Meeting Intimation",
+    "publishedAt": "2025-08-09T13:56:54.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "44a877e6"
+  },
+  {
+    "id": "thehindubusinessline-467cb6b1",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "The Hindu Business Line",
+    "title": "Number of companies removed from RoC on voluntary basis crosses 8,600 in first three and half months of FY26",
+    "url": "https://www.thehindubusinessline.com/economy/number-of-companies-removed-from-roc-on-voluntary-basis-crosses-8600-in-first-three-and-half-months-of-fy26/article69913416.ece",
+    "summary": "Meanwhile, Corporate Affairs Ministry report shows that 17,555 Indian and foreign companies were incorporated in July, which is 18% higher than 14,887 a year earlier.",
+    "fullContent": "Meanwhile, Corporate Affairs Ministry report shows that 17,555 Indian and foreign companies were incorporated in July, which is 18% higher than 14,887 a year earlier",
+    "publishedAt": "2025-08-09T13:56:28.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.905Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "467cb6b1"
+  },
+  {
+    "id": "thehindubusinessline-32cedcf6",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "The Hindu Business Line",
+    "title": "Health insurers need to tie-up with local hospitals in rural areas to expand reach: SBI Chairman C S Setty",
+    "url": "https://www.thehindubusinessline.com/money-and-banking/health-insurers-need-to-tie-up-with-local-hospitals-in-rural-areas-to-expand-reach-sbi-chairman-c-s-setty/article69913745.ece",
+    "summary": "SBI General Insurance opens 30 specialised health insurance branches in a first of its kind initiative.",
+    "fullContent": "SBI General Insurance opens 30 specialised health insurance branches in a first of its kind initiative",
+    "publishedAt": "2025-08-09T13:56:16.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.905Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "32cedcf6"
+  },
+  {
+    "id": "nse-online-announcements-2cb06c1f",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Sukhjit Starch & Chemicals Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/SUKHJIT1944_09082025135556_CONCALL.pdf",
+    "summary": "Sukhjit Starch & Chemicals Limited has informed the Exchange about Schedule of meet |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates.",
+    "fullContent": "Sukhjit Starch & Chemicals Limited has informed the Exchange about Schedule of meet |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates",
+    "publishedAt": "2025-08-09T13:56:05.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "2cb06c1f"
+  },
+  {
+    "id": "nse-online-announcements-1426eee6",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Sukhjit Starch & Chemicals Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/SUKHJIT1944_09082025135415_RATING.pdf",
+    "summary": "Sukhjit Starch & Chemicals Limited has informed the Exchange about Credit Rating |SUBJECT: Credit Rating.",
+    "fullContent": "Sukhjit Starch & Chemicals Limited has informed the Exchange about Credit Rating |SUBJECT: Credit Rating",
+    "publishedAt": "2025-08-09T13:55:08.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "1426eee6"
+  },
+  {
+    "id": "zerohedge-644c2b7e",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "Trump–Putin Alaska Summit: Peace Talks And Power Plays On Former Russian Soil",
+    "url": "https://www.zerohedge.com/markets/trump-putin-alaska-summit-peace-talks-and-power-plays-former-russian-soil",
+    "summary": "Trump–Putin Alaska Summit: Peace Talks And Power Plays On Former Russian Soil Submitted by Thomas Kolbe Donald Trump stays true to his line and asserts dominance over the geopolitical chessboard — symbolically as well.",
+    "fullContent": "Trump–Putin Alaska Summit: Peace Talks And Power Plays On Former Russian Soil Submitted by Thomas Kolbe Donald Trump stays true to his line and asserts dominance over the geopolitical chessboard — symbolically as well. Following the announcement of a trade deal with the EU at his golf resort in Turnberry, Scotland, peace talks in the Ukraine conflict with Russian President Vladimir Putin are now scheduled in Alaska. The venue of a negotiation often predefines the balance of power between opponents. In that sense, it must be read as a clear show of force that both European Commission President Ursula von der Leyen and UK Prime Minister Keir Starmer — notably without military fanfare — traveled to Trump’s private resort in Turnberry to be politically “placed” by the American president. Judging by the outcome of those talks, one conclusion is unavoidable: the European Union no longer plays in the league of the great powers. Washington’s interest in intra-European affairs has noticeably cooled, focusing essentially on two things: an orderly withdrawal from military entanglements, and the defense of US corporate interests in the EU single market. We are witnessing a shift of power from the Atlantic to the Pacific. Europe Losing Grip It’s hardly a secret: China and the United States will be setting the standards of international politics in the future. Russia, the world’s most resource-rich country, may be labeled by Europeans as a pariah state and a malicious hub of all evil — but that does not change the fact that the age of postcolonial European dominance is ending, and Moscow will have no trouble playing its resource-market cards outside the shrinking European sphere of influence. In this spirit, Russian President Vladimir Putin will travel on August 15 to “away territory” in Alaska — once part of Russia — to preliminarily negotiate peace terms in Ukraine with President Trump. Trump sees progress in the stalemated conflict and stresses that the talks will likely lead to a land-swap arrangement “to the benefit of both sides.” While the Russian government has not issued an official statement, much suggests Moscow will not return the occupied territories in Donbas, Luhansk, Zaporizhzhia, and Kherson, nor Crimea. Russia currently holds the military initiative and is increasing pressure on Ukraine and its allies to force a resolution. To avoid overshadowing the personal meeting, the White House postponed a tariff ultimatum — originally set for August 9 — that would have imposed 100% duties on Russian goods if the war continued, pushing it back to August 27. Alaska as a Signal We will have to see what unfolds in the meantime and whether potential disruptions derail this cautious rapprochement once more. One recalls the much-discussed visit of former UK Prime Minister Boris Johnson, who, two months after the outbreak of war, acted as a kind of shadow diplomat to reject a Russian-proposed peace deal. What is now on the table again — a land swap and Ukraine’s exclusion from NATO — was flatly rejected back then. Hundreds of thousands of dead and wounded later, there appears to be a renewed turn toward diplomacy in light of the bleak military situation. This time, however, it is the Americans applying pressure on the warring sides. From Europe, little is heard apart from intense rearmament efforts and a declared will to “re-militarize” the population, as the German government has repeatedly emphasized. Diplomatic Thread to Be Picked Up The diplomatic thread is now to be picked up again in Alaska. Until 1867, Alaska was Russian territory before the US purchased it from Tsar Alexander II for $7.2 million — after Russia’s defeat in the Crimean War left its treasury depleted. The geography here speaks volumes: Alaska lies between Russia and the US, separated only by the Bering Strait, symbolizing the direct neighborhood of two great powers that may now be entering a new phase of rapprochement in a rapidly changing world order. For the Ukraine talks, the location signals that even deeply rooted geopolitical divides can be bridged through pragmatic agreements. At the same time, Alaska has strategic importance for the Arctic, whose trade routes and resources will likely be integrated into the future architecture of global power. By hosting the Russian president at such a neuralgic spot, Trump fuses historical reconciliation with present-day power politics, creating a symbolic setting that suggests readiness for compromise without conceding sovereignty. Trump’s Move What might look like a PR coup in the headlines is in reality a move at the highest level of geopolitics. By inviting Putin onto US soil, Trump openly breaks with the prevailing doctrine of keeping Russia isolated. The ICC arrest warrant, the sanctions regime, years of carefully cultivated enemy imagery — all of it, should the meeting take place, would evaporate in significance with a single photograph. The message: The rules the foreign-policy establishment holds as untouchable are negotiable — not carved in stone — at least if the President of the United States decides so. Behind closed doors, the focus will likely be on redrawing spheres of influence: a possible Ukraine endgame in exchange for Russian concessions — energy, Arctic passage, perhaps even a gradual distancing from Beijing. For Trump, the meeting offers a chance to pull Russia, perhaps through trade, into America’s geostrategic orbit. This would align with the raw-materials deal signed with Ukraine in April, granting the US exclusive access to the country’s rare earths as well as certain oil and gas reserves. But the true test linked to this meeting lies within the inner workings of America’s power machine: Can Trump carry out such an unconventional operation without sabotage from his own security apparatus? Should he manage to launch a robust peace process, he will have proven that he has taken full control of US foreign policy strategy. That would be a decisive blow against the neocons pushing for escalation in Ukraine — and a further step toward peace. * * * About the author: Thomas Kolbe is a German graduate economist who has worked as a journalist and media producer for clients from various industries and business associations. As a publicist, he focuses on economic processes and observes geopolitical events from the perspective of the capital markets. His publications follow a philosophy that focuses on the individual and their right to self-determination. Tyler Durden Sat, 08/09/2025 - 09:55",
+    "publishedAt": "2025-08-09T13:55:00.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.709Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "644c2b7e"
+  },
+  {
+    "id": "nse-online-announcements-6588c4bc",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Total Transport Systems Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/TOTAL_09082025134552_AGM_Newspaper_Total.pdf",
+    "summary": "Total Transport Systems Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Total Transport Systems Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T13:46:06.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "6588c4bc"
+  },
+  {
+    "id": "nse-online-announcements-1ca7183c",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "IFGL Refractories Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/IFGLEXPOR_09082025134241_Outcome.pdf",
+    "summary": "IFGL Refractories Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "IFGL Refractories Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T13:46:05.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "1ca7183c"
+  },
+  {
+    "id": "nse-online-announcements-7aa476cd",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "La Opala RG Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/LAOPALA_09082025134330_LORG_SE_Intimation_Newspaper_Saksham_Niveshak_F.pdf",
+    "summary": "La Opala RG Limited has informed the Exchange about Copy of Newspaper Publication with respect to the Notice to Shareholders regarding the 100 Days Campaign Saksham Niveshak initiated by the IEPF and MCA. |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "La Opala RG Limited has informed the Exchange about Copy of Newspaper Publication with respect to the Notice to Shareholders regarding the 100 Days Campaign Saksham Niveshak initiated by the IEPF and MCA. |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T13:43:57.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "7aa476cd"
+  },
+  {
+    "id": "nse-online-announcements-79ebc9c6",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Jubilant Agri and Consumer Products Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/JACPL_09082025134149_FRNP30062025.pdf",
+    "summary": "Jubilant Agri and Consumer Products Limited has informed the Exchange about Copy of Newspaper Publication on Unaudited Financial Results of the Company for the Quarter Ended June 30, 2025 |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Jubilant Agri and Consumer Products Limited has informed the Exchange about Copy of Newspaper Publication on Unaudited Financial Results of the Company for the Quarter Ended June 30, 2025 |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T13:42:19.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "79ebc9c6"
+  },
+  {
+    "id": "nse-online-announcements-733ffe64",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "SMS Pharmaceuticals Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/SMSPHARMA_09082025134140_Statement_of_Deviation.pdf",
+    "summary": "SMS Pharmaceuticals Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32 |SUBJECT: Statement of deviation(s) or variation(s) under Reg. 32.",
+    "fullContent": "SMS Pharmaceuticals Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32 |SUBJECT: Statement of deviation(s) or variation(s) under Reg. 32",
+    "publishedAt": "2025-08-09T13:41:54.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "733ffe64"
+  },
+  {
+    "id": "techmeme-7158030e",
+    "sourceId": "techmeme",
+    "sourceName": "Techmeme",
+    "title": "Despite stablecoins reaching $5T in transaction volumes in 2025, their promise of cheaper cross-border payments is hampered by persistent foreign exchange costs (Sidhartha Shukla/Bloomberg)",
+    "url": "http://www.techmeme.com/250809/p7#a250809p7",
+    "summary": "Sidhartha Shukla / Bloomberg: Despite stablecoins reaching $5T in transaction volumes in 2025, their promise of cheaper cross-border payments is hampered by persistent foreign exchange costs — Even as stablecoins enter a period of peak expectations, veterans in wider fintech...",
+    "fullContent": "Sidhartha Shukla / Bloomberg: Despite stablecoins reaching $5T in transaction volumes in 2025, their promise of cheaper cross-border payments is hampered by persistent foreign exchange costs — Even as stablecoins enter a period of peak expectations, veterans in wider fintech circles see limitations to the tokens as an emerging payments tool.",
+    "publishedAt": "2025-08-09T13:40:32.000Z",
+    "fetchedAt": "2025-08-10T02:52:49.962Z",
+    "category": "technology",
+    "tags": [
+      "technology"
+    ],
+    "priority": "normal",
+    "contentHash": "7158030e"
+  },
+  {
+    "id": "thehindubusinessline-6f816477",
+    "sourceId": "thehindubusinessline",
+    "sourceName": "The Hindu Business Line",
+    "title": "We are seriously looking at IPOs for SBI General and Asset Management Company: SBI Chairman C S Setty",
+    "url": "https://www.thehindubusinessline.com/money-and-banking/we-are-seriously-looking-at-ipos-for-sbi-general-and-asset-management-company-sbi-chairman-c-s-setty/article69913605.ece",
+    "summary": "Direct impact of US tariffs on India could be limited, says C S Setty.",
+    "fullContent": "Direct impact of US tariffs on India could be limited, says C S Setty",
+    "publishedAt": "2025-08-09T13:38:05.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.905Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "6f816477"
+  },
+  {
+    "id": "nse-online-announcements-3bb6b92c",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Century Extrusions Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/CENTEXT_09082025133649_NewspaperPublication09082025.pdf",
+    "summary": "Century Extrusions Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Century Extrusions Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T13:37:30.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "3bb6b92c"
+  },
+  {
+    "id": "jacobin-magazine-575db78a",
     "sourceId": "jacobin-magazine",
     "sourceName": "Jacobin Magazine",
-    "title": "Europe Is Complicit in Israeli Genocide",
-    "url": "https://jacobin.com/2025/08/european-union-israel-kallas-merz/",
-    "summary": "Whole cities in Gaza lie in ruins. Israel has killed at least many tens of thousands of people. Starvation is widespread, and a growing chorus of international legal experts warn of mounting genocide.",
-    "fullContent": "Whole cities in Gaza lie in ruins. Israel has killed at least many tens of thousands of people. Starvation is widespread, and a growing chorus of international legal experts warn of mounting genocide. Yet, the European Union continues its preferential trade and research partnership with Israel through the EU–Israel Association Agreement — a pact which [&hellip;]",
-    "publishedAt": "2025-08-09T08:58:07.000Z",
+    "title": "Donald Trump Seems Intent on Sabotaging US Dominance",
+    "url": "https://jacobin.com/2025/08/trump-china-india-brazil-trade-war/",
+    "summary": "It is highly debatable whether a strategy of US primacy — meaning, a global power arrangement where the United States is not just one of a number of similarly powerful nations, but by far the most powerful and influential — is even in the country’s best interests.",
+    "fullContent": "It is highly debatable whether a strategy of US primacy — meaning, a global power arrangement where the United States is not just one of a number of similarly powerful nations, but by far the most powerful and influential — is even in the country’s best interests. Pursuit of this goal has been devastating for [&hellip;]",
+    "publishedAt": "2025-08-09T13:35:57.000Z",
     "fetchedAt": "2025-08-10T02:57:24.116Z",
     "category": "eclectic",
     "tags": [
       "eclectic"
     ],
     "priority": "normal",
-    "contentHash": "2051aae5"
+    "contentHash": "575db78a"
   },
   {
-    "id": "ppfas-mf-youtube-12a7cd08",
-    "sourceId": "ppfas-mf-youtube",
-    "sourceName": "PPFAS Mutual Fund YouTube",
-    "title": "Unlock Growth Potential with Parag Parikh Flexi Cap Fund!",
-    "url": "https://www.youtube.com/watch?v=sGahdXpc3pM",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T08:51:43.000Z",
-    "fetchedAt": "2025-08-12T04:43:58.569Z",
-    "category": "videos",
+    "id": "the-verge-4c18a152",
+    "sourceId": "the-verge",
+    "sourceName": "The Verge",
+    "title": "Aura’s Aspen impressive digital frame is the most affordable it’s been",
+    "url": "https://www.theverge.com/tech/756979/aura-aspen-digital-photo-frame-garmin-inreach-mini-2-deal-sale",
+    "summary": "Returning to work or school from summer vacation is never easy, but the Aura Aspen could help you hold onto your favorite memories by putting them front and center. And right now, you can pick up the digital photo frame for around $199 ($30 off) from Amazon, Best Buy, and...",
+    "fullContent": "Returning to work or school from summer vacation is never easy, but the Aura Aspen could help you hold onto your favorite memories by putting them front and center. And right now, you can pick up the digital photo frame for around $199 ($30 off) from Amazon, Best Buy, and Aura, which is a new [&#8230;]",
+    "publishedAt": "2025-08-09T13:35:26.000Z",
+    "fetchedAt": "2025-08-10T02:52:49.550Z",
+    "category": "technology",
     "tags": [
-      "videos"
+      "technology"
     ],
     "priority": "normal",
-    "contentHash": "12a7cd08"
+    "contentHash": "4c18a152"
   },
   {
-    "id": "nse-online-announcements-22c207be",
+    "id": "nse-online-announcements-25148c90",
     "sourceId": "nse-online-announcements",
     "sourceName": "NSE Online Announcements",
-    "title": "Gokaldas Exports Limited",
-    "url": "https://nsearchives.nseindia.com/corporate/GOKEX_09082025084912_outcomeofboardmeeting.pdf",
-    "summary": "Gokaldas Exports Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting.",
-    "fullContent": "Gokaldas Exports Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting",
-    "publishedAt": "2025-08-09T08:49:45.000Z",
-    "fetchedAt": "2025-08-09T09:50:59.666Z",
+    "title": "Hisar Metal Industries Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/HISARMETAL_09082025133358_MergedResult.pdf",
+    "summary": "Hisar Metal Industries Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "Hisar Metal Industries Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T13:34:50.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
     "category": "filings",
     "tags": [
       "filings"
     ],
     "priority": "normal",
-    "contentHash": "22c207be"
+    "contentHash": "25148c90"
   },
   {
-    "id": "ndtv-profit-rss-29874858",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "SEBI Proposes Easier FPI Entry For Indians And Mutual Funds",
-    "url": "https://www.ndtvprofit.com/markets/sebi-proposes-easier-fpi-entry-for-indians-and-mutual-funds",
-    "summary": "The market regulator is seeking public feedback on the proposals till Aug. 29, 2025.",
-    "fullContent": "The market regulator is seeking public feedback on the proposals till Aug. 29, 2025.",
-    "publishedAt": "2025-08-09T08:49:43.349Z",
-    "fetchedAt": "2025-08-09T09:42:11.267Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "29874858"
-  },
-  {
-    "id": "nse-online-announcements-1420e5a",
+    "id": "nse-online-announcements-2ee8ab36",
     "sourceId": "nse-online-announcements",
     "sourceName": "NSE Online Announcements",
-    "title": "Gokaldas Exports Limited",
-    "url": "https://nsearchives.nseindia.com/corporate/GOKEX_09082025084722_outcomeofboardmeeting.pdf",
-    "summary": "Gokaldas Exports Limited has informed the Exchange regarding Outcome of Board Meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting.",
-    "fullContent": "Gokaldas Exports Limited has informed the Exchange regarding Outcome of Board Meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting",
-    "publishedAt": "2025-08-09T08:47:48.000Z",
-    "fetchedAt": "2025-08-09T09:50:59.666Z",
+    "title": "Hisar Metal Industries Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/HISARMETAL_09082025132903_MergedResult.pdf",
+    "summary": "Hisar Metal Industries Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "Hisar Metal Industries Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T13:33:10.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
     "category": "filings",
     "tags": [
       "filings"
     ],
     "priority": "normal",
-    "contentHash": "1420e5a"
+    "contentHash": "2ee8ab36"
   },
   {
-    "id": "scmp-business-2ac67fc6",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Hong Kong police arrest 42 riders in crackdown on illegal use of e-bikes",
-    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3321313/hong-kong-police-arrest-42-riders-crackdown-illegal-use-e-bikes?utm_source=rss_feed",
-    "summary": "Hong Kong police arrested 42 riders, including 11 food delivery couriers, for using electric bicycles on the road in a crackdown in western Kowloon earlier this week. The force said on Saturday that the group comprised 39 men and three women, aged between 18 and 66, of whom 10...",
-    "fullContent": "Hong Kong police arrested 42 riders, including 11 food delivery couriers, for using electric bicycles on the road in a crackdown in western Kowloon earlier this week. The force said on Saturday that the group comprised 39 men and three women, aged between 18 and 66, of whom 10 were non-locals. Their vehicles were also seized. Among those arrested were also 11 food delivery riders, including an asylum seeker, who allegedly drove electric bicycles to transport takeaway orders, according to...",
-    "publishedAt": "2025-08-09T08:47:11.000Z",
-    "fetchedAt": "2025-08-09T09:42:11.712Z",
-    "category": "markets",
+    "id": "wired-d9c9763",
+    "sourceId": "wired",
+    "sourceName": "Wired",
+    "title": "3 Best Steam Mops, Tested for Months (2025)",
+    "url": "https://www.wired.com/gallery/best-steam-mops/",
+    "summary": "Get those floors squeaky clean with the help of these steamy gadgets.",
+    "fullContent": "Get those floors squeaky clean with the help of these steamy gadgets.",
+    "publishedAt": "2025-08-09T13:32:00.000Z",
+    "fetchedAt": "2025-08-10T02:52:49.559Z",
+    "category": "technology",
     "tags": [
-      "markets"
+      "technology"
     ],
     "priority": "normal",
-    "contentHash": "2ac67fc6"
+    "contentHash": "d9c9763"
   },
   {
-    "id": "scmp-business-7fdaf785",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Hong Kong police arrest 42 riders in crackdown on illegal use of e-bikes",
-    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3321313/hong-kong-police-arrest-42-riders-crackdown-illegal-use-e-bikes?utm_source=rss_feed",
-    "summary": "Hong Kong police arrested 42 riders, including 11 food delivery couriers, for allegedly using electric bicycles on the road in a crackdown in western Kowloon earlier this week. The force said on Saturday that the group comprised 39 men and three women, aged between 18 and 66,...",
-    "fullContent": "Hong Kong police arrested 42 riders, including 11 food delivery couriers, for allegedly using electric bicycles on the road in a crackdown in western Kowloon earlier this week. The force said on Saturday that the group comprised 39 men and three women, aged between 18 and 66, of whom 10 were non-locals. Their bikes were also seized. Among those arrested were 11 food delivery riders, including an asylum seeker, who allegedly drove electric bicycles to transport takeaway orders, according to...",
-    "publishedAt": "2025-08-09T08:47:11.000Z",
-    "fetchedAt": "2025-08-10T02:52:50.189Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "7fdaf785"
-  },
-  {
-    "id": "ndtv-profit-rss-37adddce",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "Precision Wires Q1 Results: Profit Rises 21%",
-    "url": "https://www.ndtvprofit.com/quarterly-earnings/precision-wires-q1-results-profit-rises-over-21-percen",
-    "summary": "The company will execute a fresh expansion and modernisation project at Silvassa at an estimated cost of Rs 37 crore.",
-    "fullContent": "The company will execute a fresh expansion and modernisation project at Silvassa at an estimated cost of Rs 37 crore.",
-    "publishedAt": "2025-08-09T08:46:00.727Z",
-    "fetchedAt": "2025-08-09T09:42:11.267Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "37adddce"
-  },
-  {
-    "id": "thehindubusinessline-6e1ef967",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "Training aircraft crash-lands near Baramati airport; no injuries",
-    "url": "https://www.thehindubusinessline.com/economy/logistics/training-aircraft-crash-lands-near-baramati-airport-no-injuries/article69912946.ece",
-    "summary": "The incident occurred when the aircraft, owned by Redbird Flight Training Centre, was landing after completing a training sortie.",
-    "fullContent": "The incident occurred when the aircraft, owned by Redbird Flight Training Centre, was landing after completing a training sortie",
-    "publishedAt": "2025-08-09T08:43:37.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.256Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "6e1ef967"
-  },
-  {
-    "id": "ndtv-profit-rss-158c7a83",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "Russia-Ukraine: Zelenskiy Rejects Giving Up Territory For Peace With Putin",
-    "url": "https://www.ndtvprofit.com/world/russia-ukraine-zelenskiy-rejects-giving-up-territory-for-peace-with-putin",
-    "summary": "Senior officials from Ukraine, the US and Europe are set to meet in the UK ahead of Trump’s summit with Putin, according to people familiar with the plan.",
-    "fullContent": "Senior officials from Ukraine, the US and Europe are set to meet in the UK ahead of Trump’s summit with Putin, according to people familiar with the plan.",
-    "publishedAt": "2025-08-09T08:41:33.549Z",
-    "fetchedAt": "2025-08-09T09:42:11.267Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "158c7a83"
-  },
-  {
-    "id": "thehindubusinessline-146c1a5",
-    "sourceId": "thehindubusinessline",
-    "sourceName": "The Hindu Business Line",
-    "title": "FIIs post fourth consecutive week of outflows amid US trade tensions",
-    "url": "https://www.thehindubusinessline.com/markets/stock-markets/fiis-post-fourth-consecutive-week-of-outflows-amid-us-trade-tensions/article69912919.ece",
-    "summary": "The week witnessed significant volatility in FPI flows, with the largest single-day outflow of ₹5,165 crore recorded on August 8, marking one of the heaviest selling sessions.",
-    "fullContent": "The week witnessed significant volatility in FPI flows, with the largest single-day outflow of ₹5,165 crore recorded on August 8, marking one of the heaviest selling sessions",
-    "publishedAt": "2025-08-09T08:36:26.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.256Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "146c1a5"
-  },
-  {
-    "id": "ndtv-profit-youtube-60611de4",
-    "sourceId": "ndtv-profit-youtube",
-    "sourceName": "NDTV Profit YouTube",
-    "title": "Israel Gaza War | Germany Halts Arms Exports To Israel Over Gaza City Occupation Plan",
-    "url": "https://www.youtube.com/watch?v=-LArTj0IKAk",
+    "id": "dwarkesh-patel-youtube-1d025143",
+    "sourceId": "dwarkesh-patel-youtube",
+    "sourceName": "Dwarkesh Patel YouTube",
+    "title": "What PETA Activists Get Wrong",
+    "url": "https://www.youtube.com/watch?v=VLIjOzyc_N0",
     "summary": "",
     "fullContent": "",
-    "publishedAt": "2025-08-09T08:34:08.000Z",
-    "fetchedAt": "2025-08-09T09:42:18.577Z",
+    "publishedAt": "2025-08-09T13:30:29.000Z",
+    "fetchedAt": "2025-08-10T02:53:09.030Z",
     "category": "videos",
     "tags": [
       "videos"
     ],
     "priority": "normal",
-    "contentHash": "60611de4"
+    "contentHash": "1d025143"
   },
   {
-    "id": "scmp-business-75f35c76",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Hong Kong government to introduce stricter fitness checks for commercial drivers",
-    "url": "https://www.scmp.com/news/hong-kong/transport/article/3321312/hong-kong-government-introduce-stricter-fitness-checks-commercial-drivers?utm_source=rss_feed",
-    "summary": "A government proposal to tighten physical fitness requirements for commercial vehicle drivers in Hong Kong will be introduced to the legislature no later than the first quarter of next year, according to the city’s transport minister.",
-    "fullContent": "A government proposal to tighten physical fitness requirements for commercial vehicle drivers in Hong Kong will be introduced to the legislature no later than the first quarter of next year, according to the city’s transport minister. Secretary for Transport and Logistics Mable Chan also said on Saturday that physical fitness checks could include tests for hearing and screening for conditions such as dementia, as well as stricter eye examinations. Chan’s remarks followed renewed calls for...",
-    "publishedAt": "2025-08-09T08:32:14.000Z",
-    "fetchedAt": "2025-08-09T09:42:11.712Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "75f35c76"
-  },
-  {
-    "id": "scmp-business-3bc752ff",
-    "sourceId": "scmp-business",
-    "sourceName": "SCMP Business",
-    "title": "Stricter fitness checks for Hong Kong taxi drivers on way",
-    "url": "https://www.scmp.com/news/hong-kong/transport/article/3321312/hong-kong-government-introduce-stricter-fitness-checks-commercial-drivers?utm_source=rss_feed",
-    "summary": "A government proposal to tighten physical fitness requirements for commercial vehicle drivers in Hong Kong will be introduced to the legislature no later than the first quarter of next year, the city’s transport minister has said.",
-    "fullContent": "A government proposal to tighten physical fitness requirements for commercial vehicle drivers in Hong Kong will be introduced to the legislature no later than the first quarter of next year, the city’s transport minister has said. Secretary for Transport and Logistics Mable Chan also said on Saturday that physical fitness checks could include tests for hearing and screening for conditions such as dementia, as well as stricter eye examinations. Chan’s remarks followed renewed calls for stricter...",
-    "publishedAt": "2025-08-09T08:32:14.000Z",
-    "fetchedAt": "2025-08-10T02:52:50.189Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "3bc752ff"
-  },
-  {
-    "id": "nse-online-announcements-45d6db44",
+    "id": "nse-online-announcements-2fbb764",
     "sourceId": "nse-online-announcements",
     "sourceName": "NSE Online Announcements",
-    "title": "Garware Technical Fibres Limited",
-    "url": "https://nsearchives.nseindia.com/corporate/GARFIBRES_09082025082531_FRNewspaperSEUpload09082025.pdf",
-    "summary": "Garware Technical Fibres Limited has informed the Exchange about Copy of Newspaper Publication-Extract of Unaudited Standalone and Consolidated FinancialResults for the quarter ended 30th June, 2025. |SUBJECT: Copy of Newspaper Publication.",
-    "fullContent": "Garware Technical Fibres Limited has informed the Exchange about Copy of Newspaper Publication-Extract of Unaudited Standalone and Consolidated FinancialResults for the quarter ended 30th June, 2025. |SUBJECT: Copy of Newspaper Publication",
-    "publishedAt": "2025-08-09T08:26:04.000Z",
-    "fetchedAt": "2025-08-09T09:50:59.666Z",
+    "title": "SMS Pharmaceuticals Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/SMSPHARMA_09082025132518_OutcomeBM09082025.pdf",
+    "summary": "SMS Pharmaceuticals Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "SMS Pharmaceuticals Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T13:30:14.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
     "category": "filings",
     "tags": [
       "filings"
     ],
     "priority": "normal",
-    "contentHash": "45d6db44"
+    "contentHash": "2fbb764"
   },
   {
-    "id": "thehindubusinessline-4398cd07",
+    "id": "bloomberg-markets-52beb9d9",
+    "sourceId": "bloomberg-markets",
+    "sourceName": "Bloomberg Markets",
+    "title": "A Global Market Based on Gold Bars Shudders on Tariff Threat",
+    "url": "https://www.bloomberg.com/news/articles/2025-08-09/a-global-market-based-on-gold-bars-shudders-on-tariff-threat",
+    "summary": "The global gold market relies on a network of banks, refineries and couriers that can fly bullion between key trading hubs at a moment’s notice in pursuit of the highest prices. On Friday, a shock US ruling suggesting that the metal would be subject to tariffs plunged that...",
+    "fullContent": "The global gold market relies on a network of banks, refineries and couriers that can fly bullion between key trading hubs at a moment’s notice in pursuit of the highest prices. On Friday, a shock US ruling suggesting that the metal would be subject to tariffs plunged that system into chaos.",
+    "publishedAt": "2025-08-09T13:30:00.000Z",
+    "fetchedAt": "2025-08-10T02:52:47.425Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "52beb9d9"
+  },
+  {
+    "id": "nse-online-announcements-1d1125e1",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "CEAT Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/CEATLTD_09082025132750_CEATSENewspaperPublicationsigned.pdf",
+    "summary": "Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T13:28:41.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.662Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "1d1125e1"
+  },
+  {
+    "id": "nse-online-announcements-781d1bea",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Power Mech Projects Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/POWERMECH_09082025132801_Intimation_Concall.pdf",
+    "summary": "Power Mech Projects Limited has informed the Exchange about Schedule of meet |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates.",
+    "fullContent": "Power Mech Projects Limited has informed the Exchange about Schedule of meet |SUBJECT: Analysts/Institutional Investor Meet/Con. Call Updates",
+    "publishedAt": "2025-08-09T13:28:14.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.664Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "781d1bea"
+  },
+  {
+    "id": "thehindubusinessline-455677f6",
     "sourceId": "thehindubusinessline",
     "sourceName": "The Hindu Business Line",
-    "title": "NBCC Q1 net profit rises 26% to ₹135 crore",
-    "url": "https://www.thehindubusinessline.com/companies/nbcc-q1-net-profit-rises-26-to-135-crore/article69912931.ece",
-    "summary": "The total income grew to ₹2,465.48 crore during the April-June period of 2025-26 fiscal from ₹2,196.20 crore in the corresponding period of the preceding year, according to a recent regulatory filing.",
-    "fullContent": "The total income grew to ₹2,465.48 crore during the April-June period of 2025-26 fiscal from ₹2,196.20 crore in the corresponding period of the preceding year, according to a recent regulatory filing",
-    "publishedAt": "2025-08-09T08:25:38.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.256Z",
+    "title": "With new airport terminal, Maldives eyes more visitors",
+    "url": "https://www.thehindubusinessline.com/economy/logistics/with-new-airport-terminal-maldives-eyes-more-visitors/article69913662.ece",
+    "summary": "As the island nation tries stabilising its debt-burdened economy, it has pinned its hopes on increased tourist arrivals.",
+    "fullContent": "As the island nation tries stabilising its debt-burdened economy, it has pinned its hopes on increased tourist arrivals",
+    "publishedAt": "2025-08-09T13:25:36.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.905Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "4398cd07"
+    "contentHash": "455677f6"
   },
   {
-    "id": "ndtv-profit-youtube-67b4302b",
-    "sourceId": "ndtv-profit-youtube",
-    "sourceName": "NDTV Profit YouTube",
-    "title": "Trump News | Azerbaijan, Armenia Back Trump's Nobel Peace Prize Nomination After Peace Deal",
-    "url": "https://www.youtube.com/watch?v=93Oh9rkpbxs",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T08:21:35.000Z",
-    "fetchedAt": "2025-08-09T09:42:18.577Z",
-    "category": "videos",
+    "id": "nse-online-announcements-2042c92a",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Quality Power Electrical Equipments Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/QPOWER1234_09082025132139_IntimationofNewspaperPublicationResults090825Sign.pdf",
+    "summary": "Quality Power Electrical Equipments Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Quality Power Electrical Equipments Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T13:22:12.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.664Z",
+    "category": "filings",
     "tags": [
-      "videos"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "67b4302b"
+    "contentHash": "2042c92a"
   },
   {
-    "id": "et-markets-abded8b",
-    "sourceId": "et-markets",
-    "sourceName": "Economic Times Markets",
-    "title": "Swiggy, Ola Electric among 42 inclusions, weights up in August 2025 MSCI index rejig",
-    "url": "https://economictimes.indiatimes.com/markets/stocks/news/swiggy-ola-electric-among-42-inclusions-weights-up-in-august-2025-msci-index-rejig/slideshow/123202934.cms",
-    "summary": "Here are the stocks that were included or saw a weight up in the MSCI indices, along with the expected inflows/outflow.",
-    "fullContent": "Here are the stocks that were included or saw a weight up in the MSCI indices, along with the expected inflows/outflow.",
-    "publishedAt": "2025-08-09T08:17:43.000Z",
-    "fetchedAt": "2025-08-09T09:42:08.937Z",
+    "id": "nse-online-announcements-4996b1b7",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Tata Motors Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_09082025132156_NSEBSENEWSPAPER.pdf",
+    "summary": "Tata Motors Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Tata Motors Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T13:22:10.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.664Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "4996b1b7"
+  },
+  {
+    "id": "scmp-business-7d0b485e",
+    "sourceId": "scmp-business",
+    "sourceName": "SCMP Business",
+    "title": "Hong Kong eases seafood, fruit and electric car rules to tackle US tariff war",
+    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3321333/hong-kong-eases-seafood-fruit-and-electric-car-rules-tackle-us-tariff-war?utm_source=rss_feed",
+    "summary": "Fresh seafood and fruits arriving by air in Hong Kong for re-export can now be transferred directly to mainland China for clearance as one of several new measures to help the city remain competitive in a tariff-laden global trade environment, the customs chief has said.",
+    "fullContent": "Fresh seafood and fruits arriving by air in Hong Kong for re-export can now be transferred directly to mainland China for clearance as one of several new measures to help the city remain competitive in a tariff-laden global trade environment, the customs chief has said. Commissioner of Customs and Excise Chan Tsz-tat also told the Post in an exclusive interview that mainland-made electric vehicles (EVs) exported to Hong Kong could now be stored for free at Nansha port in Guangzhou, with the...",
+    "publishedAt": "2025-08-09T13:21:29.000Z",
+    "fetchedAt": "2025-08-10T02:52:50.188Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "abded8b"
+    "contentHash": "7d0b485e"
   },
   {
-    "id": "thehindubusinessline-19c37b54",
+    "id": "zerohedge-2b7fabe9",
+    "sourceId": "zerohedge",
+    "sourceName": "ZeroHedge",
+    "title": "International Energy Agency Policies Hurt Africans",
+    "url": "https://www.zerohedge.com/energy/international-energy-agency-policies-hurt-africans",
+    "summary": "International Energy Agency Policies Hurt Africans Authored by Brenda Shaffer via RealClearWire, One of the most important developments this century has been a major increase in energy access across the globe: Billions of people have gained access to modern energy, a...",
+    "fullContent": "International Energy Agency Policies Hurt Africans Authored by Brenda Shaffer via RealClearWire, One of the most important developments this century has been a major increase in energy access across the globe: Billions of people have gained access to modern energy, a precondition for rising from poverty. Sub-Saharan Africa is the only region of the world not benefiting from this transformation. In Africa, energy poverty is growing. For the first time since World War II, access to electricity is also backsliding in Africa. Over the past year, the International Energy Agency (IEA) has sought to address Africa’s rising energy poverty, through organizing conferences and publishing reports. The IEA and global leaders gathered in conferences in Africa. The Norwegian Agency for Development Cooperation was a major funder of the endeavor. Yet, the IEA did not offer any practical solution to address the rising energy poverty in Africa because it is unable to utter the essential words: fossil fuels. In fact, through its promotion of cutting loans and investments in fossil fuels in Africa, the IEA itself contributed to the decline in energy access in Africa. The IEA’s promotion of “Net-Zero” served as the basis of decisions in recent years by the G7, World Bank, and United Nations to cut funding and investments in fossil fuels and production of electricity from fossil fuels in Africa. The idea behind denying investments and funding for fossil fuels was that it would force Africans to adopt renewable energy. However, reducing access to fossil fuels did not lower pollution and emissions. In fact, the lack of access to stable and affordable electricity produced from fossil fuels, has led to increased pollution, emissions, and premature deaths in Africa, as Africans turn to burning dung, wood, lump coal, and other biomass for cooking and other basic energy functions. The IEA acknowledged in its recently published report “Universal Access to Clean Cooking in Africa” that burning traditional biomass releases more carbon emissions than using fossil fuels. Despite this acknowledgment that the path to lower emissions and pollution—improving public health—is through fossil fuels, the IEA isn’t willing to say the plain truth: Africa needs fossil fuels. For the IEA, like so many multilateral institutions, energy policy has become a cult in which fossil fuels are sacrilegious. The new IEA report on Africa numbers 151 pages and probably cost hundreds of thousands of dollars to compile, yet it doesn’t give any reasonable path for Africa to increase energy access. The report points to the transformation of China, Indonesia, and India in energy access over recent decades as models for Africa. However, the IEA neglects to point out that those three countries benefitted from access to coal and to government and multilateral funding to develop electricity produced from fossil fuels. Yet, Africa is denied funding and investments to develop its fossil fuel resources. In the report, the IEA sets South Africa apart as an example of a place where modern energy access is growing and the number of homes reliant on burning biomass is decreasing, in contrast to countries in sub-Saharan Africa. The IEA, however, neglects to point out that South Africa has succeeded in expanding modern energy access by developing and burning its domestic coal reserves. Coal provides 69 percent of South Africa’s energy consumption and is the source of 82 percent of its electricity production. In the report, the IEA acknowledges that liquified petroleum gas (LPG) and electricity are necessary to replace the use of traditional biomass. Yet, it still advocates blocking Africa from developing its own fossil fuel resources. According to the IEA report, imported LPG and natural gas can replace traditional biomass, but not local energy resources. What is the IEA’s answer as to how Africa will pay for that imported fuel and finance new cooking stoves? The IEA suggests that Africa sell carbon credits to fund the transition from burning wood and dung to using LPG and electricity. However, it is highly unlikely that enough revenue from carbon credits could be generated to finance a move from dung and wood—which is collected for free—to pay for stoves, LPG, and electricity. Moreover, this would increase Africa’s dependence on handouts from abroad, instead of strengthening local economies. The answer to Africa’s energy poverty is development of the continent’s oil, gas, and coal resources. Profits and taxes from the development could be used to expand LPG and electricity access in Africa. Paradoxically, as the IEA acknowledges, developing fossil fuels and producing electricity from them would lower emissions, pollution, and premature deaths in Africa. U.S. Secretary of Energy Chris Wright recently stated that the Trump administration is evaluating whether the United States should withdraw its membership from the IEA or attempt to reform the organization. The administration claims that the IEA has strayed from its mission of promoting energy security. Instead, the IEA has become another one of the dozens of major climate policy advocacy organizations. In his evaluation of the IEA, Wright should add the IEA’s role in increasing energy poverty in Africa and its use of public funding on projects that do not benefit Africans. Tyler Durden Sat, 08/09/2025 - 09:20",
+    "publishedAt": "2025-08-09T13:20:00.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.710Z",
+    "category": "markets",
+    "tags": [
+      "markets"
+    ],
+    "priority": "normal",
+    "contentHash": "2b7fabe9"
+  },
+  {
+    "id": "nse-online-announcements-6ea79033",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Precision Wires India Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/PRECWIRE_09082025131830_outcome.pdf",
+    "summary": "Precision Wires India Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting.",
+    "fullContent": "Precision Wires India Limited has informed the Exchange regarding Board meeting held on August 09, 2025. |SUBJECT: Outcome of Board Meeting",
+    "publishedAt": "2025-08-09T13:19:07.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.664Z",
+    "category": "filings",
+    "tags": [
+      "filings"
+    ],
+    "priority": "normal",
+    "contentHash": "6ea79033"
+  },
+  {
+    "id": "thehindubusinessline-1187a379",
     "sourceId": "thehindubusinessline",
     "sourceName": "The Hindu Business Line",
-    "title": "PM Modi celebrates Raksha Bandhan with school kids, Brahma Kumari members",
-    "url": "https://www.thehindubusinessline.com/multimedia/photo/pm-modi-celebrates-raksha-bandhan-with-school-kids-brahma-kumari-members/article69912938.ece",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T08:10:14.000Z",
-    "fetchedAt": "2025-08-09T09:42:09.256Z",
+    "title": "Tamil Nadu's textile exporters to US choose 'wait and watch' mode; some pause production",
+    "url": "https://www.thehindubusinessline.com/economy/tamil-nadus-textile-exporters-to-us-choose-wait-and-watch-mode-some-pause-production/article69913671.ece",
+    "summary": "With the US hitting India with a 50% tariff, they said textile and garment exporters to US are keeping their fingers crossed and are under a 'wait and watch' mode.",
+    "fullContent": "With the US hitting India with a 50% tariff, they said textile and garment exporters to US are keeping their fingers crossed and are under a 'wait and watch' mode",
+    "publishedAt": "2025-08-09T13:18:11.000Z",
+    "fetchedAt": "2025-08-10T02:52:48.905Z",
     "category": "markets",
     "tags": [
       "markets"
     ],
     "priority": "normal",
-    "contentHash": "19c37b54"
+    "contentHash": "1187a379"
   },
   {
-    "id": "ndtv-profit-rss-527d7780",
-    "sourceId": "ndtv-profit-rss",
-    "sourceName": "NDTV Profit RSS",
-    "title": "PM Modi To Visit Bengaluru On Sunday To Launch Vande Bharat Express, Yellow Line Metro",
-    "url": "https://www.ndtvprofit.com/nation/pm-modi-to-visit-bengaluru-on-sunday-to-launch-yellow-line-metro-vande-bharat-express",
-    "summary": "Modi will participate in three events during his nearly four-hour visit to the city.",
-    "fullContent": "Modi will participate in three events during his nearly four-hour visit to the city.",
-    "publishedAt": "2025-08-09T08:06:03.955Z",
-    "fetchedAt": "2025-08-09T09:42:11.267Z",
-    "category": "markets",
+    "id": "nse-online-announcements-398270ac",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Dhampur Sugar Mills Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/DHAMPURSUG_09082025131337_Advt_merged.pdf",
+    "summary": "Dhampur Sugar Mills Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication.",
+    "fullContent": "Dhampur Sugar Mills Limited has informed the Exchange about Copy of Newspaper Publication |SUBJECT: Copy of Newspaper Publication",
+    "publishedAt": "2025-08-09T13:15:15.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.664Z",
+    "category": "filings",
     "tags": [
-      "markets"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "527d7780"
+    "contentHash": "398270ac"
   },
   {
-    "id": "cnbc-tv18-youtube-485a7c32",
-    "sourceId": "cnbc-tv18-youtube",
-    "sourceName": "CNBC TV18 YouTube",
-    "title": "Kolkata Doctor Rape Case Protest LIVE | Justice for Abhaya | R.G. Kar Medical Hospital | Hindi News",
-    "url": "https://www.youtube.com/watch?v=EjBR6-r7A4s",
-    "summary": "",
-    "fullContent": "",
-    "publishedAt": "2025-08-09T08:04:18.000Z",
-    "fetchedAt": "2025-08-09T09:42:15.443Z",
-    "category": "videos",
+    "id": "nse-online-announcements-6974e971",
+    "sourceId": "nse-online-announcements",
+    "sourceName": "NSE Online Announcements",
+    "title": "Bartronics India Limited",
+    "url": "https://nsearchives.nseindia.com/corporate/BARTRONICS1_09082025131458_Shifting_of_office_08082025.pdf",
+    "summary": "Bartronics India Limited has informed the Exchange regarding change in Registered Office of the company. |SUBJECT: Address Change.",
+    "fullContent": "Bartronics India Limited has informed the Exchange regarding change in Registered Office of the company. |SUBJECT: Address Change",
+    "publishedAt": "2025-08-09T13:15:12.000Z",
+    "fetchedAt": "2025-08-09T09:50:59.664Z",
+    "category": "filings",
     "tags": [
-      "videos"
+      "filings"
     ],
     "priority": "normal",
-    "contentHash": "485a7c32"
-  },
-  {
-    "id": "fortune-491b631",
-    "sourceId": "fortune",
-    "sourceName": "Fortune",
-    "title": "Multimillionaire Rashaun Williams landed a seat next to Mark Cuban on &#8216;Shark Tank&#8217; by sneaking into events he wasn&#8217;t invited to and saying &#8216;here me out&#8217;",
-    "url": "https://fortune.com/2025/08/09/multimillionaire-rashaun-williams-shark-tank-mark-cuban-kevin-oleary-gen-z-manifesting-delulu/",
-    "summary": "The venture capitalist admits his secret for success hasn’t always been following the norms—but rather manifesting his dreams.",
-    "fullContent": "The venture capitalist admits his secret for success hasn’t always been following the norms—but rather manifesting his dreams.",
-    "publishedAt": "2025-08-09T08:03:00.000Z",
-    "fetchedAt": "2025-08-09T09:42:11.326Z",
-    "category": "markets",
-    "tags": [
-      "markets"
-    ],
-    "priority": "normal",
-    "contentHash": "491b631"
+    "contentHash": "6974e971"
   }
 ]
