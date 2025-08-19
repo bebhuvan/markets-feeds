@@ -604,7 +604,7 @@ const sourceName = sourceNames[source] || source.replace(/-/g, ' ').replace(/\w\
                                 <span class="article-time">${this.getRelativeTime(new Date(article.publishedAt))}</span>
                             </div>
                         </div>
-                        ${article.description || article.excerpt ? `<p class="article-excerpt">${this.escapeHtml(article.description || article.excerpt)}</p>` : ''}
+                        ${article.description || article.excerpt ? `<p class="article-excerpt">${this.cleanHtml(article.description || article.excerpt)}</p>` : ''}
                     </li>
                 `).join('');
 
@@ -631,6 +631,44 @@ const sourceName = sourceNames[source] || source.replace(/-/g, ' ').replace(/\w\
                 const div = document.createElement('div');
                 div.textContent = text;
                 return div.innerHTML;
+            }
+
+            cleanHtml(html) {
+                if (!html) return '';
+                
+                // Create a temporary div to parse HTML
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = html;
+                
+                // Get text content (strips all HTML tags)
+                let text = tempDiv.textContent || tempDiv.innerText || '';
+                
+                // Decode common HTML entities
+                const entityMap = {
+                    '&#8220;': '"',
+                    '&#8221;': '"', 
+                    '&#8217;': "'",
+                    '&#8216;': "'",
+                    '&#8230;': '...',
+                    '&#8211;': '–',
+                    '&#8212;': '—',
+                    '&quot;': '"',
+                    '&apos;': "'",
+                    '&lt;': '<',
+                    '&gt;': '>',
+                    '&amp;': '&',
+                    '&nbsp;': ' '
+                };
+                
+                // Replace HTML entities
+                for (const [entity, replacement] of Object.entries(entityMap)) {
+                    text = text.replace(new RegExp(entity, 'g'), replacement);
+                }
+                
+                // Clean up extra whitespace
+                text = text.replace(/\s+/g, ' ').trim();
+                
+                return text;
             }
 
             getRelativeTime(date) {

@@ -18,15 +18,23 @@
     "dev:mock": "concurrently \"node mock-server.js\" \"cd frontend && npm run dev\"",
     "build": "npm run worker:deploy && cd frontend && npm run build"
   },
-  "keywords": ["rss", "feed", "aggregator", "search", "cloudflare", "astro"],
+  "keywords": [
+    "rss",
+    "feed",
+    "aggregator",
+    "search",
+    "cloudflare",
+    "astro"
+  ],
   "author": "Research Feed Team",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.0"
   },
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fast-xml-parser": "^5.2.5",
     "node-fetch": "^3.3.2"
   },
   "type": "module"
