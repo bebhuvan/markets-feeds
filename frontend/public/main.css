@@ -262,7 +262,9 @@ body {
 .sidebar {
     position: sticky;
     top: 140px;
-    height: fit-content;
+    height: calc(100vh - 160px);
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
 }
 
 .sidebar-section {
@@ -285,6 +287,27 @@ body {
 
 .source-groups {
     padding: 16px;
+    max-height: calc(100vh - 240px);
+    overflow-y: auto;
+}
+
+/* Scrollbar styling */
+.source-groups::-webkit-scrollbar {
+    width: 6px;
+}
+
+.source-groups::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 3px;
+}
+
+.source-groups::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+}
+
+.source-groups::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
 }
 
 .source-group {
