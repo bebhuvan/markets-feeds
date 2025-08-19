@@ -35,6 +35,9 @@ export default {
         case '/fetch-feeds':
           response = await handleFeedFetch(request, env);
           break;
+        case '/fetch-feeds-batch':
+          response = await handleBatchFeedFetch(request, env);
+          break;
         case '/api/search':
           response = await handleSearch(request, env);
           break;
@@ -400,4 +403,88 @@ async function cleanupOldArticles(env) {
   } catch (error) {
     console.warn('Article cleanup failed:', error);
   }
+}
+
+async function handleBatchFeedFetch(request, env) {
+  try {
+    const url = new URL(request.url);
+    const batchSize = parseInt(url.searchParams.get('batch_size')) || 5;
+    const offset = parseInt(url.searchParams.get('offset')) || 0;
+    
+    // Get a batch of feeds to process
+    const feedConfigs = await getFeedConfigsBatch(env, batchSize, offset);
+    
+    if (feedConfigs.length === 0) {
+      return Response.json({
+        success: true,
+        processed: 0,
+        message: 'No more feeds to process',
+        hasMore: false
+      });
+    }
+    
+    const fetcher = new EnhancedContentFetcher({
+      timeout: 10000,
+      maxRetries: 0,
+      enableContentFetching: false, // Disable to speed up processing
+      contentFetchConcurrency: 1,
+      contentFetchDelay: 0,
+      maxContentLength: 10000
+    });
+
+    const results = await fetcher.fetchMultipleFeeds(feedConfigs, 1); // Single feed concurrency
+    await storeFeedResults(results, env);
+    
+    // Check if there are more feeds to process
+    const totalFeeds = await getTotalEnabledFeeds(env);
+    const hasMore = (offset + batchSize) < totalFeeds;
+    
+    const stats = {
+      success: true,
+      processed: results.length,
+      successful: results.filter(r => !r.error).length,
+      contentFetched: results.reduce((acc, r) => 
+        acc + (r.articles?.filter(a => a.contentFetched).length || 0), 0),
+      hasMore,
+      nextOffset: hasMore ? offset + batchSize : null,
+      timestamp: new Date().toISOString()
+    };
+    
+    return Response.json(stats);
+  } catch (error) {
+    return Response.json({
+      success: false,
+      error: error.message
+    }, { status: 500 });
+  }
+}
+
+async function getFeedConfigsBatch(env, limit = 5, offset = 0) {
+  const { results } = await env.DB.prepare(`
+    SELECT name, url, category, enabled, priority, content_fetch_enabled,
+           etag, last_modified, last_fetch
+    FROM feed_sources 
+    WHERE enabled = 1
+    ORDER BY priority ASC, name ASC
+    LIMIT ? OFFSET ?
+  `).bind(limit, offset).all();
+
+  return results.map(row => ({
+    name: row.name,
+    url: row.url,
+    category: row.category,
+    enabled: row.enabled === 1,
+    priority: row.priority,
+    contentFetchEnabled: row.content_fetch_enabled === 1,
+    etag: row.etag,
+    lastModified: row.last_modified
+  }));
+}
+
+async function getTotalEnabledFeeds(env) {
+  const result = await env.DB.prepare(`
+    SELECT COUNT(*) as count FROM feed_sources WHERE enabled = 1
+  `).first();
+  
+  return result.count;
 }
