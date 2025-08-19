@@ -1,13 +1,14 @@
 name = "markets-feeds"
-main = "frontend/dist/_worker.js"
-compatibility_date = "2024-01-01"
-compatibility_flags = ["nodejs_compat"]
+main = "src/worker.js"
+compatibility_date = "2024-08-15"
 
-[build]
-command = "cd frontend && npm install && npm run build"
+# [triggers]
+# crons = ["*/30 * * * *"]  # Disabled - using GitHub Actions instead
 
-[env.production]
-name = "markets-feeds"
+[[d1_databases]]
+binding = "DB"
+database_name = "research-feeds"
+database_id = "84936e7b-82e6-4ac8-9754-dbf1ec910ef7"
 
-[env.staging]
-name = "markets-feeds-staging"
+[vars]
+ENVIRONMENT = "production"
