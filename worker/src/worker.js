@@ -315,6 +315,12 @@ async function handleGetArticles(request, env) {
       articles: results,
       total: results.length,
       hasMore: results.length === options.limit
+    }, {
+      headers: {
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
+      }
     });
   } catch (error) {
     return Response.json({ error: error.message }, { status: 500 });
@@ -346,7 +352,13 @@ async function handleGetSources(request, env) {
       ...row,
       enabled: row.enabled === 1,
       contentFetchEnabled: row.content_fetch_enabled === 1
-    })));
+    })), {
+      headers: {
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
+      }
+    });
   } catch (error) {
     return Response.json({ error: error.message }, { status: 500 });
   }
