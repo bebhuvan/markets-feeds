@@ -1,0 +1,14 @@
+name = "markets-feeds"
+main = "src/worker.js"
+compatibility_date = "2024-08-15"
+
+[triggers]
+crons = ["*/30 * * * *"]  # Run every 30 minutes
+
+[[d1_databases]]
+binding = "DB"
+database_name = "research-feeds"
+database_id = "84936e7b-82e6-4ac8-9754-dbf1ec910ef7"
+
+[vars]
+ENVIRONMENT = "production"

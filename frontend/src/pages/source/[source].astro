@@ -1,0 +1,663 @@
+---
+// Dynamic source page - we'll generate these based on the source names
+export async function getStaticPaths() {
+  const sources = [
+    // Markets & Trading
+    'yahoo-finance', 'bloomberg-markets', 'wsj-markets', 'financial-times-markets', 
+    'cnbc-markets', 'marketwatch', 'marketwatch-real-time',
+    
+    // Business News
+    'reuters-business', 'cnbc-business', 'business-insider', 'fortune', 
+    'economist-business', 'nyt-business', 'bbc-business',
+    
+    // Economic Research
+    'bloomberg-economics', 'ft-economics', 'cnbc-economy', 'nyt-economy', 
+    'economist-finance', 'federal-reserve', 'ecb-press', 'rbi-press', 
+    'imf-news', 'et-cfo-economy',
+    
+    // Investment Analysis
+    'matt-levine', 'the-big-picture', 'marginal-revolution', 'wsj-opinion', 'cfa-institute',
+    
+    // Regional - India
+    'economic-times-markets', 'hindu-business-line', 'moneycontrol', 'ndtv-profit',
+    
+    // Regional - Asia
+    'nikkei-asia', 'scmp-business',
+    
+    // Technology
+    'stratechery', 'techmeme', 'ft-technology', 'nyt-technology', 'the-verge', 'wired',
+    
+    // Policy & Regulation
+    'sec-press', 'sebi-news', 'bloomberg-politics', 'foreign-affairs', 'et-cfo-policy',
+    
+    // Academic & Research
+    'pew-research', 'project-syndicate', 'aeon-magazine',
+    
+    // Alternative Perspectives
+    'zerohedge', 'paul-krugman', 'noahpinion', 'astral-codex-ten', 
+    'not-boring', 'nate-silver', 'experimental-history',
+    
+    // Specialized Markets
+    'oilprice-com', 'nse-financial-results', 'nse-circulars',
+    
+    // Audio Content
+    'chat-with-traders', 'capital-allocators', 'invest-like-the-best'
+  ];
+  
+  return sources.map(source => ({ params: { source } }));
+}
+
+const { source } = Astro.params;
+
+// Map source slugs to display names (matches the new database schema)
+const sourceNames = {
+  // Markets & Trading
+  'yahoo-finance': 'Yahoo Finance',
+  'bloomberg-markets': 'Bloomberg Markets',
+  'wsj-markets': 'WSJ Markets',
+  'financial-times-markets': 'Financial Times Markets',
+  'cnbc-markets': 'CNBC Markets',
+  'marketwatch': 'MarketWatch',
+  'marketwatch-real-time': 'MarketWatch Real-time',
+  
+  // Business News
+  'reuters-business': 'Reuters Business',
+  'cnbc-business': 'CNBC Business',
+  'business-insider': 'Business Insider',
+  'fortune': 'Fortune',
+  'economist-business': 'Economist Business',
+  'nyt-business': 'NYT Business',
+  'bbc-business': 'BBC Business',
+  
+  // Economic Research
+  'bloomberg-economics': 'Bloomberg Economics',
+  'ft-economics': 'FT Economics',
+  'cnbc-economy': 'CNBC Economy',
+  'nyt-economy': 'NYT Economy',
+  'economist-finance': 'Economist Finance',
+  'federal-reserve': 'Federal Reserve',
+  'ecb-press': 'ECB Press',
+  'rbi-press': 'RBI Press',
+  'imf-news': 'IMF News',
+  'et-cfo-economy': 'ET CFO Economy',
+  
+  // Investment Analysis
+  'matt-levine': 'Matt Levine',
+  'the-big-picture': 'The Big Picture',
+  'marginal-revolution': 'Marginal Revolution',
+  'wsj-opinion': 'WSJ Opinion',
+  'cfa-institute': 'CFA Institute',
+  
+  // Regional - India
+  'economic-times-markets': 'Economic Times Markets',
+  'hindu-business-line': 'Hindu Business Line',
+  'moneycontrol': 'MoneyControl',
+  'ndtv-profit': 'NDTV Profit',
+  
+  // Regional - Asia
+  'nikkei-asia': 'Nikkei Asia',
+  'scmp-business': 'SCMP Business',
+  
+  // Technology
+  'stratechery': 'Stratechery',
+  'techmeme': 'Techmeme',
+  'ft-technology': 'FT Technology',
+  'nyt-technology': 'NYT Technology',
+  'the-verge': 'The Verge',
+  'wired': 'Wired',
+  
+  // Policy & Regulation
+  'sec-press': 'SEC Press',
+  'sebi-news': 'SEBI News',
+  'bloomberg-politics': 'Bloomberg Politics',
+  'foreign-affairs': 'Foreign Affairs',
+  'et-cfo-policy': 'ET CFO Policy',
+  
+  // Academic & Research
+  'pew-research': 'Pew Research',
+  'project-syndicate': 'Project Syndicate',
+  'aeon-magazine': 'Aeon Magazine',
+  
+  // Alternative Perspectives
+  'zerohedge': 'ZeroHedge',
+  'paul-krugman': 'Paul Krugman',
+  'noahpinion': 'Noahpinion',
+  'astral-codex-ten': 'Astral Codex Ten',
+  'not-boring': 'Not Boring',
+  'nate-silver': 'Nate Silver',
+  'experimental-history': 'Experimental History',
+  
+  // Specialized Markets
+  'oilprice-com': 'OilPrice.com',
+  'nse-financial-results': 'NSE Financial Results',
+  'nse-circulars': 'NSE Circulars',
+  
+  // Audio Content
+  'chat-with-traders': 'Chat with Traders',
+  'capital-allocators': 'Capital Allocators',
+  'invest-like-the-best': 'Invest Like the Best'
+};
+
+const sourceName = sourceNames[source] || source.replace(/-/g, ' ').replace(/\w\S*/g, (txt) => 
+  txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{sourceName} - Research Feed</title>
+    <link rel="stylesheet" href="/main.css">
+    <style>
+        .source-header {
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 32px;
+        }
+
+        .source-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 24px;
+            margin-bottom: 20px;
+        }
+
+        .source-details h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .source-category {
+            font-size: 13px;
+            font-weight: 500;
+            color: #64748b;
+            background: #e2e8f0;
+            padding: 4px 12px;
+            border-radius: 6px;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .source-url {
+            font-size: 14px;
+            color: #64748b;
+            word-break: break-all;
+        }
+
+        .source-stats {
+            display: flex;
+            gap: 24px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #334155;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 4px;
+        }
+
+        .time-filters {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        .time-filter-btn {
+            padding: 8px 16px;
+            border: 1px solid #d1d5db;
+            background: #ffffff;
+            color: #374151;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 13px;
+            transition: all 0.15s ease;
+        }
+
+        .time-filter-btn:hover {
+            border-color: #9ca3af;
+            background: #f9fafb;
+        }
+
+        .time-filter-btn.active {
+            background: #e2e8f0;
+            color: #334155;
+            border-color: #cbd5e1;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="page-source">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/" style="text-decoration: none; color: inherit;">Research Feed</a>
+                </div>
+                <nav class="header-nav">
+                    <a href="/" class="nav-link">Feed</a>
+                    <a href="/sources" class="nav-link">Sources</a>
+                </nav>
+                <div class="header-meta">
+                    <span id="totalArticles">Loading...</span> • Updated <span id="lastUpdate">just now</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-icon">⌕</div>
+                <input type="text" class="search-input" placeholder={`Search ${sourceName} articles...`} id="searchInput">
+                <div class="search-results" id="searchResults"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <main class="main" style="grid-template-columns: 1fr;">
+            <div class="feed-content">
+                <div class="source-header">
+                    <div class="source-info">
+                        <div class="source-details">
+                            <div class="source-category" id="sourceCategory">Loading...</div>
+                            <h1>{sourceName}</h1>
+                            <div class="source-url" id="sourceUrl">Loading...</div>
+                        </div>
+                        <div class="source-stats" id="sourceStats">
+                            <div class="stat-item">
+                                <span class="stat-value" id="articlesToday">-</span>
+                                <div class="stat-label">Today</div>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value" id="articlesWeek">-</span>
+                                <div class="stat-label">This Week</div>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value" id="totalArticles">-</span>
+                                <div class="stat-label">Total</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="time-filters">
+                        <button class="time-filter-btn active" data-time="today">Today</button>
+                        <button class="time-filter-btn" data-time="week">This Week</button>
+                        <button class="time-filter-btn" data-time="month">This Month</button>
+                        <button class="time-filter-btn" data-time="all">All Time</button>
+                    </div>
+                </div>
+
+                <ul class="articles" id="articlesList">
+                    <li class="loading">Loading articles...</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        class FeedAPI {
+            constructor(baseUrl = window.WORKER_URL || 'https://markets-feeds.r-bhuvanesh2007.workers.dev') {
+                this.baseUrl = baseUrl;
+            }
+
+            async getArticles(options = {}) {
+                const params = new URLSearchParams();
+                Object.entries(options).forEach(([key, value]) => {
+                    if (value !== null && value !== undefined) {
+                        params.set(key, value.toString());
+                    }
+                });
+
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/articles?${params}`);
+                    if (!response.ok) throw new Error(`API error: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('API error:', error);
+                    return { articles: [], error: error.message };
+                }
+            }
+
+            async getSources() {
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/sources`);
+                    if (!response.ok) throw new Error(`API error: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('API error:', error);
+                    return [];
+                }
+            }
+
+            async search(query, options = {}) {
+                const params = new URLSearchParams();
+                if (query) params.set('q', query);
+                
+                Object.entries(options).forEach(([key, value]) => {
+                    if (value !== null && value !== undefined) {
+                        params.set(key, value.toString());
+                    }
+                });
+
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/search?${params}`);
+                    if (!response.ok) throw new Error(`Search failed: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('Search error:', error);
+                    return { results: [], error: error.message };
+                }
+            }
+        }
+
+        class SourcePageApp {
+            constructor() {
+                this.feedAPI = new FeedAPI();
+                this.sourceSlug = '${source}';
+                this.sourceName = '${sourceName}';
+                this.articles = [];
+                this.sourceInfo = null;
+                this.currentTimeFilter = 'today';
+
+                // Map slugs to display names (matches the new database schema)
+                this.sourceNames = {
+                    // Markets & Trading
+                    'yahoo-finance': 'Yahoo Finance',
+                    'bloomberg-markets': 'Bloomberg Markets',
+                    'wsj-markets': 'WSJ Markets',
+                    'financial-times-markets': 'Financial Times Markets',
+                    'cnbc-markets': 'CNBC Markets',
+                    'marketwatch': 'MarketWatch',
+                    'marketwatch-real-time': 'MarketWatch Real-time',
+                    
+                    // Business News
+                    'reuters-business': 'Reuters Business',
+                    'cnbc-business': 'CNBC Business',
+                    'business-insider': 'Business Insider',
+                    'fortune': 'Fortune',
+                    'economist-business': 'Economist Business',
+                    'nyt-business': 'NYT Business',
+                    'bbc-business': 'BBC Business',
+                    
+                    // Economic Research
+                    'bloomberg-economics': 'Bloomberg Economics',
+                    'ft-economics': 'FT Economics',
+                    'cnbc-economy': 'CNBC Economy',
+                    'nyt-economy': 'NYT Economy',
+                    'economist-finance': 'Economist Finance',
+                    'federal-reserve': 'Federal Reserve',
+                    'ecb-press': 'ECB Press',
+                    'rbi-press': 'RBI Press',
+                    'imf-news': 'IMF News',
+                    'et-cfo-economy': 'ET CFO Economy',
+                    
+                    // Investment Analysis
+                    'matt-levine': 'Matt Levine',
+                    'the-big-picture': 'The Big Picture',
+                    'marginal-revolution': 'Marginal Revolution',
+                    'wsj-opinion': 'WSJ Opinion',
+                    'cfa-institute': 'CFA Institute',
+                    
+                    // Regional - India
+                    'economic-times-markets': 'Economic Times Markets',
+                    'hindu-business-line': 'Hindu Business Line',
+                    'moneycontrol': 'MoneyControl',
+                    'ndtv-profit': 'NDTV Profit',
+                    
+                    // Regional - Asia
+                    'nikkei-asia': 'Nikkei Asia',
+                    'scmp-business': 'SCMP Business',
+                    
+                    // Technology
+                    'stratechery': 'Stratechery',
+                    'techmeme': 'Techmeme',
+                    'ft-technology': 'FT Technology',
+                    'nyt-technology': 'NYT Technology',
+                    'the-verge': 'The Verge',
+                    'wired': 'Wired',
+                    
+                    // Policy & Regulation
+                    'sec-press': 'SEC Press',
+                    'sebi-news': 'SEBI News',
+                    'bloomberg-politics': 'Bloomberg Politics',
+                    'foreign-affairs': 'Foreign Affairs',
+                    'et-cfo-policy': 'ET CFO Policy',
+                    
+                    // Academic & Research
+                    'pew-research': 'Pew Research',
+                    'project-syndicate': 'Project Syndicate',
+                    'aeon-magazine': 'Aeon Magazine',
+                    
+                    // Alternative Perspectives
+                    'zerohedge': 'ZeroHedge',
+                    'paul-krugman': 'Paul Krugman',
+                    'noahpinion': 'Noahpinion',
+                    'astral-codex-ten': 'Astral Codex Ten',
+                    'not-boring': 'Not Boring',
+                    'nate-silver': 'Nate Silver',
+                    'experimental-history': 'Experimental History',
+                    
+                    // Specialized Markets
+                    'oilprice-com': 'OilPrice.com',
+                    'nse-financial-results': 'NSE Financial Results',
+                    'nse-circulars': 'NSE Circulars',
+                    
+                    // Audio Content
+                    'chat-with-traders': 'Chat with Traders',
+                    'capital-allocators': 'Capital Allocators',
+                    'invest-like-the-best': 'Invest Like the Best'
+                };
+
+                this.init();
+            }
+
+            async init() {
+                console.log(`🚀 Initializing ${this.sourceName} page...`);
+                
+                try {
+                    await this.loadSourceInfo();
+                    await this.loadSourceArticles();
+                    this.setupTimeFilters();
+                    this.setupSearch();
+                    
+                    console.log(`✅ ${this.sourceName} page initialized successfully!`);
+                } catch (error) {
+                    console.error(`❌ Failed to initialize ${this.sourceName} page:`, error);
+                    this.showError('Failed to load the source page.');
+                }
+            }
+
+            async loadSourceInfo() {
+                try {
+                    const sources = await this.feedAPI.getSources();
+                    const actualSourceName = this.sourceNames[this.sourceSlug] || this.sourceName;
+                    this.sourceInfo = sources.find(s => s.name === actualSourceName);
+                    
+                    if (this.sourceInfo) {
+                        this.renderSourceInfo();
+                    }
+                } catch (error) {
+                    console.error('Failed to load source info:', error);
+                }
+            }
+
+            renderSourceInfo() {
+                if (!this.sourceInfo) return;
+
+                document.getElementById('sourceCategory').textContent = this.sourceInfo.category || 'Other';
+                document.getElementById('sourceUrl').textContent = this.sourceInfo.url || '';
+                document.getElementById('articlesToday').textContent = this.sourceInfo.articles_today || '0';
+                document.getElementById('articlesWeek').textContent = this.sourceInfo.articles_week || '0';
+                document.getElementById('totalArticles').textContent = this.sourceInfo.total_articles || '0';
+            }
+
+            async loadSourceArticles() {
+                try {
+                    const actualSourceName = this.sourceNames[this.sourceSlug] || this.sourceName;
+                    
+                    let options = {
+                        source: actualSourceName,
+                        limit: 100
+                    };
+
+                    // Add time filter
+                    const now = new Date();
+                    switch (this.currentTimeFilter) {
+                        case 'today':
+                            options.since = new Date(now.getFullYear(), now.getMonth(), now.getDate()).toISOString();
+                            break;
+                        case 'week':
+                            options.since = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000).toISOString();
+                            break;
+                        case 'month':
+                            options.since = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000).toISOString();
+                            break;
+                        // 'all' has no since filter
+                    }
+
+                    const result = await this.feedAPI.getArticles(options);
+                    this.articles = result.articles || [];
+                    this.renderArticles();
+                    this.updateStats();
+                } catch (error) {
+                    console.error('Failed to load articles:', error);
+                    document.getElementById('articlesList').innerHTML = '<li class="error">Failed to load articles</li>';
+                }
+            }
+
+            setupTimeFilters() {
+                document.querySelectorAll('.time-filter-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        // Update active filter
+                        document.querySelectorAll('.time-filter-btn').forEach(b => b.classList.remove('active'));
+                        e.target.classList.add('active');
+                        
+                        // Update filter and reload
+                        this.currentTimeFilter = e.target.dataset.time;
+                        this.loadSourceArticles();
+                    });
+                });
+            }
+
+            setupSearch() {
+                const searchInput = document.getElementById('searchInput');
+                if (!searchInput) return;
+
+                searchInput.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        this.performSearch(e.target.value);
+                    }
+                });
+            }
+
+            async performSearch(query) {
+                if (!query.trim()) {
+                    this.loadSourceArticles();
+                    return;
+                }
+
+                try {
+                    const actualSourceName = this.sourceNames[this.sourceSlug] || this.sourceName;
+                    const results = await this.feedAPI.search(query, { 
+                        source: actualSourceName,
+                        limit: 50
+                    });
+                    
+                    this.articles = results.results || [];
+                    this.renderArticles();
+                    this.updateSearchStats(query, results.results?.length || 0);
+                } catch (error) {
+                    console.error('Search failed:', error);
+                }
+            }
+
+            renderArticles() {
+                if (this.articles.length === 0) {
+                    document.getElementById('articlesList').innerHTML = `<li class="loading">No articles found for ${this.currentTimeFilter}</li>`;
+                    return;
+                }
+
+                const articlesHtml = this.articles.map(article => `
+                    <li class="article">
+                        <div class="article-header">
+                            <h2 class="article-title">
+                                <a href="${article.link || '#'}" target="_blank">${this.escapeHtml(article.title || 'Untitled')}</a>
+                            </h2>
+                            <div class="article-meta">
+                                <span class="article-time">${this.getRelativeTime(new Date(article.publishedAt))}</span>
+                            </div>
+                        </div>
+                        ${article.description || article.excerpt ? `<p class="article-excerpt">${this.escapeHtml(article.description || article.excerpt)}</p>` : ''}
+                    </li>
+                `).join('');
+
+                document.getElementById('articlesList').innerHTML = articlesHtml;
+            }
+
+            updateStats() {
+                document.getElementById('totalArticles').textContent = `${this.articles.length} articles`;
+            }
+
+            updateSearchStats(query, count) {
+                // Update a search indicator or something similar
+                console.log(`Search for "${query}" returned ${count} results`);
+            }
+
+            showError(message) {
+                const errorElement = document.createElement('div');
+                errorElement.className = 'error';
+                errorElement.textContent = message;
+                document.querySelector('.main')?.prepend(errorElement);
+            }
+
+            escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            getRelativeTime(date) {
+                const now = new Date();
+                const diffInMinutes = Math.floor((now - date) / (1000 * 60));
+                
+                if (diffInMinutes < 1) return 'just now';
+                if (diffInMinutes < 60) return `${diffInMinutes} min ago`;
+                
+                const diffInHours = Math.floor(diffInMinutes / 60);
+                if (diffInHours < 24) return `${diffInHours} hours ago`;
+                
+                const diffInDays = Math.floor(diffInHours / 24);
+                if (diffInDays < 7) return `${diffInDays} days ago`;
+                
+                return date.toLocaleDateString();
+            }
+        }
+
+        // Initialize the app
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                window.sourceApp = new SourcePageApp();
+            });
+        } else {
+            window.sourceApp = new SourcePageApp();
+        }
+    </script>
+</body>
+</html>

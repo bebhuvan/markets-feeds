@@ -1,0 +1,457 @@
+---
+// Research Feed Aggregator - Main Page
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Feed</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body class="page-feed">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Research Feed</div>
+                <nav class="header-nav">
+                    <a href="/" class="nav-link active">Feed</a>
+                    <div class="category-dropdown">
+                        <button class="category-dropdown-toggle" id="categoriesToggle">
+                            Categories
+                            <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6,9 12,15 18,9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="category-dropdown-menu" id="categoriesMenu">
+                            <a href="/category/markets-trading">Markets & Trading</a>
+                            <a href="/category/business-news">Business News</a>
+                            <a href="/category/economic-research">Economic Research</a>
+                            <a href="/category/investment-analysis">Investment Analysis</a>
+                            <a href="/category/regional-india">Regional - India</a>
+                            <a href="/category/regional-asia">Regional - Asia</a>
+                            <a href="/category/technology">Technology</a>
+                            <a href="/category/policy-regulation">Policy & Regulation</a>
+                            <a href="/category/academic-research">Academic & Research</a>
+                            <a href="/category/alternative-perspectives">Alternative Perspectives</a>
+                            <a href="/category/specialized-markets">Specialized Markets</a>
+                            <a href="/category/audio-content">Audio Content</a>
+                        </div>
+                    </div>
+                    <a href="/sources" class="nav-link">Sources</a>
+                </nav>
+                <div class="header-meta">
+                    <span id="totalArticles">Loading...</span> • Updated <span id="lastUpdate">just now</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-icon">⌕</div>
+                <input type="text" class="search-input" placeholder="Search articles, sources, or topics..." id="searchInput">
+                <div class="search-results" id="searchResults">
+                    <!-- Search results will appear here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <main class="main">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <div class="sidebar-header">Sources</div>
+                    <div class="source-groups" id="sourceGroups">
+                        <div class="loading">Loading sources...</div>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="feed-content">
+                <div class="feed-header">
+                    <h1 class="feed-title" id="feedTitle">All Sources</h1>
+                    <div class="feed-meta" id="feedMeta">Loading...</div>
+                </div>
+
+                <ul class="articles" id="articlesList">
+                    <li class="loading">Loading articles...</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // FeedAPI class
+        class FeedAPI {
+            constructor(baseUrl = window.WORKER_URL || 'https://markets-feeds.r-bhuvanesh2007.workers.dev') {
+                this.baseUrl = baseUrl;
+            }
+
+            async search(query, options = {}) {
+                const params = new URLSearchParams();
+                if (query) params.set('q', query);
+                
+                Object.entries(options).forEach(([key, value]) => {
+                    if (value !== null && value !== undefined) {
+                        params.set(key, value.toString());
+                    }
+                });
+
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/search?${params}`);
+                    if (!response.ok) throw new Error(`Search failed: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('Search error:', error);
+                    return { results: [], error: error.message };
+                }
+            }
+
+            async getArticles(options = {}) {
+                const params = new URLSearchParams();
+                Object.entries(options).forEach(([key, value]) => {
+                    if (value !== null && value !== undefined) {
+                        params.set(key, value.toString());
+                    }
+                });
+
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/articles?${params}`);
+                    if (!response.ok) throw new Error(`API error: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('API error:', error);
+                    return { articles: [], error: error.message };
+                }
+            }
+
+            async getSources() {
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/sources`);
+                    if (!response.ok) throw new Error(`API error: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('API error:', error);
+                    return [];
+                }
+            }
+
+            async getSuggestions(query) {
+                try {
+                    const response = await fetch(`${this.baseUrl}/api/suggestions?q=${encodeURIComponent(query)}`);
+                    if (!response.ok) throw new Error(`API error: ${response.status}`);
+                    return response.json();
+                } catch (error) {
+                    console.error('API error:', error);
+                    return { suggestions: [] };
+                }
+            }
+        }
+        
+        // Main Application Class
+        class ResearchFeedApp {
+            constructor() {
+                this.feedAPI = new FeedAPI();
+                this.currentFilter = { source: null, category: null };
+                this.articles = [];
+                this.sources = [];
+                this.searchTimeout = null;
+                
+                this.init();
+            }
+
+            async init() {
+                console.log('🚀 Initializing Research Feed App...');
+                
+                try {
+                    this.setupEventListeners();
+                    await this.loadSources();
+                    await this.loadArticles();
+                    this.setupSearch();
+                    
+                    console.log('✅ Research Feed App initialized successfully!');
+                } catch (error) {
+                    console.error('❌ Failed to initialize Research Feed App:', error);
+                    this.showError('Failed to load the application. Please check that the API server is running.');
+                }
+            }
+
+            setupEventListeners() {
+                // Update timestamp periodically
+                setInterval(() => {
+                    const lastUpdateEl = document.getElementById('lastUpdate');
+                    if (lastUpdateEl) {
+                        lastUpdateEl.textContent = this.getRelativeTime(new Date());
+                    }
+                }, 60000);
+
+                // Category dropdown functionality
+                const categoriesToggle = document.getElementById('categoriesToggle');
+                const categoriesDropdown = categoriesToggle?.closest('.category-dropdown');
+                
+                if (categoriesToggle && categoriesDropdown) {
+                    categoriesToggle.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        categoriesDropdown.classList.toggle('open');
+                    });
+
+                    // Close dropdown when clicking outside
+                    document.addEventListener('click', (e) => {
+                        if (!categoriesDropdown.contains(e.target)) {
+                            categoriesDropdown.classList.remove('open');
+                        }
+                    });
+
+                    // Close dropdown when pressing escape
+                    document.addEventListener('keydown', (e) => {
+                        if (e.key === 'Escape') {
+                            categoriesDropdown.classList.remove('open');
+                        }
+                    });
+                }
+            }
+
+            async loadSources() {
+                try {
+                    this.sources = await this.feedAPI.getSources();
+                    if (Array.isArray(this.sources) && this.sources.length > 0) {
+                        this.renderSources();
+                    } else {
+                        throw new Error('No sources returned');
+                    }
+                } catch (error) {
+                    console.error('Failed to load sources:', error);
+                    document.getElementById('sourceGroups').innerHTML = '<div class="error">Failed to load sources</div>';
+                }
+            }
+
+            async loadArticles(options = {}) {
+                try {
+                    const result = await this.feedAPI.getArticles({
+                        limit: 50,
+                        ...this.currentFilter,
+                        ...options
+                    });
+                    this.articles = result.articles || [];
+                    this.renderArticles();
+                    this.updateStats();
+                } catch (error) {
+                    console.error('Failed to load articles:', error);
+                    document.getElementById('articlesList').innerHTML = '<li class="error">Failed to load articles</li>';
+                }
+            }
+
+            renderSources() {
+                const groupedSources = this.groupSourcesByCategory();
+                
+                const sourceGroupsHtml = Object.entries(groupedSources).map(([category, sources]) => `
+                    <div class="source-group">
+                        <h3 class="group-title">${category}</h3>
+                        <ul class="source-list">
+                            ${sources.map(source => `
+                                <li class="source-item">
+                                    <a href="#" class="source-link" data-source="${this.escapeHtml(source.name)}">
+                                        <span>${this.escapeHtml(source.name)}</span>
+                                        <span class="source-count">${source.articles_today || 0}</span>
+                                    </a>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                `).join('');
+
+                document.getElementById('sourceGroups').innerHTML = sourceGroupsHtml;
+
+                // Add click handlers for source links
+                document.querySelectorAll('.source-link').forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        this.filterBySource(link.dataset.source);
+                    });
+                });
+            }
+
+            renderArticles() {
+                if (this.articles.length === 0) {
+                    document.getElementById('articlesList').innerHTML = '<li class="loading">No articles found</li>';
+                    return;
+                }
+
+                const articlesHtml = this.articles.map(article => `
+                    <li class="article">
+                        <div class="article-header">
+                            <h2 class="article-title">
+                                <a href="${article.link || '#'}" target="_blank">${this.escapeHtml(article.title || 'Untitled')}</a>
+                            </h2>
+                            <div class="article-meta">
+                                <span class="article-source">${this.escapeHtml(article.source || 'Unknown')}</span>
+                                <span class="article-time">${this.getRelativeTime(new Date(article.publishedAt))}</span>
+                            </div>
+                        </div>
+                        ${article.description || article.excerpt ? `<p class="article-excerpt">${this.escapeHtml(article.description || article.excerpt)}</p>` : ''}
+                    </li>
+                `).join('');
+
+                document.getElementById('articlesList').innerHTML = articlesHtml;
+            }
+
+            groupSourcesByCategory() {
+                const grouped = {};
+                this.sources.forEach(source => {
+                    const category = source.category || 'Other';
+                    if (!grouped[category]) grouped[category] = [];
+                    grouped[category].push(source);
+                });
+                return grouped;
+            }
+
+            setupSearch() {
+                const searchInput = document.getElementById('searchInput');
+                const searchResults = document.getElementById('searchResults');
+
+                if (!searchInput || !searchResults) return;
+
+                searchInput.addEventListener('input', async (e) => {
+                    clearTimeout(this.searchTimeout);
+                    const query = e.target.value.trim();
+                    
+                    if (query.length < 2) {
+                        searchResults.style.display = 'none';
+                        return;
+                    }
+
+                    this.searchTimeout = setTimeout(async () => {
+                        try {
+                            const suggestions = await this.feedAPI.getSuggestions(query);
+                            this.displaySuggestions(suggestions.suggestions || []);
+                        } catch (error) {
+                            console.error('Search error:', error);
+                        }
+                    }, 300);
+                });
+
+                searchInput.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        this.performSearch(e.target.value);
+                    }
+                });
+
+                // Hide search results when clicking outside
+                document.addEventListener('click', (e) => {
+                    if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+                        searchResults.style.display = 'none';
+                    }
+                });
+            }
+
+            displaySuggestions(suggestions) {
+                const searchResults = document.getElementById('searchResults');
+                
+                if (suggestions.length === 0) {
+                    searchResults.style.display = 'none';
+                    return;
+                }
+
+                const suggestionsHtml = suggestions.map(suggestion => `
+                    <div class="search-result" data-query="${suggestion.text}">
+                        <div class="search-result-title">${suggestion.text}</div>
+                        <div class="search-result-meta">${suggestion.meta || suggestion.type}</div>
+                    </div>
+                `).join('');
+
+                searchResults.innerHTML = suggestionsHtml;
+                searchResults.style.display = 'block';
+
+                // Add click handlers
+                searchResults.querySelectorAll('.search-result').forEach(result => {
+                    result.addEventListener('click', () => {
+                        const query = result.dataset.query;
+                        document.getElementById('searchInput').value = query;
+                        this.performSearch(query);
+                    });
+                });
+            }
+
+            async performSearch(query) {
+                try {
+                    const results = await this.feedAPI.search(query, { limit: 50 });
+                    this.articles = results.results || [];
+                    this.renderArticles();
+                    this.updateSearchHeader(query, results.results?.length || 0);
+                    document.getElementById('searchResults').style.display = 'none';
+                    document.getElementById('searchInput').value = '';
+                } catch (error) {
+                    console.error('Search failed:', error);
+                }
+            }
+
+            updateSearchHeader(query, count) {
+                document.getElementById('feedTitle').textContent = `Search: "${query}"`;
+                document.getElementById('feedMeta').textContent = `${count} results found`;
+            }
+
+            async filterBySource(sourceName) {
+                // Update active source
+                document.querySelectorAll('.source-link').forEach(link => {
+                    link.classList.remove('active');
+                });
+                document.querySelector(`[data-source="${sourceName}"]`)?.classList.add('active');
+
+                // Update filter and reload articles
+                this.currentFilter.source = sourceName;
+                await this.loadArticles();
+                
+                document.getElementById('feedTitle').textContent = sourceName;
+            }
+
+
+            updateStats() {
+                document.getElementById('totalArticles').textContent = `${this.articles.length} articles`;
+                document.getElementById('feedMeta').textContent = `${this.articles.length} articles`;
+            }
+
+            showError(message) {
+                const errorElement = document.createElement('div');
+                errorElement.className = 'error';
+                errorElement.textContent = message;
+                document.querySelector('.main')?.prepend(errorElement);
+            }
+
+            escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            getRelativeTime(date) {
+                const now = new Date();
+                const diffInMinutes = Math.floor((now - date) / (1000 * 60));
+                
+                if (diffInMinutes < 1) return 'just now';
+                if (diffInMinutes < 60) return `${diffInMinutes} min ago`;
+                
+                const diffInHours = Math.floor(diffInMinutes / 60);
+                if (diffInHours < 24) return `${diffInHours} hours ago`;
+                
+                const diffInDays = Math.floor(diffInHours / 24);
+                if (diffInDays < 7) return `${diffInDays} days ago`;
+                
+                return date.toLocaleDateString();
+            }
+        }
+
+        // Initialize the app when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                window.feedApp = new ResearchFeedApp();
+            });
+        } else {
+            window.feedApp = new ResearchFeedApp();
+        }
+    </script>
+</body>
+</html>
