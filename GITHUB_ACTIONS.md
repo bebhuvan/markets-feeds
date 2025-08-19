@@ -14,7 +14,7 @@ You need to configure these secrets in your GitHub repository:
 
 The workflow is configured in `.github/workflows/fetch-feeds.yml` and:
 
-- **Runs every 30 minutes** via cron schedule
+- **Runs 3 times daily** at 5:00 AM, 10:00 AM, and 6:00 PM IST
 - **Can be manually triggered** via GitHub Actions UI
 - **Has 30-minute timeout** to handle all 62 RSS feeds
 - **Provides detailed logging** of the fetch process
@@ -60,6 +60,13 @@ The Cloudflare Worker cron job has been disabled in `worker/wrangler.toml` to av
 # [triggers]  
 # crons = ["*/30 * * * *"]  # Disabled - using GitHub Actions instead
 ```
+
+### 7. Schedule Details
+
+The workflow runs at optimal times for Indian markets:
+- **5:00 AM IST**: Pre-market preparation (global overnight news)
+- **10:00 AM IST**: Mid-morning update (market open + morning news)  
+- **6:00 PM IST**: End-of-day wrap-up (market close + evening analysis)
 
 ### 8. Troubleshooting
 
