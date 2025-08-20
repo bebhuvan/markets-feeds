@@ -372,8 +372,8 @@ const sourceName = sourceNames[source] || source.replace(/-/g, ' ').replace(/\w\
         class SourcePageApp {
             constructor() {
                 this.feedAPI = new FeedAPI();
-                this.sourceSlug = '${source}';
-                this.sourceName = '${sourceName}';
+                this.sourceSlug = `${source}`;
+                this.sourceName = `${sourceName}`;
                 this.articles = [];
                 this.sourceInfo = null;
                 this.currentTimeFilter = 'today';
