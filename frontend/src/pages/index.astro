@@ -282,7 +282,7 @@
                         <ul class="source-list">
                             ${sources.map(source => `
                                 <li class="source-item">
-                                    <a href="#" class="source-link" data-source="${this.escapeHtml(source.name)}">
+                                    <a href="/source/${this.sourceNameToSlug(source.name)}" class="source-link" data-source="${this.escapeHtml(source.name)}">
                                         <span>${this.escapeHtml(source.name)}</span>
                                         <span class="source-count">${source.articles_today || 0}</span>
                                     </a>
@@ -293,14 +293,6 @@
                 `).join('');
 
                 document.getElementById('sourceGroups').innerHTML = sourceGroupsHtml;
-
-                // Add click handlers for source links
-                document.querySelectorAll('.source-link').forEach(link => {
-                    link.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        this.filterBySource(link.dataset.source);
-                    });
-                });
             }
 
             renderArticles() {
@@ -423,19 +415,6 @@
                 document.getElementById('feedMeta').textContent = `${count} results found`;
             }
 
-            async filterBySource(sourceName) {
-                // Update active source
-                document.querySelectorAll('.source-link').forEach(link => {
-                    link.classList.remove('active');
-                });
-                document.querySelector(`[data-source="${sourceName}"]`)?.classList.add('active');
-
-                // Update filter and reload articles
-                this.currentFilter.source = sourceName;
-                await this.loadArticles();
-                
-                document.getElementById('feedTitle').textContent = sourceName;
-            }
 
 
             updateStats() {
@@ -454,6 +433,75 @@
                 const div = document.createElement('div');
                 div.textContent = text;
                 return div.innerHTML;
+            }
+
+            sourceNameToSlug(sourceName) {
+                // Convert source name to URL slug
+                const sourceMap = {
+                    'Yahoo Finance': 'yahoo-finance',
+                    'Bloomberg Markets': 'bloomberg-markets',
+                    'WSJ Markets': 'wsj-markets',
+                    'Financial Times Markets': 'financial-times-markets',
+                    'CNBC Markets': 'cnbc-markets',
+                    'MarketWatch': 'marketwatch',
+                    'MarketWatch Real-time': 'marketwatch-real-time',
+                    'Reuters Business': 'reuters-business',
+                    'CNBC Business': 'cnbc-business',
+                    'Business Insider': 'business-insider',
+                    'Fortune': 'fortune',
+                    'Economist Business': 'economist-business',
+                    'NYT Business': 'nyt-business',
+                    'BBC Business': 'bbc-business',
+                    'Bloomberg Economics': 'bloomberg-economics',
+                    'FT Economics': 'ft-economics',
+                    'CNBC Economy': 'cnbc-economy',
+                    'NYT Economy': 'nyt-economy',
+                    'Economist Finance': 'economist-finance',
+                    'Federal Reserve': 'federal-reserve',
+                    'ECB Press': 'ecb-press',
+                    'RBI Press': 'rbi-press',
+                    'IMF News': 'imf-news',
+                    'ET CFO Economy': 'et-cfo-economy',
+                    'Matt Levine': 'matt-levine',
+                    'The Big Picture': 'the-big-picture',
+                    'Marginal Revolution': 'marginal-revolution',
+                    'WSJ Opinion': 'wsj-opinion',
+                    'CFA Institute': 'cfa-institute',
+                    'Economic Times Markets': 'economic-times-markets',
+                    'Hindu Business Line': 'hindu-business-line',
+                    'MoneyControl': 'moneycontrol',
+                    'NDTV Profit': 'ndtv-profit',
+                    'Nikkei Asia': 'nikkei-asia',
+                    'SCMP Business': 'scmp-business',
+                    'Stratechery': 'stratechery',
+                    'TechMeme': 'techmeme',
+                    'FT Technology': 'ft-technology',
+                    'NYT Technology': 'nyt-technology',
+                    'The Verge': 'the-verge',
+                    'Wired': 'wired',
+                    'SEC Press': 'sec-press',
+                    'SEBI News': 'sebi-news',
+                    'Bloomberg Politics': 'bloomberg-politics',
+                    'Foreign Affairs': 'foreign-affairs',
+                    'ET CFO Policy': 'et-cfo-policy',
+                    'Pew Research': 'pew-research',
+                    'Project Syndicate': 'project-syndicate',
+                    'Aeon Magazine': 'aeon-magazine',
+                    'ZeroHedge': 'zerohedge',
+                    'Paul Krugman': 'paul-krugman',
+                    'Noahpinion': 'noahpinion',
+                    'Astral Codex Ten': 'astral-codex-ten',
+                    'Not Boring': 'not-boring',
+                    'Nate Silver': 'nate-silver',
+                    'Experimental History': 'experimental-history',
+                    'OilPrice.com': 'oilprice-com',
+                    'NSE Financial Results': 'nse-financial-results',
+                    'NSE Circulars': 'nse-circulars',
+                    'Chat with Traders': 'chat-with-traders',
+                    'Capital Allocators': 'capital-allocators',
+                    'Invest Like the Best': 'invest-like-the-best'
+                };
+                return sourceMap[sourceName] || sourceName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
             }
 
             cleanHtml(html) {
