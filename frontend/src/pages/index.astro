@@ -86,7 +86,7 @@
     <script>
         // FeedAPI class
         class FeedAPI {
-            constructor(baseUrl = window.WORKER_URL || 'https://markets-feeds.r-bhuvanesh2007.workers.dev') {
+            constructor(baseUrl = 'https://markets-feeds.r-bhuvanesh2007.workers.dev') {
                 this.baseUrl = baseUrl;
             }
 
@@ -136,6 +136,7 @@
             }
 
             async getSources() {
+                console.log('🔍 Fetching sources from:', `${this.baseUrl}/api/sources`);
                 try {
                     const response = await fetch(`${this.baseUrl}/api/sources`, {
                         cache: 'no-cache',
@@ -145,12 +146,13 @@
                             'Expires': '0'
                         }
                     });
+                    console.log('📡 Response status:', response.status);
                     if (!response.ok) throw new Error(`API error: ${response.status}`);
                     const sources = await response.json();
-                    console.log('📊 Loaded sources with counts:', sources.filter(s => s.total_articles > 0).length);
+                    console.log('📊 Loaded sources:', sources.length, 'sources, with counts:', sources.filter(s => s.total_articles > 0).length);
                     return sources;
                 } catch (error) {
-                    console.error('API error:', error);
+                    console.error('❌ API error details:', error.message, error);
                     return [];
                 }
             }

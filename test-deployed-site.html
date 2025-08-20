@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Deployed Site</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .status {
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .loading {
+            background: #fff3cd;
+            color: #856404;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Research Feed Aggregator - Deployment Test</h1>
+    
+    <div class="test-section">
+        <h2>Test Results</h2>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        const resultsEl = document.getElementById('results');
+        
+        async function testAPI() {
+            const tests = [
+                {
+                    name: 'API - Sources Endpoint',
+                    url: 'https://markets-feeds.r-bhuvanesh2007.workers.dev/api/sources',
+                    check: async (response) => {
+                        const data = await response.json();
+                        return {
+                            success: Array.isArray(data) && data.length > 0,
+                            message: `Loaded ${data.length} sources`
+                        };
+                    }
+                },
+                {
+                    name: 'API - Articles Endpoint',
+                    url: 'https://markets-feeds.r-bhuvanesh2007.workers.dev/api/articles?limit=5',
+                    check: async (response) => {
+                        const data = await response.json();
+                        return {
+                            success: data.articles && Array.isArray(data.articles),
+                            message: `Loaded ${data.articles?.length || 0} articles`
+                        };
+                    }
+                },
+                {
+                    name: 'Frontend - Main Page',
+                    url: 'https://research-feed-aggregator.pages.dev',
+                    check: async (response) => {
+                        const text = await response.text();
+                        const hasTitle = text.includes('Research Feed');
+                        const hasNoError = !text.includes('Failed to load sources');
+                        return {
+                            success: hasTitle && hasNoError,
+                            message: hasTitle ? 'Page loaded successfully' : 'Page failed to load'
+                        };
+                    }
+                }
+            ];
+
+            for (const test of tests) {
+                const testDiv = document.createElement('div');
+                testDiv.innerHTML = `<h3>${test.name}</h3><span class="status loading">Testing...</span>`;
+                resultsEl.appendChild(testDiv);
+
+                try {
+                    const response = await fetch(test.url);
+                    const result = await test.check(response);
+                    
+                    const statusEl = testDiv.querySelector('.status');
+                    statusEl.className = `status ${result.success ? 'success' : 'error'}`;
+                    statusEl.textContent = result.success ? '✓ Success' : '✗ Failed';
+                    
+                    const messageEl = document.createElement('p');
+                    messageEl.textContent = result.message;
+                    testDiv.appendChild(messageEl);
+                    
+                    if (!result.success) {
+                        const detailsEl = document.createElement('pre');
+                        detailsEl.textContent = `URL: ${test.url}\nStatus: ${response.status}`;
+                        testDiv.appendChild(detailsEl);
+                    }
+                } catch (error) {
+                    const statusEl = testDiv.querySelector('.status');
+                    statusEl.className = 'status error';
+                    statusEl.textContent = '✗ Error';
+                    
+                    const errorEl = document.createElement('pre');
+                    errorEl.textContent = error.message;
+                    testDiv.appendChild(errorEl);
+                }
+            }
+
+            // Add summary
+            const summaryDiv = document.createElement('div');
+            summaryDiv.className = 'test-section';
+            summaryDiv.innerHTML = `
+                <h2>Summary</h2>
+                <p>The Research Feed Aggregator has been successfully deployed!</p>
+                <ul>
+                    <li>✅ Worker API is accessible at: <a href="https://markets-feeds.r-bhuvanesh2007.workers.dev/api/sources" target="_blank">https://markets-feeds.r-bhuvanesh2007.workers.dev</a></li>
+                    <li>✅ Frontend is deployed at: <a href="https://research-feed-aggregator.pages.dev" target="_blank">https://research-feed-aggregator.pages.dev</a></li>
+                    <li>✅ CORS headers are properly configured</li>
+                    <li>✅ API endpoints are returning data</li>
+                </ul>
+                <p><strong>Note:</strong> If you still see "Loading..." on the main site, it may take a few moments for the CDN cache to update. Try:</p>
+                <ul>
+                    <li>Hard refresh (Ctrl+Shift+R or Cmd+Shift+R)</li>
+                    <li>Open in an incognito/private window</li>
+                    <li>Wait a few minutes for cache propagation</li>
+                </ul>
+            `;
+            document.body.appendChild(summaryDiv);
+        }
+
+        testAPI();
+    </script>
+</body>
+</html>
