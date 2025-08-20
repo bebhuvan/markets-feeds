@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Source Page</title>
+    <style>
+        body { font-family: monospace; padding: 20px; }
+        .success { color: green; }
+        .error { color: red; }
+        pre { background: #f0f0f0; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Debug Bloomberg Economics Source Page</h1>
+    <div id="results"></div>
+
+    <script>
+        const resultsDiv = document.getElementById('results');
+        
+        function log(message, isError = false) {
+            const div = document.createElement('div');
+            div.className = isError ? 'error' : 'success';
+            div.innerHTML = message;
+            resultsDiv.appendChild(div);
+        }
+
+        async function testSourcePage() {
+            log('🔍 Testing Bloomberg Economics source page...');
+            
+            // Test 1: Simulate what the source page should do
+            const sourceSlug = 'bloomberg-economics';
+            
+            // This is the mapping from the source page
+            const sourceNames = {
+                'bloomberg-economics': 'Bloomberg Economics',
+                'bloomberg-markets': 'Bloomberg Markets',
+                // ... other mappings
+            };
+            
+            const sourceName = sourceNames[sourceSlug] || sourceSlug.replace(/-/g, ' ').replace(/\w\S*/g, (txt) => 
+                txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+            
+            log(`📝 Source slug: ${sourceSlug}`);
+            log(`📝 Mapped source name: ${sourceName}`);
+            
+            // Test 2: Direct API call with the mapped name
+            try {
+                log('🔍 Testing API call with mapped source name...');
+                const response = await fetch(`https://markets-feeds.r-bhuvanesh2007.workers.dev/api/articles?source=${encodeURIComponent(sourceName)}&limit=5`);
+                log(`📡 API Response status: ${response.status}`);
+                
+                const data = await response.json();
+                log(`📊 Articles returned: ${data.articles?.length || 0}`);
+                
+                if (data.articles?.length > 0) {
+                    log(`✅ SUCCESS: Found articles for "${sourceName}"`);
+                    log(`📰 First article: ${data.articles[0].title}`);
+                } else {
+                    log(`❌ No articles found for "${sourceName}"`, true);
+                }
+                
+                log(`<pre>${JSON.stringify(data, null, 2)}</pre>`);
+                
+            } catch (error) {
+                log(`❌ API call failed: ${error.message}`, true);
+            }
+            
+            // Test 3: Check what actual sources exist
+            try {
+                log('🔍 Checking available source names...');
+                const sourcesResponse = await fetch('https://markets-feeds.r-bhuvanesh2007.workers.dev/api/sources');
+                const sources = await sourcesResponse.json();
+                
+                const bloombergSources = sources.filter(s => s.name.toLowerCase().includes('bloomberg'));
+                log(`📋 Bloomberg sources found:`);
+                bloombergSources.forEach(s => {
+                    log(`  - "${s.name}" (${s.articles_today} articles today)`);
+                });
+                
+            } catch (error) {
+                log(`❌ Sources check failed: ${error.message}`, true);
+            }
+        }
+
+        testSourcePage();
+    </script>
+</body>
+</html>
