@@ -313,7 +313,10 @@ const sourceName = sourceNames[source] || source.replace(/-/g, ' ').replace(/\w\
         </main>
     </div>
 
-    <script is:inline>
+    <script>
+        const SOURCE_SLUG = JSON.stringify(source);
+        const SOURCE_NAME = JSON.stringify(sourceName);
+        
         class FeedAPI {
             constructor(baseUrl = 'https://markets-feeds.r-bhuvanesh2007.workers.dev') {
                 this.baseUrl = baseUrl;
@@ -372,8 +375,8 @@ const sourceName = sourceNames[source] || source.replace(/-/g, ' ').replace(/\w\
         class SourcePageApp {
             constructor() {
                 this.feedAPI = new FeedAPI();
-                this.sourceSlug = `${source}`;
-                this.sourceName = `${sourceName}`;
+                this.sourceSlug = SOURCE_SLUG;
+                this.sourceName = SOURCE_NAME;
                 this.articles = [];
                 this.sourceInfo = null;
                 this.currentTimeFilter = 'today';
