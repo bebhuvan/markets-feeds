@@ -668,6 +668,17 @@ const sourceName = sourceNames[source] || source.replace(/-/g, ' ').replace(/\w\
                 // Clean up extra whitespace
                 text = text.replace(/\s+/g, ' ').trim();
                 
+                // Truncate to ~3 lines (200 characters) with ellipsis
+                if (text.length > 200) {
+                    text = text.substring(0, 200).trim();
+                    // Find the last complete word
+                    const lastSpace = text.lastIndexOf(' ');
+                    if (lastSpace > 150) {
+                        text = text.substring(0, lastSpace);
+                    }
+                    text += '...';
+                }
+                
                 return text;
             }
 

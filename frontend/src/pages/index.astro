@@ -84,6 +84,17 @@
     </div>
 
     <script is:inline>
+        // Debug: Script is loading
+        console.log('🟢 Script started loading...');
+        
+        // Test basic functionality
+        try {
+            console.log('🟢 Basic JS working');
+            document.getElementById('sourceGroups').innerHTML = '<div style="color: blue;">🔄 Script is running...</div>';
+        } catch (e) {
+            console.error('🔴 Basic JS failed:', e);
+        }
+        
         // FeedAPI class
         class FeedAPI {
             constructor(baseUrl = 'https://markets-feeds.r-bhuvanesh2007.workers.dev') {
@@ -122,9 +133,7 @@
                     const response = await fetch(`${this.baseUrl}/api/articles?${params}`, {
                         cache: 'no-cache',
                         headers: {
-                            'Cache-Control': 'no-cache, no-store, must-revalidate',
-                            'Pragma': 'no-cache',
-                            'Expires': '0'
+                            'Cache-Control': 'no-cache'
                         }
                     });
                     if (!response.ok) throw new Error(`API error: ${response.status}`);
@@ -141,9 +150,7 @@
                     const response = await fetch(`${this.baseUrl}/api/sources`, {
                         cache: 'no-cache',
                         headers: {
-                            'Cache-Control': 'no-cache, no-store, must-revalidate',
-                            'Pragma': 'no-cache',
-                            'Expires': '0'
+                            'Cache-Control': 'no-cache'
                         }
                     });
                     console.log('📡 Response status:', response.status);
@@ -484,6 +491,17 @@
                 // Clean up extra whitespace
                 text = text.replace(/\s+/g, ' ').trim();
                 
+                // Truncate to ~3 lines (200 characters) with ellipsis
+                if (text.length > 200) {
+                    text = text.substring(0, 200).trim();
+                    // Find the last complete word
+                    const lastSpace = text.lastIndexOf(' ');
+                    if (lastSpace > 150) {
+                        text = text.substring(0, lastSpace);
+                    }
+                    text += '...';
+                }
+                
                 return text;
             }
 
@@ -505,12 +523,25 @@
         }
 
         // Initialize the app when DOM is ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => {
+        console.log('🟢 Initializing app, document state:', document.readyState);
+        
+        function initApp() {
+            console.log('🟢 Creating ResearchFeedApp...');
+            try {
                 window.feedApp = new ResearchFeedApp();
-            });
+                console.log('🟢 App created successfully');
+            } catch (e) {
+                console.error('🔴 App creation failed:', e);
+                document.getElementById('sourceGroups').innerHTML = '<div class="error">App failed to start: ' + e.message + '</div>';
+            }
+        }
+        
+        if (document.readyState === 'loading') {
+            console.log('🟢 Waiting for DOM...');
+            document.addEventListener('DOMContentLoaded', initApp);
         } else {
-            window.feedApp = new ResearchFeedApp();
+            console.log('🟢 DOM ready, starting immediately...');
+            initApp();
         }
     </script>
 </body>

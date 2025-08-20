@@ -3,7 +3,7 @@
 import fetch from 'node-fetch';
 
 const WORKER_URL = 'https://markets-feeds.r-bhuvanesh2007.workers.dev';
-const BATCH_SIZE = 1; // Process feeds one at a time to avoid timeouts
+const BATCH_SIZE = 3; // Process 3 feeds at a time for better performance
 
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -119,7 +119,7 @@ async function main() {
       batchNumber++;
       
       // Add delay between batches to be gentle on the worker
-      await sleep(2000);
+      await sleep(1000);
       
       // Safety limit to prevent infinite loops
       if (batchNumber > 100) {
