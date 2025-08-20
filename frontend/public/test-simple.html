@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple API Test</title>
+    <style>
+        body { font-family: monospace; padding: 20px; }
+        .success { color: green; }
+        .error { color: red; }
+        pre { background: #f0f0f0; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Research Feed API Test</h1>
+    <div id="results"></div>
+
+    <script>
+        const resultsDiv = document.getElementById('results');
+        
+        function log(message, isError = false) {
+            const div = document.createElement('div');
+            div.className = isError ? 'error' : 'success';
+            div.innerHTML = message;
+            resultsDiv.appendChild(div);
+        }
+
+        async function testAPI() {
+            log('Testing API connection...');
+            
+            try {
+                log('1. Testing sources endpoint...');
+                const sourcesResponse = await fetch('https://markets-feeds.r-bhuvanesh2007.workers.dev/api/sources');
+                log(`Sources status: ${sourcesResponse.status}`);
+                
+                const sources = await sourcesResponse.json();
+                log(`✅ Sources loaded: ${sources.length} sources`);
+                log(`<pre>${JSON.stringify(sources.slice(0, 2), null, 2)}</pre>`);
+                
+                log('2. Testing articles endpoint...');
+                const articlesResponse = await fetch('https://markets-feeds.r-bhuvanesh2007.workers.dev/api/articles?limit=3');
+                log(`Articles status: ${articlesResponse.status}`);
+                
+                const articlesData = await articlesResponse.json();
+                log(`✅ Articles loaded: ${articlesData.articles?.length || 0} articles`);
+                
+                if (articlesData.articles?.length > 0) {
+                    log(`<pre>${JSON.stringify(articlesData.articles[0], null, 2)}</pre>`);
+                }
+                
+                log('3. Testing from main page context...');
+                // Simulate main page JS
+                class TestFeedAPI {
+                    constructor() {
+                        this.baseUrl = 'https://markets-feeds.r-bhuvanesh2007.workers.dev';
+                    }
+                    
+                    async getSources() {
+                        const response = await fetch(`${this.baseUrl}/api/sources`, {
+                            cache: 'no-cache',
+                            headers: {
+                                'Cache-Control': 'no-cache, no-store, must-revalidate',
+                                'Pragma': 'no-cache',
+                                'Expires': '0'
+                            }
+                        });
+                        if (!response.ok) throw new Error(`API error: ${response.status}`);
+                        return response.json();
+                    }
+                }
+                
+                const api = new TestFeedAPI();
+                const testSources = await api.getSources();
+                log(`✅ Main page simulation: ${testSources.length} sources`);
+                
+                log('🎉 All tests passed! API is working correctly.');
+                
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, true);
+                log(`❌ Stack: ${error.stack}`, true);
+            }
+        }
+
+        // Run test on load
+        testAPI();
+    </script>
+</body>
+</html>
